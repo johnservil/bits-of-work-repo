@@ -1,0 +1,22 @@
+{"id": "W4408552919", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4414487897", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4414688548", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W45561327", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W51500770", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W626759026", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W63284382", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W7125690810", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Erdos remark, topic unclear and likely unrelated"}
+{"id": "W7136250252", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W79326132", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W874532184", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W915366989", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W91574864", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W93140271", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W971488519", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W975749681", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W996473569", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "seed:erdos-1-12", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "seed:erdos-12-12", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Property P sequences construction, direct"}
+{"id": "seed:erdos-12-13", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Schoen on Erdos-Sarkozy divisibility problem"}
+{"id": "seed:erdos-12-14", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "P-sets note, Property P sets"}
+{"id": "seed:erdos-7-11", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}

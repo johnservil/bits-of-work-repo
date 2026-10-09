@@ -1,0 +1,384 @@
+# AI mathematics results: primary-source compute disclosures vs third-party estimates.
+# Collected 2026-10-09. Convention: {value, source_url} = disclosed by the primary source named;
+# null = NOT disclosed (not "zero"). Third-party numbers appear ONLY under `estimates`.
+# Raw page text: data/raw/ai_effort/ (see MANIFEST.md there for how each file was obtained).
+# Per-attempt rows for the Erdos benchmarks: data/ai_effort/erdos_problems.csv
+#
+# Global caveats:
+#  - "output_tokens"/"total_tokens": OpenAI reports output-only token counts (NS post). Input and cached-input tokens are undisclosed for every OpenAI item.
+#  - Dollar figures that vendors state are NOT all on the same price basis (see each entry).
+#  - Epoch blog (2026-09-01) and Epoch paper v1 (2026-09-06) disagree on several additional-attempt numbers; both recorded.
+
+results:
+
+- name: "FrontierMath Erdos benchmark, default configuration (5 models, 1 attempt x 68 conjectures)"
+  lab: "Epoch AI (evaluator); models by OpenAI (GPT-6 Astra pre-release, GPT-5.6 Sol, GPT-5.5) and Anthropic (Claude Fable 5.1, Fable 5)"
+  date: "2026-09-06 (arXiv v1; blog 2026-09-01)"
+  problems: "68 conjectures covering 65 distinct Erdos problems (Hadwiger-Nelson #508 = 3 conjectures eq5/eq6/eq7; #713 = parts i, ii). IDs are listed in problems_list below."
+  claim_status: "Lean-verified"   # Comparator-checked in Lean by Epoch; resolutions by GPT-6 Astra: #74 (disproof), #126 (proof)
+  disclosed:
+    output_tokens: null   # not reported; paper says costs were recomputed from token counts but never gives the counts
+    total_tokens: null
+    agents: null
+    wall_clock_hours: {value: "15 h (#74), 16 h (#126) working time for the two resolutions; per-attempt limit 72 h", source_url: "https://arxiv.org/html/2609.25050 (Sec 3.4, Table 2)"}
+    messages: null
+    tpu_hours: null
+    gpu_hours: null
+    dollars: {value: "budget $300 and 72 h per attempt. Resolution costs at actual Astra prices: #74 $218, #126 $247 (paper Table 2). Benchmark-run total 'roughly $20,000' (paper Sec 4.2 fn 9; price basis unstated)", source_url: "https://arxiv.org/html/2609.25050 (Sec 3.4, 4.1, 4.2)"}
+    hours_of_thinking: null
+    attempts: {value: 340, source_url: "https://arxiv.org/html/2609.25050 (Sec 4.1: 5 models x 68 conjectures, one attempt each; 340 is my product, not stated)"}
+    successes: {value: "GPT-6 Astra 2/68 (3%); GPT-5.6 Sol 0; GPT-5.5 0; Claude Fable 5.1 0; Claude Fable 5 0", source_url: "https://arxiv.org/html/2609.25050 (Table 1)"}
+  estimates:
+    - {value: 10000, unit: "USD per resolution (expected cost = $300 per attempt / 3% success rate)", who: "Epoch authors (Adamczewski, Bloom), paper Sec 5", source_url: "https://arxiv.org/html/2609.25050"}
+    - {value: "37000-39000", unit: "USD, Astra benchmark run at actual prices (MY ARITHMETIC, not a source claim): 66 limit-hitting attempts x $545-572 per paper fn 8, plus $218+$247", who: "this extraction (derived; treat as unverified)", source_url: "https://arxiv.org/html/2609.25050 (fn 8)"}
+  primary_source_url: "https://arxiv.org/abs/2609.25050"
+  secondary_sources: ["https://epoch.ai/latest/announcing-frontiermath-erdos", "https://epoch.ai/benchmarks/frontiermath-erdos"]
+  notes: >
+    Pricing caveat (paper fn 8): Astra was pre-release, so the harness metered spend at GPT-5.6 Sol per-token prices as a stand-in.
+    Astra's actual prices are ~1.8-2.0x higher; attempts that hit the metered $300 cap really spent $545-572.
+    Epoch recomputed all Astra costs at actual prices and counted a resolution only if <= $300 actual. This removed #1
+    (disproved at $405 actual cost / 27 h) from the benchmark score. The agent's budget tool showed metered dollars, so the
+    model believed it had ~$140 left when it had actually spent $300: behavior may differ under true budget display.
+    The 'roughly $20,000 for the benchmark run' figure is ambiguous: 68 x $300 metered = $20,400, which suggests it is on the
+    metered (Sol-price) basis, in which case actual Astra spend would be nearly double. Not resolved by the paper.
+    Per-attempt cost/time for the 66 unresolved Astra attempts and all 272 attempts by the other four models are NOT disclosed
+    (only 'ran out of budget'). CSV rows for these have cost_usd/hours blank.
+    DISCREPANCY: the blog says #74 cost $222 / ~10 h and #126 cost $172 / ~10 h; the paper (v1, 6 Sep) says #74 $218 / 15 h and #126 $247 / 16 h. Paper numbers used in the CSV.
+    problems_list (benchmark conjecture IDs, erdosproblems.com numbering): 1, 3, 5, 7, 20, 23, 28, 30, 39, 41, 52, 61, 66, 68, 74, 86, 89, 97, 101, 104, 107, 120, 126, 128, 138, 172, 181, 184, 208.parts.i, 213, 241, 242, 322, 324, 364, 371, 376, 406, 431, 478, 508.eq5, 508.eq6, 508.eq7, 548, 564, 571, 583, 595, 647, 672, 713.parts.i, 713.parts.ii, 714, 723, 773, 812.parts.i, 821, 829, 952, 970, 972, 975, 1003, 1020, 1057, 1083, 1159, 1206.parts.i
+
+- name: "FrontierMath Erdos, GPT-6 Astra additional non-benchmark attempts"
+  lab: "Epoch AI running OpenAI GPT-6 Astra (pre-release)"
+  date: "2026-09-06"
+  problems: "#1 (disproof), #74 (disproof), #126 (proof), #548 Erdos-Sos conjecture (proof), #571 (proof)"
+  claim_status: "Lean-verified"   # human 'digestion' of the proofs has only begun (paper App B)
+  disclosed:
+    output_tokens: null
+    total_tokens: null
+    agents: null
+    wall_clock_hours: {value: "per resolution: #1 27 h and 84 h; #74 5,6,8,12,15,19 h; #126 8,9,16,17 h; #548 20 h; #571 41 h", source_url: "https://arxiv.org/html/2609.25050 (Table 3)"}
+    messages: null
+    tpu_hours: null
+    gpu_hours: null
+    dollars: {value: "per resolution (actual Astra prices): #1 $405,$1384; #74 $47,$84,$150,$183,$218,$271; #126 $154,$194,$247,$249; #548 $363; #571 $617. Total across ALL attempts 'over $220,000' vs ~ $20,000 for benchmark run", source_url: "https://arxiv.org/html/2609.25050 (Table 3, Sec 4.2 fn 9)"}
+    hours_of_thinking: null
+    attempts: {value: "paper v1: 172 attempts over 56 unresolved conjectures (2-5 each) plus the 5 solved conjectures' attempts (#1:4, #74:6, #126:4, #548:3, #571:3). Blog: 269 attempts over remaining problems (2-6 each); blog counts #1:5, #74:7, #126:5, #548:4, #571:4", source_url: "https://arxiv.org/html/2609.25050 (Sec 4.2 Table 3); https://epoch.ai/latest/announcing-frontiermath-erdos"}
+    successes: {value: "5 of 68 conjectures solved at least once. Resolutions per paper: #1 2/4, #74 6/6, #126 4/4, #548 1/3, #571 1/3 (blog: 2/5, 7/7, 5/5, 1/4, 1/4)", source_url: "https://arxiv.org/html/2609.25050 (Table 3)"}
+  estimates: []
+  primary_source_url: "https://arxiv.org/abs/2609.25050"
+  secondary_sources: ["https://epoch.ai/latest/announcing-frontiermath-erdos"]
+  notes: >
+    Not a benchmark score: budgets larger, agent setup varied, uneven attempts, infrastructure-failed attempts excluded from counts (paper fn 9).
+    Failed-attempt costs are not given individually, so success costs are a biased (success-conditioned) sample of per-attempt cost.
+    Paper authors judge the two #1 disproofs essentially the same argument, #74's six to be three distinct arguments, #126's four to be three distinct.
+    The Epoch blog's counts (269 attempts; 7/7 for #74 etc.) do not match the paper v1 (172 attempts; 6/6); the blog is dated 1 Sep, the paper 6 Sep; I could not determine which is later or correct.
+
+- name: "AlphaProof Nexus (Erdos problems)"
+  lab: "Google DeepMind"
+  date: "2026-05-21 (arXiv v1; v2 8 Jun 2026 not checked)"
+  problems: "353 Erdos statements from Formal Conjectures (early Feb 2026 snapshot) attempted; 9 statements solved: 12(i), 12(ii), 125 (lower-density variant), 138* (variant), 152, 741(i), 741(ii), 846, 26* (variant not posed by Erdos). These span 7 problems: #12, #26, #125, #138, #152, #741, #846."
+  claim_status: "Lean-verified"   # team experts also checked statement fidelity after each solve; some statements were later amended (125, 741(i))
+  disclosed:
+    output_tokens: null
+    total_tokens: null
+    agents: {value: "full-featured agent D: 10 subagents per attempt; 10 attempts per problem for agents C and D; basic agents A/B: 100 independent single-subagent attempts per problem", source_url: "https://arxiv.org/html/2605.22763v1 (Sec 5)"}
+    wall_clock_hours: {value: "cut-off 48 h for all comparison experiments; basic-agent additional runs 24 h budget; per-problem times only in figures", source_url: "https://arxiv.org/html/2605.22763v1 (App B.3, Fig 11)"}
+    messages: null
+    tpu_hours: {value: "AlphaProof ~27.5 TPU-hours (v6e) per problem; standalone AlphaProof baseline budget ~64 v6e TPU-hours per problem (solved 0 of 9)", source_url: "https://arxiv.org/html/2605.22763v1 (Sec 5 'Cost and Variance'; App B.3)"}
+    gpu_hours: null
+    dollars: {value: "AlphaProof ~ $60 per problem (27.5 TPU-h). LLM inference 'a few hundred dollars per problem' (abstract). No total sweep cost. Fig 3 caption: accounting for the $60 AlphaProof cost does not change conclusions", source_url: "https://arxiv.org/html/2605.22763v1 (abstract, Sec 5)"}
+    hours_of_thinking: null
+    attempts: {value: "353 problems attempted with agent D, each terminated if no proof within 3000 episodes; AlphaProof sub-calls capped at ~400 simulations (plus RPC timeout), max 5 AlphaProof queries and 90 search-replace edits per episode", source_url: "https://arxiv.org/html/2605.22763v1 (Sec 3, App A)"}
+    successes: {value: "9/353 statements (agent D); basic agent A solved all 9 post hoc at higher cost on the hardest; Gemini 3.0 Flash / 3.1 Flash-Lite basic agents and standalone AlphaProof solved 0 of the 9", source_url: "https://arxiv.org/html/2605.22763v1 (Sec 1, Sec 5, App B.3)"}
+  estimates: []
+  primary_source_url: "https://arxiv.org/abs/2605.22763"
+  secondary_sources: ["https://arxiv.org/html/2609.25050 (Epoch paper Sec 2 discusses the 9 statements = 7 problems)"]
+  notes: >
+    LLM cost computed from standard Gemini API list prices (input excl. cached, cache-read, output incl. thoughts), prompts <=200k tokens rate.
+    The paper explicitly states the reported costs 'do not capture the full cost of discovery': running agent D on all 353 problems 'was itself a significant computational investment'; NO sweep total is given (null).
+    Costs quoted are for successful runs (box plots of successful runs in App B); failed-run costs on the 344 unsolved statements are undisclosed.
+    Paper states USD is not intended as a comparison of AI and human labour.
+    Success numbers (9/353) count statements incl. variants; Epoch's reading: 4 unambiguous resolutions (#152, #846, #125, #26 variant), #741 marked solved on erdosproblems.com with interpretation caveat, #12 and #138 only partial/variant and remain open.
+
+- name: "AlphaProof Nexus (OEIS conjectures)"
+  lab: "Google DeepMind"
+  date: "2026-05-21"
+  problems: "492 autoformalized open OEIS conjectures (from 2649 open; Gemini selected 500, 8 dropped for Lean version incompatibility)"
+  claim_status: "Lean-verified"
+  disclosed:
+    output_tokens: null
+    total_tokens: null
+    agents: null
+    wall_clock_hours: null
+    messages: null
+    tpu_hours: null
+    gpu_hours: null
+    dollars: null          # no per-conjecture or total cost for OEIS given in the HTML text I read
+    hours_of_thinking: null
+    attempts: {value: 492, source_url: "https://arxiv.org/html/2605.22763v1 (Sec 3, App B.2)"}
+    successes: {value: 44, source_url: "https://arxiv.org/html/2605.22763v1 (abstract)"}
+  estimates: []
+  primary_source_url: "https://arxiv.org/abs/2605.22763"
+  secondary_sources: []
+  notes: "Proofs counted only for conjectures a manual review found correctly formalized and previously unproven. Compute for the OEIS sweep not stated."
+
+- name: "OpenAI 2026-10-06 mathematics release (openai/math): aggregate"
+  lab: "OpenAI (unreleased internal model)"
+  date: "2026-10-06 (repo initial commit 2026-10-06T21:58:50Z; update merged 2026-10-08T05:20Z, history entry dated 2026-10-07; manuscripts dated 2026-09-23 onward)"
+  problems: "719 manuscripts in 372 families (as of 2026-10-09 repo state); ~4,000 problems posed to the model"
+  claim_status: "unvetted"   # mixed: ~42% (300/719) top-line results have Lean formalizations; rest unverified; 3 manuscripts withdrawn 2026-10-07 after a sign error
+  disclosed:
+    output_tokens: null
+    total_tokens: null
+    agents: null
+    wall_clock_hours: null
+    messages: null
+    tpu_hours: null
+    gpu_hours: null
+    dollars: null
+    hours_of_thinking: {value: "average of 3 hours of ChatGPT Pro thinking compute per result (README: 'each result used three hours'); page says 'roughly three hours'", source_url: "https://raw.githubusercontent.com/openai/math/main/README.md; https://openai.com/index/sharing-ai-progress-in-mathematics/"}
+    attempts: {value: "approximately 4,000 problems posed", source_url: "https://raw.githubusercontent.com/openai/math/main/README.md"}
+    successes: {value: "719 manuscripts / 372 families after 'requiring an appropriate level of significance'; 300/719 (~42%) top-line results Lean-formalized", source_url: "https://raw.githubusercontent.com/openai/math/main/README.md; https://raw.githubusercontent.com/openai/math/main/history.md"}
+  estimates: []
+  primary_source_url: "https://github.com/openai/math"
+  secondary_sources: ["Engadget, Gil Kalai blog 2026-10-07, Quanta 2026-10-07 (not read; search result titles only)"]
+  notes: >
+    README verbatim: "On average, each result used three hours of ChatGPT Pro thinking compute with that model. Over the course of the evaluation, the model was posed approximately 4,000 problems."
+    AMBIGUITIES: (1) 'result' is not defined (manuscript vs family); (2) the average appears to be per SUCCESSFUL result and does not say whether
+    compute spent on the ~3,300 non-retained problems is included; (3) 'Pro thinking' hours are not mapped to tokens or dollars; (4) 'estimations of compute spent in terms of Pro usage' are
+    promised in the OpenAI post but the README contains only the 3-hour average; no per-family compute appears in CONTENTS.md (grep for 'hours'/'thinking' = 0 hits).
+    Stated exceptions with different (unquantified) procedure: Riemann-zeta zero-free region work (also human-edited for readability) and Hodge conjecture for CM abelian varieties.
+    "Some of the unformalized results could have issues." On 2026-10-07 three Hodge-related manuscripts were withdrawn (sign error) and 14 revised.
+    Search-result snippets (unread) mention 722 manuscripts / 377 results; the repo README I read says 719 / 372, so counts have changed between versions.
+
+- name: "Unique Games Conjecture (family 102, 'The Unique Games Theorem')"
+  lab: "OpenAI (unreleased internal model)"
+  date: "2026-09-23 (manuscript date); published in repo 2026-10-06"
+  problems: "Khot's Unique Games Conjecture. Family 102 also contains direct NP-hardness reductions for Max-Cut (beyond Goemans-Williamson), Vertex Cover (factor 2), Min-UnCut, directed feedback vertex set"
+  claim_status: "Lean-verified"   # per OpenAI repo; I did not run Comparator or review statement fidelity; no independent human refereeing found
+  disclosed:
+    output_tokens: null
+    total_tokens: null
+    agents: null
+    wall_clock_hours: null
+    messages: null
+    tpu_hours: null
+    gpu_hours: null
+    dollars: null
+    hours_of_thinking: null   # no per-family compute; only the repo-wide 3 h average applies if at all (see aggregate entry)
+    attempts: null
+    successes: null
+  estimates: []
+  primary_source_url: "https://github.com/openai/math/blob/main/preprints/The-Unique-Games-Theorem-September-23-2026/paper.pdf"
+  secondary_sources: ["https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007 (title only seen in search; a separate human proof by Minzer and students reportedly posted ~mid-Sep)"]
+  notes: >
+    Files: CONTENTS.md entry '102. The Unique Games Conjecture and optimal approximation thresholds' (links lean/docs/102.md); preprints/The-Unique-Games-Theorem-September-23-2026/ (README: 'Author: OpenAI, Date: September 23, 2026');
+    Lean: lean/docs/102.md, Comparator statement lean/ComparatorChallenges/UniqueGamesTheorem.lean, declaration OAI.UniqueGamesTheorem.theorem11 in OAI/Computability/UniqueGames/Theorem.lean.
+    Formalized statement: for fixed 0<eps,delta<1/2, deterministic poly-time reduction from binary 3SAT to bipartite unique games with completeness >= 1-eps, soundness <= delta, alphabet F_2^s.
+    Caveat: a Lean proof certifies the formal statement only; whether the formal statement equals the intended conjecture was not independently audited by me.
+
+- name: "2-to-1 Games Conjecture with perfect completeness (family 105)"
+  lab: "OpenAI (unreleased internal model)"
+  date: "2026-09-23 (manuscript date); published in repo 2026-10-06"
+  problems: "Khot's 2-to-1 Games Conjecture with perfect completeness"
+  claim_status: "Lean-verified"   # per OpenAI repo; not independently checked
+  disclosed:
+    output_tokens: null
+    total_tokens: null
+    agents: null
+    wall_clock_hours: null
+    messages: null
+    tpu_hours: null
+    gpu_hours: null
+    dollars: null
+    hours_of_thinking: null
+    attempts: null
+    successes: null
+  estimates: []
+  primary_source_url: "https://github.com/openai/math/blob/main/preprints/Perfect-completeness-for-2-to-1-games-September-23-2026/paper.pdf"
+  secondary_sources: ["https://arxiv.org/abs/2610.12378 (Fei-Minzer-Wang, On the Hardness of 4-to-1 Games with Perfect Completeness, 2026-10-08: the human result from the Quanta-reported race; it proves 4-to-1, not 2-to-1, with perfect completeness)"]
+  notes: >
+    Files: CONTENTS.md '105. Perfect completeness for 2-to-1 games'; lean/docs/105.md; Comparator statement lean/ComparatorChallenges/PerfectCompleteness.lean;
+    declaration OAI.PerfectCompleteness.Theorem11.exists_reduction in OAI/Computability/PerfectCompleteness/Theorem11.lean.
+    Formalized: for fixed rational 0<delta<1, poly-time reduction from binary 3SAT to a 2-to-1 game of value exactly 1 (satisfiable) or <= delta (unsatisfiable). No per-family compute.
+
+- name: "Navier-Stokes existence and smoothness (finite-time singularity with smooth force, statements C/D)"
+  lab: "OpenAI (internal model 'significantly more capable than GPT-6 Astra', multi-agent system)"
+  date: "2026-09-08 (agents resolved 2026-09-05; Lean verification done 2026-09-06; post updated 2026-09-10)"
+  problems: "Navier-Stokes Millennium Prize problem; OpenAI claims it establishes statement C (and D) of the Clay formulation (a disproof/blow-up), with smooth external force and finite energy"
+  claim_status: "Lean-verified"   # Lean formalization produced (by GPT-6 Astra, 17 h) and linked by OpenAI; Clay has not accepted; priority/credit dispute with Alpoge-Buckmaster concerns forced Euler, not correctness
+  disclosed:
+    output_tokens: {value: "approximately 130 billion (Navier-Stokes group); about 300 billion across all attempted problems", source_url: "https://openai.com/index/navier-stokes-solution/"}
+    total_tokens: null   # input and cached-input tokens undisclosed; the 130B/300B figures are explicitly OUTPUT tokens
+    agents: {value: "on the order of 10,000 concurrent agents in the group that produced the result; Euler (unforced) run: nearly 100 agents", source_url: "https://openai.com/index/navier-stokes-solution/"}
+    wall_clock_hours: {value: "about 88 hours after first agents launched (to resolution, Sat 5 Sep); +17 h Lean formalization/verification via GPT-6 Astra; Euler unforced disproof ~50 h", source_url: "https://openai.com/index/navier-stokes-solution/"}
+    messages: {value: "2.7 million (Navier-Stokes); 4.9 million across all attempted problems", source_url: "https://openai.com/index/navier-stokes-solution/"}
+    tpu_hours: null
+    gpu_hours: null
+    dollars: null          # OpenAI states no dollar figure
+    hours_of_thinking: null
+    attempts: {value: "multiple groups prompted with variants A,B (proof) and C,D (disproof) of the problem; all open Millennium Prize problems plus 'a few other high-impact problems' attempted; counts of groups not given", source_url: "https://openai.com/index/navier-stokes-solution/"}
+    successes: {value: "Navier-Stokes (C/D) and unforced Euler regularity disproof; other Millennium problems not resolved (not stated explicitly beyond 'we shifted agents away from the other Millennium Problems')", source_url: "https://openai.com/index/navier-stokes-solution/"}
+  estimates:
+    - {value: "several million", unit: "USD computational cost", who: "Sebastien Bubeck (OpenAI), as reported by Quanta (OpenAI insider, so semi-primary)", source_url: "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"}
+    - {value: "6-10 million", unit: "USD for the 130B-output-token Navier-Stokes run at OpenAI's public pricing for its most advanced publicly available model", who: "NPR (calculation; model/price basis not named; output tokens only)", source_url: "https://www.npr.org/2026/09/22/nx-s1-5968588/openai-navier-stokes-problem-mathematicians-learn-little"}
+    - {value: "15-20 million", unit: "USD for the 300B total output tokens across all attempted problems", who: "NPR (calculation)", source_url: "https://www.npr.org/2026/09/22/nx-s1-5968588/openai-navier-stokes-problem-mathematicians-learn-little"}
+    - {value: "about 6 million", unit: "USD at retail rates", who: "Karthik Duraisamy (U. Michigan) per Science, relayed by TechRepublic via a search-tool summary only; I could NOT read the Science article (Cloudflare 403) or TechRepublic (403), so UNVERIFIED", source_url: "https://www.techrepublic.com/article/news-openai-navier-stokes-ai-breakthrough-research-dispute/"}
+    - {value: "roughly 10 million", unit: "USD", who: "BBC, cited by a news aggregator in a search-tool summary only; UNVERIFIED", source_url: "https://www.etvbharat.com/en/technology/openai-millennium-prize-math-problem-navier-stokes-problem-clay-mathematics-institute-enn26090901712"}
+  primary_source_url: "https://openai.com/index/navier-stokes-solution/"
+  secondary_sources: ["https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/", "https://www.npr.org/2026/09/22/nx-s1-5968588/openai-navier-stokes-problem-mathematicians-learn-little", "https://www.understandingai.org/p/openai-spent-millions-to-solve-this"]
+  notes: >
+    Tokens are output-only; input/cached tokens (likely much larger for multi-agent coordination with 2.7M messages) are undisclosed, so dollar conversions from output tokens are lower bounds on API-equivalent cost and depend on an assumed price (the model is internal, no API price exists).
+    The post also says the group was 'cross-pollinated' using Codex and that the model version changed mid-run (further-trained model swapped in), and agents were shifted from other problems to NS after the Euler result, so the 88 h/130B figures are not a clean single-configuration run.
+    Derived (mine): 130e9 output tokens / (88 h x 10,000 agents) is about 41 output tokens/s per agent if all agents were concurrent for the full 88 h; OpenAI gives no per-agent accounting.
+    Compute for the earlier effort that produced the Euler result is included in the 300B total but not separated.
+    The caller-specified '$1 million' framing: the $1M figure in sources is the Clay prize amount, not a compute estimate.
+
+- name: "Euler equations, unforced regularity (blow-up disproof)"
+  lab: "OpenAI (same internal model/multi-agent system)"
+  date: "2026-09-08 (disclosed in the Navier-Stokes post)"
+  problems: "Regularity problem for the unforced 3D Euler equations (blow-up)"
+  claim_status: "Lean-verified"   # OpenAI links a Lean formalized proof; not independently checked
+  disclosed:
+    output_tokens: null
+    total_tokens: null
+    agents: {value: "nearly 100", source_url: "https://openai.com/index/navier-stokes-solution/"}
+    wall_clock_hours: {value: "approximately 50", source_url: "https://openai.com/index/navier-stokes-solution/"}
+    messages: null
+    tpu_hours: null
+    gpu_hours: null
+    dollars: null
+    hours_of_thinking: null
+    attempts: null
+    successes: null
+  estimates: []
+  primary_source_url: "https://openai.com/index/navier-stokes-solution/"
+  secondary_sources: ["https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"]
+  notes: "Distinct from Alpoge-Buckmaster's forced-Euler result (Anthropic model), which OpenAI acknowledges as prior. No token or message counts separated for this run."
+
+- name: "Erdos unit distance conjecture disproof (Erdos #90)"
+  lab: "OpenAI (unreleased general-purpose reasoning model)"
+  date: "2026-05-20"
+  problems: "Erdos #90 (planar unit distance problem): infinite family with n^(1+delta) unit-distance pairs, delta>0; explicit delta=0.014 from Will Sawin's refinement"
+  claim_status: "verified"   # checked by external mathematicians, companion paper (arXiv 2605.20695); Epoch says a later Lean formalization ran to 1.2M lines
+  disclosed:
+    output_tokens: null
+    total_tokens: null
+    agents: null
+    wall_clock_hours: null
+    messages: null
+    tpu_hours: null
+    gpu_hours: null
+    dollars: null
+    hours_of_thinking: null
+    attempts: null
+    successes: null
+  estimates:
+    - {value: "about 50% success at maximum token budget (read off an OpenAI chart image; no axis values captured)", unit: "success rate vs test-time compute on this problem", who: "OpenAI chart as described by Understanding AI", source_url: "https://www.understandingai.org/p/openais-milestone-math-breakthrough"}
+  primary_source_url: "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+  secondary_sources: ["https://www.understandingai.org/p/openais-milestone-math-breakthrough", "https://epoch.ai/latest/announcing-frontiermath-erdos (Lean formalization: 18-page paper vs 1.2M lines of Lean)", "https://arxiv.org/abs/2605.20695"]
+  notes: >
+    OpenAI post compute statement, in full: 'After verifying the initial proof, we investigated the success rate of our models on this problem with varying amounts of test-time compute. The results are shown here.' (an image/chart; no numbers in page text). So tokens, dollars, hours, attempts: all NULL in primary text.
+    I could not read the Science article (https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy): HTTP 403 and a Cloudflare bot check that I did not bypass.
+    I FOUND NO source attributing a '$1 million inference' estimate to the unit-distance result. Search results link Science's 'ignited controversy' piece to the Navier-Stokes dispute (where Duraisamy's ~$6M retail estimate appears via TechRepublic), and '$1 million' in Navier-Stokes coverage is the Clay prize. Please verify the premise before using it. Also a web-search summary mentioned a claim (Noam Brown: each chart point = 100 attempts; blog-author guess of $100-150K) that I could not trace to any readable source; treat as non-evidence.
+    Who supplied the problem: Scott Aaronson wrote his former student Lijie Chen 'simply gave GPT the problem' (per a search-tool summary, not read directly).
+
+- name: "OpenAI 'Ten advances' (Aug 1 2026) incl. Erdos #183, #146, #180"
+  lab: "OpenAI (internal version of Astra)"
+  date: "2026-08-01"
+  problems: "Ten results: sphere packing, binary/spherical codes, non-sofic groups, Connes rigidity, permanent lower bounds, quantum parallel repetition, CVP hardness, Ehrhart volume, multicolor Ramsey (Erdos #183), extremal compactness/degeneracy (Erdos #146, #180)"
+  claim_status: "Lean-verified"   # OpenAI says the model formalized each argument in a Lean certificate; not independently checked
+  disclosed:
+    output_tokens: null
+    total_tokens: null
+    agents: null
+    wall_clock_hours: null
+    messages: null
+    tpu_hours: null
+    gpu_hours: null
+    dollars: {value: "'roughly $2,000' for the total number of tokens needed to find solutions to the ten problems, at Sol API rates", source_url: "https://openai.com/index/ten-advances-in-mathematics/"}
+    hours_of_thinking: null
+    attempts: null
+    successes: {value: 10, source_url: "https://openai.com/index/ten-advances-in-mathematics/"}
+  estimates: []
+  primary_source_url: "https://openai.com/index/ten-advances-in-mathematics/"
+  secondary_sources: []
+  notes: >
+    The $2,000 figure is a hypothetical price ('would cost'), counts only the tokens 'needed to find solutions' (i.e. apparently the successful runs, not the search over failed problems), at GPT Sol API rates, while the model used was an internal Astra version. Token counts, number of problems attempted, and failed attempts are not given. Not requested in the brief; included because it is the only OpenAI dollar-denominated compute statement for a math result.
+
+# ---- Added 2026-10-09 (main session): the HAWK cryptanalysis event, a matched human/AI pair inside the study's own domain ----
+
+- name: "HAWK-n key recovery reduces to SVP in dimension n/2+1 (ePrint 2026/1593)"
+  lab: "Anthropic (Frontier Red Team); authors Straznickas, Weis"
+  date: "2026-07-28 (pqc-forum post and Anthropic research post); ePrint 2026/1593 posted 2026-08-03"
+  problems: "HAWK key recovery / rank-2 module-LIP over power-of-two cyclotomics; HAWK withdrawn from NIST additional-signatures round 3 on 2026-07-29 (secondary reports)"
+  claim_status: "verified"   # D. Apon on pqc-forum: 'checks out independently'; HAWK team helped verify; end-to-end HAWK-256 key recovery code published
+  disclosed:
+    output_tokens: null
+    total_tokens: null
+    agents: {value: "Claude Code-like harness with multiple worker agents in a sandbox (Python, Sage); key idea from a pair of workers; first worker rejected the idea as infeasible", source_url: "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"}
+    wall_clock_hours: {value: "about 60 hours to find, develop and verify; one researcher worked with Claude over the course of a week", source_url: "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"}
+    messages: null
+    tpu_hours: null
+    gpu_hours: null
+    dollars: {value: "approximately $100,000 in API cost", source_url: "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"}
+    hours_of_thinking: null
+    attempts: null
+    successes: {value: 1, source_url: "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"}
+    human_effort: {value: "one Anthropic researcher, TCS background, not a lattice-cryptography expert; input 'limited to project management'", source_url: "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"}
+    attack_runtime: {value: "HAWK-256 end-to-end key recovery in about 3 h 42 min on one 96-core Sapphire Rapids server (README)", source_url: "https://github.com/anthropics/cryptography-research-demo/blob/main/HAWK/README.md"}
+  estimates: []
+  primary_source_url: "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
+  secondary_sources: ["https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/2r2u6SbHun4", "https://eprint.iacr.org/2026/1593", "https://www-cdn.anthropic.com/e8d50c167ad47beeb03d6109a4a484be95cb38ea/hawk_key_recovery.pdf", "https://thequbitreport.com/security-policy/2026/08/13/hawk-lattice-signature-scheme-withdrawn-from-nist-round-3-after-ai-assisted-key-recovery-attack/"]
+  notes: >
+    Self-evaluation caveat: the authors are Anthropic employees evaluating Anthropic's model, and this study is itself being run with Claude models.
+    Result: HAWK-512 key recovery 2^150 -> 2^108 gates, HAWK-1024 2^288 -> 2^182 (gate-count model of the HAWK spec); HAWK-256 2^64 -> 2^38.
+    Post states HAWK had survived about two years of expert review in two NIST rounds. Dollars are API list price, not internal cost; no token count; failed sessions not enumerated.
+    Paper text extracted (Ghostscript) to data/raw/ai_effort/anthropic/hawk_key_recovery.txt; extract in data/ai_effort/pilot_hawk/anthropic_paper_extract.md.
+    The paper itself discloses only (Sec. 10): 'The majority of mathematical discoveries in this paper were AI-assisted. Human author contribution mainly consisted of directing, organizing and verifying AI work.'
+    No model, tokens, dollars or session counts in the paper; those figures come only from the Anthropic research post. PDF CreationDate 2026-07-25. Sec. 9 records a blocked n/4+1 attempt. The concurrent 3n/4 result is not cited.
+
+- name: "HAWK key recovery via SVP in dimension 3n/4 (adjoint lattice reduction), GPT-5.6-derived"
+  lab: "Hengyi Luo's group (draft dated 2026-07-17, 'Adjoint lattice reduction for the HAWK Gram factor problem'); model GPT-5.6 (OpenAI), implemented with Codex"
+  date: "2026-07-17 (draft); announced on pqc-forum 2026-07-28"
+  problems: "HAWK key recovery / rank-2 module-LIP"
+  claim_status: "unvetted at announcement (HAWK team verifying); later described by Luo-Jiang-Pan ePrint 2026/2198 as matching the Mureau-Pellet-Mary bound"
+  disclosed: {output_tokens: null, total_tokens: null, agents: null, wall_clock_hours: null, messages: null, tpu_hours: null, gpu_hours: null, dollars: null, hours_of_thinking: null, attempts: null, successes: 1,
+              human_effort: {value: "'produced by GPT-5.6 with only minimal technical guidance from human researchers'", source_url: "https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/2r2u6SbHun4/m/0_I2KOZ_CQAJ"}}
+  estimates: []
+  primary_source_url: "https://harylo.github.io/files/preprints/adjoint-lattice-reduction-for-the-hawk-gram-factor-problem.pdf"
+  secondary_sources: ["https://groups.google.com/a/list.nist.gov/g/pqc-forum/c/2r2u6SbHun4", "https://eprint.iacr.org/2026/2198"]
+  notes: "No effort figures of any kind disclosed. Rank-4 follow-up 'with the help of GPT' at https://harylo.github.io/files/preprints/linear-descent-for-rank-2-and-rank-4-module-lip.pdf"
+
+- name: "HAWK key recovery via exact SVP in dimension 3m/8+1 = 3n/4+1 (human result, ePrint 2026/1560)"
+  lab: "Mureau, Pellet-Mary (human; no AI attribution)"
+  date: "2026-07-30"
+  problems: "HAWK key recovery / rank-2 module-LIP; builds on Chevignard et al. Eurocrypt'25 nrdPIP reduction"
+  claim_status: "unvetted (ePrint)"
+  disclosed: {output_tokens: null, total_tokens: null, agents: null, wall_clock_hours: null, messages: null, tpu_hours: null, gpu_hours: null, dollars: null, hours_of_thinking: null, attempts: null, successes: 1}
+  estimates: []
+  primary_source_url: "https://eprint.iacr.org/2026/1560"
+  secondary_sources: ["https://eprint.iacr.org/2026/2198"]
+  notes: "Human-side comparator for the same problem, posted two days after the Anthropic disclosure. Author effort not stated; to be estimated from the module-LIP literature (data/ai_effort/calib/hawk) and, optionally, by asking the authors."
+
+- name: "7-round AES-128 meet-in-the-middle improvement ('Mobius Bridge')"
+  lab: "Anthropic (Frontier Red Team)"
+  date: "2026-07-28"
+  problems: "reduced-round AES-128 (7 of 10 rounds), chosen-plaintext model; 200-800x faster than 2013 best, 2^105 chosen plaintexts, impractical"
+  claim_status: "disputed/unverified in practice (analytical; not run)"
+  disclosed:
+    output_tokens: {value: "several hundred million tokens over three days to the core idea; about one billion output tokens in total before the attack was refined", source_url: "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"}
+    total_tokens: null
+    agents: null
+    wall_clock_hours: {value: "about three days to the core idea; about one week to the refined attack; 'one of many autonomous sessions', most producing nothing", source_url: "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"}
+    messages: null
+    tpu_hours: null
+    gpu_hours: null
+    dollars: {value: "approximately $100,000 in API cost", source_url: "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"}
+    hours_of_thinking: null
+    attempts: null
+    successes: 1
+    human_effort: {value: "'several hundred hours' validating, by researchers who were not cryptography experts; 'two researchers nearly a month to gain confidence'", source_url: "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"}
+  estimates: []
+  primary_source_url: "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
+  secondary_sources: ["https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/"]
+  notes: "Symmetric-key; outside this study's assumption classes but the best token-level disclosure of an AI cryptanalysis run so far. Many failed sessions acknowledged but not counted."

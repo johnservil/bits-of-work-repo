@@ -1,0 +1,40 @@
+{"id": "W1005731694", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1022649828", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Szemeredi theorem proof, implies tower-type upper bound for W(k)"}
+{"id": "W1139904961", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1150686645", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W12814419", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bounds on van der Waerden numbers"}
+{"id": "W132395906", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1419628688", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W142455466", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1482860631", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1485607385", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W148580239", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1489006728", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1491663468", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "popular Catalan exposition of AP results incl vdW theorem"}
+{"id": "W1522191817", "include": "yes", "category": "E", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "cyclic zipper lower bounds for van der Waerden numbers"}
+{"id": "W152445509", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1537054460", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1544799042", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1549301089", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1550116674", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Hales-Jewett number bound, related Ramsey bound not vdW"}
+{"id": "W1551680922", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1555768633", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1563756929", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1569122547", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1588302645", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.2, "reason": "thesis on coloring/extremal problems, title unclear"}
+{"id": "W1593433469", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1595828591", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W159613098", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1647045970", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "claimed upper bound r^{k^2} on W(r,k)"}
+{"id": "W1661292865", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1663749032", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W170265681", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1718118126", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W177593908", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W178333808", "include": "borderline", "category": "S", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "history of Ramsey theory incl vdW, not bounds-focused"}
+{"id": "W1821981504", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1839185622", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1850799998", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W186143519", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1897701252", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1900663752", "include": "yes", "category": "E", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "SAT computation of van der Waerden numbers"}

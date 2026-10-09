@@ -1,0 +1,100 @@
+{"id": "W1570128105", "keep": true, "why": "sub-exponential set cover; SoS/LP hierarchy approximations"}
+{"id": "W1570389327", "keep": false, "why": "RIP certification complexity, unrelated"}
+{"id": "W1571037334", "keep": true, "why": "UGC integrality gap, cut problems"}
+{"id": "W1571257748", "keep": false, "why": "PTAS hardness, no games link"}
+{"id": "W1573473661", "keep": false, "why": "Hamming anticode theorem, unrelated"}
+{"id": "W1576128767", "keep": false, "why": "independent set approximation, generic"}
+{"id": "W1576252999", "keep": true, "why": "higher-eigenvalue Cheeger, SSE-related"}
+{"id": "W1576805635", "keep": true, "why": "Max 2SAT and Max DICUT rounding"}
+{"id": "W1578099820", "keep": false, "why": "generic spectral graph textbook"}
+{"id": "W1579163687", "keep": true, "why": "sparsest st-cut Cheeger approximation"}
+{"id": "W1581035799", "keep": true, "why": "SoS lower bounds, sparse PCA"}
+{"id": "W1581729816", "keep": false, "why": "Sherali-Adams ATSP integrality ratios"}
+{"id": "W1582254841", "keep": false, "why": "contagious sets, unrelated"}
+{"id": "W1583069712", "keep": false, "why": "Diophantine approximation hardness"}
+{"id": "W1584512166", "keep": false, "why": "partial vertex cover LP systems"}
+{"id": "W1585188551", "keep": false, "why": "Gale-Berlekamp PTAS"}
+{"id": "W1585955818", "keep": true, "why": "SDP gaps to Sherali-Adams, Max-Cut"}
+{"id": "W1586475286", "keep": false, "why": "FPT transversal algorithms"}
+{"id": "W1586488998", "keep": true, "why": "bypassing UGC, geometric inapproximability"}
+{"id": "W1586797185", "keep": true, "why": "no title; cannot judge"}
+{"id": "W1587123489", "keep": true, "why": "no title; cannot judge"}
+{"id": "W158779816", "keep": false, "why": "eigenvalue ratios, curved graphs"}
+{"id": "W1588469622", "keep": true, "why": "SDP hierarchy rounding, global correlation"}
+{"id": "W1590274425", "keep": false, "why": "MaxSat above average parameterized"}
+{"id": "W1590432342", "keep": false, "why": "Banach tensor products monograph"}
+{"id": "W1591562949", "keep": false, "why": "disjoint paths approximation"}
+{"id": "W1591762700", "keep": true, "why": "no title; cannot judge"}
+{"id": "W1591868040", "keep": false, "why": "Hilbert 17th problem, unrelated"}
+{"id": "W1593162480", "keep": true, "why": "higher SDP hierarchy levels, approximation"}
+{"id": "W1593316675", "keep": false, "why": "random Laplacian convex relaxations, unclear"}
+{"id": "W1593375062", "keep": true, "why": "no title; cannot judge"}
+{"id": "W1594283629", "keep": false, "why": "connected dense k-subgraph, unrelated"}
+{"id": "W1594325165", "keep": false, "why": "caterpillar conditioning, unrelated"}
+{"id": "W1597368603", "keep": true, "why": "parallel repeated unique games rounding"}
+{"id": "W1598346827", "keep": true, "why": "graph algorithm techniques; possibly SDP/spectral"}
+{"id": "W1600412016", "keep": true, "why": "strong parallel repetition counterexample"}
+{"id": "W1601503375", "keep": true, "why": "MAX k-CUT approximation algorithms"}
+{"id": "W1601613236", "keep": true, "why": "strong parallel repetition, projection games"}
+{"id": "W1603194973", "keep": true, "why": "non-Boolean 2CSP approximation"}
+{"id": "W1605144615", "keep": false, "why": "robust PCPPs, general PCP"}
+{"id": "W1606502575", "keep": true, "why": "non-Boolean CSP, unique-games hardness"}
+{"id": "W1606724135", "keep": false, "why": "Bell inequalities survey"}
+{"id": "W1607013242", "keep": false, "why": "q-analog cube combinatorics"}
+{"id": "W1607118338", "keep": false, "why": "balanced partitioning hardness, grids"}
+{"id": "W1607580485", "keep": false, "why": "exact SDP relaxation, 0-1 programs"}
+{"id": "W1607959690", "keep": true, "why": "Lasserre hierarchy normal form"}
+{"id": "W1608284130", "keep": false, "why": "loss-leader pricing hardness"}
+{"id": "W1608352849", "keep": true, "why": "Lasserre integrality gap for UG"}
+{"id": "W1613874054", "keep": true, "why": "tutorial: PCPs and unique games limits"}
+{"id": "W1619463472", "keep": true, "why": "hardness of maximum CSP"}
+{"id": "W1622068963", "keep": false, "why": "parameterized CSP survey"}
+{"id": "W1631603072", "keep": true, "why": "Alon eigenvalues and expanders"}
+{"id": "W1632601927", "keep": false, "why": "interior-point methods book"}
+{"id": "W1634506963", "keep": true, "why": "multi-way isoperimetric constants, Cheeger-type"}
+{"id": "W1637126265", "keep": false, "why": "expander lifts, unrelated to UG"}
+{"id": "W1638908329", "keep": false, "why": "spectral clustering, heat kernel"}
+{"id": "W1639667865", "keep": false, "why": "stochastic vehicle routing"}
+{"id": "W164225028", "keep": false, "why": "SDP and constraint programming"}
+{"id": "W1644330982", "keep": false, "why": "quadratic programming ratio objective"}
+{"id": "W1646436690", "keep": false, "why": "machine scheduling preemption"}
+{"id": "W1647563443", "keep": false, "why": "quantum partition bound"}
+{"id": "W1655051759", "keep": true, "why": "hypergraph vertex cover inapproximability, possibly UG"}
+{"id": "W1655296453", "keep": true, "why": "long code shortening, UGC applications"}
+{"id": "W1665118812", "keep": false, "why": "submodular maximization inapproximability"}
+{"id": "W1665264418", "keep": false, "why": "random walk eigenvalues, spectral embedding"}
+{"id": "W1668045384", "keep": true, "why": "higher-order Cheeger inequality"}
+{"id": "W1670485642", "keep": false, "why": "robust subspace recovery hardness"}
+{"id": "W1670963965", "keep": true, "why": "hypercontractivity and SoS proofs"}
+{"id": "W1673833342", "keep": true, "why": "reformulated ARV structure theorem"}
+{"id": "W1674246975", "keep": false, "why": "conic formulations of homomorphisms"}
+{"id": "W168622649", "keep": true, "why": "spectral and SDP graph partitioning"}
+{"id": "W1693651075", "keep": false, "why": "SDP on sparse random graphs"}
+{"id": "W1696166066", "keep": false, "why": "multirepresentation social choice"}
+{"id": "W170146992", "keep": false, "why": "eigenvalue ratio bound, dimension-free"}
+{"id": "W1706415889", "keep": true, "why": "Discrete Analysis journal; unclear"}
+{"id": "W1711896017", "keep": true, "why": "non-commutative Grothendieck hardness"}
+{"id": "W171586158", "keep": true, "why": "sparsest cut on hypercube quotients"}
+{"id": "W1723594650", "keep": false, "why": "sound 3-query PCPPs, general PCP"}
+{"id": "W172910906", "keep": true, "why": "limits of LP and SDP, approximation"}
+{"id": "W1736437624", "keep": true, "why": "non-uniform graph partitioning approximation"}
+{"id": "W1742693351", "keep": false, "why": "propeller conjecture, unrelated"}
+{"id": "W1748564905", "keep": false, "why": "H-transversal inapproximability"}
+{"id": "W1754192177", "keep": true, "why": "CSP SDP hierarchies, cardinality constraints"}
+{"id": "W1755753347", "keep": false, "why": "polytope extension lower bounds"}
+{"id": "W1756950477", "keep": true, "why": "randomized rounding of SDP, Max-Cut"}
+{"id": "W1765664592", "keep": false, "why": "tree-constrained matchings"}
+{"id": "W176777629", "keep": true, "why": "unique games and multicut"}
+{"id": "W1770158118", "keep": false, "why": "fault-tolerant sparse networks"}
+{"id": "W1777198852", "keep": true, "why": "non-uniform partitioning, unrelated weights"}
+{"id": "W1780923853", "keep": true, "why": "no title; cannot judge"}
+{"id": "W1782308010", "keep": true, "why": "SDP hierarchy convergence, polynomial optimization"}
+{"id": "W1783801419", "keep": true, "why": "non-signaling parallel repetition"}
+{"id": "W1784842728", "keep": true, "why": "entangled binary games lower bound"}
+{"id": "W1788846295", "keep": false, "why": "information in networks, generic"}
+{"id": "W1805129013", "keep": true, "why": "Gaussian geometry and Boolean functions"}
+{"id": "W1806104592", "keep": false, "why": "squared functional systems"}
+{"id": "W1809731507", "keep": false, "why": "k-column sparse packing programs"}
+{"id": "W1814356831", "keep": true, "why": "integrality gaps, bipartite expanders"}
+{"id": "W1818659651", "keep": true, "why": "ARV rounding in small-set expanders"}
+{"id": "W182447659", "keep": true, "why": "local sparse cuts, small-set expansion"}

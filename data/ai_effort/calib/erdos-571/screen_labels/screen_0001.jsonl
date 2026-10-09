@@ -1,0 +1,60 @@
+{"id": "W3006036904", "keep": true, "why": "degenerate Turan densities, hypergraphs"}
+{"id": "W3006605268", "keep": true, "why": "Turan numbers of theta graphs"}
+{"id": "W3006674765", "keep": true, "why": "Turan number of K_tt-free bipartite graphs"}
+{"id": "W3037745329", "keep": true, "why": "splits with forbidden subgraphs; unsure"}
+{"id": "W3045314401", "keep": true, "why": "Zarankiewicz problem"}
+{"id": "W3100868007", "keep": true, "why": "graphs with few paths of given length"}
+{"id": "W3120870204", "keep": true, "why": "rational Turan exponents conjecture"}
+{"id": "W3134252054", "keep": true, "why": "Ramsey properties of algebraic graphs; unsure"}
+{"id": "W3172906388", "keep": true, "why": "spectral extremal graphs, odd cycles"}
+{"id": "W3177757889", "keep": true, "why": "extremal graphs without exponentially small bicliques"}
+{"id": "W3193795880", "keep": true, "why": "extremal number of subdivisions"}
+{"id": "W3201463694", "keep": true, "why": "relative Turan problems, hypergraphs"}
+{"id": "W3203316337", "keep": true, "why": "Erdos box problem, Turan-type"}
+{"id": "W3211648285", "keep": true, "why": "hypergraph Turan problems"}
+{"id": "W3213983356", "keep": true, "why": "random algebraic constructions, extremal graphs; unsure"}
+{"id": "W4205965597", "keep": true, "why": "colour-isomorphic subdivisions, extremal"}
+{"id": "W4210731599", "keep": true, "why": "graph theory textbook; unsure"}
+{"id": "W4226523359", "keep": true, "why": "Erdos-Simonovits Turan number, minimum degree 3"}
+{"id": "W4233900282", "keep": false, "why": "unsolved problems in set theory"}
+{"id": "W4234117750", "keep": false, "why": "integer sets, unrelated"}
+{"id": "W4249953708", "keep": false, "why": "Helly property survey"}
+{"id": "W4250699352", "keep": false, "why": "chromatic number of set systems"}
+{"id": "W4280643389", "keep": true, "why": "Turan number of blow-up of hexagon"}
+{"id": "W4281798952", "keep": true, "why": "maximum bipartite subgraphs of H-free graphs"}
+{"id": "W4293253714", "keep": true, "why": "balanced supersaturation, Turan numbers random graphs"}
+{"id": "W4297106026", "keep": true, "why": "negligible obstructions, Turan exponents"}
+{"id": "W4310690328", "keep": true, "why": "rational exponents near two"}
+{"id": "W4313813773", "keep": true, "why": "4-cycle supersaturation and stability"}
+{"id": "W4316652326", "keep": true, "why": "small subgraphs, large average degree"}
+{"id": "W4380925218", "keep": true, "why": "Brown-Erdos-Sos problem"}
+{"id": "W4385637346", "keep": true, "why": "random polynomial graphs, random Turan"}
+{"id": "W4385767331", "keep": true, "why": "tree-degenerate graphs, dependent random choice"}
+{"id": "W4386023683", "keep": false, "why": "feedback arc sets in digraphs"}
+{"id": "W4388262782", "keep": true, "why": "Turan number of nonbipartite graphs"}
+{"id": "W4388915265", "keep": true, "why": "spectral Turan, intersecting even cycles"}
+{"id": "W4392872013", "keep": true, "why": "Turan number of hypercube"}
+{"id": "W4394818387", "keep": true, "why": "small subgraphs, large average degree"}
+{"id": "W4395064583", "keep": true, "why": "extremal numbers, Sidorenko conjecture"}
+{"id": "W4399945218", "keep": true, "why": "balanced supersaturation, random Turan"}
+{"id": "W4401551410", "keep": true, "why": "algebraic constructions of extremal graphs"}
+{"id": "W4402440237", "keep": true, "why": "extremal graphs, odd prism"}
+{"id": "W4403643335", "keep": true, "why": "induced Turan problem, bipartite graphs"}
+{"id": "W4406203418", "keep": true, "why": "saturation of subdivisions, grids"}
+{"id": "W4407130246", "keep": true, "why": "Brown-Erdos-Sos problem"}
+{"id": "W4407873318", "keep": true, "why": "random algebraic constructions, hardness"}
+{"id": "W4408986185", "keep": true, "why": "hypergraph bipartite Turan problem"}
+{"id": "W4410869229", "keep": true, "why": "rational exponents for cliques"}
+{"id": "W4413906342", "keep": true, "why": "clique supersaturation"}
+{"id": "W4414925644", "keep": true, "why": "extremal number of geometric-shape graphs"}
+{"id": "W45611993", "keep": true, "why": "extremal problems, two-complexes"}
+{"id": "W650639416", "keep": false, "why": "arrangements and spreads"}
+{"id": "W7170162488", "keep": true, "why": "rational exponents near 3/2"}
+{"id": "seed:erdos-1-20", "keep": true, "why": "combinatorial problems survey"}
+{"id": "seed:erdos-571-10", "keep": true, "why": "negligible obstructions, Turan exponents"}
+{"id": "seed:erdos-571-11", "keep": true, "why": "rational Turan exponents conjecture"}
+{"id": "seed:erdos-571-12", "keep": true, "why": "many Turan exponents via subdivisions"}
+{"id": "seed:erdos-571-13", "keep": true, "why": "Turan exponents of bipartite graphs"}
+{"id": "seed:erdos-571-2", "keep": true, "why": "extremal problems in graph theory progress"}
+{"id": "seed:erdos-571-5", "keep": true, "why": "cube-supersaturated graphs"}
+{"id": "seed:erdos-571-9", "keep": true, "why": "Turan numbers of bipartite subdivisions"}

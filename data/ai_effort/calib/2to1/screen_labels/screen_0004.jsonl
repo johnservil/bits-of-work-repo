@@ -1,0 +1,100 @@
+{"id": "W2089096000", "keep": true, "why": "algebraic isoperimetry and topological expanders"}
+{"id": "W2089718638", "keep": false, "why": "unrelated: exact algorithms analysis"}
+{"id": "W2089847997", "keep": false, "why": "unrelated: Steiner tree"}
+{"id": "W2089853714", "keep": false, "why": "unrelated: facility location"}
+{"id": "W2090200648", "keep": false, "why": "unrelated: perfect matching"}
+{"id": "W2090384500", "keep": false, "why": "unrelated: wireless coverage"}
+{"id": "W2090863037", "keep": true, "why": "two-prover protocols"}
+{"id": "W2091602684", "keep": true, "why": "ruling out PTAS; UG/PCP-based hardness"}
+{"id": "W2091611196", "keep": false, "why": "unrelated: center location"}
+{"id": "W2091921997", "keep": true, "why": "PCP characterization with amortized queries"}
+{"id": "W2091946919", "keep": false, "why": "unrelated: resilient dominating sets"}
+{"id": "W2092580500", "keep": false, "why": "unrelated: misinformation containment"}
+{"id": "W2092614531", "keep": true, "why": "KKL and monotone nets; Boolean analysis"}
+{"id": "W2093259407", "keep": false, "why": "unrelated: covering IP approximation"}
+{"id": "W209373873", "keep": false, "why": "unrelated: streaming set cover"}
+{"id": "W2094654291", "keep": true, "why": "Bonami-style Fourier inequalities; hypercontractivity"}
+{"id": "W2094776848", "keep": true, "why": "influences under symmetries; Boolean analysis"}
+{"id": "W2094878497", "keep": true, "why": "self-testing/correcting for polynomials"}
+{"id": "W2095093161", "keep": false, "why": "unrelated: Erdos hypergraph matchings"}
+{"id": "W2095145505", "keep": false, "why": "unrelated: Kneser hypergraph chromatic number"}
+{"id": "W2095727035", "keep": true, "why": "approximation algorithms for Unique Games"}
+{"id": "W2095933180", "keep": true, "why": "approximation resistant predicates, pairwise independence"}
+{"id": "W2096390054", "keep": true, "why": "Babai Arthur-Merlin foundations; unsure"}
+{"id": "W2096478102", "keep": true, "why": "hypergraph coloring hardness, PCP-based"}
+{"id": "W2096746450", "keep": false, "why": "generic metric spaces textbook"}
+{"id": "W2097206148", "keep": true, "why": "NEXP two-prover protocols"}
+{"id": "W2097241552", "keep": false, "why": "unrelated: storyline dominating set"}
+{"id": "W2097611197", "keep": false, "why": "unrelated: sensor authentication"}
+{"id": "W2097678797", "keep": false, "why": "SVP hardness; no games link"}
+{"id": "W2097977977", "keep": false, "why": "unrelated: unit disk CDS"}
+{"id": "W2098100803", "keep": true, "why": "untitled record; unsure"}
+{"id": "W2098350988", "keep": true, "why": "isoperimetric and spectral profile; expansion, unsure"}
+{"id": "W2099614783", "keep": true, "why": "Max-2Lin/Max-3Lin hardness over groups"}
+{"id": "W2099637074", "keep": false, "why": "unrelated: data quality"}
+{"id": "W2099677042", "keep": true, "why": "Max-Cut and 2-variable CSP inapproximability"}
+{"id": "W2099792836", "keep": false, "why": "unrelated: corpus reduction"}
+{"id": "W2100137329", "keep": false, "why": "unrelated: bioinspired algorithms"}
+{"id": "W2100780780", "keep": true, "why": "approximate hypergraph coloring hardness"}
+{"id": "W2100856114", "keep": false, "why": "zero-one law; weak link"}
+{"id": "W2100896331", "keep": false, "why": "unrelated: Turan problems"}
+{"id": "W2102115128", "keep": false, "why": "unrelated: Hales-Jewett density"}
+{"id": "W2102450844", "keep": false, "why": "unrelated: reoptimization"}
+{"id": "W2102838459", "keep": false, "why": "unrelated: concave optimization"}
+{"id": "W2103539404", "keep": true, "why": "direct-product testers and 2-query PCPs"}
+{"id": "W2103614201", "keep": true, "why": "Ramanujan complexes; high-dimensional expanders"}
+{"id": "W2103649698", "keep": true, "why": "acyclic subgraph hardness; unsure"}
+{"id": "W2103749128", "keep": true, "why": "influence of variables on Boolean functions"}
+{"id": "W2104159490", "keep": true, "why": "learning hardness via PCP-style reduction; unsure"}
+{"id": "W2104254886", "keep": true, "why": "chromatic number hardness, PCP-based; unsure"}
+{"id": "W2104727719", "keep": true, "why": "Lovasz-Schrijver lower bounds; unsure"}
+{"id": "W2105663933", "keep": false, "why": "unrelated: converter placement"}
+{"id": "W2105717486", "keep": false, "why": "unrelated: geometric covering"}
+{"id": "W2105984887", "keep": false, "why": "monotonicity testing; weak link"}
+{"id": "W2106322572", "keep": false, "why": "unrelated: multiple-interval graphs"}
+{"id": "W2106734202", "keep": false, "why": "unrelated: unit disk cover"}
+{"id": "W2106984527", "keep": false, "why": "unrelated: set cover bounds"}
+{"id": "W2107052785", "keep": true, "why": "Lasserre lower bounds for k-CSPs"}
+{"id": "W2107809915", "keep": true, "why": "PCPs and codes survey"}
+{"id": "W2107895255", "keep": false, "why": "unrelated: set cover ownership"}
+{"id": "W2107917944", "keep": false, "why": "unrelated: stream communication complexity"}
+{"id": "W2107989318", "keep": false, "why": "unrelated: stochastic spanning trees"}
+{"id": "W2108684595", "keep": true, "why": "parallel repetition"}
+{"id": "W2108900323", "keep": false, "why": "unrelated: integer sets"}
+{"id": "W2109110363", "keep": false, "why": "unrelated: learning strategies"}
+{"id": "W2109437253", "keep": true, "why": "quantum de Finetti; parallel repetition, unsure"}
+{"id": "W2109533535", "keep": false, "why": "unrelated: covering IP approximation"}
+{"id": "W2109815032", "keep": true, "why": "entangled XOR games hardness; nonlocal games"}
+{"id": "W2110720527", "keep": false, "why": "unrelated: replica placement"}
+{"id": "W2110854038", "keep": false, "why": "unrelated: mesh networks"}
+{"id": "W2110871651", "keep": true, "why": "optimal inapproximability for every CSP"}
+{"id": "W2111305674", "keep": false, "why": "unrelated: regenerator placement"}
+{"id": "W2111385661", "keep": true, "why": "free bits PCPs and nonapproximability"}
+{"id": "W2111620521", "keep": false, "why": "unrelated: sensor placement"}
+{"id": "W2111768547", "keep": false, "why": "function isomorphism testing; weak link"}
+{"id": "W2111919093", "keep": false, "why": "unrelated: representative selection"}
+{"id": "W2112539464", "keep": false, "why": "unrelated: facility location"}
+{"id": "W2113378957", "keep": false, "why": "unrelated: guard games"}
+{"id": "W2114448228", "keep": true, "why": "Unique Games conjecture survey"}
+{"id": "W2114506516", "keep": true, "why": "intersecting families and juntas; Boolean analysis"}
+{"id": "W2116537669", "keep": false, "why": "unrelated: graph regular partitions"}
+{"id": "W2117417786", "keep": true, "why": "spherical cubes rounding; UG-adjacent, unsure"}
+{"id": "W2118123830", "keep": false, "why": "unrelated: wireless LAN"}
+{"id": "W2118143978", "keep": true, "why": "strong parallel repetition, entangled provers"}
+{"id": "W2118409018", "keep": true, "why": "small total influence structure theorem"}
+{"id": "W2118599421", "keep": true, "why": "juntas in graph powers; Boolean analysis"}
+{"id": "W2119378898", "keep": true, "why": "SDP gaps and UGC hardness"}
+{"id": "W2119730209", "keep": false, "why": "unrelated: embedded systems"}
+{"id": "W2120672285", "keep": true, "why": "random geometric complexes; HDX-adjacent"}
+{"id": "W2121509904", "keep": false, "why": "unrelated: fault localization"}
+{"id": "W2122906648", "keep": true, "why": "max k-colorable subgraph hardness; unsure"}
+{"id": "W2122914790", "keep": false, "why": "quadratic program relaxations; weak link"}
+{"id": "W2123218030", "keep": true, "why": "L1 embeddings, Heisenberg group isoperimetry"}
+{"id": "W2124124285", "keep": false, "why": "unrelated: pub-sub overlays"}
+{"id": "W2124580341", "keep": true, "why": "Gaussian noise sensitivity and Fourier tails"}
+{"id": "W2125293366", "keep": true, "why": "testability and decodability via tensor products"}
+{"id": "W2125294153", "keep": false, "why": "generic approximation classes survey"}
+{"id": "W2125534993", "keep": true, "why": "approximation resistance, pairwise independent subgroups"}
+{"id": "W2125632628", "keep": true, "why": "composition of low-error 2-query PCPs"}
+{"id": "W2125703559", "keep": true, "why": "hardness of multicut and sparsest-cut"}
+{"id": "W2125990029", "keep": false, "why": "unrelated: knapsack approximation"}

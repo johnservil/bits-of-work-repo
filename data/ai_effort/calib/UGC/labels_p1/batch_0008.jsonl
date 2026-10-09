@@ -1,0 +1,40 @@
+{"id": "W2110871651", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "optimal CSP algorithms under UGC, UGC-optimality framing"}
+{"id": "W2111385661", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "free bits PCP"}
+{"id": "W2114382532", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum moment problem"}
+{"id": "W2114448228", "include": "yes", "category": "S", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "invited survey on the UGC"}
+{"id": "W2114506516", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "intersecting families"}
+{"id": "W2115163112", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut treewidth"}
+{"id": "W2115180773", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Fourier tails"}
+{"id": "W2115318789", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "rounding SoS relaxations, UG-type applications"}
+{"id": "W2116397277", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonlocal strategies"}
+{"id": "W2116839457", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "simplicial spectral theory"}
+{"id": "W2116926584", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LS vertex cover gaps"}
+{"id": "W2117220151", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "spectral algorithms for unique games"}
+{"id": "W2117372120", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for directed vertex deletion"}
+{"id": "W2117417786", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "spherical cubes"}
+{"id": "W2117909080", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "spectral clustering"}
+{"id": "W2118143978", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled parallel repetition"}
+{"id": "W2118405557", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "simplicial isoperimetry"}
+{"id": "W2118409018", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Boolean function influence structure"}
+{"id": "W2118458355", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Gaussian noise stability"}
+{"id": "W2118599421", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "independent sets in graph powers"}
+{"id": "W2119378898", "include": "borderline", "category": "G", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "SDP gaps linked to UGC hardness for multiway cut"}
+{"id": "W2119397119", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "two-prover reductions"}
+{"id": "W2119901068", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum provers"}
+{"id": "W2120358419", "include": "yes", "category": "G", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "original paper introducing the Unique Games Conjecture"}
+{"id": "W2121908678", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Handelman hierarchy"}
+{"id": "W2122793266", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "dense CSP schemes"}
+{"id": "W2122906648", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "k-colorable subgraph hardness"}
+{"id": "W2123218030", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "sparsest cut embeddings survey"}
+{"id": "W2123381318", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "SDP approximation survey"}
+{"id": "W2124331805", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bounded-round provers"}
+{"id": "W2124580341", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "noise sensitivity Fourier tails"}
+{"id": "W2125534993", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "approximation resistance NP-hardness"}
+{"id": "W2125632628", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "PCP composition"}
+{"id": "W2125703559", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for multicut hardness"}
+{"id": "W2127141092", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max k-CSP algorithms"}
+{"id": "W2127312480", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Gaussian noise stability"}
+{"id": "W2127816126", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max-Bisection algorithm"}
+{"id": "W2127851424", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "no-signaling provers"}
+{"id": "W2127901211", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "property testing thesis"}
+{"id": "W2128550154", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "eigenvalue bounds via flows"}

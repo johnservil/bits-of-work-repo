@@ -1,0 +1,40 @@
+{"id": "W1043822130", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos additive number theory problems survey; may state the Erdos-Turan question"}
+{"id": "W1139904961", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "thesis on extremal graphs from Sidon sets, unrelated"}
+{"id": "W1150686645", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free sequences, unrelated"}
+{"id": "W121476753", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "subset-sum-distinct sequences, unrelated"}
+{"id": "W125531126", "include": "yes", "category": "S", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Sarkozy-Sos survey on additive representation functions, centred on Erdos-Turan type questions"}
+{"id": "W132395906", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-free sets thesis, unrelated"}
+{"id": "W1419628688", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd problem, unrelated"}
+{"id": "W142455466", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sumsets containing k-free integers, unrelated"}
+{"id": "W148580239", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "computer experiments on bases, title alone not tied to representation function"}
+{"id": "W1489006728", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Erdos-Graham problem survey; may state the problem"}
+{"id": "W1493733990", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "distinct subset sums, unrelated"}
+{"id": "W152445509", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-product, unrelated"}
+{"id": "W1537054460", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "density of sets with additive bases, different focus"}
+{"id": "W1544799042", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "general problem collection"}
+{"id": "W1549301089", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "different Erdos sumset conjecture"}
+{"id": "W1551680922", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Guy general chapter, no engagement evident"}
+{"id": "W1555475515", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Guy unsolved problems book, seed; contains additive basis problems"}
+{"id": "W1555768633", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Freiman set addition textbook"}
+{"id": "W1563756929", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Miech on Erdos-Renyi conjecture, likely about representation function of bases"}
+{"id": "W1569122547", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "random sign sums, unrelated"}
+{"id": "W1574691718", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "basis with small representation function, construction toward bounded representation question"}
+{"id": "W1593433469", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-product, unrelated"}
+{"id": "W1595828591", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Roth remark on integer sequences, unclear"}
+{"id": "W1663749032", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Erdos survey of combinatorial number theory problems, seed"}
+{"id": "W1718118126", "include": "borderline", "category": "S", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "survey of solved and unsolved basis questions, may cover Erdos-Turan"}
+{"id": "W1741449785", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Sarkozy unsolved problems survey, may include the problem"}
+{"id": "W177593908", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-product, unrelated"}
+{"id": "W1777988250", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "multiplicative Sidon sets, unrelated"}
+{"id": "W1784046855", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Erdos favourite unsolved problems survey, seed"}
+{"id": "W1821981504", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-product, unrelated"}
+{"id": "W1830056809", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "strongly sum-free sets, unrelated"}
+{"id": "W1832165767", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "subset-sum structural approach, unrelated"}
+{"id": "W1850799998", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "k-fold Sidon sets, unrelated"}
+{"id": "W1897701252", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-product, unrelated"}
+{"id": "W1919156896", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "B_k+ sets, Sidon-type, unrelated"}
+{"id": "W19324417", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "extremal density linear forms, unrelated"}
+{"id": "W1947306769", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "mixed sums of primes, unrelated"}
+{"id": "W1963587264", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.55, "reason": "conjecture of Erdos, unspecified"}
+{"id": "W1966494790", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd problem, unrelated"}
+{"id": "W1967909233", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Rohrbach additive theory, basis size not representation function"}

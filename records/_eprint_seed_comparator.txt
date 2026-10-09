@@ -1,0 +1,40 @@
+2004/095 [E] GNFS Factoring Statistics of RSA-100, 110, ..., 150
+2007/205 [E] A kilobit special number field sieve factorization
+2010/006 [E] Factorization of a 768-bit RSA modulus
+2010/090 [E] Solving a 676-bit Discrete Logarithm Problem in GF(3^{6n})
+2010/270 [E] Factorization of RSA-180
+2010/338 [A] Efficient SIMD arithmetic modulo a Mersenne number
+2011/399 [C] Cryptanalysis of HFE, Multi-HFE and Variants for Odd and Even Characteristic
+2011/436 [A] Faster Algorithms for Approximate Common Divisors: Breaking Fully-Homomorphic-Encryption Challenges over the Integers
+2012/345 [E] Breaking pairing-based cryptosystems using $\eta_T$ pairing over $GF(3^{97})$
+2012/369 [E] Factorisation of RSA-704 with CADO-NFS
+2012/444 [E] Factorization of a 1061-bit number by the Special Number Field Sieve
+2012/720 [A] Faster index calculus for the medium prime case. Application to 1175-bit and 1425-bit finite fields
+2013/074 [A] On the Function Field Sieve and the Impact of Higher Splitting Probabilities: Application to Discrete Logarithms in $\F_{2^{1971}}$ and $\F_{2^{3164}}$
+2013/197 [E] Discrete logarithm in GF(2^809) with FFS
+2013/470 [C] Practical Cryptanalysis of a Public-Key Encryption Scheme Based on New Multivariate Quadratic Assumptions
+2013/599 [C] Factoring RSA keys from certified smart cards: Coppersmith in the wild
+2014/057 [E] Computing Discrete Logarithms in F_{3^{6*137}} and F_{3^{6*163}} using Magma
+2014/065 [A] Fine Tuning the Function Field Sieve Algorithm for the Medium Prime Case
+2014/119 [E] Breaking `128-bit Secure' Supersingular Binary Curves (or how to solve discrete logarithms in ${\mathbb F}_{2^{4 \cdot 1223}}$ and ${\mathbb F}_{2^{12 \cdot 367}}$)
+2014/419 [A] FFS Factory: Adapting Coppersmith's "Factorization Factory" to the Function Field Sieve
+2014/653 [E] Mersenne factorization factory
+2014/811 [C] A Polynomial-Time Key-Recovery Attack on MQQ Cryptosystems
+2015/1000 [E] Factoring as a Service
+2015/1160 [C] Cryptanalysis of multi-HFE
+2016/412 [A] Solving Quadratic Equations with XL on Parallel Architectures - extended version
+2016/507 [E] Solving discrete logarithms on a 170-bit MNT curve by pairing reduction
+2016/605 [A] Improving NFS for the discrete logarithm problem in non-prime finite fields
+2016/961 [E] A kilobit hidden SNFS discrete logarithm computation
+2017/067 [E] Computation of a 768-bit prime field discrete logarithm
+2020/113 [E] New Discrete Logarithm Computation for the Medium Prime Case Using the Function Field Sieve
+2020/697 [E] Comparing the difficulty of factorization and discrete logarithm: a 240-digit experiment
+2021/1421 [E] Revisiting Meet-in-the-Middle Cryptanalysis of SIDH/SIKE with Application to the $IKEp182 Challenge
+2021/707 [E] Lattice Enumeration for Tower NFS: a 521-bit Discrete Logarithm Computation
+2022/214 [C] Breaking Rainbow Takes a Weekend on a Laptop
+2022/975 [A] An efficient key recovery attack on SIDH
+2023/367 [C] Practical Attacks on Small Private Exponent RSA: New Records and New Insights
+2024/1519 [A] Efficient theta-based algorithms for computing $(\ell, \ell)$-isogenies on Kummer surfaces for arbitrary odd $\ell$
+2024/1776 [C] An efficient collision attack on Castryck-Decru-Smith’s hash function
+2026/1704 [A] A decrementally-improved algorithm for Boolean MQ
+2026/2131 [E] Forging 1024-bit RSA signatures in nearly SNFS time

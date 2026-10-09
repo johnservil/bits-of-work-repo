@@ -1,0 +1,50 @@
+{"id": "W1139904961", "keep": true, "why": "additive combinatorics, Sidon-type sets"}
+{"id": "W1527296085", "keep": false, "why": "common divisor sets, different object"}
+{"id": "W1663749032", "keep": true, "why": "survey of combinatorial number theory"}
+{"id": "W173859600", "keep": false, "why": "plane distances, unrelated"}
+{"id": "W1789100819", "keep": false, "why": "finite product sets, unrelated"}
+{"id": "W1835305721", "keep": false, "why": "ordered Turan problem, unrelated"}
+{"id": "W1850799998", "keep": true, "why": "k-fold Sidon sets"}
+{"id": "W1919156896", "keep": true, "why": "B_k^+ sets, Sidon-type additive bases"}
+{"id": "W1966494790", "keep": false, "why": "Graham gcd problem, different object"}
+{"id": "W2004782359", "keep": true, "why": "thin additive bases, related"}
+{"id": "W2014323465", "keep": true, "why": "integer sets with distinct differences"}
+{"id": "W2038466635", "keep": false, "why": "Collatz functions, unrelated"}
+{"id": "W2040015983", "keep": false, "why": "covering systems, different object"}
+{"id": "W2058073416", "keep": false, "why": "tree primality, unrelated"}
+{"id": "W2155187680", "keep": true, "why": "integer sets with distinct differences"}
+{"id": "W2168333587", "keep": false, "why": "covering numbers, different object"}
+{"id": "W2530839785", "keep": false, "why": "primitive covering numbers, different object"}
+{"id": "W2546062833", "keep": false, "why": "graph labeling, unrelated"}
+{"id": "W2756213202", "keep": true, "why": "Ramsey and additive number theory methods"}
+{"id": "W2897846290", "keep": true, "why": "Sidon sets, related"}
+{"id": "W2919772532", "keep": true, "why": "Erdos sumset conjecture proof"}
+{"id": "W2938910622", "keep": false, "why": "covering systems, different object"}
+{"id": "W2943918691", "keep": true, "why": "equal subset sums, Sidon-type"}
+{"id": "W2946048198", "keep": true, "why": "sumset configurations in dense sets"}
+{"id": "W2949709867", "keep": true, "why": "thin additive bases, related"}
+{"id": "W2964411006", "keep": false, "why": "coprime graph labeling, unrelated"}
+{"id": "W3038894848", "keep": false, "why": "prime gaps, different object"}
+{"id": "W3040332716", "keep": false, "why": "Riemann hypothesis claim, unrelated"}
+{"id": "W3106700732", "keep": false, "why": "divisibility of random samples, different object"}
+{"id": "W3107354381", "keep": false, "why": "ergodic Ramsey theory, unrelated"}
+{"id": "W3130072254", "keep": false, "why": "prime gap bounds, different object"}
+{"id": "W3133489831", "keep": false, "why": "Nicholson conjecture, unclear object"}
+{"id": "W3182414143", "keep": false, "why": "coprime graph Hamiltonicity, unrelated"}
+{"id": "W3206378641", "keep": false, "why": "congruent number problem, unrelated"}
+{"id": "W39515261", "keep": false, "why": "coprime integer sets, different object"}
+{"id": "W4205910638", "keep": false, "why": "Riemann hypothesis claim, unrelated"}
+{"id": "W4236705909", "keep": true, "why": "unclear introduction, possibly related"}
+{"id": "W4389115478", "keep": true, "why": "trigonometric polynomials with cube frequencies"}
+{"id": "W4392641268", "keep": false, "why": "Ramsey history, unrelated"}
+{"id": "W4401210516", "keep": true, "why": "untitled record, unclear"}
+{"id": "W4401210571", "keep": true, "why": "Erdos B+B+t conjecture"}
+{"id": "W4404188127", "keep": true, "why": "unrestricted sumsets in dense sets"}
+{"id": "W4408552919", "keep": true, "why": "combinatorial properties of big sets, unclear"}
+{"id": "W4414487897", "keep": true, "why": "density finite sums theorem"}
+{"id": "W4414688548", "keep": true, "why": "infinite sumset configurations"}
+{"id": "W63284382", "keep": false, "why": "coprime-free sets, different object"}
+{"id": "W7128476013", "keep": true, "why": "Sidon sets with powers in intervals"}
+{"id": "W7136250252", "keep": false, "why": "journal title, unrelated"}
+{"id": "W91574864", "keep": false, "why": "quasi-integers common divisor, different object"}
+{"id": "W93140271", "keep": true, "why": "extremal problems in NT and combinatorics"}

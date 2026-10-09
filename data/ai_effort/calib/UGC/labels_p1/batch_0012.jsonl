@@ -1,0 +1,40 @@
+{"id": "W2256256972", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "low-degree long code PCP"}
+{"id": "W2257080673", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "maximum acyclic subgraph thesis"}
+{"id": "W2258079515", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Lasserre formulations"}
+{"id": "W2258798086", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "non-unique games for cryo-EM"}
+{"id": "W2260276383", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph Laplacian"}
+{"id": "W2269732096", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Min CSP characterization"}
+{"id": "W2270781570", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "linear arrangement"}
+{"id": "W2272705023", "include": "yes", "category": "G", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "hardness for minimum unique games and small set expansion under a hypothesis"}
+{"id": "W2272853635", "include": "yes", "category": "A", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "randomized algorithm and bound for the unique games problem"}
+{"id": "W2277469547", "include": "yes", "category": "S", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "complexity of unique games and graph expansion"}
+{"id": "W228077171", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonlocal correlations"}
+{"id": "W2282473939", "include": "borderline", "category": "C", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "expansion of graph powers including small set expansion"}
+{"id": "W2285223547", "include": "borderline", "category": "G", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "NP-hardness for 2-Lin, the alphabet-2 unique games case"}
+{"id": "W2286679426", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "lift-and-project thesis"}
+{"id": "W2286706273", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "vertex cover gaps"}
+{"id": "W2289072789", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP/SDP reductions"}
+{"id": "W2290522125", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS spectral algorithms"}
+{"id": "W2293371160", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "covering CSPs"}
+{"id": "W2293386845", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "compressed sensing SoS"}
+{"id": "W2300719146", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "noise stability"}
+{"id": "W2302438773", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "tensor completion"}
+{"id": "W2304492655", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Horn function hardness"}
+{"id": "W2306186691", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS lower bounds"}
+{"id": "W2307719096", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "projection games thesis"}
+{"id": "W2327131051", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut variants"}
+{"id": "W2327680971", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "log Sobolev"}
+{"id": "W232814632", "include": "borderline", "category": "F", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Lasserre CSP gaps and reductions"}
+{"id": "W2331602765", "include": "yes", "category": "S", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "survey on inapproximability, Fourier analysis and UGC"}
+{"id": "W2336106727", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "high dimensional random walks"}
+{"id": "W2341022752", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planted clique SoS"}
+{"id": "W2342359613", "include": "yes", "category": "S", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "lecture notes on approximation algorithms for unique games"}
+{"id": "W2343841970", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "parameterized algorithm for node unique label cover"}
+{"id": "W2345432430", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "strong refutation of random CSPs"}
+{"id": "W2345473721", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph Laplacian"}
+{"id": "W2345608018", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "certifying random polynomials"}
+{"id": "W2346393863", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "local clustering"}
+{"id": "W2351811947", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "binary polynomial SoS"}
+{"id": "W235419749", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for Max 2SAT hardness"}
+{"id": "W2394794047", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "hypercontractive inequality"}
+{"id": "W2395905123", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "direct product testing"}

@@ -1,0 +1,33 @@
+# summary file (not a single solve); extra summary_* keys beyond README schema
+id: "svp_challenge_hof_summary"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge hall of fame (summary)"
+instance_size: 210
+instance_size_unit: "dim"
+log2_ops: null
+method: null
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2026-01-01"
+solvers: null
+academic: null
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php"]
+confidence: 0.9
+verified: false
+notes: "Read 2026-10-09. Approx-SVP: entry requires norm < 1.05*GH on Goldstein-Mayer random lattices (or shorter vector in an already-solved dim). Top dimension 210 (Ding & Zhao, bgj3-gpu, dated 2026-01-01). HoF keeps multiple entries per dimension; 'entries' counts every row in the complete list."
+summary_total_entries: 1010
+summary_distinct_dimensions: 149
+summary_date_range: ["2010-05-11", "2026-10-08"]
+summary_entries_per_year: {"2010": 67, "2011": 19, "2012": 16, "2013": 98, "2014": 56, "2015": 21, "2016": 56, "2017": 33, "2018": 57, "2019": 81, "2020": 8, "2021": 245, "2022": 55, "2023": 8, "2024": 24, "2025": 10, "2026": 156}
+summary_progression_record_count: 36
+summary_top_entry: {"dimension": 210, "norm": "3808", "contestant": "Jintai Ding, Ziyu Zhao", "date": "2026-01-01", "approx_factor": "1.04497"}
+summary_csv: "svp_challenge_hof.csv"

@@ -1,0 +1,100 @@
+{"id": "W1005731694", "keep": false, "why": "permutations without long progressions, unrelated object"}
+{"id": "W1022649828", "keep": false, "why": "progression-containing sets, different object"}
+{"id": "W1150686645", "keep": true, "why": "sum-free sequences, additive combinatorics"}
+{"id": "W132395906", "keep": true, "why": "sum-free sets, additive combinatorics"}
+{"id": "W1419628688", "keep": true, "why": "Graham problem on integer sequences"}
+{"id": "W142455466", "keep": true, "why": "sumsets of integers, related structure"}
+{"id": "W148580239", "keep": true, "why": "integral bases, additive sequences"}
+{"id": "W1489006728", "keep": true, "why": "Erdos-Graham combinatorial number theory survey"}
+{"id": "W152445509", "keep": true, "why": "sum-product phenomenon, related"}
+{"id": "W1526863665", "keep": false, "why": "Catalan equation, unrelated"}
+{"id": "W1537054460", "keep": true, "why": "additive bases density, related"}
+{"id": "W1544799042", "keep": true, "why": "general number theory problems compendium"}
+{"id": "W1549301089", "keep": true, "why": "Erdos sumset conjecture"}
+{"id": "W1551680922", "keep": true, "why": "general book on integer sequences"}
+{"id": "W1555768633", "keep": true, "why": "structural theory of set addition"}
+{"id": "W1561472112", "keep": false, "why": "prime factors of consecutive integers, unrelated"}
+{"id": "W1563756929", "keep": true, "why": "Erdos-Renyi conjecture, unclear"}
+{"id": "W1569122547", "keep": true, "why": "signed integer sums representation, additive"}
+{"id": "W1593433469", "keep": true, "why": "sums and products of finite sets"}
+{"id": "W1595828591", "keep": true, "why": "integer sequences remark, unclear"}
+{"id": "W159613098", "keep": false, "why": "covering sets, unrelated"}
+{"id": "W1597834884", "keep": false, "why": "Peano arithmetic incompleteness, unrelated"}
+{"id": "W1603225653", "keep": false, "why": "consecutive integer factorisation, unrelated"}
+{"id": "W1634656560", "keep": false, "why": "prime factor counting, unrelated"}
+{"id": "W1661292865", "keep": false, "why": "covering systems of congruences"}
+{"id": "W167383275", "keep": false, "why": "analytic number theory parity, unrelated"}
+{"id": "W1705463008", "keep": false, "why": "hypergraph regularization, unrelated"}
+{"id": "W1718118126", "keep": true, "why": "bases of natural numbers, additive"}
+{"id": "W177593908", "keep": true, "why": "sums and products counting, related"}
+{"id": "W1821981504", "keep": true, "why": "sums and products of integers"}
+{"id": "W1878148766", "keep": false, "why": "zeta irrationality proof, unrelated"}
+{"id": "W1897701252", "keep": true, "why": "sums and products of integers"}
+{"id": "W19324417", "keep": true, "why": "linear forms density, Rado-type"}
+{"id": "W1963587264", "keep": true, "why": "Erdos conjecture, unclear"}
+{"id": "W1964335268", "keep": false, "why": "prime number graph, unrelated"}
+{"id": "W1964445489", "keep": false, "why": "covering systems, unrelated"}
+{"id": "W1965240615", "keep": false, "why": "aliquot sequences, unrelated"}
+{"id": "W1965839947", "keep": false, "why": "cubic residues machine proof, unrelated"}
+{"id": "W1967134880", "keep": false, "why": "permutation periodicity, unrelated"}
+{"id": "W1967909233", "keep": true, "why": "additive number theory, related"}
+{"id": "W1970366772", "keep": false, "why": "ergodic Szemeredi, different method and object"}
+{"id": "W1972786864", "keep": false, "why": "table of series, unrelated"}
+{"id": "W1972853075", "keep": false, "why": "factorial diophantine equation, unrelated"}
+{"id": "W1972958674", "keep": false, "why": "primes and powers of two, unrelated"}
+{"id": "W1975270114", "keep": true, "why": "additive number theory problem"}
+{"id": "W1978816967", "keep": false, "why": "covering sets roots of unity"}
+{"id": "W1978976963", "keep": true, "why": "additive bases, minimal and maximal nonbases"}
+{"id": "W1980033960", "keep": false, "why": "totient function, unrelated"}
+{"id": "W1981696777", "keep": false, "why": "Lefschetz and Sperner, unrelated"}
+{"id": "W1983812624", "keep": true, "why": "ordered sums of group elements"}
+{"id": "W1986865672", "keep": false, "why": "Euclidean plane Ramsey, geometry"}
+{"id": "W1987346952", "keep": true, "why": "partitions and sums of products"}
+{"id": "W1989548622", "keep": true, "why": "density of integer sequences"}
+{"id": "W1989597834", "keep": false, "why": "multiplicative function sums, unrelated"}
+{"id": "W1989630703", "keep": true, "why": "asymptotic nonbases, additive"}
+{"id": "W1990804711", "keep": false, "why": "completely multiplicative sign functions"}
+{"id": "W1991804572", "keep": false, "why": "prime powers sums, unrelated"}
+{"id": "W1994803663", "keep": false, "why": "consecutive integers large primes, unrelated"}
+{"id": "W1995296546", "keep": true, "why": "addition theorem, sumset tool"}
+{"id": "W1996285409", "keep": true, "why": "Hindman theorem, directly relevant"}
+{"id": "W1997681421", "keep": true, "why": "finite sums in partition cells"}
+{"id": "W1999318585", "keep": false, "why": "cubic residue bounds, unrelated"}
+{"id": "W1999426642", "keep": false, "why": "power residues bounds, unrelated"}
+{"id": "W1999682169", "keep": true, "why": "recursively defined integer sets, unclear"}
+{"id": "W2002063814", "keep": false, "why": "irregularities relative to progressions, unrelated"}
+{"id": "W2002288087", "keep": false, "why": "primes in progression, unrelated"}
+{"id": "W2004479099", "keep": true, "why": "intersection properties of integer subsets"}
+{"id": "W2008037211", "keep": true, "why": "multiplicative bases density"}
+{"id": "W2008476758", "keep": false, "why": "irregularities of sequences, unrelated"}
+{"id": "W2009196521", "keep": true, "why": "integer sequences, Erdos-type"}
+{"id": "W2010717824", "keep": false, "why": "irrationality of infinite products"}
+{"id": "W2011033909", "keep": false, "why": "Euler power sums counterexample"}
+{"id": "W2011125666", "keep": false, "why": "binary form representations, unrelated"}
+{"id": "W2011601728", "keep": true, "why": "additive number theory problem"}
+{"id": "W2011671869", "keep": false, "why": "Steiner triple systems, unrelated"}
+{"id": "W2013576033", "keep": false, "why": "prime divisors count, unrelated"}
+{"id": "W2014507113", "keep": false, "why": "prime factors of central binomials"}
+{"id": "W2014985855", "keep": false, "why": "sums of cubes, unrelated"}
+{"id": "W2015305877", "keep": false, "why": "distinct unit fractions, different object"}
+{"id": "W2019447247", "keep": false, "why": "maximal length functions, unrelated"}
+{"id": "W2020173739", "keep": false, "why": "partitioning vector spaces, unrelated"}
+{"id": "W2020272617", "keep": true, "why": "sums of distinct elements from set"}
+{"id": "W2021073476", "keep": true, "why": "Waring converse, representation as sums"}
+{"id": "W2021414653", "keep": true, "why": "extremal number theory problem"}
+{"id": "W2023011716", "keep": true, "why": "sequences of integers, Erdos-type"}
+{"id": "W2023397165", "keep": true, "why": "partitions with sums and products"}
+{"id": "W2023600080", "keep": false, "why": "no three-term progressions, different object"}
+{"id": "W2024478370", "keep": false, "why": "prime distribution questions, unrelated"}
+{"id": "W2029209732", "keep": true, "why": "inverse Goldbach, additive problem"}
+{"id": "W2030828770", "keep": true, "why": "van der Waerden partitions, Ramsey"}
+{"id": "W2031184395", "keep": true, "why": "additive structure of multiplicative sets"}
+{"id": "W2032743713", "keep": true, "why": "multidimensional Ramsey theorems"}
+{"id": "W2034596135", "keep": true, "why": "primitive sequences, Erdos"}
+{"id": "W2038010519", "keep": true, "why": "van der Waerden number bounds"}
+{"id": "W2038497135", "keep": false, "why": "multiplicative function means, unrelated"}
+{"id": "W2039456297", "keep": false, "why": "probabilistic group theory, unrelated"}
+{"id": "W2039481459", "keep": true, "why": "reciprocal bases of integers"}
+{"id": "W2039627336", "keep": true, "why": "densities of integer sets"}
+{"id": "W2041727161", "keep": false, "why": "primes of form k2^n+1, unrelated"}
+{"id": "W2043191005", "keep": true, "why": "extremal sum-free sequences"}

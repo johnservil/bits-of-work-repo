@@ -1,0 +1,40 @@
+{"id": "W4244591610", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-product"}
+{"id": "W4245912398", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Hanani question different"}
+{"id": "W4252109114", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "book chapter preliminaries"}
+{"id": "W4253784147", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture"}
+{"id": "W4254110683", "include": "yes", "category": "E", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Lunnon minimal SSD sets, Conway-Guy search (duplicate record)"}
+{"id": "W4254284286", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "B2 sequences"}
+{"id": "W4302383489", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Guy unsolved problems book, may list problem"}
+{"id": "W4363672267", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "extends Elkies bound on distinct subset sums"}
+{"id": "W4376878199", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "infinite sumsets"}
+{"id": "W4380876779", "include": "borderline", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "higher-degree generalization of distinct sums problem"}
+{"id": "W4386984735", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sumsets prime field"}
+{"id": "W4390105475", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Sidon sets"}
+{"id": "W4391428404", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "alternating prime series"}
+{"id": "W4396523507", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "prime avoiding basis"}
+{"id": "W4401210516", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "B+B+t conjecture"}
+{"id": "W4401210571", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "B+B+t conjecture"}
+{"id": "W4402258857", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "prime avoiding basis"}
+{"id": "W4404188127", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "infinite sumsets"}
+{"id": "W4406122334", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "distinct subset products, multiplicative analogue"}
+{"id": "W4406810291", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "product sets amenable groups"}
+{"id": "W4407231387", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Sidon set diameter"}
+{"id": "W4408552919", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "big sets review"}
+{"id": "W4408558795", "include": "borderline", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "variants of distinct sums problem via variance method"}
+{"id": "W4412617408", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "special SSD sets of powers, sufficiency condition"}
+{"id": "W4414261623", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "economical additive basis"}
+{"id": "W4414487897", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "density finite sums"}
+{"id": "W4414688548", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "infinite sumset problems"}
+{"id": "W51500770", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "ultrafilters"}
+{"id": "W63284382", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sets without coprimes"}
+{"id": "W651535583", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "elementary number theory problem book"}
+{"id": "W658849301", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "combinatorial theory proceedings"}
+{"id": "W7125690810", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.2, "reason": "note on Erdos remark, title alone"}
+{"id": "W7136250252", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "AP papers history"}
+{"id": "W759014763", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos problems to be solved, may include it"}
+{"id": "W842301775", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "residue class addition"}
+{"id": "W874532184", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "random sequences additive properties"}
+{"id": "W915366989", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "different Erdos-Stein problem"}
+{"id": "W91574864", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "common divisor sets"}
+{"id": "W93140271", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "extremal problems general"}
+{"id": "W971488519", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Erdos-Heilbronn conjecture"}

@@ -1,0 +1,8 @@
+.DS_Store
+# raw source pulls are reproducible; re-harvest on a new machine (see STATUS.md)
+data/raw/
+*.part
+__pycache__/
+logs/
+# White-paper compilation and visual QA intermediates
+/tmp/pdfs/

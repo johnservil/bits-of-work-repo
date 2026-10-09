@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_qc_n1766"
+class: "code"
+problem: "SD-QC"
+instance: "decodingchallenge qc n=1766 w=42"
+instance_size: 1766
+instance_size_unit: "n"
+log2_ops: 42.0
+method: "Dumer + DOOM"
+structure_exploited: true
+hardware: "Xeon E5-2695 v4"
+raw_compute: "runtime: 1150 h; hardware: Xeon E5-2695 v4"
+reported_core_years: 0.131189
+gpu_years: null
+wall_time_days: null
+date: "2019-10-26"
+solvers: ["Valentin Vasseur"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/q-c/record/16"
+other_urls: ["https://decodingchallenge.org/q-c/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 2 - Université de Limoges; DOOM/QC structure exploited; \"1150 h\" marked CPU time."

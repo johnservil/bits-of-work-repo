@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "ws2021_lpn_codedbkw"
+class: "code"
+problem: "LPN"
+instance: "largest LPN parameters reported to date (exact k, tau unconfirmed)"
+instance_size: null
+instance_size_unit: "dim"
+log2_ops: null
+method: "memory-constrained Coded-BKW"
+structure_exploited: false
+hardware: null
+raw_compute: "2^39 bits of memory (abstract); unconfirmed: n=150, tau=0.25 in < 5 h on 80 cores per a secondary citation"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2021-07"
+solvers: ["Thom Wiggers", "Simona Samardjiska"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "2021/962"
+source_url: "https://eprint.iacr.org/2021/962"
+other_urls: ["https://github.com/thomwiggers/lpn"]
+confidence: 0.3
+verified: false
+notes: "ISIT 2021. PDF blocked (Cloudflare); instance and time come only from a search-engine summary of a later paper citing [WS21] - treat as unconfirmed."

@@ -1,0 +1,25 @@
+id: "svpc_d114_20110321_kuo"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 114 (seed 0)"
+instance_size: 114
+instance_size_unit: "dim"
+log2_ops: null
+method: "GPU enumeration + BKZ"
+structure_exploited: false
+hardware: "8x NVIDIA GTX 480"
+raw_compute: "GPUENUM on 8 GTX 480, total time 139382 s"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2011-03-21"
+solvers: ["Po-Chun Kuo", "Michael Schneider"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Record progression entry (new max dimension). HoF: norm 2778, seed 0, approx factor 1.02605, algorithm tag 'ENUM,BKZ'. Unclear whether 'total time' is wall or summed GPU time. Likely the Kuo et al. CHES 2011 GPU/cloud enumeration work (unconfirmed)."

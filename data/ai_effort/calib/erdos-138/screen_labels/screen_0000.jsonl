@@ -1,0 +1,100 @@
+{"id": "W1005731694", "keep": true, "why": "permutations avoiding long APs, vdW-related"}
+{"id": "W1022649828", "keep": true, "why": "sets with k-term APs"}
+{"id": "W1028621989", "keep": false, "why": "set-system intersection theorems, unrelated"}
+{"id": "W1139904961", "keep": true, "why": "extremal graphs and additive combinatorics"}
+{"id": "W1150686645", "keep": true, "why": "sum-free sequences, reciprocal sums"}
+{"id": "W12814419", "keep": true, "why": "van der Waerden number bounds"}
+{"id": "W132395906", "keep": true, "why": "sum-free sets and sequences"}
+{"id": "W1419628688", "keep": true, "why": "Graham number-theoretic problem, related"}
+{"id": "W142455466", "keep": true, "why": "sumsets of k-free integers"}
+{"id": "W1482860631", "keep": true, "why": "hypergraph colouring, vdW lower-bound methods"}
+{"id": "W1485607385", "keep": true, "why": "combinatorics computational methods, unclear"}
+{"id": "W148580239", "keep": true, "why": "integer bases, computer experiments"}
+{"id": "W1489006728", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "W1491663468", "keep": true, "why": "arithmetic progressions in colourings"}
+{"id": "W1522191817", "keep": true, "why": "cyclic zippers, vdW lower bounds"}
+{"id": "W152445509", "keep": true, "why": "sum-product phenomenon"}
+{"id": "W1526863665", "keep": false, "why": "Catalan equation, unrelated"}
+{"id": "W1527296085", "keep": false, "why": "common divisor sets, different object"}
+{"id": "W1527392485", "keep": false, "why": "pairwise balanced designs, unrelated"}
+{"id": "W1530753374", "keep": false, "why": "graphs and hypergraphs book, unrelated"}
+{"id": "W1537054460", "keep": true, "why": "additive bases density"}
+{"id": "W1544799042", "keep": true, "why": "number theory problem selection"}
+{"id": "W1549301089", "keep": true, "why": "Erdos sumset conjecture"}
+{"id": "W1550116674", "keep": true, "why": "Hales-Jewett number bounds"}
+{"id": "W1551680922", "keep": true, "why": "sequences of integers book"}
+{"id": "W1555768633", "keep": true, "why": "structural theory of set addition"}
+{"id": "W1561472112", "keep": false, "why": "prime factors of consecutive integers, different object"}
+{"id": "W1563756929", "keep": true, "why": "Erdos-Renyi conjecture, unclear"}
+{"id": "W1569122547", "keep": true, "why": "signed sums representing zero"}
+{"id": "W156958920", "keep": false, "why": "polynomial method in combinatorics, unrelated"}
+{"id": "W1588302645", "keep": true, "why": "coloring and extremal problems, unclear"}
+{"id": "W1593433469", "keep": true, "why": "sums and products of real sets"}
+{"id": "W1595828591", "keep": true, "why": "integer sequences, related"}
+{"id": "W159613098", "keep": true, "why": "covering sets of integers"}
+{"id": "W1597834884", "keep": false, "why": "Peano arithmetic incompleteness, unrelated"}
+{"id": "W1603225653", "keep": false, "why": "factorisation of consecutive integers, different object"}
+{"id": "W161093273", "keep": false, "why": "legitimate deck problem, unrelated"}
+{"id": "W1634656560", "keep": false, "why": "distinct prime factors, different object"}
+{"id": "W1647045970", "keep": true, "why": "vdW number upper bound, simple proof"}
+{"id": "W1656795039", "keep": false, "why": "four colour theorem, unrelated"}
+{"id": "W1661292865", "keep": true, "why": "covering systems and sieving"}
+{"id": "W1663749032", "keep": true, "why": "combinatorial number theory survey"}
+{"id": "W167383275", "keep": false, "why": "analytic number theory thesis, different object"}
+{"id": "W170265681", "keep": true, "why": "infinite and finite sets, unclear"}
+{"id": "W1705463008", "keep": false, "why": "hypergraph regularization, unrelated"}
+{"id": "W1718118126", "keep": true, "why": "bases of natural numbers"}
+{"id": "W173859600", "keep": false, "why": "plane distances, unrelated"}
+{"id": "W177593908", "keep": true, "why": "sums and products counts"}
+{"id": "W178333808", "keep": true, "why": "Ramsey theory history, vdW"}
+{"id": "W1789100819", "keep": false, "why": "finite product sets, unrelated"}
+{"id": "W1821981504", "keep": true, "why": "sums and products of integers"}
+{"id": "W1835305721", "keep": false, "why": "ordered Turan problem, unrelated"}
+{"id": "W1839185622", "keep": true, "why": "Ramsey theory in Erdos work"}
+{"id": "W1850799998", "keep": true, "why": "k-fold Sidon sets"}
+{"id": "W186143519", "keep": true, "why": "open problems in additive combinatorics"}
+{"id": "W1878148766", "keep": false, "why": "Euler and Apery irrationality, unrelated"}
+{"id": "W1897701252", "keep": true, "why": "sums and products of integers"}
+{"id": "W1900663752", "keep": true, "why": "satisfiability and van der Waerden numbers"}
+{"id": "W1919156896", "keep": true, "why": "B_k^+ sets, additive bases"}
+{"id": "W19324417", "keep": true, "why": "extremal density theorems for linear forms"}
+{"id": "W1947129526", "keep": true, "why": "hypergraph colourings, vdW-related"}
+{"id": "W1947306769", "keep": false, "why": "mixed prime sums, different object"}
+{"id": "W1954214817", "keep": false, "why": "Latin squares, unrelated"}
+{"id": "W1963587264", "keep": true, "why": "Erdos conjecture, unclear"}
+{"id": "W1963997033", "keep": true, "why": "monochromatic progressions in colourings"}
+{"id": "W1964335268", "keep": false, "why": "prime number graph, different object"}
+{"id": "W1964445489", "keep": true, "why": "covering systems of congruences"}
+{"id": "W1965240615", "keep": false, "why": "aliquot sequences, unrelated"}
+{"id": "W1965839947", "keep": false, "why": "cubic residues machine proof, unrelated"}
+{"id": "W1966279781", "keep": false, "why": "group covers by cosets, unrelated"}
+{"id": "W1966494790", "keep": true, "why": "Graham gcd problem"}
+{"id": "W1967134880", "keep": false, "why": "permutation periodicity, unrelated"}
+{"id": "W1967546560", "keep": false, "why": "graph homomorphisms and density, unrelated"}
+{"id": "W1967909233", "keep": true, "why": "additive number theory, related"}
+{"id": "W1970366772", "keep": true, "why": "Szemeredi theorem on APs"}
+{"id": "W1971010887", "keep": false, "why": "graph chromatic number, unrelated"}
+{"id": "W1972786864", "keep": false, "why": "table of series, unrelated"}
+{"id": "W1972853075", "keep": false, "why": "factorial diophantine equation, unrelated"}
+{"id": "W1972958674", "keep": false, "why": "primes and powers of two, different object"}
+{"id": "W1974047440", "keep": true, "why": "hypergraph colouring, vdW-related"}
+{"id": "W1975270114", "keep": true, "why": "additive number theory problem"}
+{"id": "W1975858565", "keep": false, "why": "primes plus powers of two, different object"}
+{"id": "W1977242405", "keep": true, "why": "nonaveraging sets, related"}
+{"id": "W1978816967", "keep": false, "why": "roots of unity covering, different object"}
+{"id": "W1978976963", "keep": true, "why": "additive bases and nonbases"}
+{"id": "W1980033960", "keep": false, "why": "phi function values, different object"}
+{"id": "W1981696777", "keep": false, "why": "Sperner property, unrelated"}
+{"id": "W1982270970", "keep": false, "why": "extremal graph theory review, unrelated"}
+{"id": "W1982373193", "keep": false, "why": "infinite graph colouring, unrelated"}
+{"id": "W1983459300", "keep": true, "why": "covering systems in number fields"}
+{"id": "W1983527280", "keep": false, "why": "Ramsey-type graph problem, unrelated"}
+{"id": "W1983812624", "keep": false, "why": "ordered group sums, different object"}
+{"id": "W1986233232", "keep": false, "why": "extremal graph problem, unrelated"}
+{"id": "W1986865672", "keep": false, "why": "planar Ramsey theorems, unrelated"}
+{"id": "W1988370884", "keep": true, "why": "van der Waerden and Ramsey games"}
+{"id": "W1989548622", "keep": true, "why": "density of integer sequences"}
+{"id": "W1989597834", "keep": false, "why": "multiplicative function sums, different object"}
+{"id": "W1989630703", "keep": true, "why": "maximal asymptotic nonbases, additive"}
+{"id": "W1989727117", "keep": true, "why": "vdW function and hypergraph colourings"}
+{"id": "W1990804711", "keep": false, "why": "multiplicative functions, different object"}

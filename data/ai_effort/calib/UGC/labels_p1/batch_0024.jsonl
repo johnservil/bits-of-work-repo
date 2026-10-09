@@ -1,0 +1,12 @@
+{"id": "W620970122", "include": "borderline", "category": "G", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "small set expansion conjecture hardness results"}
+{"id": "W7123344146", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "edge expansion SDP computation"}
+{"id": "W7162252375", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "distributed sparsest cut"}
+{"id": "W7163992805", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "k-CSP NP-hardness"}
+{"id": "W7164005843", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "list decodable codes"}
+{"id": "W7164505600", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bipartiteness ratio"}
+{"id": "W7213586897", "include": "yes", "category": "E", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "computational search for degree-4 Lasserre gaps for unique games"}
+{"id": "W765055999", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "rational proofs"}
+{"id": "W782508147", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "packing integer programs"}
+{"id": "W791130099", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "balanced CSP complexity"}
+{"id": "W792200198", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "random walk convergence"}
+{"id": "W829873228", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "digraph ordering"}

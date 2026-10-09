@@ -1,0 +1,25 @@
+id: "svp_d96_2015_mariano_laarhoven_bischof"
+class: "lattice"
+problem: "SVP"
+instance: "SVP on an arbitrary lattice dim 96 (HashSieve)"
+instance_size: 96
+instance_size_unit: "dim"
+log2_ops: null
+method: "parallel lock-free HashSieve"
+structure_exploited: false
+hardware: "16 physical cores (shared memory)"
+raw_compute: "under 17.5 hours on 16 cores"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.729
+date: "2015-01"
+solvers: ["Artur Mariano", "Thijs Laarhoven", "Christian Bischof"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2015/041"
+source_url: "https://eprint.iacr.org/2015/041"
+other_urls: []
+confidence: 0.7
+verified: false
+notes: "Heuristic exact-SVP sieve. Whether the lattice was an SVP-challenge instance is not stated in the abstract (unconfirmed). Fit: time ~2^(0.32n-15) s. ICPP 2015."

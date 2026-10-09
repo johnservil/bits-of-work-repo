@@ -1,0 +1,25 @@
+id: "ideal_svp_d128_2014_bos_naehrig_vandepol"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "negacyclic ideal lattice dim 128 (Ideal Lattice Challenge instance)"
+instance_size: 128
+instance_size_unit: "dim"
+log2_ops: null
+method: "parallel Gauss sieve with symbolic-Fourier-transform ideal speedups"
+structure_exploited: true
+hardware: "1024 cores"
+raw_compute: "under nine days on 1024 cores"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 9
+date: "2014-10"
+solvers: ["Joppe W. Bos", "Michael Naehrig", "Joop van de Pol"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2014/880"
+source_url: "https://eprint.iacr.org/2014/880"
+other_urls: []
+confidence: 0.7
+verified: false
+notes: "Re-solve of the dim-128 ideal lattice (same lattice as the 2013 Ishiguro et al. record) on the same hardware, >2x faster; wall_time is an upper bound. Authors at industrial research labs and a university (research-lab work, academic=true). Exact vs approx target not stated in abstract."

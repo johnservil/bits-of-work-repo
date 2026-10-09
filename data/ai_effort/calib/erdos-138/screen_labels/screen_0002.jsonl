@@ -1,0 +1,100 @@
+{"id": "W2065042838", "keep": true, "why": "sumsets in integer sets"}
+{"id": "W2065880080", "keep": false, "why": "consecutive integer combinations, unrelated"}
+{"id": "W2066637298", "keep": true, "why": "covering integers by congruences"}
+{"id": "W2067189483", "keep": true, "why": "partitions avoiding long APs"}
+{"id": "W2068131989", "keep": true, "why": "bases for integer sets"}
+{"id": "W2069040548", "keep": false, "why": "Ramsey numbers for cycles, unrelated"}
+{"id": "W2069220307", "keep": true, "why": "multiple recurrence, Szemeredi-type"}
+{"id": "W2069367490", "keep": false, "why": "geometry combinatorial problem, unrelated"}
+{"id": "W2070496958", "keep": true, "why": "combinatorics studies, unclear"}
+{"id": "W2071163682", "keep": true, "why": "Behrend-type AP-free sequences"}
+{"id": "W2072075682", "keep": true, "why": "arithmetic progressions remark"}
+{"id": "W2073127444", "keep": false, "why": "factorial prime powers, different object"}
+{"id": "W2073594241", "keep": false, "why": "Erdos-Straus-Schinzel problem, unclear"}
+{"id": "W2074455580", "keep": true, "why": "local lemma lower bound for vdW"}
+{"id": "W2075084424", "keep": false, "why": "graph reconstruction, unrelated"}
+{"id": "W2076244356", "keep": false, "why": "Boolean function values, unrelated"}
+{"id": "W2076721162", "keep": true, "why": "van der Waerden-like numbers"}
+{"id": "W2077900329", "keep": true, "why": "exactly covering systems"}
+{"id": "W2079979850", "keep": true, "why": "additive addition theorems"}
+{"id": "W2080123161", "keep": true, "why": "non-repetitive sequences, related"}
+{"id": "W2081918372", "keep": true, "why": "bounds on van der Waerden numbers"}
+{"id": "W2082471372", "keep": true, "why": "density and pairwise sums of integers"}
+{"id": "W2083028555", "keep": false, "why": "convex position points, unrelated"}
+{"id": "W2085477555", "keep": true, "why": "partitions with equal products"}
+{"id": "W2086041665", "keep": true, "why": "differences of sets, Graham problem"}
+{"id": "W2086173715", "keep": true, "why": "lower bound for vdW functions"}
+{"id": "W2087567316", "keep": false, "why": "subsets of finite set, unrelated"}
+{"id": "W2087839647", "keep": false, "why": "zerofree sequences, different object"}
+{"id": "W2088100739", "keep": true, "why": "signed sums of reciprocals"}
+{"id": "W2088212677", "keep": true, "why": "ergodic Szemeredi theorem"}
+{"id": "W2088339746", "keep": true, "why": "complementary sets of integers"}
+{"id": "W2088870864", "keep": true, "why": "Ramsey-type problems with symmetry"}
+{"id": "W2090294545", "keep": true, "why": "Ramsey product theorem"}
+{"id": "W2093164441", "keep": false, "why": "harmonic series remark, unrelated"}
+{"id": "W2093318356", "keep": false, "why": "distances in Euclidean sets, unrelated"}
+{"id": "W2093699365", "keep": false, "why": "pairwise balanced designs, unrelated"}
+{"id": "W2093960689", "keep": true, "why": "vdW function and hypergraph colourings"}
+{"id": "W2095095818", "keep": false, "why": "Frobenius linear Diophantine problem, different object"}
+{"id": "W2095366228", "keep": false, "why": "multicasting compression, unrelated"}
+{"id": "W2095689360", "keep": true, "why": "Ramsey 1930 formal logic paper"}
+{"id": "W2097926077", "keep": false, "why": "prime factors of binomials, different object"}
+{"id": "W2104145910", "keep": false, "why": "Ramsey numbers for cycles, unrelated"}
+{"id": "W2107062643", "keep": false, "why": "zero-free sequences in groups, different object"}
+{"id": "W2107863792", "keep": true, "why": "van der Waerden-like function growth"}
+{"id": "W2108900323", "keep": true, "why": "sets of integers, additive"}
+{"id": "W2110917011", "keep": false, "why": "well-quasi-ordering, unrelated"}
+{"id": "W2111220106", "keep": true, "why": "additive number theory results"}
+{"id": "W2111559003", "keep": false, "why": "random graph factors, unrelated"}
+{"id": "W2113268225", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "W2115034958", "keep": true, "why": "s-additive sequences"}
+{"id": "W2115811550", "keep": true, "why": "Erdos-Graham question"}
+{"id": "W2118381068", "keep": true, "why": "elementary NT and combinatorial problem"}
+{"id": "W2120600794", "keep": true, "why": "multiplicative representation of integers"}
+{"id": "W2121190404", "keep": false, "why": "extremal graph valence, unrelated"}
+{"id": "W2125817895", "keep": true, "why": "number theory remarks"}
+{"id": "W2126482858", "keep": true, "why": "lower bounds on vdW numbers"}
+{"id": "W2128000059", "keep": false, "why": "consecutive primes, different object"}
+{"id": "W2129834404", "keep": false, "why": "intersection theorems for set systems, unrelated"}
+{"id": "W2130828821", "keep": true, "why": "sum-free subsets of integer sets"}
+{"id": "W2131114615", "keep": false, "why": "subsets extremal problems, unrelated"}
+{"id": "W2132134025", "keep": true, "why": "integer sets without 4-term AP"}
+{"id": "W2134004237", "keep": true, "why": "random colouring, Erdos-Lovasz"}
+{"id": "W2134817795", "keep": false, "why": "density of odd integers, different object"}
+{"id": "W2136069334", "keep": true, "why": "progression-free sets, non-repetitive"}
+{"id": "W2138069615", "keep": true, "why": "integer sets without APs"}
+{"id": "W2138899395", "keep": false, "why": "quasi-ordering transfinite, unrelated"}
+{"id": "W2140028675", "keep": true, "why": "integers as sums of distinct terms"}
+{"id": "W2142443207", "keep": true, "why": "Erdos-Szemeredi sum-product"}
+{"id": "W2142683079", "keep": false, "why": "Euclidean Ramsey theorems, geometric"}
+{"id": "W2143569998", "keep": false, "why": "triangulated spheres, unrelated"}
+{"id": "W2143943120", "keep": true, "why": "unsolved problems, unclear"}
+{"id": "W2144100587", "keep": false, "why": "well ordered sets, unrelated"}
+{"id": "W2144937461", "keep": false, "why": "Ramsey symmetry, unrelated"}
+{"id": "W2145194305", "keep": false, "why": "chromatic number of set systems, unrelated"}
+{"id": "W2145433475", "keep": true, "why": "unconventional number theory problems"}
+{"id": "W2155187680", "keep": true, "why": "integer sets with distinct differences"}
+{"id": "W2157156052", "keep": false, "why": "strong perfect graph designs, unrelated"}
+{"id": "W2157316017", "keep": false, "why": "compression multicasting, unrelated"}
+{"id": "W2160948516", "keep": false, "why": "Euler totient, different object"}
+{"id": "W2162608281", "keep": true, "why": "APs in lacunary sets"}
+{"id": "W2162741579", "keep": false, "why": "extremal combinatorics results, unclear"}
+{"id": "W2162995963", "keep": true, "why": "combinatorial NT and geometry problems"}
+{"id": "W2163674569", "keep": true, "why": "integer sets with bounded AP terms"}
+{"id": "W2164149555", "keep": false, "why": "chromatic graph drawing, unrelated"}
+{"id": "W2166698266", "keep": true, "why": "Graham gcd conjecture"}
+{"id": "W2167821945", "keep": true, "why": "patterns in subsets, Ramsey-type"}
+{"id": "W2167913911", "keep": true, "why": "vdW lower bounds, method"}
+{"id": "W2168333587", "keep": false, "why": "covering numbers in designs, unrelated"}
+{"id": "W2169372219", "keep": true, "why": "history of van der Waerden theorem"}
+{"id": "W2169821423", "keep": true, "why": "combinatorial problems, Erdos"}
+{"id": "W2171872921", "keep": true, "why": "coloring hypergraphs, vdW-related"}
+{"id": "W2182823773", "keep": false, "why": "generalized graph Ramsey survey, unrelated"}
+{"id": "W2187843918", "keep": true, "why": "monochromatic structures in colourings of integers"}
+{"id": "W2218192738", "keep": false, "why": "hypergraph edge families, unrelated"}
+{"id": "W2219007921", "keep": true, "why": "Hilbert cube lemma and Rado theory"}
+{"id": "W2280285396", "keep": false, "why": "ring generation by units, unrelated"}
+{"id": "W228379338", "keep": true, "why": "Hanani conjecture, additive NT"}
+{"id": "W229079384", "keep": false, "why": "Frobenius linear Diophantine, different object"}
+{"id": "W23094635", "keep": true, "why": "restricted Hales-Jewett theorem"}
+{"id": "W2312673203", "keep": false, "why": "abelian group minimum, different object"}

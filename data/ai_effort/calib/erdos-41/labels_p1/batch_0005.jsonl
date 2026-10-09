@@ -1,0 +1,11 @@
+{"id": "W842301775", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different topic, not about Erdos 41 (distinct triple sums / B_3 sets)"}
+{"id": "W874532184", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different topic, not about Erdos 41 (distinct triple sums / B_3 sets)"}
+{"id": "W915366989", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different topic, not about Erdos 41 (distinct triple sums / B_3 sets)"}
+{"id": "W91574864", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different topic, not about Erdos 41 (distinct triple sums / B_3 sets)"}
+{"id": "W93140271", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different topic, not about Erdos 41 (distinct triple sums / B_3 sets)"}
+{"id": "W971488519", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different topic, not about Erdos 41 (distinct triple sums / B_3 sets)"}
+{"id": "W996473569", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different topic, not about Erdos 41 (distinct triple sums / B_3 sets)"}
+{"id": "seed:erdos-1-20", "include": "borderline", "category": "S", "weight": 0.03, "solves": false, "ai_assisted": false, "confidence": 0.25, "reason": "Erdos problem collection that may mention the problem"}
+{"id": "seed:erdos-1-25", "include": "borderline", "category": "S", "weight": 0.03, "solves": false, "ai_assisted": false, "confidence": 0.25, "reason": "Erdos favourite-problems collection that may mention the problem"}
+{"id": "seed:erdos-41-11", "include": "borderline", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "B_4 sequences: density result for the h=4 analogue of the liminf question"}
+{"id": "seed:erdos-41-12", "include": "borderline", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "B_2k sequences: analogue of the liminf question for even order"}

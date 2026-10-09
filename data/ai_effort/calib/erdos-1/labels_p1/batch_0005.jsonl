@@ -1,0 +1,40 @@
+{"id": "W2936249484", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "progression-free sets in Z_m^n"}
+{"id": "W2943918691", "include": "borderline", "category": "E", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "equal-subset-sum algorithm, loosely related"}
+{"id": "W2946048198", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sumset configurations"}
+{"id": "W2949709867", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "thin bases, edge-magic graphs"}
+{"id": "W2950922715", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-product"}
+{"id": "W2952362912", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "graph colourings"}
+{"id": "W2952416050", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Sidon bibliography"}
+{"id": "W2953338348", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "k-regular sequences"}
+{"id": "W2963410422", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "AP-free subset counting"}
+{"id": "W2990597350", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "divisibility of subset sums, different problem"}
+{"id": "W3035987802", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.98, "reason": "best known lower bound for distinct subset sums"}
+{"id": "W3036512481", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "caps progression-free sets"}
+{"id": "W3098022636", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsets"}
+{"id": "W3106700732", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "divisibility of random samples"}
+{"id": "W3107354381", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "discordant sets"}
+{"id": "W3112255858", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "progressions in AP-free sets"}
+{"id": "W3120586469", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "ultrafilters Ramsey"}
+{"id": "W3128694373", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "sum-distinguishing hypergraphs"}
+{"id": "W3134883592", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.98, "reason": "best known lower bound for distinct subset sums"}
+{"id": "W3158628378", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Plunnecke density of sumsets"}
+{"id": "W3158858093", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "subset sums and complete sequences, mostly other problems"}
+{"id": "W3183516064", "include": "borderline", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "variations on distinct-sums problem, weakened condition bounds"}
+{"id": "W3198658338", "include": "borderline", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "variations on distinct-sums problem"}
+{"id": "W32684306", "include": "borderline", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "additively differing numbers sequence, possibly distinct sums"}
+{"id": "W350260367", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Frobenius problem"}
+{"id": "W37379289", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "abelian group combinatorics"}
+{"id": "W4205533240", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "ultrafilters Ramsey"}
+{"id": "W4210663278", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos favorite problems, may include it"}
+{"id": "W4210988814", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bibliography only"}
+{"id": "W4211229545", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "references only"}
+{"id": "W4212884688", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos problems combinatorial NT, may include it"}
+{"id": "W4212934326", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Guy generic chapter"}
+{"id": "W4231447687", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Guy introduction chapter"}
+{"id": "W4232463701", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Halberstam-Roth sequences book"}
+{"id": "W4234117750", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Roth sets of integers"}
+{"id": "W4234963553", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "additive completion"}
+{"id": "W4235352910", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.15, "reason": "Monthly problem E2308, title alone cannot decide"}
+{"id": "W4236705909", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Guy introduction chapter"}
+{"id": "W4241085666", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture"}
+{"id": "W4241320688", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos additive NT problems, may include it"}

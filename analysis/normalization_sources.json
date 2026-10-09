@@ -1,0 +1,423 @@
+{
+ "_meta": {
+  "generated": "2026-10-09",
+  "purpose": "Normalization constants for converting public-record frontiers to log2(operations) gaps vs standardized targets.",
+  "method": "All values read from the cited primary documents in this session (PDF text extracted with a stdlib extractor). Values marked 'derived' were computed here from sourced data; the formula is stated.",
+  "notes": "ePrint/iacr.org PDFs returned HTTP 403; CWI repository copies, TCHES open access, pq-crystals.org, arXiv, NIST and project sites were used instead."
+ },
+ "lattice_practical_slope": {
+  "fits": [
+   {
+    "source": "Ducas, Stevens, van Woerden, 'Advanced Lattice Sieving on GPUs, with Tensor Cores', EUROCRYPT 2021 (ePrint 2021/141; CWI final version), Fig. 7(b)",
+    "url": "https://ir.cwi.nl/pub/31045/31045.pdf",
+    "form": "time_s = 2^(0.367*n - 37.15)",
+    "slope": 0.367,
+    "dim_range": "sieving dims n = 121..140 (least-squares on the last 20 dimensions of a pump to n=140 in a 160-dim lattice)",
+    "sieve": "triple_gpu (G6K-GPU, BGJ1-style bucketing + triple reductions, 4x RTX 2080 Ti + CPU)",
+    "notes": "Wall time spent in each sieving dimension to reach 37.5% saturation with DB size 2.77*2^(0.2075n). This is the sieve used for the 2021 SVP-180 record. Highest-dimension author-published fit found."
+   },
+   {
+    "source": "Ducas, Stevens, van Woerden, 'Advanced Lattice Sieving on GPUs, with Tensor Cores', EUROCRYPT 2021 (ePrint 2021/141; CWI final version), Fig. 7(b)",
+    "url": "https://ir.cwi.nl/pub/31045/31045.pdf",
+    "form": "time_s = 2^(0.338*n - 32.81)",
+    "slope": 0.338,
+    "dim_range": "sieving dims n = 121..140",
+    "sieve": "2-bdgl_gpu (BDGL-style bucketing on GPU)",
+    "notes": "Same experiment as above. Authors expect triple_gpu and 2-bdgl_gpu to cross near n~149."
+   },
+   {
+    "source": "Ducas, Stevens, van Woerden, 'Advanced Lattice Sieving on GPUs, with Tensor Cores', EUROCRYPT 2021 (ePrint 2021/141; CWI final version), Fig. 7(a)",
+    "url": "https://ir.cwi.nl/pub/31045/31045.pdf",
+    "form": "time_s = 2^(0.357*n - 28.88)",
+    "slope": 0.357,
+    "dim_range": "sieving dims n = 101..120 (last 20 dims of a pump to 120), CPU only",
+    "sieve": "triple sieve from G6K [ADH+19] (CPU)",
+    "notes": "Asymptotic exponent of the minimal-memory triple sieve is 0.3588 (HKL18), quoted in the same paper."
+   },
+   {
+    "source": "Ducas, Stevens, van Woerden, 'Advanced Lattice Sieving on GPUs, with Tensor Cores', EUROCRYPT 2021 (ePrint 2021/141; CWI final version), Fig. 7(a)",
+    "url": "https://ir.cwi.nl/pub/31045/31045.pdf",
+    "form": "time_s = 2^(0.308*n - 24.44)",
+    "slope": 0.308,
+    "dim_range": "sieving dims n = 101..120, CPU only",
+    "sieve": "3-bdgl (CPU BDGL with 3 levels)",
+    "notes": "Asymptotic 3-bdgl exponent quoted in the paper: 0.3198."
+   },
+   {
+    "source": "Ducas, Stevens, van Woerden, 'Advanced Lattice Sieving on GPUs, with Tensor Cores', EUROCRYPT 2021 (ePrint 2021/141; CWI final version), Table 1 (Darmstadt 1.05-approxSVP results, dims 158..180)",
+    "url": "https://ir.cwi.nl/pub/31045/31045.pdf",
+    "form": "derived: OLS of log2(FLOP) on MSD over the 12 rows of Table 1 -> log2(FLOP) = 0.3649*MSD + 15.29",
+    "slope": 0.365,
+    "dim_range": "max sieving dimension MSD = 127..150 (challenge dims 158..180)",
+    "sieve": "triple_gpu",
+    "derived": true,
+    "notes": "Derived here, not an author fit. Table 1 reports MSD and FLOP (bucketing + reduction core floating point operations): e.g. dim 158 MSD 129 2^62.1; dim 180 MSD 150 2^69.9 (51d14h, 1443 GiB). Regressing on challenge dimension instead gives 0.326 per challenge dimension. Agrees with the authors' 0.367 per-sieving-dimension fit."
+   },
+   {
+    "source": "Zhao, Ding, Yang, 'Sieving with Streaming Memory Access', IACR TCHES 2025(2):362-384 (ePrint 2024/739 'BGJ15 Revisited'), Figure 1",
+    "url": "https://tches.iacr.org/index.php/TCHES/article/view/12051",
+    "form": "time_s = 2^(0.372*n - 28.70) [bgj1]; 2^(0.336*n - 25.83) [bgj2]; 2^(0.314*n - 23.81) [bgj3]",
+    "slope": {
+     "bgj1": 0.372,
+     "bgj2": 0.336,
+     "bgj3": 0.314
+    },
+    "dim_range": "sieving dims n ~ 70..100 (figure x-axis 70-100; exact fitted sub-range not stated in the text)",
+    "sieve": "bgj1 / bgj2 / bgj3 (refined BGJ15 sieve, CPU, single thread, Xeon Gold 6338)",
+    "notes": "Left-progressive sieve on a 100-dim Darmstadt lattice; time per sieving dimension to 37.5% saturation, DB 3.2*2^(0.2075n). bgj3 is the CPU ancestor of the bgj3-amx (SVP-179/183 records) and of the bgj3-gpu family. Low dimension range; crossover bgj2/bgj3 ~92."
+   },
+   {
+    "source": "Zhao, Ding, Yang, 'Sieving with Streaming Memory Access', IACR TCHES 2025(2):362-384 (ePrint 2024/739 'BGJ15 Revisited'), Sec. 7 and Table 7 (refined security analysis)",
+    "url": "https://tches.iacr.org/index.php/TCHES/article/view/12051",
+    "form": "sieve gates ~ 2^23.8 * (sqrt(1.5))^(B'), i.e. log2 = 0.2925*B' + 23.8 per sieve call (constant 2^23.8 calibrated from a 100-dim bgj3 left-progressive sieve: <=650G int8 dot products, 136 gates per int8 FMA)",
+    "slope": 0.2925,
+    "dim_range": "calibrated at sieving dim 100, applied at B' = 374..394",
+    "sieve": "bgj3 (gate-count model, not a time fit)",
+    "notes": "Practical model used by the record-holding group: asymptotic-rate slope plus an empirically calibrated constant. Table 7: Kyber-512 (B=413, B'=375) log2(gates) in [140.1, 146.1]; Falcon-512 [139.8, 145.8]; Dilithium-2 [148.5, 154.5]."
+   },
+   {
+    "source": "Albrecht, Ducas, Herold, Kirshanova, Postlethwaite, Stevens, 'The General Sieve Kernel and New Records in Lattice Reduction', EUROCRYPT 2019 (ePrint 2019/089; CWI author manuscript), Fig. 3(a)",
+    "url": "https://ir.cwi.nl/pub/28539/2019-089.pdf",
+    "form": "log2(t_s) = 0.249*d - 14.7 (fit d=60..100); log2(t_s) = 0.296*d - 18.9 (fit d=80..100)",
+    "slope": {
+     "d60_100": 0.249,
+     "d80_100": 0.296
+    },
+    "dim_range": "LATTICE dimension d = 60..100 and 80..100 (exact SVP, G6K WorkOut, bgj1)",
+    "sieve": "bgj1 inside G6K WorkOut (with dimensions-for-free f = 11.46 + 0.0757 d)",
+    "notes": "Per lattice dimension, not sieving dimension; the authors state these fits are significantly below the asymptotic 2^(0.349d) for bgj1 and 'unreliable for extrapolation', because d4f makes the slope converge slowly. G6K Table 2 (SVP challenges 123..155) is explicitly flagged as too heterogeneous for extrapolation."
+   },
+   {
+    "source": "Ducas, 'Shortest Vector from Lattice Sieving: a Few Dimensions for Free', EUROCRYPT 2018 (ePrint 2017/999), Fig. 3",
+    "url": "https://ir.cwi.nl/pub/27649/27649.pdf",
+    "form": null,
+    "slope": null,
+    "dim_range": "lattice dims ~ 60..90 (exact SVP)",
+    "sieve": "GaussSieve variants V0..V3 (SubSieve+, XOR-POPCNT, progressive)",
+    "notes": "Fit constants are drawn inside the figure (not extractable as text). The text says the fits are least-squares on log time, are 'only indicative', warns against extrapolation, and notes the V3 fit lies below (4/3)^n. Value left null."
+   }
+  ],
+  "context_record_flops": [
+   {
+    "value": "SVP-179: MSD 147, 11.2 d on 112 cores, ~2^66.0 int8 ops; SVP-183: MSD 149, 30 d, ~2^67.4 int8 ops (bgj3-amx)",
+    "source": "Zhao, Ding, Yang, 'Sieving with Streaming Memory Access', IACR TCHES 2025(2):362-384 (ePrint 2024/739 'BGJ15 Revisited'), Tables 4 and 5",
+    "url": "https://tches.iacr.org/index.php/TCHES/article/view/12051"
+   },
+   {
+    "value": "SVP-180 (DSvW21): 2^69.9 fp16 ops; SVP-186 on 4x A100, 50.3 d, ~2^71.4 fp16 ops (estimated by ZDY, original source of the 186 record not cited)",
+    "source": "Zhao, Ding, Yang, 'Sieving with Streaming Memory Access', IACR TCHES 2025(2):362-384 (ePrint 2024/739 'BGJ15 Revisited'), Table 5",
+    "url": "https://tches.iacr.org/index.php/TCHES/article/view/12051"
+   },
+   {
+    "value": "ZDY expect SVP challenges of dimension 200-210 to be solvable on an 8x RTX 4090 machine with sieving dimension 160-170; >210 'should be considered hard'",
+    "source": "Zhao, Ding, Yang, 'Sieving with Streaming Memory Access', IACR TCHES 2025(2):362-384 (ePrint 2024/739 'BGJ15 Revisited'), Sec. 8",
+    "url": "https://tches.iacr.org/index.php/TCHES/article/view/12051"
+   }
+  ],
+  "recommended_high_slope": 0.367,
+  "recommended_high_slope_source": {
+   "source": "Ducas, Stevens, van Woerden, 'Advanced Lattice Sieving on GPUs, with Tensor Cores', EUROCRYPT 2021 (ePrint 2021/141; CWI final version), Fig. 7(b), triple_gpu fit",
+   "url": "https://ir.cwi.nl/pub/31045/31045.pdf"
+  },
+  "reason": "It is the highest-dimension author fit (sieving dims 121-140) on the GPU record-setting hardware class, and the measured FLOP counts of the actual records (Table 1, MSD 127-150) give the same slope (0.365/dim), so it is the best-supported upper estimate of the practical per-dimension growth. The BGJ-family slope (bgj3: 0.314, dims 70-100) and ZDY's 0.2925 gate model sit between it and the 0.292 asymptotic low end.",
+  "usage_note": "Apply both slopes per SIEVING dimension: compare the record's max sieving dimension (171) with the target's sieving dimension beta' = beta - d4f (Kyber R3 Table 4: 375/586/829), not with beta (413/637/894). Derived example (MSD 171 -> beta'): delta = 204/415/658, low 0.292*delta = 59.6/121.2/192.1, high 0.367*delta = 74.9/152.3/241.5 log2 units. These are per-sieve-call ratios. A full BKZ/primal attack adds a polynomial number of calls (the Kyber spec's gate count uses (d - beta)*C ~ 2^9.3 extra for Kyber-512)."
+ },
+ "mlkem_targets": [
+  {
+   "param_set": "ML-KEM-512 (Kyber-512)",
+   "nist_level": 1,
+   "coresvp_primal": {
+    "lattice_dim_d": 999,
+    "beta": 406,
+    "coresvp_classical_log2": 118,
+    "coresvp_quantum_log2": 107
+   },
+   "refined_primal": {
+    "lattice_dim_d": 1025,
+    "beta": 413,
+    "sieving_dim_beta_prime": 375,
+    "log2_gates": 151.5,
+    "log2_memory_bits": 93.8
+   },
+   "gate_uncertainty": "Sec. 5.2.1: 'preliminary analysis gives a cost of 2^151 gates ... known unknowns ... could be affected by a factor of up to 2^16 in either direction', i.e. ~[2^135, 2^167]; also ~2^145 if only the Module-LWER core-SVP (112) is credited",
+   "source": "CRYSTALS-Kyber Algorithm Specifications and Supporting Documentation, round 3, version 3.02 (2021-08-04), Table 4 (p.20) and Sec. 5.2.1",
+   "url": "https://pq-crystals.org/kyber/data/kyber-specification-round3-20210804.pdf"
+  },
+  {
+   "param_set": "ML-KEM-768 (Kyber-768)",
+   "nist_level": 3,
+   "coresvp_primal": {
+    "lattice_dim_d": 1419,
+    "beta": 626,
+    "coresvp_classical_log2": 183,
+    "coresvp_quantum_log2": 166
+   },
+   "refined_primal": {
+    "lattice_dim_d": 1467,
+    "beta": 637,
+    "sieving_dim_beta_prime": 586,
+    "log2_gates": 215.1,
+    "log2_memory_bits": 138.5
+   },
+   "gate_uncertainty": "Spec states the +/-2^16 range only for Kyber-512; no separate range given",
+   "source": "CRYSTALS-Kyber Algorithm Specifications and Supporting Documentation, round 3, version 3.02 (2021-08-04), Table 4 (p.20) and Sec. 5.2.1",
+   "url": "https://pq-crystals.org/kyber/data/kyber-specification-round3-20210804.pdf"
+  },
+  {
+   "param_set": "ML-KEM-1024 (Kyber-1024)",
+   "nist_level": 5,
+   "coresvp_primal": {
+    "lattice_dim_d": 1885,
+    "beta": 878,
+    "coresvp_classical_log2": 256,
+    "coresvp_quantum_log2": 232
+   },
+   "refined_primal": {
+    "lattice_dim_d": 1918,
+    "beta": 894,
+    "sieving_dim_beta_prime": 829,
+    "log2_gates": 287.3,
+    "log2_memory_bits": 189.7
+   },
+   "gate_uncertainty": "Spec states the +/-2^16 range only for Kyber-512; no separate range given",
+   "source": "CRYSTALS-Kyber Algorithm Specifications and Supporting Documentation, round 3, version 3.02 (2021-08-04), Table 4 (p.20) and Sec. 5.2.1",
+   "url": "https://pq-crystals.org/kyber/data/kyber-specification-round3-20210804.pdf"
+  },
+  {
+   "param_set": "ML-KEM parameter identity check",
+   "value": "FIPS 203 Table 2 (n=256, q=3329; k/eta1/eta2/du/dv = 2/3/2/10/4, 3/2/2/10/4, 4/2/2/11/5) matches Kyber round-3 Table 1, so the Kyber R3 estimates apply to ML-KEM",
+   "source": "NIST FIPS 203 (2024), Table 2",
+   "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf"
+  },
+  {
+   "param_set": "ML-KEM-512 (lattice-estimator cross-check)",
+   "value": {
+    "primal_usvp_beta": 406,
+    "primal_usvp_d": 998,
+    "rough_coresvp_log2_rop": 118.6,
+    "default_model_primal_usvp_log2_rop": 143.8,
+    "bdd_log2_rop": 140.2,
+    "bdd_beta": 389,
+    "dual_hybrid_log2_rop": 139.7
+   },
+   "notes": "README usage example, schemes.Kyber512 modeled with Xs=Xe=D(sigma=1.22). 'rough' uses the 0.292*beta core-SVP model; LWE.estimate uses the estimator's default reduction cost model (the README does not name it). Only Kyber-512 appears in the README.",
+   "source": "malb/lattice-estimator README.rst (last README commit 2026-06-27)",
+   "url": "https://github.com/malb/lattice-estimator/blob/main/README.rst"
+  }
+ ],
+ "code_model": {
+  "decodingchallenge_complexity_model": {
+   "statement": "Documentation page, 'Indication of complexity': 'This number is computed by multiplying the length n by the workfactor of Dumer's algorithm for the parameters of the challenge. The workfactor is computed with the Cawof software. This value is only given for informational purposes.'",
+   "source": "decodingchallenge.org Documentation page",
+   "url": "https://decodingchallenge.org/home/documentation",
+   "unstated": "No memory-access cost is stated. CaWoF (Canto Torres-Sendrier workfactor tool) counts operations in the RAM model, i.e. effectively constant-cost memory, but the site does not say so explicitly. The unit is a rounded integer exponent (tooltips like '2^63').",
+   "frontier_tooltips": [
+    {
+     "track": "Goppa-McEliece (R=0.8, w=ceil(n/(5*ceil(log2 n))))",
+     "n": 1409,
+     "w": 26,
+     "tooltip_log2": 63,
+     "solvers": "Narisada, Furue, Aikawa, Fukushima, Kiyomoto",
+     "url": "https://decodingchallenge.org/goppa"
+    },
+    {
+     "track": "Quasi-cyclic (R=0.5, n=w^2+2)",
+     "n": 4098,
+     "w": 64,
+     "tooltip_log2": 64,
+     "solvers": "Markku-Juhani Saarinen",
+     "url": "https://decodingchallenge.org/q-c",
+     "caveat": "Every QC tooltip equals w exactly (QC_10 -> 2^10 ... QC_160 -> 2^160). This is consistent with ~(1-R)^-w = 2^w, but the exact equality across all 76 instances suggests a closed-form 2^w rather than a CaWoF Dumer computation. Treat as indicative."
+    },
+    {
+     "track": "Syndrome decoding (R=0.5, w=ceil(1.05 d_GV))",
+     "n": 570,
+     "w": 70,
+     "tooltip_log2": 60,
+     "solvers": "Narisada, Fukushima, Kiyomoto",
+     "url": "https://decodingchallenge.org/syndrome"
+    }
+   ],
+   "same_model_crypto_size_analog": {
+    "value": "Goppa track n=3471 (k~0.8n, w=58) tooltip 2^142; n=3545 tooltip 2^144. Nearest same-model instances to mceliece348864 (n=3488, k=2720, w=64), but with different k and w.",
+    "source": "decodingchallenge.org Goppa page tooltips",
+    "url": "https://decodingchallenge.org/goppa"
+   }
+  },
+  "target_model": {
+   "statement": "Esser-Bellini Syndrome Decoding Estimator (SDE; PKC 2022, ePrint 2021/1243) reports bit complexity including polynomial factors. memory_access=0 means constant-cost memory (optionally capped), 1 = logarithmic, 2 = square-root, 3 = cube-root memory access cost.",
+   "source": "SDE source estimate_code_based_nist_schemes.py (labels 'M < mem' / 'Logarithmic' / 'Square-root' / 'Cubic-root memory access' for memory_access 0/1/2/3)",
+   "url": "https://github.com/Crypto-TII/syndrome_decoding_estimator/blob/master/estimate_code_based_nist_schemes.py"
+  },
+  "consistency": "Not directly consistent. decodingchallenge = n * Dumer workfactor (CaWoF), constant-cost memory implied, Dumer only. The SDE tables give the best of Prange/Stern/Dumer/BJMM/May-Ozerov/Both-May, under either constant cost (memory_access=0) or sqrt cost (memory_access=2). No source found tabulates SDE estimates for the frontier instances (Goppa n=1409, QC n=4098, SD n=570). A like-for-like comparison therefore requires either (a) running SDE/CryptographicEstimators on the frontier instances (not done: no downloaded code executed), or (b) a simple shared model. For (b), plain Prange iteration counts log2[min(C(n,w), 2^(n-k)) / C(n-k,w)] (Prange 1962) are fully specified. Derived here: Goppa-1409 (k=1127, w=26) 61.7; SD-570 (k=285, w=70) 60.0; QC-4098 (k=2049, w=64) 64.7; mceliece348864 142.8; mceliece460896 184.9; mceliece6688128 262.4; mceliece6960119 263.4; mceliece8192128 300.1; hqc-128 key problem (n=35338, k=17669, w=132) 132.4 before the ~log2(k)/2 = 7.0 DOOM/QC discount. These Prange counts are within ~1.3 bits of the decodingchallenge tooltips at frontier sizes (63/64/60). At crypto sizes, advanced ISD gains ~20 bits over Prange under the sqrt model (SDE, mceliece348864: Prange 178.3 vs May-Ozerov 158.6), so a Prange-based gap overstates the advanced-ISD gap by up to ~20 bits for McEliece. Same-model decodingchallenge gap 1409 -> n=3471 Goppa-track analog: 142 - 63 = 79 bits.",
+  "consistency_derived": true
+ },
+ "code_targets": [
+  {
+   "param_set": "mceliece348864",
+   "n": 3488,
+   "k": 2720,
+   "w": 64,
+   "sqrt_memory_log2": 158.6,
+   "sqrt_memory_best_alg": "May-Ozerov (memory 2^24.6)",
+   "sqrt_memory_others": {
+    "Prange": 178.3,
+    "Stern": 162.8,
+    "Dumer": 163.2,
+    "BJMM(MMT)": 162.2,
+    "BJMM-pdw": 160.3,
+    "Both-May": 159.8
+   },
+   "sqrt_source": "Classic McEliece team, NIST pqc-forum ROUND 3 OFFICIAL COMMENT (2021-11-19), output of Esser-Bellini Syndrome Decoding Estimator with memory_access=2",
+   "sqrt_url": "https://classic.mceliece.org/mceliece-20211119.txt",
+   "constant_memory_log2": 141,
+   "constant_memory_note": "May-Ozerov 141 (BJMM 142, Both-May 143). The McEliece team's comment also states '2^141 bit operations (using cost-0 access to >2^80 RAM)'.",
+   "constant_source": "Wu, Zhuang, 'Syndrome decoding meets multiple instances', arXiv:2209.06656v1 (2022), Tables 1 and 3 (column T = total complexity, computed with the Esser-Bellini SDE); corroborated by Classic McEliece team",
+   "constant_url": "https://arxiv.org/abs/2209.06656",
+   "source": "Classic McEliece team, NIST pqc-forum ROUND 3 OFFICIAL COMMENT (2021-11-19), output of Esser-Bellini Syndrome Decoding Estimator with memory_access=2",
+   "url": "https://classic.mceliece.org/mceliece-20211119.txt"
+  },
+  {
+   "param_set": "mceliece460896",
+   "n": 4608,
+   "k": 3360,
+   "w": 96,
+   "sqrt_memory_log2": 201.0,
+   "sqrt_memory_best_alg": "May-Ozerov (memory 2^25.5)",
+   "sqrt_source": "Classic McEliece team, NIST pqc-forum ROUND 3 OFFICIAL COMMENT (2021-11-19), output of Esser-Bellini Syndrome Decoding Estimator with memory_access=2",
+   "sqrt_url": "https://classic.mceliece.org/mceliece-20211119.txt",
+   "constant_memory_log2": 180,
+   "constant_memory_note": "May-Ozerov 180, total T",
+   "constant_source": "Wu, Zhuang, 'Syndrome decoding meets multiple instances', arXiv:2209.06656v1 (2022), Tables 1 and 3 (column T = total complexity, computed with the Esser-Bellini SDE)",
+   "constant_url": "https://arxiv.org/abs/2209.06656",
+   "source": "Classic McEliece team, NIST pqc-forum ROUND 3 OFFICIAL COMMENT (2021-11-19), output of Esser-Bellini Syndrome Decoding Estimator with memory_access=2",
+   "url": "https://classic.mceliece.org/mceliece-20211119.txt"
+  },
+  {
+   "param_set": "mceliece6688128",
+   "n": 6688,
+   "k": 5024,
+   "w": 128,
+   "sqrt_memory_log2": 278.2,
+   "sqrt_memory_best_alg": "May-Ozerov (memory 2^26.4)",
+   "sqrt_source": "Classic McEliece team, NIST pqc-forum ROUND 3 OFFICIAL COMMENT (2021-11-19), output of Esser-Bellini Syndrome Decoding Estimator with memory_access=2",
+   "sqrt_url": "https://classic.mceliece.org/mceliece-20211119.txt",
+   "constant_memory_log2": 246,
+   "constant_memory_note": "May-Ozerov 246",
+   "constant_source": "Wu, Zhuang, 'Syndrome decoding meets multiple instances', arXiv:2209.06656v1 (2022), Tables 1 and 3 (column T = total complexity, computed with the Esser-Bellini SDE)",
+   "constant_url": "https://arxiv.org/abs/2209.06656",
+   "source": "Classic McEliece team, NIST pqc-forum ROUND 3 OFFICIAL COMMENT (2021-11-19), output of Esser-Bellini Syndrome Decoding Estimator with memory_access=2",
+   "url": "https://classic.mceliece.org/mceliece-20211119.txt"
+  },
+  {
+   "param_set": "mceliece6960119",
+   "n": 6960,
+   "k": 5413,
+   "w": 119,
+   "sqrt_memory_log2": 279.2,
+   "sqrt_memory_best_alg": "May-Ozerov",
+   "sqrt_source": "Classic McEliece team, NIST pqc-forum ROUND 3 OFFICIAL COMMENT (2021-11-19), output of Esser-Bellini Syndrome Decoding Estimator with memory_access=2",
+   "sqrt_url": "https://classic.mceliece.org/mceliece-20211119.txt",
+   "constant_memory_log2": 246,
+   "constant_memory_note": "May-Ozerov 246; McEliece team also cites '2^246 bit operations for mceliece6960119'",
+   "constant_source": "Wu, Zhuang, 'Syndrome decoding meets multiple instances', arXiv:2209.06656v1 (2022), Tables 1 and 3 (column T = total complexity, computed with the Esser-Bellini SDE)",
+   "constant_url": "https://arxiv.org/abs/2209.06656",
+   "source": "Classic McEliece team, NIST pqc-forum ROUND 3 OFFICIAL COMMENT (2021-11-19), output of Esser-Bellini Syndrome Decoding Estimator with memory_access=2",
+   "url": "https://classic.mceliece.org/mceliece-20211119.txt"
+  },
+  {
+   "param_set": "mceliece8192128",
+   "n": 8192,
+   "k": 6528,
+   "w": 128,
+   "sqrt_memory_log2": 315.6,
+   "sqrt_memory_best_alg": "May-Ozerov",
+   "sqrt_source": "Classic McEliece team, NIST pqc-forum ROUND 3 OFFICIAL COMMENT (2021-11-19), output of Esser-Bellini Syndrome Decoding Estimator with memory_access=2",
+   "sqrt_url": "https://classic.mceliece.org/mceliece-20211119.txt",
+   "constant_memory_log2": 276,
+   "constant_memory_note": "May-Ozerov 276",
+   "constant_source": "Wu, Zhuang, 'Syndrome decoding meets multiple instances', arXiv:2209.06656v1 (2022), Tables 1 and 3 (column T = total complexity, computed with the Esser-Bellini SDE)",
+   "constant_url": "https://arxiv.org/abs/2209.06656",
+   "source": "Classic McEliece team, NIST pqc-forum ROUND 3 OFFICIAL COMMENT (2021-11-19), output of Esser-Bellini Syndrome Decoding Estimator with memory_access=2",
+   "url": "https://classic.mceliece.org/mceliece-20211119.txt"
+  },
+  {
+   "param_set": "hqc-128 (HQC-1)",
+   "n_block": 17669,
+   "w": 66,
+   "wr_we": 75,
+   "sd_instance": "(n, k, w) = (35338, 17669, 132) per SDE parameter file",
+   "constant_memory_log2": 145,
+   "constant_memory_note": "May-Ozerov 145 (Both-May 146, BJMM 146, BJMM-DW 146), total T, Table 3, presumably SDE default constant-cost memory (the paper does not state a memory model). Whether the sqrt(k) QC/DOOM discount is applied is not stated.",
+   "source": "Wu, Zhuang, 'Syndrome decoding meets multiple instances', arXiv:2209.06656v1 (2022), Tables 1 and 3 (column T = total complexity, computed with the Esser-Bellini SDE)",
+   "url": "https://arxiv.org/abs/2209.06656",
+   "sqrt_memory_log2": null,
+   "sqrt_memory_note": "Esser-Bellini Table 4 (HQC) not accessible (ePrint/IACR 403)",
+   "param_check": {
+    "value": "HQC-1 n=17669, w=66, wr=we=75 (unchanged in 2025-08-22 spec Table 5)",
+    "source": "HQC specification 2025-08-22, Table 5",
+    "url": "https://pqc-hqc.org/doc/hqc_specifications_2025_08_22.pdf"
+   },
+   "spec_model_note": {
+    "value": "The HQC spec gives only the asymptotic form 2^(-t ln(1-R)(1+o(1))) with t=2w, R=1/2 (2-DQCSD-P) and t=3wr, R=1/3 (3-DQCSD-PT), divided by ~sqrt(n) for DOOM. No concrete per-parameter numbers.",
+    "source": "HQC specification 2025-08-22, Sec. 6.3",
+    "url": "https://pqc-hqc.org/doc/hqc_specifications_2025_08_22.pdf"
+   }
+  },
+  {
+   "param_set": "hqc-192 (HQC-3)",
+   "sd_instance": "(71702, 35851, 200)",
+   "constant_memory_log2": 214,
+   "constant_memory_note": "May-Ozerov/Both-May/BJMM 214",
+   "source": "Wu, Zhuang, 'Syndrome decoding meets multiple instances', arXiv:2209.06656v1 (2022), Tables 1 and 3 (column T = total complexity, computed with the Esser-Bellini SDE)",
+   "url": "https://arxiv.org/abs/2209.06656",
+   "sqrt_memory_log2": null
+  },
+  {
+   "param_set": "hqc-256 (HQC-5)",
+   "sd_instance": "(115274, 57637, 262)",
+   "constant_memory_log2": 276,
+   "constant_memory_note": "May-Ozerov/BJMM 276",
+   "source": "Wu, Zhuang, 'Syndrome decoding meets multiple instances', arXiv:2209.06656v1 (2022), Tables 1 and 3 (column T = total complexity, computed with the Esser-Bellini SDE)",
+   "url": "https://arxiv.org/abs/2209.06656",
+   "sqrt_memory_log2": null
+  }
+ ],
+ "ecdlp_check": {
+  "statement": "The rho method breaks ECDLP using, on average, approximately 0.886 sqrt(l) additions; 0.886 = sqrt(pi/4) (includes the negation-map speedup). Table: NIST P-256 2^127.8, secp256k1 2^127.8, Curve25519 2^125.8.",
+  "rho_cost_256bit_prime_order_log2": 127.8,
+  "formula": "sqrt(pi*l/4) group additions (batched affine short-Weierstrass additions)",
+  "confirmed": true,
+  "source": "Bernstein and Lange, SafeCurves, 'The rho method' page",
+  "url": "https://safecurves.cr.yp.to/rho.html"
+ },
+ "rsa_check": {
+  "statement": "Table 2 'Comparable security strengths of symmetric block cipher and asymmetric-key algorithms': security strength 112 <-> IFC (RSA) k = 2048 (also FFC L=2048/N=224, ECC f=224-255, 3TDEA). 128 <-> k=3072; 192 <-> k=7680; 256 <-> k=15360.",
+  "rsa2048_security_strength_bits": 112,
+  "confirmed": true,
+  "source": "NIST SP 800-57 Part 1 Rev. 5 (May 2020), Section 5.6.1.1, Table 2 (pp. 54-55)",
+  "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf"
+ },
+ "unresolved": [
+  "Ducas 2018 Fig. 3 fit constants are embedded in the figure graphics and could not be extracted; left null.",
+  "HQC-128/192/256 under the square-root memory model: Esser-Bellini PKC 2022 Table 4 not retrievable (ePrint and iacr.org archive return 403). Only constant-memory SDE values (via Wu-Zhuang 2022) are recorded. Wu-Zhuang do not state the memory model or whether the QC/DOOM discount is applied.",
+  "Esser-May-Zweydinger EUROCRYPT 2022 ('McEliece needs a Break') experimentally calibrated extrapolations for McEliece/HQC not retrievable (403). Per the abstract, they confirm BIKE/HQC levels and find McEliece 192/256-bit sets overestimated by ~20/~10 bits.",
+  "No source tabulates SDE/CryptographicEstimators estimates for the decodingchallenge frontier instances (Goppa 1409, QC 4098, SD 570). Computing them requires running the estimator (Python+C from GitHub), which was not done. The derived Prange-iteration comparison in code_model.consistency is the substitute.",
+  "decodingchallenge's CaWoF unit and memory model are not stated on the site. QC-track tooltips equal w exactly for every instance, which suggests a closed form rather than a CaWoF computation.",
+  "Zhao and Ding, 'Towards Large-Scale Lattice Attack: New Lattice Records by Disk-Based Sieving' (Springer 2026, the likely bgj3-gpu record paper) is paywalled; any timing fit it reports was not read. The public BGJ-Sieve-GPU README contains no fit.",
+  "Original source of the SVP-186 (4x A100, 50.3 d) record cited in ZDY Table 5 was not identified; its FLOP count (2^71.4) is ZDY's estimate.",
+  "Lattice-estimator: the README shows only Kyber-512 and does not name the default reduction cost model; Kyber-768/1024 estimator outputs not recorded."
+ ],
+ "rsa_frontier_check": {
+  "checked": "2026-10-09",
+  "model": "F(b) = (64/9)^(1/3) * (b ln 2)^(1/3) * ln(b ln 2)^(2/3) / ln 2; leading GNFS expression, o(1) omitted",
+  "index_896": 81.85962847281307,
+  "index_1024": 86.76611925028119,
+  "index_2048": 116.8838132958159,
+  "gap_896_to_2048_bits": 35.02418482300283,
+  "ratio_896_to_2048": 34940587689.54107,
+  "interpretation": "Derived model ratio, not observed cost or calibrated wall-time/dollar prediction. Only common size-independent multiplicative factors cancel; omitted size-dependent terms do not. NIST 112 is not an endpoint in this calculation.",
+  "consistency_source": "https://cognition.com/blog/factoring-rsa-260",
+  "consistency_claim": "Primary write-up estimates RSA-2048 roughly one billion times harder than RSA-1024, and 91.2 billion times RSA-260; these use similar GNFS scaling, not independent measurements."
+ }
+}

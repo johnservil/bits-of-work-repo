@@ -1,0 +1,40 @@
+{"id": "W3212959224", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut FPT"}
+{"id": "W3214092354", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "hypercontractivity on HDX"}
+{"id": "W3215438445", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "hypercontractivity on HDX"}
+{"id": "W3217590873", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "hypercontractivity on HDX"}
+{"id": "W335008237", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Sherali-Adams vertex cover gaps"}
+{"id": "W340925356", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "approximation algorithms for unique games"}
+{"id": "W346787442", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "KKMO assumes UGC for Max-Cut hardness"}
+{"id": "W4205165053", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "small set vertex expansion parameterized"}
+{"id": "W4211209477", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "analysis textbook chapter"}
+{"id": "W4213232545", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multicut encyclopedia entry"}
+{"id": "W4214847992", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS sparse independent set"}
+{"id": "W4221151500", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multiplicity code testing"}
+{"id": "W4225502324", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "vertex expansion Cheeger"}
+{"id": "W4225947064", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "k-cut algorithms"}
+{"id": "W4226060934", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for Max k-CSP hardness"}
+{"id": "W4226309806", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "voting algorithms for unique games on complete graphs"}
+{"id": "W4229813064", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Grothendieck constant computation"}
+{"id": "W4230940751", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "locality sensitive hashing"}
+{"id": "W4230972002", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "unique games on the hypercube, near-optimal integrality gap instance"}
+{"id": "W4233411607", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "short long code with applications to UGC and small-set expansion"}
+{"id": "W4233786017", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "approximation algorithm for unique games"}
+{"id": "W4239545791", "include": "borderline", "category": "F", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "L1 embedding lower bounds in Khot-Vishnoi line"}
+{"id": "W4242279037", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "book preliminaries"}
+{"id": "W4244012856", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multicut encyclopedia entry"}
+{"id": "W4244270790", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SDP optimization overview"}
+{"id": "W4244547255", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "PCP queries and CSP hardness"}
+{"id": "W4244979855", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multiway cuts spectra"}
+{"id": "W4246416515", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "book preface"}
+{"id": "W4247191781", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "book references"}
+{"id": "W4247733528", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "front matter"}
+{"id": "W4248639061", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "TSP LS and Sherali-Adams"}
+{"id": "W4248984395", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "non-uniform partitioning"}
+{"id": "W4249939137", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "balanced partitioning"}
+{"id": "W4250613930", "include": "yes", "category": "G", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "original paper introducing the Unique Games Conjecture"}
+{"id": "W4250871362", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "unrelated citation record"}
+{"id": "W4251683043", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS planted clique"}
+{"id": "W4256443101", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "birthday repetition chapter"}
+{"id": "W4281885517", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "satisfiable k-CSP approximability"}
+{"id": "W4281977994", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "biased CSP approximability"}
+{"id": "W4285146977", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut FPT"}

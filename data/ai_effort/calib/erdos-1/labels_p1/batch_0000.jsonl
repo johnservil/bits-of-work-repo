@@ -1,0 +1,40 @@
+{"id": "W1005731694", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "permutations avoiding APs, unrelated"}
+{"id": "W1022649828", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Szemeredi APs theorem"}
+{"id": "W1043822130", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos additive number theory problem collection, may list distinct subset sums"}
+{"id": "W1139904961", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Sidon sets in extremal graph theory"}
+{"id": "W1150686645", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-free sequence reciprocal sums"}
+{"id": "W119368244", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Erdos solved-problems collection, not this problem"}
+{"id": "W121476753", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "properties of subset-sum-distinct sequences, elementary proof of known bound"}
+{"id": "W125531126", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "additive representative functions"}
+{"id": "W12981488", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sieve problems talk"}
+{"id": "W132395906", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-free sets"}
+{"id": "W1419628688", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "different problem of Graham"}
+{"id": "W142455466", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sumsets with k-free integers"}
+{"id": "W148580239", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "integral bases computer experiments"}
+{"id": "W1489006728", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos-Graham problem book, one entry may be this problem"}
+{"id": "W1493733990", "include": "yes", "category": "S", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Guy survey of sets with distinct subset sums"}
+{"id": "W1505546382", "include": "borderline", "category": "A", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "distinct subset sums reciprocal-sum variant of Erdos conjecture"}
+{"id": "W152445509", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-product phenomenon"}
+{"id": "W1527296085", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "intersecting divisor sets"}
+{"id": "W1528866133", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "additive property of primes"}
+{"id": "W1537054460", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "density of sets with additive bases"}
+{"id": "W1539389345", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "construction improving upper bound on f(n)"}
+{"id": "W1544799042", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "general number theory problem selection"}
+{"id": "W1549301089", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different Erdos sumset conjecture"}
+{"id": "W1551680922", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Guy problem book chapter, title alone"}
+{"id": "W1552744309", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "probabilistic method"}
+{"id": "W1555475515", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Guy unsolved problems book lists distinct subset sums"}
+{"id": "W1555768633", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "structure theory of set addition"}
+{"id": "W1563756929", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different Erdos-Renyi conjecture"}
+{"id": "W1569122547", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "probability of signed sum zero"}
+{"id": "W1593433469", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-product"}
+{"id": "W1595828591", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Roth integer sequences remark"}
+{"id": "W1655092224", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "general elementary number theory survey"}
+{"id": "W1663749032", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos combinatorial number theory survey, may mention problem"}
+{"id": "W1718118126", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "additive bases"}
+{"id": "W1741449785", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "general unsolved problems list"}
+{"id": "W1746761902", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Conway-Guy sequence distinct subset sums, upper bound"}
+{"id": "W1760493461", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "knapsack polytopes"}
+{"id": "W177593908", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sums and products graphs"}
+{"id": "W1777988250", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multiplicative Sidon sets"}
+{"id": "W1784046855", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos favourite problems, may include it"}

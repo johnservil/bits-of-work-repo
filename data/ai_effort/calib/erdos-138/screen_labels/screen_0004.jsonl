@@ -1,0 +1,100 @@
+{"id": "W2964411006", "keep": false, "why": "coprime graph labelings, unrelated"}
+{"id": "W2971674625", "keep": true, "why": "hypergraph colouring, vdW lower-bound methods"}
+{"id": "W2976022965", "keep": true, "why": "Green-Tao APs of primes"}
+{"id": "W2977273815", "keep": true, "why": "number theory proceedings, unclear"}
+{"id": "W2998041830", "keep": true, "why": "local lemma algorithm, vdW-related"}
+{"id": "W3003854522", "keep": true, "why": "extremal hypergraph colourings"}
+{"id": "W3004970682", "keep": false, "why": "greatest prime factor, different object"}
+{"id": "W3007558129", "keep": true, "why": "extremal hypergraph colourings"}
+{"id": "W3013139591", "keep": false, "why": "Brown-Erdos-Sos problem, unrelated"}
+{"id": "W3033275723", "keep": true, "why": "vdW number upper bound"}
+{"id": "W3036512481", "keep": true, "why": "caps and progression-free sets"}
+{"id": "W3038894848", "keep": false, "why": "prime gap claim, unrelated"}
+{"id": "W3040332716", "keep": false, "why": "Riemann hypothesis claim, unrelated"}
+{"id": "W304188901", "keep": true, "why": "covering integers by arithmetic sequences"}
+{"id": "W3046704607", "keep": true, "why": "additive structures and randomness"}
+{"id": "W3047600982", "keep": true, "why": "hypergraph 2-colourings"}
+{"id": "W3083407599", "keep": true, "why": "sparse hypergraphs, chromatic number"}
+{"id": "W3098022636", "keep": true, "why": "sum-free subsets of integer sets"}
+{"id": "W3106700732", "keep": false, "why": "divisibility of random samples, different object"}
+{"id": "W3107354381", "keep": true, "why": "ergodic Ramsey theory"}
+{"id": "W3112255858", "keep": true, "why": "progression-free sets"}
+{"id": "W3112343483", "keep": true, "why": "hypergraph property B bounds"}
+{"id": "W3120586469", "keep": true, "why": "Ramsey-type theorems via ultrafilters"}
+{"id": "W3126717855", "keep": true, "why": "van der Waerden-type theorems"}
+{"id": "W3130072254", "keep": false, "why": "prime gap bounds, different object"}
+{"id": "W3133489831", "keep": false, "why": "Nicholson conjecture, unclear object"}
+{"id": "W3150381009", "keep": false, "why": "general number theory, unrelated"}
+{"id": "W3153036256", "keep": true, "why": "Ramsey-type numbers, hypergraphs"}
+{"id": "W3156089645", "keep": true, "why": "Ramsey variant of Brown-Erdos-Sos"}
+{"id": "W3158628378", "keep": true, "why": "density of sumsets"}
+{"id": "W3182414143", "keep": false, "why": "coprime graph Hamiltonicity, unrelated"}
+{"id": "W3198912041", "keep": false, "why": "binomial coefficient factorizations, different object"}
+{"id": "W3206378641", "keep": false, "why": "congruent number problem, unrelated"}
+{"id": "W350260367", "keep": false, "why": "Frobenius linear Diophantine problem, different object"}
+{"id": "W37379289", "keep": true, "why": "combinatorial problems in abelian groups"}
+{"id": "W39515261", "keep": false, "why": "coprime integer sets, different object"}
+{"id": "W4205533240", "keep": true, "why": "ultrafilters, Ramsey-type theorems"}
+{"id": "W4205589699", "keep": true, "why": "colours avoiding monochromatic APs"}
+{"id": "W4205910638", "keep": false, "why": "Riemann hypothesis claim, unrelated"}
+{"id": "W4210663278", "keep": true, "why": "Erdos favorite problems, unclear"}
+{"id": "W4210731599", "keep": false, "why": "graph theory textbook, unrelated"}
+{"id": "W4211101493", "keep": true, "why": "sequences of integers book"}
+{"id": "W4211205179", "keep": false, "why": "distance sets of points, unrelated"}
+{"id": "W4211214111", "keep": true, "why": "sequences of integers book"}
+{"id": "W4211238674", "keep": false, "why": "unrelated monograph, unclear"}
+{"id": "W4212782960", "keep": true, "why": "primitive recursive vdW bounds"}
+{"id": "W4212884688", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "W4212934326", "keep": true, "why": "unclear title, possibly related"}
+{"id": "W4231447687", "keep": true, "why": "unclear introduction, problem book"}
+{"id": "W4232463701", "keep": true, "why": "sequences book, related"}
+{"id": "W4233900282", "keep": false, "why": "set theory problems, unrelated"}
+{"id": "W4234117750", "keep": true, "why": "certain sets of integers"}
+{"id": "W4234963553", "keep": true, "why": "additive completion of integer sets"}
+{"id": "W4236390637", "keep": true, "why": "hypergraph colouring, few edges"}
+{"id": "W4236705909", "keep": true, "why": "unclear introduction, possibly related"}
+{"id": "W4236741702", "keep": true, "why": "hypergraphs with large girth"}
+{"id": "W4236847675", "keep": true, "why": "hypergraph colouring, large girth"}
+{"id": "W4238156180", "keep": true, "why": "hypergraph chromatic quantities"}
+{"id": "W4241085666", "keep": true, "why": "Graham conjecture"}
+{"id": "W4242421343", "keep": true, "why": "covering systems"}
+{"id": "W4243048603", "keep": true, "why": "probabilistic number theory"}
+{"id": "W4244591610", "keep": true, "why": "sums and products of real sets"}
+{"id": "W4245912398", "keep": true, "why": "Hanani question, additive NT"}
+{"id": "W4249825057", "keep": true, "why": "Ramsey theory and Erdos"}
+{"id": "W4250699352", "keep": false, "why": "chromatic number of set systems, unrelated"}
+{"id": "W4251216302", "keep": false, "why": "divisors book, different object"}
+{"id": "W4251424537", "keep": false, "why": "lattice point problems, unrelated"}
+{"id": "W4253784147", "keep": true, "why": "Graham gcd conjecture"}
+{"id": "W4254284286", "keep": true, "why": "B2 sequences, additive"}
+{"id": "W4281382670", "keep": true, "why": "hypergraphs with large girth, colouring"}
+{"id": "W4282937930", "keep": true, "why": "hypergraph property B bounds"}
+{"id": "W4293703604", "keep": true, "why": "AP and Gallai-Ramsey colourings"}
+{"id": "W4295634057", "keep": false, "why": "unsolved geometry problems, unrelated"}
+{"id": "W4302383489", "keep": true, "why": "unsolved number theory problems"}
+{"id": "W4367663126", "keep": false, "why": "secure subgraph counting, unrelated"}
+{"id": "W4376878199", "keep": true, "why": "infinite sumsets, positive density"}
+{"id": "W4386984735", "keep": true, "why": "sumset covering, related"}
+{"id": "W4388788008", "keep": false, "why": "compressed string patterns, unrelated"}
+{"id": "W4392638280", "keep": true, "why": "monochromatic APs, vdW proof"}
+{"id": "W4392641268", "keep": true, "why": "Ramsey theory history, vdW"}
+{"id": "W4398240880", "keep": true, "why": "Erdos covering systems"}
+{"id": "W4401210516", "keep": true, "why": "unclear record, possibly related"}
+{"id": "W4401210571", "keep": true, "why": "Erdos B+B+t conjecture"}
+{"id": "W4404188127", "keep": true, "why": "unrestricted sumsets in dense sets"}
+{"id": "W4406635710", "keep": true, "why": "garbled title, unclear"}
+{"id": "W4406810291", "keep": false, "why": "product sets in groups, different object"}
+{"id": "W4407231387", "keep": true, "why": "finite Sidon sets diameter"}
+{"id": "W4407850790", "keep": true, "why": "multicolour vdW lower bounds"}
+{"id": "W4408526020", "keep": false, "why": "Erdos-Faber-Lovasz conjecture, unrelated"}
+{"id": "W4408552919", "keep": true, "why": "combinatorial properties of big sets"}
+{"id": "W4408729302", "keep": false, "why": "software CRC calculation, unrelated"}
+{"id": "W4414487897", "keep": true, "why": "density finite sums theorem"}
+{"id": "W4414688548", "keep": true, "why": "infinite sumset configurations"}
+{"id": "W51500770", "keep": true, "why": "ultrafilters, combinatorial NT"}
+{"id": "W588476729", "keep": true, "why": "mathematics of Ramsey theory"}
+{"id": "W593584913", "keep": false, "why": "numbers with large prime factor, different object"}
+{"id": "W606453859", "keep": true, "why": "combinatorics handbook, unclear"}
+{"id": "W626759026", "keep": true, "why": "probabilistic number theory book"}
+{"id": "W63284382", "keep": false, "why": "sets without coprimes, different object"}
+{"id": "W650639416", "keep": false, "why": "arrangements and spreads, unrelated"}

@@ -1,0 +1,2 @@
+{"id": "W773053098", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "visibility of lattice points, may use or bound Jacobsthal-type function"}
+{"id": "seed:erdos-1-5", "include": "borderline", "category": "S", "weight": 0.05, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos number-theory survey that may state the problem"}

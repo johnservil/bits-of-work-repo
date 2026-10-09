@@ -1,0 +1,40 @@
+{"id": "W1550811836", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "densest k-subgraph gaps"}
+{"id": "W1556276033", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "dictator testing for 3-CSP"}
+{"id": "W1556662994", "include": "yes", "category": "G", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "gap amplification for small-set expansion"}
+{"id": "W1559911801", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "noise correlation distillation"}
+{"id": "W1561372264", "include": "yes", "category": "S", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Khot overview talk on the UGC"}
+{"id": "W156176439", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "ARV balanced cut exposition"}
+{"id": "W1567190796", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "MAX DICUT approximation"}
+{"id": "W1569176896", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SDP gaps for 2-to-1 and label cover variants"}
+{"id": "W1570128105", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "set cover hierarchies"}
+{"id": "W1571037334", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "integrality gap for UG-type cut problems, disproves negative-type embedding conjecture"}
+{"id": "W1576252999", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "higher-eigenvalue Cheeger algorithms with small-set expansion consequences"}
+{"id": "W1576805635", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "MAX 2-SAT rounding"}
+{"id": "W1579163687", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest st-cut"}
+{"id": "W1581035799", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparse PCA SoS bounds"}
+{"id": "W1585955818", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "SDP gaps to Sherali-Adams for QP and MaxCutGain"}
+{"id": "W1586488998", "include": "borderline", "category": "G", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "bypasses UGC for geometric hardness via bijective projections"}
+{"id": "W1586797185", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "set cover NP-hardness"}
+{"id": "W1587123489", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP integrality gaps"}
+{"id": "W1588469622", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "rounding SDP hierarchies, subexponential unique games algorithms"}
+{"id": "W1591762700", "include": "borderline", "category": "F", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "SDP gaps and UGC-hardness for Max-Cut gain, mostly assumes UGC"}
+{"id": "W1593162480", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SDP hierarchy approximation"}
+{"id": "W1593375062", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "ordering CSP NP-hardness"}
+{"id": "W1597368603", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "rounding for parallel repeated unique games"}
+{"id": "W1598346827", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "fast graph algorithms thesis"}
+{"id": "W1600412016", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "strong parallel repetition counterexample"}
+{"id": "W1601503375", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max k-cut approximation"}
+{"id": "W1601613236", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "parallel repetition for projection games on expanders"}
+{"id": "W1603194973", "include": "borderline", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "spectral approximation of non-boolean 2CSP in UG style"}
+{"id": "W1606502575", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "UG-hardness for non-Boolean CSP, assumes UGC"}
+{"id": "W1607959690", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Lasserre hierarchy form"}
+{"id": "W1608352849", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Lasserre integrality gap for unique games"}
+{"id": "W1613874054", "include": "yes", "category": "S", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "tutorial notes on PCPs and unique games"}
+{"id": "W1619463472", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Max-CSP NP-hardness thesis"}
+{"id": "W1631603072", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "classical eigenvalues and expanders"}
+{"id": "W1634506963", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "manifold eigenvalues"}
+{"id": "W1655051759", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "vertex cover NP-hardness on hypergraphs"}
+{"id": "W1655296453", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "short long code with applications to UGC and small-set expansion"}
+{"id": "W1668045384", "include": "borderline", "category": "C", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "higher-order Cheeger inequality, related to small-set expansion"}
+{"id": "W1670963965", "include": "yes", "category": "A", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "SoS for 2-to-4 norm with unique games and small-set expansion consequences"}
+{"id": "W1673833342", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "ARV structure theorem reformulation"}

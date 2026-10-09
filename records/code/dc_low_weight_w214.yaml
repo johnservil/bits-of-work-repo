@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_low_weight_w214"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge low-weight codeword n=1280, weight 214 found"
+instance_size: 1280
+instance_size_unit: "n"
+log2_ops: null
+method: "lattice-based: Kannan embedding + BKZ/SVP"
+structure_exploited: false
+hardware: "7700K 64GB/1070 8GB"
+raw_compute: "runtime: Month; hardware: 7700K 64GB/1070 8GB"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 30
+date: "2023-05-08"
+solvers: ["Vasiliy Usatyuk"]
+academic: null
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/low-weight/record/15"
+other_urls: ["https://decodingchallenge.org/low-weight/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n / new min weight at submission date per hall of fame); runtime stated only as \"Month\"."

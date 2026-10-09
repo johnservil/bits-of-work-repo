@@ -1,0 +1,40 @@
+{"id": "W2039627336", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "densities of series of finite subsets, unrelated"}
+{"id": "W2039993732", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "linear equation solutions over finite sets, unrelated"}
+{"id": "W2043191005", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free sequences, unrelated"}
+{"id": "W2043381187", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "completeness Ramsey-type property, unrelated"}
+{"id": "W2044429866", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture, unrelated"}
+{"id": "W2045706961", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsequences, unrelated"}
+{"id": "W2045789201", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "addition theorem mod p, unrelated"}
+{"id": "W2046941141", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture, unrelated"}
+{"id": "W2051545604", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsets Folner sequences, unrelated"}
+{"id": "W2052059867", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "squarefree numbers in sumsets, unrelated"}
+{"id": "W2052802307", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "balancing integer sequences, unrelated"}
+{"id": "W2054140454", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "primitive sequences, unrelated"}
+{"id": "W2054528010", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "polynomial-time sum-free subset, unrelated"}
+{"id": "W2065042838", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "sumsets in infinite sets, unrelated"}
+{"id": "W2065880080", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "consecutive-integer blocks sums, unrelated"}
+{"id": "W2068131989", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos-Newman on bases for sets of integers, may involve representation size of bases"}
+{"id": "W2069533429", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "infinite sum-free sets, unrelated"}
+{"id": "W2070190818", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "multiplicative Sidon sets and graph colourings, unrelated"}
+{"id": "W2070496958", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Rado partition regularity, unrelated"}
+{"id": "W2073859438", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "generalized sum-free subsets, unrelated"}
+{"id": "W2079979850", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "addition theorems, unrelated"}
+{"id": "W2082471372", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "density and pairwise sums, unrelated"}
+{"id": "W2085477555", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "partitions with equal products, unrelated"}
+{"id": "W2086041665", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd problem, unrelated"}
+{"id": "W2086728898", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsequences, unrelated"}
+{"id": "W2087699257", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Ruzsa survey on Erdos and the integers, may mention the problem"}
+{"id": "W2088339746", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Beatty sequences, unrelated"}
+{"id": "W2089796661", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "powers of 2 as sums of four integers, unrelated"}
+{"id": "W2108900323", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Roth sets of integers, unrelated"}
+{"id": "W2109887555", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "growth of regular sequences, unrelated"}
+{"id": "W2111220106", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "thin complements for additive bases, different problem"}
+{"id": "W2113268225", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Erdos problems survey, seed; may state the problem"}
+{"id": "W2113659224", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Sidon sequence bibliography, different topic"}
+{"id": "W2115034958", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "s-additive sequences, unrelated"}
+{"id": "W2115811550", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Erdos-Graham squares question, unrelated"}
+{"id": "W2118381068", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "elementary number theory problem, unrelated"}
+{"id": "W2118933019", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "aperiodic sum-free sets incomplete, unrelated"}
+{"id": "W2120600794", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "multiplicative representation, unrelated"}
+{"id": "W2125817895", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.55, "reason": "Erdos remarks number theory, unclear"}
+{"id": "W2130018900", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Erdos old and new problems survey, seed; may state the problem"}

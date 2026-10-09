@@ -1,0 +1,40 @@
+{"id": "W116441594", "include": "borderline", "category": "S", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos-Purdy combinatorial geometry chapter, title is a DOI"}
+{"id": "W126445476", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "geometric graph theory history"}
+{"id": "W1539895965", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "discrete geometry problem book, may list problem"}
+{"id": "W1590235295", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "different Erdos-Ulam question"}
+{"id": "W170892534", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planar unit distances"}
+{"id": "W1758887938", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "note on distinct distances, likely planar"}
+{"id": "W1788789537", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bichromatic incidences determined planes"}
+{"id": "W1970244902", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "tetrahedra volumes"}
+{"id": "W1970934335", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos geometry problems, seed citation"}
+{"id": "W1978148005", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Vazsonyi conjecture diameters"}
+{"id": "W1981515128", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "subsets with distinct distances, related variant"}
+{"id": "W1986575673", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bichromatic incidence bound"}
+{"id": "W1987084582", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "incidence theorems via Fourier analysis"}
+{"id": "W1996622003", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "equilateral triangles"}
+{"id": "W2006073641", "include": "borderline", "category": "S", "weight": 0.15, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos metric geometry problems"}
+{"id": "W2009038699", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Erdos-Purdy planar problems"}
+{"id": "W2009870896", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Tardos distinct sums and distances bounds"}
+{"id": "W2023844303", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "point-circle incidences in R^3"}
+{"id": "W2031397195", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "near optimal distinct distance bound in high dimensions"}
+{"id": "W2035775010", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "sphere-point incidences unit distances"}
+{"id": "W2036395616", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "planar distinct distances"}
+{"id": "W2051859868", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "repeated distances on sphere"}
+{"id": "W2057379925", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "distinct distances in well-distributed sets in R^d"}
+{"id": "W2061074723", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planar lattices distinct distances"}
+{"id": "W2089995023", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "distinct distances in R^3 and higher dimensions"}
+{"id": "W2098477273", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Erdos graph theory problems"}
+{"id": "W2101764588", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "crossing numbers planar distances"}
+{"id": "W2103821238", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planar heavy lines"}
+{"id": "W2113144141", "include": "borderline", "category": "C", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Falconer continuous distance set analogue"}
+{"id": "W2127590149", "include": "yes", "category": "S", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "survey of distinct distance variants and bounds"}
+{"id": "W2128872143", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "repeated distances in space"}
+{"id": "W2136910207", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "distinct distances in homogeneous sets in R^d"}
+{"id": "W2138258360", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Moser extremal point set problems"}
+{"id": "W2145670890", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planar distinct distances"}
+{"id": "W2146388713", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "convex polygon distances"}
+{"id": "W2149723593", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planar distinct distances"}
+{"id": "W2166961358", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "planar extremal geometry"}
+{"id": "W2167396159", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planar heavy lines"}
+{"id": "W2167816765", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "discrete geometry textbook"}
+{"id": "W2168138462", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "planar distinct distances"}

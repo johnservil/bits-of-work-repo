@@ -1,0 +1,40 @@
+{"id": "W2989115918", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum groups"}
+{"id": "W2989841544", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP for Max-Cut"}
+{"id": "W2989885249", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Poincare constants"}
+{"id": "W2991167089", "include": "yes", "category": "G", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Rich 2-to-1 Games Conjecture equivalent to UGC"}
+{"id": "W2991433568", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes SSEH and strong UGC for hardness"}
+{"id": "W2993373281", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "negative type diversities"}
+{"id": "W2994824967", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hierarchical clustering"}
+{"id": "W2995201291", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "direct product testing"}
+{"id": "W2996822558", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "spectral independence"}
+{"id": "W2998157673", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "list decoding direct sum"}
+{"id": "W3000152275", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "higher order walks"}
+{"id": "W3000532033", "include": "yes", "category": "C", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "chapter on Grassmann graph near-perfect expansion"}
+{"id": "W3001720442", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "closed sets in regular graphs"}
+{"id": "W3002262398", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sticky Brownian rounding"}
+{"id": "W3003633209", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "agreement expansion"}
+{"id": "W3005253397", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "matrix norm computation"}
+{"id": "W3006839531", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "refutation of random k-XOR"}
+{"id": "W3009471697", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Potts model algorithms on small-set expanders"}
+{"id": "W3011649984", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS ordering principle"}
+{"id": "W3016900072", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "corruption detection"}
+{"id": "W3024354928", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "algorithms and hardness for strong unique games"}
+{"id": "W3028030803", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "vertex isoperimetry"}
+{"id": "W3032955444", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "non-signaling linearity testing"}
+{"id": "W3034256405", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS lifting lower bounds"}
+{"id": "W3035798466", "include": "yes", "category": "G", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "reduction from non-unique games to Boolean unique games"}
+{"id": "W3036135716", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "unique games algorithm on certified small-set expanders"}
+{"id": "W3037538996", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "approximation resistance"}
+{"id": "W3042338675", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "spectral independence"}
+{"id": "W3043052838", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "vertex expansion on trees"}
+{"id": "W3047645840", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "symmetric CSP approximation"}
+{"id": "W3082892514", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "HDX Chernoff"}
+{"id": "W3085100594", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS lower bounds from HDX"}
+{"id": "W3085317570", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semi-random refutation"}
+{"id": "W3086370063", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS pseudomoments"}
+{"id": "W3086724848", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypercontractivity symmetric group"}
+{"id": "W3089113212", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "MAX NAE-SAT"}
+{"id": "W3090272319", "include": "yes", "category": "G", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "towards equivalence of MAX-CUT and UG via symmetric parallel repetition"}
+{"id": "W3093638304", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max k-uncut"}
+{"id": "W3095481223", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS symmetric functions"}
+{"id": "W3098728286", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planted cliques semi-random"}

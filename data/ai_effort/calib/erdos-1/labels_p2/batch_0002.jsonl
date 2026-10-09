@@ -1,0 +1,11 @@
+{"id": "seed:erdos-1-30", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "best known asymptotic lower bound for the distinct subset sums problem"}
+{"id": "W4408558795", "include": "borderline", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "variants of the distinct sums problem via the variance method"}
+{"id": "W3134883592", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "two proofs of the best known asymptotic lower bound on the maximum element"}
+{"id": "W152445509", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-product phenomenon, unrelated"}
+{"id": "W1876197808", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "general problem-book chapter whose title does not name this problem"}
+{"id": "W2143943120", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general Erdős unsolved-problems list whose title does not name this problem"}
+{"id": "W1555475515", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "general unsolved-problems book whose title does not name this problem"}
+{"id": "seed:erdos-1-20", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general Erdős problem collection whose title does not name this problem"}
+{"id": "W3035987802", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "two proofs of the best known asymptotic lower bound on the maximum element"}
+{"id": "W2326750642", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "detecting sets of vectors with distinct sums, a vector analogue of the problem"}
+{"id": "W2313298573", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.25, "reason": "unspecified Erdős problem from 1950, cannot confirm it is this one"}

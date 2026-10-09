@@ -1,0 +1,40 @@
+{"id": "W4394645605", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "inapproximability survey, UGC-conditional results part"}
+{"id": "W4396823872", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "correlation clustering LP"}
+{"id": "W4399520876", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "direct product testing"}
+{"id": "W4399521421", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS independent set"}
+{"id": "W4399521632", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "cosystolic expansion"}
+{"id": "W4399522327", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "homomorphism relaxations"}
+{"id": "W4399522872", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "small sparse cut and small set expansion approximation in terms of cut size"}
+{"id": "W4399523282", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "alphabet-soundness PCPs"}
+{"id": "W4399523402", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "influences in mixing measures"}
+{"id": "W4399523655", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "agreement theorems HDX"}
+{"id": "W4401147767", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparse juntas"}
+{"id": "W4403536363", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "flow-cut theorem"}
+{"id": "W4403611101", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "symmetric group covering"}
+{"id": "W4404848080", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "HDX Chernoff"}
+{"id": "W4404848383", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "noncommutative CSPs"}
+{"id": "W4404849183", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "agreement tests HDX"}
+{"id": "W4404849632", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Boolean slice dense model"}
+{"id": "W4404849782", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "direct product testers"}
+{"id": "W4410232740", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "linear equations"}
+{"id": "W4410846121", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "polynomial testing"}
+{"id": "W4410927286", "include": "yes", "category": "C", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "small-set expansion in the Johnson graph, 2-to-2 line"}
+{"id": "W4411319170", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS coloring random graphs"}
+{"id": "W4411319846", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut rounding"}
+{"id": "W4411319950", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "independent sets on expanders"}
+{"id": "W4411319960", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "HDX hypercontractivity"}
+{"id": "W4411319963", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "colouring hardness"}
+{"id": "W4411320001", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quasi-linear PCPs"}
+{"id": "W4411320009", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "coboundary expansion"}
+{"id": "W4412141394", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "noise stability quantum MAX-CUT"}
+{"id": "W4412516298", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "polynomial optimization hierarchy"}
+{"id": "W4412543997", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "satisfiable k-CSP approximability"}
+{"id": "W4413142925", "include": "borderline", "category": "C", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "multi-slice invariance principle, possible 2-to-1 applications"}
+{"id": "W4413181694", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "parameterized inapproximability"}
+{"id": "W4413366411", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "satisfiable k-CSP approximability"}
+{"id": "W4414080979", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "poset local-to-global"}
+{"id": "W4416775221", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "HDX random walks"}
+{"id": "W4416907084", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "ordered colouring hardness"}
+{"id": "W4417317418", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "vertex expansion Cheeger"}
+{"id": "W4985749", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "noise-resistant functions are juntas"}
+{"id": "W600944453", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonclassical games thesis"}

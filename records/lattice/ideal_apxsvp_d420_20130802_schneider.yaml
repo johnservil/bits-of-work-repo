@@ -1,0 +1,25 @@
+id: "ideal_apxsvp_d420_20130802_schneider"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge approx-SVP dim 420 (index 421)"
+instance_size: 420
+instance_size_unit: "dim"
+log2_ops: null
+method: "BKZ blocksize 2-11"
+structure_exploited: false
+hardware: "AMD Opteron, single core"
+raw_compute: "8830 s single core"
+reported_core_years: 0.00028
+gpu_years: null
+wall_time_days: null
+date: "2013-08-02"
+solvers: ["Michael Schneider"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (approx-SVP HoF)"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/alphasvphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "Ideal Lattice Challenge approx-SVP HoF: much looser norm bound (formula shown as image on site, not transcribed); a BKZ-quality short-vector record rather than an SVP solve. Record progression entry (new max dimension). HoF: cyclotomic index 421, seed 0, norm 419016, 'using ideal structure' = no."

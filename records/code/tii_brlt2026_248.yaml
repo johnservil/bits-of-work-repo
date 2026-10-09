@@ -1,0 +1,27 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "tii_brlt2026_248"
+class: "code"
+problem: "SD-Goppa"
+instance: "TII Track 1B TII-248 (n=482, k=419, t=7, m=9)"
+instance_size: 482
+instance_size_unit: "n"
+log2_ops: null
+method: "algebraic modeling for rank-2 matrices in the quadratic-relations code (degree 5), then key reconstruction"
+structure_exploited: true
+hardware: null
+raw_compute: "64000 seconds, >700 GB memory (core count unspecified)"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.7407407407407407
+date: "2026-06-10"
+solvers: ["Pierre Briaud", "Axel Lemoine", "Hugues Randriambololona", "Jean-Pierre Tillich"]
+academic: true
+challenge: "TII McEliece"
+extrapolation: "conjectured subexponential in the security level; at best ~2^454 for NIST level-1 Classic McEliece parameters (abstract)"
+paper: "2026/1232"
+source_url: "https://classic.mceliece.org/mceliece-610-20260623.pdf"
+other_urls: ["https://eprint.iacr.org/2026/1232", "https://raw.githubusercontent.com/ElenaKirshanova/tii_decoding_challenge/main/key_rec_instances"]
+confidence: 0.65
+verified: true
+verified_by: "user 2026-10-09: checked, accepted provisionally (\"willing to trust for now\")"
+notes: "Also re-verified TII-83, 89, 119, 166, 210. Figures quoted from 2026/1232 by the Classic McEliece team note (2026-06-23), which notes 2008 ISD software decrypts ciphertexts at (482,7) in 0.17 s on one core, ~30 million times cheaper. TII label = round(bitcomplexity) from the organizers' key_rec_instances file (a brute-force/support-splitting estimate, disputed by Bernstein 2023 and the 2026 papers); labels are not security levels. TII/HeroX confirmation: none found; HeroX leaderboard (static since the May 2024 close) still lists every Track 1B label above 83 as \"Available to Solve\". Keys are publicly checkable against the official public keys."

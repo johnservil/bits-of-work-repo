@@ -1,0 +1,4 @@
+{"id": "W813673045", "include": "borderline", "category": "G", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.55, "reason": "Burr-Erdős-Graham-Li completeness of sums of integer powers, the source context of the 3 and 4 question"}
+{"id": "W1970594294", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "d-completeness of sets p^a q^b, a different completeness question"}
+{"id": "W4397017995", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "directly studies sums of distinct powers of 3 and 4"}
+{"id": "W2072947530", "include": "yes", "category": "A", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "Melfi additive problem on sums of powers of fixed integers, the 3 and 4 case"}

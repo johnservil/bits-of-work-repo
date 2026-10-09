@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_low_weight_w210"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge low-weight codeword n=1280, weight 210 found"
+instance_size: 1280
+instance_size_unit: "n"
+log2_ops: null
+method: "A GPU implementation of the Becker--Joux--May--Meurer (BJMM) Algorithm [eprint:2024/393]"
+structure_exploited: false
+hardware: "10 desktop PCs (5 with RTX 4080 + Intel Core i9-12900, 5 with RTX 3090 + Intel Core i9-12900)"
+raw_compute: "runtime: 22.7 hours (expected runtime is 7.3 days for 10 desktop PCs); hardware: 10 desktop PCs (5 with RTX 4080 + Intel Core i9-12900, 5 with RTX 3090 + Intel Core i9-12900)"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.9458333333333333
+date: "2024-06-24"
+solvers: ["Shintaro Narisada", "Hiroki Okada", "Shusaku Uemura", "Yusuke Aikawa", "Kazuhide Fukushima", "Shinsaku Kiyomoto"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: "2024/393"
+source_url: "https://decodingchallenge.org/low-weight/record/18"
+other_urls: ["https://decodingchallenge.org/low-weight/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n / new min weight at submission date per hall of fame); expected runtime 7.3 days on the 10 PCs (lucky)."

@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "blp2008_mceliece_1024_50"
+class: "code"
+problem: "SD-Goppa"
+instance: "original McEliece 1978 parameters (n=1024, k=524, t=50) challenge ciphertext"
+instance_size: 1024
+instance_size_unit: "n"
+log2_ops: null
+method: "improved Stern ISD (Bernstein-Lange-Peters 2008)"
+structure_exploited: false
+hardware: "several dozen computers: TU/e C4 and SANdpit clusters, CWI, Loria, DCU/ICHEC, NTU, UIC"
+raw_compute: "decrypted a challenge ciphertext in 8000 core-days"
+reported_core_years: 21.9028
+gpu_years: null
+wall_time_days: null
+date: "2008-10"
+solvers: ["Daniel J. Bernstein", "Tanja Lange", "Christiane Peters"]
+academic: true
+challenge: null
+extrapolation: "paper proposes new McEliece/Niederreiter parameters for standard security levels accounting for the improved attack"
+paper: "2008/318"
+source_url: "https://www.hyperelliptic.org/tanja/press/mceliece.html"
+other_urls: ["https://eprint.iacr.org/2008/318", "https://isd.mceliece.org/1347.html"]
+confidence: 0.85
+verified: false
+notes: "Announced at PQCrypto 2008 (Cincinnati, Oct 2008); press release 2008-10-20. Paper abstract estimate: 1400 days on one 2.4 GHz Core 2 Quad or 7 days on 200 CPUs. \"A lucky computer in Ireland\" found it. instance_size/k/t from the classical McEliece parameters (n=1024,t=50 confirmed by isd.mceliece.org/1347.html; k=524 standard value, not read on the source page)."

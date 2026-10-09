@@ -1,0 +1,100 @@
+{"id": "W4318303117", "keep": true, "why": "submodular sparsest cut approximation"}
+{"id": "W4319944831", "keep": false, "why": "consideration sets, choice"}
+{"id": "W4320917315", "keep": false, "why": "independent set counting, bipartite"}
+{"id": "W4323064663", "keep": false, "why": "expander spanning subgraphs, girth"}
+{"id": "W4323767815", "keep": false, "why": "UAV swarm planning"}
+{"id": "W4362177327", "keep": true, "why": "hypercontractivity, global functions, thresholds"}
+{"id": "W4364376833", "keep": false, "why": "interior-point SoS optimization"}
+{"id": "W4366215353", "keep": true, "why": "unique games over hypercontractive graphs"}
+{"id": "W436674831", "keep": true, "why": "efficient approximability of CSPs"}
+{"id": "W4366958037", "keep": false, "why": "power node-deletion approximation"}
+{"id": "W4368339384", "keep": false, "why": "routing permutations, spectral expanders"}
+{"id": "W4375928990", "keep": false, "why": "invariance principles, stochastic dynamics"}
+{"id": "W4376639504", "keep": false, "why": "Erdos-Gallai cycle decomposition"}
+{"id": "W4376639528", "keep": false, "why": "length-constrained flows"}
+{"id": "W4376639540", "keep": false, "why": "quantum LDPC codes"}
+{"id": "W4376639551", "keep": true, "why": "approximate graph colouring, hollow shadow"}
+{"id": "W4376639579", "keep": true, "why": "high-dimensional expanders from covers"}
+{"id": "W4376639581", "keep": false, "why": "lattice problems"}
+{"id": "W4376639598", "keep": false, "why": "expansion in geometric graphs"}
+{"id": "W4376639621", "keep": true, "why": "SoS lower bounds, densest k-subgraph"}
+{"id": "W4376639649", "keep": true, "why": "semi-random planted clique threshold"}
+{"id": "W4376639658", "keep": true, "why": "Cheeger inequalities, reweighted eigenvalues"}
+{"id": "W4376639703", "keep": true, "why": "approximability of satisfiable k-CSPs II"}
+{"id": "W4376651367", "keep": false, "why": "unentangled quantum proofs"}
+{"id": "W4376651385", "keep": true, "why": "approximability of satisfiable k-CSPs III"}
+{"id": "W4376651398", "keep": true, "why": "Bonami lemma, 2-2 games"}
+{"id": "W4378449969", "keep": true, "why": "pseudorandom sets, Grassmann graph expansion"}
+{"id": "W4380568744", "keep": true, "why": "open problems column; unclear"}
+{"id": "W4381747443", "keep": false, "why": "outlier-robust geometric perception"}
+{"id": "W4382239681", "keep": false, "why": "vaccine design, submodular optimization"}
+{"id": "W4383213608", "keep": false, "why": "SoS bounds, integral hull"}
+{"id": "W4384135040", "keep": false, "why": "missing value imputation"}
+{"id": "W4384692454", "keep": false, "why": "fastest mixing Markov chain, dimension reduction"}
+{"id": "W4384932887", "keep": false, "why": "graph p-Laplacian eigenvalues"}
+{"id": "W4385438397", "keep": false, "why": "quantum Max-Cut swap operators"}
+{"id": "W4385473958", "keep": true, "why": "approximability of satisfiable k-CSPs IV"}
+{"id": "W4385572839", "keep": false, "why": "neural topic models"}
+{"id": "W4385662236", "keep": false, "why": "forbidden intersections for codes"}
+{"id": "W4385760353", "keep": false, "why": "simultaneous semi-random TSP"}
+{"id": "W4385899778", "keep": false, "why": "Kahn-Kalai conjecture"}
+{"id": "W4386044165", "keep": true, "why": "direct product testing, coboundary expansion"}
+{"id": "W4386155755", "keep": false, "why": "max-min greedy matching"}
+{"id": "W4386284608", "keep": false, "why": "randomized algorithms overview"}
+{"id": "W4386714227", "keep": false, "why": "algebraic proof system sizes"}
+{"id": "W4389832632", "keep": false, "why": "permutation operators, quantum information"}
+{"id": "W4390030784", "keep": true, "why": "minimum nonuniform graph partitioning, unrelated weights"}
+{"id": "W4390097915", "keep": false, "why": "list-decoding binary codes"}
+{"id": "W4390097937", "keep": true, "why": "Grassmannian high-dimensional expanders"}
+{"id": "W4390098066", "keep": true, "why": "integrality gaps to SSEH, globally constrained CSPs"}
+{"id": "W4390098097", "keep": false, "why": "list decoding Tanner codes"}
+{"id": "W4390100660", "keep": true, "why": "testing generalized Reed-Muller codes"}
+{"id": "W4390100671", "keep": true, "why": "semirandom planted CSPs, refutation"}
+{"id": "W4390222097", "keep": false, "why": "critical nodes in networks"}
+{"id": "W4390577921", "keep": false, "why": "gap amplification, reconfiguration"}
+{"id": "W4390580371", "keep": true, "why": "bounded treewidth sparsest cut approximation"}
+{"id": "W4390703623", "keep": false, "why": "connected-k-subgraph cover"}
+{"id": "W4390964207", "keep": false, "why": "QAOA ansatz"}
+{"id": "W4391506307", "keep": true, "why": "direct product testers, small soundness"}
+{"id": "W4391555747", "keep": true, "why": "low acceptance agreement tests, HDX"}
+{"id": "W4391577094", "keep": false, "why": "minimum vertex cover attention method"}
+{"id": "W4392450394", "keep": false, "why": "parameterized weighted vertex cover"}
+{"id": "W4392877631", "keep": false, "why": "QAOA review"}
+{"id": "W4393085118", "keep": false, "why": "densest subgraph survey"}
+{"id": "W4393147888", "keep": false, "why": "weighted metric clustering, Sherali-Adams"}
+{"id": "W4394617768", "keep": false, "why": "Ising machines"}
+{"id": "W4394645605", "keep": true, "why": "inapproximability of combinatorial optimization"}
+{"id": "W4394779184", "keep": false, "why": "t-intersecting permutation families"}
+{"id": "W4396823872", "keep": true, "why": "cluster LP for correlation clustering"}
+{"id": "W4396891781", "keep": false, "why": "fair projections, recommendations"}
+{"id": "W4398180423", "keep": false, "why": "k-median vs supplier"}
+{"id": "W4398206470", "keep": false, "why": "quantum Max-Cut swap operators"}
+{"id": "W4399520876", "keep": true, "why": "direct product testing, coboundary expansion"}
+{"id": "W4399521421", "keep": true, "why": "SoS lower bounds, ultra-sparse independent set"}
+{"id": "W4399521632", "keep": true, "why": "swap cosystolic expansion"}
+{"id": "W4399522282", "keep": false, "why": "KKT solutions, quadratic programs"}
+{"id": "W4399522327", "keep": true, "why": "SDP and linear equations vs homomorphisms"}
+{"id": "W4399522872", "keep": true, "why": "approximating small sparse cuts"}
+{"id": "W4399523045", "keep": false, "why": "quantum Hamiltonian learning"}
+{"id": "W4399523282", "keep": true, "why": "alphabet-soundness tradeoff PCPs"}
+{"id": "W4399523402", "keep": true, "why": "influences in mixing measures"}
+{"id": "W4399523655", "keep": true, "why": "agreement theorems, HDX, low acceptance"}
+{"id": "W4399889081", "keep": false, "why": "algebraic approach to approximation"}
+{"id": "W4399889428", "keep": false, "why": "1-in-3 vs NAE dichotomy"}
+{"id": "W4400520282", "keep": false, "why": "deep network embedding"}
+{"id": "W4401147767", "keep": true, "why": "sparse juntas on biased hypercube"}
+{"id": "W4401857434", "keep": false, "why": "balanced subgraphs, signed networks"}
+{"id": "W4401974955", "keep": false, "why": "Lipschitz hardness, spin glasses"}
+{"id": "W4402469419", "keep": false, "why": "parameterized weighted vertex cover"}
+{"id": "W4402623435", "keep": false, "why": "subdivisions, space constraints"}
+{"id": "W4403536363", "keep": true, "why": "direct product multicommodity flow, sparse cut"}
+{"id": "W4403611101", "keep": true, "why": "hypercontractivity, covering conjugacy classes"}
+{"id": "W4404848080", "keep": true, "why": "Chernoff bounds, reverse hypercontractivity, HDX"}
+{"id": "W4404848084", "keep": false, "why": "locally stationary distributions"}
+{"id": "W4404848383", "keep": true, "why": "approximation algorithms, noncommutative CSPs"}
+{"id": "W4404848579", "keep": false, "why": "agnostic learning, multi-index models"}
+{"id": "W4404849183", "keep": true, "why": "low acceptance agreement tests, HDX"}
+{"id": "W4404849342", "keep": false, "why": "anti-concentration beyond Gaussians"}
+{"id": "W4404849601", "keep": false, "why": "planted sparse vectors, Euclidean sections"}
+{"id": "W4404849632", "keep": true, "why": "dense model theorem, Boolean slice"}
+{"id": "W4404849665", "keep": false, "why": "length-constrained expander decompositions"}

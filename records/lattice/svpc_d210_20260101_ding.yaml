@@ -1,0 +1,25 @@
+id: "svpc_d210_20260101_ding"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 210 (seed 0)"
+instance_size: 210
+instance_size_unit: "dim"
+log2_ops: null
+method: "bgj3-gpu BGJ sieve on GPU"
+structure_exploited: false
+hardware: "GPU (model/count not stated on HoF entry)"
+raw_compute: "preprocessing 56.05 days + final sieve and hash-lifting 22.31 days"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 78.36
+date: "2026-01-01"
+solvers: ["Jintai Ding", "Ziyu Zhao"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Record progression entry (new max dimension). HoF: norm 3808, seed 0, approx factor 1.04497, algorithm tag 'Sieving'. wall_time_days = sum of stated phases. HoF date printed as 2026-01-1. Current top SVP Challenge entry."

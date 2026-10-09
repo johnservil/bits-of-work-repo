@@ -1,0 +1,75 @@
+{"id": "W2166961358", "keep": true, "why": "extremal problems in discrete geometry"}
+{"id": "W2167396159", "keep": true, "why": "few distinct distances, heavy lines"}
+{"id": "W2167816765", "keep": true, "why": "discrete geometry textbook, tool"}
+{"id": "W2168138462", "keep": true, "why": "distinct distances in the plane"}
+{"id": "W2169821423", "keep": true, "why": "Erdos combinatorial problems survey"}
+{"id": "W2171774908", "keep": true, "why": "combinatorial geometry problems survey"}
+{"id": "W2186235634", "keep": false, "why": "collinearity structure, not distances"}
+{"id": "W2195290894", "keep": true, "why": "Erdos combinatorial geometry problems"}
+{"id": "W2235559321", "keep": true, "why": "bisector energy, few distinct distances"}
+{"id": "W2268144054", "keep": false, "why": "computational geometry column"}
+{"id": "W2290704213", "keep": false, "why": "random matrix singularity"}
+{"id": "W2315982756", "keep": true, "why": "untruncated problems record, unclear"}
+{"id": "W2317972059", "keep": true, "why": "furthest neighbour pairs, distance-related"}
+{"id": "W2319149236", "keep": true, "why": "sets of distances of n points"}
+{"id": "W2322480514", "keep": false, "why": "probability textbook"}
+{"id": "W2322887909", "keep": true, "why": "graph theory applied to geometry, possibly distances"}
+{"id": "W2336392368", "keep": true, "why": "distinct and repeated distances on surfaces"}
+{"id": "W2513877431", "keep": true, "why": "famous problems of discrete geometry"}
+{"id": "W2529833129", "keep": true, "why": "incidences and distinct repeated distances"}
+{"id": "W2555699432", "keep": false, "why": "computational geometry researcher survey"}
+{"id": "W2582801014", "keep": true, "why": "distinct distances, collinear sets"}
+{"id": "W2587926013", "keep": false, "why": "probability textbook"}
+{"id": "W2608922762", "keep": true, "why": "Erdos problem story, geometry"}
+{"id": "W2622381546", "keep": false, "why": "graph theory and combinatorics report"}
+{"id": "W2740811800", "keep": true, "why": "point-flat incidence theorems"}
+{"id": "W2751862591", "keep": false, "why": "probability textbook"}
+{"id": "W2804024573", "keep": true, "why": "point configurations, rigidity, Erdos problems"}
+{"id": "W2887365669", "keep": false, "why": "chromatic number of l1 space"}
+{"id": "W2894305733", "keep": true, "why": "bisectors and pinned distances"}
+{"id": "W2894385046", "keep": false, "why": "chromatic number l1 space, Russian"}
+{"id": "W2911302472", "keep": false, "why": "computational geometry textbook"}
+{"id": "W2912202394", "keep": true, "why": "combinatorial geometry book, distances chapters"}
+{"id": "W2920012250", "keep": false, "why": "orthogonal unimodular vectors, rings"}
+{"id": "W2949342774", "keep": true, "why": "tetrahedra minimum unit distinct volumes"}
+{"id": "W2949380958", "keep": true, "why": "bisector energy, distinct distances"}
+{"id": "W2950564665", "keep": true, "why": "few distinct distances, heavy lines"}
+{"id": "W2951028670", "keep": true, "why": "incidence theorems via Fourier analysis"}
+{"id": "W2951265436", "keep": true, "why": "distinct distances from polygon vertex"}
+{"id": "W2951443857", "keep": false, "why": "collinear k-tuples, not distances"}
+{"id": "W2952865587", "keep": true, "why": "distinct distances collinear set"}
+{"id": "W2963667153", "keep": true, "why": "point configurations, Erdos problems"}
+{"id": "W2978341022", "keep": true, "why": "point sets with one distinct triangle"}
+{"id": "W3007427333", "keep": true, "why": "pinned distances over finite fields"}
+{"id": "W3009725832", "keep": true, "why": "semi-algebraic incidence graphs"}
+{"id": "W3027363685", "keep": true, "why": "distinct distances, forbidden patterns"}
+{"id": "W3037996228", "keep": true, "why": "point-flat incidence theorems"}
+{"id": "W3038045698", "keep": true, "why": "incidence mapping results"}
+{"id": "W3042321748", "keep": false, "why": "convex holes in point sets"}
+{"id": "W3098775666", "keep": true, "why": "bichromatic incidence bound"}
+{"id": "W3099884977", "keep": false, "why": "empty pentagons with collinearities"}
+{"id": "W3115112125", "keep": false, "why": "Beck theorem for curves"}
+{"id": "W3148691794", "keep": false, "why": "Davenport-Schinzel sequences"}
+{"id": "W3174582001", "keep": false, "why": "convex holes, d-dimensional"}
+{"id": "W3180382944", "keep": true, "why": "pinned distances, positive characteristic"}
+{"id": "W3198160809", "keep": false, "why": "Knuth sorting textbook"}
+{"id": "W3217399827", "keep": false, "why": "cylindrical decomposition"}
+{"id": "W4211205179", "keep": true, "why": "sets of distances of n points"}
+{"id": "W4213074663", "keep": false, "why": "arrangement sweeping algorithm"}
+{"id": "W4229917934", "keep": false, "why": "cylindrical decomposition"}
+{"id": "W4234857612", "keep": false, "why": "mutually avoiding sets"}
+{"id": "W4237700516", "keep": true, "why": "incidences book, tool"}
+{"id": "W4243094764", "keep": true, "why": "repeated subconfigurations problems"}
+{"id": "W4245318986", "keep": false, "why": "computational geometry conference proceedings"}
+{"id": "W4247688430", "keep": true, "why": "point configurations in 3-space"}
+{"id": "W4254977685", "keep": false, "why": "random sampling geometry"}
+{"id": "W4256187709", "keep": false, "why": "ordinal spaces"}
+{"id": "W4300640952", "keep": false, "why": "combinatorial geometry algorithms book"}
+{"id": "W4366496249", "keep": true, "why": "Erdos mathematics retrospective"}
+{"id": "W4388221631", "keep": false, "why": "collinear triples structure"}
+{"id": "W4392641283", "keep": false, "why": "chromatic colouring in space"}
+{"id": "W4392667118", "keep": false, "why": "chromatic number of plane essay"}
+{"id": "W4392667526", "keep": true, "why": "two celebrated problems, possibly distances"}
+{"id": "W4415622048", "keep": true, "why": "forbidden patterns, few distinct distances"}
+{"id": "W7170803784", "keep": true, "why": "regular simplices in higher dimensions"}
+{"id": "seed:erdos-1083-5", "keep": true, "why": "distinct distances in high dimensions"}

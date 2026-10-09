@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "btc-puzzle-105"
+class: "ecdlp"
+problem: "interval-ECDLP"
+instance: "secp256k1 key in [2^104, 2^105) (Bitcoin puzzle #105)"
+instance_size: 104
+instance_size_unit: "bits"
+log2_ops: null
+method: "unconfirmed (presumably Pollard kangaroo or BSGS on exposed pubkey)"
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2019-09-23"
+solvers: null
+academic: false
+challenge: "Bitcoin puzzle #105"
+extrapolation: null
+paper: null
+source_url: "https://raw.githubusercontent.com/agntn/puzzles/main/src/collections/bits/105.ts"
+other_urls: ["https://privatekeys.pw/puzzles/bitcoin-puzzle-tx", "https://bitcointalk.org/index.php?topic=5218972"]
+confidence: 0.5
+verified: false
+notes: "Date = claim tx (1f31aa69...). Public key exposed 2019-06-01. Solver and resources unknown. instance_size = log2 interval size."

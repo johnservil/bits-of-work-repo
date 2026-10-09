@@ -1,0 +1,100 @@
+{"id": "W1978816967", "keep": false, "why": "covering sets, roots of unity"}
+{"id": "W1978976963", "keep": true, "why": "minimal and maximal additive nonbases"}
+{"id": "W1980033960", "keep": false, "why": "totient function, unrelated"}
+{"id": "W1981696777", "keep": false, "why": "Lefschetz and Sperner, unrelated"}
+{"id": "W1981896282", "keep": false, "why": "clique partitions of chordal graphs"}
+{"id": "W1982270970", "keep": false, "why": "book review extremal graph theory"}
+{"id": "W1982373193", "keep": false, "why": "colour problem infinite graphs"}
+{"id": "W1983459300", "keep": false, "why": "covering systems in number fields"}
+{"id": "W1983527280", "keep": false, "why": "Ramsey-type problem Bondy-Erdos"}
+{"id": "W1983812624", "keep": true, "why": "ordered sums of group elements"}
+{"id": "W1984375054", "keep": false, "why": "hypergraph colouring, unrelated"}
+{"id": "W1985394216", "keep": true, "why": "maximal sum-free sets in groups"}
+{"id": "W1986233232", "keep": false, "why": "extremal graph problem"}
+{"id": "W1986865672", "keep": false, "why": "Ramsey theorems in plane, geometry"}
+{"id": "W1989539066", "keep": false, "why": "cycles modulo k, graph theory"}
+{"id": "W1989548622", "keep": true, "why": "density of integer sequences"}
+{"id": "W1989597834", "keep": false, "why": "multiplicative function sums, unrelated"}
+{"id": "W1989630703", "keep": true, "why": "asymptotic nonbases, additive"}
+{"id": "W1989751882", "keep": false, "why": "Littlewood-Offord random matrices"}
+{"id": "W1990801743", "keep": true, "why": "Erdos-Sarkozy problem, additive"}
+{"id": "W1990804711", "keep": false, "why": "completely multiplicative sign functions"}
+{"id": "W1991488174", "keep": false, "why": "highly composite numbers"}
+{"id": "W1991804572", "keep": false, "why": "sums of prime powers, unrelated"}
+{"id": "W1994803663", "keep": false, "why": "consecutive integers large primes"}
+{"id": "W1995106671", "keep": true, "why": "sum-free subsets of integer sets"}
+{"id": "W1995296546", "keep": true, "why": "addition theorem, sumset tool"}
+{"id": "W1996285409", "keep": true, "why": "Hindman theorem, partition sums"}
+{"id": "W1997681421", "keep": true, "why": "finite sums in partition cells"}
+{"id": "W1997998268", "keep": false, "why": "normal hypergraphs, perfect graphs"}
+{"id": "W1999318585", "keep": false, "why": "cubic residue bounds"}
+{"id": "W1999426642", "keep": false, "why": "power residue bounds"}
+{"id": "W1999682169", "keep": true, "why": "recursively defined integer sets, unclear"}
+{"id": "W2000040997", "keep": true, "why": "Erdos-Moser question, unclear"}
+{"id": "W2000802644", "keep": true, "why": "sum-free subsequence in integer sequences"}
+{"id": "W2002063814", "keep": false, "why": "irregularities of progressions"}
+{"id": "W2002288087", "keep": false, "why": "primes in progression"}
+{"id": "W2002396773", "keep": false, "why": "progressions covering integers"}
+{"id": "W2004479099", "keep": true, "why": "intersection properties of integer subsets"}
+{"id": "W2004580743", "keep": true, "why": "additive number theory theorems"}
+{"id": "W2004782359", "keep": true, "why": "thin additive bases, edge-magic graphs"}
+{"id": "W2006409548", "keep": false, "why": "cycle lengths in graphs"}
+{"id": "W2008037211", "keep": true, "why": "multiplicative bases density"}
+{"id": "W2008476758", "keep": false, "why": "irregularities of progressions"}
+{"id": "W2008726491", "keep": true, "why": "sum-free sets of integers"}
+{"id": "W2008824802", "keep": false, "why": "unit distances geometry"}
+{"id": "W2009037541", "keep": false, "why": "majority games, unrelated"}
+{"id": "W2009170871", "keep": false, "why": "extremal problem for polynomials"}
+{"id": "W2009196521", "keep": true, "why": "integer sequences, Erdos-type"}
+{"id": "W2009232680", "keep": false, "why": "Hamiltonian circuits random graphs"}
+{"id": "W2010717824", "keep": false, "why": "irrationality of infinite products"}
+{"id": "W2010961669", "keep": true, "why": "Sidon sets in groups"}
+{"id": "W2011033909", "keep": false, "why": "Euler power sums counterexample"}
+{"id": "W2011125666", "keep": false, "why": "binary form representations"}
+{"id": "W2011601728", "keep": true, "why": "additive number theory problem"}
+{"id": "W2011671869", "keep": false, "why": "Steiner triple systems"}
+{"id": "W2012495969", "keep": false, "why": "coloring graphs odd cycles"}
+{"id": "W2013188591", "keep": false, "why": "general set systems, unrelated"}
+{"id": "W2013576033", "keep": false, "why": "prime divisors count"}
+{"id": "W2013992130", "keep": false, "why": "invisible runners, unrelated"}
+{"id": "W2014323465", "keep": true, "why": "integer sets with distinct pairwise differences"}
+{"id": "W2014507113", "keep": false, "why": "prime factors of central binomials"}
+{"id": "W2014985855", "keep": false, "why": "sums of cubes, unrelated"}
+{"id": "W2015305877", "keep": false, "why": "distinct unit fractions, different object"}
+{"id": "W2019350858", "keep": false, "why": "graph flows, unrelated"}
+{"id": "W2019447247", "keep": false, "why": "maximal length functions, unrelated"}
+{"id": "W2019573948", "keep": false, "why": "spreads in vector spaces, unrelated"}
+{"id": "W2020173739", "keep": false, "why": "partitioning vector spaces, unrelated"}
+{"id": "W2020272617", "keep": true, "why": "sums of distinct elements from set"}
+{"id": "W2020529018", "keep": true, "why": "Besicovitch theorem, sets of integers"}
+{"id": "W2020601174", "keep": true, "why": "sum-free subsequences"}
+{"id": "W2020925806", "keep": false, "why": "diameter critical graphs, unrelated"}
+{"id": "W2021073476", "keep": true, "why": "Waring converse, representation as sums"}
+{"id": "W2021315980", "keep": false, "why": "zero-sum and residue covers, different object"}
+{"id": "W2021414653", "keep": true, "why": "extremal number theory problem"}
+{"id": "W2023011716", "keep": true, "why": "sequences of integers, Erdos-type"}
+{"id": "W2023397165", "keep": true, "why": "partitions with sums and products"}
+{"id": "W2023600080", "keep": false, "why": "no three-term progressions, different object"}
+{"id": "W2024478370", "keep": false, "why": "prime distribution questions"}
+{"id": "W2025928899", "keep": false, "why": "m-covers of groups, unrelated"}
+{"id": "W2026445402", "keep": true, "why": "representation function of a sumset"}
+{"id": "W2026569452", "keep": false, "why": "permanent bound, unrelated"}
+{"id": "W2029209732", "keep": true, "why": "inverse Goldbach, additive problem"}
+{"id": "W2029235915", "keep": true, "why": "ultrafilters on N, Graham-Rothschild"}
+{"id": "W2030828770", "keep": true, "why": "van der Waerden partitions, Ramsey"}
+{"id": "W2031184395", "keep": true, "why": "additive structure of multiplicative sets"}
+{"id": "W2031909596", "keep": true, "why": "Erdos conjecture, unclear"}
+{"id": "W2032716544", "keep": false, "why": "hypercube subgraphs, unrelated"}
+{"id": "W2032724630", "keep": false, "why": "lattice points avoiding square, geometry"}
+{"id": "W2033040247", "keep": false, "why": "linear programming algorithms"}
+{"id": "W2033259203", "keep": false, "why": "repeated distances geometry"}
+{"id": "W2033366500", "keep": false, "why": "graphs with odd cycle lengths"}
+{"id": "W2034596135", "keep": true, "why": "primitive sequences, Erdos"}
+{"id": "W2034645676", "keep": false, "why": "balanced incomplete block designs"}
+{"id": "W2035971565", "keep": false, "why": "degenerate extremal graph problems"}
+{"id": "W2037695996", "keep": false, "why": "product representations of polynomials"}
+{"id": "W2038010519", "keep": false, "why": "van der Waerden number bounds, Ramsey"}
+{"id": "W2038466635", "keep": false, "why": "Collatz function injectivity"}
+{"id": "W2038497135", "keep": false, "why": "multiplicative function means, unrelated"}
+{"id": "W2038951761", "keep": false, "why": "intersection theorems for set systems"}
+{"id": "W2039027438", "keep": false, "why": "graph subgraphs, unrelated"}

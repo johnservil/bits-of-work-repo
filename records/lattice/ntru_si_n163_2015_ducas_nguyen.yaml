@@ -1,0 +1,25 @@
+id: "ntru_si_n163_2015_ducas_nguyen"
+class: "lattice"
+problem: "NTRU"
+instance: "Security Innovation NTRU Challenge #6 (163r1, q=1024)"
+instance_size: 163
+instance_size_unit: "dim"
+log2_ops: null
+method: "BKZ 2.0 (CN11) preprocessing + BDD pruned enumeration (LN13 variant)"
+structure_exploited: true
+hardware: "2.53 GHz cores"
+raw_compute: "about 30 core-days BKZ + 11 core-days enumeration (~100 enumerations); about 41 core-days total"
+reported_core_years: 0.1123
+gpu_years: null
+wall_time_days: null
+date: "2015-09"
+solvers: ["Léo Ducas", "Phong Q. Nguyen"]
+academic: true
+challenge: "Security Innovation NTRU Challenge"
+extrapolation: null
+paper: null
+source_url: "http://web.archive.org/web/20151229220714/https://www.securityinnovation.com/uploads/ntru-challenge-parameter-sets-and-public-keys-answers.pdf"
+other_urls: ["http://web.archive.org/web/20160310143833/https://www.securityinnovation.com/products/encryption-libraries/ntru-crypto/ntru-challenge/solved-challenges.html", "https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8889328&fileOId=8889332"]
+confidence: 0.8
+verified: false
+notes: "Security Innovation NTRU Challenge (27 keys, N=107..401, p=3, q=2^9..2^11; $1000 prizes for N<=211): find (f,g) or any lattice vector below a GH-derived bound in the NTRU lattice. instance_size = ring degree N (lattice dim 2N). Solve date unknown; dated by upper bound: Wayback capture of the 'Solved Challenges' page on 2015-09-11 already lists all seven solves (challenge page captured 2015-04-18 with no solves listed in the capture text). "

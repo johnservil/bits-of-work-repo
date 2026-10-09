@@ -1,0 +1,25 @@
+id: "ideal_svp_d96_20130220_ishiguro"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge SVP dim 96 (index 288)"
+instance_size: 96
+instance_size_unit: "dim"
+log2_ops: null
+method: "parallel Gauss sieve (ideal-structure variant)"
+structure_exploited: true
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2013-02-20"
+solvers: ["Tsukasa Ishiguro", "Shinsaku Kiyomoto", "Yutaka Miyake", "Tsuyoshi Takagi"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (SVP HoF)"
+extrapolation: null
+paper: "ePrint 2013/388"
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/svphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php", "https://eprint.iacr.org/2013/388"]
+confidence: 0.75
+verified: false
+notes: "Ideal Lattice Challenge (Plantard-Schneider): random ideal lattices from cyclotomic polynomials; SVP HoF threshold is a Gaussian-heuristic-based bound (formula shown as image on site), so this is approx-SVP near GH, not proven exact SVP. Record progression entry (new max dimension). HoF: cyclotomic index 288, seed 0, norm 2493, 'using ideal structure' = yes. Paper link assumed from same authors/method (unconfirmed)."

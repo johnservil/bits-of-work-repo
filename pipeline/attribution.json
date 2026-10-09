@@ -1,0 +1,73 @@
+{
+ "_comment": "Maps classifier problem_tags to headline assumption classes. 'fractional' splits each tag's weight; 'touch' credits 1 to every class touched. Weights are Phase-0 priors; revisit after pilot.",
+ "classes": [
+  "ECDLP",
+  "MLWE_structured",
+  "LWE_plain",
+  "SD_code",
+  "Factoring_FFDLP",
+  "Isogeny",
+  "Multivariate"
+ ],
+ "fractional": {
+  "ecdlp": {
+   "ECDLP": 1.0
+  },
+  "ffdlp": {
+   "Factoring_FFDLP": 1.0
+  },
+  "factoring": {
+   "Factoring_FFDLP": 1.0
+  },
+  "lattice_generic": {
+   "MLWE_structured": 0.5,
+   "LWE_plain": 0.5
+  },
+  "lwe_plain": {
+   "LWE_plain": 1.0
+  },
+  "lattice_structured": {
+   "MLWE_structured": 1.0
+  },
+  "ntru": {
+   "MLWE_structured": 1.0
+  },
+  "sis": {
+   "MLWE_structured": 0.5,
+   "LWE_plain": 0.5
+  },
+  "sd_generic": {
+   "SD_code": 1.0
+  },
+  "sd_goppa": {
+   "SD_code": 1.0
+  },
+  "sd_qc": {
+   "SD_code": 1.0
+  },
+  "lpn": {
+   "SD_code": 0.5
+  },
+  "rank": {},
+  "isogeny": {
+   "Isogeny": 1.0
+  },
+  "multivariate": {
+   "Multivariate": 1.0
+  },
+  "other": {}
+ },
+ "effort_categories": [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "H"
+ ],
+ "side_categories": [
+  "G",
+  "S"
+ ]
+}

@@ -1,0 +1,13 @@
+{"id": "W151157452", "include": "borderline", "category": "A", "weight": 0.25, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "revisits Gentry-Szydlo algorithm, number-theoretic tool not targeting LIP/HAWK"}
+{"id": "W2103012681", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.99, "reason": "probability inequalities, unrelated"}
+{"id": "W1984976620", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.99, "reason": "interactive proof systems, unrelated"}
+{"id": "W7162898012", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "computes HAWK lattice mass showing genus-based attacks are infeasible"}
+{"id": "seed:hawk-016", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "attacks multi-instance LIP group action (same secret), not single-instance key recovery"}
+{"id": "W4412075141", "include": "yes", "category": "C", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "automorphism-based dimension reduction of HAWK key recovery"}
+{"id": "W3154203804", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.97, "reason": "SVP/CVP reductions across norms, generic lattice complexity"}
+{"id": "W4389083215", "include": "yes", "category": "C", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "genus distribution of q-ary lattices, genus as LIP distinguisher"}
+{"id": "W2606133313", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.97, "reason": "fine-grained CVP hardness, generic lattice complexity"}
+{"id": "W2052114702", "include": "borderline", "category": "C", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Kneser neighbour/genus theory of lattices, classical background tool"}
+{"id": "W2979432830", "include": "yes", "category": "G", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "places Z^n-LIP decision in NP and co-NP"}
+{"id": "W1992226551", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "transcript-learning attack on GGH/NTRU signatures, not LIP or HAWK key recovery"}
+{"id": "W4416554975", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "negative results on approaches to breaking module-LIP"}

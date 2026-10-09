@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "fopdt2014_qd_qm_mceliece"
+class: "code"
+problem: "SD-Goppa"
+instance: "compact (quasi-dyadic / quasi-monoidic) McEliece and CFS parameters from the literature"
+instance_size: null
+instance_size_unit: "n"
+log2_ops: null
+method: "folding to small code + improved FOPT algebraic key recovery with structural elimination"
+structure_exploited: true
+hardware: null
+raw_compute: "most CFS QD/QM parameters in a few seconds; hardest < 2 hours; some encryption parameters out of reach"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2014-03"
+solvers: ["Jean-Charles Faugere", "Ayoub Otmani", "Ludovic Perret", "Frederic de Portzamparc", "Jean-Pierre Tillich"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "2014/210"
+source_url: "https://eprint.iacr.org/2014/210"
+other_urls: []
+confidence: 0.6
+verified: false
+notes: "Multiple proposed parameter sets / \"cryptographic challenges\" for QD/QM encryption broken; individual instances and hardware not read (PDF blocked)."

@@ -1,0 +1,40 @@
+{"id": "W42929123", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "local algorithm for small sparse cuts"}
+{"id": "W4300471124", "include": "borderline", "category": "G", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "bypasses UGC for geometric hardness via bijective projections"}
+{"id": "W4309237947", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "correlation clustering"}
+{"id": "W4311538958", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "book chapter on NP-hardness of 2-to-2 Games"}
+{"id": "W4311538962", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "conclusions of book on monotonicity testing and 2-to-2 Games"}
+{"id": "W4311538965", "include": "borderline", "category": "S", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "introduction of book on monotonicity testing and 2-to-2 Games"}
+{"id": "W4311538967", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "monotonicity testing chapter"}
+{"id": "W4311539049", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "book index"}
+{"id": "W4311539061", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "book bibliography"}
+{"id": "W4311539114", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "acknowledgements"}
+{"id": "W4311539176", "include": "yes", "category": "S", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "book on monotonicity testing and the 2-to-2 Games Conjecture"}
+{"id": "W4311539178", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "biased long code vertex cover chapter"}
+{"id": "W4313203167", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "polynomial testing"}
+{"id": "W4313227603", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS lower bounds 3-XOR"}
+{"id": "W4316652373", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "approximate colouring"}
+{"id": "W4316652466", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "linear equations"}
+{"id": "W4318303117", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut heuristic"}
+{"id": "W4362177327", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "global hypercontractivity"}
+{"id": "W4366215353", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "solving affine unique games over globally hypercontractive graphs"}
+{"id": "W436674831", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "CSP approximability overview"}
+{"id": "W4376639551", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "colouring and AIP"}
+{"id": "W4376639579", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "HDX constructions"}
+{"id": "W4376639621", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS densest subgraph"}
+{"id": "W4376639649", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semi-random planted clique"}
+{"id": "W4376639658", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "directed Cheeger inequalities"}
+{"id": "W4376639703", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "satisfiable k-CSP approximability"}
+{"id": "W4376651385", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "satisfiable k-CSP approximability"}
+{"id": "W4376651398", "include": "yes", "category": "C", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Bonami-type lemma for linear maps with 2-2 games application"}
+{"id": "W4378449969", "include": "yes", "category": "C", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.97, "reason": "Grassmann graph expansion completing the 2-to-2 Games Theorem"}
+{"id": "W4380568744", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "open problems column"}
+{"id": "W4385473958", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "satisfiable k-CSP approximability"}
+{"id": "W4386044165", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "direct product testing"}
+{"id": "W4390030784", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonuniform partitioning"}
+{"id": "W4390097937", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "HDX construction"}
+{"id": "W4390098066", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "SSEH hardness for constrained CSPs"}
+{"id": "W4390100660", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Reed-Muller testing"}
+{"id": "W4390100671", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semirandom CSP refutation"}
+{"id": "W4390580371", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut FPT"}
+{"id": "W4391506307", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "direct product testers"}
+{"id": "W4391555747", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "agreement tests HDX"}

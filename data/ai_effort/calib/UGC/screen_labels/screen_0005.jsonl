@@ -1,0 +1,100 @@
+{"id": "W2043963325", "keep": false, "why": "chromatic number approximation via SDP"}
+{"id": "W2044199052", "keep": false, "why": "robust PCPPs, general PCP"}
+{"id": "W2044471216", "keep": true, "why": "analytical approach to parallel repetition"}
+{"id": "W2044610104", "keep": false, "why": "adaptive sampling low-rank approximation"}
+{"id": "W2044630019", "keep": false, "why": "Edmonds problem, quantum entanglement"}
+{"id": "W2044949772", "keep": false, "why": "quantum de Finetti theorems"}
+{"id": "W2045107949", "keep": true, "why": "nearly-linear graph partitioning, spectral"}
+{"id": "W2045377861", "keep": false, "why": "zig-zag expanders construction"}
+{"id": "W2047244756", "keep": false, "why": "approximate kernel k-means"}
+{"id": "W2047569272", "keep": true, "why": "long-code PCP inapproximability survey"}
+{"id": "W2047642496", "keep": false, "why": "quantum separability algorithm"}
+{"id": "W2047861934", "keep": true, "why": "conditional hardness, approximate coloring"}
+{"id": "W2048346525", "keep": false, "why": "linear ordering polytope facets"}
+{"id": "W2048411223", "keep": true, "why": "vertex cover hardness, k-partite hypergraphs"}
+{"id": "W2048531585", "keep": false, "why": "spectrum of random lifts"}
+{"id": "W2048564574", "keep": true, "why": "LS+ lower bounds, pairwise independence"}
+{"id": "W2049143039", "keep": true, "why": "LS hierarchy for 0-1 programming"}
+{"id": "W2049251121", "keep": true, "why": "strong approximation resistance characterization"}
+{"id": "W2049600041", "keep": false, "why": "BV functions, maps into L1"}
+{"id": "W2049609719", "keep": false, "why": "minimum-weight vertex separators"}
+{"id": "W2050961553", "keep": true, "why": "fast SDP algorithms for CSPs"}
+{"id": "W2051880745", "keep": false, "why": "3CNF property testing hardness"}
+{"id": "W2052447582", "keep": true, "why": "small-value parallel repetition, games"}
+{"id": "W2052639209", "keep": true, "why": "multiway spectral partitioning"}
+{"id": "W2052701473", "keep": true, "why": "independent sets in almost q-colorable graphs"}
+{"id": "W2053086236", "keep": false, "why": "polylog-time computation checking"}
+{"id": "W2053403898", "keep": true, "why": "parallel repetition via fortification"}
+{"id": "W2053885701", "keep": true, "why": "dictionary learning via SoS"}
+{"id": "W2054863972", "keep": false, "why": "influence maximization approximation"}
+{"id": "W2054982957", "keep": false, "why": "linear equations over reals hardness"}
+{"id": "W2055289243", "keep": false, "why": "monopoles and vortices, physics"}
+{"id": "W2055711302", "keep": true, "why": "Gowers uniformity and PCPs"}
+{"id": "W2056155690", "keep": false, "why": "path hitting in acyclic graphs"}
+{"id": "W2058023231", "keep": false, "why": "single-machine scheduling precedence"}
+{"id": "W2058091369", "keep": false, "why": "edge-disjoint paths hardness"}
+{"id": "W2058702473", "keep": false, "why": "topic connected overlay"}
+{"id": "W2059187303", "keep": true, "why": "nonapproximability in LS hierarchy"}
+{"id": "W2059222268", "keep": false, "why": "TSP approximability"}
+{"id": "W2059453880", "keep": false, "why": "minimization problems hardness, generic"}
+{"id": "W2060054375", "keep": false, "why": "directed spanners LP"}
+{"id": "W2060280149", "keep": false, "why": "Heisenberg group Poincare inequalities"}
+{"id": "W2060451358", "keep": true, "why": "on Khot's unique games conjecture"}
+{"id": "W2061130579", "keep": false, "why": "classification with pairwise relations"}
+{"id": "W2061513598", "keep": false, "why": "W[1] completeness, parameterized"}
+{"id": "W2062628619", "keep": true, "why": "isoperimetric deficit, Gauss space"}
+{"id": "W2063491776", "keep": false, "why": "Lipschitz embeddings into Hilbert space"}
+{"id": "W2063711222", "keep": false, "why": "robust satisfiability of CSPs"}
+{"id": "W2064035344", "keep": true, "why": "graph pricing hardness, Max-DICUT"}
+{"id": "W2064334110", "keep": true, "why": "low-degree tests at large distances"}
+{"id": "W2065694619", "keep": false, "why": "haplotype configuration complexity"}
+{"id": "W2066093465", "keep": true, "why": "multi-way dual Cheeger constants"}
+{"id": "W2066467737", "keep": true, "why": "constant-time CSP approximation, bounded degree"}
+{"id": "W2066620631", "keep": true, "why": "LP approximation limits beyond hierarchies"}
+{"id": "W2066636486", "keep": false, "why": "web search engine architecture"}
+{"id": "W2067352618", "keep": true, "why": "SDP for linear equations mod p"}
+{"id": "W2069172499", "keep": false, "why": "geometric optimization not in APX"}
+{"id": "W2069816168", "keep": false, "why": "coloring by SDP, generic"}
+{"id": "W2070208264", "keep": true, "why": "unique games via embeddings"}
+{"id": "W2070383478", "keep": true, "why": "UGC hardness threshold, Grothendieck"}
+{"id": "W2070622106", "keep": true, "why": "CSP approximation with balance constraints"}
+{"id": "W2070683077", "keep": true, "why": "parallel repetition of entangled games"}
+{"id": "W2070747829", "keep": false, "why": "power system islanding clustering"}
+{"id": "W2070767505", "keep": false, "why": "PSPACE quantum interactive proofs"}
+{"id": "W2071040500", "keep": false, "why": "Hilbert on definite forms, historical"}
+{"id": "W2071346321", "keep": false, "why": "max-flow min-multicut theorems"}
+{"id": "W2071588464", "keep": true, "why": "sparsest cut, bounded treewidth"}
+{"id": "W2072142887", "keep": true, "why": "unique games, semi-random adversary"}
+{"id": "W2072211488", "keep": false, "why": "approximate counting, Markov chains"}
+{"id": "W2072392512", "keep": true, "why": "quantum XOR games"}
+{"id": "W2072802070", "keep": false, "why": "average-case vs approximation complexity"}
+{"id": "W2072858942", "keep": false, "why": "fast matrix approximation"}
+{"id": "W2073029179", "keep": true, "why": "new NP-hardness point, unique games"}
+{"id": "W2073310493", "keep": true, "why": "Boolean functions, Fourier spectrum levels"}
+{"id": "W2073705438", "keep": false, "why": "planar max-cut polynomial algorithm"}
+{"id": "W2073903404", "keep": true, "why": "SDP gaps, UGC-hardness MAXCUTGAIN"}
+{"id": "W2074447841", "keep": true, "why": "tensor decomposition, CSP approximation schemes"}
+{"id": "W2075940489", "keep": true, "why": "vertex cover in dense hypergraphs"}
+{"id": "W2076039085", "keep": false, "why": "mixed-integer SOCP cuts"}
+{"id": "W2076164610", "keep": false, "why": "minimum-weight vertex separators"}
+{"id": "W207659618", "keep": true, "why": "approximability survey, combinatorial problems"}
+{"id": "W2077397558", "keep": true, "why": "SA, LS, Lasserre relaxation comparison"}
+{"id": "W2077658979", "keep": true, "why": "inapproximability via small LPs and SDPs"}
+{"id": "W2077810240", "keep": false, "why": "log-Sobolev for Markov chains"}
+{"id": "W2078134499", "keep": false, "why": "polynomial norm inequalities, convex bodies"}
+{"id": "W2078184776", "keep": false, "why": "Moulin mechanisms, mechanism design"}
+{"id": "W2078289947", "keep": false, "why": "Shannon capacity of graphs"}
+{"id": "W2078345182", "keep": true, "why": "noise sensitivity, percolation"}
+{"id": "W2078561631", "keep": false, "why": "Positivstellensatz proof complexity"}
+{"id": "W2078744297", "keep": false, "why": "approximability textbook"}
+{"id": "W2078758709", "keep": true, "why": "hidden clique in semirandom graphs"}
+{"id": "W2078929687", "keep": true, "why": "noise stability, low influences"}
+{"id": "W2079035346", "keep": false, "why": "spectral coloring random graphs"}
+{"id": "W2079473728", "keep": false, "why": "minimization problems hardness, generic"}
+{"id": "W2080479164", "keep": false, "why": "Russo approximate zero-one law"}
+{"id": "W2080578129", "keep": true, "why": "multi-prover interactive proofs"}
+{"id": "W2080622652", "keep": false, "why": "robustness margin, large systems"}
+{"id": "W2080905757", "keep": true, "why": "0.879 approximation, Max-Cut and Max-2SAT"}
+{"id": "W2080991057", "keep": true, "why": "hyperboundedness, Markov operator spectrum"}
+{"id": "W2081192873", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2081254453", "keep": false, "why": "clique hardness, pre-games PCP"}

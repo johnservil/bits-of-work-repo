@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "certicom-ecc2-97"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "Certicom ECC2-97 (random curve over F_2^97)"
+instance_size: 96.0
+instance_size_unit: "bits"
+log2_ops: 46.76
+method: "parallel Pollard rho (distinguished points)"
+structure_exploited: false
+hardware: null
+raw_compute: "119,248,522,782,547 iterations, 127,492 DPs; 6,118 Alpha-500MHz machine-days"
+reported_core_years: 16.75
+gpu_years: null
+wall_time_days: null
+date: "1999-09-22"
+solvers: ["Robert J. Harley", "group of about 195 people"]
+academic: true
+challenge: "Certicom"
+extrapolation: null
+paper: null
+source_url: "https://www.certicom.com/content/dam/certicom/images/pdfs/challenge-2009.pdf"
+other_urls: ["http://pauillac.inria.fr/~harley/ecdl/"]
+confidence: 0.85
+verified: false
+notes: "Certicom table: machine-days on one 500 MHz Alpha (single-machine equivalent); core-years = machine-days/365.25. instance_size = log2(n) from Certicom appendix."

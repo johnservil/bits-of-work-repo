@@ -1,0 +1,25 @@
+id: "svpc_d186_20230725_wang"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 186 (seed 0)"
+instance_size: 186
+instance_size_unit: "dim"
+log2_ops: null
+method: "progressive pnj-BKZ + G6K-GPU sieving"
+structure_exploited: false
+hardware: "4x A100 80GB, 1x Xeon Gold 6330, ~1.44TB RAM"
+raw_compute: "pre-reduction 12.3 days + sieving 38 days"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 50.3
+date: "2023-07-25"
+solvers: ["Leizhang Wang", "Baocang Wang"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Record progression entry (new max dimension). HoF: norm 3484, seed 0, approx factor 1.01405, algorithm tag 'Sieving'. wall_time_days = sum of stated phases."

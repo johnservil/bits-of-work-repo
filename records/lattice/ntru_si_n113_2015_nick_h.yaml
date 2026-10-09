@@ -1,0 +1,25 @@
+id: "ntru_si_n113_2015_nick_h"
+class: "lattice"
+problem: "NTRU"
+instance: "Security Innovation NTRU Challenge #2 (113r0, q=1024)"
+instance_size: 113
+instance_size_unit: "dim"
+log2_ops: null
+method: "BKZ only (fplll BKZ, modified NTRU lattice)"
+structure_exploited: false
+hardware: null
+raw_compute: "about 8 h BKZ (per Martensson 2016 Table 9.3)"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2015-09"
+solvers: ["Nick H."]
+academic: null
+challenge: "Security Innovation NTRU Challenge"
+extrapolation: null
+paper: null
+source_url: "http://web.archive.org/web/20160310143833/https://www.securityinnovation.com/products/encryption-libraries/ntru-crypto/ntru-challenge/solved-challenges.html"
+other_urls: ["http://web.archive.org/web/20151229220714/https://www.securityinnovation.com/uploads/ntru-challenge-parameter-sets-and-public-keys-answers.pdf", "https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8889328&fileOId=8889332", "http://web.archive.org/web/20150418191342/https://securityinnovation.com/products/encryption-libraries/ntru-crypto/ntru-challenge/"]
+confidence: 0.6
+verified: false
+notes: "Security Innovation NTRU Challenge (27 keys, N=107..401, p=3, q=2^9..2^11; $1000 prizes for N<=211): find (f,g) or any lattice vector below a GH-derived bound in the NTRU lattice. instance_size = ring degree N (lattice dim 2N). Solve date unknown; dated by upper bound: Wayback capture of the 'Solved Challenges' page on 2015-09-11 already lists all seven solves (challenge page captured 2015-04-18 with no solves listed in the capture text). Solver listed only as 'Nick H.'."

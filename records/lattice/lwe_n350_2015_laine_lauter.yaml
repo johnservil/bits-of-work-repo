@@ -1,0 +1,25 @@
+id: "lwe_n350_2015_laine_lauter"
+class: "lattice"
+problem: "LWE"
+instance: "LWE n=350 with large modulus (q >= 2^O(n)) and narrow error"
+instance_size: 350
+instance_size_unit: "dim"
+log2_ops: null
+method: "LLL + Babai nearest plane (polynomial-time decoding attack)"
+structure_exploited: true
+hardware: "single machine"
+raw_compute: "about 3.5 days on a single machine"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 3.5
+date: "2015-03"
+solvers: ["Kim Laine", "Kristin Lauter"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2015/176"
+source_url: "https://eprint.iacr.org/2015/176"
+other_urls: []
+confidence: 0.7
+verified: false
+notes: "Not a standard-parameter LWE: works only for very large q relative to error (weak-parameter regime); structure_exploited=true marks the exploited weak parameters. Microsoft Research (research lab)."

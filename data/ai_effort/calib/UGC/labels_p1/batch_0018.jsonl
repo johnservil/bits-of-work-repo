@@ -1,0 +1,40 @@
+{"id": "W2953192012", "include": "borderline", "category": "F", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "SoS hypercontractivity on Frankl-Rodl graph, UG integrality gap context"}
+{"id": "W2953247147", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "subspace-enumeration style algorithms for unique games and small set expansion"}
+{"id": "W2953269844", "include": "borderline", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "spectral approximation of non-boolean 2CSP in UG style"}
+{"id": "W2953343149", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "min-max partitioning linked to small set expansion"}
+{"id": "W2954464507", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Poincare constants on manifolds"}
+{"id": "W2955616642", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "coloring hardness"}
+{"id": "W2957416585", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "CSPs on HDX"}
+{"id": "W2961983551", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "perfect completeness PCPs"}
+{"id": "W2962711675", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "agreement tests"}
+{"id": "W2962744657", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Heisenberg embeddings"}
+{"id": "W2962780495", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "hypergraph small set expansion algorithms"}
+{"id": "W2962944954", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "unique games on the hypercube, near-optimal integrality gap instance"}
+{"id": "W2963055664", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph Laplacian"}
+{"id": "W2963341849", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "directed hypergraph Laplacian"}
+{"id": "W2963382491", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "MaxCut random walks"}
+{"id": "W2963406632", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "low-degree functions on symmetric group"}
+{"id": "W2963530480", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SOS optimization efficiency"}
+{"id": "W2963553534", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "tensor decomposition SoS"}
+{"id": "W2963595633", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "tensor PCA SoS"}
+{"id": "W2963617896", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "disperser gaps"}
+{"id": "W2963687064", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "high dimensional walks"}
+{"id": "W2963722886", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "matroid FPRAS"}
+{"id": "W2963946005", "include": "yes", "category": "S", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "survey on SoS and UGC as routes to optimal algorithms"}
+{"id": "W2963988057", "include": "yes", "category": "G", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "hardness for minimum unique game and small set expansion under a hypothesis"}
+{"id": "W2964070965", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP optimality for packing/covering"}
+{"id": "W2964758001", "include": "yes", "category": "G", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "converting UG-hardness to NP-hardness via the 2-to-2 theorem"}
+{"id": "W2965907505", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "zero-knowledge MIPs"}
+{"id": "W2968673520", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "statistical reductions"}
+{"id": "W2968911711", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS on sphere"}
+{"id": "W2971546537", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "noise sensitivity biased cube"}
+{"id": "W2971750264", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "agreement testing"}
+{"id": "W2972287267", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "agreement testing"}
+{"id": "W2974931306", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "PCP sliding scale conjectures"}
+{"id": "W2977636792", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "assumes d-to-1 conjecture for coloring hardness"}
+{"id": "W2977844085", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semialgebraic proofs survey"}
+{"id": "W2979518666", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "non-signalling violations"}
+{"id": "W2981259029", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "planted models for expansion"}
+{"id": "W2981749766", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "parameterized complexity of small-set expansion"}
+{"id": "W2981993210", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum interactive protocol"}
+{"id": "W2984873438", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS lower bounds"}

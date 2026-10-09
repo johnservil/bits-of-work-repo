@@ -1,0 +1,25 @@
+id: "ideal_svp_d144_20190403_miyagi"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge SVP dim 144 (index 185)"
+instance_size: 144
+instance_size_unit: "dim"
+log2_ops: null
+method: "sieving (G6K)"
+structure_exploited: false
+hardware: "SGI UV3000 (JAIST), Xeon E5-4655v3"
+raw_compute: "about 95 hours single-core"
+reported_core_years: 0.0108
+gpu_years: null
+wall_time_days: null
+date: "2019-04-03"
+solvers: ["Yuga Miyagi", "Tomohiro Sekiguchi", "Eiichiro Fujisaki"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (SVP HoF)"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/svphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "Ideal Lattice Challenge (Plantard-Schneider): random ideal lattices from cyclotomic polynomials; SVP HoF threshold is a Gaussian-heuristic-based bound (formula shown as image on site), so this is approx-SVP near GH, not proven exact SVP. Record progression entry (new max dimension). HoF: cyclotomic index 185, seed 0, norm 3164, 'using ideal structure' = no. 95 single-core hours for dim 144 looks low relative to neighbours; transcribed as stated."

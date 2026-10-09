@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "certicom-ecc2-109"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "Certicom ECC2-109 (random curve over F_2^109)"
+instance_size: 108.0
+instance_size_unit: "bits"
+log2_ops: null
+method: "parallel Pollard rho (van Oorschot-Wiener) with Teske-style walks"
+structure_exploited: false
+hardware: "about 2,600 computers/users (volunteer)"
+raw_compute: "20 million DPs; gross CPU roughly one Athlon XP 3200+ nonstop for about 1200 years; 17 months calendar"
+reported_core_years: 1200
+gpu_years: null
+wall_time_days: 517
+date: "2004-04-08"
+solvers: ["Chris Monico", "about 2600 users"]
+academic: true
+challenge: "Certicom"
+extrapolation: null
+paper: null
+source_url: "https://www.certicom.com/content/dam/certicom/images/pdfs/challenge-2009.pdf"
+other_urls: ["https://certicom.com/en/about/news/release/2004/certicom-announces-elliptic-curve-cryptography-challenge-winner"]
+confidence: 0.85
+verified: false
+notes: "Iteration count not stated; Certicom estimate was 1.6e16 (~2^53.8) expected. reported_core_years = Athlon XP 3200+ single-core-equivalent years. wall_time 17 months ~ 517 days."

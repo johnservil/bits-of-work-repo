@@ -1,0 +1,100 @@
+{"id": "W12159974", "keep": true, "why": "extremal problems on graphs and hypergraphs"}
+{"id": "W1479782671", "keep": true, "why": "cycles in sparse graphs"}
+{"id": "W1482178583", "keep": true, "why": "Turan-type problem of Erdos"}
+{"id": "W1510730180", "keep": true, "why": "extremal graph theory textbook"}
+{"id": "W1538374560", "keep": true, "why": "colour-critical graphs, extremal; unsure"}
+{"id": "W1555293549", "keep": false, "why": "asymptotic number of lattices"}
+{"id": "W1582742149", "keep": true, "why": "extremal problems in graph theory"}
+{"id": "W1964163546", "keep": false, "why": "covering cliques of a graph"}
+{"id": "W1971010887", "keep": false, "why": "chromatic number of graphs and set systems"}
+{"id": "W1971367602", "keep": true, "why": "Dirac-type minimum degree theorems"}
+{"id": "W1975174360", "keep": true, "why": "subgraphs of minimum degree k"}
+{"id": "W1977080610", "keep": false, "why": "acyclic colourings of planar graphs"}
+{"id": "W1984038535", "keep": false, "why": "linear vertex-arboricity, planar graphs"}
+{"id": "W1986233232", "keep": true, "why": "extremal graph problem"}
+{"id": "W1992843513", "keep": true, "why": "Ramsey lower bound; unsure"}
+{"id": "W1994335179", "keep": true, "why": "graph sizes with induced subgraph degrees"}
+{"id": "W1994739637", "keep": false, "why": "path chromatic numbers"}
+{"id": "W1996106086", "keep": true, "why": "maximal paths and circuits of graphs"}
+{"id": "W2003995429", "keep": false, "why": "Kneser conjecture, chromatic number"}
+{"id": "W2006409548", "keep": true, "why": "cycle length distribution in graphs"}
+{"id": "W2020422308", "keep": false, "why": "Heawood map colouring"}
+{"id": "W2020853410", "keep": false, "why": "relaxed chromatic numbers"}
+{"id": "W2021304992", "keep": false, "why": "map-colour theorem"}
+{"id": "W2027066471", "keep": false, "why": "extended Skolem sequences"}
+{"id": "W2030551570", "keep": true, "why": "Ramsey number upper bounds; unsure"}
+{"id": "W2032265004", "keep": false, "why": "defective colouring"}
+{"id": "W2033447978", "keep": true, "why": "extremal problems in graph theory"}
+{"id": "W2033687719", "keep": true, "why": "large cycles in graphs"}
+{"id": "W2040379672", "keep": true, "why": "Ramsey-Turan type problem"}
+{"id": "W2045472305", "keep": true, "why": "graph theory remarks, Ramsey; unsure"}
+{"id": "W2046128506", "keep": true, "why": "favourite problems in graph theory"}
+{"id": "W2051336598", "keep": true, "why": "Ramsey function lower bounds"}
+{"id": "W2055443873", "keep": false, "why": "list colourings of planar graphs"}
+{"id": "W2064197162", "keep": false, "why": "intersection theorems, geometry"}
+{"id": "W2065868027", "keep": true, "why": "Ramsey theorem graph results; unsure"}
+{"id": "W2067692941", "keep": true, "why": "induced subgraph counts; unsure"}
+{"id": "W2074920973", "keep": true, "why": "note on Ramsey numbers"}
+{"id": "W2078305609", "keep": false, "why": "Helly property, set systems"}
+{"id": "W2083909496", "keep": true, "why": "Ramsey graphs, induced subgraphs"}
+{"id": "W2085958541", "keep": true, "why": "general graph theory book; unsure"}
+{"id": "W2086312639", "keep": true, "why": "Ramsey-Turan type results"}
+{"id": "W2087986857", "keep": false, "why": "uncountable chromatic number graphs"}
+{"id": "W2089023036", "keep": false, "why": "planar graph choosability"}
+{"id": "W2092483998", "keep": false, "why": "graph factorisation"}
+{"id": "W2093276208", "keep": true, "why": "graphs avoiding a fixed subgraph, Turan"}
+{"id": "W2096590808", "keep": true, "why": "extremal problems on r-graphs"}
+{"id": "W2110354774", "keep": true, "why": "extremal problems, generalized graphs"}
+{"id": "W2110805362", "keep": true, "why": "compactness in extremal graph theory"}
+{"id": "W2111007781", "keep": true, "why": "structure of linear graphs; unsure"}
+{"id": "W2115730400", "keep": true, "why": "supersaturated graphs and hypergraphs"}
+{"id": "W2118179018", "keep": false, "why": "Helly property survey"}
+{"id": "W2143169901", "keep": true, "why": "cycle lengths in sparse graphs"}
+{"id": "W2143569998", "keep": false, "why": "triangulated spheres in 3-graphs"}
+{"id": "W2148360835", "keep": false, "why": "planar map four colouring"}
+{"id": "W2161439427", "keep": true, "why": "graph theory and probability"}
+{"id": "W2167261038", "keep": true, "why": "degree sum conditions for triangles"}
+{"id": "W2219951089", "keep": true, "why": "cycle lengths and minimum degree"}
+{"id": "W2318115050", "keep": false, "why": "six colour problem"}
+{"id": "W2318194046", "keep": false, "why": "chromatic graphs, combinatorial relations"}
+{"id": "W2324803598", "keep": true, "why": "graph theory problem; unsure"}
+{"id": "W2330003519", "keep": false, "why": "edge colouring of networks"}
+{"id": "W2501351516", "keep": true, "why": "extremal problems for cycles"}
+{"id": "W2593808044", "keep": true, "why": "smaller subgraphs of minimum degree k"}
+{"id": "W2619045485", "keep": true, "why": "Erdos-Faudree-Rousseau-Schelp subgraph conjecture"}
+{"id": "W2808342989", "keep": false, "why": "unrelated 1889 note"}
+{"id": "W2951139953", "keep": true, "why": "cycle lengths in sparse graphs"}
+{"id": "W2963120913", "keep": true, "why": "cycle lengths and minimum degree"}
+{"id": "W2964195457", "keep": true, "why": "EFRS minimum degree k subgraph proof"}
+{"id": "W3072879867", "keep": false, "why": "graph family recognition algorithms"}
+{"id": "W3081548210", "keep": true, "why": "German graph theory problems; unsure"}
+{"id": "W3194966791", "keep": false, "why": "graph search methods"}
+{"id": "W3198999370", "keep": false, "why": "sport activity data"}
+{"id": "W3199033543", "keep": false, "why": "sarcasm detection"}
+{"id": "W3199165210", "keep": false, "why": "web performance measurement"}
+{"id": "W3199918782", "keep": false, "why": "non-planar graph embedding storage"}
+{"id": "W3200016966", "keep": false, "why": "cosinor rhythm analysis"}
+{"id": "W3200059131", "keep": false, "why": "zero-knowledge authentication"}
+{"id": "W3200374625", "keep": false, "why": "computer science conference proceedings"}
+{"id": "W3200525743", "keep": false, "why": "adversarial image perturbation"}
+{"id": "W3200730125", "keep": false, "why": "hotel sentiment analysis"}
+{"id": "W3200904438", "keep": false, "why": "flow shop scheduling"}
+{"id": "W3201332865", "keep": false, "why": "serverless scheduling"}
+{"id": "W3201366099", "keep": true, "why": "Erdos-Simonovits minimum degree 3 Turan"}
+{"id": "W3208505826", "keep": false, "why": "graph distinguishing via cycles"}
+{"id": "W344717706", "keep": true, "why": "extremal problems in graph theory"}
+{"id": "W4226204448", "keep": false, "why": "Jewish field conference"}
+{"id": "W4226523359", "keep": true, "why": "Erdos-Simonovits minimum degree 3 Turan"}
+{"id": "W4237105209", "keep": false, "why": "regular factors of graphs"}
+{"id": "W4249953708", "keep": false, "why": "Helly property survey"}
+{"id": "W4291214678", "keep": true, "why": "cycle length in sparse regular graphs"}
+{"id": "W4313813773", "keep": true, "why": "4-cycles stability and supersaturation"}
+{"id": "W4392667153", "keep": true, "why": "edge-coloured Ramsey and Folkman numbers"}
+{"id": "W4405493405", "keep": false, "why": "graph distinguishing via cycles"}
+{"id": "W4416715475", "keep": true, "why": "bipartite Turan problems"}
+{"id": "W45611993", "keep": true, "why": "extremal problems for two-complexes"}
+{"id": "W801884509", "keep": false, "why": "symmetric relations, set theory"}
+{"id": "W947400629", "keep": true, "why": "theory of graphs (1954); unsure"}
+{"id": "seed:erdos-1-20", "keep": true, "why": "combinatorial number theory and analysis survey"}
+{"id": "seed:erdos-1-25", "keep": true, "why": "Erdos favourite problems survey"}
+{"id": "seed:erdos-548-10", "keep": true, "why": "Erdos-Sos conjecture, C4-free complements"}

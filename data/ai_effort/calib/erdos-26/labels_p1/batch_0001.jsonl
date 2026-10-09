@@ -1,0 +1,16 @@
+{"id": "W3083836384", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "densities on Dedekind domains, unrelated"}
+{"id": "W3120964241", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "B-free Toeplitz sequences, dynamics, unrelated"}
+{"id": "W3149979553", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "divisibility properties of sequences, primitive sequences, not this problem"}
+{"id": "W3174887068", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Garden of Eden for B-free subshifts, unrelated"}
+{"id": "W348613986", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Tenenbaum follow-up on Erdos unconventional problems, likely discusses this problem among several"}
+{"id": "W4212942168", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "d-bar approachability and B-free shifts, unrelated"}
+{"id": "W4244686257", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "general divisibility survey, no evident engagement"}
+{"id": "W4379961473", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "primitive set conjecture, different Erdos problem"}
+{"id": "W4401759458", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "covering systems in function fields, unrelated"}
+{"id": "W4413983877", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "primitive sets inequality, different problem"}
+{"id": "W4414261623", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "economical additive basis, different Erdos problem"}
+{"id": "W4414688548", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "infinite sumset configuration problems, different problems"}
+{"id": "W63284382", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sets without coprimes, unrelated"}
+{"id": "W745171820", "include": "borderline", "category": "G", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "Davenport-Erdos density of multiples of finite sets, foundational for the problem's density setting"}
+{"id": "W874532184", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "random sequences additive properties, unrelated"}
+{"id": "seed:erdos-26-3", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Tenenbaum follow-up on Erdos unconventional problems, likely discusses this problem among several"}

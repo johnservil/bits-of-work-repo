@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_large_weight_summary"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge large-weight ternary SD (F3, R=0.5) track summary: max n=240 (w=237)"
+instance_size: 240
+instance_size_unit: "n"
+log2_ops: 59.0
+method: "A variant of Wagner's algorithm"
+structure_exploited: false
+hardware: "7 desktop PCs (CPU: i9-12900 or i9-13900, GPU: RTX3090 or RTX4080)"
+raw_compute: "Wall-clock time: 1.4 days"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2025-10-22"
+solvers: ["Shintaro Narisada", "Takeshi Wakao", "Shusaku Uemura", "Hiroki Okada", "Yusuke Aikawa", "Kazuhide Fukushima", "Tsuyoshi Takagi"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/large-weight/halloffame"
+other_urls: ["https://decodingchallenge.org/large-weight", "https://decodingchallenge.org/large-weight/record/24"]
+confidence: 0.85
+verified: false
+notes: "SUMMARY FILE - duplicates the latest progression record; exclude from record counts. Hall of fame has 25 entries (first ten solvers per instance). Progression (n or weight, date): 20 2020-03, 80 2020-04, 130 2020-10, 140 2020-10, 150 2020-11, 190 2021-12, 200 2021-12, 220 2025-09, 230 2025-10, 240 2025-10. Full table: dc_large_weight_hof.csv. Harvested 2026-10-08."

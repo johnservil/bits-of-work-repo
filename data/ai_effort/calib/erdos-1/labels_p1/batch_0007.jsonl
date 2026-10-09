@@ -1,0 +1,18 @@
+{"id": "W975749681", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "zero-free subset sums"}
+{"id": "W986587584", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "difference sequences monotonicity"}
+{"id": "W996473569", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Erdos-Moser problem different"}
+{"id": "seed:erdos-1-1", "include": "borderline", "category": "S", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos 1956 problems, plausible origin of distinct sums problem"}
+{"id": "seed:erdos-1-12", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos problems collection, seed citation"}
+{"id": "seed:erdos-1-20", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos problems collection, seed citation"}
+{"id": "seed:erdos-1-21", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos favourite problems, seed citation"}
+{"id": "seed:erdos-1-25", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos memorial problems collection, seed citation"}
+{"id": "seed:erdos-1-26", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Conway-Guy construction of distinct-sum sets"}
+{"id": "seed:erdos-1-28", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Erdos biography"}
+{"id": "seed:erdos-1-29", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Steinerberger remarks on distinct subset sums"}
+{"id": "seed:erdos-1-3", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos additive NT problems, seed citation"}
+{"id": "seed:erdos-1-30", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.98, "reason": "Dubroff-Fox-Xu best lower bound"}
+{"id": "seed:erdos-1-31", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Graham sums from fixed sequence, seed citation"}
+{"id": "seed:erdos-1-32", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Ruzsa Erdos and the integers"}
+{"id": "seed:erdos-1-36", "include": "borderline", "category": "C", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Siegel lemma, tool behind related bounds"}
+{"id": "seed:erdos-1-38", "include": "yes", "category": "A", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Aliev Siegel lemma and sum-distinct sets"}
+{"id": "seed:erdos-1-5", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos problems survey, seed citation"}

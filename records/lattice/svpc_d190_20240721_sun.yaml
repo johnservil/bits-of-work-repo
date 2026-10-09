@@ -1,0 +1,25 @@
+id: "svpc_d190_20240721_sun"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 190 (seed 0)"
+instance_size: 190
+instance_size_unit: "dim"
+log2_ops: null
+method: "modified G6K-GPU pump/sieve (compacted entries), two machines"
+structure_exploited: false
+hardware: "2 machines: 1.5TB RAM + 4x RTX 4090; 2TB RAM + 3x RTX 4090D"
+raw_compute: "about 4 months overall with many manual interactions"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2024-07-21"
+solvers: ["Yao Sun", "Shuai Chang"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Record progression entry (new max dimension). HoF: norm 3613, seed 0, approx factor 1.04237, algorithm tag 'Sieving'. Max pumped dim 158; vector found sieving down at 155."

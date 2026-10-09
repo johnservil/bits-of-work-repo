@@ -1,0 +1,25 @@
+id: "svpc_d157_20190520_ducas"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 157 (seed 0)"
+instance_size: 157
+instance_size_unit: "dim"
+log2_ops: null
+method: "G6K + preliminary GPU BDGL-like sieve"
+structure_exploited: false
+hardware: "1 machine, 2 GPUs + 18 CPU cores"
+raw_compute: "~1 week on one machine with 2 GPUs and 18 cores"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 7
+date: "2019-05-20"
+solvers: ["L. Ducas", "M. Stevens", "W. van Woerden"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: "ePrint 2021/141"
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php", "https://eprint.iacr.org/2021/141"]
+confidence: 0.85
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Record progression entry (new max dimension). HoF: norm 3320, seed 0, approx factor 1.04906, algorithm tag 'Sieving'."

@@ -1,0 +1,100 @@
+{"id": "W2074920973", "keep": false, "why": "Ramsey numbers note"}
+{"id": "W2075196560", "keep": false, "why": "anti-Ramsey Ramanujan graphs"}
+{"id": "W2075646995", "keep": true, "why": "product colouring, Greenwood-Gleason type; unsure"}
+{"id": "W2076460709", "keep": false, "why": "Faber polynomials, Markov inequality"}
+{"id": "W2077788572", "keep": false, "why": "Ramsey number, graph versus triangle"}
+{"id": "W2078604563", "keep": false, "why": "independence numbers, Ramsey-type"}
+{"id": "W2079121590", "keep": false, "why": "partial linear spaces, translation nets"}
+{"id": "W2081643856", "keep": false, "why": "Erdos diameter of sets"}
+{"id": "W2083028555", "keep": false, "why": "Erdos-Szekeres convex position"}
+{"id": "W2083909496", "keep": false, "why": "Ramsey graphs induced subgraphs"}
+{"id": "W2085391599", "keep": false, "why": "distinct distances, geometry"}
+{"id": "W2085943590", "keep": true, "why": "subgraph density, bounded independence number; unsure"}
+{"id": "W2086312639", "keep": false, "why": "Ramsey-Turan type problems"}
+{"id": "W2087986857", "keep": true, "why": "uncountable chromatic number graphs"}
+{"id": "W2089191641", "keep": true, "why": "vertex colouring and forbidden subgraphs survey"}
+{"id": "W2093276208", "keep": true, "why": "graphs avoiding fixed subgraph; unsure"}
+{"id": "W2099986052", "keep": true, "why": "Erdos open problems in graph theory"}
+{"id": "W2102470573", "keep": true, "why": "unavoidable cycle lengths"}
+{"id": "W2104362101", "keep": false, "why": "Ramsey size linear graphs"}
+{"id": "W2107083378", "keep": false, "why": "k-gons in projective planes"}
+{"id": "W2109511316", "keep": false, "why": "packing cliques, independence number"}
+{"id": "W2110551378", "keep": false, "why": "induced subgraphs of Ramsey graphs"}
+{"id": "W2110805362", "keep": true, "why": "compactness in extremal graph theory"}
+{"id": "W2111007781", "keep": true, "why": "structure of linear graphs; unsure"}
+{"id": "W2113784155", "keep": false, "why": "packing triangles, graph and complement"}
+{"id": "W2115730400", "keep": false, "why": "supersaturated graphs and hypergraphs"}
+{"id": "W2118360213", "keep": false, "why": "Turan theorem, pseudo-random graphs"}
+{"id": "W2118502851", "keep": true, "why": "sparse halves in triangle-free graphs"}
+{"id": "W2122560436", "keep": true, "why": "cycle lengths and chromatic number"}
+{"id": "W2123293563", "keep": true, "why": "old and new combinatorics problems"}
+{"id": "W2127813745", "keep": true, "why": "circuits and subgraphs of chromatic graphs"}
+{"id": "W2128824427", "keep": false, "why": "Fano subplanes, finite planes"}
+{"id": "W2143169901", "keep": true, "why": "cycle lengths in sparse graphs"}
+{"id": "W2143943120", "keep": true, "why": "Erdos unsolved problems 1957; unsure"}
+{"id": "W2147229463", "keep": false, "why": "induced subgraphs, degrees"}
+{"id": "W2148944064", "keep": true, "why": "recent graph theory problems"}
+{"id": "W2152186049", "keep": true, "why": "cycles of even lengths modulo k"}
+{"id": "W2161439427", "keep": true, "why": "graph theory and probability"}
+{"id": "W2164350127", "keep": false, "why": "covering equilateral triangles"}
+{"id": "W2164679805", "keep": true, "why": "short proof of Kneser's conjecture"}
+{"id": "W2167261038", "keep": false, "why": "triangle degree sum"}
+{"id": "W2169468046", "keep": false, "why": "cycles in finite planes"}
+{"id": "W2190263142", "keep": true, "why": "graph problem collection; unsure"}
+{"id": "W2217780633", "keep": false, "why": "counting lemma, pseudorandom hypergraphs"}
+{"id": "W2219951089", "keep": true, "why": "cycle lengths and minimum degree"}
+{"id": "W2238816572", "keep": true, "why": "colouring graphs with two odd cycle lengths"}
+{"id": "W2286993093", "keep": false, "why": "rooted tree automorphisms"}
+{"id": "W2288237314", "keep": false, "why": "pseudorandom hypergraph counting"}
+{"id": "W2305884057", "keep": true, "why": "Erdos favourite problems survey"}
+{"id": "W2313298573", "keep": true, "why": "Erdos problem, unidentified; unsure"}
+{"id": "W2317039618", "keep": true, "why": "cycles, large independence ratio"}
+{"id": "W2318194046", "keep": true, "why": "chromatic graphs, combinatorial relations"}
+{"id": "W2321615147", "keep": true, "why": "proper colourings of hypergraphs"}
+{"id": "W2323526206", "keep": false, "why": "Erdos biography and mathematics"}
+{"id": "W2323590783", "keep": false, "why": "party acquaintances problem"}
+{"id": "W2335339119", "keep": true, "why": "Erdos-Hajnal hypergraph colouring"}
+{"id": "W2342730309", "keep": false, "why": "Erdos-Szekeres convex polygons"}
+{"id": "W2365899843", "keep": false, "why": "Erdos obituary"}
+{"id": "W2414232284", "keep": true, "why": "edges in odd cycles, minimum number"}
+{"id": "W2479487043", "keep": false, "why": "Szemeredi biography"}
+{"id": "W2487318500", "keep": false, "why": "multiplication table, bipartite graphs"}
+{"id": "W2501351516", "keep": true, "why": "extremal problems for cycles"}
+{"id": "W2502704993", "keep": false, "why": "problems and exercises book"}
+{"id": "W2516306579", "keep": false, "why": "Ramsey graphs induce subgraphs"}
+{"id": "W2521224986", "keep": true, "why": "local density, graphs of given odd girth"}
+{"id": "W2536060116", "keep": true, "why": "chromatic conjectures for vertices and edges"}
+{"id": "W2552973889", "keep": true, "why": "H-packing of k-chromatic graphs"}
+{"id": "W2553407886", "keep": true, "why": "Erdos-Gyarfas conjecture, bipartite graphs"}
+{"id": "W2559553318", "keep": true, "why": "sparse halves in dense triangle-free graphs"}
+{"id": "W2561894848", "keep": false, "why": "derivative of rational function"}
+{"id": "W2571066894", "keep": true, "why": "q-power cycles in cubic graphs"}
+{"id": "W2592983029", "keep": true, "why": "Erdos-Gyarfas conjecture, claw-free graphs"}
+{"id": "W2593808044", "keep": true, "why": "smaller subgraphs of minimum degree k"}
+{"id": "W2613342064", "keep": false, "why": "edges not in monochromatic copies"}
+{"id": "W2619045485", "keep": true, "why": "Erdos-Faudree-Rousseau-Schelp subgraph conjecture"}
+{"id": "W2625144103", "keep": false, "why": "classic conjectures for young mathematicians"}
+{"id": "W2741781405", "keep": false, "why": "probabilistic number theory"}
+{"id": "W2755121514", "keep": false, "why": "Erdos discrepancy problem"}
+{"id": "W2758932878", "keep": true, "why": "small transversals in hypergraphs; unsure"}
+{"id": "W2768013567", "keep": false, "why": "Ramsey graphs subgraph sizes"}
+{"id": "W2771028857", "keep": true, "why": "Erdos-Gyarfas conjecture, Cayley graphs"}
+{"id": "W2772973613", "keep": false, "why": "induced subgraphs of Ramsey graphs"}
+{"id": "W2885295354", "keep": true, "why": "hypergraph chromatic number"}
+{"id": "W2895170202", "keep": false, "why": "polynomial method, cap sets"}
+{"id": "W2898264679", "keep": true, "why": "glossary of graph parameters, chromatic"}
+{"id": "W2911658295", "keep": true, "why": "edge colourings"}
+{"id": "W2913859726", "keep": false, "why": "sparse graphs chapter"}
+{"id": "W2914770100", "keep": true, "why": "Bondy-Vince conjecture, cycles"}
+{"id": "W2915160394", "keep": true, "why": "chromatic numbers of finite subgraphs"}
+{"id": "W2937212271", "keep": true, "why": "cycle lengths modulo k, cubic graphs"}
+{"id": "W2937312503", "keep": false, "why": "large subgraphs, random graphs"}
+{"id": "W2938910622", "keep": false, "why": "Erdos covering systems"}
+{"id": "W2940269254", "keep": true, "why": "cycle lengths conjectures, unified proof"}
+{"id": "W2944722921", "keep": true, "why": "Erdos-Hajnal problem, 3-graphs"}
+{"id": "W2945557435", "keep": true, "why": "cycle spectrum, cubic planar graphs"}
+{"id": "W2945753122", "keep": true, "why": "local density in graphs; unsure"}
+{"id": "W2950528977", "keep": true, "why": "finite subgraphs of uncountably chromatic graphs"}
+{"id": "W2950903227", "keep": false, "why": "multiplication table, bipartite graphs"}
+{"id": "W2951139953", "keep": true, "why": "cycle lengths in sparse graphs"}
+{"id": "W2951478996", "keep": true, "why": "Erdos-Gyarfas conjecture, claw-free graphs"}

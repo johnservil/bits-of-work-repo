@@ -1,0 +1,1 @@
+Erdős problem 713 (erdosproblems.com): Is it true that, for every bipartite graph $G$, there exists some $\alpha\in [1,2)$ and $c>0$ such that\[\mathrm{ex}(n;G)\sim cn^\alpha?\]Must $\alpha$ be rational?

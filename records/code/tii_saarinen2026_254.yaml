@@ -1,0 +1,27 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "tii_saarinen2026_254"
+class: "code"
+problem: "SD-Goppa"
+instance: "TII Track 1B TII-254 (n=223, k=127, t=12, m=8)"
+instance_size: 223
+instance_size_unit: "n"
+log2_ops: null
+method: "Two-Anchor Holdout/Hermite: two 121-dim relation kernels (block Wiedemann on GPU), pair core, F_2^8 projective-line geometry, completion search"
+structure_exploited: true
+hardware: "NVIDIA GH200 GPUs on CSC Roihu (up to 8 GPUs for reconstruction)"
+raw_compute: "two Krylov sequences 27.2 GPU-hours (13.6 h each on one GH200), excluding GPU reconstruction and CPU work; ~16 h wall, 128 GiB"
+reported_core_years: null
+gpu_years: 0.003103
+wall_time_days: 0.6666666666666666
+date: "2026-09-08"
+solvers: ["Markku-Juhani O. Saarinen"]
+academic: true
+challenge: "TII McEliece"
+extrapolation: null
+paper: "2026/1986"
+source_url: "https://eprint.iacr.org/2026/1986"
+other_urls: ["https://github.com/mjosaarinen/tii254-artifact", "https://github.com/mjosaarinen/tii-solved", "https://raw.githubusercontent.com/ElenaKirshanova/tii_decoding_challenge/main/key_rec_instances"]
+confidence: 0.8
+verified: true
+verified_by: "user 2026-10-09: checked, accepted provisionally (\"willing to trust for now\")"
+notes: "Self-described hardest solved TII challenge (label 254); recovered an equivalent degree-12 Goppa key, checked with official check_solution_track2.sage per repo. gpu_years covers only the Krylov phase (lower bound). TII-255 (n=249, t=24, m=8) remains unsolved per the repo. TII label = round(bitcomplexity) from the organizers' key_rec_instances file (a brute-force/support-splitting estimate, disputed by Bernstein 2023 and the 2026 papers); labels are not security levels. TII/HeroX confirmation: none found; HeroX leaderboard (static since the May 2024 close) still lists every Track 1B label above 83 as \"Available to Solve\". Keys are publicly checkable against the official public keys."

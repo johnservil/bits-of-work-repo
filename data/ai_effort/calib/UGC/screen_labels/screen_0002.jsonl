@@ -1,0 +1,100 @@
+{"id": "W1830761905", "keep": true, "why": "Markov chains for small-set expansion"}
+{"id": "W1832592836", "keep": false, "why": "graph diameter, Laplacian eigenvalues"}
+{"id": "W183568742", "keep": false, "why": "general textbook on approximation"}
+{"id": "W1837750740", "keep": false, "why": "quantum complexity encyclopedia entry"}
+{"id": "W1846376331", "keep": true, "why": "Khinchine-Kahane inequality, Boolean analysis"}
+{"id": "W1849808149", "keep": true, "why": "bipartiteness ratio, small dense subgraphs"}
+{"id": "W185450694", "keep": true, "why": "graph partitioning SDP hierarchies"}
+{"id": "W1855925886", "keep": false, "why": "Lipschitz maps Banach spaces"}
+{"id": "W1859301526", "keep": true, "why": "SoS lower bounds, hidden clique"}
+{"id": "W1859357731", "keep": true, "why": "hypergraph vertex cover inapproximability, possibly UG"}
+{"id": "W1862733102", "keep": true, "why": "expansion problems complexity"}
+{"id": "W1863780853", "keep": false, "why": "VM placement, data centers"}
+{"id": "W186443161", "keep": true, "why": "unique games algorithms via divide and conquer"}
+{"id": "W1867710661", "keep": false, "why": "QMA games unentangled provers"}
+{"id": "W1868897294", "keep": true, "why": "quadratic programs non-approximability"}
+{"id": "W1869978370", "keep": false, "why": "independent sets, semi-random coloring"}
+{"id": "W1876636384", "keep": false, "why": "expander decomposition, not UG"}
+{"id": "W1878867950", "keep": true, "why": "high-order Cheeger inequality"}
+{"id": "W1879643999", "keep": true, "why": "strong parallel repetition, free projection games"}
+{"id": "W1885038349", "keep": true, "why": "tensor decomposition via SoS"}
+{"id": "W1886138972", "keep": true, "why": "Lasserre hierarchy, graph partitioning, PSD objectives"}
+{"id": "W1886650756", "keep": true, "why": "hypercontractivity via SoS, Frankl-Rodl graph"}
+{"id": "W1886734694", "keep": true, "why": "NP-hardness of 2-to-1 label cover"}
+{"id": "W1887937548", "keep": true, "why": "simultaneous CSP approximation"}
+{"id": "W1889872997", "keep": true, "why": "open problems in approximation; unclear"}
+{"id": "W1891181203", "keep": true, "why": "Analysis of Boolean Functions textbook"}
+{"id": "W1891254999", "keep": false, "why": "constrained clustering, spectral method"}
+{"id": "W1892291089", "keep": false, "why": "edge multicut FPT approximation"}
+{"id": "W1895301010", "keep": false, "why": "binary tanglegrams drawing"}
+{"id": "W1899379166", "keep": false, "why": "generic approximation algorithms textbook"}
+{"id": "W1900158750", "keep": false, "why": "expansion in graph lifts"}
+{"id": "W1903246862", "keep": true, "why": "entangled interactive proofs, binary answers"}
+{"id": "W1905335549", "keep": true, "why": "invariance principle on the slice"}
+{"id": "W1907149228", "keep": true, "why": "testing small-set expansion, general graphs"}
+{"id": "W1910263251", "keep": true, "why": "small-set expansion from higher eigenvalues"}
+{"id": "W192146155", "keep": false, "why": "transparent proofs survey, general PCP"}
+{"id": "W1922019148", "keep": false, "why": "operator norms, covering nets"}
+{"id": "W1922185512", "keep": false, "why": "power system prognostics"}
+{"id": "W1926829926", "keep": true, "why": "multi-way expanders, group actions"}
+{"id": "W1926890729", "keep": false, "why": "rank aggregation via SDP synchronization"}
+{"id": "W1927441416", "keep": true, "why": "unique games, semi-random adversary"}
+{"id": "W1927508185", "keep": false, "why": "expanders in Hadamard spaces"}
+{"id": "W1933277922", "keep": false, "why": "polyhedral lift-and-project comprehensive analysis"}
+{"id": "W1937872493", "keep": true, "why": "parallel repetition error reduction negative"}
+{"id": "W1938427549", "keep": true, "why": "Grothendieck inequalities, nonlocal games"}
+{"id": "W1941439587", "keep": true, "why": "SDP approximation algorithms survey, Max-Cut"}
+{"id": "W1945290888", "keep": true, "why": "open problems in Boolean function analysis"}
+{"id": "W1945412132", "keep": false, "why": "valued CSP complexity dichotomy"}
+{"id": "W1947552815", "keep": true, "why": "SDP tools for graph coloring; unclear"}
+{"id": "W1948567022", "keep": false, "why": "Ramanujan complexes construction"}
+{"id": "W1948675024", "keep": false, "why": "spectral distances on graphs"}
+{"id": "W1952648253", "keep": false, "why": "finite metrics by tree metrics"}
+{"id": "W1958024236", "keep": false, "why": "correlation clustering, cluster sizes"}
+{"id": "W1961231572", "keep": true, "why": "symmetry gap, multiway partitioning approximability"}
+{"id": "W1963146112", "keep": false, "why": "product rules in SDP, unclear"}
+{"id": "W1964557415", "keep": false, "why": "Goldreich PRG, cryptography"}
+{"id": "W1964678106", "keep": false, "why": "fault tolerance in networks"}
+{"id": "W1965276692", "keep": false, "why": "extended formulations, flow-based"}
+{"id": "W1965419829", "keep": false, "why": "graph coloring via eigenvalues, 1984"}
+{"id": "W1965562201", "keep": true, "why": "reductions between expansion problems"}
+{"id": "W1965664334", "keep": false, "why": "troubleshooting scheduling"}
+{"id": "W1966461475", "keep": false, "why": "spectral partitioning, parallel mapping"}
+{"id": "W1966695467", "keep": false, "why": "negative association, probability"}
+{"id": "W1967184028", "keep": false, "why": "SDP for semialgebraic problems, generic"}
+{"id": "W1967344706", "keep": true, "why": "polynomial optimization, moment problem (Lasserre origin)"}
+{"id": "W1967494832", "keep": false, "why": "treewidth of product graphs"}
+{"id": "W1967821609", "keep": true, "why": "LP relaxations of Max-Cut"}
+{"id": "W1967935161", "keep": true, "why": "approximation of 3-variable CSPs"}
+{"id": "W1968429800", "keep": false, "why": "genus and cut graph"}
+{"id": "W1968556476", "keep": false, "why": "query-efficient PCP, general"}
+{"id": "W1969443695", "keep": false, "why": "vertex cover, few colors"}
+{"id": "W1970259241", "keep": true, "why": "parallel repetition theorem (Raz)"}
+{"id": "W1970278864", "keep": false, "why": "assignment testers, general PCP"}
+{"id": "W1970377488", "keep": false, "why": "eigenvector perturbation theory"}
+{"id": "W1970436138", "keep": true, "why": "hypercontractivity in matrix algebras"}
+{"id": "W1970872869", "keep": false, "why": "complete minors, extremal density"}
+{"id": "W1971195978", "keep": true, "why": "SDP integrality ratio, Max-Cut"}
+{"id": "W1971339801", "keep": true, "why": "negative type metrics, snowflakes, ARV line"}
+{"id": "W1971749164", "keep": false, "why": "vertex cover approximation, graphs"}
+{"id": "W1971801736", "keep": true, "why": "low-degree testing and applications"}
+{"id": "W1972474077", "keep": false, "why": "Euclidean distortion, lamplighter group"}
+{"id": "W1972913305", "keep": false, "why": "public-key cryptography assumptions"}
+{"id": "W1973643917", "keep": false, "why": "network coding capacity hardness"}
+{"id": "W1973898585", "keep": true, "why": "Gaussian noise correlation bounds"}
+{"id": "W1974018476", "keep": false, "why": "flow-cut gaps, directed cuts"}
+{"id": "W1974115975", "keep": false, "why": "disjoint paths, routing approximation"}
+{"id": "W1974184113", "keep": false, "why": "sorting noisy data"}
+{"id": "W1974252294", "keep": true, "why": "MaxCut approximation via random walks"}
+{"id": "W1974672137", "keep": false, "why": "graph isomorphism, bounded valence"}
+{"id": "W1974828352", "keep": false, "why": "MaxSat above average parameterized"}
+{"id": "W1975452925", "keep": false, "why": "CSP dichotomy conjecture"}
+{"id": "W1975810219", "keep": true, "why": "Gowers uniformity, influences, PCPs"}
+{"id": "W1976779334", "keep": true, "why": "random sampling for MAX-CSP"}
+{"id": "W1978018278", "keep": false, "why": "precedence scheduling, conditional hardness consumer"}
+{"id": "W1978020111", "keep": false, "why": "Lp spaces homeomorphisms"}
+{"id": "W1978526953", "keep": true, "why": "influence of variables, product spaces"}
+{"id": "W1978807904", "keep": false, "why": "directed congestion minimization hardness"}
+{"id": "W1979065044", "keep": true, "why": "NP-hardness of Max-Not-2"}
+{"id": "W1979378096", "keep": false, "why": "bipartite subgraph polytopes"}
+{"id": "W1980830593", "keep": true, "why": "PRG for Lipschitz polynomials, sparsest cut"}

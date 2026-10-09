@@ -1,0 +1,100 @@
+{"id": "W1967546560", "keep": false, "why": "graph edge density, German, unrelated"}
+{"id": "W1967909233", "keep": true, "why": "additive number theory 1937"}
+{"id": "W1968102240", "keep": true, "why": "distinct sums over subsets"}
+{"id": "W1969153911", "keep": false, "why": "Lakatos classroom essay"}
+{"id": "W1969957192", "keep": false, "why": "dimension theory example"}
+{"id": "W1970366772", "keep": true, "why": "ergodic Szemeredi AP theorem"}
+{"id": "W1971010887", "keep": false, "why": "chromatic number of graphs, different problem"}
+{"id": "W1972786864", "keep": false, "why": "table of series and products"}
+{"id": "W1972853075", "keep": false, "why": "factorial diophantine equation"}
+{"id": "W1972958674", "keep": false, "why": "primes and powers of 2"}
+{"id": "W1975270114", "keep": true, "why": "problem of additive number theory"}
+{"id": "W1975538108", "keep": false, "why": "uncountable chromatic graphs"}
+{"id": "W1975858565", "keep": true, "why": "sum of prime and two powers of two"}
+{"id": "W1976661633", "keep": false, "why": "graph induced cycle lengths"}
+{"id": "W1977242405", "keep": true, "why": "nonaveraging sets, reciprocal sums"}
+{"id": "W1978816967", "keep": false, "why": "roots of unity, covering sets"}
+{"id": "W1978976963", "keep": true, "why": "minimal bases in additive NT"}
+{"id": "W1980033960", "keep": false, "why": "phi-function functions, different problem"}
+{"id": "W1981162052", "keep": true, "why": "decomposition of integer vectors"}
+{"id": "W1981696777", "keep": false, "why": "Weyl groups Sperner property"}
+{"id": "W1981896282", "keep": false, "why": "clique partitions of chordal graphs"}
+{"id": "W1982270970", "keep": false, "why": "extremal graph theory book review"}
+{"id": "W1982373193", "keep": false, "why": "colour problem infinite graphs"}
+{"id": "W1982436758", "keep": false, "why": "primitive abundant numbers"}
+{"id": "W1983459300", "keep": false, "why": "covering systems in number fields"}
+{"id": "W1983527280", "keep": false, "why": "Ramsey-type problem graphs"}
+{"id": "W1983812624", "keep": true, "why": "ordered sums of group elements"}
+{"id": "W1984375054", "keep": false, "why": "hypergraph colouring"}
+{"id": "W1986233232", "keep": false, "why": "extremal graph problem"}
+{"id": "W1986609382", "keep": true, "why": "Newman polynomials and distinct subset sums"}
+{"id": "W1986865672", "keep": false, "why": "Ramsey theorems in plane"}
+{"id": "W1989539066", "keep": false, "why": "cycles modulo k"}
+{"id": "W1989548622", "keep": true, "why": "density of integer sequences"}
+{"id": "W1989597834", "keep": false, "why": "multiplicative function sums, asymptotics"}
+{"id": "W1989630703", "keep": true, "why": "maximal asymptotic nonbases"}
+{"id": "W1990801743", "keep": true, "why": "Erdos-Sarkozy problem on sets"}
+{"id": "W1990804711", "keep": false, "why": "completely multiplicative +-1 functions"}
+{"id": "W1991488174", "keep": false, "why": "highly composite numbers"}
+{"id": "W1991804572", "keep": true, "why": "sums or differences of prime powers"}
+{"id": "W1994803663", "keep": false, "why": "consecutive integers with no large primes"}
+{"id": "W1995296546", "keep": true, "why": "addition theorem for abelian groups"}
+{"id": "W1996252243", "keep": false, "why": "zeros of entire function derivatives"}
+{"id": "W1996285409", "keep": true, "why": "Hindman theorem sums"}
+{"id": "W1997681421", "keep": true, "why": "finite sums from partition cells"}
+{"id": "W1997998268", "keep": false, "why": "perfect graph conjecture"}
+{"id": "W1998526387", "keep": true, "why": "subset-sum-distinct sequences with congruences"}
+{"id": "W1999318585", "keep": false, "why": "cubic residues pairs"}
+{"id": "W1999426642", "keep": false, "why": "power residues pairs"}
+{"id": "W1999682169", "keep": true, "why": "recursively defined integer sets"}
+{"id": "W2002063814", "keep": false, "why": "irregularities of AP sequences, discrepancy"}
+{"id": "W2002288087", "keep": false, "why": "primes in arithmetic progression computation"}
+{"id": "W2002667200", "keep": false, "why": "diophantine approximation square-free"}
+{"id": "W2003619291", "keep": false, "why": "isoperimetric inequality, probability"}
+{"id": "W2004479099", "keep": true, "why": "intersection properties of integer subsets"}
+{"id": "W2004580743", "keep": true, "why": "additive number theory 1934"}
+{"id": "W2004782359", "keep": true, "why": "additive bases, edge-magic graphs"}
+{"id": "W2006409548", "keep": false, "why": "cycle length distribution in graphs"}
+{"id": "W2008037211", "keep": true, "why": "multiplicative bases density"}
+{"id": "W2008476758", "keep": false, "why": "irregularities of AP sequences 1967"}
+{"id": "W2008824802", "keep": false, "why": "unit distances in Euclidean spaces"}
+{"id": "W2009170871", "keep": false, "why": "extremal problem for polynomials"}
+{"id": "W2009196521", "keep": true, "why": "sequences of integers 1936"}
+{"id": "W2009232680", "keep": false, "why": "Hamiltonian circuits random graphs"}
+{"id": "W2010717824", "keep": false, "why": "irrationality of infinite products"}
+{"id": "W2011033909", "keep": false, "why": "Euler conjecture on like powers"}
+{"id": "W2011125666", "keep": false, "why": "integers represented by binary form"}
+{"id": "W2011601728", "keep": true, "why": "problem of additive number theory 1954"}
+{"id": "W2011671869", "keep": false, "why": "Steiner triple systems"}
+{"id": "W2012495969", "keep": false, "why": "graphs with odd cycles"}
+{"id": "W2013188591", "keep": false, "why": "systems of sets, generic"}
+{"id": "W2013576033", "keep": false, "why": "prime divisors of integers"}
+{"id": "W2014123395", "keep": true, "why": "sums of ordered sets"}
+{"id": "W2014323465", "keep": true, "why": "integer sets with distinct pairwise differences"}
+{"id": "W2014507113", "keep": false, "why": "prime factors of central binomial"}
+{"id": "W2014985855", "keep": false, "why": "sums of three cubes"}
+{"id": "W2015305877", "keep": false, "why": "distinct unit fractions, Egyptian fractions"}
+{"id": "W2015739358", "keep": true, "why": "sums of h distinct sequence terms"}
+{"id": "W2017749307", "keep": false, "why": "bacterial communication networks"}
+{"id": "W2019350858", "keep": false, "why": "nowhere-zero flows"}
+{"id": "W2019447247", "keep": false, "why": "maximal length functions predicates"}
+{"id": "W2019573948", "keep": false, "why": "directions in finite vector spaces"}
+{"id": "W2020173739", "keep": false, "why": "partitioning vector spaces"}
+{"id": "W2020272617", "keep": true, "why": "sums of distinct elements from a set"}
+{"id": "W2020529018", "keep": false, "why": "Besicovitch theorem"}
+{"id": "W2020925806", "keep": false, "why": "diameter critical graphs"}
+{"id": "W2021073476", "keep": true, "why": "converse of Waring problem"}
+{"id": "W2021315980", "keep": true, "why": "zero-sum problems and covers of integers"}
+{"id": "W2021414653", "keep": true, "why": "extremal problem in number theory"}
+{"id": "W2022392080", "keep": false, "why": "algorithmic Lovasz local lemma"}
+{"id": "W2023011716", "keep": true, "why": "sequences of integers 1965"}
+{"id": "W2023397165", "keep": true, "why": "partitions with sums and products"}
+{"id": "W2023600080", "keep": true, "why": "integer sets without three-term APs"}
+{"id": "W2024478370", "keep": false, "why": "distribution of primes, generic"}
+{"id": "W2025928899", "keep": false, "why": "m-covers"}
+{"id": "W2026260925", "keep": false, "why": "hyperperfect numbers"}
+{"id": "W2026569452", "keep": false, "why": "permanent of doubly stochastic matrix"}
+{"id": "W2027946801", "keep": true, "why": "distinct subset sums convex inequality"}
+{"id": "W2028027370", "keep": false, "why": "lattice packing of octahedra"}
+{"id": "W2029209732", "keep": true, "why": "inverse Goldbach problem"}
+{"id": "W2029235915", "keep": true, "why": "ultrafilters and Graham-Rothschild conjecture"}

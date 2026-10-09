@@ -1,0 +1,5 @@
+{"id": "W3193795880", "include": "borderline", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "extremal numbers of subdivisions, yielding new Turán exponents"}
+{"id": "W2037951482", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "dependent random choice technique survey, not centred on this problem"}
+{"id": "W2952983940", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "hypergraphs lacking any exponent, relevant to the converse problem 713 not to realising rationals"}
+{"id": "W2805522364", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "adds new Turán exponents 2-2/(2k+1) and 7/5 toward the conjecture"}
+{"id": "W1995481390", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.55, "reason": "upper bounds for subdivided graphs only, no new exponents realised"}

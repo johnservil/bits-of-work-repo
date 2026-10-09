@@ -1,0 +1,342 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{microtype,booktabs,tabularx,array,amsmath,graphicx}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xcolor}
+\definecolor{inkblue}{HTML}{174D6B}
+\definecolor{warm}{HTML}{AC572F}
+\usepackage[colorlinks=true,linkcolor=inkblue,citecolor=inkblue,urlcolor=inkblue]{hyperref}
+\usepackage{url}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Cryptanalytic effort and AI research budgets}
+\fancyhead[R]{\small Working draft}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\arraystretch}{1.12}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\repo}[1]{\path{#1}}
+\makeatletter
+\let\inputrows\@@input
+\makeatother
+\input{generated/snapshot.tex}
+\title{\textbf{Public Cryptanalytic Effort in the Age of AI}\\[5pt]
+\large A literature-based estimate of human research effort\\and a scenario comparison with mathematical AI results}
+\author{Working draft for discussion}
+\date{9 October 2026 \quad $\cdot$ \quad Version 0.1}
+\hypersetup{pdftitle={Public Cryptanalytic Effort in the Age of AI},pdfauthor={Literature-search project},pdfsubject={Working draft: literature evidence, human effort proxies, and AI budget scenarios}}
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\begin{abstract}
+How much public effort has been devoted to cryptanalysis, and how does that effort compare with the resources used in recent AI-assisted mathematical research? We assemble a multi-source literature corpus covering elliptic-curve discrete logarithms, lattice problems, and syndrome decoding, with factoring, isogenies, and multivariate cryptography as comparators. Fractional attribution yields approximately 465 elliptic-curve, 840 lattice, and 290 code-based research items in the principal view. A separate author-output model estimates approximately 594, 1,036, and 331 research-allocation years, respectively. At an explicit convention of 2,000 hours per research-year, these correspond to approximately 1.19 million, 2.07 million, and 0.66 million nominal person-hours. Neither publication counts nor these derived hours are direct time measurements.
+
+We compare these estimates with literature-based effort estimates for selected mathematical problems and resource disclosures from OpenAI, Anthropic, and an independent evaluation of OpenAI models. Because historical scrutiny and the marginal cost of a breakthrough purchase different outputs, we do not fit an empirical conversion rate. Instead, assuming economic productivity multipliers of 1, 10, and 100 at \$250,000 per human research-year gives equivalent inference budgets of \$250,000, \$25,000, and \$2,500 per year. Under the middle scenario, the three principal cryptanalytic totals correspond to approximately \$14.85 million, \$25.91 million, and \$8.29 million. We also invert the comparison to express disclosed AI budgets in assumed human-year equivalents. These scenarios describe scale, not attack probabilities, security guarantees, or demonstrated replacement of human research. The draft identifies outstanding validation and accounting uncertainties.
+\end{abstract}
+\vspace{4pt}
+{\small\textbf{Status.} This paper synthesizes the repository as of 9 October 2026. Literature labels and person-time models remain provisionally machine-generated; this draft does not independently verify the mathematical claims discussed. No new rediscovery experiment is required for the adopted comparison.}
+\newpage
+
+\section{Question, contribution, and interpretation}
+Security arguments for public-key cryptography partly rely on sustained attempts to defeat the underlying mathematical problems. Yet statements such as ``decades of scrutiny'' do not specify how many researchers were involved, which parameter regimes they studied, or whether their work concerned algorithms, implementation, structural properties, or concrete attack costs. Calendar age alone is a poor measure of effort.
+
+Recent AI-assisted mathematics creates a second measurement problem. Laboratories report resources in tokens, inference dollars, elapsed time, or equivalent product usage. These disclosures are difficult to place beside a cryptographic community's accumulated work. A useful comparison needs to distinguish three quantities:
+\begin{enumerate}
+\item \textbf{Historical human research effort on cryptanalysis}, estimated from the public literature and researchers' publication portfolios.
+\item \textbf{Historical human research effort around selected mathematical problems}, estimated by a similar paper-based procedure. This includes prior and partial work, not just the time required to prove a final theorem.
+\item \textbf{Human-year equivalents assigned to AI resource use}, derived from an explicit productivity and price convention. These are hypothetical equivalents, not actual human years spent by OpenAI or Anthropic employees.
+\end{enumerate}
+Actual human supervision, verification, and writing for an AI project constitute a fourth quantity. We report such information where available but do not infer it from elapsed model time. Similarly, a hundred agents running for an hour do not represent a hundred human hours.
+
+This paper contributes a reproducible description of visible research effort and an assumption-based way to express its scale in units used in AI research. It does not attempt to estimate the probability that a specified AI budget will find a break. An unsuccessful line of cryptanalysis can provide useful evidence about a scheme while producing no publishable improvement; conversely, one new mathematical idea can invalidate substantial prior confidence. Research input and security output are not interchangeable.
+
+\section{Literature search and classification}
+\subsection{Scope and sources}
+The primary classes are elliptic-curve discrete logarithms (ECDLP), structured/module/ring lattice problems, plain learning with errors (LWE), and syndrome decoding. Factoring and finite-field discrete logarithms, isogenies, and multivariate systems provide comparators. Generic lattice machinery is allocated between structured and plain lattices; the combined lattice class is the most stable headline unit. The corpus concerns mathematical assumptions relevant to public-key encryption and includes signature research when it analyzes shared mathematical machinery. It is not restricted to the exact deployed parameters of a particular standard.
+
+The acquisition combines the Cryptology ePrint Archive, DBLP, OpenAlex, and zbMATH. The ePrint harvest contains 27,249 live records; the DBLP dump contains about 8.7 million records, of which 375,911 survived an initial title/venue screen. OpenAlex phrase searches, abstract enrichment, and a citation snowball from 811 seeds extend coverage. A direct arXiv acquisition failed because of rate limits; arXiv entries indexed by the other sources remain represented. These acquisition counts describe different stages and must not be added as distinct papers. The combined classification outputs contain 16,468 labeled rows, and the export contains \ExportRows{} included or borderline records across all categories. The headline effort view is narrower.\cite{study}
+
+The study uses title and abstract screens followed by two classification passes. The second pass reviews included and borderline records plus an approximately 10\% sample of exclusions. A later round adds 1,840 candidates found by a broader screen and 835 sampled lower-priority candidates. Version and title deduplication reduces repeated counting, but residual duplicates and incorrect metadata remain possible.
+
+\subsection{What counts as cryptanalytic work}
+The headline effort categories include attack algorithms, supporting implementations, structural cryptanalysis, cost estimates, computational records, negative results, and relevant failed or refuted claims. Surveys and general hardness reductions are tracked separately. The latter exclusion is a substantive convention: some reductions supply precisely the tools that later enable an attack. Case studies should therefore inspect whether this boundary omits important enabling work.
+
+Fractional attribution assigns a paper's weight across applicable problem classes. For example, generic lattice work is split equally between structured and plain lattices; it is counted once in the combined lattice view. A ``touch'' count instead credits a paper to every class it addresses. The two measures answer different questions. Authors' name counts from paper metadata also differ from the deduplicated identities in the author map.
+
+The primary view counts sampled lower-priority papers at their observed weight. A sensitivity view multiplies their contribution by ten to estimate the unsampled remainder. This extrapolation depends on a small number of positive labels and is not folded into the headline totals.
+
+\subsection{Quality evidence}
+Agreement between model passes is approximately $\kappa=0.84$--$0.89$. Phase-1 exclusion audits report estimated miss rates around 0.5--1.1\% within the relevant candidate pools. A separate benchmark uses the reference lists of 12 seed papers: 421 of 429 references were harvested, and review of remaining gaps suggests approximately 96--100\% recall of in-scope references by class after the second round. These are checks on selected reference lists and classifier consistency, not guarantees of recall across the entire field. The second classifier could see the first label, so its agreement is not an independent human validation. Human spot-checks remain outstanding.\cite{study}
+
+\section{Results from the public literature}
+\begin{table}[htbp]
+\centering\small
+\caption{Main literature view: include = yes, effort categories A--F and H. Fractional counts allocate shared work; touch counts overlap. Era columns are fractional counts.}
+\label{tab:literature}
+\begin{tabular}{lrrrrr}\toprule
+Class & Fractional & Touch & Before 2006 & 2006--16 & 2017--26\\\midrule
+\inputrows generated/literature_rows.tex
+\bottomrule\end{tabular}
+\end{table}
+Table~\ref{tab:literature} shows that the largest principal-class literature is the combined lattice class. Its fractional count is approximately 1.81 times ECDLP's, while syndrome decoding is approximately 0.62 times ECDLP's. Across the study's source, attribution, and extrapolation views, the lattice/ECDLP ratio ranges roughly from 1.3 to 2.6 and the decoding/ECDLP ratio from 0.6 to 0.8. The spread mixes distinct definitions and sensitivity choices; it is not a confidence interval.
+
+The historical pattern matters. Before 2006, ECDLP has more fractional items than lattices. In 2017--2026, lattices have approximately 3.29 times as many as ECDLP, and syndrome decoding slightly exceeds ECDLP. Both post-quantum leads appear larger in an ePrint-only view because older elliptic-curve and factoring research is poorly represented there. Adding older bibliographic sources changes the comparison materially.
+
+Publication volume also reflects incentives. Standardization competitions attract concentrated analysis, and lattice papers motivated by homomorphic encryption do not all transfer directly to ML-KEM parameters. A mature consensus that generic methods are difficult to improve can reduce recent publication volume without implying neglect. Source coverage, parameter regime, and negative-result categories should accompany any headline ranking.
+
+\section{From publications to research-years and person-hours}
+\subsection{Two distinct effort proxies}
+The repository provides two approaches. The first assigns total effort priors to weighted papers. For a problem $P$, with attribution weight $w_i$, category $k_i$, inclusion factor $b_i$ (one for included work and one-half for borderline work), and assumed effort $\mu_{k_i}$,
+\begin{equation}
+ H^{\mathrm{papers}}_P=\sum_i b_i w_i\mu_{k_i}.
+ \label{eq:papers}
+\end{equation}
+In the existing problem-calibration implementation, categories A/C/F/H receive 1--2 person-years per paper; D receives 0.5--1.5, E receives 2--10, and S receives 0.5--1. G is excluded. The midpoint sum supplies the displayed central values. These are total years across authors, not years per author. These priors differ in some categories from the general project's original plan and author-map fallback; this draft preserves the implemented definitions rather than silently homogenizing them.
+
+The second approach allocates each researcher's output across classes within a moving five-year window. It uses deduplicated DBLP and zbMATH publications, identity matching, an output-rate floor, and adjustments near the observation boundary. Let $a_{pcy}$ denote researcher $p$'s publication share allocated to class $c$ in year $y$. The corresponding research-allocation total is schematically
+\begin{equation}
+ H^{\mathrm{share}}_c=\sum_{p,y}a_{pcy}+H^{\mathrm{fallback}}_c.
+ \label{eq:share}
+\end{equation}
+Researchers without usable career publication histories enter through a per-paper fallback. The author map identifies approximately 3,240 people across classes. It reports both the allocation total and a second total incorporating assumed research-time fractions by career stage.\cite{study}
+
+Equation~\eqref{eq:share} is a proxy for research allocation, not a time-use survey. It assumes that output share reflects effort share. The apparent agreement between paper-based and author-based estimates is useful but not wholly independent: both use the same classified literature, and part of the author estimate directly reuses paper priors.
+
+\subsection{The hours convention}
+For a legible comparison, we adopt
+\begin{equation}
+ h_0=2{,}000\ \text{hours per research-year},\qquad
+ L^{\mathrm{nominal}}_c=h_0 H^{\mathrm{share}}_c.
+ \label{eq:hours}
+\end{equation}
+The 2,000-hour figure is an accounting convention, not a measured annual schedule. Calling the product \emph{nominal person-hours} prevents it from being confused with logged work. Using 1,500 or 2,200 hours instead scales all reported hours by 0.75 or 1.10, respectively, and does not change the year-based dollar scenarios.
+
+The repository's career-adjusted alternative multiplies publication shares by estimated research-time fractions. Its nominal hours are lower because faculty and other researchers also perform nonresearch work. Table~\ref{tab:labor} presents both conventions. The adopted AI-budget scenarios retain the unadjusted research-allocation totals for consistency with the existing method. Switching to the adjusted totals would lower the budgets proportionally; it is a change of human-effort definition, not evidence about AI productivity.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Estimated human effort through the 2026 observation window. Hours are in thousands, using 2,000 hours/year. The last column uses the repository's career-stage research fractions. Values are provisional proxies.}
+\label{tab:labor}
+\begin{tabular}{lrrr}\toprule
+Class & Allocation years & Nominal hours (k) & Adjusted hours (k)\\\midrule
+\inputrows generated/labor_rows.tex
+\bottomrule\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+\begin{axis}[width=.94\linewidth,height=6cm,xmin=1980,xmax=2026,ymin=0,
+ xlabel={Year},ylabel={Cumulative research-allocation years},
+ tick label style={font=\small},label style={font=\small},
+ scaled x ticks=false,xtick={1980,1990,2000,2010,2020,2026},
+ xticklabel style={/pgf/number format/1000 sep=},
+ legend style={font=\small,at={(.02,.98)},anchor=north west,draw=none},
+ grid=major,grid style={gray!15}]
+\addplot[inkblue,thick] table[x=year,y=ecdlp,col sep=comma]{generated/cumulative.csv};\addlegendentry{ECDLP}
+\addplot[warm,thick] table[x=year,y=lattice,col sep=comma]{generated/cumulative.csv};\addlegendentry{All lattices}
+\addplot[teal!70!black,thick,dashed] table[x=year,y=code,col sep=comma]{generated/cumulative.csv};\addlegendentry{Syndrome decoding}
+\addplot[gray,thick,dashdotted] table[x=year,y=factoring,col sep=comma]{generated/cumulative.csv};\addlegendentry{Factoring / FF-DLP}
+\end{axis}
+\end{tikzpicture}
+\caption{Author-output model of cumulative public effort. Attribution spreads publications over moving windows, so curves are smoothed estimates rather than observed project timelines. The 2026 observation window is incomplete.}
+\label{fig:effort}
+\end{figure}
+
+\subsection{Uncertainty in the human estimates}
+The main uncertainties are shared assumptions, not just sampling noise. If effort per paper is systematically twice the assumed level, an entire paper-based estimate doubles. Independently drawing one effort value for each paper makes the sum appear increasingly precise without resolving that common uncertainty. For example, the HAWK yes-only estimate of 35.4 years has a reported Monte Carlo interval of 33.2--37.6 under its independent priors. That interval omits uncertainty in the priors, missing literature, attribution, and unpublished work.
+
+We therefore treat the central estimates as explicit scenarios and retain alternate definitions. The author model's publication-rate floor, name resolution, and treatment of unknown career stages deserve particular scrutiny. A paper can represent a brief observation, several researchers' multiyear project, or a computational campaign with substantial engineering. Neither model measures unreported failed projects, private industry work, or classified work. Those omissions are not known scalar corrections.
+
+\section{Mathematical AI results and their human context}
+\subsection{Historical literature around selected problems}
+The problem-specific search uses curated seeds, citation expansion, and a rubric distinguishing work on a problem from work that merely assumes it. It covers HAWK/module-LIP, the Unique Games and 2-to-1 Games lines, and 22 selected Erd\H{o}s problems. Table~\ref{tab:problems} shows a subset relevant to the OpenAI and Anthropic comparison; the full Erd\H{o}s sample is in Appendix~\ref{app:erdos}.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Paper-based historical effort around selected problems, including borderline work at half weight. Ranges sum the endpoints of the implemented effort priors; they are sensitivity ranges, not confidence intervals. Hours use the same 2,000-hour convention.}
+\label{tab:problems}
+\begin{tabular}{lrrr}\toprule
+Problem line & Estimated years & Nominal hours (k) & Prior-endpoint years\\\midrule
+\inputrows generated/problem_rows.tex
+\bottomrule\end{tabular}
+\end{table}
+
+These estimates are neither time spent by the labs nor counterfactual time that a human team would need for the new result. They measure published work surrounding the problem under the selected scope. A complete audit of historical cutoffs, AI-assisted papers, duplicates, and problem variants remains necessary before describing every item as pre-discovery human labor. Classification based on abstracts can miss AI involvement. Unique Games and the 2-to-1 line overlap and must not be added. Their central values do not imply that the recent results replaced 86 or 20 human years.
+
+The broader mathematical sample is selected, not representative of mathematics. Several small samples have weak agreement between classification passes. Neither the age of a conjecture nor its fame determines how much active effort it received. A failed proof search may leave no paper; a paper with many downstream applications may contain little effort directed at the original question.
+
+\subsection{What the laboratories disclose}
+Table~\ref{tab:disclosures} separates disclosed units from the conversions introduced later. We use primary laboratory accounts and the independent FrontierMath Erd\H{o}s evaluation. We have not revalidated the mathematical claims or their proof artifacts.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Selected AI research disclosures as checked on 9 October 2026. Different rows have different accounting boundaries and must not be summed.}
+\label{tab:disclosures}
+\begin{tabularx}{\linewidth}{@{}p{.25\linewidth}YY@{}}\toprule
+Result or evaluation & Disclosed resource figure & Accounting boundary\\\midrule
+Anthropic HAWK & About \$100,000 API cost; about 60 hours & Discovery process; token count and active human hours unspecified.\cite{anthropic2026}\\
+Anthropic reduced-round AES & About \$100,000 API cost; about one billion output tokens & Also reports substantial human validation; prior session allocation is incomplete.\cite{anthropic2026}\\
+OpenAI ten advances & About \$2,000 at Sol API rates & Reference-price valuation of solution tokens across ten results; not a measured all-in project bill.\cite{openai2026ten}\\
+OpenAI October collection & Roughly three hours of Pro-equivalent thinking per result & Release-wide average; no per-family dollar or token budget.\cite{openai2026math}\\
+OpenAI Navier--Stokes claim & About 130 billion output tokens; 88 hours plus 17 hours formalization & About 300 billion output tokens across all attempted problems; input tokens and total dollar bill unspecified.\cite{openai2026ns}\\
+FrontierMath Erd\H{o}s / OpenAI model & \$218 for \#74; \$247 for \#126 & Successful benchmark attempts, not costs of the whole search.\cite{epoch2026}\\\bottomrule
+\end{tabularx}
+\end{table}
+
+The October OpenAI catalogue contains 719 manuscripts in 372 families from approximately 4,000 posed problems; its README says verification is incomplete. Those aggregation units are not interchangeable. The collection includes the problem lines used in our human-effort comparison, but the overall average is insufficient to assign an inference bill to either line.\cite{openaimathrepo}
+
+FrontierMath's default evaluation scored two resolutions among 68 conjectures for a prerelease OpenAI model. Additional, non-systematic attempts reached five conjectures. The paper notes that metering at another model's prices caused attempts to exceed the intended actual-dollar budget. Its discussion's roughly \$10,000 expected cost per resolution is therefore a budget/success-rate heuristic, not a reconciled campaign ledger. We do not infer missing trial costs or treat successful-attempt prices as a complete denominator.\cite{epoch2026}
+
+\subsection{HAWK as a nearby comparison, not an exchange-rate estimate}
+HAWK is useful because the human and AI-assisted results address closely related mathematical advances. The human trace-zero approach reduces key recovery to exact-SVP calls in dimension $3n/4+1$; the Anthropic result reaches $n/2+1$. These are related but different deliverables.\cite{trace2026,hawk2026} The AI work also uses existing mathematical tools, so its discovery cost cannot be interpreted as the cost of recreating the full preceding literature.
+
+The human group's active effort is undisclosed. The repository's earlier 0.3--1 person-year suggestion was a hypothetical range, not an observation. At \$250,000 per year, \$100,000 equals 0.4 years before supervision and other expenses. That is a break-even threshold, not evidence of cost parity. Anthropic describes its figure as the full HAWK discovery process; whether earlier unsuccessful campaigns are included is unknown. It also reports sharing the attack with the HAWK team in June, so July publication dates do not establish either discovery durations or independence.\cite{anthropic2026}
+
+A separate historical normalization assigns the reported \$100,000 to the estimated 35.4 years of HAWK literature effort, or 38.4 years including borderline work:
+\begin{equation}
+ D^{\mathrm{HAWK}}_X=\$100{,}000\frac{H^{\mathrm{papers}}_X}{H^{\mathrm{papers}}_{\mathrm{HAWK}}}.
+\end{equation}
+This produces approximately \$2,825 or \$2,604 per historical paper-based year. It assumes this historical-effort-to-breakthrough-cost ratio transfers across problems. A shared multiplicative effort prior cancels if the same paper estimator is used on both sides; coverage and attribution differences do not. We do not apply this normalization directly to the author-output totals, which use a different estimator.
+
+\section{Assumed productivity and equivalent inference budgets}
+\subsection{Forward conversion: human effort to an AI budget}
+We adopt a loaded human cost convention $c=\$250{,}000$ per research-year and an assumed productivity multiplier $s\in\{1,10,100\}$. Conditional on access to existing literature, assume AI-assisted research supplies comparable research effort at $s$ times the human productivity per inference dollar. Define
+\begin{equation}
+ D_c(s)=\frac{cH^{\mathrm{share}}_c}{s}.
+ \label{eq:forward}
+\end{equation}
+These scenarios correspond to \$250,000, \$25,000, and \$2,500 per human research-year. They are not percentiles, confidence limits, or fitted estimates; no one scenario is preferred. Values outside this range remain possible. Applying the same multiplier across classes preserves their human-effort ranking by construction.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Equivalent inference budgets in millions of dollars, using the allocation-year column of Table~\ref{tab:labor}. Arithmetic precision does not imply measurement precision.}
+\label{tab:budgets}
+\begin{tabular}{lrrr}\toprule
+Class & $s=1$ & $s=10$ & $s=100$\\\midrule
+\inputrows generated/budget_rows.tex
+\bottomrule\end{tabular}
+\end{table}
+
+The comparison is an inference allowance, not an all-in AI project cost. Human supervision and verification, tool compute, infrastructure, and training are outside that allowance. Historical human research compute likewise remains outside $cH$. An all-in comparison would require explicit accounting on both sides and a revised productivity assumption.
+
+The largest conceptual assumption concerns the transfer from success to scrutiny: we apply a productivity multiplier to the mixture of useful results, failed approaches, and incremental work. We have no observation establishing that AI scales all of these activities similarly. The scenario formulation makes that assumption visible instead of concealing it in a fitted ratio from a selected success.
+
+\subsection{Inverse conversion: an AI budget to human-year equivalents}
+For an AI expenditure or stated reference-price valuation $D$, the inverse of Equation~\eqref{eq:forward} is
+\begin{equation}
+ H^{\mathrm{equiv}}(D;s)=\frac{sD}{c},\qquad
+ L^{\mathrm{equiv}}(D;s)=h_0\frac{sD}{c}.
+ \label{eq:inverse}
+\end{equation}
+This is the comparison most directly relevant to claims about ``human years'' represented by recent AI research. Table~\ref{tab:inverse} gives concrete examples. The multiplier increases the assigned years for a fixed budget because it assumes more research per dollar.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Assumed human-year equivalents of selected disclosed budgets. These are not observed human labor, measured task difficulty, or estimates of labor actually displaced.}
+\label{tab:inverse}
+\begin{tabular}{lrrrr}\toprule
+Example & Budget basis & $s=1$ & $s=10$ & $s=100$\\\midrule
+Anthropic HAWK & \$100,000 & 0.4 & 4 & 40\\
+Anthropic reduced-round AES & \$100,000 & 0.4 & 4 & 40\\
+OpenAI ten advances (combined) & \$2,000 valuation & 0.008 & 0.08 & 0.8\\\bottomrule
+\end{tabular}
+\end{table}
+
+For HAWK, the corresponding nominal hours are 800, 8,000, and 80,000. Under the 100x assumption the assigned 40 years happen to be close to the 35--38 paper-based historical years. This proximity reflects the choice of scenario and accounting boundary; it is not an independent validation. The ten-advance valuation yields 16, 160, and 1,600 hours across the selected results, with the source's reference-price and selection qualifications retained.
+
+\subsection{Tokens and a token-only example}
+Dollar and token comparisons need a fixed valuation rule. For uncached input, cached input, and output fractions $f_i,f_c,f_o$ summing to one, with prices $p_i,p_c,p_o$ per million tokens, define
+\begin{equation}
+ p_{\mathrm{mix}}=f_i p_i+f_c p_c+f_o p_o,\qquad
+ T_{\mathrm{reference}}=10^6D/p_{\mathrm{mix}}.
+\end{equation}
+A hypothetical mixed price of \$10 per million tokens maps one research-year to 25 billion, 2.5 billion, or 250 million reference tokens under the three scenarios. This example quotes no actual model price. Real comparisons must specify model version, date, mix, caching, and treatment of billed reasoning tokens.
+
+For the Navier--Stokes disclosure, we can instead value only the reported 130 billion \emph{output} tokens.\cite{openai2026ns} If $p_o$ is an explicitly hypothetical output price,
+\begin{equation}
+ D_{\mathrm{output}}=130{,}000p_o,\qquad
+ H^{\mathrm{equiv}}_{\mathrm{output}}=0.52sp_o.
+\end{equation}
+\begin{table}[htbp]
+\centering\small
+\caption{Illustrative output-only valuation of 130 billion tokens. Prices are assumptions, not the internal model's prices or reported costs. Input tokens and other project costs are omitted.}
+\label{tab:ns}
+\begin{tabular}{rrrrr}\toprule
+\$/million output tokens & Output valuation & Years at $1$x & Years at $10$x & Years at $100$x\\\midrule
+10 & \$1.3M & 5.2 & 52 & 520\\
+50 & \$6.5M & 26 & 260 & 2,600\\
+100 & \$13M & 52 & 520 & 5,200\\\bottomrule
+\end{tabular}
+\end{table}
+
+This exercise illustrates the sensitivity to price and productivity assumptions. It does not estimate historical human time spent on Navier--Stokes, for which this study has no bounded, audited literature-effort estimate. The reported 300 billion tokens across the wider campaign are a different scope and must not be added to the 130-billion subset. Elapsed hours and approximate concurrent agent counts do not reconstruct an exact agent-hour integral or a human work history.
+
+\section{What can be concluded, and what remains uncertain}
+The most supportable findings concern the public literature. Multi-source coverage materially improves the representation of older elliptic-curve and factoring work. Lattice research is larger and more recent than ECDLP research in the principal views, while syndrome decoding is smaller cumulatively but has recently attracted substantial attention. These are statements about the selected public corpus, not comparisons of cryptographic security.
+
+Under the study's human-effort conventions, major assumption classes represent hundreds to roughly a thousand allocation years, or hundreds of thousands to a few million nominal person-hours. Under the adopted productivity scenarios, their budget equivalents range from hundreds of thousands to hundreds of millions of dollars. A disclosed AI research campaign may fall within that broad scale under some assumptions. That observation establishes neither equivalent coverage of attack approaches nor a probability of a practical break.
+
+Several limitations dominate any finer interpretation:
+\begin{itemize}
+\item \textbf{Coverage and labels.} Candidate screening, incomplete abstracts, author identity errors, older sources, duplicate versions, and ambiguous scope affect all downstream quantities. Model agreement does not resolve correlated mistakes.
+\item \textbf{Publication and time.} Unpublished failures are invisible; output share is not necessarily time share. Shared effort priors and research-time fractions can shift whole classes together.
+\item \textbf{Selection and accounting.} Public AI results emphasize successes. Attempts, retries, tool use, and verification costs are not consistently disclosed. A reference-price token valuation is not an internal compute bill.
+\item \textbf{Different outputs and starting knowledge.} Historical research built the tools available to a later AI system. A weaker theorem, stronger theorem, implementation, and formally checked proof are distinct deliverables.
+\item \textbf{Transfer.} A single HAWK-style advance need not predict progress on mature ECDLP, generic decoding, or a different lattice structure. The common multiplier is assumed, not learned.
+\item \textbf{Unobserved activity.} Private and classified work, nonpublishing contributors, and undocumented AI campaigns are outside the measured corpus. Public visibility is not total effort.
+\end{itemize}
+The computational-record track provides a complementary measure of demonstrated attack computation, including normalized hardware-effort ranges and gaps to target parameters. It is kept separate here: executing an attack, discovering an attack, and estimating human research time are different accounting problems. Most individual records remain unverified by a human, so a stronger quantitative synthesis of those records should await review.
+
+For this working draft, the productive next step is targeted validation of high-impact labels and effort definitions, not a costly rediscovery campaign. The earlier HAWK pilot produced no completed mathematical evaluations because its attempts were interrupted by model safeguards; it supplies no success-rate estimate. Even a successful controlled rediscovery would leave the dominant cross-problem transfer assumption unresolved. The present scenario comparison is complete without that experiment.
+
+\section{Conclusion}
+A literature search can make public cryptanalytic attention more concrete, but it cannot turn publications directly into observed hours. Explicit person-time conventions produce useful orders of magnitude while preserving that distinction. Recent AI mathematical disclosures can be placed beside those magnitudes through clearly labeled budget and productivity assumptions. The resulting human-year equivalents are a framework for discussing research scale; they are not measurements of years replaced by AI or forecasts of cryptographic failure.
+
+\appendix
+\section{Reproducibility and source map}\label{app:repro}
+The LaTeX source is \repo{paper/whitepaper.tex}; references are in \repo{paper/references.bib}. From the repository root, run \texttt{make -C paper}. This first executes the standard-library table generator, then compiles with \texttt{latexmk} and copies the PDF to \repo{output/pdf/cryptanalytic-effort-whitepaper.pdf}. Compilation requires a LaTeX installation with the packages declared in the source. No model call or network request is part of the build.
+
+Tables~\ref{tab:literature}, \ref{tab:labor}, \ref{tab:problems}, and \ref{tab:budgets}, Figure~\ref{fig:effort}, and Appendix~\ref{app:erdos} are generated from repository outputs. The source ledger \repo{paper/generated/manifest.json} records input SHA-256 hashes, constants, and derived values. The source snapshot is dated; updates should regenerate tables and trigger review of nearby prose.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Repository provenance for this draft. Paths are relative to the repository root.}
+\begin{tabularx}{\linewidth}{@{}p{.24\linewidth}Y@{}}\toprule
+Quantity & Source or method\\\midrule
+Corpus and counts & \repo{analysis/phase1_report.md}, \repo{analysis/phase1_counts.txt}, \repo{data/export/combined_included.csv}\\
+Attribution and labels & \repo{pipeline/attribution.json}, \repo{pipeline/rubric.md}, \repo{analysis/recall_benchmark.md}\\
+Author effort & \repo{data/authors/fte_by_year.csv}, 2026 cumulative columns; \repo{analysis/author_map_method.md}\\
+Problem literature effort & \repo{data/ai_effort/calib/*/labeled_final.jsonl}; priors in \repo{pipeline/calib_estimate.py} and \repo{analysis/calib_exchange_table.py}\\
+AI disclosures & \repo{data/ai_effort/ai_results.yaml}, \repo{data/ai_effort/erdos_problems.csv}; primary sources cited in the text\\
+Adopted scenarios & \repo{analysis/ai_effort_comparison_scoping.md}; \repo{analysis/ai_effort_hawk_case.md}\\\bottomrule
+\end{tabularx}
+\end{table}
+
+Before external circulation, review the strongest claims, especially source coverage, the person-hours interpretation, historical cutoffs in the mathematical samples, and validation status of the cited AI results. These tasks improve the evidentiary status of the draft; they do not require claiming a universal exchange rate.
+
+\section{The selected Erd\H{o}s literature sample}\label{app:erdos}
+The existing study selected 12 problems with AI resolutions reported across the Epoch and AlphaProof Nexus collections and 10 sampled unresolved problems. This appendix retains all 22 literature estimates as a scope disclosure, not a fresh evaluation of models. Different conjecture variants, proof dates, and AI-assisted publications require item-level review. The ``items'' column counts eligible category entries under the existing inclusion rule, including borderline records; it is not a count of successful attempts. No effort totals should be added across overlapping problem literatures without deduplication.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Full selected Erd\H{o}s sample: paper-based effort priors with borderline work at half weight. Ranges are prior-endpoint sensitivity sums.}
+\begin{tabular}{rrrr}\toprule
+Problem number & Midpoint years & Endpoint years & Included/borderline items\\\midrule
+\inputrows generated/erdos_rows.tex
+\bottomrule\end{tabular}
+\end{table}
+
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}

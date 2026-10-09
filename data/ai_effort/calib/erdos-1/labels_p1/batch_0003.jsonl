@@ -1,0 +1,40 @@
+{"id": "W2087699257", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos and the integers survey, may mention problem"}
+{"id": "W2087839647", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "zerofree sequences"}
+{"id": "W2088100739", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "signed reciprocal sums"}
+{"id": "W2088212677", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "ergodic Szemeredi"}
+{"id": "W2088339746", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Beatty sequences"}
+{"id": "W2090873407", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "improved lower bound on largest element of sum-distinct set"}
+{"id": "W2093164441", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "harmonic series"}
+{"id": "W2095095818", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "linear Diophantine bound"}
+{"id": "W2099961420", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "geometric inequality cube slices"}
+{"id": "W2105781900", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "knapsack cryptography non-injective"}
+{"id": "W2107062643", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "zero-free cyclic sequences"}
+{"id": "W2108900323", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Roth sets of integers"}
+{"id": "W2109887555", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "k-regular sequences"}
+{"id": "W2111220106", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "additive bases density"}
+{"id": "W2113268225", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos problems and results III, may list problem"}
+{"id": "W2115034958", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "s-additive sequences"}
+{"id": "W2115811550", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "squares in dense planar sets"}
+{"id": "W2118381068", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "different elementary problem"}
+{"id": "W2120600794", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multiplicative representation"}
+{"id": "W2125817895", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Erdos number theory remarks"}
+{"id": "W2127492079", "include": "borderline", "category": "E", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "equal-subset-sum problem, complementary pigeonhole question"}
+{"id": "W2130585072", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "restricted addition gaps"}
+{"id": "W2130828821", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsets"}
+{"id": "W2131114615", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "extremal subset families"}
+{"id": "W2132134025", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "4-AP free sets"}
+{"id": "W2136069334", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "progression-free"}
+{"id": "W2138069615", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "AP-free subsets"}
+{"id": "W2140028675", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "complete sequences"}
+{"id": "W2140322654", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "integer-making theorems"}
+{"id": "W2142443207", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-product"}
+{"id": "W2143943120", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos unsolved problems list, may include it"}
+{"id": "W2145433475", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Erdos unconventional problems"}
+{"id": "W2155187680", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "distinct differences"}
+{"id": "W2162608281", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "APs in lacunary sets"}
+{"id": "W2162995963", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Erdos geometry NT problems"}
+{"id": "W2163674569", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "AP-free sets"}
+{"id": "W2166542595", "include": "yes", "category": "A", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Siegel lemma and sum-distinct sets bounds"}
+{"id": "W2166698266", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture"}
+{"id": "W2169821423", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos favorite combinatorial problems"}
+{"id": "W2258205403", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "sparse Diophantine solutions"}

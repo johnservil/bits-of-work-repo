@@ -1,0 +1,100 @@
+{"id": "W4226182833", "keep": true, "why": "high-dimensional expanders from Chevalley groups"}
+{"id": "W4226276162", "keep": false, "why": "unrelated: graph partitioning"}
+{"id": "W4226309806", "keep": true, "why": "voting algorithms for Unique Games"}
+{"id": "W4226342274", "keep": true, "why": "untitled record; unsure"}
+{"id": "W4230348051", "keep": false, "why": "Max-3-Cut complex SDP; weak link"}
+{"id": "W4230573295", "keep": false, "why": "generic approximation algorithms textbook"}
+{"id": "W4230972002", "keep": true, "why": "untitled record; unsure"}
+{"id": "W4231641035", "keep": false, "why": "generic approximation algorithms textbook"}
+{"id": "W4235946010", "keep": true, "why": "Ramanujan graphs; expander foundations"}
+{"id": "W4235971724", "keep": false, "why": "unrelated: factor graph inference"}
+{"id": "W4236199143", "keep": false, "why": "unrelated: SDP algorithm"}
+{"id": "W4236531528", "keep": false, "why": "unrelated: spectral partitioning"}
+{"id": "W4240783467", "keep": true, "why": "generalized Max-Cut approximation ratio; unsure"}
+{"id": "W4242357733", "keep": true, "why": "power of unique 2-prover 1-round games"}
+{"id": "W4243396289", "keep": true, "why": "orthogonal functions on permutation groups; unsure"}
+{"id": "W4243637616", "keep": false, "why": "unrelated: facility location"}
+{"id": "W4245266864", "keep": true, "why": "FOCS proceedings record; unsure"}
+{"id": "W4246507693", "keep": false, "why": "density Hales-Jewett; no games link"}
+{"id": "W4247707287", "keep": true, "why": "generalized Max-Cut approximation ratio; unsure"}
+{"id": "W4249531354", "keep": true, "why": "untitled record; unsure"}
+{"id": "W4249939137", "keep": false, "why": "unrelated: balanced graph partitioning"}
+{"id": "W4250613930", "keep": true, "why": "power of unique 2-prover 1-round games"}
+{"id": "W4250886557", "keep": false, "why": "generic approximation algorithms textbook"}
+{"id": "W4250990868", "keep": true, "why": "label cover approximation and log-density threshold"}
+{"id": "W4254989727", "keep": true, "why": "Ramanujan hypergraphs; expander foundations"}
+{"id": "W4281771739", "keep": false, "why": "product-free subsets; no games link"}
+{"id": "W4281885517", "keep": true, "why": "approximability of satisfiable k-CSPs"}
+{"id": "W4282003860", "keep": true, "why": "entropic independence for down-up walks; unsure"}
+{"id": "W4285059314", "keep": true, "why": "l_p Gaussian-Grothendieck with vector spins"}
+{"id": "W4285277870", "keep": true, "why": "untitled record; unsure"}
+{"id": "W4285543569", "keep": false, "why": "matching inapproximability; weak link"}
+{"id": "W4285600344", "keep": false, "why": "unrelated: voting rules"}
+{"id": "W4286501294", "keep": false, "why": "unrelated: distributed expander decomposition"}
+{"id": "W4286580163", "keep": false, "why": "unrelated: network control plane"}
+{"id": "W4288388962", "keep": false, "why": "unrelated: MAX-CUT sampling"}
+{"id": "W4290772376", "keep": true, "why": "fine-grained high-dimensional random walks"}
+{"id": "W4292636030", "keep": false, "why": "unrelated: quantum optimization"}
+{"id": "W4293248662", "keep": false, "why": "promise CSP survey; no games link"}
+{"id": "W4296008212", "keep": false, "why": "unrelated: hospitals-residents"}
+{"id": "W4299540028", "keep": true, "why": "2-query LTCs from HDX sheaves"}
+{"id": "W4300471124", "keep": true, "why": "bypassing UGC for geometric hardness"}
+{"id": "W4302578348", "keep": false, "why": "generic approximation algorithms textbook"}
+{"id": "W4311538958", "keep": true, "why": "NP-hardness of 2-to-2 Games"}
+{"id": "W4311538962", "keep": true, "why": "2-to-2 monograph chapter; unsure"}
+{"id": "W4311538965", "keep": true, "why": "2-to-2 monograph chapter; unsure"}
+{"id": "W4311538967", "keep": true, "why": "monotonicity testing, directed isoperimetry; 2-to-2 monograph"}
+{"id": "W4311539049", "keep": true, "why": "2-to-2 monograph index; unsure"}
+{"id": "W4311539061", "keep": true, "why": "2-to-2 monograph bibliography; unsure"}
+{"id": "W4311539114", "keep": true, "why": "2-to-2 monograph acknowledgements; unsure"}
+{"id": "W4311539176", "keep": true, "why": "monotonicity testing and 2-to-2 Games Conjecture"}
+{"id": "W4311539178", "keep": true, "why": "biased long code and vertex cover hardness"}
+{"id": "W4313203167", "keep": true, "why": "optimal testing via global hypercontractivity"}
+{"id": "W4313227408", "keep": false, "why": "localization schemes; weak link"}
+{"id": "W4313227603", "keep": false, "why": "SoS lower bounds; no games link"}
+{"id": "W4313349154", "keep": false, "why": "unrelated: connected subgraph cover"}
+{"id": "W4316652373", "keep": true, "why": "approximate graph colouring; PCSP hardness, unsure"}
+{"id": "W4316652390", "keep": false, "why": "PCSP minion tests; weak link"}
+{"id": "W4316652466", "keep": true, "why": "almost consistent linear equations; UG-adjacent"}
+{"id": "W4319312533", "keep": false, "why": "unrelated: Bell test physics"}
+{"id": "W4319944831", "keep": false, "why": "unrelated: consideration sets"}
+{"id": "W4320169773", "keep": true, "why": "eigenstripping and edge expansion on posets"}
+{"id": "W4320917315", "keep": false, "why": "unrelated: independent set counting"}
+{"id": "W4324132712", "keep": false, "why": "unrelated: Erdos matching conjecture"}
+{"id": "W4361852153", "keep": false, "why": "unrelated: optimization stories"}
+{"id": "W4362177327", "keep": true, "why": "hypercontractivity for global functions"}
+{"id": "W436674831", "keep": true, "why": "efficient approximability of CSPs; unsure"}
+{"id": "W4366958037", "keep": false, "why": "unrelated: node-deletion approximation"}
+{"id": "W4368339384", "keep": false, "why": "routing permutations; weak link"}
+{"id": "W4375928990", "keep": false, "why": "invariance principles in control; no games link"}
+{"id": "W4376253648", "keep": false, "why": "unrelated: matching markets"}
+{"id": "W4376639528", "keep": false, "why": "unrelated: length-constrained flows"}
+{"id": "W4376639539", "keep": true, "why": "hardness self-amplification"}
+{"id": "W4376639540", "keep": true, "why": "good quantum LDPC codes; HDX-adjacent, unsure"}
+{"id": "W4376639551", "keep": true, "why": "approximate graph colouring and hollow shadow; unsure"}
+{"id": "W4376639579", "keep": true, "why": "new high-dimensional expanders from covers"}
+{"id": "W4376639598", "keep": true, "why": "expansion in random geometric graphs; unsure"}
+{"id": "W4376639649", "keep": false, "why": "unrelated: planted clique"}
+{"id": "W4376639703", "keep": true, "why": "approximability of satisfiable k-CSPs II"}
+{"id": "W4376651367", "keep": false, "why": "unrelated: quantum proofs"}
+{"id": "W4376651385", "keep": true, "why": "approximability of satisfiable k-CSPs III"}
+{"id": "W4376651398", "keep": true, "why": "Bonami lemma for linear maps, 2-to-2 games"}
+{"id": "W4383108622", "keep": false, "why": "unrelated: multirobot tracking"}
+{"id": "W4385473958", "keep": true, "why": "approximability of satisfiable k-CSPs IV"}
+{"id": "W4385662236", "keep": false, "why": "forbidden intersections for codes; weak link"}
+{"id": "W4385767784", "keep": false, "why": "unrelated: dominating set algorithm"}
+{"id": "W4385801134", "keep": true, "why": "Ta-Shma codes via expander mixing lemma"}
+{"id": "W4385899778", "keep": false, "why": "unrelated: Kahn-Kalai proof"}
+{"id": "W4386044165", "keep": true, "why": "direct product testing via coboundary expansion"}
+{"id": "W4387382650", "keep": true, "why": "coboundary expansion and simplicial complexes"}
+{"id": "W4390097937", "keep": true, "why": "Grassmannian to simplicial high-dimensional expanders"}
+{"id": "W4390098323", "keep": true, "why": "IOPs with inverse polynomial soundness; PCP-like"}
+{"id": "W4390100647", "keep": true, "why": "HDX condensers"}
+{"id": "W4390100660", "keep": true, "why": "optimal testing of generalized Reed-Muller codes"}
+{"id": "W4390187502", "keep": false, "why": "unrelated: index coding"}
+{"id": "W4390376374", "keep": false, "why": "unrelated: digraph sets"}
+{"id": "W4390964207", "keep": false, "why": "unrelated: quantum optimization"}
+{"id": "W4391235306", "keep": false, "why": "unrelated: FSM testing"}
+{"id": "W4391506307", "keep": true, "why": "direct product testers with small soundness"}
+{"id": "W4391555747", "keep": true, "why": "agreement tests via symplectic HDX"}
+{"id": "W4391577094", "keep": false, "why": "unrelated: vertex cover heuristics"}

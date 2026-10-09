@@ -1,0 +1,100 @@
+{"id": "W2126479983", "keep": false, "why": "unrelated: set construction algorithms"}
+{"id": "W2127141092", "keep": true, "why": "Max-CSP algorithms; unsure"}
+{"id": "W2127248062", "keep": false, "why": "unrelated: metric embeddings"}
+{"id": "W2127312480", "keep": true, "why": "Gaussian noise stability optimality"}
+{"id": "W2128057004", "keep": true, "why": "small PCPs with low query complexity"}
+{"id": "W2128274978", "keep": false, "why": "unrelated: mechanism design"}
+{"id": "W2129025918", "keep": true, "why": "usefulness of predicates; approximation resistance"}
+{"id": "W2129089467", "keep": false, "why": "unrelated: set cover"}
+{"id": "W2129578811", "keep": true, "why": "direct product testing"}
+{"id": "W2130170517", "keep": true, "why": "untitled record; unsure"}
+{"id": "W2130523901", "keep": true, "why": "shadows and intersections in vector spaces; Grassmann-adjacent"}
+{"id": "W2130703751", "keep": true, "why": "composition of low-error 2-query PCPs"}
+{"id": "W2130835223", "keep": false, "why": "continuum percolation; weak link"}
+{"id": "W2130956934", "keep": false, "why": "FKG correlation inequalities; weak link"}
+{"id": "W2131433282", "keep": false, "why": "generic probability limit theorems"}
+{"id": "W2132014457", "keep": false, "why": "unrelated: identifying codes"}
+{"id": "W2132302072", "keep": true, "why": "hardness of lattices, codes, linear equations"}
+{"id": "W2132605415", "keep": true, "why": "PCP characterization of NP"}
+{"id": "W2132991500", "keep": true, "why": "MaxClique and coloring inapproximability"}
+{"id": "W2133263321", "keep": true, "why": "noise stability invariance; Mossel-O'Donnell-Oleszkiewicz"}
+{"id": "W2133272650", "keep": false, "why": "critical percolation; weak link"}
+{"id": "W2133344054", "keep": true, "why": "3-query PCP characterization of NP"}
+{"id": "W2134769553", "keep": false, "why": "unrelated: self-healing systems"}
+{"id": "W2134851251", "keep": false, "why": "unrelated: metric dimension"}
+{"id": "W2135052791", "keep": false, "why": "unrelated: binomial tail bound"}
+{"id": "W2136026170", "keep": false, "why": "unrelated: priority algorithms"}
+{"id": "W2136370860", "keep": true, "why": "optimal testing of Reed-Muller codes"}
+{"id": "W2136816474", "keep": false, "why": "unrelated: interval set cover"}
+{"id": "W2137118456", "keep": true, "why": "vertex cover hardness within 2-eps"}
+{"id": "W2137595244", "keep": false, "why": "unrelated: isoperimetric inequality"}
+{"id": "W2137875903", "keep": false, "why": "unrelated: metabolic networks"}
+{"id": "W2138412601", "keep": false, "why": "Bernoulli-Laplace mixing; weak link"}
+{"id": "W2138534085", "keep": false, "why": "unrelated: network routing"}
+{"id": "W2138959032", "keep": false, "why": "unrelated: broadcast subgraphs"}
+{"id": "W2139332235", "keep": false, "why": "unrelated: gallery guarding"}
+{"id": "W2140265348", "keep": false, "why": "unrelated: gene pyramiding"}
+{"id": "W2140753648", "keep": false, "why": "unrelated: broadcast networks"}
+{"id": "W2140971199", "keep": true, "why": "permutation CSP approximation resistance"}
+{"id": "W2141791003", "keep": false, "why": "unrelated: TSP neighborhoods"}
+{"id": "W2141815340", "keep": true, "why": "clique approximation hardness"}
+{"id": "W2141848229", "keep": false, "why": "unrelated: data broadcast"}
+{"id": "W2142236338", "keep": false, "why": "CVP preprocessing hardness; no games link"}
+{"id": "W2143305437", "keep": false, "why": "unrelated: domination number"}
+{"id": "W2143410554", "keep": true, "why": "simple invariance theorem; Boolean analysis"}
+{"id": "W2143654071", "keep": false, "why": "correlation clustering; no games link"}
+{"id": "W2143698439", "keep": true, "why": "vertex cover hardness via PCP"}
+{"id": "W2143703915", "keep": false, "why": "angular synchronization; weak link"}
+{"id": "W2143996311", "keep": true, "why": "set cover hardness threshold; PCP-based"}
+{"id": "W2144191866", "keep": true, "why": "Grothendieck-type inequalities; UG-adjacent"}
+{"id": "W2146261818", "keep": true, "why": "low-degree tests via epsilon-biased sets"}
+{"id": "W2146453677", "keep": true, "why": "testing Reed-Muller codes"}
+{"id": "W2146457105", "keep": false, "why": "unrelated: data exchange"}
+{"id": "W2146489710", "keep": true, "why": "gadgets and LP approximation hardness"}
+{"id": "W2147668104", "keep": true, "why": "sparsest cut SDP integrality gap"}
+{"id": "W2148311277", "keep": false, "why": "unrelated: evolutionary set cover"}
+{"id": "W2148352980", "keep": true, "why": "proof verification and hardness of approximation"}
+{"id": "W2149106399", "keep": false, "why": "unrelated: facility location"}
+{"id": "W2149577432", "keep": true, "why": "sharp inapproximability for 2-CSP"}
+{"id": "W2149815049", "keep": true, "why": "recycling random bits in two-prover systems"}
+{"id": "W2149929647", "keep": false, "why": "unrelated: buy-at-bulk"}
+{"id": "W2149935452", "keep": false, "why": "unrelated: connectivity augmentation"}
+{"id": "W2150560365", "keep": true, "why": "uniform direct product theorems"}
+{"id": "W2151077859", "keep": false, "why": "unrelated: local-ratio algorithms"}
+{"id": "W2151095335", "keep": true, "why": "polynomial testing over general fields"}
+{"id": "W2151239055", "keep": false, "why": "unrelated: walks in digraphs"}
+{"id": "W2151703950", "keep": false, "why": "unrelated: kernel clustering"}
+{"id": "W2151875415", "keep": false, "why": "unrelated: trapping sets"}
+{"id": "W2152221184", "keep": true, "why": "efficient PCPs and approximation"}
+{"id": "W2152394048", "keep": true, "why": "small-set isoperimetry, Alon-Roichman expanders"}
+{"id": "W2152490496", "keep": true, "why": "optimal long code test"}
+{"id": "W2152720784", "keep": false, "why": "unrelated: network fault tolerance"}
+{"id": "W2154260184", "keep": false, "why": "unrelated: unit disk cover"}
+{"id": "W2154276597", "keep": true, "why": "untitled record; unsure"}
+{"id": "W2154380126", "keep": true, "why": "Ramanujan complexes; topological expanders"}
+{"id": "W2154386769", "keep": true, "why": "parallel repetition and foams"}
+{"id": "W2154673147", "keep": true, "why": "harmonicity on slices of Boolean cube"}
+{"id": "W2154774722", "keep": false, "why": "unrelated: Turan problems"}
+{"id": "W2154838933", "keep": false, "why": "unrelated: entity identification"}
+{"id": "W2155479391", "keep": false, "why": "CSP testing query bounds; weak link"}
+{"id": "W2157381209", "keep": false, "why": "unrelated: QMA approximation"}
+{"id": "W2161066177", "keep": false, "why": "noise sensitivity random graphs; weak link"}
+{"id": "W2161163216", "keep": false, "why": "unrelated: data cleaning"}
+{"id": "W2161666429", "keep": true, "why": "local testing of direct product"}
+{"id": "W2161719898", "keep": true, "why": "multicut and sparsest-cut hardness"}
+{"id": "W2162099397", "keep": false, "why": "unrelated: precedence scheduling"}
+{"id": "W2162117620", "keep": true, "why": "Gaussian noise correlation, long code analysis"}
+{"id": "W2162746978", "keep": true, "why": "shorter long code constructions"}
+{"id": "W2163141979", "keep": false, "why": "unrelated: set multicover"}
+{"id": "W2163666099", "keep": false, "why": "unrelated: power scheduling"}
+{"id": "W2163841363", "keep": false, "why": "unrelated: visibility graphs"}
+{"id": "W2163925208", "keep": true, "why": "subexponential algorithms for Unique Games"}
+{"id": "W2165803522", "keep": false, "why": "unrelated: graph motif"}
+{"id": "W2166366531", "keep": true, "why": "4-regular vertex cover hardness"}
+{"id": "W2166369652", "keep": true, "why": "vertex cover inapproximability, bounded degree"}
+{"id": "W2167061810", "keep": true, "why": "Euclidean distortion and sparsest cut"}
+{"id": "W2167681887", "keep": true, "why": "Grothendieck extension, quadratic programs"}
+{"id": "W2168924128", "keep": false, "why": "unrelated: test cover"}
+{"id": "W2168991396", "keep": false, "why": "generic derandomization survey"}
+{"id": "W2170827767", "keep": false, "why": "unrelated: monotone influence queries"}
+{"id": "W2171277697", "keep": false, "why": "unrelated: Turan survey"}

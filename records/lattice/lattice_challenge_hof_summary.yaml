@@ -1,0 +1,33 @@
+# summary file (not a single solve); extra summary_* keys beyond README schema
+id: "lattice_challenge_hof_summary"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt Lattice Challenge hall of fame (summary)"
+instance_size: 1100
+instance_size_unit: "dim"
+log2_ops: null
+method: null
+structure_exploited: null
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2024-08-15"
+solvers: null
+academic: null
+challenge: "TU Darmstadt Lattice Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/"]
+confidence: 0.9
+verified: false
+notes: "Read 2026-10-09. 71 rows lack dates (pre-July-2011 submissions, ids 1-72). Challenge dims 500-2000 step 25; toy dims excluded from HoF."
+summary_total_entries: 238
+summary_distinct_dimensions: 30
+summary_date_range: ["2011-07-03", "2026-06-20"]
+summary_entries_per_year: {"2011": 34, "2012": 21, "2013": 32, "2014": 1, "2017": 2, "2019": 1, "2020": 4, "2021": 5, "2022": 50, "2023": 4, "2024": 6, "2025": 5, "2026": 2}
+summary_progression_record_count: 21
+summary_top_entry: {"dimension": 1100, "norm": "175.40", "contestant": "Yao Sun", "date": "2024-08-15"}
+summary_csv: "lattice_challenge_hof.csv"

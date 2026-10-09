@@ -1,0 +1,100 @@
+{"id": "W2002063814", "keep": true, "why": "irregularities of sequences, APs"}
+{"id": "W2002288087", "keep": false, "why": "primes in arithmetic progression computation"}
+{"id": "W2004479099", "keep": true, "why": "intersection properties of integer subsets"}
+{"id": "W2004580743", "keep": true, "why": "additive number theory (1934)"}
+{"id": "W2004782359", "keep": true, "why": "additive bases, edge-magic graphs; unsure"}
+{"id": "W2006409548", "keep": false, "why": "graph cycle length distribution"}
+{"id": "W2008037211", "keep": true, "why": "multiplicative bases density"}
+{"id": "W2008476758", "keep": true, "why": "irregularities of sequences, APs"}
+{"id": "W2009196521", "keep": true, "why": "sequences of integers, additive"}
+{"id": "W2009232680", "keep": false, "why": "Hamiltonian circuits in random graphs"}
+{"id": "W2010717824", "keep": false, "why": "irrationality of infinite products"}
+{"id": "W2011033909", "keep": true, "why": "sums of like powers, additive Diophantine; unsure"}
+{"id": "W2011125666", "keep": false, "why": "integers represented by binary form"}
+{"id": "W2011601728", "keep": true, "why": "problem of additive number theory"}
+{"id": "W2011671869", "keep": false, "why": "Steiner triple systems, loop theory"}
+{"id": "W2013188591", "keep": false, "why": "set system intersections, not integer sums"}
+{"id": "W2013576033", "keep": false, "why": "prime divisor counting"}
+{"id": "W2014323465", "keep": true, "why": "integer sets with distinct differences"}
+{"id": "W2014507113", "keep": false, "why": "prime factors of central binomial"}
+{"id": "W2014985855", "keep": true, "why": "sums of cubes, additive representation"}
+{"id": "W2015305877", "keep": false, "why": "distinct unit fractions"}
+{"id": "W2019447247", "keep": false, "why": "predicate length functions"}
+{"id": "W2020173739", "keep": false, "why": "partitioning vector spaces"}
+{"id": "W2020272617", "keep": true, "why": "sums of distinct elements from a set"}
+{"id": "W2020529018", "keep": true, "why": "Besicovitch-type integer sequence theorem; unsure"}
+{"id": "W2020925806", "keep": false, "why": "diameter critical graphs"}
+{"id": "W2021073476", "keep": true, "why": "converse of Waring, additive representation"}
+{"id": "W2021315980", "keep": true, "why": "zero-sum and residue class covers"}
+{"id": "W2021414653", "keep": true, "why": "extremal number theory problem; unsure"}
+{"id": "W2023011716", "keep": true, "why": "sequences of integers"}
+{"id": "W2023397165", "keep": true, "why": "sums and products counterexamples"}
+{"id": "W2023600080", "keep": true, "why": "integer sets without 3-term AP"}
+{"id": "W2024478370", "keep": false, "why": "prime distribution, general"}
+{"id": "W2025928899", "keep": true, "why": "m-covers, residue class covering"}
+{"id": "W2026569452", "keep": false, "why": "permanent of doubly stochastic matrix"}
+{"id": "W2029209732", "keep": true, "why": "inverse Goldbach problem, additive"}
+{"id": "W2030828770", "keep": true, "why": "van der Waerden partitions, AP colourings"}
+{"id": "W2031184395", "keep": true, "why": "additive decomposition of multiplicative sets"}
+{"id": "W2032716544", "keep": false, "why": "hypercube subgraphs, even cycles"}
+{"id": "W2033040247", "keep": false, "why": "linear programming algorithms"}
+{"id": "W2033259203", "keep": false, "why": "repeated distances geometry"}
+{"id": "W2034596135", "keep": true, "why": "sequences of integers, no divisibility"}
+{"id": "W2034645676", "keep": false, "why": "balanced incomplete block designs"}
+{"id": "W2038010519", "keep": true, "why": "van der Waerden numbers, integer APs"}
+{"id": "W2038466635", "keep": false, "why": "Collatz function injectivity"}
+{"id": "W2038497135", "keep": false, "why": "mean values of multiplicative functions"}
+{"id": "W2038951761", "keep": false, "why": "intersection theorems for set systems"}
+{"id": "W2039027438", "keep": false, "why": "graph subgraphs"}
+{"id": "W2039456297", "keep": false, "why": "probabilistic methods in group theory"}
+{"id": "W2039481459", "keep": true, "why": "reciprocal bases for integers"}
+{"id": "W2039627336", "keep": true, "why": "densities of integer subset series"}
+{"id": "W2040015983", "keep": true, "why": "covering systems of congruences"}
+{"id": "W2041727161", "keep": false, "why": "primes of form k2^n+1"}
+{"id": "W2043191005", "keep": true, "why": "sum-free sequences extremal result"}
+{"id": "W2043381187", "keep": true, "why": "Ramsey-type additive number theory"}
+{"id": "W2044429866", "keep": true, "why": "Graham's conjecture on sequences"}
+{"id": "W2045789201", "keep": true, "why": "addition theorem modulo p"}
+{"id": "W2046939500", "keep": false, "why": "ordinary points, combinatorial geometry"}
+{"id": "W2046941141", "keep": true, "why": "Graham conjecture, sequences with primes"}
+{"id": "W2048423935", "keep": false, "why": "Turan and graph theory history"}
+{"id": "W2048996648", "keep": false, "why": "set families, singleton intersections"}
+{"id": "W2050675734", "keep": false, "why": "induced subtrees, chromatic number"}
+{"id": "W2051745720", "keep": false, "why": "pairwise balanced designs"}
+{"id": "W2052059867", "keep": true, "why": "squarefree numbers in sumsets"}
+{"id": "W2052802307", "keep": true, "why": "balancing families of integer sequences"}
+{"id": "W2052804318", "keep": false, "why": "elementary geometry combinatorics"}
+{"id": "W2053221842", "keep": false, "why": "sums of distinct unit fractions"}
+{"id": "W2053524037", "keep": true, "why": "zero-sum sequences, cyclic groups; unsure"}
+{"id": "W2053637971", "keep": false, "why": "runs of quadratic residues"}
+{"id": "W2054140454", "keep": true, "why": "sequences of integers, no divisibility"}
+{"id": "W2056371938", "keep": false, "why": "integers with large prime factor"}
+{"id": "W2056806689", "keep": false, "why": "sums over multiplicative functions"}
+{"id": "W2058073416", "keep": false, "why": "primality of trees"}
+{"id": "W2059272542", "keep": false, "why": "coverings of space, geometry"}
+{"id": "W2059984909", "keep": false, "why": "Ramsey for right triangles"}
+{"id": "W2061788258", "keep": false, "why": "lines and planes of finite sets"}
+{"id": "W2062097565", "keep": false, "why": "hypercube hexagon-free subgraphs"}
+{"id": "W2064021831", "keep": false, "why": "finite set intersection problem"}
+{"id": "W2064702321", "keep": false, "why": "complete 4-graphs subdivisions"}
+{"id": "W2065042838", "keep": true, "why": "sumsets in infinite integer sets"}
+{"id": "W2065880080", "keep": true, "why": "linear combinations of consecutive integer sets"}
+{"id": "W2065918689", "keep": true, "why": "covering system with least modulus"}
+{"id": "W2066637298", "keep": true, "why": "covering integers by residue classes"}
+{"id": "W2068131989", "keep": true, "why": "bases for sets of integers"}
+{"id": "W2069040548", "keep": false, "why": "Ramsey numbers for cycles"}
+{"id": "W2069220307", "keep": false, "why": "ergodic recurrence, Markov shifts"}
+{"id": "W2069661109", "keep": false, "why": "Erdos centenary reflections"}
+{"id": "W2070496958", "keep": true, "why": "combinatorics studies (1933); unsure"}
+{"id": "W2071163682", "keep": true, "why": "Behrend-type AP-free sequences"}
+{"id": "W2072075682", "keep": true, "why": "arithmetic progressions remark"}
+{"id": "W2073127444", "keep": false, "why": "factorial prime power decomposition"}
+{"id": "W2073594241", "keep": false, "why": "Erdos-Straus-Schinzel problem, other topic"}
+{"id": "W2075084424", "keep": false, "why": "graph reconstruction survey"}
+{"id": "W2076244356", "keep": false, "why": "Boolean function values"}
+{"id": "W2077788572", "keep": false, "why": "Ramsey numbers, graphs versus triangle"}
+{"id": "W2077900329", "keep": true, "why": "exactly covering systems of congruences"}
+{"id": "W2079979850", "keep": true, "why": "two addition theorems"}
+{"id": "W2080123161", "keep": false, "why": "non-repetitive words, not integer sets"}
+{"id": "W2082471372", "keep": true, "why": "density, translates, sums of integers"}
+{"id": "W2083028555", "keep": false, "why": "Erdos-Szekeres convex position"}

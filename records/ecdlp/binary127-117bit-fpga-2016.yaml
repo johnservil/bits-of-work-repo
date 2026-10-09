@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "binary127-117bit-fpga-2016"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "target117: 117.35-bit prime-order subgroup of a curve over F_2^127"
+instance_size: 117.35
+instance_size_unit: "bits"
+log2_ops: 59.85
+method: "parallel Pollard rho with negation map, DP = top 30 x-bits zero, 3-core 127-bit FPGA design"
+structure_exploited: false
+hardware: "64 to 576 Spartan-6 XC6SLX150 FPGAs (RIVYERA), not all available all the time"
+raw_compute: "about 6.5 months on up to 576 FPGAs; 968,531,433 DPs (2.55x expected 379,821,956); about 2^60 iterations"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 198
+date: "2016-12-02"
+solvers: ["Daniel J. Bernstein", "Susanne Engels", "Tanja Lange", "Ruben Niederhagen", "Christof Paar", "Peter Schwabe", "Ralf Zimmermann"]
+academic: true
+challenge: null
+extrapolation: "FPGA cluster to break NIST K-163 in a year: plausibly under 2e9 USD"
+paper: "ePrint 2016/382 (Dec 2016 revision)"
+source_url: "https://listserv.nodak.edu/cgi-bin/wa.exe?A2=NMBRTHRY;628a3b51.1612"
+other_urls: ["https://cryptojedi.org/papers/sect113r2-20161212.pdf", "https://en.wikipedia.org/wiki/Discrete_logarithm_records"]
+confidence: 0.85
+verified: false
+notes: "Generic (non-Koblitz) curve; order 212146114040485326348618959071598183 ~2^117.35; group 802x smaller than curve. Largest public generic ECDLP. wall_time ~6.5 months."

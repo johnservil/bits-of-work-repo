@@ -1,0 +1,1 @@
+The Unique Games Conjecture (Khot 2002): work that proves, disproves, or makes progress on it (algorithms for unique games, the 2-to-2 Games line, small-set expansion, structural results used in those proofs). Papers that merely assume UGC are include=no.

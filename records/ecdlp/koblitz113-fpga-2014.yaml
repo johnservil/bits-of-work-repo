@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "koblitz113-fpga-2014"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "113-bit Koblitz curve y^2+xy=x^3+x^2+1 over F_2^113, challenge from SHA-256"
+instance_size: 112.0
+instance_size_unit: "bits"
+log2_ops: null
+method: "parallel Pollard rho, Wiener-Zuccherato iteration on Frobenius/negation orbits, fully unrolled FPGA pipeline"
+structure_exploited: true
+hardware: "18-core Virtex-6 FPGA cluster"
+raw_compute: "extrapolated 24 days on 18 Virtex-6 FPGAs; actual run about 47 days since not all FPGAs active"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 47
+date: "2014-04"
+solvers: ["Erich Wenger", "Paul Wolfger"]
+academic: true
+challenge: null
+extrapolation: "WECC 2014 slides table: ECC2K-130 ~1M USD of FPGAs for 127 days; ECC2-131 ~10M USD for 145 days"
+paper: "ePrint 2014/368; SAC 2014 LNCS 8781"
+source_url: "https://www.imsc.res.in/~ecc14/slides/wenger.pdf"
+other_urls: ["https://eprint.iacr.org/2014/368", "https://en.wikipedia.org/wiki/Discrete_logarithm_records"]
+confidence: 0.7
+verified: false
+notes: "n=0xfff...dbf91af6dea73 (~2^112.0) from slide Sage listing. Slide chart annotates 2014-04-19; 47-day actual figure from Wikipedia (unconfirmed in primary). Iteration count not extracted (ePrint PDF inaccessible)."

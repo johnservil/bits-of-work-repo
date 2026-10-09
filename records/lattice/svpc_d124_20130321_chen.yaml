@@ -1,0 +1,25 @@
+id: "svpc_d124_20130321_chen"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 124 (seed 1)"
+instance_size: 124
+instance_size_unit: "dim"
+log2_ops: null
+method: "BKZ + enumeration"
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2013-03-21"
+solvers: ["Yuanmi Chen", "Phong Nguyen"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php"]
+confidence: 0.75
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Record progression entry (new max dimension). HoF: norm 2936, seed 1, approx factor 1.04270, algorithm tag 'ENUM,BKZ'."

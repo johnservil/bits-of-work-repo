@@ -1,0 +1,100 @@
+{"id": "W3093847665", "keep": false, "why": "unrelated: NFV server deployment"}
+{"id": "W3097115680", "keep": true, "why": "Glauber dynamics via high-dimensional expansion; unsure"}
+{"id": "W3098041426", "keep": false, "why": "percolation on expanders; weak link"}
+{"id": "W3098702574", "keep": true, "why": "closed walks and expander eigenvalues; unsure"}
+{"id": "W3102313022", "keep": true, "why": "list decoding of direct sum codes"}
+{"id": "W3103427415", "keep": true, "why": "unique decoding of epsilon-balanced codes"}
+{"id": "W3103512552", "keep": true, "why": "hypergraph vertex cover hardness; unsure"}
+{"id": "W3103578399", "keep": true, "why": "plurality is stablest, small correlations"}
+{"id": "W3104489128", "keep": false, "why": "unrelated: space tilings"}
+{"id": "W3105311985", "keep": false, "why": "unrelated: quantum optimization"}
+{"id": "W3107068454", "keep": false, "why": "list-recovery for heavy hitters; weak link"}
+{"id": "W3112936672", "keep": true, "why": "l_p Gaussian-Grothendieck problem"}
+{"id": "W3114178996", "keep": false, "why": "forbidden minor testing; weak link"}
+{"id": "W3123770256", "keep": false, "why": "unrelated: kernelization"}
+{"id": "W3124727707", "keep": false, "why": "unrelated: packing programs"}
+{"id": "W3126181091", "keep": true, "why": "quantum LDPC codes via high-dimensional expanders"}
+{"id": "W3126483545", "keep": false, "why": "unrelated: log-concave polynomials"}
+{"id": "W3127810600", "keep": false, "why": "unrelated: expander decomposition"}
+{"id": "W3127892316", "keep": false, "why": "unrelated: DPP inference"}
+{"id": "W3128760565", "keep": true, "why": "local-to-global HDX, Garland's method"}
+{"id": "W3129091168", "keep": true, "why": "unique decoding of epsilon-balanced codes"}
+{"id": "W3129403085", "keep": false, "why": "promise CSP dichotomy; no games link"}
+{"id": "W3131123246", "keep": false, "why": "unrelated: induced matchings"}
+{"id": "W3134214471", "keep": true, "why": "global hypercontractivity"}
+{"id": "W3134778603", "keep": false, "why": "forbidden intersections for codes; weak link"}
+{"id": "W3136243343", "keep": true, "why": "Kruskal simplex count; Kruskal-Katona, unsure"}
+{"id": "W3136406662", "keep": false, "why": "unrelated: stable elections"}
+{"id": "W3137584217", "keep": true, "why": "agreement tests on biased hypercube"}
+{"id": "W3137713953", "keep": false, "why": "unrelated: knowledge graph blocking"}
+{"id": "W3138453645", "keep": false, "why": "spectral independence sampling; weak link"}
+{"id": "W3138766854", "keep": true, "why": "strong parallel repetition, Unique Games on small-set expanders"}
+{"id": "W3139102621", "keep": false, "why": "unrelated: ridesharing"}
+{"id": "W3140492330", "keep": false, "why": "unrelated: ride-pooling"}
+{"id": "W3144422206", "keep": true, "why": "lattice, code and linear equation hardness"}
+{"id": "W3144857673", "keep": true, "why": "hardness of approximation book; unsure"}
+{"id": "W3144881883", "keep": false, "why": "generic random graphs book"}
+{"id": "W3149588634", "keep": true, "why": "derandomized parallel repetition of structured PCPs"}
+{"id": "W3150387864", "keep": false, "why": "unrelated: CO2 infrastructure"}
+{"id": "W3150556231", "keep": true, "why": "independent sets in almost 3-colorable graphs"}
+{"id": "W3152755585", "keep": false, "why": "unrelated: Erdos matching conjecture"}
+{"id": "W3155946679", "keep": true, "why": "CSP unified hardness proofs; unsure"}
+{"id": "W3157712555", "keep": true, "why": "Unique Games in fixed-point logic"}
+{"id": "W3159235954", "keep": false, "why": "unrelated: spanning tree sampling"}
+{"id": "W3160071378", "keep": false, "why": "unrelated: triangle enumeration"}
+{"id": "W3160856225", "keep": true, "why": "product-based high-dimensional expanders"}
+{"id": "W3161056635", "keep": true, "why": "hardness of approximation gap location; unsure"}
+{"id": "W3161221583", "keep": false, "why": "unrelated: rainbow matchings"}
+{"id": "W3162920816", "keep": false, "why": "unrelated: log-concave polynomials"}
+{"id": "W3168358336", "keep": true, "why": "entropic independence, modified log-Sobolev; unsure"}
+{"id": "W3169633741", "keep": true, "why": "closed walks and eigenvalue multiplicity"}
+{"id": "W3170539426", "keep": true, "why": "Glauber dynamics via high-dimensional expansion"}
+{"id": "W3170602412", "keep": false, "why": "unrelated: binary tree problem"}
+{"id": "W3171131516", "keep": true, "why": "decoding Ta-Shma codes via regularity"}
+{"id": "W3172764972", "keep": true, "why": "trickle-down theorem on simplicial complexes"}
+{"id": "W3172971658", "keep": true, "why": "cosystolic expanders and quantum LDPC codes"}
+{"id": "W3174938715", "keep": true, "why": "Unique Games in fixed-point logic"}
+{"id": "W3176845208", "keep": false, "why": "unrelated: submodular maximization"}
+{"id": "W3181649296", "keep": false, "why": "unrelated: EV charging"}
+{"id": "W3184476290", "keep": true, "why": "HDX eigenstripping and Unique Games"}
+{"id": "W3185873601", "keep": false, "why": "unrelated: stochastic set cover"}
+{"id": "W3186759094", "keep": false, "why": "unrelated: belief propagation"}
+{"id": "W3191189891", "keep": true, "why": "variational proof of Gaussian noise stability"}
+{"id": "W3197988729", "keep": false, "why": "unrelated: MaxCut revisited"}
+{"id": "W3198199697", "keep": false, "why": "unrelated: independent set counting"}
+{"id": "W3200447518", "keep": false, "why": "generic algorithms textbook"}
+{"id": "W3201180760", "keep": true, "why": "junta method for hypergraphs; unsure"}
+{"id": "W3205825087", "keep": true, "why": "proof of the 2-to-2 Games Conjecture"}
+{"id": "W3207594656", "keep": true, "why": "invariance principle for the multi-slice"}
+{"id": "W3208004815", "keep": true, "why": "voting algorithms for Unique Games"}
+{"id": "W3209913008", "keep": false, "why": "Chernoff bounds; weak link"}
+{"id": "W3209946996", "keep": false, "why": "unrelated: planar cycle hitting"}
+{"id": "W3210095583", "keep": false, "why": "unrelated: rainbow matchings"}
+{"id": "W3212014075", "keep": true, "why": "locally testable codes with constant rate"}
+{"id": "W3212348617", "keep": true, "why": "hypercontractivity on high-dimensional expanders"}
+{"id": "W3212680240", "keep": false, "why": "unrelated: Hamilton cycles"}
+{"id": "W3213933684", "keep": true, "why": "quantum and locally testable LDPC codes"}
+{"id": "W3214092354", "keep": true, "why": "hypercontractivity on high-dimensional expanders"}
+{"id": "W3214190378", "keep": true, "why": "entropic independence; modified log-Sobolev, unsure"}
+{"id": "W3214333250", "keep": false, "why": "sampling beyond bounded degree; weak link"}
+{"id": "W3214853469", "keep": true, "why": "Johnson coverage hypothesis; hardness, unsure"}
+{"id": "W3214928692", "keep": true, "why": "l_p Gaussian-Grothendieck problem"}
+{"id": "W3215375171", "keep": false, "why": "unrelated: ride cost splitting"}
+{"id": "W3215438445", "keep": true, "why": "hypercontractivity on HDX, higher moments"}
+{"id": "W3217590449", "keep": false, "why": "unrelated: carsharing"}
+{"id": "W3217590873", "keep": true, "why": "hypercontractivity on HDX, Efron-Stein"}
+{"id": "W322757696", "keep": true, "why": "CSP approximability of minimization problems; unsure"}
+{"id": "W336776360", "keep": true, "why": "PCP theorem by gap amplification"}
+{"id": "W340925356", "keep": true, "why": "untitled record; unsure"}
+{"id": "W35865300", "keep": false, "why": "unrelated: edge fault tolerance"}
+{"id": "W4205097462", "keep": false, "why": "unrelated: Chernoff bounds"}
+{"id": "W4206323264", "keep": false, "why": "unrelated: loss-leader pricing"}
+{"id": "W4206566163", "keep": true, "why": "Johnson coverage hypothesis; unsure"}
+{"id": "W4206624744", "keep": false, "why": "unrelated: model-based testing"}
+{"id": "W4211029301", "keep": false, "why": "unrelated: data quality"}
+{"id": "W4214903668", "keep": true, "why": "soundness of testing tensor codes"}
+{"id": "W4214921067", "keep": false, "why": "CSP linear sketches; weak link"}
+{"id": "W4221151500", "keep": true, "why": "local testing of multiplicity codes"}
+{"id": "W4221160854", "keep": false, "why": "unrelated: multiwinner elections"}
+{"id": "W4226060934", "keep": true, "why": "untitled record; unsure"}
+{"id": "W4226180919", "keep": true, "why": "quantum Tanner codes; HDX-adjacent, unsure"}

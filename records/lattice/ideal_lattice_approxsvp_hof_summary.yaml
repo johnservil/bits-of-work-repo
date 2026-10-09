@@ -1,0 +1,33 @@
+# summary file (not a single solve); extra summary_* keys beyond README schema
+id: "ideal_lattice_approxsvp_hof_summary"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "TU Darmstadt Ideal Lattice Challenge approx-SVP hall of fame (summary)"
+instance_size: 796
+instance_size_unit: "dim"
+log2_ops: null
+method: null
+structure_exploited: null
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2024-06-27"
+solvers: null
+academic: null
+challenge: "TU Darmstadt Ideal Lattice Challenge (approx-SVP HoF)"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/alphasvphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php"]
+confidence: 0.9
+verified: false
+notes: "Read 2026-10-09. 143 of 236 entries flagged 'using ideal structure'."
+summary_total_entries: 236
+summary_distinct_dimensions: 90
+summary_date_range: ["2013-01-22", "2026-09-21"]
+summary_entries_per_year: {"2013": 28, "2014": 3, "2015": 76, "2016": 2, "2017": 1, "2018": 16, "2019": 1, "2021": 4, "2022": 5, "2023": 19, "2024": 2, "2026": 79}
+summary_progression_record_count: 18
+summary_top_entry: {"dimension": 796, "index": "797", "norm": "761113", "contestant": "Ziyu Zhao, Jintai Ding, Bo-Yin Yang", "date": "2024-06-27"}
+summary_csv: "ideal_lattice_approxsvp_hof.csv"

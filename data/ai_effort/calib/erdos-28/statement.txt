@@ -1,0 +1,1 @@
+Erdős problem 28 (erdosproblems.com): If $A\subseteq \mathbb{N}$ is such that $A+A$ contains all but finitely many integers then $\limsup 1_A\ast 1_A(n)=\infty$.

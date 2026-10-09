@@ -1,0 +1,13 @@
+raw rows by source: {'dblp': 348587, 'openalex_doi': 38926, 'openalex_phrase': 14195, 'openalex_snowball': 22035, 'zbmath': 7498}
+merged items: 356673; keyword-screened: 19266; covered by ePrint candidates: 1875; NEW candidates: 17391
+new candidates by era: {'pre-2006': 2133, '2006-2016': 4720, '2017+': 10745}
+new candidates with abstract: 9315 / 17598
+new candidates by tier: {'B': 8353, 'A': 9245}; tier A with abstract: 6836
+new candidates by class: {'lattice': 7621, 'ecdlp': 2506, 'comparator': 3435, 'code': 5361}
+core-venue items lacking abstract (enrich_dois.txt): 20337
+snowball seeds resolved: 794; unresolved: 200
+screened items by source combination, per class:
+  ecdlp: {'openalex': 1470, 'dblp': 243, 'dblp|openalex': 232, 'zbmath': 155, 'openalex|openalex': 145, 'dblp|openalex|openalex|zbmath': 118, 'dblp|openalex|zbmath': 111, 'openalex|zbmath': 100, 'dblp|openalex|openalex': 84, 'dblp|zbmath': 43}
+  comparator: {'dblp': 1294, 'openalex': 1188, 'dblp|openalex': 311, 'dblp|openalex|openalex': 205, 'openalex|openalex': 170, 'zbmath': 102, 'dblp|openalex|openalex|zbmath': 98, 'dblp|openalex|zbmath': 85, 'openalex|zbmath': 77, 'dblp|zbmath': 31}
+  code: {'dblp': 3199, 'openalex': 1021, 'dblp|openalex': 558, 'dblp|openalex|openalex': 189, 'dblp|openalex|openalex|zbmath': 178, 'dblp|openalex|zbmath': 139, 'zbmath': 139, 'openalex|openalex': 125, 'dblp|zbmath': 84, 'openalex|zbmath': 43}
+  lattice: {'openalex': 3122, 'dblp': 2898, 'dblp|openalex': 932, 'dblp|openalex|openalex': 331, 'dblp|openalex|zbmath': 323, 'dblp|openalex|openalex|zbmath': 280, 'openalex|openalex': 250, 'dblp|zbmath': 186, 'zbmath': 172, 'openalex|zbmath': 144}

@@ -1,0 +1,100 @@
+{"id": "W1998478972", "keep": true, "why": "polynomials over vector spaces; unsure"}
+{"id": "W1998544343", "keep": false, "why": "unrelated: graph decompositions"}
+{"id": "W1999144970", "keep": false, "why": "unrelated: CSP reoptimization"}
+{"id": "W1999590989", "keep": true, "why": "symmetric LP/SDP relaxations for CSPs"}
+{"id": "W1999705592", "keep": true, "why": "direct-product testers and 2-query PCPs"}
+{"id": "W1999877046", "keep": true, "why": "expansion profile, small-set expansion; unsure"}
+{"id": "W2000311286", "keep": false, "why": "unrelated: kernelization"}
+{"id": "W2000660986", "keep": false, "why": "unrelated: networking paradigm"}
+{"id": "W2000835972", "keep": true, "why": "L1 embedding lower bounds; sparsest-cut adjacent"}
+{"id": "W200149117", "keep": false, "why": "unrelated: gallery guarding"}
+{"id": "W2001878133", "keep": false, "why": "unrelated: rough sets"}
+{"id": "W2003159902", "keep": true, "why": "sub-constant error low-degree test and PCP"}
+{"id": "W2003530823", "keep": false, "why": "unrelated: shift design"}
+{"id": "W2003855912", "keep": false, "why": "unrelated: dominating set inapproximability"}
+{"id": "W2003866002", "keep": true, "why": "LP-based approximability of strict CSPs"}
+{"id": "W2003995429", "keep": false, "why": "unrelated: Kneser conjecture"}
+{"id": "W2004012902", "keep": true, "why": "multilayered PCP, hypergraph vertex cover"}
+{"id": "W2004216344", "keep": false, "why": "generic probability textbook"}
+{"id": "W2005090831", "keep": true, "why": "Boolean Fourier spectrum distribution"}
+{"id": "W2005722951", "keep": true, "why": "self-testing polynomial functions"}
+{"id": "W2006097271", "keep": false, "why": "unrelated: internet shopping"}
+{"id": "W2006469590", "keep": true, "why": "Ramanujan complexes; high-dimensional expanders"}
+{"id": "W2006906201", "keep": true, "why": "hardness of approximating proof length; unsure"}
+{"id": "W2007239493", "keep": true, "why": "Lovasz-Schrijver hierarchy nonapproximability"}
+{"id": "W2007385254", "keep": false, "why": "relaxations average-case; weak link"}
+{"id": "W2007997869", "keep": true, "why": "parallel repetition theorem (Raz)"}
+{"id": "W2008628501", "keep": false, "why": "unrelated: grid dominating sets"}
+{"id": "W2008724760", "keep": true, "why": "conditional hardness for satisfiable 3-CSPs"}
+{"id": "W2009411756", "keep": false, "why": "unrelated: set cover algorithms"}
+{"id": "W2009976411", "keep": true, "why": "(2+eps)-SAT hardness; unsure"}
+{"id": "W2010004564", "keep": false, "why": "unrelated: multiway cuts"}
+{"id": "W2010350688", "keep": false, "why": "unrelated: graph bisection heuristic"}
+{"id": "W2010511039", "keep": true, "why": "Grothendieck inequalities; UG-adjacent"}
+{"id": "W2010820875", "keep": false, "why": "unrelated: nearest neighbor lower bounds"}
+{"id": "W2010886177", "keep": true, "why": "PCP outer verifier, linear equations"}
+{"id": "W2010916800", "keep": false, "why": "unrelated: unique coverage"}
+{"id": "W2010961669", "keep": false, "why": "unrelated: Sidon sets"}
+{"id": "W2010996873", "keep": false, "why": "unrelated: unique coverage"}
+{"id": "W2012371405", "keep": false, "why": "unrelated: arborescences"}
+{"id": "W2012586162", "keep": false, "why": "unrelated: network design"}
+{"id": "W2012677277", "keep": false, "why": "percolation on expanders; weak link"}
+{"id": "W2012691563", "keep": false, "why": "unrelated: scheduling"}
+{"id": "W2012723916", "keep": true, "why": "derandomized parallel repetition via PCPs"}
+{"id": "W2013854554", "keep": false, "why": "unrelated: routing permutations"}
+{"id": "W2014323766", "keep": true, "why": "approximating Unique Games"}
+{"id": "W2014979132", "keep": false, "why": "unrelated: group Steiner"}
+{"id": "W2016511442", "keep": false, "why": "unrelated: covering games economics"}
+{"id": "W2017107620", "keep": false, "why": "unrelated: facility placement"}
+{"id": "W2017822593", "keep": false, "why": "unrelated: polygon guarding"}
+{"id": "W2018541722", "keep": false, "why": "unrelated: geometric hitting set"}
+{"id": "W2018582120", "keep": true, "why": "random 2-complexes; HDX-adjacent"}
+{"id": "W2018614265", "keep": true, "why": "Ramanujan geometries; high-dimensional expanders"}
+{"id": "W2018925011", "keep": true, "why": "robust polynomial characterizations; program testing"}
+{"id": "W2019216770", "keep": false, "why": "unrelated: k-set cover"}
+{"id": "W2019374631", "keep": false, "why": "unrelated: toric spines"}
+{"id": "W2019578639", "keep": true, "why": "probabilistic checking of proofs; PCP"}
+{"id": "W2019935404", "keep": false, "why": "intersection theorem; no games link"}
+{"id": "W2020400310", "keep": false, "why": "unrelated: buy-at-bulk"}
+{"id": "W2020632401", "keep": true, "why": "expander flows; sparsest-cut UG-adjacent"}
+{"id": "W2020877234", "keep": false, "why": "unrelated: chordal dominating set"}
+{"id": "W2021413381", "keep": true, "why": "combinatorial consistency lemma for PCP"}
+{"id": "W2022092881", "keep": false, "why": "unrelated: network design"}
+{"id": "W2022381972", "keep": true, "why": "locally testable codes and PCPs"}
+{"id": "W2022749269", "keep": false, "why": "Positivstellensatz proof lengths; weak link"}
+{"id": "W2023624817", "keep": false, "why": "unrelated: firefighter problem"}
+{"id": "W2024298276", "keep": false, "why": "unrelated: election approximation"}
+{"id": "W2025304499", "keep": false, "why": "unrelated: FPT transversal"}
+{"id": "W2026036943", "keep": false, "why": "PIT derandomization; no games link"}
+{"id": "W2026244324", "keep": false, "why": "unrelated: sublinear algorithms"}
+{"id": "W2026727471", "keep": false, "why": "unrelated: network construction"}
+{"id": "W2026753685", "keep": false, "why": "CSP complexity classification; no games link"}
+{"id": "W2027210158", "keep": true, "why": "hypergraph vertex cover hardness for scheduling"}
+{"id": "W2027384327", "keep": false, "why": "unrelated: independent domination"}
+{"id": "W2027606488", "keep": false, "why": "unrelated: regenerator placement"}
+{"id": "W2028146521", "keep": true, "why": "Khot paper on biased Boolean analysis; UG-related"}
+{"id": "W2029278215", "keep": false, "why": "unrelated: unit disk graphs"}
+{"id": "W2029859729", "keep": true, "why": "holographic proofs; PCP foundations"}
+{"id": "W2029933769", "keep": false, "why": "unrelated: vertex cover capacities"}
+{"id": "W2030279496", "keep": false, "why": "unrelated: geometric set cover APX"}
+{"id": "W2030970869", "keep": false, "why": "unrelated: vertex cover approximation"}
+{"id": "W2031552172", "keep": false, "why": "unrelated: connectivity augmentation"}
+{"id": "W2032336879", "keep": false, "why": "spectral local cuts; weak link"}
+{"id": "W2033361557", "keep": true, "why": "self-testing/correcting numerical problems"}
+{"id": "W2034019057", "keep": false, "why": "unrelated: power connectivity"}
+{"id": "W2034112563", "keep": false, "why": "unrelated: network design"}
+{"id": "W2034715615", "keep": false, "why": "generic approximation overview"}
+{"id": "W2036029948", "keep": false, "why": "generic approximation tutorial"}
+{"id": "W2036265926", "keep": false, "why": "unrelated: theorem-proving complexity"}
+{"id": "W2036322374", "keep": true, "why": "sparsest-cut integrality gaps; UG-adjacent"}
+{"id": "W2036921810", "keep": false, "why": "unrelated: rooted triplets"}
+{"id": "W2036930319", "keep": false, "why": "unrelated: weighted vs unweighted problems"}
+{"id": "W2037416519", "keep": false, "why": "unrelated: min power covers"}
+{"id": "W2037617114", "keep": false, "why": "unrelated: social contagion"}
+{"id": "W2037738950", "keep": false, "why": "unrelated: hitting set"}
+{"id": "W2037831381", "keep": false, "why": "unrelated: wireless LAN"}
+{"id": "W2038098381", "keep": false, "why": "unrelated: random walks transience"}
+{"id": "W2038225707", "keep": false, "why": "generic approximation classes"}
+{"id": "W2038521541", "keep": false, "why": "monotonicity testing on posets; weak link"}
+{"id": "W2039104910", "keep": false, "why": "unrelated: quantum Hamiltonians"}
+{"id": "W2039592987", "keep": true, "why": "higher-order Cheeger inequalities; spectral, unsure"}

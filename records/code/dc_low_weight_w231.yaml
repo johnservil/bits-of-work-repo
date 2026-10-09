@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_low_weight_w231"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge low-weight codeword n=1280, weight 231 found"
+instance_size: 1280
+instance_size_unit: "n"
+log2_ops: null
+method: "Lee-Brickell"
+structure_exploited: false
+hardware: null
+raw_compute: "runtime: ≈ 30 core-days"
+reported_core_years: 0.0821
+gpu_years: null
+wall_time_days: null
+date: "2019-08-25"
+solvers: ["Pierre Karpman"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/low-weight/record/10"
+other_urls: ["https://decodingchallenge.org/low-weight/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n / new min weight at submission date per hall of fame)"

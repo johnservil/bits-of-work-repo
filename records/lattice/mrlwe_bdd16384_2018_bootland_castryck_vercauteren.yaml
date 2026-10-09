@@ -1,0 +1,25 @@
+id: "mrlwe_bdd16384_2018_bootland_castryck_vercauteren"
+class: "lattice"
+problem: "LWE"
+instance: "multivariate Ring-LWE (m-RLWE) params claimed >2600-bit security; BDD in structured lattice dim 16384"
+instance_size: 16384
+instance_size_unit: "dim"
+log2_ops: null
+method: "reduction of m-RLWE to univariate RLWE via related cyclotomic roots, then lattice decoding"
+structure_exploited: true
+hardware: "128 cores (parallel variant)"
+raw_compute: "under two weeks, or a few hours parallelized on 128 cores"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2018-10"
+solvers: ["Carl Bootland", "Wouter Castryck", "Frederik Vercauteren"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2018/966"
+source_url: "https://eprint.iacr.org/2018/966"
+other_urls: []
+confidence: 0.7
+verified: false
+notes: "Structural break of a non-standard ring variant; the effective attacked lattice is far smaller than 16384. Not comparable to generic lattice records."

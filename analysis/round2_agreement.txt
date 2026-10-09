@@ -1,0 +1,14 @@
+pass-2 labels: 757; malformed/unknown: 0
+include transitions pass1->pass2:
+   yes        -> yes        375
+   no         -> no         212
+   borderline -> borderline 98
+   borderline -> no         33
+   borderline -> yes        24
+   yes        -> borderline 12
+   yes        -> no         2
+   no         -> borderline 1
+category agreement: 685/757 = 0.90
+binary include kappa: 0.89 (observed agreement 0.95)
+audit of pass-1 'no': 1/213 flipped to yes/borderline -> est. FN rate 0.005, implies ~10 missed items among 2131 excluded
+wrote data/phase1/round2/labeled_final.jsonl

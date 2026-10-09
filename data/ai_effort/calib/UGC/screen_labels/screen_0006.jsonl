@@ -1,0 +1,100 @@
+{"id": "W2081256580", "keep": true, "why": "noise sensitivity, percolation applications"}
+{"id": "W2081269763", "keep": false, "why": "index coding via SDP, applied"}
+{"id": "W2081469573", "keep": true, "why": "a note on unique games"}
+{"id": "W2081537403", "keep": true, "why": "approximation resistance, few accepting inputs"}
+{"id": "W2081684569", "keep": true, "why": "optimal SDP for Max-Cut, long code tests"}
+{"id": "W2082353536", "keep": false, "why": "tree metric approximation bound"}
+{"id": "W2083858754", "keep": true, "why": "Sherali-Adams integrality gaps"}
+{"id": "W2084950686", "keep": false, "why": "connectivity-preserving min cut"}
+{"id": "W2085312445", "keep": false, "why": "Konig subgraph problems"}
+{"id": "W2085352155", "keep": false, "why": "Nullstellensatz, semialgebraic geometry"}
+{"id": "W2085427851", "keep": true, "why": "SDP in combinatorial optimization survey"}
+{"id": "W2085573719", "keep": true, "why": "shadows and intersections, Grassmann-type"}
+{"id": "W2086419019", "keep": true, "why": "kernel clustering, Grothendieck inequalities"}
+{"id": "W2086653003", "keep": false, "why": "clique approximation, classic PCP"}
+{"id": "W2086904111", "keep": false, "why": "vertex cuts, random walks, series-parallel"}
+{"id": "W2087038607", "keep": true, "why": "optimal inapproximability, Max-Cut and 2-CSPs"}
+{"id": "W2087964954", "keep": true, "why": "linearity tests, PCP"}
+{"id": "W2088272899", "keep": true, "why": "semi-random coloring of k-colorable graphs"}
+{"id": "W2088742261", "keep": false, "why": "Erdos-Ko-Rado for vector spaces"}
+{"id": "W2088777464", "keep": true, "why": "parallel repetition, entangled projection games"}
+{"id": "W2088844265", "keep": true, "why": "expander flows, geometric embeddings"}
+{"id": "W2089105401", "keep": false, "why": "robust convex optimization"}
+{"id": "W2089135543", "keep": false, "why": "volume sampling subset selection"}
+{"id": "W2090863037", "keep": true, "why": "two-prover protocols"}
+{"id": "W2091004914", "keep": false, "why": "directed multicut approximation"}
+{"id": "W2091399525", "keep": true, "why": "L1 embedding lower bounds"}
+{"id": "W2091602684", "keep": false, "why": "PTAS ruling out, min-bisection"}
+{"id": "W2091694652", "keep": true, "why": "LP for width-1 CSPs, robust satisfaction"}
+{"id": "W2091885230", "keep": false, "why": "acyclic job shop scheduling"}
+{"id": "W2091921997", "keep": false, "why": "PCP amortized query complexity"}
+{"id": "W2092812429", "keep": true, "why": "Laplacian eigenvalues, Max-Cut"}
+{"id": "W2092871850", "keep": false, "why": "quantum one-way communication"}
+{"id": "W2093546055", "keep": true, "why": "Goemans-Williamson Max-Cut analysis"}
+{"id": "W2094135928", "keep": true, "why": "almost-satisfying assignments"}
+{"id": "W2094654291", "keep": true, "why": "Fourier analysis inequalities"}
+{"id": "W2094776848", "keep": true, "why": "variable influences, group symmetries"}
+{"id": "W2095145505", "keep": false, "why": "Kneser hypergraph chromatic number"}
+{"id": "W2095727035", "keep": true, "why": "approximation algorithms for unique games"}
+{"id": "W2095844287", "keep": false, "why": "games of incomplete information"}
+{"id": "W2095933180", "keep": true, "why": "approximation-resistant predicates, pairwise independence"}
+{"id": "W2096478102", "keep": true, "why": "hypergraph coloring hardness"}
+{"id": "W2096746450", "keep": false, "why": "finite metric spaces textbook"}
+{"id": "W2097098285", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2097334349", "keep": true, "why": "multi-way expansion constants"}
+{"id": "W2098180694", "keep": true, "why": "SDP optimality, generalized CSPs"}
+{"id": "W2098232509", "keep": false, "why": "facility location integrality gaps"}
+{"id": "W2098322943", "keep": false, "why": "cops and robbers, graph game"}
+{"id": "W2098350988", "keep": true, "why": "isoperimetric and spectral profile approximations"}
+{"id": "W2099022556", "keep": false, "why": "multilinear circuit lower bound"}
+{"id": "W2099103397", "keep": false, "why": "linear ordering cutting planes"}
+{"id": "W2099248542", "keep": true, "why": "direct product theorem"}
+{"id": "W2099278855", "keep": true, "why": "label cover reductions, CSP hardness"}
+{"id": "W2099299422", "keep": true, "why": "SDP applications survey"}
+{"id": "W2099614783", "keep": true, "why": "Max-2Lin, Max-3Lin hardness"}
+{"id": "W2099677042", "keep": true, "why": "optimal inapproximability, Max-Cut"}
+{"id": "W2099741732", "keep": false, "why": "independent component analysis"}
+{"id": "W2099767113", "keep": true, "why": "planted clique SoS lower bounds"}
+{"id": "W2100440346", "keep": false, "why": "geometric algorithms textbook"}
+{"id": "W2100685794", "keep": true, "why": "little Grothendieck problem, orthogonal groups"}
+{"id": "W2100780780", "keep": true, "why": "hypergraph coloring hardness"}
+{"id": "W2100856114", "keep": false, "why": "approximate zero-one law"}
+{"id": "W2101161615", "keep": true, "why": "non-signalling bipartite games"}
+{"id": "W2102107640", "keep": true, "why": "locally expanding hypergraphs, UGC"}
+{"id": "W2102450844", "keep": true, "why": "reoptimization of linear equations mod p"}
+{"id": "W2102898473", "keep": false, "why": "infection control by blocking nodes"}
+{"id": "W2103363383", "keep": false, "why": "unsplittable flow, packing"}
+{"id": "W2103539404", "keep": true, "why": "direct-product testers, 2-query PCPs"}
+{"id": "W2103614201", "keep": true, "why": "Ramanujan complexes, high-dimensional expanders"}
+{"id": "W2103649698", "keep": true, "why": "maximum acyclic subgraph inapproximability"}
+{"id": "W2103749128", "keep": true, "why": "influence of variables on Boolean functions"}
+{"id": "W2103877086", "keep": false, "why": "position auctions, economics"}
+{"id": "W2104005709", "keep": true, "why": "shared randomness, two-prover proofs"}
+{"id": "W2104254886", "keep": false, "why": "chromatic number hardness, Feige-Kilian"}
+{"id": "W2104727719", "keep": true, "why": "vertex cover LS hierarchy lower bounds"}
+{"id": "W2105103100", "keep": false, "why": "weighted NP optimization, logic"}
+{"id": "W2105105087", "keep": true, "why": "Max-Cut above Hastad threshold"}
+{"id": "W2106264302", "keep": true, "why": "cones of matrices, 0-1 optimization"}
+{"id": "W2106663623", "keep": false, "why": "Lipschitz extension, metric partitions"}
+{"id": "W2106860784", "keep": true, "why": "balanced separator approximation"}
+{"id": "W2106959995", "keep": false, "why": "multicut FPT"}
+{"id": "W2106984527", "keep": false, "why": "minimum set cover bounds"}
+{"id": "W2107052785", "keep": true, "why": "Lasserre lower bounds, k-CSPs"}
+{"id": "W2107077691", "keep": false, "why": "de Finetti theorems on graphs"}
+{"id": "W2107212520", "keep": true, "why": "SDP-based nearly-linear graph partitioning"}
+{"id": "W2107332892", "keep": false, "why": "graph algorithms for planning"}
+{"id": "W2107642065", "keep": true, "why": "multi-prover interactive proofs, Tsirelson inequalities"}
+{"id": "W2107809915", "keep": false, "why": "PCPs and codes, general"}
+{"id": "W2107881198", "keep": false, "why": "approximate min-cut max-flow theorem"}
+{"id": "W2108366453", "keep": false, "why": "human authentication, usability"}
+{"id": "W2108601082", "keep": false, "why": "k-ary tanglegrams"}
+{"id": "W2108633592", "keep": false, "why": "above-average CSP, parameterized"}
+{"id": "W2108684595", "keep": true, "why": "parallel repetition theorem"}
+{"id": "W2108900323", "keep": false, "why": "sets of integers, combinatorics"}
+{"id": "W2109039359", "keep": true, "why": "two-power proof systems, Max-2SAT, Max-DICUT"}
+{"id": "W2109154425", "keep": true, "why": "Max-Cut and smallest eigenvalue"}
+{"id": "W2109176946", "keep": false, "why": "random spanning trees generation"}
+{"id": "W2109437253", "keep": false, "why": "quantum de Finetti, local measurements"}
+{"id": "W2109579243", "keep": false, "why": "column-based matrix reconstruction"}
+{"id": "W2109853157", "keep": true, "why": "entanglement in multi-prover proofs"}
+{"id": "W2109865831", "keep": false, "why": "social event organization"}

@@ -1,0 +1,25 @@
+id: "svpc_d187_20260120_bai"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 187 (seed 0)"
+instance_size: 187
+instance_size_unit: "dim"
+log2_ops: null
+method: "GPU sieving (G6K-GPU-type)"
+structure_exploited: false
+hardware: "2x Xeon Platinum 8473C, 1TB RAM, 8x RTX 4090"
+raw_compute: "35.356 days wall, max sieving dim 157"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 35.356
+date: "2026-01-20"
+solvers: ["Shi Bai", "Yuanmi Chen", "Jiangxia Ge", "Yituo He", "Zhuo Huang", "Juanru Li", "Xiangxue Li", "Chao Sun", "Yu Yu"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Not a max-dimension progression entry. HoF: norm 3582, seed 0, approx factor 1.04132, algorithm tag 'Sieving'. Not a max-dimension record; included per dim>=186 rule. Team mixes academic and industry (China Telecom servers acknowledged)."

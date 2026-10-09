@@ -1,0 +1,100 @@
+{"id": "W100944330", "keep": true, "why": "spectral Laplacian bound; unclear link"}
+{"id": "W1028870867", "keep": true, "why": "SoS lower bound; planted clique"}
+{"id": "W110441439", "keep": true, "why": "balanced partitioning, SDP-type approximation"}
+{"id": "W119341521", "keep": false, "why": "LP hierarchy for set cover"}
+{"id": "W119421804", "keep": true, "why": "CSP approximability; possibly UG-related"}
+{"id": "W119774723", "keep": false, "why": "bisection parameterized complexity, unrelated"}
+{"id": "W122315002", "keep": true, "why": "SoS sparse vector recovery"}
+{"id": "W127486211", "keep": false, "why": "general LP textbook"}
+{"id": "W129224317", "keep": true, "why": "SDP/LP relaxation survey"}
+{"id": "W139165530", "keep": false, "why": "edge-disjoint paths hardness"}
+{"id": "W142429389", "keep": true, "why": "Max 2SAT approximation note"}
+{"id": "W147275668", "keep": false, "why": "graph isomorphism proof systems"}
+{"id": "W1480046334", "keep": true, "why": "Lovasz-Schrijver SDP hierarchy lower bounds"}
+{"id": "W1480663790", "keep": false, "why": "learning theory hardness"}
+{"id": "W1481458511", "keep": true, "why": "Khot UGC survey, inapproximability implications"}
+{"id": "W1483094817", "keep": false, "why": "general PCP, no games"}
+{"id": "W1483170929", "keep": false, "why": "zero-knowledge 2-prover protocols"}
+{"id": "W1483324665", "keep": true, "why": "Min-3Lin-Deletion hardness via games-style reduction"}
+{"id": "W1484551404", "keep": false, "why": "parameterized CSP algorithms"}
+{"id": "W1485936828", "keep": false, "why": "congestion routing hardness"}
+{"id": "W1485993952", "keep": true, "why": "Sherali-Adams CSP gaps; UG-adjacent"}
+{"id": "W1486063521", "keep": false, "why": "biology cover problem"}
+{"id": "W1486325209", "keep": true, "why": "slice Fourier basis; hypercube analysis"}
+{"id": "W1487406052", "keep": false, "why": "Chvatal-Gomory integrality gaps"}
+{"id": "W1489483588", "keep": false, "why": "LP inference in graphical models"}
+{"id": "W1491127810", "keep": true, "why": "no title; cannot judge"}
+{"id": "W1492366637", "keep": false, "why": "QP via SOCP, unrelated"}
+{"id": "W1495338626", "keep": true, "why": "signed-graph balancing; Max-2Lin-like"}
+{"id": "W1496789852", "keep": false, "why": "signed-graph spectral clustering"}
+{"id": "W1497086998", "keep": true, "why": "two-query PCP via projection games"}
+{"id": "W1497908086", "keep": true, "why": "k-fold Cheeger inequality; SSE-related"}
+{"id": "W1498051073", "keep": false, "why": "quantum interactive proofs"}
+{"id": "W1500791234", "keep": true, "why": "low-degree polynomial testing; PCP machinery"}
+{"id": "W1500846071", "keep": true, "why": "2-query codeword testing; near-perfect completeness"}
+{"id": "W1501644705", "keep": false, "why": "clique hardness, pre-games PCP"}
+{"id": "W1502009568", "keep": true, "why": "Max 2Lin hardness; games-type"}
+{"id": "W1502044142", "keep": false, "why": "PESP scheduling"}
+{"id": "W1502275094", "keep": false, "why": "CSP universal factor graphs"}
+{"id": "W1505739153", "keep": true, "why": "noise sensitivity; Fourier analysis"}
+{"id": "W1507028355", "keep": true, "why": "parallel repetition projection games"}
+{"id": "W1510455279", "keep": true, "why": "no title; cannot judge"}
+{"id": "W1511070007", "keep": true, "why": "unique games on expanders"}
+{"id": "W1511716344", "keep": true, "why": "two-prover one-round proof systems"}
+{"id": "W1512648280", "keep": true, "why": "Gaussian isoperimetry; hypercontractivity-adjacent"}
+{"id": "W1513264994", "keep": false, "why": "robust local testable codes, product codes"}
+{"id": "W1513663661", "keep": true, "why": "parallel repetition conjecture"}
+{"id": "W1514107797", "keep": false, "why": "random walks survey, generic"}
+{"id": "W1515924698", "keep": false, "why": "general PCP book"}
+{"id": "W1519520700", "keep": false, "why": "Steiner tree hardness"}
+{"id": "W1520111182", "keep": false, "why": "geometric approximation schemes survey"}
+{"id": "W1520452425", "keep": true, "why": "Fourier analysis textbook; boolean machinery"}
+{"id": "W1520555415", "keep": false, "why": "graph flattenability"}
+{"id": "W1521197246", "keep": true, "why": "SoS tensor PCA"}
+{"id": "W1521487341", "keep": true, "why": "Max 3CSP-q hardness"}
+{"id": "W1522673698", "keep": false, "why": "graph decomposition, combinatorics"}
+{"id": "W1523265685", "keep": true, "why": "survey of CO inapproximability"}
+{"id": "W1523797563", "keep": false, "why": "quadratic threshold CSPs, unrelated"}
+{"id": "W1524356573", "keep": false, "why": "vertex cover hardness, UGC consumer"}
+{"id": "W1527197079", "keep": false, "why": "complexity textbook"}
+{"id": "W1527658885", "keep": false, "why": "general PCP and approximation notes"}
+{"id": "W1528220564", "keep": true, "why": "Min 2SAT deletion hardness"}
+{"id": "W1529336994", "keep": false, "why": "selfish resource allocation"}
+{"id": "W1529556207", "keep": false, "why": "sharp thresholds monotone properties"}
+{"id": "W153015188", "keep": true, "why": "no title; cannot judge"}
+{"id": "W1533484093", "keep": false, "why": "GCD approximate optima"}
+{"id": "W153602290", "keep": true, "why": "local constraints in CO; CSP-ish"}
+{"id": "W1537274075", "keep": false, "why": "spanner hardness"}
+{"id": "W1539723571", "keep": true, "why": "4-colorable coloring hardness; conditional"}
+{"id": "W1540861457", "keep": true, "why": "Lasserre SDP rounding; graph partitioning"}
+{"id": "W1542154458", "keep": false, "why": "matching under preferences"}
+{"id": "W1543591046", "keep": true, "why": "odd cycle game parallel repetition"}
+{"id": "W1544239802", "keep": true, "why": "Boolean function analysis tutorial"}
+{"id": "W1545320387", "keep": false, "why": "zero-knowledge 2-prover protocol"}
+{"id": "W154567010", "keep": true, "why": "small set expansion conjecture"}
+{"id": "W1546304675", "keep": false, "why": "kernels for OCT, parameterized"}
+{"id": "W1547191523", "keep": true, "why": "non-uniform sparsest cut spectra"}
+{"id": "W1547371858", "keep": false, "why": "PIR and entangled provers"}
+{"id": "W1547393877", "keep": true, "why": "Grothendieck SDP rank constraint"}
+{"id": "W1549730993", "keep": false, "why": "Banach space handbook"}
+{"id": "W1549776389", "keep": false, "why": "H-colourability approximability distance"}
+{"id": "W1550811836", "keep": true, "why": "SDP gaps for densest k-subgraph"}
+{"id": "W1554183532", "keep": false, "why": "theta body duality"}
+{"id": "W1555528124", "keep": false, "why": "CSP extended formulation"}
+{"id": "W1555564770", "keep": false, "why": "matrix sampling"}
+{"id": "W1556276033", "keep": true, "why": "3-bit dictator testing"}
+{"id": "W1556662994", "keep": true, "why": "small-set expansion gap amplification"}
+{"id": "W1557841126", "keep": false, "why": "holographic proofs, PCP"}
+{"id": "W1558498035", "keep": false, "why": "directed Steiner trees"}
+{"id": "W1559492868", "keep": false, "why": "sharp thresholds, k-SAT"}
+{"id": "W1559562756", "keep": false, "why": "Erdos-Ko-Rado integer sequences"}
+{"id": "W1559911801", "keep": true, "why": "noise stability; Boolean Fourier-related"}
+{"id": "W1560551754", "keep": false, "why": "minor-excluded graph decomposition"}
+{"id": "W1561179201", "keep": false, "why": "tree metric approximation"}
+{"id": "W1561372264", "keep": true, "why": "Khot UGC paper"}
+{"id": "W156176439", "keep": true, "why": "geometric embeddings, graph partitioning"}
+{"id": "W1563577400", "keep": false, "why": "maximum subgraph approximation"}
+{"id": "W1564025554", "keep": false, "why": "Hastad PCP-based hardness, no games"}
+{"id": "W1567190796", "keep": true, "why": "Max DICUT approximation SDP"}
+{"id": "W1567271285", "keep": false, "why": "isoperimetric number of trees clustering"}
+{"id": "W1569176896", "keep": true, "why": "SDP gaps for 2-to-1 label cover"}

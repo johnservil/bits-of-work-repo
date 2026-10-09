@@ -1,0 +1,25 @@
+id: "ideal_apxsvp_d200_20130421_usatyuk"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge approx-SVP dim 200 (index 275)"
+instance_size: 200
+instance_size_unit: "dim"
+log2_ops: null
+method: "BKZ-7 with Schnorr pruning"
+structure_exploited: false
+hardware: "AMD Phenom 965"
+raw_compute: "375 s"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.0043
+date: "2013-04-21"
+solvers: ["Usatyuk Vasiliy"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (approx-SVP HoF)"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/alphasvphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "Ideal Lattice Challenge approx-SVP HoF: much looser norm bound (formula shown as image on site, not transcribed); a BKZ-quality short-vector record rather than an SVP solve. Record progression entry (new max dimension). HoF: cyclotomic index 275, seed 0, norm 21313, 'using ideal structure' = no."

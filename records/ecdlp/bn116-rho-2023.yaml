@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "bn116-rho-2023"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "116-bit prime-order Barreto-Naehrig curve"
+instance_size: 116
+instance_size_unit: "bits"
+log2_ops: null
+method: "parallel Pollard rho with skew Frobenius mapping"
+structure_exploited: true
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2023-07"
+solvers: ["Takuro Manabe", "Ken Ikuta", "Sho Joichi", "Hiromasa Miura", "Shota Kanzawa", "Yasuyuki Nogami", "Yuta Kodera", "Takuya Kusaka"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ICCE-Taiwan 2023 pp. 527-528, doi:10.1109/ICCE-Taiwan58799.2023.10226690"
+source_url: "https://api.openalex.org/works/doi:10.1109/ICCE-TAIWAN58799.2023.10226690"
+other_urls: []
+confidence: 0.4
+verified: false
+notes: "Abstract calls it a success report of a rho attack on a 116-bit BN ECDLP. Resources not found (2-page paper, closed access). Date is publication date. Would be largest prime-field ECDLP if confirmed."

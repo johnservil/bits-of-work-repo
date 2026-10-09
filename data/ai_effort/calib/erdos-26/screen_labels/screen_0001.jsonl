@@ -1,0 +1,10 @@
+{"id": "W4411001315", "keep": false, "why": "subshift thermodynamic formalism, unrelated"}
+{"id": "W4413355283", "keep": false, "why": "graphs without cycles mod 4, unrelated"}
+{"id": "W4413983877", "keep": true, "why": "Erdos inequality for primitive sets"}
+{"id": "W4414261623", "keep": true, "why": "additive basis, related sequence object"}
+{"id": "W4414688548", "keep": true, "why": "infinite sumset configurations problems"}
+{"id": "W63284382", "keep": true, "why": "sets without coprime pairs, Erdos-type"}
+{"id": "W7171618371", "keep": false, "why": "radical defect of a^n-b^n, unrelated"}
+{"id": "W745171820", "keep": true, "why": "Erdos sequences of positive integers"}
+{"id": "W874532184", "keep": true, "why": "random sequences of positive integers"}
+{"id": "seed:erdos-26-3", "keep": true, "why": "Erdos unconventional number theory problems"}

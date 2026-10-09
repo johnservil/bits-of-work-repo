@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "sect113r2-fpga-2016"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "sect113r2 (SECG binary curve over F_2^113)"
+instance_size: 112.0
+instance_size_unit: "bits"
+log2_ops: 56.29
+method: "parallel Pollard rho with negation map, Q-independent walks, DP = top 30 x-bits zero, FPGA"
+structure_exploited: false
+hardware: "up to 120 Spartan-6 XC6SLX150 FPGAs (RIVYERA), preliminary 2-core 100 MHz design"
+raw_compute: "about 48.1 days on up to 120 Spartan-6 FPGAs; 82,177,699 DPs (expected 59,473,682, 30.8 days)"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 48.1
+date: "2016-04"
+solvers: ["Daniel J. Bernstein", "Susanne Engels", "Tanja Lange", "Ruben Niederhagen", "Christof Paar", "Peter Schwabe", "Ralf Zimmermann"]
+academic: true
+challenge: null
+extrapolation: "FPGA cluster to break NIST K-163 in a year: plausibly under 2e9 USD (vs 10e9 USD in Wenger-Wolfger)"
+paper: "ePrint 2016/382"
+source_url: "https://cryptojedi.org/papers/sect113r2-20161212.pdf"
+other_urls: ["https://eprint.iacr.org/2016/382"]
+confidence: 0.85
+verified: false
+notes: "Prime order marginally larger than sect113r1's (~2^112). log2_ops = log2(82,177,699 * 2^30). Date = ePrint first version (2016-04-15); exact solve date not stated."

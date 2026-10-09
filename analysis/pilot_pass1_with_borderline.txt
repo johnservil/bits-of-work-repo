@@ -1,0 +1,12 @@
+labeled 4542; included 1295; effort categories (A-F,H) 1139; borderline counted: True
+
+class              fractional  touch  authors    pre-2006  2006-2016  2017-2026   categories
+ECDLP                   139.0    173      336        14.0       63.9       61.1   A:82 B:22 C:29 D:13 E:9 F:17 H:1
+MLWE_structured         244.3    399      559         4.5       63.0      176.8   A:181 B:33 C:109 D:57 E:7 F:6 H:6
+LWE_plain               183.1    329      497         0.4       40.2      142.5   A:196 B:30 C:31 D:53 E:6 F:6 H:7
+SD_code                 159.4    187      319         0.0       33.4      126.0   A:78 B:12 C:67 D:19 E:3 F:6 H:2
+Factoring_FFDLP         192.1    221      359         7.5      101.6       83.0   A:119 B:11 C:34 D:15 E:22 F:19 H:1
+Isogeny                  49.9     51      107         0.0        0.0       49.9   A:17 B:6 C:23 D:2 E:1 F:2
+Multivariate            111.5    122      176         8.0       31.4       72.1   A:46 C:55 D:17 F:2 H:2
+
+fractional per year (effort categories):

@@ -1,0 +1,29 @@
+track,length_n,weight,authors,algorithm,date,provider_or_seed,hardware,runtime,comments,site_log2_complexity,record_url
+q-c,102,10,"SeungJae Chae, JaeHo Jeong",-,2019-09-09,0 - Inria Paris,-,-,-,10.0,https://decodingchallenge.org/q-c/record/0
+q-c,146,12,Francesco Tinarelli,-,2019-09-09,0 - Inria Paris,-,-,-,12.0,https://decodingchallenge.org/q-c/record/1
+q-c,198,14,Francesco Tinarelli,-,2019-09-09,0 - Inria Paris,-,-,-,14.0,https://decodingchallenge.org/q-c/record/2
+q-c,258,16,Francesco Tinarelli,-,2019-09-10,0 - Inria Paris,-,-,-,16.0,https://decodingchallenge.org/q-c/record/3
+q-c,326,18,Francesco Tinarelli,-,2019-09-11,0 - Inria Paris,-,-,-,18.0,https://decodingchallenge.org/q-c/record/4
+q-c,402,20,Francesco Tinarelli,-,2019-09-13,0 - Inria Paris,-,-,-,20.0,https://decodingchallenge.org/q-c/record/5
+q-c,486,22,Francesco Tinarelli,-,2019-09-13,0 - Inria Paris,-,-,-,22.0,https://decodingchallenge.org/q-c/record/6
+q-c,578,24,Valentin Vasseur,Dumer,2019-09-16,2 - Université de Limoges,-,30 s,-,24.0,https://decodingchallenge.org/q-c/record/7
+q-c,678,26,Valentin Vasseur,Dumer,2019-09-16,1 - Université de Rennes 1,-,1 min 45 s,-,26.0,https://decodingchallenge.org/q-c/record/8
+q-c,786,28,Valentin Vasseur,Dumer,2019-09-16,1 - Université de Rennes 1,-,8 min,-,28.0,https://decodingchallenge.org/q-c/record/9
+q-c,902,30,Valentin Vasseur,Dumer,2019-09-16,2 - Université de Limoges,-,30 min,-,30.0,https://decodingchallenge.org/q-c/record/10
+q-c,1026,32,Valentin Vasseur,Dumer,2019-09-16,1 - Université de Rennes 1,-,43 min,-,32.0,https://decodingchallenge.org/q-c/record/11
+q-c,1158,34,Valentin Vasseur,Dumer,2019-09-16,2 - Université de Limoges,-,12 min 30 s,-,34.0,https://decodingchallenge.org/q-c/record/12
+q-c,1298,36,Valentin Vasseur,Dumer + DOOM,2019-09-18,1 - Université de Rennes 1,i7-6700K,60 min,-,36.0,https://decodingchallenge.org/q-c/record/13
+q-c,1446,38,Valentin Vasseur,Dumer + DOOM,2019-09-21,2 - Université de Limoges,Xeon E5-2695 v4,3 h,-,38.0,https://decodingchallenge.org/q-c/record/14
+q-c,1602,40,Valentin Vasseur,Dumer,2019-09-22,1 - Université de Rennes 1,Xeon E5-2695 v4,90 h,-,40.0,https://decodingchallenge.org/q-c/record/15
+q-c,1766,42,Valentin Vasseur,Dumer + DOOM,2019-10-26,2 - Université de Limoges,Xeon E5-2695 v4,1150 h,CPU time,42.0,https://decodingchallenge.org/q-c/record/16
+q-c,1938,44,Noémie Bossard,"Multiprocess Dumer4 by Landais, l = 25",2020-08-24,0 - Inria Paris,Intel XEON CPU E5-4650 - 2.6Ghz,6400 core days,-,44.0,https://decodingchallenge.org/q-c/record/17
+q-c,2118,46,"Andre Esser, Alexander May and Floyd Zweydinger",MMT variant + DOOM,2021-05-26,0 - Inria Paris,4* EPYC 7742,1h 3min,-,46.0,https://decodingchallenge.org/q-c/record/18
+q-c,2306,48,"Andre Esser, Alexander May and Floyd Zweydinger",MMT variant + DOOM,2021-05-27,0 - Inria Paris,4* EPYC 7742,5.5h (59 CPU days),Greetings from Bochum and TII,48.0,https://decodingchallenge.org/q-c/record/19
+q-c,2502,50,"Andre Esser, Alexander May and Floyd Zweydinger",MMT variant + DOOM,2021-05-27,0 - Inria Paris,4* EPYC 7742,7.3h (157.3 CPU Days),Greetings from Bochum and TII,50.0,https://decodingchallenge.org/q-c/record/20
+q-c,2706,52,"Andre Esser, Alexander May and Floyd Zweydinger",MMT variant + DOOM,2021-06-01,0 - Inria Paris,4* EPYC 7742,28h (605 CPU days),Greetings from Bochum and Abu Dhabi,52.0,https://decodingchallenge.org/q-c/record/22
+q-c,2918,54,"Andre Esser, Alexander May and Floyd Zweydinger",MMT variant + DOOM,2021-05-31,0 - Inria Paris,4* EPYC 7742,80h (1719 CPU days),Greetings from Bochum and Abu Dhabi,54.0,https://decodingchallenge.org/q-c/record/21
+q-c,3138,56,Andre Esser and Floyd Zweydinger,memory-optimized MMT + DOOM,2022-04-18,0 - Inria Paris,4 * EPYC 7742,38.31h (817 cpu days),Greetings from Bochum and Abu Dhabi,56.0,https://decodingchallenge.org/q-c/record/23
+q-c,3366,58,"Shintaro Narisada, Hiroki Okada, Shusaku Uemura, Yusuke Aikawa, Kazuhide Fukushima, and Shinsaku Kiyomoto","cuBJMM [eprint:2024/393] + DOOM for MMT/BJMM [eprint:2021/1634, Section 5.1]",2024-10-17,0 - Inria Paris,"10 desktop PCs (CPU: i9-13900 or i9-12900, GPU: RTX4080 or RTX3090)",9.27 days (expected runtime: 8.4 days for 10 desktop PCs),-,58.0,https://decodingchallenge.org/q-c/record/24
+q-c,3602,60,"Shintaro Narisada, Hiroki Okada, Shusaku Uemura, Yusuke Aikawa, Kazuhide Fukushima and Shinsaku Kiyomoto","cuBJMM [eprint:2024/393] + DOOM for MMT/BJMM [eprint:2021/1634, Section 5.1]",2025-01-06,0 - Inria Paris,"10 desktop PCs (CPU: i9-13900 or i9-12900, GPU: RTX4080 or RTX3090)",63.5 days (expected runtime: 31.9 days for 10 desktop PCs),-,60.0,https://decodingchallenge.org/q-c/record/25
+q-c,3846,62,"Shintaro Narisada, Hiroki Okada, Shusaku Uemura, Yusuke Aikawa, Kazuhide Fukushima and Shinsaku Kiyomoto","cuBJMM [eprint:2024/393] + DOOM for MMT/BJMM [eprint:2021/1634, Section 5.1]",2025-04-01,0 - Inria Paris,"10 desktop PCs (CPU: i9-13900 or i9-12900, GPU: RTX4080 or RTX3090)",66.2 days (expected runtime: 138.7 days for 10 desktop PCs),-,62.0,https://decodingchallenge.org/q-c/record/26
+q-c,4098,64,Markku-Juhani Saarinen,"""Crinoid"" codebase; in this instance: Threefold ring folding, GPU resident BJMM-DOOM with fast blockwise information set updates, multi-target QC rotations, and final exact full-ring lifting.",2026-09-30,2 - Université de Limoges,"24 NVIDIA GH200 GPUs across 8 GPU nodes of CSC’s ""Roihu"" system, operated by CSC – IT Center for Science, Finland.","1 hour, 1 minute, 22 seconds (wall-time) -- 24.5 GPU-hours.",-,64.0,https://decodingchallenge.org/q-c/record/27

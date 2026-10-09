@@ -1,0 +1,29 @@
+track,length_n,weight,authors,algorithm,date,provider_or_seed,hardware,runtime,comments,site_log2_complexity,record_url
+goppa,20,1,Aleksei Udovenko,-,2019-08-20,0 - Inria Paris,-,-,-,1.0,https://decodingchallenge.org/goppa/record/6
+goppa,48,1,Aleksei Udovenko,-,2019-08-20,0 - Inria Paris,-,-,-,2.0,https://decodingchallenge.org/goppa/record/7
+goppa,80,3,Julien Lavauzelle,Lee-Brickell,2019-08-13,0 - Inria Paris,Intel core i5 @ 1.60GHz,<1sec,-,5.0,https://decodingchallenge.org/goppa/record/5
+goppa,117,4,Julien Lavauzelle,Lee-Brickell,2019-08-13,0 - Inria Paris,Intel core i5 @ 1.60GHz,<1sec,-,7.0,https://decodingchallenge.org/goppa/record/3
+goppa,156,4,Julien Lavauzelle,Lee-Brickell,2019-08-13,0 - Inria Paris,Intel core i5 @ 1.60GHz,<1sec,-,9.0,https://decodingchallenge.org/goppa/record/2
+goppa,197,5,Julien Lavauzelle,Lee-Brickell,2019-08-13,0 - Inria Paris,Intel core i5 @ 1.60GHz,<1sec,-,11.0,https://decodingchallenge.org/goppa/record/1
+goppa,240,6,Julien Lavauzelle,Lee-Brickell,2019-08-13,0 - Inria Paris,Intel core i5 @ 1.60GHz,1sec,-,14.0,https://decodingchallenge.org/goppa/record/0
+goppa,286,7,Julien Lavauzelle,Lee-Brickell,2019-08-13,0 - Inria Paris,Intel core i5 @ 1.60GHz,5sec,-,16.0,https://decodingchallenge.org/goppa/record/4
+goppa,333,8,Francesco Tinarelli,-,2019-08-23,0 - Inria Paris,-,-,-,18.0,https://decodingchallenge.org/goppa/record/8
+goppa,381,9,Francesco Tinarelli,-,2019-08-24,0 - Inria Paris,-,-,-,20.0,https://decodingchallenge.org/goppa/record/9
+goppa,431,10,Francesco Tinarelli,-,2019-08-24,0 - Inria Paris,-,-,-,23.0,https://decodingchallenge.org/goppa/record/10
+goppa,482,11,Francesco Tinarelli,-,2019-08-24,0 - Inria Paris,-,-,-,27.0,https://decodingchallenge.org/goppa/record/11
+goppa,534,11,Francesco Tinarelli,-,2019-08-26,0 - Inria Paris,-,-,-,25.0,https://decodingchallenge.org/goppa/record/12
+goppa,587,12,P. Loidreau,dumer4 by G. Landais,2019-09-15,0 - Inria Paris,I7-2.3Ghz,40s,-,29.0,https://decodingchallenge.org/goppa/record/13
+goppa,640,13,P. Loidreau,dumer4 by G. Landais,2019-09-15,0 - Inria Paris,I7-2.3Ghz,40s,Theoretical work factor : 2^32 with parameters for Dumer p=4 and l = 8,32.0,https://decodingchallenge.org/goppa/record/14
+goppa,695,14,Valentin Vasseur,Dumer,2019-09-22,1 - Université de Rennes 1,i7-6700K,12 min,-,34.0,https://decodingchallenge.org/goppa/record/15
+goppa,751,16,Valentin Vasseur,Dumer,2019-11-06,2 - Université de Limoges,i7-6700K,120 min,-,36.0,https://decodingchallenge.org/goppa/record/16
+goppa,808,17,Valentin Vasseur,Dumer,2019-11-06,1 - Université de Rennes 1,i7-6700K,300 min,-,38.0,https://decodingchallenge.org/goppa/record/17
+goppa,865,18,Valentin Vasseur,Dumer,2019-11-06,2 - Université de Limoges,i7-6700K,100 min,-,43.0,https://decodingchallenge.org/goppa/record/18
+goppa,923,19,Valentin Vasseur,Dumer,2020-03-17,1 - Université de Rennes 1,i7-6700K,10 h,-,45.0,https://decodingchallenge.org/goppa/record/19
+goppa,982,20,Noémie Bossard,"Mutltithreaded Dumer4, Gregory Landais original implementation",2020-07-02,0 - Inria Paris,Intel XEON CPU E5-4650 - 2.6Ghz,4 hours,-,47.0,https://decodingchallenge.org/goppa/record/20
+goppa,1041,19,"Shintaro Narisada, Kazuhide Fukushima, and Shinsaku Kiyomoto",Dumer,2020-08-11,0 - Inria Paris,-,108 hours,-,45.0,https://decodingchallenge.org/goppa/record/21
+goppa,1101,21,Anders Nilson,"Multi threads Dumer4, Gregory Landais impl.",2020-08-14,0 - Inria Paris,Intel Xeon 8 cores CPU @ 2.00GHz,60 hours,"Greetings from Sweden, Scania!",50.0,https://decodingchallenge.org/goppa/record/22
+goppa,1161,22,"Shintaro Narisada, Kazuhide Fukushima, and Shinsaku Kiyomoto",Dumer,2021-01-10,0 - Inria Paris,-,375.8 hours,-,52.0,https://decodingchallenge.org/goppa/record/23
+goppa,1223,23,"Andre Esser, Alex May and Floyd Zweydinger",BJMM/MMT variant,2021-05-10,0 - Inria Paris,4* EPYC 7742,3 days,-,54.0,https://decodingchallenge.org/goppa/record/24
+goppa,1284,24,"Andre Esser, Alex May and Floyd Zweydinger",MMT variant,2021-08-16,0 - Inria Paris,4* EPYC 7742,8047 CPU Days,Greetings from Bochum and Abu Dhabi,56.0,https://decodingchallenge.org/goppa/record/25
+goppa,1347,25,"Daniel J. Bernstein, Tanja Lange, Christiane Peters",See https://isd.mceliece.org/1347.html for more information.,2023-02-24,1 - Université de Rennes 1,-,-,See https://isd.mceliece.org/1347.html for more information.,59.0,https://decodingchallenge.org/goppa/record/26
+goppa,1409,26,"Shintaro Narisada, Hiroki Furue, Yusuke Aikawa, Kazuhide Fukushima, and Shinsaku Kiyomoto",MMT variant,2023-11-13,0 - Inria Paris,-,30 hours,-,63.0,https://decodingchallenge.org/goppa/record/27

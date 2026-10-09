@@ -1,0 +1,100 @@
+{"id": "W1005731694", "keep": false, "why": "permutations without long progressions"}
+{"id": "W1150686645", "keep": true, "why": "sum-free sequences, additive combinatorics"}
+{"id": "W1419628688", "keep": true, "why": "Graham number theory problem"}
+{"id": "W148580239", "keep": true, "why": "integral bases, additive sequences"}
+{"id": "W1489006728", "keep": true, "why": "combinatorial number theory survey"}
+{"id": "W1526863665", "keep": false, "why": "Catalan equation, unrelated"}
+{"id": "W1537054460", "keep": true, "why": "additive bases density"}
+{"id": "W1544799042", "keep": true, "why": "number theory problems compendium"}
+{"id": "W1555475515", "keep": true, "why": "unsolved number theory problems"}
+{"id": "W1555768633", "keep": true, "why": "structural theory of set addition"}
+{"id": "W1561472112", "keep": false, "why": "prime factors of consecutive integers"}
+{"id": "W159613098", "keep": false, "why": "covering sets of integers"}
+{"id": "W1597834884", "keep": false, "why": "Peano arithmetic incompleteness"}
+{"id": "W1603225653", "keep": false, "why": "consecutive integer factorisation"}
+{"id": "W1606547675", "keep": true, "why": "special polynomials, relevant to f(x)"}
+{"id": "W1876197808", "keep": true, "why": "additive number theory book"}
+{"id": "W1878148766", "keep": false, "why": "zeta irrationality proof"}
+{"id": "W19324417", "keep": true, "why": "extremal density theorems for linear forms"}
+{"id": "W1963587264", "keep": true, "why": "Erdos conjecture, unclear"}
+{"id": "W1964335268", "keep": false, "why": "prime number graph"}
+{"id": "W1964445489", "keep": false, "why": "covering systems"}
+{"id": "W1965240615", "keep": false, "why": "aliquot sequences"}
+{"id": "W1965839947", "keep": false, "why": "cubic residues machine proof"}
+{"id": "W1965994418", "keep": false, "why": "trigonometric polynomials, analysis"}
+{"id": "W1967134880", "keep": false, "why": "permutation periodicity"}
+{"id": "W1967909233", "keep": true, "why": "additive number theory"}
+{"id": "W1970152983", "keep": true, "why": "generalized Sidon sets"}
+{"id": "W1970366772", "keep": false, "why": "ergodic Szemeredi, different object"}
+{"id": "W1972786864", "keep": false, "why": "table of series"}
+{"id": "W1972853075", "keep": false, "why": "factorial diophantine equation"}
+{"id": "W1972958674", "keep": false, "why": "primes and powers of two"}
+{"id": "W1978816967", "keep": false, "why": "covering sets, roots of unity"}
+{"id": "W1978976963", "keep": true, "why": "additive bases, nonbases"}
+{"id": "W1980033960", "keep": false, "why": "totient function"}
+{"id": "W1980338270", "keep": true, "why": "sums of two fourth powers, Sidon-type"}
+{"id": "W1981696777", "keep": false, "why": "Lefschetz and Sperner"}
+{"id": "W1983812624", "keep": true, "why": "ordered sums of group elements"}
+{"id": "W1986865672", "keep": false, "why": "Ramsey in plane, geometry"}
+{"id": "W1989548622", "keep": true, "why": "density of integer sequences"}
+{"id": "W1989630703", "keep": true, "why": "asymptotic nonbases, additive"}
+{"id": "W1991804572", "keep": false, "why": "prime power sums, unrelated"}
+{"id": "W1994803663", "keep": false, "why": "consecutive integers large primes"}
+{"id": "W1995296546", "keep": true, "why": "addition theorem, sumset tool"}
+{"id": "W1996285409", "keep": false, "why": "Hindman theorem, not about sum distinctness"}
+{"id": "W1999318585", "keep": false, "why": "cubic residue bounds"}
+{"id": "W1999426642", "keep": false, "why": "power residue bounds"}
+{"id": "W1999682169", "keep": true, "why": "recursively defined integer sets, unclear"}
+{"id": "W2002288087", "keep": false, "why": "primes in progression"}
+{"id": "W2004479099", "keep": true, "why": "intersection properties of integer subsets"}
+{"id": "W2008037211", "keep": true, "why": "multiplicative bases density"}
+{"id": "W2010717824", "keep": false, "why": "irrationality of infinite products"}
+{"id": "W2011033909", "keep": true, "why": "equal sums of like powers, Sidon-type"}
+{"id": "W2011125666", "keep": false, "why": "binary form representations"}
+{"id": "W2013576033", "keep": false, "why": "prime divisors count"}
+{"id": "W2014507113", "keep": false, "why": "prime factors of central binomials"}
+{"id": "W2014985855", "keep": true, "why": "sums of cubes, polynomial f(x)=x^3"}
+{"id": "W2015305877", "keep": false, "why": "distinct unit fractions"}
+{"id": "W2020173739", "keep": false, "why": "partitioning vector spaces"}
+{"id": "W2020272617", "keep": true, "why": "sums of distinct elements from set"}
+{"id": "W2021073476", "keep": true, "why": "Waring converse, representation as sums"}
+{"id": "W2023011716", "keep": true, "why": "sequences of integers, Erdos-type"}
+{"id": "W2023600080", "keep": false, "why": "no three-term progressions"}
+{"id": "W2030828770", "keep": false, "why": "van der Waerden partitions"}
+{"id": "W2034596135", "keep": true, "why": "primitive sequences, Erdos"}
+{"id": "W2038010519", "keep": false, "why": "van der Waerden numbers"}
+{"id": "W2039481459", "keep": true, "why": "reciprocal bases of integers"}
+{"id": "W2041727161", "keep": false, "why": "primes of form k2^n+1"}
+{"id": "W2043225947", "keep": true, "why": "Sidon sets as asymptotic bases"}
+{"id": "W204468088", "keep": true, "why": "unclear Springer monograph"}
+{"id": "W2045789201", "keep": true, "why": "addition theorem modulo p"}
+{"id": "W2052274976", "keep": true, "why": "sum sets of Sidon sets"}
+{"id": "W2052804318", "keep": false, "why": "elementary geometry combinatorics"}
+{"id": "W2053221842", "keep": false, "why": "distinct unit fractions"}
+{"id": "W2053637971", "keep": false, "why": "runs of residues"}
+{"id": "W2054140454", "keep": true, "why": "primitive sequences, Erdos"}
+{"id": "W2056371938", "keep": false, "why": "large prime factor numbers"}
+{"id": "W2059984909", "keep": false, "why": "Ramsey triangles in plane"}
+{"id": "W2065692742", "keep": true, "why": "sums of two cubes, polynomial sums"}
+{"id": "W2065880080", "keep": true, "why": "linear combinations of integer intervals"}
+{"id": "W2066637298", "keep": false, "why": "covering by congruence classes"}
+{"id": "W2068131989", "keep": true, "why": "bases for integer sets"}
+{"id": "W2069388296", "keep": true, "why": "polynomial Sidon sequence"}
+{"id": "W2071163682", "keep": false, "why": "progression-free sequences"}
+{"id": "W2071478109", "keep": true, "why": "sum sets of Sidon sets"}
+{"id": "W2073127444", "keep": false, "why": "factorial prime powers"}
+{"id": "W2073594241", "keep": false, "why": "Erdos-Straus-Schinzel problem"}
+{"id": "W2076244356", "keep": false, "why": "Boolean function values"}
+{"id": "W2079010831", "keep": true, "why": "Sidon basis"}
+{"id": "W2080123161", "keep": false, "why": "non-repetitive sequences"}
+{"id": "W2085477555", "keep": false, "why": "partitions with equal products, different object"}
+{"id": "W2086041665", "keep": true, "why": "differences of sets, Graham problem"}
+{"id": "W2087567316", "keep": false, "why": "finite set subsets, Sperner-type"}
+{"id": "W2088100739", "keep": false, "why": "signed reciprocal sums"}
+{"id": "W2088212677", "keep": false, "why": "ergodic Szemeredi theorem"}
+{"id": "W2088339746", "keep": false, "why": "complementary sets, Bracket function"}
+{"id": "W2090294545", "keep": false, "why": "Ramsey product theorem"}
+{"id": "W2093164441", "keep": false, "why": "harmonic series remark"}
+{"id": "W2095095818", "keep": false, "why": "Frobenius linear Diophantine bound"}
+{"id": "W2095689360", "keep": false, "why": "Ramsey original logic paper"}
+{"id": "W2097926077", "keep": false, "why": "binomial prime factorization"}

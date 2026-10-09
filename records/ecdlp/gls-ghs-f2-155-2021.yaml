@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "gls-ghs-f2-155-2021"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "GLS binary curve over F_2^155 = F_{(2^5)^31}, 115-bit prime subgroup; GHS descent to genus-32 hyperelliptic over F_2^5"
+instance_size: 114.76
+instance_size_unit: "bits"
+log2_ops: null
+method: "GHS Weil descent + hyperelliptic index calculus accelerated by GLS-induced Jacobian endomorphism (Magma 2.19)"
+structure_exploited: true
+hardware: "96 cores on 16 Core i7 machines + 32 cores on 2 Xeon E5 machines"
+raw_compute: "about 1035 CPU-days (relation search 1034.6, linear algebra 0.024)"
+reported_core_years: 2.83
+gpu_years: null
+wall_time_days: null
+date: "2021-05"
+solvers: ["Jesus-Javier Chi-Dominguez", "Francisco Rodriguez-Henriquez", "Benjamin Smith"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2021/676; arXiv:2106.09967"
+source_url: "https://ar5iv.labs.arxiv.org/html/2106.09967"
+other_urls: ["https://eprint.iacr.org/2021/676"]
+confidence: 0.8
+verified: false
+notes: "Weak-field (composite degree 155) instance; r=35153273567655620601556620437925421. Not relevant to prime-degree standardized curves."

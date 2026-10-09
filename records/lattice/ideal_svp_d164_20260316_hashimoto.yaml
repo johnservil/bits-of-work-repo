@@ -1,0 +1,25 @@
+id: "ideal_svp_d164_20260316_hashimoto"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge SVP dim 164 (index 249)"
+instance_size: 164
+instance_size_unit: "dim"
+log2_ops: null
+method: "AH-BKZ + G6K pump (max sieve dim 134)"
+structure_exploited: true
+hardware: "2x AMD EPYC 7643, 6x A100 80GB"
+raw_compute: "wall 22.17h; CPU 349.04h; GPU 22.14h; 917GiB peak"
+reported_core_years: 0.0398
+gpu_years: null
+wall_time_days: 0.924
+date: "2026-03-16"
+solvers: ["Renya Hashimoto", "Yuntao Wang", "Junji Shikata"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (SVP HoF)"
+extrapolation: null
+paper: "ePrint 2026/1876"
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/svphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php", "https://eprint.iacr.org/2026/1876"]
+confidence: 0.85
+verified: false
+notes: "Ideal Lattice Challenge (Plantard-Schneider): random ideal lattices from cyclotomic polynomials; SVP HoF threshold is a Gaussian-heuristic-based bound (formula shown as image on site), so this is approx-SVP near GH, not proven exact SVP. Not a max-dimension progression entry. HoF: cyclotomic index 249, seed 0, norm 3315, 'using ideal structure' = yes. Per-dimension norm record for dim 164 claimed by ePrint 2026/1876; not a max-dimension record."

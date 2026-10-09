@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "bn114-rho-2017"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "114-bit Barreto-Naehrig curve over prime field"
+instance_size: 114
+instance_size_unit: "bits"
+log2_ops: null
+method: "parallel Pollard rho using the BN sextic-twist (order-6) automorphism in the random walk, client-server"
+structure_exploited: true
+hardware: "about 2000 CPU cores (Okayama U., Kitakyushu, NICT StarBED)"
+raw_compute: "about 6 months on 2000 CPU cores"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 183
+date: "2017-08"
+solvers: ["Takuya Kusaka", "Sho Joichi", "Ken Ikuta", "Md. Al-Amin Khandaker", "Yasuyuki Nogami", "Satoshi Uehara", "Nariyoshi Yamai", "Sylvain Duquesne"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ICISC 2017, LNCS 10779 pp. 231-244, doi:10.1007/978-3-319-78556-1_13; HAL hal-01633653"
+source_url: "https://en.wikipedia.org/wiki/Discrete_logarithm_records"
+other_urls: ["https://isec.ec.okayama-u.ac.jp/home/news/2.html", "https://hal.archives-ouvertes.fr/hal-01633653", "https://isec.ec.okayama-u.ac.jp/home/posters/4.pdf"]
+confidence: 0.6
+verified: false
+notes: "This is a genuine ECDLP (rho on the curve group), not FF-DLP in the pairing target. ~1000 core-years if all 2000 cores busy 6 months (derived, not stated). Paper text not read (HAL/Springer blocked); figures from Wikipedia and abstract snippets. Announced ~2017-08-22/23."

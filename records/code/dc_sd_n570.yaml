@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_sd_n570"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge sd n=570 w=70"
+instance_size: 570
+instance_size_unit: "n"
+log2_ops: 60.0
+method: "MMT variant"
+structure_exploited: false
+hardware: null
+raw_compute: "runtime: 45.32 days"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 45.32
+date: "2023-04-17"
+solvers: ["Shintaro Narisada", "Kazuhide Fukushima", "Shinsaku Kiyomoto"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/syndrome/record/58"
+other_urls: ["https://decodingchallenge.org/syndrome/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; GPU MMT (\"Multiparallel MMT\", IEICE Trans. 2023) likely but hardware blank on record page."

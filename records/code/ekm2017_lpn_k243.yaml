@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "ekm2017_lpn_k243"
+class: "code"
+problem: "LPN"
+instance: "LPN k=243, tau=1/8"
+instance_size: 243
+instance_size_unit: "dim"
+log2_ops: null
+method: "Well-Pooled Gauss / ISD-based LPN solver with low memory (Esser-Kuebler-May)"
+structure_exploited: false
+hardware: "64 threads"
+raw_compute: "15 days on 64 threads"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 15.0
+date: "2017-02"
+solvers: ["Andre Esser", "Robert Kuebler", "Alexander May"]
+academic: true
+challenge: null
+extrapolation: "k=512, tau=1/8: ~97-bit classical / ~70-bit quantum with limited memory; tau=1/sqrt(k): 80-bit classical for k>=2048"
+paper: "2017/078"
+source_url: "https://eprint.iacr.org/2017/078"
+other_urls: []
+confidence: 0.8
+verified: false
+notes: "CRYPTO 2017. Method name \"Well-Pooled Gauss\" is from memory of the paper, not the abstract (abstract: Gaussian elimination extended with ISD techniques, optionally BKW hybrid). 64 threads x 15 days ~ 2.6 thread-years (derived)."

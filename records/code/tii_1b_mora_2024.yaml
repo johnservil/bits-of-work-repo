@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "tii_1b_mora_2024"
+class: "code"
+problem: "SD-Goppa"
+instance: "TII McEliece Track 1B key recovery, best = TII-68 (n=53, k=41, t=2, m=6); also 22-66"
+instance_size: 53
+instance_size_unit: "n"
+log2_ops: null
+method: "algebraic: matrix code of quadratic relations (Couvreur-Mora-Tillich 2023 / Mora 2023), Pfaffian modeling; FGOPT degree-2 hybrid for some"
+structure_exploited: true
+hardware: "Intel Xeon E7-4850 v3"
+raw_compute: "per-instance runtimes 3 s to 2 d 6 h (TII-66: 2 d 6 h); TII-68 runtime not listed"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2024-05"
+solvers: ["Rocco Mora"]
+academic: true
+challenge: "TII McEliece"
+extrapolation: null
+paper: null
+source_url: "https://www.herox.com/TIIMcElieceChallenges/leaderboard"
+other_urls: ["https://tii.ae/news/tii-mceliece-encryption-challenges-winners-announced", "https://raw.githubusercontent.com/ElenaKirshanova/tii_decoding_challenge/main/key_rec_instances"]
+confidence: 0.7
+verified: false
+notes: "Solved before the 2024-05-08 deadline (exact dates not shown). Mora won the Track 1A (theory) prize. TII label = round(bitcomplexity) from the organizers' key_rec_instances file (a brute-force/support-splitting estimate, disputed by Bernstein 2023 and the 2026 papers); labels are not security levels."

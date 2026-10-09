@@ -1,0 +1,1 @@
+{"id": "seed:erdos-152-1", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Erdos-Sarkozy-Sos paper on sum sets of Sidon sets, the source of this problem"}

@@ -1,0 +1,87 @@
+{"id": "W39515261", "keep": true, "why": "maximal sets without pairwise coprime integers"}
+{"id": "W4200165642", "keep": false, "why": "triangle-free graphs, unrelated"}
+{"id": "W4205533240", "keep": false, "why": "ultrafilters Ramsey theorems, unrelated"}
+{"id": "W4205910638", "keep": false, "why": "Riemann hypothesis claim, unrelated"}
+{"id": "W4207003154", "keep": false, "why": "pseudorandom hypergraphs, unrelated"}
+{"id": "W4210366657", "keep": false, "why": "network edge connectivity, unrelated"}
+{"id": "W4211214111", "keep": true, "why": "sequences of integers book"}
+{"id": "W4211230108", "keep": true, "why": "additive number theory book"}
+{"id": "W4212884688", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "W4212934326", "keep": true, "why": "unclear title, possibly number theory"}
+{"id": "W4214648228", "keep": false, "why": "prime gap demonstration, different object"}
+{"id": "W4214661660", "keep": false, "why": "prime gap demonstration, different object"}
+{"id": "W4225256755", "keep": false, "why": "unicyclic cubic graphs, unrelated"}
+{"id": "W4231447687", "keep": true, "why": "unclear introduction, problem book"}
+{"id": "W4234963553", "keep": true, "why": "additive completion of integer sets"}
+{"id": "W4236705909", "keep": true, "why": "unclear introduction, possibly related"}
+{"id": "W4237114318", "keep": false, "why": "cycle parities and chromatic number, unrelated"}
+{"id": "W4241085666", "keep": true, "why": "Graham conjecture, related"}
+{"id": "W4242421343", "keep": true, "why": "covering systems, neighboring topic"}
+{"id": "W4244591610", "keep": true, "why": "sums and products of real sets"}
+{"id": "W4244686257", "keep": true, "why": "divisibility properties of integer sequences"}
+{"id": "W4245912398", "keep": true, "why": "Hanani question, additive number theory"}
+{"id": "W4246611826", "keep": false, "why": "graph families from equations, unrelated"}
+{"id": "W4248282558", "keep": false, "why": "Ramsey-type hypercube result, unrelated"}
+{"id": "W4251424537", "keep": false, "why": "lattice point problems, different object"}
+{"id": "W4253784147", "keep": true, "why": "Graham conjecture on gcds"}
+{"id": "W4254284286", "keep": true, "why": "B2 sequences, additive"}
+{"id": "W4297494759", "keep": false, "why": "Erdos-Hajnal odd cycles, unrelated"}
+{"id": "W4304080595", "keep": false, "why": "Erdos-Gyarfas P8-free graphs, unrelated"}
+{"id": "W4313365414", "keep": false, "why": "K4-free sparse halves, unrelated"}
+{"id": "W4313813773", "keep": false, "why": "4-cycle extremal results, unrelated"}
+{"id": "W4367663126", "keep": false, "why": "secure subgraph counting, unrelated"}
+{"id": "W4376878199", "keep": true, "why": "infinite sumsets in dense sets"}
+{"id": "W4381382709", "keep": false, "why": "triangle-free spectrum, unrelated"}
+{"id": "W4386395004", "keep": false, "why": "graphs with k subgraph copies, unrelated"}
+{"id": "W4386984735", "keep": true, "why": "covering sumsets, related"}
+{"id": "W4387447929", "keep": false, "why": "partitions of triangle-free graphs, unrelated"}
+{"id": "W4389964398", "keep": false, "why": "rainbow subdivisions, unrelated"}
+{"id": "W4390105475", "keep": true, "why": "Sidon sets in finite settings, related"}
+{"id": "W4391170001", "keep": false, "why": "consecutive even cycles, unrelated"}
+{"id": "W4391428404", "keep": true, "why": "untitled record, unclear"}
+{"id": "W4391428481", "keep": false, "why": "alternating series of primes, different object"}
+{"id": "W4392641268", "keep": false, "why": "Ramsey history, unrelated"}
+{"id": "W4393034755", "keep": false, "why": "anti-Ramsey threshold, unrelated"}
+{"id": "W4396523507", "keep": true, "why": "integers as basis of order 2"}
+{"id": "W4398240880", "keep": true, "why": "Erdos covering systems"}
+{"id": "W4399991262", "keep": false, "why": "unit distance graph search, unrelated"}
+{"id": "W4400935775", "keep": false, "why": "Erdos-Gyarfas P10-free graphs, unrelated"}
+{"id": "W4401210516", "keep": true, "why": "untitled record, unclear"}
+{"id": "W4401210571", "keep": true, "why": "Erdos B+B+t sumset conjecture"}
+{"id": "W4402258857", "keep": true, "why": "basis of order 2, additive"}
+{"id": "W4404188127", "keep": true, "why": "unrestricted sumsets in dense sets"}
+{"id": "W4405886106", "keep": false, "why": "hypercube Turan density, unrelated"}
+{"id": "W4406635662", "keep": true, "why": "garbled title, unclear"}
+{"id": "W4406810291", "keep": false, "why": "product sets in groups, different object"}
+{"id": "W4408552919", "keep": true, "why": "big sets combinatorial properties, unclear"}
+{"id": "W4408890370", "keep": false, "why": "Erdos rich distances, different object"}
+{"id": "W4412545354", "keep": false, "why": "odd cycles minimum degree, unrelated"}
+{"id": "W4414487897", "keep": true, "why": "finite sums theorem in dense sets"}
+{"id": "W4414688548", "keep": true, "why": "infinite sumset configurations"}
+{"id": "W4415622048", "keep": false, "why": "planar point patterns, unrelated"}
+{"id": "W4416142823", "keep": false, "why": "interpoint distance multiplicities, different object"}
+{"id": "W45561327", "keep": true, "why": "sets of integers with properties"}
+{"id": "W51500770", "keep": true, "why": "ultrafilters and combinatorial NT"}
+{"id": "W626759026", "keep": true, "why": "probabilistic number theory book"}
+{"id": "W63284382", "keep": true, "why": "extremal sets without coprimes"}
+{"id": "W658849301", "keep": false, "why": "general combinatorics, unrelated"}
+{"id": "W7125690810", "keep": true, "why": "Erdos remark, unclear"}
+{"id": "W7136250252", "keep": true, "why": "arithmetic progressions, related"}
+{"id": "W7150942801", "keep": false, "why": "hypergraph channels, unrelated"}
+{"id": "W7162557392", "keep": false, "why": "extremal combinatorics, unrelated"}
+{"id": "W79169851", "keep": false, "why": "regularity lemma, unrelated"}
+{"id": "W79326132", "keep": true, "why": "exactly covering systems, related"}
+{"id": "W874532184", "keep": true, "why": "additive properties of random integers"}
+{"id": "W915366989", "keep": true, "why": "Erdos-Stein problem, related"}
+{"id": "W91574864", "keep": true, "why": "sets with pairwise common divisor"}
+{"id": "W93140271", "keep": true, "why": "extremal problems in NT and combinatorics"}
+{"id": "W961253956", "keep": false, "why": "diophantine approximation, unrelated"}
+{"id": "W971488519", "keep": true, "why": "Erdos-Heilbronn sumset conjecture"}
+{"id": "W975749681", "keep": true, "why": "zero-free subset sums, related"}
+{"id": "W986937197", "keep": false, "why": "primes in intervals, different object"}
+{"id": "W996473569", "keep": true, "why": "Erdos-Moser problem, unclear"}
+{"id": "seed:erdos-1-12", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "seed:erdos-12-12", "keep": true, "why": "Erdos-Sarkozy sequences"}
+{"id": "seed:erdos-12-13", "keep": true, "why": "Erdos-Sarkozy problem"}
+{"id": "seed:erdos-12-14", "keep": true, "why": "P-sets, unclear"}
+{"id": "seed:erdos-7-11", "keep": true, "why": "number theory problems"}

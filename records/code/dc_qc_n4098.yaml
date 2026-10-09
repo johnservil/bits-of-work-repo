@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_qc_n4098"
+class: "code"
+problem: "SD-QC"
+instance: "decodingchallenge qc n=4098 w=64"
+instance_size: 4098
+instance_size_unit: "n"
+log2_ops: 64.0
+method: "\"Crinoid\" codebase: threefold ring folding, GPU BJMM + DOOM, multi-target QC rotations, full-ring lifting"
+structure_exploited: true
+hardware: "24 NVIDIA GH200 GPUs across 8 GPU nodes of CSC’s \"Roihu\" system, operated by CSC – IT Center for Science, Finland."
+raw_compute: "runtime: 1 hour, 1 minute, 22 seconds (wall-time) -- 24.5 GPU-hours.; hardware: 24 NVIDIA GH200 GPUs across 8 GPU nodes of CSC’s \"Roihu\" system, operated by CSC – IT Center for Science, Finland."
+reported_core_years: null
+gpu_years: 0.002795
+wall_time_days: 0.04261574074074074
+date: "2026-09-30"
+solvers: ["Markku-Juhani Saarinen"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/q-c/record/27"
+other_urls: ["https://decodingchallenge.org/q-c/halloffame"]
+confidence: 0.75
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 2 - Université de Limoges; DOOM/QC structure exploited; very recent (5 days before harvest); no paper located. Submitter affiliation inferred (Tampere Univ., per his tii-solved repo). Ring folding exploits QC structure."

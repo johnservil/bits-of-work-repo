@@ -1,0 +1,100 @@
+{"id": "W2399199715", "keep": true, "why": "parallel repetition of fortified games"}
+{"id": "W2399614914", "keep": false, "why": "streaming graph partitioning, random graphs"}
+{"id": "W2400082414", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2400360167", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2400566638", "keep": false, "why": "depth irreducibility hypothesis, complexity"}
+{"id": "W2401610261", "keep": false, "why": "Karp reducibility, classic"}
+{"id": "W2402915626", "keep": true, "why": "spectral algorithms for unique games"}
+{"id": "W2402972486", "keep": false, "why": "feedback vertex set inapproximability"}
+{"id": "W2403039919", "keep": false, "why": "truth vs proof, complexity essay"}
+{"id": "W2403580050", "keep": true, "why": "candidate Lasserre gap for unique games"}
+{"id": "W2403620996", "keep": true, "why": "strong parallel repetition, projection games"}
+{"id": "W2404334769", "keep": true, "why": "semi-algebraic hierarchies survey"}
+{"id": "W2404972755", "keep": true, "why": "hypergraph coloring hardness, long codes"}
+{"id": "W2405285952", "keep": true, "why": "approximation resistance, pairwise-independent subgroups"}
+{"id": "W2405388088", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2405977959", "keep": true, "why": "CSP approximation via LP relaxation"}
+{"id": "W2406262866", "keep": false, "why": "cooperative matching games stabilization"}
+{"id": "W2406433465", "keep": true, "why": "graph expansion certification, generalized spectra"}
+{"id": "W2407435835", "keep": false, "why": "Baker's technique, approximation schemes"}
+{"id": "W2409117471", "keep": true, "why": "candidate hard unique game"}
+{"id": "W2411124016", "keep": true, "why": "nonconvex optimization, SoS survey"}
+{"id": "W2411816729", "keep": true, "why": "Sherali-Adams for valued CSPs"}
+{"id": "W2412595538", "keep": true, "why": "guest column, unclear"}
+{"id": "W2417259519", "keep": false, "why": "leak detection, water networks"}
+{"id": "W2419411713", "keep": true, "why": "complexity theory column, unclear"}
+{"id": "W2424274037", "keep": false, "why": "makespan over scenarios"}
+{"id": "W2443199731", "keep": false, "why": "treewidth inapproximability"}
+{"id": "W2461430093", "keep": true, "why": "birthday repetition, dense CSPs"}
+{"id": "W2464352699", "keep": true, "why": "SDP gaps extended to Sherali-Adams"}
+{"id": "W2465116632", "keep": false, "why": "sparse PCA approximability"}
+{"id": "W2469409447", "keep": false, "why": "partition functions, variational inference"}
+{"id": "W2469815617", "keep": false, "why": "minimum fill-in inapproximability"}
+{"id": "W2471129545", "keep": false, "why": "FPT cut problems, contractions"}
+{"id": "W2476964379", "keep": false, "why": "connection Laplacian noise robustness"}
+{"id": "W2480243731", "keep": false, "why": "distributed graph clustering"}
+{"id": "W2486916127", "keep": false, "why": "P vs NP essay"}
+{"id": "W2490668581", "keep": true, "why": "sparsest k-partitioning approximation"}
+{"id": "W2499382624", "keep": true, "why": "untitled proof excerpt; cannot judge"}
+{"id": "W2503553525", "keep": true, "why": "non-interactive simulation of distributions"}
+{"id": "W2504806216", "keep": false, "why": "low-rank SDP theory"}
+{"id": "W2506301897", "keep": true, "why": "LS hierarchy approximation lower bounds"}
+{"id": "W2508479078", "keep": false, "why": "1D macroscopic entanglement"}
+{"id": "W2511322911", "keep": true, "why": "integrality gaps, LP and SDP relaxations"}
+{"id": "W2513909143", "keep": false, "why": "Bayesian approximation estimators"}
+{"id": "W2517212374", "keep": true, "why": "extremal Gaussian Brunn-Minkowski"}
+{"id": "W2517888387", "keep": false, "why": "proof verification lectures, general"}
+{"id": "W2519488296", "keep": true, "why": "testing CSP assignments"}
+{"id": "W2520836573", "keep": true, "why": "high-dimensional random walks, colorful expansion"}
+{"id": "W2521628013", "keep": false, "why": "collective item selection, social choice"}
+{"id": "W2522512940", "keep": true, "why": "inapproximability reductions and integrality gaps"}
+{"id": "W2523000601", "keep": false, "why": "statistical limits of convex relaxations"}
+{"id": "W2523820336", "keep": false, "why": "convex relaxations, graph inverse problems"}
+{"id": "W252430411", "keep": false, "why": "combinatorial optimization thesis"}
+{"id": "W2525416008", "keep": false, "why": "max edge q-coloring"}
+{"id": "W2526840193", "keep": true, "why": "2-CatSP approximation"}
+{"id": "W2529851164", "keep": false, "why": "hierarchical clustering, sparsest cut"}
+{"id": "W2529974411", "keep": true, "why": "juntas and LP relaxations of CSPs"}
+{"id": "W2530399420", "keep": false, "why": "correlation decay, CSP tractability"}
+{"id": "W2531021157", "keep": false, "why": "relational structures graphs"}
+{"id": "W2534717833", "keep": true, "why": "approximate CSP needs large LP relaxations"}
+{"id": "W2537901922", "keep": true, "why": "0.8776 max bisection, bias"}
+{"id": "W2541328924", "keep": true, "why": "max k-uncut approximation and hardness"}
+{"id": "W2550164695", "keep": false, "why": "locally decodable codes, distance amplification"}
+{"id": "W2551645677", "keep": false, "why": "broadcast network optimization"}
+{"id": "W2552383377", "keep": false, "why": "densest k-subgraph ETH-hardness"}
+{"id": "W2554413858", "keep": true, "why": "multicut and sparsest-cut"}
+{"id": "W2555329167", "keep": true, "why": "graph partitions progress, open problems"}
+{"id": "W2558057826", "keep": true, "why": "little Grothendieck problem, orthogonal groups"}
+{"id": "W2558474213", "keep": true, "why": "digraph ordering approximability"}
+{"id": "W2560316516", "keep": true, "why": "SDP limits for general-valued CSPs"}
+{"id": "W2561746749", "keep": false, "why": "polynomial optimization topics"}
+{"id": "W2562116537", "keep": false, "why": "spectral tensor completion"}
+{"id": "W2563803511", "keep": false, "why": "quantum proof systems studies"}
+{"id": "W2564351170", "keep": true, "why": "higher-order eigenvalues, random walks"}
+{"id": "W2564903776", "keep": true, "why": "Reed-Muller multiplication tests"}
+{"id": "W2566335580", "keep": true, "why": "cones of matrices, 0-1 optimization"}
+{"id": "W2567976503", "keep": false, "why": "approximate kernel clustering"}
+{"id": "W2568156592", "keep": true, "why": "quantum multi-prover proofs, limited entanglement"}
+{"id": "W2568310503", "keep": false, "why": "recoverable values, independent sets"}
+{"id": "W2568404849", "keep": false, "why": "PRGs for polynomial threshold functions"}
+{"id": "W256842657", "keep": false, "why": "treewidth inapproximability"}
+{"id": "W2569051899", "keep": false, "why": "matroid compression, odd cycle transversal"}
+{"id": "W2569308491", "keep": true, "why": "SDP limits, entangled games"}
+{"id": "W2569646339", "keep": false, "why": "directed subgraph homeomorphism"}
+{"id": "W2569769046", "keep": true, "why": "hypercontractivity via SoS, Frankl-Rodl graph"}
+{"id": "W2570081448", "keep": false, "why": "half-integrality, FPT algorithms"}
+{"id": "W2570910249", "keep": true, "why": "parallel repetition, entangled projection games"}
+{"id": "W2571658045", "keep": true, "why": "SoS lower bounds, symmetric formulations"}
+{"id": "W2571875616", "keep": false, "why": "hardness assumptions lecture, general"}
+{"id": "W2572894540", "keep": true, "why": "width of semialgebraic proofs"}
+{"id": "W2574497079", "keep": true, "why": "SoS lower bounds refuting CSPs"}
+{"id": "W2576456765", "keep": true, "why": "gap 3SAT to polynomial-gap label cover"}
+{"id": "W2577272859", "keep": false, "why": "column subset selection, NP-complete"}
+{"id": "W2578576649", "keep": false, "why": "resolution space and depth"}
+{"id": "W2578970632", "keep": false, "why": "promise CSP dichotomy"}
+{"id": "W2579583840", "keep": true, "why": "2-to-2 games, Grassmann graphs"}
+{"id": "W2581091247", "keep": true, "why": "entanglement, SoS, log rank"}
+{"id": "W2583426397", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2583499038", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2584410634", "keep": false, "why": "Heisenberg group perimeter inequalities"}

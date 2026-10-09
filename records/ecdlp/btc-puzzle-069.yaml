@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "btc-puzzle-069"
+class: "ecdlp"
+problem: "interval-ECDLP"
+instance: "secp256k1 key in [2^68, 2^69), address only (Bitcoin puzzle #69)"
+instance_size: 68
+instance_size_unit: "bits"
+log2_ops: null
+method: "brute force + hash160"
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2025-04-30"
+solvers: null
+academic: false
+challenge: "Bitcoin puzzle #69"
+extrapolation: null
+paper: null
+source_url: "https://raw.githubusercontent.com/agntn/puzzles/main/src/collections/bits/69.ts"
+other_urls: ["https://privatekeys.pw/puzzles/bitcoin-puzzle-tx", "https://bitcointalk.org/index.php?topic=5218972"]
+confidence: 0.6
+verified: false
+notes: "Not an ECDLP algorithm: pubkey unknown until spend, so key found by scanning scalars and matching hash160. Date = claim tx. Resources not published. Key near start of range; public broadcast was front-run by bots."

@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_sd_n170"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge sd n=170 w=23"
+instance_size: 170
+instance_size_unit: "n"
+log2_ops: 18.0
+method: "Prange"
+structure_exploited: false
+hardware: null
+raw_compute: "runtime: 100s"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.0011574074074074073
+date: "2019-07-22"
+solvers: ["Matthieu Lequesne"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/syndrome/record/16"
+other_urls: ["https://decodingchallenge.org/syndrome/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; solver is a challenge organizer"

@@ -1,0 +1,40 @@
+{"id": "W168622649", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "fast graph partitioning algorithms"}
+{"id": "W1706415889", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "journal issue listing, no content"}
+{"id": "W1711896017", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "non-commutative Grothendieck hardness"}
+{"id": "W171586158", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "sparsest cut gap on hypercube quotients"}
+{"id": "W172910906", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "limits of LP/SDP, UG not central"}
+{"id": "W1736437624", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonuniform partitioning"}
+{"id": "W1754192177", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "CSPs with cardinality constraints via hierarchies"}
+{"id": "W1756950477", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "MAX CUT rounding"}
+{"id": "W176777629", "include": "yes", "category": "G", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "connections between unique games and multicut"}
+{"id": "W1777198852", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonuniform partitioning"}
+{"id": "W1780923853", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "maximal inequality on hypercube"}
+{"id": "W1782308010", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SDP hierarchy convergence"}
+{"id": "W1783801419", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "non-signaling parallel repetition"}
+{"id": "W1784842728", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled binary games"}
+{"id": "W1805129013", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "survey linking Max-Cut, UGC and hypercontractivity"}
+{"id": "W1814356831", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "disperser gaps"}
+{"id": "W1818659651", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "ARV rounding on small-set expanders and low threshold rank graphs"}
+{"id": "W182447659", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "local algorithm for small sparse cuts"}
+{"id": "W1830761905", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Markov chain methods for small-set expansion"}
+{"id": "W1846376331", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Khinchine-Kahane inequality"}
+{"id": "W1849808149", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bipartiteness ratio"}
+{"id": "W185450694", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "graph partitioning via SDP hierarchies, includes UG-related algorithms"}
+{"id": "W1859301526", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS lower bounds hidden clique"}
+{"id": "W1859357731", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for hypergraph vertex cover"}
+{"id": "W1862733102", "include": "yes", "category": "S", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "thesis on expansion problems including SSE and UG"}
+{"id": "W186443161", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "new approximation algorithms for unique games"}
+{"id": "W1868897294", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "quadratic program hardness"}
+{"id": "W1878867950", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Cheeger on domains"}
+{"id": "W1879643999", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "free projection game repetition"}
+{"id": "W1885038349", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "tensor decomposition SoS"}
+{"id": "W1886138972", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "Lasserre rounding with higher eigenvalues, UG-style algorithms"}
+{"id": "W1886650756", "include": "borderline", "category": "F", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "SoS hypercontractivity on Frankl-Rodl graph, UG integrality gap context"}
+{"id": "W1886734694", "include": "borderline", "category": "G", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "NP-hardness for 2-to-1 label cover, related to 2-to-1 conjecture"}
+{"id": "W1887937548", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "simultaneous CSP approximation"}
+{"id": "W1889872997", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "1994 approximation open problems"}
+{"id": "W1891181203", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Boolean function analysis textbook"}
+{"id": "W1903246862", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled proof systems"}
+{"id": "W1905335549", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "slice invariance principle, no stated UG link"}
+{"id": "W1907149228", "include": "borderline", "category": "G", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "testing small set expansion"}
+{"id": "W1910263251", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "improved small-set expansion algorithm from higher eigenvalues"}

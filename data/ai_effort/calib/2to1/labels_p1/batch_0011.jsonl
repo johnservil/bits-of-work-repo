@@ -1,0 +1,40 @@
+{"id": "W4299540028", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4300471124", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4311538958", "include": "yes", "category": "S", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "book chapter on NP-hardness of 2-to-2 Games"}
+{"id": "W4311538962", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "concluding chapter of the 2-to-2 Games/monotonicity book"}
+{"id": "W4311538965", "include": "borderline", "category": "S", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "introduction chapter of the 2-to-2 Games/monotonicity book"}
+{"id": "W4311538967", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4311539049", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4311539061", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4311539114", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4311539176", "include": "yes", "category": "S", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "book covering monotonicity testing and the 2-to-2 Games Conjecture"}
+{"id": "W4311539178", "include": "borderline", "category": "C", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "chapter on biased long code and vertex cover; relation to games line unclear"}
+{"id": "W4313203167", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4316652373", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4316652466", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4320169773", "include": "borderline", "category": "C", "weight": 0.25, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "expansion on posets, cites 2-2 games as an application"}
+{"id": "W4362177327", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W436674831", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4376639539", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4376639540", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4376639551", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4376639579", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4376639598", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4376639703", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4376651385", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4376651398", "include": "yes", "category": "C", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Bonami-type lemma on spaces of linear maps motivated by 2-2 games"}
+{"id": "W4385473958", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4385801134", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4386044165", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4387382650", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4390097937", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4390098323", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4390100647", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4390100660", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4391506307", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4391555747", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4394645605", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4399520876", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4399521632", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4399522327", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}
+{"id": "W4399522872", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general PCP/hardness/other topic; not work on 2-to-1 games"}

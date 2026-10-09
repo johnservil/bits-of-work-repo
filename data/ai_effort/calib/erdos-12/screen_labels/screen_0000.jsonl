@@ -1,0 +1,100 @@
+{"id": "W1022649828", "keep": true, "why": "additive combinatorics, AP-related sets"}
+{"id": "W1028621989", "keep": false, "why": "set-system intersection theorems, unrelated"}
+{"id": "W1127998496", "keep": true, "why": "additive combinatorics, Erdos overlap problem"}
+{"id": "W1139904961", "keep": true, "why": "extremal graphs and additive combinatorics"}
+{"id": "W121476753", "keep": true, "why": "subset-sum-distinct integer sequences"}
+{"id": "W132395906", "keep": true, "why": "sum-free sets and sequences"}
+{"id": "W142455466", "keep": true, "why": "sumsets of integers"}
+{"id": "W1479782671", "keep": false, "why": "graph cycles, unrelated"}
+{"id": "W1494215778", "keep": false, "why": "induced subgraph edge distribution, unrelated"}
+{"id": "W1499308656", "keep": true, "why": "primitive sets of squarefree integers"}
+{"id": "W1500017875", "keep": false, "why": "finite group commutativity, unrelated"}
+{"id": "W1520139570", "keep": false, "why": "hypergraph matchings and colorings, unrelated"}
+{"id": "W152445509", "keep": true, "why": "sum-product phenomenon, additive combinatorics"}
+{"id": "W1527296085", "keep": true, "why": "divisibility-constrained integer sets"}
+{"id": "W1533054715", "keep": true, "why": "quotient sequences of integers"}
+{"id": "W1545103561", "keep": true, "why": "Sarkozy retrospective, additive number theory"}
+{"id": "W1549301089", "keep": true, "why": "Erdos sumset conjecture"}
+{"id": "W1551680922", "keep": true, "why": "integer sequences book"}
+{"id": "W1558198855", "keep": false, "why": "graph edge coloring, unrelated"}
+{"id": "W1563756929", "keep": true, "why": "Erdos-Renyi conjecture, unclear"}
+{"id": "W1568934558", "keep": false, "why": "regularity lemma, unrelated"}
+{"id": "W1569122547", "keep": true, "why": "signed sums representing zero"}
+{"id": "W1576509659", "keep": false, "why": "hypercube extremal theorem, unrelated"}
+{"id": "W1584831215", "keep": false, "why": "hypercube symmetric subgraphs, unrelated"}
+{"id": "W1593433469", "keep": true, "why": "sums and products of real sets"}
+{"id": "W1593508491", "keep": true, "why": "prefix-free integer sequences"}
+{"id": "W1595828591", "keep": true, "why": "integer sequences, related"}
+{"id": "W1608205525", "keep": false, "why": "infinite chromatic graphs, unrelated"}
+{"id": "W1634656560", "keep": false, "why": "prime factors in APs, different object"}
+{"id": "W1646823299", "keep": false, "why": "cycles and planar geometry, unrelated"}
+{"id": "W1655092224", "keep": true, "why": "integer sequences, possibly related"}
+{"id": "W1661292865", "keep": true, "why": "covering systems and sieving, neighboring topic"}
+{"id": "W1663749032", "keep": true, "why": "Erdos survey of combinatorial number theory"}
+{"id": "W167383275", "keep": false, "why": "analytic number theory thesis, different object"}
+{"id": "W1705463008", "keep": false, "why": "hypergraph regularization, unrelated"}
+{"id": "W1718118126", "keep": true, "why": "bases of natural numbers, additive bases"}
+{"id": "W173859600", "keep": false, "why": "geometric distances on plane, unrelated"}
+{"id": "W177593908", "keep": true, "why": "sums and products counts, additive combinatorics"}
+{"id": "W178333808", "keep": false, "why": "Ramsey theory history essay, unrelated"}
+{"id": "W1784046855", "keep": true, "why": "unsolved problems collection, may include this"}
+{"id": "W1789100819", "keep": false, "why": "finite products sets, unrelated"}
+{"id": "W1821981504", "keep": true, "why": "sums and products of integers"}
+{"id": "W1835305721", "keep": false, "why": "ordered Turan problem, unrelated"}
+{"id": "W1850799998", "keep": true, "why": "k-fold Sidon sets, additive"}
+{"id": "W1876197808", "keep": true, "why": "additive number theory book"}
+{"id": "W1897701252", "keep": true, "why": "sums and products of integers"}
+{"id": "W1919156896", "keep": true, "why": "B_k^+ sets, additive bases"}
+{"id": "W1964335268", "keep": true, "why": "prime number graph, related"}
+{"id": "W1966494790", "keep": true, "why": "Graham gcd problem, divisibility"}
+{"id": "W1969590881", "keep": false, "why": "perfect graphs and game cores, unrelated"}
+{"id": "W1973511831", "keep": false, "why": "graph cycle lengths, unrelated"}
+{"id": "W1974047440", "keep": false, "why": "hypergraph coloring, unrelated"}
+{"id": "W1975270114", "keep": true, "why": "additive number theory problem"}
+{"id": "W1975538108", "keep": false, "why": "uncountably chromatic graphs, unrelated"}
+{"id": "W1975858565", "keep": false, "why": "prime plus powers of two, different object"}
+{"id": "W1976661633", "keep": false, "why": "graph coloring with induced cycles, unrelated"}
+{"id": "W1977242405", "keep": true, "why": "nonaveraging sets, reciprocals"}
+{"id": "W1982044733", "keep": false, "why": "total and list chromatic numbers, unrelated"}
+{"id": "W1983459300", "keep": true, "why": "covering systems in number fields"}
+{"id": "W1984080039", "keep": false, "why": "graph universality, unrelated"}
+{"id": "W1984355138", "keep": true, "why": "primitive sets, counting function"}
+{"id": "W1989597834", "keep": false, "why": "multiplicative function sums, different object"}
+{"id": "W1990574543", "keep": false, "why": "graph edge distribution, unrelated"}
+{"id": "W1990801743", "keep": true, "why": "Erdos-Sarkozy problem, unclear"}
+{"id": "W1990804711", "keep": false, "why": "completely multiplicative functions, different object"}
+{"id": "W1991804572", "keep": false, "why": "prime power sums, different object"}
+{"id": "W1995295204", "keep": true, "why": "sets of primes, unclear"}
+{"id": "W1997681421", "keep": true, "why": "finite sums in partitions, additive Ramsey"}
+{"id": "W2002063814", "keep": false, "why": "discrepancy of sequences, different object"}
+{"id": "W2002473456", "keep": false, "why": "sparse graph halves, unrelated"}
+{"id": "W2004782359", "keep": true, "why": "additive bases, related"}
+{"id": "W2008476758", "keep": false, "why": "discrepancy of sequences, different object"}
+{"id": "W2008824802", "keep": false, "why": "unit distance geometry, unrelated"}
+{"id": "W2009170871", "keep": false, "why": "polynomial extremal problem, unrelated"}
+{"id": "W2009196521", "keep": true, "why": "Erdos integer sequences, related"}
+{"id": "W2009830994", "keep": true, "why": "primitive sets, counting function"}
+{"id": "W2011601728", "keep": true, "why": "additive number theory, related"}
+{"id": "W2011671869", "keep": false, "why": "Steiner triple systems, unrelated"}
+{"id": "W2011956632", "keep": false, "why": "list coloring, unrelated"}
+{"id": "W2012495969", "keep": false, "why": "odd cycles coloring, unrelated"}
+{"id": "W2014323465", "keep": true, "why": "Sidon-type integer difference sets"}
+{"id": "W2015739358", "keep": true, "why": "sums of h distinct terms"}
+{"id": "W2019350858", "keep": false, "why": "nowhere-zero flows, unrelated"}
+{"id": "W2019447247", "keep": false, "why": "periodic predicates, unrelated"}
+{"id": "W2019573948", "keep": false, "why": "vector space directions, unrelated"}
+{"id": "W2021414653", "keep": true, "why": "extremal number theory problem"}
+{"id": "W2021989861", "keep": false, "why": "sums over primes, different object"}
+{"id": "W2023163209", "keep": false, "why": "rainbow subgraphs, unrelated"}
+{"id": "W2023397165", "keep": true, "why": "sums and products partitions, Erdos-Graham"}
+{"id": "W2023600080", "keep": true, "why": "AP-free integer sets, Erdos-Turan line"}
+{"id": "W2024478370", "keep": false, "why": "distribution of primes, unrelated"}
+{"id": "W2024769658", "keep": false, "why": "list colorings, unrelated"}
+{"id": "W2029209732", "keep": true, "why": "inverse Goldbach, sumset structure"}
+{"id": "W2029235915", "keep": false, "why": "ultrafilters, Ramsey theory"}
+{"id": "W2031184395", "keep": true, "why": "multiplicatively defined sets, additive"}
+{"id": "W2032716544", "keep": false, "why": "hypercube even cycles, unrelated"}
+{"id": "W2032724630", "keep": false, "why": "lattice points square, unrelated"}
+{"id": "W2033366500", "keep": false, "why": "graphs with odd cycles, unrelated"}
+{"id": "W2034596135", "keep": true, "why": "integer sequences, no divisibility"}
+{"id": "W2035971565", "keep": false, "why": "degenerate extremal graphs, unrelated"}

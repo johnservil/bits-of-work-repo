@@ -1,0 +1,33 @@
+# summary file (not a single solve); extra summary_* keys beyond README schema
+id: "lwe_challenge_hof_summary"
+class: "lattice"
+problem: "LWE"
+instance: "TU Darmstadt LWE Challenge hall of fame (summary)"
+instance_size: 100
+instance_size_unit: "dim"
+log2_ops: null
+method: null
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2026-08-10"
+solvers: null
+academic: null
+challenge: "TU Darmstadt LWE Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/lwe_challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/lwe_challenge/challenge.php"]
+confidence: 0.9
+verified: false
+notes: "Read 2026-10-09. Grid n=40..120 step 5, alpha=0.005..0.070 step 0.005 (17x14 cells; some grey/not yet generated). Largest n solved: 100 at alpha=0.005 (Jintai Ding, 2026-08-10, 419.7 RTX-4090-days); largest alpha solved: 0.050 at n=40. Page banner says some instances were bugged/unbreakable and are being regenerated. Max n solved per alpha: {\"0.005\": 100, \"0.010\": 75, \"0.015\": 65, \"0.020\": 60, \"0.025\": 55, \"0.030\": 50, \"0.035\": 45, \"0.040\": 45, \"0.045\": 40, \"0.050\": 40}."
+summary_total_entries: 45
+summary_distinct_dimensions: 13
+summary_date_range: ["2016-06-13", "2026-08-10"]
+summary_entries_per_year: {"2016": 12, "2017": 4, "2018": 5, "2019": 2, "2022": 11, "2024": 1, "2025": 4, "2026": 6}
+summary_progression_record_count: 45
+summary_top_entry: {"n": 100, "alpha": "0.005", "contestant": "Jintai Ding", "date": "2026-08-10"}
+summary_csv: "lwe_challenge_hof.csv"

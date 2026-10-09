@@ -1,0 +1,4 @@
+{"id": "W7128476013", "include": "borderline", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Sidon sets of cubes in short intervals, a weaker variant of a large Sidon subset of cubes"}
+{"id": "W2919772532", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "proves the Erdős B+C sumset conjecture, a different problem"}
+{"id": "W4389115478", "include": "borderline", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "shows cubes in an interval of length about sqrt N form a Sidon set, a weaker variant"}
+{"id": "W1663749032", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general Erdős problem survey whose title does not name this problem"}

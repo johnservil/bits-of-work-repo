@@ -1,0 +1,45 @@
+{"id": "W2319675223", "keep": false, "why": "Latin rectangles"}
+{"id": "W2320377306", "keep": false, "why": "orthogonal Latin squares"}
+{"id": "W2324071549", "keep": false, "why": "plane extremum problem"}
+{"id": "W2327285180", "keep": false, "why": "intersection theorems for set systems"}
+{"id": "W2528567371", "keep": true, "why": "extremal problems on set systems"}
+{"id": "W2577446513", "keep": true, "why": "graphs and hypergraphs; unsure"}
+{"id": "W2805522364", "keep": true, "why": "Turan exponents of bipartite graphs"}
+{"id": "W2883200068", "keep": true, "why": "extremal number of subdivisions"}
+{"id": "W2889657018", "keep": true, "why": "extremal number of subdivisions"}
+{"id": "W2898608221", "keep": true, "why": "dense induced bipartite subgraphs"}
+{"id": "W2899677703", "keep": true, "why": "edges without r disjoint odd cycles"}
+{"id": "W2924365128", "keep": true, "why": "extremal number of subdivisions"}
+{"id": "W2945244911", "keep": true, "why": "Turan numbers of bipartite subdivisions"}
+{"id": "W2952983940", "keep": true, "why": "hypergraphs without exponents"}
+{"id": "W2953040015", "keep": true, "why": "nearly regular induced subgraphs"}
+{"id": "W2964049215", "keep": true, "why": "rational exponents in extremal graph theory"}
+{"id": "W2964426601", "keep": true, "why": "Turan exponents via subdivisions"}
+{"id": "W2972182693", "keep": false, "why": "graph spanners tutorial"}
+{"id": "W2986768019", "keep": true, "why": "extremal problems in graph theory"}
+{"id": "W2999995332", "keep": true, "why": "dense induced bipartite subgraphs"}
+{"id": "W3032863553", "keep": true, "why": "rainbow Turan, even cycles"}
+{"id": "W3034673399", "keep": true, "why": "Turan number of blow-up of hexagon"}
+{"id": "W3037745329", "keep": true, "why": "splits with forbidden subgraphs; unsure"}
+{"id": "W3104768492", "keep": true, "why": "H-free process, extremal graphs; unsure"}
+{"id": "W3120870204", "keep": true, "why": "rational Turan exponents conjecture"}
+{"id": "W3137609618", "keep": true, "why": "Turan number of generalized theta graph"}
+{"id": "W3170222534", "keep": true, "why": "edge-maximal graphs without theta"}
+{"id": "W3193795880", "keep": true, "why": "extremal number of subdivisions"}
+{"id": "W3201366099", "keep": true, "why": "Erdos-Simonovits Turan number, minimum degree 3"}
+{"id": "W4210731599", "keep": true, "why": "graph theory textbook; unsure"}
+{"id": "W4233900282", "keep": false, "why": "unsolved problems in set theory"}
+{"id": "W4234117750", "keep": false, "why": "integer sets, unrelated"}
+{"id": "W4249953708", "keep": false, "why": "Helly property survey"}
+{"id": "W4250699352", "keep": false, "why": "chromatic number of set systems"}
+{"id": "W4251160190", "keep": true, "why": "counting lemma, hypergraphs"}
+{"id": "W4313813773", "keep": true, "why": "4-cycles stability and supersaturation"}
+{"id": "W4413353482", "keep": true, "why": "degenerate Turan problems, p-norms"}
+{"id": "W45611993", "keep": true, "why": "extremal problems, two-complexes"}
+{"id": "W650639416", "keep": false, "why": "arrangements and spreads"}
+{"id": "W788200807", "keep": true, "why": "extremal problem in graph theory"}
+{"id": "seed:erdos-1-20", "keep": true, "why": "combinatorial number theory survey"}
+{"id": "seed:erdos-571-2", "keep": true, "why": "extremal graph problems progress"}
+{"id": "seed:erdos-571-5", "keep": true, "why": "cube-supersaturated graphs"}
+{"id": "seed:erdos-713-8", "keep": true, "why": "extremal problems, graph theory results"}
+{"id": "seed:erdos-713-9", "keep": true, "why": "Turan-type problems exact solution"}

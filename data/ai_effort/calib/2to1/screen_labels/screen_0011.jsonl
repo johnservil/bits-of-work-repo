@@ -1,0 +1,78 @@
+{"id": "W4392450394", "keep": false, "why": "unrelated: parameterized vertex cover"}
+{"id": "W4392877631", "keep": false, "why": "unrelated: QAOA review"}
+{"id": "W4393147888", "keep": false, "why": "unrelated: metric clustering approximation"}
+{"id": "W4394645605", "keep": true, "why": "inapproximability survey; unsure"}
+{"id": "W4394779184", "keep": false, "why": "unrelated: intersecting permutations"}
+{"id": "W4399520876", "keep": true, "why": "direct product testing via coboundary expansion"}
+{"id": "W4399521632", "keep": true, "why": "swap cosystolic expansion"}
+{"id": "W4399522327", "keep": true, "why": "SDP and linear equations vs homomorphism problems"}
+{"id": "W4399522697", "keep": false, "why": "product mixing in Lie groups; weak link"}
+{"id": "W4399522872", "keep": true, "why": "small sparse cuts, small-set expansion; unsure"}
+{"id": "W4399522885", "keep": true, "why": "cosystolic expansion, good 2-query LTCs"}
+{"id": "W4399523282", "keep": true, "why": "alphabet-soundness tradeoff PCPs"}
+{"id": "W4399523655", "keep": true, "why": "agreement theorems on HDX, low acceptance"}
+{"id": "W4399889428", "keep": false, "why": "1-in-3 vs NAE dichotomy; no games link"}
+{"id": "W4400589181", "keep": true, "why": "quasi-random Boolean functions; unsure"}
+{"id": "W4402469419", "keep": false, "why": "unrelated: parameterized vertex cover"}
+{"id": "W4402623435", "keep": false, "why": "unrelated: graph subdivisions"}
+{"id": "W4403611101", "keep": true, "why": "hypercontractivity for symmetric group covering"}
+{"id": "W4404848080", "keep": true, "why": "Chernoff and reverse hypercontractivity on HDX"}
+{"id": "W4404849183", "keep": true, "why": "low-acceptance agreement tests on symplectic HDX"}
+{"id": "W4404849632", "keep": true, "why": "dense model theorem for Boolean slice"}
+{"id": "W4404849665", "keep": false, "why": "unrelated: length-constrained expander decomposition"}
+{"id": "W4404849782", "keep": true, "why": "direct product testers with small soundness"}
+{"id": "W4406681821", "keep": false, "why": "unrelated: random algebraic graphs"}
+{"id": "W4407769948", "keep": false, "why": "1-in-3 vs NAE dichotomy; no games link"}
+{"id": "W4408293805", "keep": true, "why": "survey on optimal CSP approximability; unsure"}
+{"id": "W4409697622", "keep": false, "why": "unrelated: Turan problems"}
+{"id": "W4410703929", "keep": false, "why": "unrelated: aircraft assembly scheduling"}
+{"id": "W4410846121", "keep": true, "why": "optimal testing via global hypercontractivity"}
+{"id": "W4410927286", "keep": true, "why": "untitled record; unsure"}
+{"id": "W4411075545", "keep": false, "why": "localization schemes; weak link"}
+{"id": "W4411196541", "keep": false, "why": "unrelated: vertex cover heuristic"}
+{"id": "W4411319170", "keep": false, "why": "coloring SoS lower bounds; no games link"}
+{"id": "W4411319950", "keep": true, "why": "rounding independent sets on expanders; unsure"}
+{"id": "W4411319960", "keep": true, "why": "hypercontractivity on HDX II"}
+{"id": "W4411319963", "keep": true, "why": "hardness of 4-colouring G-colourable graphs"}
+{"id": "W4411320001", "keep": true, "why": "quasi-linear PCPs with small soundness from HDX"}
+{"id": "W4411320009", "keep": true, "why": "coboundary expansion of coset complexes"}
+{"id": "W4411320034", "keep": false, "why": "parameterized inapproximability under ETH; weak link"}
+{"id": "W4411320037", "keep": false, "why": "no-regret learning in normal-form games"}
+{"id": "W4412141394", "keep": true, "why": "sphere-valued noise stability; UG-adjacent, unsure"}
+{"id": "W4412543997", "keep": true, "why": "approximability of satisfiable k-CSPs I"}
+{"id": "W4413142925", "keep": true, "why": "invariance principle for the multi-slice"}
+{"id": "W4413181694", "keep": true, "why": "parameterized 2-CSP inapproximability; unsure"}
+{"id": "W4413366411", "keep": true, "why": "approximability of satisfiable k-CSPs II"}
+{"id": "W4413682919", "keep": false, "why": "unrelated: biclique-free approximation"}
+{"id": "W4414080979", "keep": true, "why": "Garland's technique and Grassmannian expanders"}
+{"id": "W4416907084", "keep": true, "why": "linearly ordered coloring hardness, PCP-style; unsure"}
+{"id": "W4417149161", "keep": false, "why": "unrelated: rainbow matchings"}
+{"id": "W4661137", "keep": false, "why": "unrelated: broadcast network thesis"}
+{"id": "W53264231", "keep": true, "why": "multi-prover interactive proofs for succinct arguments; unsure"}
+{"id": "W576273477", "keep": true, "why": "untitled record; unsure"}
+{"id": "W603975761", "keep": false, "why": "generic approximation algorithms textbook"}
+{"id": "W62100899", "keep": false, "why": "unrelated: dominating set measures"}
+{"id": "W644136860", "keep": false, "why": "generic optimization textbook"}
+{"id": "W7135407191", "keep": false, "why": "unrelated: TSP line neighborhoods"}
+{"id": "W7136210248", "keep": false, "why": "unrelated: expander decomposition CONGEST"}
+{"id": "W7147685244", "keep": false, "why": "QMA(2) complexity survey; weak link"}
+{"id": "W7151886089", "keep": false, "why": "unrelated: rainbow structures"}
+{"id": "W7162252375", "keep": false, "why": "unrelated: distributed sparsest cut"}
+{"id": "W7162254313", "keep": false, "why": "unrelated: distance realization"}
+{"id": "W7162805215", "keep": false, "why": "unrelated: vertex cover heuristic"}
+{"id": "W7163992805", "keep": true, "why": "near-optimal hardness of approximating k-CSP"}
+{"id": "W7164005843", "keep": true, "why": "efficient list decoding from HDX"}
+{"id": "W7164032919", "keep": false, "why": "unrelated: SVP hardness"}
+{"id": "W7164373718", "keep": false, "why": "unrelated: distributed Laplacian survey"}
+{"id": "W7168050039", "keep": false, "why": "unrelated: QAOA vertex cover"}
+{"id": "W7168152477", "keep": true, "why": "polynomial paradigm survey; unsure"}
+{"id": "W7168178331", "keep": false, "why": "abelian embeddings; weak link"}
+{"id": "W7202088656", "keep": false, "why": "unrelated: pairing-based SNARGs"}
+{"id": "W7202342313", "keep": true, "why": "FKN theorem for binary Grassmann scheme"}
+{"id": "W7203707273", "keep": false, "why": "unrelated: local search weighted problems"}
+{"id": "W792200198", "keep": false, "why": "unrelated: evolving sets random walks"}
+{"id": "W7943539", "keep": false, "why": "unrelated: Erdos matching conjecture"}
+{"id": "W796183652", "keep": false, "why": "unrelated: graph convexity inapproximability"}
+{"id": "W9061855", "keep": true, "why": "set cover inapproximability note; PCP-style, unsure"}
+{"id": "seed:two-to-one-011", "keep": true, "why": "d-to-1 two-prover games algorithms"}
+{"id": "seed:two-to-one-021", "keep": true, "why": "hardness of 4-to-1 games with perfect completeness"}

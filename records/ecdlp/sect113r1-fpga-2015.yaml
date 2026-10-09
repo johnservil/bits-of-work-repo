@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "sect113r1-fpga-2015"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "sect113r1 (SECG binary curve over F_2^113)"
+instance_size: 112.0
+instance_size_unit: "bits"
+log2_ops: null
+method: "parallel Pollard rho with negation map and fruitless-cycle handling, FPGA"
+structure_exploited: false
+hardware: "10 Kintex-7 FPGAs (KC705 boards, XC7K325T-2), 900M iterations/s total"
+raw_compute: "10 KC705 boards for about 2.5 months (per Bernstein et al. 2016); 'several months' per authors"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 76
+date: "2015-01"
+solvers: ["Erich Wenger", "Paul Wolfger"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2015/143; J. Cryptogr. Eng. 6:287-297 (2016) doi:10.1007/s13389-015-0108-z"
+source_url: "https://eprint.iacr.org/2015/143"
+other_urls: ["https://cryptojedi.org/papers/sect113r2-20161212.pdf", "https://en.wikipedia.org/wiki/Discrete_logarithm_records"]
+confidence: 0.65
+verified: false
+notes: "Prime order slightly above 2^112 (Bernstein et al.). Date 2015-01 from Wikipedia (ePrint received 2015-02-27). Wikipedia gives ~82 days average runtime; 76 days = 2.5 months. Iteration total not found."

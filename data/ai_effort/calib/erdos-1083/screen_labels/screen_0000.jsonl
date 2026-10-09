@@ -1,0 +1,100 @@
+{"id": "W1029704223", "keep": false, "why": "plane chromatic number, different Erdos problem"}
+{"id": "W116441594", "keep": true, "why": "unclear DOI-titled record, cannot screen"}
+{"id": "W126445476", "keep": true, "why": "geometric graph theory history, possibly relevant"}
+{"id": "W1488784459", "keep": false, "why": "disjoint empty convex polygons"}
+{"id": "W1539895965", "keep": true, "why": "discrete geometry research problems incl. distances"}
+{"id": "W1564415453", "keep": false, "why": "mutually avoiding sets"}
+{"id": "W1590235295", "keep": true, "why": "Erdos-Ulam distance problem"}
+{"id": "W1705251487", "keep": false, "why": "Davenport-Schinzel sequences"}
+{"id": "W170892534", "keep": true, "why": "unit distances in plane"}
+{"id": "W1758887938", "keep": true, "why": "number of distinct distances note"}
+{"id": "W1788789537", "keep": true, "why": "bichromatic incidence bound, distance tool"}
+{"id": "W1798441839", "keep": false, "why": "empty convex subsets point set"}
+{"id": "W1966946221", "keep": false, "why": "Heilbronn triangle problem"}
+{"id": "W1968134246", "keep": false, "why": "epsilon nets algorithms"}
+{"id": "W1968785925", "keep": false, "why": "arrangement cells complexity"}
+{"id": "W1970244902", "keep": true, "why": "tetrahedra with distinct volumes, distance-type"}
+{"id": "W1970934335", "keep": true, "why": "Erdos elementary geometry problems"}
+{"id": "W1972875213", "keep": false, "why": "implicit arrangements, algorithms"}
+{"id": "W1978148005", "keep": true, "why": "Vazsonyi diameter conjecture"}
+{"id": "W1980092773", "keep": false, "why": "piano movers, motion planning"}
+{"id": "W1981515128", "keep": true, "why": "point sets with distinct distances"}
+{"id": "W1984138615", "keep": false, "why": "pentagon property point sets"}
+{"id": "W1986575673", "keep": true, "why": "bichromatic incidence bound application"}
+{"id": "W1987084582", "keep": true, "why": "incidence theorems, distance tool"}
+{"id": "W1993449345", "keep": false, "why": "Knuth algorithms textbook"}
+{"id": "W1995997000", "keep": false, "why": "Knuth table errata"}
+{"id": "W1996622003", "keep": true, "why": "equilateral triangles, unit-distance related"}
+{"id": "W1998230386", "keep": false, "why": "Davenport-Schinzel bounds"}
+{"id": "W2002227200", "keep": false, "why": "castles in air, solid modeling"}
+{"id": "W2005314985", "keep": false, "why": "computational geometry textbook"}
+{"id": "W2006073641", "keep": true, "why": "metric and combinatorial geometry problems"}
+{"id": "W2007931364", "keep": false, "why": "polytope triangulation algorithm"}
+{"id": "W2009038699", "keep": true, "why": "combinatorial problems in plane, distances"}
+{"id": "W2009870896", "keep": true, "why": "distinct sums and distinct distances"}
+{"id": "W2018026486", "keep": false, "why": "solid modeling"}
+{"id": "W2018858611", "keep": false, "why": "curve arrangements complexity"}
+{"id": "W2022266599", "keep": false, "why": "combinatorial geometry algorithms book"}
+{"id": "W2023844303", "keep": true, "why": "point-circle incidences, distance tool"}
+{"id": "W2024261279", "keep": false, "why": "empty simplices"}
+{"id": "W2027132034", "keep": false, "why": "exact fitting problem"}
+{"id": "W2028747718", "keep": false, "why": "Davenport-Schinzel sequences"}
+{"id": "W2028771266", "keep": false, "why": "Sylvester problem survey"}
+{"id": "W2031397195", "keep": true, "why": "distinct distances in high dimensions"}
+{"id": "W2033013465", "keep": false, "why": "piano movers, real algebraic"}
+{"id": "W2035775010", "keep": true, "why": "sphere-point incidences, unit distances"}
+{"id": "W2036395616", "keep": true, "why": "distinct distances in finite planar sets"}
+{"id": "W2038730428", "keep": false, "why": "arrangement sweeping algorithm"}
+{"id": "W2040776056", "keep": false, "why": "Euclidean vs projective plane"}
+{"id": "W2049085213", "keep": false, "why": "finite geometries survey"}
+{"id": "W2050459520", "keep": false, "why": "random sampling in geometry"}
+{"id": "W2051859868", "keep": true, "why": "Moser repeated distances on sphere"}
+{"id": "W2052165970", "keep": false, "why": "subdivision primitives, graphics"}
+{"id": "W2054459484", "keep": false, "why": "epsilon-nets range queries"}
+{"id": "W2057379925", "keep": true, "why": "distinct distances in homogeneous sets"}
+{"id": "W2058432138", "keep": false, "why": "random sampling comp geom"}
+{"id": "W2058787718", "keep": false, "why": "empty pentagons collinearities"}
+{"id": "W2059759859", "keep": false, "why": "arrangement faces"}
+{"id": "W2061074723", "keep": true, "why": "distinct distances in lattices"}
+{"id": "W2061342454", "keep": false, "why": "Zarankiewicz problem"}
+{"id": "W206712979", "keep": false, "why": "few empty convex polygons"}
+{"id": "W2067631433", "keep": false, "why": "random sampling comp geom"}
+{"id": "W2067705970", "keep": false, "why": "cylindrical algebraic decomposition"}
+{"id": "W2068020662", "keep": false, "why": "Turan-type chords convex polygon"}
+{"id": "W2070152596", "keep": false, "why": "Heilbronn problem III"}
+{"id": "W2070164574", "keep": false, "why": "Voronoi sweepline"}
+{"id": "W2071851628", "keep": false, "why": "empty convex polygons"}
+{"id": "W2074709558", "keep": false, "why": "lattice property plane, Erdos combinatorial geometry"}
+{"id": "W2083028555", "keep": false, "why": "Erdos-Szekeres convex position"}
+{"id": "W2089995023", "keep": true, "why": "distinct distances in higher dimensions"}
+{"id": "W2090067893", "keep": false, "why": "large empty convex polygons"}
+{"id": "W2090708733", "keep": false, "why": "unit disk graphs independent sets"}
+{"id": "W2093180282", "keep": false, "why": "arrangements of lines"}
+{"id": "W2094018674", "keep": false, "why": "pseudoline stretchability"}
+{"id": "W2098477273", "keep": true, "why": "Erdos combinatorial problems survey"}
+{"id": "W2101764588", "keep": true, "why": "crossing numbers and Erdos geometry problems"}
+{"id": "W2103821238", "keep": true, "why": "few distinct distances, heavy lines"}
+{"id": "W2106248614", "keep": false, "why": "collinear k-tuples"}
+{"id": "W2110354774", "keep": false, "why": "extremal graph problems"}
+{"id": "W2112998433", "keep": false, "why": "curve arrangement complexity"}
+{"id": "W2113144141", "keep": true, "why": "Falconer distance set conjecture"}
+{"id": "W2113438075", "keep": false, "why": "geometric duality"}
+{"id": "W2116417064", "keep": false, "why": "music voice-leading geometry"}
+{"id": "W2120934134", "keep": false, "why": "arrangements construction algorithms"}
+{"id": "W2121647599", "keep": false, "why": "open caps and cups"}
+{"id": "W2127590149", "keep": true, "why": "distinct distances open problems"}
+{"id": "W2127987672", "keep": false, "why": "few empty convex polygons"}
+{"id": "W2128377460", "keep": false, "why": "non-degenerate spheres, incidences"}
+{"id": "W2128872143", "keep": true, "why": "repeated distances in space"}
+{"id": "W2132615501", "keep": false, "why": "orthogonal vectors over finite fields"}
+{"id": "W2132675033", "keep": false, "why": "3D subdivisions primitives"}
+{"id": "W2136910207", "keep": true, "why": "distinct distances homogeneous Euclidean sets"}
+{"id": "W2138258360", "keep": true, "why": "extremal properties of finite point sets"}
+{"id": "W2142683079", "keep": false, "why": "Euclidean Ramsey theorems"}
+{"id": "W2145670890", "keep": true, "why": "different distances in plane"}
+{"id": "W2146306925", "keep": false, "why": "arrangement faces complexity"}
+{"id": "W2146388713", "keep": true, "why": "distinct distances from vertex of polygon"}
+{"id": "W2147100086", "keep": false, "why": "random sampling geometry"}
+{"id": "W2149723593", "keep": true, "why": "distinct distances n points plane"}
+{"id": "W2150037097", "keep": false, "why": "collinear points or empty pentagon"}
+{"id": "W2156316434", "keep": false, "why": "arrangements of curves topology"}

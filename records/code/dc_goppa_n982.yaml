@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_goppa_n982"
+class: "code"
+problem: "SD-Goppa"
+instance: "decodingchallenge goppa n=982 w=20"
+instance_size: 982
+instance_size_unit: "n"
+log2_ops: 47.0
+method: "Mutltithreaded Dumer4, Gregory Landais original implementation"
+structure_exploited: false
+hardware: "Intel XEON CPU E5-4650 - 2.6Ghz"
+raw_compute: "runtime: 4 hours; hardware: Intel XEON CPU E5-4650 - 2.6Ghz"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.16666666666666666
+date: "2020-07-02"
+solvers: ["Noémie Bossard"]
+academic: null
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/goppa/record/20"
+other_urls: ["https://decodingchallenge.org/goppa/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 0 - Inria Paris; instances are random parity-check matrices with planted error (not actual Goppa codes); McEliece-like rate/weight"

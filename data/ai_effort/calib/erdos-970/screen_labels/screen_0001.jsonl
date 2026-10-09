@@ -1,0 +1,78 @@
+{"id": "W2963575640", "keep": false, "why": "polynomial orbits on nilmanifolds"}
+{"id": "W2963660935", "keep": false, "why": "least primitive root, sieve"}
+{"id": "W2963964522", "keep": false, "why": "Radon transforms, harmonic analysis"}
+{"id": "W2964097236", "keep": true, "why": "large gaps between primes"}
+{"id": "W2964307401", "keep": true, "why": "long gaps between primes"}
+{"id": "W2965844577", "keep": false, "why": "Heffter arrays, design theory"}
+{"id": "W2965948651", "keep": false, "why": "domination of graph products"}
+{"id": "W2966106790", "keep": true, "why": "large prime gaps, progressions"}
+{"id": "W2969912191", "keep": true, "why": "large prime gaps, probabilistic models"}
+{"id": "W2982408282", "keep": true, "why": "gaps between primes"}
+{"id": "W2982526505", "keep": true, "why": "twin prime conjecture"}
+{"id": "W2996219484", "keep": true, "why": "large prime gaps in progressions"}
+{"id": "W2999291433", "keep": false, "why": "Heffter arrays, design theory"}
+{"id": "W3004717700", "keep": true, "why": "gaps between primes in residue class"}
+{"id": "W3010687964", "keep": false, "why": "Bianchi orbifolds, geodesic surfaces"}
+{"id": "W3022189020", "keep": false, "why": "prime signature distance"}
+{"id": "W3034365956", "keep": false, "why": "recursive prime counting sequence"}
+{"id": "W3039748630", "keep": false, "why": "Dirichlet L-function values"}
+{"id": "W3041720992", "keep": false, "why": "Dirichlet L-values non-vanishing"}
+{"id": "W3084126760", "keep": true, "why": "primes in short intervals, gap heuristics"}
+{"id": "W3089539380", "keep": true, "why": "sieving intervals, Siegel zeros; unsure"}
+{"id": "W3092384090", "keep": false, "why": "nearly perfect hypergraph matchings"}
+{"id": "W3098440765", "keep": false, "why": "genus of dense graphs"}
+{"id": "W3100803707", "keep": true, "why": "limit points of normalized prime gaps"}
+{"id": "W3100868245", "keep": false, "why": "Waring problem, Heisenberg groups"}
+{"id": "W3105961822", "keep": true, "why": "maximal gaps in sets of primes"}
+{"id": "W3108093409", "keep": false, "why": "integrable twist maps"}
+{"id": "W3109418978", "keep": false, "why": "prime avoidance, Beatty sequences"}
+{"id": "W3118514919", "keep": false, "why": "Pell-Fibonacci sequence mod m"}
+{"id": "W3119906551", "keep": false, "why": "binary form automorphisms"}
+{"id": "W3120884552", "keep": false, "why": "cyclotomic polynomials, primes"}
+{"id": "W3130072254", "keep": true, "why": "maximal prime gaps bounds"}
+{"id": "W3133489831", "keep": false, "why": "Nicholson conjecture"}
+{"id": "W3148429506", "keep": false, "why": "Galois representations"}
+{"id": "W3150258129", "keep": true, "why": "state complexity and Jacobsthal function"}
+{"id": "W3165267719", "keep": false, "why": "Manin-Mumford problem"}
+{"id": "W3171452153", "keep": true, "why": "bounded gaps between primes"}
+{"id": "W3174655151", "keep": false, "why": "hypergraph colouring nibble survey"}
+{"id": "W3204206815", "keep": false, "why": "complexity class containments"}
+{"id": "W3209554822", "keep": false, "why": "prime signature distance"}
+{"id": "W3211468920", "keep": true, "why": "Holder maps and prime gaps; unsure"}
+{"id": "W3212140169", "keep": true, "why": "coprime matchings; unsure"}
+{"id": "W40132115", "keep": true, "why": "gaps between primes, zeta zeros"}
+{"id": "W4211007112", "keep": true, "why": "number theory book; unsure"}
+{"id": "W4211238674", "keep": false, "why": "The Twenties, general history"}
+{"id": "W4251543376", "keep": false, "why": "Konyagin tribute"}
+{"id": "W4292565346", "keep": true, "why": "analytic number theory review; unsure"}
+{"id": "W4294376114", "keep": true, "why": "maximum prime gap prediction"}
+{"id": "W4311159496", "keep": false, "why": "prime quantum potential"}
+{"id": "W4316652423", "keep": false, "why": "conflict-free hypergraph matchings"}
+{"id": "W4319318451", "keep": true, "why": "sequence of prime gaps is graphic"}
+{"id": "W4319335709", "keep": false, "why": "popcorn subsets dimension"}
+{"id": "W4379880169", "keep": false, "why": "uniform distribution, circle"}
+{"id": "W4380683371", "keep": true, "why": "large prime gaps, probabilistic models"}
+{"id": "W4386134296", "keep": false, "why": "graphs on rings review"}
+{"id": "W4387673935", "keep": false, "why": "missing digits approximation"}
+{"id": "W4389721336", "keep": false, "why": "mathematical conjectures review"}
+{"id": "W4391390930", "keep": true, "why": "statistical distributions of prime gaps"}
+{"id": "W4393170300", "keep": true, "why": "polynomial analogue of Jacobsthal function"}
+{"id": "W4393954820", "keep": true, "why": "polynomial analogue of Jacobsthal function"}
+{"id": "W4396216432", "keep": false, "why": "conflict-free hypergraph matchings"}
+{"id": "W4396523507", "keep": false, "why": "numbers far from primes, bases"}
+{"id": "W4402258857", "keep": false, "why": "prime avoiding numbers, bases"}
+{"id": "W4403888128", "keep": true, "why": "consecutive composite values of polynomials; unsure"}
+{"id": "W4407674998", "keep": false, "why": "elliptic-curve factoring"}
+{"id": "W4408187145", "keep": true, "why": "review of large prime gaps"}
+{"id": "W4409564677", "keep": false, "why": "fixed point indices"}
+{"id": "W4410637334", "keep": false, "why": "Goldbach and de Polignac conjectures"}
+{"id": "W4412083755", "keep": true, "why": "small and large prime gaps"}
+{"id": "W4412935563", "keep": false, "why": "Goldbach conjecture, Hilbert arithmetic"}
+{"id": "W4414655514", "keep": true, "why": "local distribution of subsets of integers; unsure"}
+{"id": "W7117111366", "keep": true, "why": "local distribution of subsets of integers; unsure"}
+{"id": "W7123335421", "keep": false, "why": "factoring via rank-3 lattices"}
+{"id": "W7130650291", "keep": true, "why": "intervals without primes, recurrence sequence"}
+{"id": "W7148878595", "keep": true, "why": "omega function, short intervals; unsure"}
+{"id": "W773053098", "keep": true, "why": "visibility of lattice points; unsure"}
+{"id": "W973904526", "keep": false, "why": "average least witness"}
+{"id": "seed:erdos-1-5", "keep": true, "why": "recent problems in number theory survey"}

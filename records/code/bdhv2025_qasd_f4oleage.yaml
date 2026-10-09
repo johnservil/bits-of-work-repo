@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "bdhv2025_qasd_f4oleage"
+class: "code"
+problem: "LPN"
+instance: "QA-SD (quasi-Abelian syndrome decoding) PCG parameters incl. F4OLEage (Asiacrypt 2024)"
+instance_size: null
+instance_size_unit: "n"
+log2_ops: null
+method: "sparse multivariate interpolation (incl. compressed-sensing convex optimization)"
+structure_exploited: true
+hardware: null
+raw_compute: "distinguishes F4OLEage PCG output with 60% advantage in a few hours"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2025-05"
+solvers: ["Charles Bouillaguet", "Claire Delaplace", "Mickael Hamdad", "Damien Vergnaud"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "2025/892"
+source_url: "https://eprint.iacr.org/2025/892"
+other_urls: []
+confidence: 0.6
+verified: false
+notes: "Ring-LPN-like assumption (QA-SD) for PCGs, not a PKE assumption; also breaks parameters of Bombar et al. Crypto 2023 and Li et al. Eurocrypt 2025. Problem label LPN used for lack of a QA-SD category."

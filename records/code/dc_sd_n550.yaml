@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_sd_n550"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge sd n=550 w=67"
+instance_size: 550
+instance_size_unit: "n"
+log2_ops: 58.0
+method: "MMT"
+structure_exploited: false
+hardware: null
+raw_compute: "runtime: 13.03 days"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 13.03
+date: "2022-02-23"
+solvers: ["Shintaro Narisada", "Kazuhide Fukushima", "Shinsaku Kiyomoto"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/syndrome/record/56"
+other_urls: ["https://decodingchallenge.org/syndrome/halloffame", "https://www.jstage.jst.go.jp/article/transfun/advpub/0/advpub_2022CIP0023/_pdf"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure"

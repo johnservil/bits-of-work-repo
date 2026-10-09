@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_sd_n460"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge sd n=460 w=55"
+instance_size: 460
+instance_size_unit: "n"
+log2_ops: 48.0
+method: "Dumer"
+structure_exploited: false
+hardware: "NVIDIA V100 GPU"
+raw_compute: "runtime: 8 hr; hardware: NVIDIA V100 GPU"
+reported_core_years: null
+gpu_years: 0.000913
+wall_time_days: 0.06944444444444445
+date: "2020-07-22"
+solvers: ["Greg Meyer"]
+academic: null
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/syndrome/record/47"
+other_urls: ["https://decodingchallenge.org/syndrome/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; 100 min x 5 V100 = 8 GPU-hours."

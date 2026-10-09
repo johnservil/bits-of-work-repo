@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_qc_n1938"
+class: "code"
+problem: "SD-QC"
+instance: "decodingchallenge qc n=1938 w=44"
+instance_size: 1938
+instance_size_unit: "n"
+log2_ops: 44.0
+method: "Multiprocess Dumer4 by Landais, l = 25"
+structure_exploited: false
+hardware: "Intel XEON CPU E5-4650 - 2.6Ghz"
+raw_compute: "runtime: 6400 core days; hardware: Intel XEON CPU E5-4650 - 2.6Ghz"
+reported_core_years: 17.5222
+gpu_years: null
+wall_time_days: null
+date: "2020-08-24"
+solvers: ["Noémie Bossard"]
+academic: null
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/q-c/record/17"
+other_urls: ["https://decodingchallenge.org/q-c/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 0 - Inria Paris"

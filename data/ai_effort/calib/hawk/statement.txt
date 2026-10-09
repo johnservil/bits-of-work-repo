@@ -1,0 +1,1 @@
+Key recovery for the HAWK signature scheme, i.e. the rank-2 module Lattice Isomorphism Problem over power-of-two cyclotomic rings, including attacks on LIP / Z^n-LIP, reductions to nrdPIP, and automorphism-based dimension reduction. Papers that merely build schemes on LIP are include=no.

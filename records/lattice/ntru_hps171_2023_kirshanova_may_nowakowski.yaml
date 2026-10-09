@@ -1,0 +1,25 @@
+id: "ntru_hps171_2023_kirshanova_may_nowakowski"
+class: "lattice"
+problem: "NTRU"
+instance: "NTRU-HPS n=171 (authors' own instance)"
+instance_size: 171
+instance_size_unit: "dim"
+log2_ops: null
+method: "G6K BKZ with sieving on cyclotomic-ring (Phi_n) projected basis"
+structure_exploited: true
+hardware: null
+raw_compute: "83 core-days with cyclotomic basis (172 core-days with Coppersmith-Shamir basis)"
+reported_core_years: 0.2272
+gpu_years: null
+wall_time_days: null
+date: "2023-04"
+solvers: ["Elena Kirshanova", "Alexander May", "Julian Nowakowski"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2023/582"
+source_url: "https://eprint.iacr.org/2023/582"
+other_urls: ["https://github.com/ElenaKirshanova/ntru_with_sieving"]
+confidence: 0.8
+verified: false
+notes: "First cryptanalysis landmarks for NTRU-HPS n in [101,171] and NTRU-HRSS n in [101,211]; this is the largest HPS instance quoted in the abstract. Toy-sized NIST-round-3 NTRU variant."

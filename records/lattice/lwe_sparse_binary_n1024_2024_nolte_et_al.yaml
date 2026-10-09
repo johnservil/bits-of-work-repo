@@ -1,0 +1,25 @@
+id: "lwe_sparse_binary_n1024_2024_nolte_et_al"
+class: "lattice"
+problem: "LWE"
+instance: "sparse binary-secret LWE/RLWE, n = 256, 512, 768, 1024 (Cool & Cruel)"
+instance_size: 1024
+instance_size_unit: "dim"
+log2_ops: null
+method: "Cool & Cruel statistical attack after parallel flatter lattice reduction"
+structure_exploited: true
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2024-03"
+solvers: ["Niklas Nolte", "Mohamed Malhou", "Emily Wenger", "Samuel Stevens", "Cathy Yuanchen Li", "Francois Charton", "Kristin Lauter"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2024/443"
+source_url: "https://eprint.iacr.org/2024/443"
+other_urls: []
+confidence: 0.5
+verified: false
+notes: "AFRICACRYPT 2024. Abstract gives dimensions but no timings or Hamming weights; resource fields null pending PDF read. Sparse binary secret (HE-style), structure exploited."

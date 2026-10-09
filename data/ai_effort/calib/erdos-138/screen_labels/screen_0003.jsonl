@@ -1,0 +1,100 @@
+{"id": "W2313115605", "keep": true, "why": "van der Waerden theorem notes"}
+{"id": "W2313298573", "keep": true, "why": "Erdos problem, unclear"}
+{"id": "W2313391498", "keep": true, "why": "non-averaging integer sets"}
+{"id": "W2313585734", "keep": true, "why": "Ramsey problems with symmetries"}
+{"id": "W2314197246", "keep": true, "why": "progression-free partitions"}
+{"id": "W2314290950", "keep": true, "why": "bases of natural numbers"}
+{"id": "W2314823304", "keep": false, "why": "Kellogg Diophantine problem, unrelated"}
+{"id": "W2316785615", "keep": false, "why": "game theory problem, unclear"}
+{"id": "W2316932045", "keep": false, "why": "order type conjecture, unrelated"}
+{"id": "W2317251561", "keep": true, "why": "extremal number theory problem"}
+{"id": "W2318154985", "keep": false, "why": "magic configurations, unrelated"}
+{"id": "W2319349127", "keep": true, "why": "van der Waerden function and hypergraph colourings"}
+{"id": "W2319518804", "keep": false, "why": "ordinary lines in point sets, unrelated"}
+{"id": "W2319675223", "keep": false, "why": "Latin rectangles, unrelated"}
+{"id": "W2320330683", "keep": false, "why": "linear Diophantine problem, different object"}
+{"id": "W2320377306", "keep": false, "why": "orthogonal Latin squares, unrelated"}
+{"id": "W2320708790", "keep": false, "why": "polynomial irreducibility, unrelated"}
+{"id": "W2321243920", "keep": false, "why": "binomial coefficient values, different object"}
+{"id": "W2321598507", "keep": true, "why": "exact van der Waerden numbers"}
+{"id": "W2321688441", "keep": false, "why": "sums of squares, unrelated"}
+{"id": "W2322536451", "keep": false, "why": "Uspensky theorem, unrelated"}
+{"id": "W2323526206", "keep": true, "why": "Erdos and his mathematics"}
+{"id": "W2323607775", "keep": false, "why": "prime factors of consecutive integers, different object"}
+{"id": "W2323898634", "keep": false, "why": "Fermat converse, unrelated"}
+{"id": "W2324071549", "keep": false, "why": "plane extremum problem, unrelated"}
+{"id": "W2325254585", "keep": true, "why": "lower bound for vdW functions"}
+{"id": "W2325408613", "keep": true, "why": "colouring integers, Ramsey-type"}
+{"id": "W2326082038", "keep": true, "why": "Erdos-Rado combinatorial theorem"}
+{"id": "W2327285180", "keep": false, "why": "set-system intersection theorems, unrelated"}
+{"id": "W2327456046", "keep": false, "why": "sums of distinct divisors, different object"}
+{"id": "W2328084579", "keep": false, "why": "orthogonal set families, unrelated"}
+{"id": "W2328110742", "keep": true, "why": "non-repetitive sequences, related"}
+{"id": "W2328642983", "keep": false, "why": "Waring problem, unrelated"}
+{"id": "W2328726307", "keep": true, "why": "Moser problem, unclear"}
+{"id": "W2329503866", "keep": true, "why": "covering systems, related"}
+{"id": "W2330076678", "keep": false, "why": "p_k/k prime ratios, different object"}
+{"id": "W2330372082", "keep": true, "why": "Graham conjecture on integer sequences"}
+{"id": "W2331753091", "keep": false, "why": "consecutive composite numbers, unrelated"}
+{"id": "W2334191667", "keep": false, "why": "Beatty sequences, different object"}
+{"id": "W2334488458", "keep": true, "why": "arithmetic progressions questions"}
+{"id": "W2334983898", "keep": false, "why": "square-free grid sets, different object"}
+{"id": "W2335290204", "keep": false, "why": "fractions with bounded numerators, unrelated"}
+{"id": "W2335339119", "keep": true, "why": "Erdos-Hajnal hypergraph colouring"}
+{"id": "W2335606727", "keep": true, "why": "partitions problem, unclear"}
+{"id": "W2337272372", "keep": true, "why": "Erdos-Graham question"}
+{"id": "W2342730309", "keep": false, "why": "convex polygon problem, unrelated"}
+{"id": "W2356880738", "keep": true, "why": "subsets with no k-term AP"}
+{"id": "W2365899843", "keep": true, "why": "Erdos obituary, unclear"}
+{"id": "W2460160336", "keep": true, "why": "Hales-Jewett number bound"}
+{"id": "W2468037275", "keep": false, "why": "prime factors of nj+a^hk, different object"}
+{"id": "W2482483003", "keep": true, "why": "van der Waerden number expansions"}
+{"id": "W2486374927", "keep": true, "why": "Ramsey theory problems, Erdos"}
+{"id": "W2487589995", "keep": true, "why": "Ramsey theory on integers"}
+{"id": "W2530839785", "keep": true, "why": "primitive covering numbers"}
+{"id": "W2531700733", "keep": false, "why": "Jacobsthal function, different object"}
+{"id": "W2536060116", "keep": false, "why": "chromatic conjectures, unrelated"}
+{"id": "W254482520", "keep": false, "why": "Frobenius problem, different object"}
+{"id": "W2546062833", "keep": false, "why": "prime labeling of ladders, unrelated"}
+{"id": "W2577446513", "keep": false, "why": "graphs and hypergraphs book, unrelated"}
+{"id": "W2590444224", "keep": false, "why": "symmetries on groups, unrelated"}
+{"id": "W2601463216", "keep": true, "why": "additive number theory problems"}
+{"id": "W2617014456", "keep": false, "why": "discrepancy of vectors, different object"}
+{"id": "W2618352521", "keep": true, "why": "van der Waerden lower bound"}
+{"id": "W2620155147", "keep": true, "why": "additive combinatorics problems"}
+{"id": "W2625144103", "keep": true, "why": "Erdos-style conjectures, unclear"}
+{"id": "W2738306030", "keep": false, "why": "Ahmes series irrationality, unrelated"}
+{"id": "W2742589421", "keep": true, "why": "hypergraph colourings, vdW-related"}
+{"id": "W2742995112", "keep": true, "why": "vdW games random strategies"}
+{"id": "W2756213202", "keep": true, "why": "nonstandard Ramsey theory"}
+{"id": "W2763139310", "keep": true, "why": "hypergraph colourings, vdW-related"}
+{"id": "W2770557132", "keep": true, "why": "random strategy for vdW games"}
+{"id": "W2791145269", "keep": true, "why": "Erdos sumset conjecture proof"}
+{"id": "W2796931952", "keep": false, "why": "powerful numbers, different object"}
+{"id": "W2804044605", "keep": true, "why": "monochromatic Hilbert cubes and APs"}
+{"id": "W2804235538", "keep": false, "why": "congruence modulo p, unrelated"}
+{"id": "W2887053484", "keep": false, "why": "common divisor sets, different object"}
+{"id": "W2895170202", "keep": true, "why": "cap set and polynomial method, AP-free sets"}
+{"id": "W2895866514", "keep": false, "why": "lattice point distances, unrelated"}
+{"id": "W2897846290", "keep": true, "why": "Sidon sets, related"}
+{"id": "W2900207878", "keep": true, "why": "Hales-Jewett theorem intervals"}
+{"id": "W2914222527", "keep": true, "why": "Erdos-Selfridge covering moduli"}
+{"id": "W2914550559", "keep": true, "why": "hypergraph colourings, Ramsey-type"}
+{"id": "W2919772532", "keep": true, "why": "sumset conjecture proof"}
+{"id": "W2924645350", "keep": true, "why": "property B for hypergraphs"}
+{"id": "W2936249484", "keep": true, "why": "progression-free sets, caps"}
+{"id": "W2936594045", "keep": true, "why": "hypergraph colourings, vdW-related"}
+{"id": "W2938910622", "keep": true, "why": "Erdos covering systems"}
+{"id": "W2943918691", "keep": true, "why": "equal subset sums, related"}
+{"id": "W2945843546", "keep": true, "why": "extremal and enumerative combinatorics"}
+{"id": "W2946048198", "keep": true, "why": "sumset configurations"}
+{"id": "W2949188192", "keep": true, "why": "satisfiability and van der Waerden numbers"}
+{"id": "W2949709867", "keep": true, "why": "thin additive bases, related"}
+{"id": "W2950414063", "keep": true, "why": "Ramsey-type local lemma"}
+{"id": "W2950922715", "keep": true, "why": "Erdos-Szemeredi sum-product"}
+{"id": "W2951402899", "keep": true, "why": "monochromatic progressions in colourings"}
+{"id": "W2952808951", "keep": true, "why": "hypergraph colouring, related"}
+{"id": "W2962958542", "keep": true, "why": "vdW games random strategy"}
+{"id": "W2963087652", "keep": true, "why": "multipass greedy hypergraph colouring"}
+{"id": "W2963410422", "keep": true, "why": "subsets with no k-term AP"}
+{"id": "W2963476552", "keep": true, "why": "Ramsey-type numbers, hypergraphs"}

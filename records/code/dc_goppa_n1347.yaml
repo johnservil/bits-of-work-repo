@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_goppa_n1347"
+class: "code"
+problem: "SD-Goppa"
+instance: "decodingchallenge goppa n=1347 w=25"
+instance_size: 1347
+instance_size_unit: "n"
+log2_ops: 59.0
+method: "Stern-type ISD (BLP 2008 software, \"2+2\" case)"
+structure_exploited: false
+hardware: "Cisco ICS cluster (UCSD), Academia Sinica Fast Crypto Lab, UIC and TU/e machines; solution found on 2x AMD EPYC 7742 node"
+raw_compute: "2^41.7 iterations (predicted average 2^41.6); ~2.3M cycles per iteration on the EPYC node"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2023-02-24"
+solvers: ["Daniel J. Bernstein", "Tanja Lange", "Christiane Peters"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: "2008/318"
+source_url: "https://decodingchallenge.org/goppa/record/26"
+other_urls: ["https://decodingchallenge.org/goppa/halloffame", "https://isd.mceliece.org/1347.html", "https://eprint.iacr.org/2008/318"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 1 - Université de Rennes 1; instances are random parity-check matrices with planted error (not actual Goppa codes); McEliece-like rate/weight; Run by Bernstein using the unmodified PQCrypto 2008 BLP Stern-variant ISD software; credit assigned to BLP. Derived (not stated): 2^41.7 x 2.3e6 cycles ~ 2^62.8 cycles ~ 115 core-years at 2.245 GHz; per-core cycles differ across the clusters used. Announcement page dated 2023-02-26."

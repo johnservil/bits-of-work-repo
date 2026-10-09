@@ -1,0 +1,101 @@
+position,dimension,index,seed,euclidean_norm,contestant,using_ideal_structure,date_as_printed,date,algorithm_notes
+1,180,181,0,3536,"Lin Wang, Huiwen Jia, Leizhang Wang, Xixuan Deng,Yue Cao, Baocang Wang",yes,2024-07-16,2024-07-16,"Platform: CPU AMD EPYC 7H12 64-Core Processor@2.6GHz, RAM 2TB, GPU 8*NVIDIA RTX3090 Reduction with progressive PnJ-BKZ Walltime: 4.3days Sieving Walltime: 20.1days Max RAM used: 547.7541 GB"
+2,176,267,0,3471,"Leizhang Wang, Yuntao Wang, Baocang Wang",yes,2022-12-11,2022-12-11,"Platform: CPU 2*Intel Xeon Gold 5318Y 2.10 GHz Total Cores 24, RAM 1T, GPU 4*NvidiaA100 Pre-processiving: with progressive pnj-BKZ Walltime: 265h 6min 10s, CPU time: 12233h Pump Walltime: 41h 12min 27s, CPU time: 2001h Actual Maximum Sieving Dimension: 140 Max RAM Cost: 586GB Total Walltime: 307h, Total CPU time: 14234h"
+3,172,173,0,3419,"Leizhang Wang, Yuntao Wang, Baocang Wang",yes,2022-11-7,2022-11-07,"Platform: CPU 2*Intel Xeon Gold 5318Y 2.10 GHz Total Cores 24, RAM 512GB, GPU 4*NvidiaA100 Pre-Reduction: with progressive pnj-BKZ Walltime: 88h 26mins 47s, CPU time: 3440h Pump HardwareCPU：AMD EPYC™ 7002 Series 128@2.6GHz RAM：1.5TB GPU：8 * NVIDIA®GeForce®RTX 3090 VRAM：8 * 24GB（936.2 GB/s） system：CentOS7.9 Walltime: 56h"
+4,168,203,0,3414,"Leizhang Wang, Yuntao Wang, Baocang Wang",no,2022-11-6,2022-11-06,"Platform: CPU 2*Intel Xeon Gold 5318Y 2.10 GHz Total Cores 24, RAM 512GB, GPU 4*NvidiaA100 Pre-Reduction: with progressive pnj-BKZ Pump Walltime: 61h 24mins 25s, CPU time: 2860h"
+5,164,249,0,3315,"Renya Hashimoto, Yuntao Wang, Junji Shikata",yes,2026-03-16,2026-03-16,"AMD EPYC 7643 x 2, NVIDIA A100 80GB PCIe x 6, Asynchronous Hybrid BKZ (AH-BKZ) reduction + G6K Pump, max sieving dim 134, wall time 22.17 hours, CPU time 349.04 hours, GPU time 22.14 hours, Peak memory cost 916.68 GiB."
+6,164,249,0,3330,"Leizhang Wang, Yuntao Wang, Baocang Wang",yes,2022-11-6,2022-11-06,"Platform: CPU 2*Intel Xeon Gold 5318Y 2.10 GHz Total Cores 24, RAM 512GB, GPU 4*NvidiaA100 Pre-Reduction: with progressive pnj-BKZ Pump Walltime: 41h 48min 43s, CPU time: 1572h"
+7,162,163,0,3171,"Renya Hashimoto, Yuntao Wang, Junji Shikata",yes,2026-03-17,2026-03-17,"AMD EPYC 7643 x 2, NVIDIA A100 80GB PCIe x 6, Asynchronous Hybrid BKZ (AH-BKZ) reduction + G6K Pump, max sieving dim 130, wall time 10.62 hours, CPU time 256.27 hours, GPU time 10.59 hours, Peak memory cost 518.61 GiB."
+8,162,163,0,3266,"Leizhang Wang, Yuntao Wang, Baocang Wang",yes,2022-10-24,2022-10-24,"Platform: CPU 2*Intel Xeon Gold 5318Y 2.10 GHz Total Cores 24, RAM 512GB, GPU 4*NvidiaA100 Pre-Reduction: with progressive pnj-BKZ Pump Walltime: 33h 44min 40s, CPU time: 1264h"
+9,160,187,0,3328,"Leizhang Wang, Yuntao Wang, Baocang Wang",yes,2022-10-22,2022-10-22,"Platform: CPU 2*Intel Xeon Gold 5318Y 2.10 GHz Total Cores 24, RAM 512GB, GPU 4*NvidiaA100 Pre-Reduction: with progressive pnj-BKZ Pump Walltime: 24h 32min 16s, CPU time: 876h"
+10,156,157,0,3257,"Kazutaka Toda, Yuntao Wang",yes,2026-03-6,2026-03-06,Intel(R) Xeon(R) Gold 6240 CPU @ 2.60GHz NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition
+11,156,157,0,3302,"Leizhang Wang, Yuntao Wang, Baocang Wang",yes,2022-10-21,2022-10-21,"Platform: CPU 2*Intel Xeon Gold 5318Y 2.10 GHz Total Cores 24, RAM 512GB, GPU 4*NvidiaA100 Pre-Reduction: with progressive pnj-BKZ Pump Walltime: 5h 8min 12s, CPU time: 159h"
+12,156,157,0,3305,"Leizhang Wang, Yuntao Wang, Baocang Wang",no,2022-10-21,2022-10-21,
+13,150,151,0,3186,"Renya Hashimoto, Yuntao Wang",yes,2026-02-19,2026-02-19,
+14,150,151,0,3198,the,yes,2025-10-14,2025-10-14,
+15,150,151,0,3199,Rotator,yes,2025-10-14,2025-10-14,
+16,150,151,0,3200,"Xixuan Deng,Huiwen Jia,Leizhang Wang",no,2024-05-16,2024-05-16,g6k-gpu-tensor
+17,150,151,0,3233,Yuga Miyagi; Yuntao Wang; Eiichiro Fujisaki; Tsuyoshi Takagi,yes,2020-02-12,2020-02-12,Caluclateion time about 7570hours. Machine: SGI UV3000 at JAIST @Intel Xeon E5-4655v3 (2.9GHz) . Algorithm : G6K
+18,148,149,0,3161,"Kazutaka Toda, Yuntao Wang",yes,2026-03-2,2026-03-02,Intel(R) Xeon(R) Gold 6240 CPU @ 2.60GHz NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition G6K based Improved Enum-Sieve Reduction (Improved ESR) algorithm wall time 117184 sec CPU time 237828 sec GPU time 9219746 sec Peak memory cost 755049 MB
+19,148,149,0,3207,"Renya Hashimoto, Yuntao Wang",yes,2026-02-19,2026-02-19,
+20,148,149,0,3227,Yuga Miyagi; Yuntao Wang; Eiichiro Fujisaki; Tsuyoshi Takagi,yes,2020-02-2,2020-02-02,Caluclateion time about 7034hours. Machine: SGI UV3000 at JAIST @Intel Xeon E5-4655v3 (2.9GHz) . Algorithm : G6K
+21,144,185,0,3130,"Renya Hashimoto, Yuntao Wang",no,2026-01-23,2026-01-23,"Intel(R) Xeon(R) Platinum 8360Y, NVIDIA A100-SXM4-40GB x 2, Proposed method (Asynchronous Hybrid BKZ) reduction + repeated G6K Pump until the shortest vector is found, max sieving dim 118), wall time 2.75 hours, CPU time 29.61 hours, GPU time 2.73 hours, Peak memory cost 32.50 GiB."
+22,144,185,0,3164,"Yuga Miyagi, Tomohiro Sekiguchi, Eiichiro Fujisaki",no,2019-04-3,2019-04-03,Caluclateion time about 95hours/Singlecore. Machine: SGI UV3000 at JAIST @Intel Xeon E5-4655v3 (2.9GHz) . Algorithm : Seiving
+23,140,213,0,3128,"Renya Hashimoto, Yuntao Wang",no,2026-01-23,2026-01-23,"Intel(R) Xeon(R) Platinum 8360Y, NVIDIA A100-SXM4-40GB x 2, Proposed method (Asynchronous Hybrid BKZ) reduction + repeated G6K Pump until the shortest vector is found, max sieving dim 112), wall time 1.60 hours, CPU time 17.89 hours, GPU time 1.58 hours, Peak memory cost 19.08 GiB."
+24,140,213,0,3132,"Tomohiro Sekiguchi, Yuga Miyagi, Eiichiro Fujisaki",no,2019-04-3,2019-04-03,Caluclateion time about 237hours/Singlecore. Machine: SGI UV3000 at JAIST @Intel Xeon E5-4655v3 (2.9GHz) . Algorithm : Seiving-dim106 (workout [https://github.com/fplll/g6k] )
+25,138,139,0,3014,The Rotator,yes,2019-04-3,2019-04-03,
+26,138,139,0,3015,The Rotator,yes,2019-04-3,2019-04-03,
+27,138,139,0,3016,The Rotator,yes,2019-04-3,2019-04-03,
+28,138,139,0,3019,The Rotator,yes,2019-04-3,2019-04-03,
+29,138,139,0,3020,"Tomohiro Sekiguchi, Yuga Miyagi, Eiichiro Fujisaki",no,2019-04-3,2019-04-03,Caluclateion time about 64hours/Singlecore. Machine: SGI UV3000 at JAIST @Intel Xeon E5-4655v3 (2.9GHz) . Algorithm : Seiving-dim104 (workout [https://github.com/fplll/g6k] )
+30,136,137,5,2975,"Kazutaka Toda, Yuntao Wang",yes,2025-09-20,2025-09-20,Intel(R) Xeon(R) Gold 6240 CPU @ 2.60GHz NVIDIA GeForce RTX 3070 Ti; 810GB RAM G6K based Enum-Sieve Reduction (ESR) algorithm wall time 3593 sec. CPU time 14526 sec. GPU time 3593 sec. Peak memory cost 4693 MB.
+31,136,137,0,3070,The Rotator,yes,2019-04-3,2019-04-03,
+32,136,137,0,3072,The Rotator,yes,2019-04-3,2019-04-03,
+33,136,137,0,3079,"Tomohiro Sekiguchi, Yuga Miyagi, Eiichiro Fujisaki",no,2019-04-3,2019-04-03,"Caluclateion time about 84hours/Singlecore. Machine: SGI UV3000 at JAIST @Intel Xeon E5-4655v3 (2.9GHz) . Algorithm : BKZ-112 using G6K sheme [https://github.com/fplll/g6k] and so on ... BKZ options (--bkz/extra_d4f 12 -bkz/jump 3) , and randomized technique."
+34,132,161,0,3035,"Renya Hashimoto, Yuntao Wang",yes,2026-01-29,2026-01-29,
+35,132,161,0,3048,"Tomohiro Sekiguchi, Eiichiro Fujisaki",no,2019-03-7,2019-03-07,"Caluclateion time about 84hours/Singlecore. Machine: SGI UV3000 at JAIST @Intel Xeon E5-4655v3 (2.9GHz) . Algorithm : BKZ-111 using G6K sheme [https://github.com/fplll/g6k] and so on ... BKZ options (--bkz/extra_d4f 20 -bkz/jump 3) , and randomized technique."
+36,130,131,0,2912,Shang-Yi Yang,yes,2016-04-27,2016-04-27,Sieving with eight Titan X cards. Found in 823 hours.
+37,130,262,0,3000,Jean-Christophe Deneuville,yes,2015-09-4,2015-09-04,
+38,130,262,0,3004,Kenji KASHIWABARA and Tadanori TERUYA,no,2015-09-3,2015-09-03,"calculation time: About 335 hours. machine: CBRC Chimera Cluster System at AIST (shared system). processor: Xeon E5-2695 v3 (2.30GHz). number of cores: 30 cores, algorithm: Original algorithm based on RSR algorithm, developed by Kenji KASHIWABARA, Masaharu FUKASE and Tadanori TERUYA. program: It is written in C++. implemented by Kenji KASHIWABARA and Tadanori TERUYA (AIST). note: No runtime adjustment."
+39,128,510,0,2874,"Renya Hashimoto, Yuntao Wang",yes,2026-02-20,2026-02-20,
+40,128,255,0,2884,"Leizhang Wang, Yuntao Wang",no,2022-10-21,2022-10-21,
+41,128,255,0,2924,Kenji KASHIWABARA and Tadanori TERUYA,no,2015-08-31,2015-08-31,"calculation time: about 127.5 hours machine: CBRC Chimera Cluster System at AIST (shared system) processor: Xeon E5-2695 v3 (2.30GHz) number of cores: 30 cores algorithm: Original algorithm based on RSR algorithm, developed by Kenji KASHIWABARA, Masaharu FUKASE and Tadanori TERUYA. program: written in C++. implemented by Kenji KASHIWABARA and Tadanori TERUYA (AIST). note: no runtime adjustment."
+42,128,256,0,2959,"Tsukasa Ishiguro, Shinsaku Kiyomoto, Yutaka Miyake, Tsuyoshi Takagi",yes,2013-04-11,2013-04-11,
+43,126,127,3,2830,"Kazutaka Toda, Yuntao Wang",yes,2025-09-20,2025-09-20,"Intel(R) Xeon(R) Gold 6240 CPU, 2.60GHz. NVIDIA GeForce RTX 3070 Ti, 810GB RAM. G6K based Enum-Sieve Reduction (ESR) algorithm."
+44,126,127,0,2922,Shang-Yi Yang,yes,2016-02-19,2016-02-19,GPU sieiving
+45,126,127,0,2981,Kenji KASHIWABARA and Tadanori TERUYA,no,2015-08-25,2015-08-25,"calculation time: about 66 hours machine: CBRC Chimera Cluster System at AIST (shared system) processor: Xeon E5-2695 v3 (2.30GHz) number of cores: 30 cores algorithm: Original algorithm based on RSR algorithm, developed by Kenji KASHIWABARA, Masaharu FUKASE and Tadanori TERUYA. program: written in C++. implemented by Kenji KASHIWABARA and Tadanori TERUYA (AIST). note: no runtime adjustment."
+46,120,155,0,2781,"Renya Hashimoto, Yuntao Wang",yes,2026-02-20,2026-02-20,
+47,120,143,0,2788,Kenji KASHIWABARA and Tadanori TERUYA,no,2015-08-21,2015-08-21,"calculation time: about 3.5 hours machine: CBRC Chimera Cluster System at AIST (shared system) processor: Xeon E5-2695 v3 (2.30GHz) number of cores: 20 cores algorithm: Original algorithm based on RSR algorithm, developed by Kenji KASHIWABARA, Masaharu FUKASE and Tadanori TERUYA. program: written in C++. implemented by Kenji KASHIWABARA and Tadanori TERUYA (AIST). note: no runtime adjustment."
+48,116,236,0,2785,"Renya Hashimoto, Yuntao Wang",yes,2026-01-31,2026-01-31,
+49,116,177,0,2822,Walter White,yes,2015-09-14,2015-09-14,Using very advanced sieving techniques in just one day
+50,116,177,0,2844,Kenji KASHIWABARA and Tadanori TERUYA,no,2015-09-14,2015-09-14,"calculation time: about 6.3 hours machine: CBRC Chimera Cluster System at AIST (shared system) processor: Xeon E7-4870 2.40GHz number of cores: 16 core algorithm: Original algorithm based on RSR algorithm, developed by Kenji KASHIWABARA, Masaharu FUKASE and Tadanori TERUYA. program: It is written in C++. implemented by Kenji KASHIWABARA and Tadanori TERUYA (AIST). note: No runtime adjustment."
+51,112,145,0,2672,"Renya Hashimoto, Yuntao Wang",yes,2026-01-31,2026-01-31,
+52,112,113,3,2750,"Kazutaka Toda, Yuntao Wang",yes,2025-09-20,2025-09-20,"Intel(R) Xeon(R) Gold 6240 CPU, 2.60GHz. NVIDIA GeForce RTX 3070 Ti, 810GB RAM. G6K based Enum-Sieve Reduction (ESR) algorithm."
+53,112,113,0,2763,Shang-Yi Yang,yes,2015-05-26,2015-05-26,
+54,110,242,0,2663,"Renya Hashimoto, Yuntao Wang",yes,2026-01-31,2026-01-31,
+55,110,121,0,2671,Kenji KASHIWABARA and Tadanori TERUYA,no,2015-09-10,2015-09-10,"calculation time: about 151.7 hours machine: CBRC Chimera Cluster System at AIST (shared system) processor: Xeon E5-2695 v3 (2.30GHz) number of cores: 1 core algorithm: Original algorithm based on RSR algorithm, developed by Kenji KASHIWABARA, Masaharu FUKASE and Tadanori TERUYA. program: It is written in C++. implemented by Kenji KASHIWABARA and Tadanori TERUYA (AIST). note: No runtime adjustment."
+56,110,121,0,2712,Jean-Christophe Deneuville,yes,2015-09-8,2015-09-08,
+57,110,121,0,2717,Kenji KASHIWABARA and Tadanori TERUYA,no,2015-09-8,2015-09-08,"calculation time: about 94.9 hours machine: CBRC Chimera Cluster System at AIST (shared system) processor: Xeon E5-2695 v3 (2.30GHz) number of cores: 1 core algorithm: Original algorithm based on RSR algorithm, developed by Kenji KASHIWABARA, Masaharu FUKASE and Tadanori TERUYA. program: It is written in C++. implemented by Kenji KASHIWABARA and Tadanori TERUYA (AIST). note: No runtime adjustment."
+58,110,121,0,2734,Kenji KASHIWABARA and Tadanori TERUYA,no,2015-09-8,2015-09-08,"calculation time: about 45.8 hours machine: CBRC Chimera Cluster System at AIST (shared system) processor: Xeon E5-2695 v3 (2.30GHz) number of cores: 1 core algorithm: Original algorithm based on RSR algorithm, developed by Kenji KASHIWABARA, Masaharu FUKASE and Tadanori TERUYA. program: It is written in C++. implemented by Kenji KASHIWABARA and Tadanori TERUYA (AIST). note: No runtime adjustment."
+59,110,121,0,2749,Kenji KASHIWABARA and Tadanori TERUYA,no,2015-08-21,2015-08-21,"calculation time: about 9.5 hours machine: CBRC Chimera Cluster System at AIST (shared system) processor: Xeon E5-2695 v3 (2.30GHz) number of cores: 10 cores algorithm: Original algorithm based on RSR algorithm, developed by Kenji KASHIWABARA, Masaharu FUKASE and Tadanori TERUYA. program: written in C++. implemented by Kenji KASHIWABARA and Tadanori TERUYA (AIST). note: no runtime adjustment."
+60,110,121,0,2787,Yoshinori Aono and Phong Nguyen,yes,2015-06-2,2015-06-02,"BKZ+ENUM, about 4 single-core hours"
+61,108,378,0,2657,"Renya Hashimoto, Yuntao Wang",yes,2026-02-25,2026-02-25,"Intel(R) Xeon(R) Platinum 8360Y, NVIDIA A100-SXM4-40GB x 4, Proposed method (Asynchronous Hybrid BKZ) reduction + repeated G6K Pump until the shortest vector is found, max sieving dim 82), wall time 0.06 hours, CPU time 0.23 hours, GPU time 0.06 hours, Peak memory cost 2.81 GiB."
+62,108,324,0,2669,"Tsukasa Ishiguro, Shinsaku Kiyomoto, Yutaka Miyake, Tsuyoshi Takagi",yes,2013-03-8,2013-03-08,
+63,106,107,0,2565,Shang-Yi Yang,yes,2015-04-27,2015-04-27,37h
+64,104,318,0,2620,"Wen-Ding Li, Po-Chun Kuo",no,2018-03-31,2018-03-31,gpu sieve 343 minutes
+65,104,212,0,2655,Jean-Christophe Deneuville,yes,2015-08-9,2015-08-09,
+66,102,103,0,2625,Jean-Christophe Deneuville,yes,2015-08-19,2015-08-19,
+67,102,103,0,2630,Jean-Christophe Deneuville,yes,2015-08-9,2015-08-09,
+68,102,103,0,2663,Jean-Christophe Deneuville,yes,2015-04-30,2015-04-30,
+69,102,103,0,2670,Usatyuk Vasiliy,no,2013-07-17,2013-07-17,"Phenom 965 X4 2267325 s, full reduced basis by BKZ B=87, Schnorr pruning p=21"
+70,100,125,0,2559,Ziyu Zhao,no,2022-05-10,2022-05-10,
+71,100,202,0,2564,Jean-Christophe Deneuville,yes,2015-08-19,2015-08-19,
+72,100,125,0,2572,Jean-Christophe Deneuville,yes,2015-08-9,2015-08-09,
+73,100,202,0,2638,Jean-Christophe Deneuville,yes,2015-04-30,2015-04-30,
+74,100,202,0,2660,"Po-Chun Kuo, Po-Hsiang Hao",no,2013-02-21,2013-02-21,
+75,96,336,0,2408,Jean-Christophe Deneuville,yes,2015-07-7,2015-07-07,
+76,96,119,0,2477,Shang-Yi Yang,no,2015-02-17,2015-02-17,GPU Sieving 45336s
+77,96,288,0,2493,"Tsukasa Ishiguro, Shinsaku Kiyomoto, Yutaka Miyake, Tsuyoshi Takagi",yes,2013-02-20,2013-02-20,
+78,92,188,0,2464,Ziyu Zhao,no,2022-05-10,2022-05-10,"i submit this vector in 2022-1-13 but it disappeared from the hall of fame list now, it seems some error may happened...."
+79,92,282,0,2480,"Wen-Ding Li, Po-Chun Kuo",no,2018-03-30,2018-03-30,gpu sieve
+80,92,282,0,2516,"Wen-Ding Li, Po-Chun Kuo",no,2018-03-30,2018-03-30,gpu sieve
+81,92,188,0,2529,Jean-Christophe Deneuville,yes,2015-04-30,2015-04-30,
+82,92,188,0,2534,"Po-Chun Kuo, Po-Hsiang Hao",no,2013-02-10,2013-02-10,
+83,88,115,0,2419,Jean-Christophe Deneuville,yes,2015-07-31,2015-07-31,
+84,88,184,0,2433,Jean-Christophe Deneuville,yes,2015-06-4,2015-06-04,
+85,88,89,0,2482,"Tsukasa Ishiguro, Shinsaku Kiyomoto, Yutaka Miyake, Tsuyoshi Takagi",no,2013-02-8,2013-02-08,Sieving Algtorithm. Found this vector after 9hour.
+86,84,129,0,2263,Jean-Christophe Deneuville,yes,2015-05-1,2015-05-01,
+87,82,83,0,2385,Usatyuk Vasiliy,no,2013-02-8,2013-02-08,BKZ-38
+88,80,220,0,2228,"Tsukasa Ishiguro, Shinsaku Kiyomoto, Yutaka Miyake, Tsuyoshi Takagi",no,2013-02-8,2013-02-08,Found this vector after 1hour using sieving algtorithm.
+89,78,79,0,2321,Jean-Christophe Deneuville,yes,2015-05-1,2015-05-01,
+90,72,182,0,2118,Jean-Christophe Deneuville,yes,2015-06-3,2015-06-03,
+91,72,222,0,2145,Jean-Christophe Deneuville,yes,2015-04-30,2015-04-30,
+92,66,67,0,2191,T. Plantard and M. Schneider,no,2012-12-13,2012-12-13,Enumeration with BKZ30 pre-reduction
+93,64,128,88,2038,"Anja Becker, Thijs Laarrhoven",yes,2015-05-4,2015-05-04,new sieve
+94,64,160,0,2043,Shang-Yi Yang,no,2014-06-4,2014-06-04,"43s, GPU"
+95,64,160,0,2054,"Özgür Dagdelen, Artur Mariano",no,2014-05-7,2014-05-07,BKZ
+96,64,160,0,2057,"Bal Khadka, Spyros Magliveras",yes,2013-11-27,2013-11-27,It took around 1405 seconds using a general pc. We used lofos reduction with the help of NTL. Our program is written in APL language. It. dim-64 index 160 seed 0 euclidean norm is 2056.9
+97,60,93,0,2015,Jean-Christophe Deneuville,yes,2015-06-3,2015-06-03,
+98,60,186,0,2029,Jean-Christophe Deneuville,yes,2015-04-30,2015-04-30,
+99,56,87,0,1941,Jean-Christophe Deneuville,yes,2015-04-30,2015-04-30,
+100,54,81,0,1937,Jean-Christophe Deneuville,yes,2015-04-30,2015-04-30,

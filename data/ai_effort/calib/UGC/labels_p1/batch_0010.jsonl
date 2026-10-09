@@ -1,0 +1,40 @@
+{"id": "W2151679746", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "hypergraph small set expansion algorithms"}
+{"id": "W2152128484", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "three-prover systems"}
+{"id": "W2152266716", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "entangled-prover unique games, SDP approximation"}
+{"id": "W2152394048", "include": "borderline", "category": "C", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "small-set isoperimetry of Cayley-type graphs"}
+{"id": "W2152490496", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for hardness"}
+{"id": "W2152769037", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "virus inoculation game"}
+{"id": "W2153689539", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max 2SAT algorithms"}
+{"id": "W2153822379", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "partitioning oracles"}
+{"id": "W2154276597", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "PCP query complexity"}
+{"id": "W2154297841", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "thesis on conditional inapproximability, UGC assumed"}
+{"id": "W2154380126", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "topological expanders"}
+{"id": "W2154386769", "include": "borderline", "category": "F", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "odd cycle games under parallel repetition, motivated by UGC"}
+{"id": "W2154673147", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "harmonic analysis on slice"}
+{"id": "W2154876245", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Euclidean distortion sparsest cut"}
+{"id": "W2155188403", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "rounding for CSPs including unique games"}
+{"id": "W2155618818", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "unique games on expanders are easy"}
+{"id": "W2156747735", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP lower bounds for vertex cover"}
+{"id": "W2156792066", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Lasserre approximation framework"}
+{"id": "W2156867528", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multi-prover protocols"}
+{"id": "W2157316274", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut hardness"}
+{"id": "W2158907148", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "metrics textbook"}
+{"id": "W2159113540", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "linear equations subsystems"}
+{"id": "W2159363909", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "monogamy game"}
+{"id": "W2159431940", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LS rank bounds"}
+{"id": "W2160033075", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph coloring hardness"}
+{"id": "W2160295603", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max-Cut algebraic"}
+{"id": "W2161066177", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "noise sensitivity random graphs"}
+{"id": "W2161185760", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "SDP hierarchy solvers"}
+{"id": "W2161666429", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "direct product testing"}
+{"id": "W2161719898", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for multicut hardness"}
+{"id": "W2161737792", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "2-CSP approximation"}
+{"id": "W2162117620", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "noise correlation bounds"}
+{"id": "W2162312882", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "derandomized parallel repetition"}
+{"id": "W2162703074", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS proof size"}
+{"id": "W2162746978", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "short long code with applications to UGC and small-set expansion"}
+{"id": "W2162784288", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "random predicate resistance"}
+{"id": "W2162910736", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Grothendieck constant"}
+{"id": "W2163010692", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "correlation distillation"}
+{"id": "W2163430289", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "approximation resistance without d-to-1"}
+{"id": "W2163710432", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "two-prover success probability"}

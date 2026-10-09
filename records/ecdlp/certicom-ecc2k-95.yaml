@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "certicom-ecc2k-95"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "Certicom ECC2K-95 (Koblitz curve over F_2^97)"
+instance_size: 95.0
+instance_size_unit: "bits"
+log2_ops: 44.3
+method: "parallel Pollard rho on orbits of negation and Frobenius (classes of 194 points)"
+structure_exploited: true
+hardware: null
+raw_compute: "~2.16e13 iterations, 74,268 DPs; 1,709 Alpha-500MHz machine-days"
+reported_core_years: 4.68
+gpu_years: null
+wall_time_days: null
+date: "1998-05-21"
+solvers: ["Robert J. Harley", "group of about 47 people"]
+academic: true
+challenge: "Certicom"
+extrapolation: null
+paper: null
+source_url: "https://www.certicom.com/content/dam/certicom/images/pdfs/challenge-2009.pdf"
+other_urls: ["http://pauillac.inria.fr/~harley/ecdl/"]
+confidence: 0.85
+verified: false
+notes: "Certicom table: machine-days on one 500 MHz Alpha (single-machine equivalent); core-years = machine-days/365.25. instance_size = log2(n) from Certicom appendix. Iteration count reduced by working on Frobenius/negation orbits."

@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "certicom-eccp-89"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "Certicom ECCp-89 (curve over 89-bit prime field)"
+instance_size: 88.43
+instance_size_unit: "bits"
+log2_ops: 44.46
+method: "parallel Pollard rho (distinguished points)"
+structure_exploited: false
+hardware: null
+raw_compute: "24,249,418,904,337 iterations, 36,345 DPs; 716 Alpha-500MHz machine-days"
+reported_core_years: 1.96
+gpu_years: null
+wall_time_days: null
+date: "1998-01-12"
+solvers: ["Robert J. Harley", "group of about 57 people"]
+academic: true
+challenge: "Certicom"
+extrapolation: null
+paper: null
+source_url: "https://www.certicom.com/content/dam/certicom/images/pdfs/challenge-2009.pdf"
+other_urls: ["http://pauillac.inria.fr/~harley/ecdl/"]
+confidence: 0.85
+verified: false
+notes: "Certicom table: machine-days on one 500 MHz Alpha (single-machine equivalent); core-years = machine-days/365.25. instance_size = log2(n) from Certicom appendix."

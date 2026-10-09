@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "certicom-ecc2k-108"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "Certicom ECC2K-108 (Koblitz curve over F_2^109)"
+instance_size: 108.0
+instance_size_unit: "bits"
+log2_ops: 51.03
+method: "parallel Pollard rho on Frobenius/negation orbits"
+structure_exploited: true
+hardware: "volunteer PCs/workstations (>3,500 machines per Harley Jan 2000; ~9,500 PCs per later slides)"
+raw_compute: "2.3e15 iterations, 2.05 million DPs; 166,000 Alpha-500MHz machine-days"
+reported_core_years: 454.48
+gpu_years: null
+wall_time_days: 126
+date: "2000-04-04"
+solvers: ["Robert J. Harley", "group of about 1300 people"]
+academic: true
+challenge: "Certicom"
+extrapolation: null
+paper: null
+source_url: "https://www.certicom.com/content/dam/certicom/images/pdfs/challenge-2009.pdf"
+other_urls: ["http://pauillac.inria.fr/~harley/ecdl/", "http://pauillac.inria.fr/~harley/ecdl7/readMe.html", "https://www.imsc.res.in/~ecc14/slides/wenger.pdf"]
+confidence: 0.8
+verified: false
+notes: "Certicom table: machine-days on one 500 MHz Alpha (single-machine equivalent); core-years = machine-days/365.25. instance_size = log2(n) from Certicom appendix. Harley's page (Jan 2000 update): >1,000 people, >3,500 machines. Wenger-Wolfger 2014 slides say 9,500 PCs in 126 days (secondary, unconfirmed)."

@@ -1,0 +1,25 @@
+id: "ideal_svp_d66_20121213_plantard"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge SVP dim 66 (index 67)"
+instance_size: 66
+instance_size_unit: "dim"
+log2_ops: null
+method: "BKZ-30 + enumeration"
+structure_exploited: false
+hardware: null
+raw_compute: "enumeration with BKZ30 pre-reduction (time not stated)"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2012-12-13"
+solvers: ["T. Plantard", "M. Schneider"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (SVP HoF)"
+extrapolation: null
+paper: "ePrint 2013/039"
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/svphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php", "https://eprint.iacr.org/2013/039"]
+confidence: 0.85
+verified: false
+notes: "Ideal Lattice Challenge (Plantard-Schneider): random ideal lattices from cyclotomic polynomials; SVP HoF threshold is a Gaussian-heuristic-based bound (formula shown as image on site), so this is approx-SVP near GH, not proven exact SVP. Record progression entry (new max dimension). HoF: cyclotomic index 67, seed 0, norm 2191, 'using ideal structure' = no."

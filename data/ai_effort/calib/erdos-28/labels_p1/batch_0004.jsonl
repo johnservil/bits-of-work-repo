@@ -1,0 +1,40 @@
+{"id": "W2950922715", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Erdos-Szemeredi sum-product, unrelated"}
+{"id": "W2952362912", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "graph colourings and multiplicative Sidon sets, unrelated"}
+{"id": "W2953338348", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "growth of k-regular sequences, unrelated"}
+{"id": "W2964105244", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "complexity of solution-free sets, unrelated"}
+{"id": "W2964161671", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "complexity of solution-free sets, unrelated"}
+{"id": "W2977273815", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "number theory day proceedings, unrelated"}
+{"id": "W3015097626", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "L-functions and sum-free sets, unrelated"}
+{"id": "W3098022636", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsets, different Erdos problem"}
+{"id": "W3120586469", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "ultrafilter Ramsey exposition, unrelated"}
+{"id": "W3133489831", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Nicholson conjecture prime gaps, unrelated"}
+{"id": "W3150381009", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "general number theory textbook"}
+{"id": "W3158628378", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "density of sumsets with a null-density set, different problem"}
+{"id": "W3158858093", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "subset sums and complete sequences, different problems of Burr and Erdos"}
+{"id": "W3162906474", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "B_k[g] set sizes, Sidon-type problem, unrelated"}
+{"id": "W32684306", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "additively differing numbers, unrelated"}
+{"id": "W37379289", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "abelian group combinatorics, unrelated"}
+{"id": "W4205533240", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "ultrafilter Ramsey exposition, unrelated"}
+{"id": "W4210663278", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Erdos favourite problems survey, seed; may state the problem"}
+{"id": "W4212884688", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Erdos problems and results in combinatorial number theory, seed"}
+{"id": "W4212934326", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Guy None of the Above chapter, unrelated"}
+{"id": "W4231447687", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "introduction to Guy problem book"}
+{"id": "W4231475697", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsequences, unrelated"}
+{"id": "W4232463701", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Halberstam-Roth Sequences book chapter, general"}
+{"id": "W4232674971", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "references list of probabilistic method book"}
+{"id": "W4234117750", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Roth sets of integers II, unclear"}
+{"id": "W4234963553", "include": "borderline", "category": "G", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Moser on additive completion of sets, may relate to bases with few representations"}
+{"id": "W4236097013", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsequences, unrelated"}
+{"id": "W4236705909", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "introduction to Guy problem book"}
+{"id": "W4241085666", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture, unrelated"}
+{"id": "W4241320688", "include": "borderline", "category": "S", "weight": 0.15, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos problems in additive number theory, seed; likely discusses bases and representation functions"}
+{"id": "W4243095886", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Erdos extremal problems on progressions, different problem"}
+{"id": "W4243491582", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free partitions, unrelated"}
+{"id": "W4244591610", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-product, unrelated"}
+{"id": "W4245912398", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Hanani question in additive number theory, unrelated"}
+{"id": "W4250696117", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "maximal sum-free sets in groups, unrelated"}
+{"id": "W4253784147", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture, unrelated"}
+{"id": "W4253793592", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsequences, unrelated"}
+{"id": "W4254284286", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "B2 sequences, Sidon-type, unrelated"}
+{"id": "W4302383489", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Guy unsolved problems book; may contain the problem"}
+{"id": "W4376878199", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "infinite sumsets in dense sets, different problem"}

@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "certicom-eccp-79"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "Certicom ECCp-79 (curve over 79-bit prime field)"
+instance_size: 78.63
+instance_size_unit: "bits"
+log2_ops: 40.35
+method: "parallel Pollard rho with Brent-type cycle finding"
+structure_exploited: false
+hardware: null
+raw_compute: "1.4e12 iterations; 52 Alpha-500MHz machine-days"
+reported_core_years: 0.14
+gpu_years: null
+wall_time_days: null
+date: "1997-12-06"
+solvers: ["W. Baisley", "Robert J. Harley"]
+academic: true
+challenge: "Certicom"
+extrapolation: null
+paper: null
+source_url: "https://www.certicom.com/content/dam/certicom/images/pdfs/challenge-2009.pdf"
+other_urls: ["http://pauillac.inria.fr/~harley/ecdl/"]
+confidence: 0.85
+verified: false
+notes: "Certicom table: machine-days on one 500 MHz Alpha (single-machine equivalent); core-years = machine-days/365.25. instance_size = log2(n) from Certicom appendix. Sec. 6.2 table prints 1.4e11 ops; Sec. 6 table and 6.1.7 give 1.4e12 (used here)."

@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "btc-puzzle-125"
+class: "ecdlp"
+problem: "interval-ECDLP"
+instance: "secp256k1 key in [2^124, 2^125) (Bitcoin puzzle #125)"
+instance_size: 124
+instance_size_unit: "bits"
+log2_ops: null
+method: "Pollard kangaroo (solver's own GPU code; details not published)"
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2023-07-09"
+solvers: ["RetiredCoder"]
+academic: false
+challenge: "Bitcoin puzzle #125"
+extrapolation: null
+paper: null
+source_url: "https://raw.githubusercontent.com/agntn/puzzles/main/src/collections/bits/125.ts"
+other_urls: ["https://github.com/RetiredC", "https://bitcointalk.org/index.php?topic=5517607.0", "https://privatekeys.pw/puzzles/bitcoin-puzzle-tx"]
+confidence: 0.6
+verified: false
+notes: "Date = claim tx (25427dc1...). RetiredCoder's GitHub claims #120/#125/#130/#135; no hardware/time published for this one."

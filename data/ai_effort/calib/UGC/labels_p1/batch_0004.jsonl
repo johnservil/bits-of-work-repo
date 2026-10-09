@@ -1,0 +1,40 @@
+{"id": "W1998923931", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Bobkov inequality"}
+{"id": "W1999144970", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "CSP reoptimization"}
+{"id": "W1999590989", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "symmetric LP/SDP power, no UG angle"}
+{"id": "W1999705592", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "direct product testers"}
+{"id": "W1999797449", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "UGC hardness threshold of Grothendieck problem, assumes UGC"}
+{"id": "W1999877046", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "expansion profile approximation and local clustering, SSE-related"}
+{"id": "W2000835972", "include": "borderline", "category": "F", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "simplifies L1 embedding lower bounds for negative type metrics"}
+{"id": "W2002443286", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "vertex expansion complexity, SSE as assumption"}
+{"id": "W2002617302", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "cut cone relaxations"}
+{"id": "W2003159902", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "low-degree test PCP"}
+{"id": "W2003866002", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "UGC-based CSP approximability, LP angle"}
+{"id": "W2004012902", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multilayered PCP vertex cover"}
+{"id": "W2004804919", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "conditional hardness assuming 2-to-1 conjecture"}
+{"id": "W2004879152", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "improved Cheeger inequality"}
+{"id": "W2005090831", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Fourier spectrum"}
+{"id": "W2006271461", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for approximation resistance"}
+{"id": "W2007239493", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LS hierarchy nonapproximability"}
+{"id": "W2007997869", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "parallel repetition theorem"}
+{"id": "W2008724760", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "conditional hardness 3-CSP"}
+{"id": "W2010471713", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "betweenness geometry"}
+{"id": "W2010511039", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "kernel clustering Grothendieck"}
+{"id": "W2010886177", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "PCP outer verifier"}
+{"id": "W2012464972", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semirandom graph problems"}
+{"id": "W2012723916", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "derandomized parallel repetition"}
+{"id": "W2012833704", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "locality sensitive hashing"}
+{"id": "W2014079391", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "max-cut spectral"}
+{"id": "W2014323766", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "approximation algorithm for unique games"}
+{"id": "W2016232593", "include": "borderline", "category": "G", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "early two-prover proof systems, indirect to UG"}
+{"id": "W2016580234", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "no-signaling repetition"}
+{"id": "W2018655187", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "proof system rank gaps"}
+{"id": "W2018925011", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "polynomial robustness"}
+{"id": "W2019404063", "include": "yes", "category": "G", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "graph expansion, small-set expansion and unique games conjecture"}
+{"id": "W2020632401", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "ARV expander flows"}
+{"id": "W2022749269", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Positivstellensatz degree bound"}
+{"id": "W2023546589", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LS hierarchy gaps for vertex cover"}
+{"id": "W2024520830", "include": "yes", "category": "A", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "unique games with negative weights"}
+{"id": "W2025392770", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "inoculation strategies"}
+{"id": "W2027020884", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "SDP for linear equations mod p, UG special case"}
+{"id": "W2027107615", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled provers"}
+{"id": "W2028085501", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "SoS lower bounds pairwise independence CSP"}

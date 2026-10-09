@@ -1,0 +1,164 @@
+{
+ "_comment": "Records normalization config. Decisions (user 2026-10-09): log2(ops) is the primary frontier metric; core-year equivalents only for totals, as low/high ranges; totals over record-setting solves only; Bitcoin-puzzle compute reported separately. Factors are deliberately coarse. Target and slope values are sourced in analysis/normalization_sources.json (research 2026-10-09); method and rationale in analysis/normalization_method.md.",
+ "cpu_core_year_by_era": {
+  "_unit": "2020 core-year equivalents per CPU core-year, by year of the computation",
+  "1990": [
+   0.01,
+   0.03
+  ],
+  "1995": [
+   0.03,
+   0.06
+  ],
+  "2000": [
+   0.08,
+   0.15
+  ],
+  "2005": [
+   0.25,
+   0.4
+  ],
+  "2010": [
+   0.5,
+   0.7
+  ],
+  "2015": [
+   0.8,
+   0.9
+  ],
+  "2020": [
+   1.0,
+   1.0
+  ]
+ },
+ "device_year": {
+  "_unit": "2020 core-year equivalents per device-year (workload-specific)",
+  "gpu:lattice": [
+   100,
+   500
+  ],
+  "gpu:ecdlp": [
+   50,
+   200
+  ],
+  "gpu:code": [
+   20,
+   100
+  ],
+  "gpu:factoring": [
+   300,
+   600
+  ],
+  "gpu:other": [
+   20,
+   500
+  ],
+  "ps3:ecdlp": [
+   3,
+   8
+  ],
+  "fpga:ecdlp": [
+   2,
+   10
+  ],
+  "_fpga_note": "FPGA throughput is very workload-specific; prefer iteration counts where available"
+ },
+ "mips_year": [
+  2e-05,
+  5e-05
+ ],
+ "certicom_machine_day_in_core_days_1995": [
+  0.03,
+  0.07
+ ],
+ "lattice_model": {
+  "native_unit": "sieving dimension: frontier = solver-reported max sieving dimension of the record SVP-challenge solve (else d - d/ln d); targets = spec refined-primal sieving dimension beta'",
+  "slope_low": 0.292,
+  "slope_low_note": "asymptotic BDGL classical sieving exponent (NIST core-SVP convention)",
+  "slope_high": 0.367,
+  "slope_high_note": "Ducas-Stevens-van Woerden 2021 (EUROCRYPT), Fig. 7(b) triple_gpu fit 2^(0.367 n - 37.15) s, sieving dims 121-140; records' FLOP counts (their Table 1, max sieving dims 127-150) give 0.365. Our own fit over 2018-2026 records (0.18) was rejected as confounded by hardware/algorithm progress.",
+  "per_sieve_note": "Gaps are per sieve call; the full primal attack adds roughly 2^9 for ML-KEM-512 (spec)."
+ },
+ "targets": {
+  "ECDLP": [
+   {
+    "name": "P-256 / secp256k1 (generic rho, 0.886 sqrt(l) additions)",
+    "native": 256,
+    "unit": "bits",
+    "log2_ops": 127.8,
+    "source": "SafeCurves rho page"
+   }
+  ],
+  "lattice": [
+   {
+    "name": "ML-KEM-512",
+    "native": 375,
+    "unit": "sieving dim beta'",
+    "beta": 413,
+    "log2_core_svp": 118,
+    "log2_gates": 151.5,
+    "log2_gates_note": "+-2^16 per spec",
+    "estimator_default_log2": 143.8,
+    "source": "Kyber round-3 spec v3.02 Table 4; lattice-estimator README"
+   },
+   {
+    "name": "ML-KEM-768",
+    "native": 586,
+    "unit": "sieving dim beta'",
+    "beta": 637,
+    "log2_core_svp": 183,
+    "log2_gates": 215.1,
+    "source": "Kyber round-3 spec v3.02 Table 4"
+   },
+   {
+    "name": "ML-KEM-1024",
+    "native": 829,
+    "unit": "sieving dim beta'",
+    "beta": 894,
+    "log2_core_svp": 256,
+    "log2_gates": 287.3,
+    "source": "Kyber round-3 spec v3.02 Table 4"
+   }
+  ],
+  "code": [
+   {
+    "name": "mceliece348864",
+    "track": "SD-Goppa",
+    "native": 3488,
+    "unit": "n",
+    "site_scale_proxy": {
+     "n": 3471,
+     "log2": 142,
+     "note": "decodingchallenge Goppa-track instance nearest to 348864, same model as the frontier tooltips (n x Dumer workfactor via CaWoF)"
+    },
+    "log2_advanced_isd": {
+     "sqrt_memory": 158.6,
+     "constant_memory": 141
+    },
+    "source": "decodingchallenge.org; Classic McEliece team NIST comment 2021-11-19 (Syndrome Decoding Estimator); Wu-Zhuang arXiv 2209.06656"
+   },
+   {
+    "name": "HQC-128",
+    "track": "SD-QC",
+    "native": 17669,
+    "unit": "n",
+    "prange_log2": 132.4,
+    "qc_discount_bits": 7,
+    "frontier_prange_log2": 64.7,
+    "log2_advanced_isd": {
+     "constant_memory": 145
+    },
+    "source": "derived Prange iteration counts (normalization_sources.json); Wu-Zhuang arXiv 2209.06656"
+   }
+  ],
+  "comparator": [
+   {
+    "name": "RSA-2048",
+    "native": 2048,
+    "unit": "bits",
+    "log2_ops": 112,
+    "source": "NIST SP 800-57 Part 1 Rev. 5, Table 2"
+   }
+  ]
+ }
+}
