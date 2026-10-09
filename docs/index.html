@@ -292,6 +292,7 @@
   <figure class="fig" id="fig-budget">
     <div class="fig-head"><div class="fig-title">Budget explorer</div>
       <div class="seg" data-ctl="preset"><button data-v="1">1&times;</button><button data-v="10" aria-pressed="true">10&times;</button><button data-v="100">100&times;</button></div>
+      <div class="seg" data-ctl="unit" aria-label="Budget chart units"><button data-v="usd" aria-pressed="true">dollars</button><button data-v="tokens" aria-pressed="false">reference tokens</button></div>
     </div>
     <div class="explorer">
       <div class="panel">
@@ -305,9 +306,10 @@
           <input type="range" id="ctl-c" min="100000" max="500000" step="10000" value="250000">
         </div>
         <div class="ctl">
-          <label for="ctl-p"><span>price per M tokens</span> <span class="v" data-out="p"></span></label>
-          <input type="range" id="ctl-p" min="0" max="2" step="0.01" value="1">
-          <div class="hint">hypothetical blended price, for token equivalents only</div>
+          <label for="ctl-p"><span>price per million tokens</span> <span class="v" data-out="p"></span></label>
+          <input type="range" id="ctl-p" min="0" max="2" step="0.01" value="1" aria-describedby="token-price-hint">
+          <div class="hint" id="token-price-hint">Hypothetical blended price. Changes token totals, not dollar budgets. Select “reference tokens” to see the chart move.</div>
+          <output class="token-total" aria-live="polite" aria-atomic="true"><strong data-out="tokens"></strong><span data-out="token-calculation"></span></output>
         </div>
         <div class="formula" data-out="formula"></div>
       </div>
@@ -316,7 +318,8 @@
     <figcaption>Scenario budgets using the unadjusted output-share estimates above, with reference tokens at a hypothetical
       blended price. These are sensitivity cases, not predictions of attack cost. Human supervision, verification,
       model training and tool compute are outside the inference allowance. The HAWK marker is a disclosed discovery
-      budget, not a calibration of the multiplier.</figcaption>
+      budget, not a calibration of the multiplier. In the token view, that marker converts the same dollars at the
+      selected price; it is not HAWK's reported token usage. Both axes stay fixed as the sliders move.</figcaption>
   </figure>
   <p>Read in reverse, a $100,000 inference budget represents <strong>0.4, 4 or 40 assumed human-year equivalents</strong>
     at 1&times;, 10&times; or 100&times;. These are assigned equivalents, not observed labor displaced by AI.

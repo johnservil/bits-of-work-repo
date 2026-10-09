@@ -32,7 +32,7 @@
     <p>This is the audit trail behind the summary. It describes what the code actually does, where the inputs come from,
       and where the interpretation goes beyond the evidence. It preserves known discrepancies rather than presenting
       an idealized method. The data and code links below are pinned to repository snapshot
-      <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/2525642">2525642</a>.
+      <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/snapshot-2525642">2525642</a>.
       The corpus and labor sections document that snapshot; they do not report a new classification or re-estimation run.
       The <a href="#attack-history">algorithmic-history section</a> is a later, separately sourced addition.</p>
   </section>
@@ -86,9 +86,9 @@
   Non-Latin titles can be poorly represented. A long abstract need not be the correct abstract. DBLP's early position
   in acquisition affects which author/venue metadata survive. These decisions propagate into both counts and identities.</p>
 <p class="method-source">Inspect:
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/phase1_report.md">acquisition report</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/merge_sources.py">source merge</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/candidates.py">screening rules</a>.</p>
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/phase1_report.md">acquisition report</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/merge_sources.py">source merge</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/candidates.py">screening rules</a>.</p>
 </section>
 
 <section class="section" id="classification" data-short="Classification">
@@ -127,9 +127,9 @@
   confidence ≥0.6 sensitivity view do not establish mathematical correctness. A documented manual exclusion removes
   a particular 2026 “Module Lattice Security” series; it is not evidence of systematic human validation of the rest.</p>
 <p class="method-source">Inspect:
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/rubric.md">full rubric and examples</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/manual_exclusions.json">manual exclusion ledger</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/scope_audit/bounded_review.json">bounded scope audit</a>.</p>
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/rubric.md">full rubric and examples</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/data/manual_exclusions.json">manual exclusion ledger</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/scope_audit/bounded_review.json">bounded scope audit</a>.</p>
 </section>
 
 <section class="section" id="counting" data-short="Counting">
@@ -177,10 +177,10 @@
 <p>The often-quoted lattice/ECDLP span of roughly 1.3–2.6 mixes author counts, paper counts, source restrictions and
   sampling assumptions. Its endpoints are not uncertainty quantiles for one well-defined estimator.</p>
 <p class="method-source">Inspect:
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/attribution.json">attribution map</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/phase1_counts.py">counting implementation</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/export_combined.py">export rules</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/export/combined_included.csv">record-level export</a>.</p>
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/attribution.json">attribution map</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/phase1_counts.py">counting implementation</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/export_combined.py">export rules</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/data/export/combined_included.csv">record-level export</a>.</p>
 </section>
 
 <section class="section" id="validation" data-short="Validation">
@@ -204,11 +204,11 @@
   benchmark itself helped motivate the broader second-round screen. Source bias and shared citation neighborhoods
   remain. The documented systematic human spot-check of corpus labels has not been completed.</p>
 <p class="method-source">Inspect:
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/make_pass2.py">second-pass prompts</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/merge_pass2.py">agreement calculation</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/phase1_agreement.txt">round-one audit</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/round2_agreement.txt">round-two audit</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/recall_benchmark.md">reference-list benchmark</a>.</p>
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/make_pass2.py">second-pass prompts</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/merge_pass2.py">agreement calculation</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/phase1_agreement.txt">round-one audit</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/round2_agreement.txt">round-two audit</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/recall_benchmark.md">reference-list benchmark</a>.</p>
 </section>
 
 <section class="section" id="labor" data-short="Author model">
@@ -253,10 +253,10 @@
   been established: the ignored raw DBLP match/profile caches needed for an exact rerun are absent from this
   checkout. The baseline exports remain the source for the site and paper.</p>
 <p class="method-source">Inspect:
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/authors_dblp.py">identity matching</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/authors_zbmath.py">career enrichment</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/author_map.py">implemented allocation formula</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/author_map_method.md">method notes</a>.</p>
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/authors_dblp.py">identity matching</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/authors_zbmath.py">career enrichment</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/author_map.py">implemented allocation formula</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/author_map_method.md">method notes</a>.</p>
 </section>
 
 <section class="section" id="time" data-short="Time assumptions">
@@ -312,9 +312,9 @@
   ECDLP's 593.8 allocation years become 1,187,600 nominal hours. Using 1,500 or 2,200 hours/year scales all hours by
   0.75 or 1.10; it does not change the year-based dollar scenarios. None of these conversions reveals logged hours.</p>
 <p class="method-source">Inspect:
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/authors/fte_by_year.csv">annual and cumulative export</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/authors/authors.csv">person-level export</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/authors_enrich.py">career-stage acquisition</a>.</p>
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/data/authors/fte_by_year.csv">annual and cumulative export</a>,
+  person-level table (not published, to protect individual researchers' privacy),
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/authors_enrich.py">career-stage acquisition</a>.</p>
 </section>
 
 <section class="section" id="problems" data-short="Problem samples">
@@ -356,9 +356,9 @@
   attempts may leave no publication. These selected successes are not a representative sample of mathematics,
   and cannot calibrate the cost of replacing a mature field's cryptanalytic scrutiny.</p></div>
 <p class="method-source">Inspect:
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/rubric_calibration.md">problem rubric</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/2525642/data/ai_effort/calib">item-level problem labels</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/build_site_data.py">website estimator and flags</a>.</p>
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/rubric_calibration.md">problem rubric</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/snapshot-2525642/data/ai_effort/calib">item-level problem labels</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/build_site_data.py">website estimator and flags</a>.</p>
 </section>
 
 <section class="section" id="budgets" data-short="AI budgets">
@@ -411,9 +411,9 @@
   \(D=130{,}000p_o\) and \(H^{\mathrm{equiv}}=0.52sp_o\). This prices only disclosed output tokens; it does not
   estimate human historical effort on Navier–Stokes or the internal system's actual cost.</p>
 <p class="method-source">Inspect:
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/ai_effort_comparison_scoping.md">scenario definitions</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/ai_effort/ai_results.yaml">disclosure ledger and primary links</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/ai_effort/erdos_problems.csv">attempt-level costs</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/ai_effort_comparison_scoping.md">scenario definitions</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/data/ai_effort/ai_results.yaml">disclosure ledger and primary links</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/data/ai_effort/erdos_problems.csv">attempt-level costs</a>,
   <a href="https://arxiv.org/html/2609.25050v1#S4.SS2">Erdős primary report</a>,
   <a href="https://www.anthropic.com/research/discovering-cryptographic-weaknesses">HAWK primary report</a>.</p>
 </section>
@@ -476,11 +476,11 @@
   retains other rows for inspection. The lattice frontier is restricted to the Darmstadt SVP challenge, and the
   generic factoring frontier excludes structured/SNFS records.</p>
 <p class="method-source">Inspect:
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/normalization_method.md">full normalization method</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/normalization.json">parameters</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/normalization_sources.json">source ledger</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/records_normalize.py">normalization code</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/2525642/records">individual records</a>.</p>
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/normalization_method.md">full normalization method</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/normalization.json">parameters</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/normalization_sources.json">source ledger</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/records_normalize.py">normalization code</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/snapshot-2525642/records">individual records</a>.</p>
 </section>
 
 <section class="section" id="attack-history" data-short="Algorithm history">
@@ -554,13 +554,17 @@
   million reference tokens. The 1×/10×/100× buttons are examples, not fitted bounds. The problem comparison shows
   conditional successful-run means, with its flagged AI-literature amounts available in the data table. Ratios that
   could be mistaken for measured speedups are not printed.</p>
+<p>The current budget explorer offers dollar and reference-token views on fixed axes. Price changes the assumed
+  token allowance, \(T=10^6D/p\), while the dollar budget \(D=cH/s\) stays unchanged. Ten times the price buys
+  one tenth as many reference tokens. The HAWK marker in the token view applies the same conversion to its disclosed
+  dollar budget; it is not a reported token count. Using the same price on both sides leaves their ratio unchanged.</p>
 <p>The frontier rows in the website builder are curated constants with explanatory metadata. They are not read
   dynamically from the record-normalization report. Re-running the site builder therefore does not update them
   automatically after a new record or target model changes. The generated date is a build date, not proof that
   every source was checked that day.</p>
 <p class="method-source">Inspect:
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/build_site_data.py">data builder</a>,
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/docs/assets/charts.js">chart transformations</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/build_site_data.py">data builder</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/main/docs/assets/charts.js">current chart transformations</a>,
   <a href="assets/data.js">current generated payload</a>.</p>
 </section>
 
@@ -594,10 +598,10 @@
 
 <section class="section" id="reproduce" data-short="Reproduce">
 <h2>Reproduce, inspect or challenge a number</h2>
-<p>Start with the <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/2525642">pinned repository snapshot</a>
+<p>Start with the <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/snapshot-2525642">pinned repository snapshot</a>
   for the corpus and effort numbers discussed here. The algorithmic history uses the current repository. The <a href="https://github.com/matthewdgreen/bits-of-work-repo">current repository</a>
   may contain later corrections. The white paper's
-  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/paper/generated/manifest.json">manifest</a>
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/paper/generated/manifest.json">manifest</a>
   records input hashes and derived values; it is a provenance ledger, not a scientific validation certificate.</p>
 <pre class="bib"># From the repository root; rebuilds outputs from existing labels.
 python3 -I analysis/attack_stability.py

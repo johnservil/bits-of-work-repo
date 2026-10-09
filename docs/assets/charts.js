@@ -444,6 +444,7 @@
     const out = k => fig.querySelector(`[data-out="${k}"]`);
     const last = YEARS.length - 1;
     const presetSeg = fig.querySelector('.seg[data-ctl="preset"]');
+    const unit = segState(fig, 'unit', 'usd', () => render());
     let focus = 'lattice';
     const S = () => Math.pow(10, +sIn.value), C = () => +cIn.value, PRICE = () => Math.pow(10, +pIn.value);
     function pressPreset(v) { presetSeg.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === v)); }
@@ -463,9 +464,14 @@
       const s = S(), c = C(), price = PRICE();
       out('s').textContent = (s < 10 ? s.toFixed(1) : d3.format(',.0f')(s)) + '×';
       out('c').textContent = fmt.usd(c);
-      out('p').textContent = '$' + (price < 10 ? price.toFixed(1) : price.toFixed(0));
+      out('p').textContent = '$' + d3.format('.3~g')(price);
       const rows = CLS.map(k => ({ key: k.key, label: k.label, H: D.fte[k.key].fte_cum[last] })).map(r => ({ ...r, usd: c * r.H / s }));
       const f = rows.find(r => r.key === focus);
+      const tokenMode = unit() === 'tokens';
+      const tokenCount = f.usd / price * 1e6;
+      const tokenUnits = tokenCount >= 1e12 ? [1e12, 'trillion'] : tokenCount >= 1e9 ? [1e9, 'billion'] : [1e6, 'million'];
+      out('tokens').textContent = d3.format('.3~g')(tokenCount / tokenUnits[0]) + ' ' + tokenUnits[1] + ' reference tokens';
+      out('token-calculation').textContent = `${SHORT[f.key]}: ${fmt.usd(f.usd)} ÷ ${out('p').textContent} per million tokens.`;
       if (window.katex) katex.render(
         `D_{\\text{${SHORT[f.key]}}} = \\frac{\\text{${fmt.usd(c).replace('$', '\\$')}} \\times ${fmt.n0(f.H).replace(',', '{,}')}}{${s < 10 ? s.toFixed(1) : d3.format(',.0f')(s).replace(',', '{,}')}} = \\text{${fmt.usd(f.usd).replace('$', '\\$')}}`,
         out('formula'), { displayMode: true, throwOnError: false });
@@ -474,37 +480,41 @@
       const M = { t: 30, r: 16, b: 44, l: narrow ? 92 : 132 };
       const h = rows.length * band, H = h + M.t + M.b, w = W - M.l - M.r;
       d3.select(box).select('svg').remove();
-      const svg = d3.select(box).insert('svg', '.tip').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Equivalent inference budget per class on a log scale');
+      const svg = d3.select(box).insert('svg', '.tip').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+        .attr('aria-label', tokenMode ? 'Reference-token allowance per class on a fixed log scale' : 'Equivalent inference budget per class on a fixed log scale');
       const g = svg.append('g').attr('transform', `translate(${M.l},${M.t})`);
-      const x = d3.scaleLog().domain([1e3, 1e9]).range([0, w]).clamp(true);
-      const xt = [1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9];
+      const value = usd => tokenMode ? usd / price * 1e6 : usd;
+      const x = d3.scaleLog().domain(tokenMode ? [1e8, 1e15] : [1e3, 1e9]).range([0, w]).clamp(true);
+      const xt = tokenMode ? [1e8, 1e10, 1e12, 1e14] : [1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9];
       g.append('g').attr('class', 'grid').selectAll('line').data(xt).join('line').attr('x1', x).attr('x2', x).attr('y1', 0).attr('y2', h);
-      xTicks(g, x, h, xt, v => fmt.usd(v));
+      xTicks(g, x, h, xt, tokenMode ? fmt.tok : fmt.usd);
       frame(g, w, h);
-      g.append('text').attr('class', 'axis-label').attr('x', w / 2).attr('y', h + 36).attr('text-anchor', 'middle').text('equivalent inference budget (log scale)');
+      g.append('text').attr('class', 'axis-label').attr('x', w / 2).attr('y', h + 36).attr('text-anchor', 'middle')
+        .text(tokenMode ? 'reference tokens (log scale)' : 'equivalent inference budget (log scale)');
       // reference spends
-      REFS.forEach((r, i) => {
+      REFS.forEach(r => {
+        const px = x(value(r.v));
         const N = g.append('g').attr('class', 'note');
-        N.append('line').attr('x1', x(r.v)).attr('x2', x(r.v)).attr('y1', -6).attr('y2', h).style('stroke-dasharray', '2 3');
-        N.append('text').attr('x', x(r.v)).attr('y', -12 - (narrow ? i * 0 : 0)).attr('text-anchor', i ? 'start' : 'end').attr('dx', i ? -4 : 4)
-          .text(narrow ? fmt.usd(r.v) : r.label);
+        N.append('line').attr('x1', px).attr('x2', px).attr('y1', -6).attr('y2', h).style('stroke-dasharray', '2 3');
+        N.append('text').attr('x', px).attr('y', -12).attr('text-anchor', px < w / 2 ? 'start' : 'end').attr('dx', px < w / 2 ? 4 : -4)
+          .text(tokenMode ? 'HAWK budget → tokens' : narrow ? fmt.usd(r.v) : r.label);
       });
       rows.forEach((r, i) => {
-        const cy = i * band + band / 2, px = x(r.usd);
+        const cy = i * band + band / 2, px = x(value(r.usd));
         const G = g.append('g').style('cursor', 'pointer');
         G.append('line').attr('x1', 0).attr('x2', px).attr('y1', cy).attr('y2', cy).attr('stroke', col(r.key)).attr('stroke-width', 2).attr('opacity', .55);
         G.append('circle').attr('class', 'dot-ring').attr('cx', px).attr('cy', cy).attr('r', r.key === focus ? 7 : 5.5).attr('fill', col(r.key));
         const tokens = r.usd / price * 1e6;
         const right = px > w - 150;
         G.append('text').attr('class', 'dlabel').attr('x', right ? px - 12 : px + 12).attr('y', cy).attr('dy', '0.33em').attr('text-anchor', right ? 'end' : 'start')
-          .html(`${fmt.usd(r.usd)} <tspan class="muted" style="fill:var(--ink-3)" font-size="11.5">≈ ${fmt.tok(tokens)} tok</tspan>`);
+          .text(tokenMode ? fmt.tok(tokens) + ' tok' : fmt.usd(r.usd));
         g.append('text').attr('class', 'dlabel').attr('x', -12).attr('y', cy).attr('dy', '0.33em').attr('text-anchor', 'end')
           .style('font-weight', r.key === focus ? 700 : 400).text(narrow ? SHORT[r.key] : r.label);
         G.append('rect').attr('x', -M.l).attr('y', cy - band / 2).attr('width', W).attr('height', band).attr('fill', 'transparent')
           .on('click', () => { focus = r.key; render(); })
           .on('pointermove', e => {
             const [mx, my] = d3.pointer(e, box);
-            tip.show(`<div class="t-head">${r.label}</div><div class="row">effort proxy<span class="val">${fmt.n0(r.H)} allocation yr</span></div><div class="row">scenario budget<span class="val">${fmt.usd(r.usd)}</span></div><div class="row">reference tokens at $${price.toFixed(1)}/M<span class="val">${fmt.tok(tokens)}</span></div><div style="color:var(--ink-3);margin-top:.2rem">May overestimate actual time. Click to show in formula.</div>`, mx, my);
+            tip.show(`<div class="t-head">${r.label}</div><div class="row">effort proxy<span class="val">${fmt.n0(r.H)} allocation yr</span></div><div class="row">scenario budget<span class="val">${fmt.usd(r.usd)}</span></div><div class="row">reference tokens at ${out('p').textContent}/M<span class="val">${fmt.tok(tokens)}</span></div><div style="color:var(--ink-3);margin-top:.2rem">May overestimate actual time. Click to show in formula.</div>`, mx, my);
           }).on('pointerleave', () => tip.hide());
       });
     }

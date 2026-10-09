@@ -325,6 +325,9 @@ figcaption::before { content: "Figure " counter(figure) ": "; font-weight: 700; 
 .ctl label > span:first-child i { font-family: var(--serif); }
 .ctl label .v { font-family: var(--mono); font-size: .85em; color: var(--accent); }
 .ctl .hint { font-size: .75rem; color: var(--ink-3); margin-top: .2rem; }
+.token-total { display: block; margin-top: .65rem; line-height: 1.4; }
+.token-total strong { display: block; color: var(--accent); font-size: 1.15rem; font-variant-numeric: tabular-nums; }
+.token-total span { display: block; margin-top: .2rem; color: var(--ink-2); font-size: .8rem; }
 input[type="range"] { width: 100%; accent-color: var(--accent); margin: 0; }
 .formula { padding: .6rem 0 0; text-align: center; min-height: 3.2rem; }
 
