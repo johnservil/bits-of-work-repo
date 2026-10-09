@@ -1,0 +1,4 @@
+items 17  include: {'no': 12, 'borderline': 4, 'yes': 1}  yes-categories: {'A': 1}
+G (hardness/reduction, not counted): 0
+yes_only         n=   1 weighted=    0.5  PY median     0.8 [0.5, 1.0]  USD median   0.19M [0.13M, 0.24M]
+with_borderline  n=   5 weighted=    1.2  PY median     1.9 [1.6, 2.2]  USD median   0.47M [0.39M, 0.54M]

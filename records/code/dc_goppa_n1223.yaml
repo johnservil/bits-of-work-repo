@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_goppa_n1223"
+class: "code"
+problem: "SD-Goppa"
+instance: "decodingchallenge goppa n=1223 w=23"
+instance_size: 1223
+instance_size_unit: "n"
+log2_ops: 54.0
+method: "BJMM/MMT variant"
+structure_exploited: false
+hardware: "4* EPYC 7742"
+raw_compute: "runtime: 3 days; hardware: 4* EPYC 7742"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 3.0
+date: "2021-05-10"
+solvers: ["Andre Esser", "Alex May", "Floyd Zweydinger"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: "EMZ22 extrapolate from 1223/1284 records that McEliece round-3 192/256-bit parameters are overestimated by ~20 and ~10 bits."
+paper: "2021/1634"
+source_url: "https://decodingchallenge.org/goppa/record/24"
+other_urls: ["https://decodingchallenge.org/goppa/halloffame", "https://eprint.iacr.org/2021/1634"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 0 - Inria Paris; instances are random parity-check matrices with planted error (not actual Goppa codes); McEliece-like rate/weight; paper reportedly states ~5 CPU-years for this record (search snippet only; PDF blocked by Cloudflare; unconfirmed). BLP later re-solved all three n=1223 provider instances with their 2008 software on 2x EPYC 7742 (lucky runs of 5-250 h wall), see isd.mceliece.org/20220704.txt."

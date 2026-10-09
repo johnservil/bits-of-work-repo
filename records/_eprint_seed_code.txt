@@ -1,0 +1,16 @@
+2013/287 [C] The failure of McEliece PKC based on Reed-Muller codes.
+2014/210 [C] Structural Cryptanalysis of McEliece Schemes with Compact Keys
+2017/078 [A] LPN Decoded
+2021/1634 [E] McEliece needs a Break -- Solving McEliece-1284 and Quasi-Cyclic-2918 with Modern ISD
+2021/962 [A] Practically Solving LPN
+2022/1329 [A] New Time-Memory Trade-Offs for Subset Sum -- Improving ISD in Theory and Practice
+2024/393 [E] Solving McEliece-1409 in One Day --- Cryptanalysis with the Improved BJMM Algorithm
+2025/632 [E] On breaking McEliece keys using brute force
+2025/892 [C] Practical cryptanalysis of pseudorandom correlation generators based on quasi-Abelian syndrome decoding
+2026/1232 [C] A Heuristic Subexponential Attack on the McEliece Cryptosystem
+2026/1339 [C] Key recovery for the McEliece cryptosystem using higher-order vanishing
+2026/1747 [C] Extending Distinguishing to Key Recovery for Subfield Subcodes of GRS codes
+2026/1778 [C] HOVER: Higher-Order Vanishing Endomorphism Recovery
+2026/1984 [C] Improving GIJS Key Recovery for Classic McEliece
+2026/1986 [E] Two-Anchor Holdout/Hermite: Solving the TII-254 McEliece Key Recovery Challenge
+2026/430 [C] An attack on the CFS scheme and on TII McEliece challenges

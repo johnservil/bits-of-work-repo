@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_qc_n2502"
+class: "code"
+problem: "SD-QC"
+instance: "decodingchallenge qc n=2502 w=50"
+instance_size: 2502
+instance_size_unit: "n"
+log2_ops: 50.0
+method: "MMT variant + DOOM"
+structure_exploited: true
+hardware: "4* EPYC 7742"
+raw_compute: "runtime: 7.3h (157.3 CPU Days); hardware: 4* EPYC 7742"
+reported_core_years: 0.4307
+gpu_years: null
+wall_time_days: 0.30416666666666664
+date: "2021-05-27"
+solvers: ["Andre Esser", "Alexander May", "Floyd Zweydinger"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: "2021/1634"
+source_url: "https://decodingchallenge.org/q-c/record/20"
+other_urls: ["https://decodingchallenge.org/q-c/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 0 - Inria Paris; DOOM/QC structure exploited"

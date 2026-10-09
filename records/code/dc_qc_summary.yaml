@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_qc_summary"
+class: "code"
+problem: "SD-QC"
+instance: "decodingchallenge quasi-cyclic setting (BIKE-like, n=w^2+2, R=0.5) track summary: max n=4098 (w=64)"
+instance_size: 4098
+instance_size_unit: "n"
+log2_ops: 64.0
+method: "\"Crinoid\" codebase; in this instance: Threefold ring folding, GPU resident BJMM-DOOM with fast blockwise information set updates, multi-target QC rotations, and final exact full-ring lifting."
+structure_exploited: true
+hardware: "24 NVIDIA GH200 GPUs across 8 GPU nodes of CSC’s \"Roihu\" system, operated by CSC – IT Center for Science, Finland."
+raw_compute: "1 hour, 1 minute, 22 seconds (wall-time) -- 24.5 GPU-hours."
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2026-09-30"
+solvers: ["Markku-Juhani Saarinen"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/q-c/halloffame"
+other_urls: ["https://decodingchallenge.org/q-c", "https://decodingchallenge.org/q-c/record/27"]
+confidence: 0.85
+verified: false
+notes: "SUMMARY FILE - duplicates the latest progression record; exclude from record counts. Hall of fame has 28 entries (first ten solvers per instance). Progression (n or weight, date): 102 2019-09, 198 2019-09, 258 2019-09, 326 2019-09, 486 2019-09, 1158 2019-09, 1298 2019-09, 1446 2019-09, 1602 2019-09, 1766 2019-10, 1938 2020-08, 2118 2021-05, 2502 2021-05, 2918 2021-05, 3138 2022-04, 3366 2024-10, 3602 2025-01, 3846 2025-04, 4098 2026-09. Full table: dc_qc_hof.csv. Harvested 2026-10-08."

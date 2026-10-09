@@ -1,0 +1,35 @@
+{"id": "W4379012299", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "ordered k-partitions of multisets with equal sums, unrelated"}
+{"id": "W4386984735", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "covering sumsets of prime field, unrelated"}
+{"id": "W4387500425", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "largest sum-free sets, different Erdos problem"}
+{"id": "W4390105475", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Sidon sets in finite settings, unrelated"}
+{"id": "W4396523507", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "prime-avoiding numbers form basis of order 2, different problem"}
+{"id": "W4401210516", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "B+B+t conjecture, different problem"}
+{"id": "W4401210571", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "B+B+t conjecture, different problem"}
+{"id": "W4402258857", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "prime-avoiding numbers form basis of order 2, different problem"}
+{"id": "W4404188127", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "infinite sumsets B+B in dense sets, different problem"}
+{"id": "W4404735034", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "general additive combinatorics survey"}
+{"id": "W4406122334", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "distinct subset products, different Erdos problem"}
+{"id": "W4407231387", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "diameter of Sidon sets, different problem"}
+{"id": "W4408552919", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "big sets combinatorics review, unrelated"}
+{"id": "W4414261623", "include": "yes", "category": "A", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "explicit additive basis with subpolynomial representation counts, answering an Erdos question on sparse bases"}
+{"id": "W4414487897", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "density finite sums, different problem"}
+{"id": "W4414688548", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "infinite sumset configuration problems, different problems"}
+{"id": "W4415791795", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "maximal sum-free sets in Z5k, unrelated"}
+{"id": "W51500770", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Hindman ultrafilter lecture notes, unrelated"}
+{"id": "W651535583", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "general problem book"}
+{"id": "W658849301", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "combinatorial theory colloquium proceedings, general"}
+{"id": "W7125690810", "include": "borderline", "category": "G", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.2, "reason": "note on Erdos mysterious remark, title does not identify the problem"}
+{"id": "W759014763", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Erdos problems most like to see solved, seed; may state the problem"}
+{"id": "W841919049", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "strongly sum-free sets via Sidon sets, unrelated"}
+{"id": "W842301775", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "addition of residue classes, unrelated"}
+{"id": "W874532184", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "random sequences additive properties, may use probabilistic bases but not this problem"}
+{"id": "W915366989", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Erdos-Stein problem, unrelated"}
+{"id": "W93140271", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "Ahlswede extremal problems survey, general"}
+{"id": "W971488519", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Erdos-Heilbronn conjecture, unrelated"}
+{"id": "W975749681", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "zero-free subset sums, unrelated"}
+{"id": "W996473569", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Erdos-Moser problem, unrelated"}
+{"id": "seed:erdos-1-1", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Erdos problems in additive number theory, seed; may state the problem"}
+{"id": "seed:erdos-1-25", "include": "borderline", "category": "S", "weight": 0.05, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "collection of favourite Erdos problems, general"}
+{"id": "seed:erdos-1-3", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Erdos additive number theory problems, seed; may state the problem"}
+{"id": "seed:erdos-1-5", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos survey of current number theory problems"}
+{"id": "seed:erdos-28-18", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos problems survey, seed for this problem"}

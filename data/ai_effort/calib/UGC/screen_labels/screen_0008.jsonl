@@ -1,0 +1,100 @@
+{"id": "W2134253979", "keep": false, "why": "polynomial calculus trade-offs, proof complexity"}
+{"id": "W2134409102", "keep": true, "why": "derandomized parallel repetition, free games"}
+{"id": "W2134839489", "keep": true, "why": "NEXP two-prover interactive protocols"}
+{"id": "W2134851251", "keep": false, "why": "strong metric dimension approximation"}
+{"id": "W2134903653", "keep": false, "why": "pebble games, linear equations"}
+{"id": "W2134944545", "keep": false, "why": "submodular cost approximability"}
+{"id": "W2135280188", "keep": false, "why": "Wikipedia link structure"}
+{"id": "W2135830616", "keep": false, "why": "EPR paradox"}
+{"id": "W2136026170", "keep": false, "why": "priority algorithms"}
+{"id": "W2136037917", "keep": true, "why": "multi-prover encoding, three-prover proofs"}
+{"id": "W2136241552", "keep": true, "why": "entangled games parallel repetition, decay"}
+{"id": "W2136290309", "keep": false, "why": "product distribution distinguishability"}
+{"id": "W2136370860", "keep": true, "why": "testing Reed-Muller codes"}
+{"id": "W2136963853", "keep": false, "why": "propeller conjecture, unrelated"}
+{"id": "W2137103613", "keep": false, "why": "product-state approximations, ground states"}
+{"id": "W2137118456", "keep": false, "why": "vertex cover 2-eps, UGC consumer"}
+{"id": "W2137595244", "keep": false, "why": "quantitative isoperimetric inequality"}
+{"id": "W2137615848", "keep": false, "why": "sketching and embedding for norms"}
+{"id": "W2137955570", "keep": true, "why": "rounding parallel repetitions of unique games"}
+{"id": "W2138079171", "keep": true, "why": "classical, quantum, non-signalling bipartite games"}
+{"id": "W2138341424", "keep": false, "why": "refuting random CSPs"}
+{"id": "W2138458087", "keep": false, "why": "LP for finite-valued CSPs"}
+{"id": "W2138514146", "keep": false, "why": "LP for valued CSPs"}
+{"id": "W2138621811", "keep": false, "why": "HITS hyperlinked authority ranking"}
+{"id": "W2138689422", "keep": false, "why": "separable states, PPT test"}
+{"id": "W2138694041", "keep": false, "why": "partial multicuts in trees"}
+{"id": "W2139689595", "keep": true, "why": "hypergraph coloring hardness"}
+{"id": "W2140154991", "keep": true, "why": "spectral graph theory and SDP merging"}
+{"id": "W2140262267", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2140566134", "keep": false, "why": "testing concise representations"}
+{"id": "W2140971199", "keep": true, "why": "permutation CSP approximation resistance"}
+{"id": "W2141353198", "keep": false, "why": "flow-cut gaps, directed cut hardness"}
+{"id": "W2141462088", "keep": false, "why": "local-global tradeoffs in embeddings"}
+{"id": "W2141793995", "keep": false, "why": "geometry of graphs, algorithmic survey"}
+{"id": "W2141815340", "keep": false, "why": "clique approximation, NP-completeness"}
+{"id": "W2142767093", "keep": false, "why": "quantum noise and nonlocality"}
+{"id": "W2143391442", "keep": false, "why": "proof verification and approximation hardness"}
+{"id": "W2143410554", "keep": true, "why": "invariance theorem, Boolean functions"}
+{"id": "W2143654071", "keep": false, "why": "correlation clustering, qualitative information"}
+{"id": "W2143698439", "keep": false, "why": "vertex cover approximation hardness, classic"}
+{"id": "W2143703915", "keep": false, "why": "angular synchronization via SDP"}
+{"id": "W2143708942", "keep": false, "why": "treewidth and pebbling inapproximability"}
+{"id": "W2143996311", "keep": false, "why": "set cover threshold ln n"}
+{"id": "W2144126354", "keep": false, "why": "mixed-state separability conditions"}
+{"id": "W2144191866", "keep": true, "why": "Grothendieck-type inequalities in optimization"}
+{"id": "W2144306455", "keep": true, "why": "approximating linear threshold predicates"}
+{"id": "W2144362128", "keep": false, "why": "product state testing, QMA"}
+{"id": "W2144539217", "keep": false, "why": "3-query PCP, perfect completeness"}
+{"id": "W2144675047", "keep": true, "why": "multi-prover interactive protocols power"}
+{"id": "W2145701440", "keep": true, "why": "graph partitioning via single-commodity flows"}
+{"id": "W2145889472", "keep": false, "why": "sparse coding, receptive fields"}
+{"id": "W2146081992", "keep": false, "why": "correlation clustering, qualitative information"}
+{"id": "W2146443256", "keep": true, "why": "guest column, unclear"}
+{"id": "W2146453677", "keep": true, "why": "testing Reed-Muller codes"}
+{"id": "W2146489710", "keep": true, "why": "gadgets, approximation, linear programming"}
+{"id": "W2146823188", "keep": true, "why": "integrality gaps without knowing the LP"}
+{"id": "W2147554450", "keep": false, "why": "multireference alignment via SDP"}
+{"id": "W2147668104", "keep": true, "why": "sparsest cut SDP integrality gap"}
+{"id": "W2147999468", "keep": false, "why": "multiple-person alternation, complexity"}
+{"id": "W2148012376", "keep": false, "why": "knapsack integrality gaps"}
+{"id": "W2148025043", "keep": true, "why": "multicommodity flow barrier, sparsest cut"}
+{"id": "W2148352980", "keep": false, "why": "proof verification and approximation hardness"}
+{"id": "W2148525712", "keep": false, "why": "partial covering problems"}
+{"id": "W2148791594", "keep": true, "why": "multi-prover IP for NEXP, entangled provers"}
+{"id": "W2148858749", "keep": false, "why": "bounded independence fools halfspaces"}
+{"id": "W2148872782", "keep": false, "why": "Sherali-Adams, matching polytope"}
+{"id": "W2149067455", "keep": false, "why": "Sherali-Adams and counting logics"}
+{"id": "W2149577432", "keep": true, "why": "sharp inapproximability for 2-CSP"}
+{"id": "W2149815049", "keep": true, "why": "recycling random bits, two-prover proofs"}
+{"id": "W2149929647", "keep": false, "why": "buy-at-bulk network design"}
+{"id": "W2150148016", "keep": false, "why": "multicommodity max-flow min-cut"}
+{"id": "W2150285483", "keep": true, "why": "LP approximation limits beyond hierarchies"}
+{"id": "W2150305542", "keep": true, "why": "SDP relaxations for partitioning and ordering"}
+{"id": "W2151131175", "keep": false, "why": "finite-valued CSP complexity"}
+{"id": "W2151239055", "keep": false, "why": "recursive greedy directed walks"}
+{"id": "W2151395725", "keep": true, "why": "integrality gaps of strong SDPs for Unique Games"}
+{"id": "W2151577278", "keep": false, "why": "robust satisfiability for CSPs"}
+{"id": "W2151679746", "keep": true, "why": "hypergraph small-set expansion"}
+{"id": "W2151703950", "keep": false, "why": "approximate kernel clustering"}
+{"id": "W2152128484", "keep": true, "why": "multi-prover encoding, three-prover proofs"}
+{"id": "W2152221184", "keep": false, "why": "efficient PCPs and approximation applications"}
+{"id": "W2152266716", "keep": true, "why": "UGC with entangled provers is false"}
+{"id": "W2152394048", "keep": true, "why": "Banach-valued Azuma, small-set isoperimetry"}
+{"id": "W2152490496", "keep": true, "why": "optimal long code test, one free bit"}
+{"id": "W2152720784", "keep": false, "why": "fault tolerance in bounded-degree networks"}
+{"id": "W2152769037", "keep": true, "why": "inoculation strategies, SoS partition"}
+{"id": "W2153164535", "keep": false, "why": "cut problems in directed graphs"}
+{"id": "W2153242915", "keep": false, "why": "network coding capacity hardness"}
+{"id": "W2153689539", "keep": true, "why": "approximation for Max-2SAT and Max-DICUT"}
+{"id": "W2153822379", "keep": true, "why": "local graph partitions, testing"}
+{"id": "W2153954875", "keep": false, "why": "entanglement and interference resources, quantum"}
+{"id": "W2154276597", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2154297841", "keep": true, "why": "conditional inapproximability, limited independence"}
+{"id": "W2154380126", "keep": true, "why": "Ramanujan complexes, topological expanders"}
+{"id": "W2154386769", "keep": true, "why": "parallel repetition and foams"}
+{"id": "W2154673147", "keep": true, "why": "harmonicity and invariance on Boolean slices"}
+{"id": "W2154774722", "keep": false, "why": "hypergraph Turan problem"}
+{"id": "W2154876245", "keep": true, "why": "Euclidean distortion, sparsest cut"}
+{"id": "W2155188403", "keep": true, "why": "rounding any CSP"}
+{"id": "W2155269751", "keep": false, "why": "pure Horn CNF minimization approximation"}

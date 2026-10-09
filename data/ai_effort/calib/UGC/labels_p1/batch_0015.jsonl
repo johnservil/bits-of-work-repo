@@ -1,0 +1,40 @@
+{"id": "W2741519875", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "direct sum testing"}
+{"id": "W2742022539", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "collective coin flipping"}
+{"id": "W2742996344", "include": "yes", "category": "C", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "isoperimetric problem posed in relation to UGC, Khot-Moshkovitz conjecture"}
+{"id": "W2743235928", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "1-Laplacian Cheeger cuts"}
+{"id": "W2744328542", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "reverse hypercontractivity region"}
+{"id": "W2745097389", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "cube isoperimetry stability"}
+{"id": "W2748623618", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS proof systems thesis"}
+{"id": "W2754777885", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max k-uncut"}
+{"id": "W2754853090", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS property testing"}
+{"id": "W2755288388", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "HDX descent"}
+{"id": "W27619712", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Grothendieck constant computation"}
+{"id": "W2762005921", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SOS optimization efficiency"}
+{"id": "W2765223888", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "HDX constructions"}
+{"id": "W2768115836", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "agreement tests"}
+{"id": "W2768419087", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Lasserre CSP thesis"}
+{"id": "W2770219927", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "low degree Boolean functions juntas"}
+{"id": "W2778127909", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "simultaneous Max-Cut"}
+{"id": "W2782384944", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled XOR games"}
+{"id": "W2784245270", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "association schemes"}
+{"id": "W2785674038", "include": "borderline", "category": "G", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "NP-hardness for 2-Lin, the alphabet-2 unique games case"}
+{"id": "W2786284244", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "balanced linear equations hardness"}
+{"id": "W2787022562", "include": "yes", "category": "C", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.97, "reason": "key Grassmann graph expansion result completing 2-to-2 Games Theorem"}
+{"id": "W2787856857", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "noncommutative Grothendieck hardness"}
+{"id": "W2788112992", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "matrix norm inapproximability"}
+{"id": "W2789043785", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "2-CSP inapproximability under UGC"}
+{"id": "W278947496", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LS+ vertex cover gap"}
+{"id": "W2792831892", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonuniform partitioning"}
+{"id": "W2792907235", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Gaussian noise sensitivity"}
+{"id": "W2793412038", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "lattices from HDX"}
+{"id": "W2794354412", "include": "yes", "category": "G", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "computational topology and UGC connection via graph lifts"}
+{"id": "W2795113073", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "matrix norm inapproximability"}
+{"id": "W2797255259", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph junta method"}
+{"id": "W2798331445", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Sherali-Adams gaps for densest subgraph"}
+{"id": "W2798339053", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph Laplacian"}
+{"id": "W2798524658", "include": "yes", "category": "C", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "small-set expansion in shortcode graph and 2-to-2 conjecture"}
+{"id": "W2798799181", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "Boolean functions on HDX, no stated UG link"}
+{"id": "W2805434978", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "Boolean functions on HDX, no stated UG link"}
+{"id": "W2805609980", "include": "yes", "category": "C", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "small set expansion in Johnson graph, 2-to-2 line"}
+{"id": "W2808390993", "include": "yes", "category": "A", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "regularity lemma and subspace-enumeration algorithms for UG-type problems on low threshold rank graphs"}
+{"id": "W2882992283", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "vertex isoperimetry in cube"}

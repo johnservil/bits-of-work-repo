@@ -1,0 +1,63 @@
+{
+ "key": "ffdlp_small",
+ "label": "Small-characteristic finite-field DLP",
+ "cls": "factoring",
+ "problem": "Discrete logarithms in finite fields of small characteristic; the practical example is the pairing field F_(2^(4*1223)), not F_(2^1223).",
+ "notes": "Theoretical advances and concrete security reassessments are distinct events. We do not join leading L-indices, modular-multiplication estimates and measured runtimes on one curve. The former 2^70 placeholder is removed. No parameter-size inversion is supplied.",
+ "milestones": [
+  {
+   "year": 2013,
+   "date": "2013-02-21",
+   "name": "Joux subexponential algorithm",
+   "authors": "Antoine Joux",
+   "ref": "ePrint 2013/095; SAC 2013",
+   "source_url": "https://eprint.iacr.org/2013/095",
+   "model": "classical",
+   "series": false,
+   "status": "context",
+   "cost": null,
+   "event": "Heuristic L_Q(1/4+o(1)) complexity, with embeddings into a suitable extension when needed.",
+   "notes": "This is subexponential, not quasi-polynomial. No numerical reference-instance estimate is assigned.",
+   "assumptions": "",
+   "verified": false
+  },
+  {
+   "year": 2013,
+   "date": "2013-06-18",
+   "name": "BGJT quasi-polynomial algorithm",
+   "authors": "Barbulescu, Gaudry, Joux, Thome",
+   "ref": "arXiv:1306.4244; EUROCRYPT 2014",
+   "source_url": "https://arxiv.org/abs/1306.4244",
+   "model": "classical",
+   "series": false,
+   "status": "context",
+   "cost": null,
+   "event": "Heuristic n^O(log n) time, where n is the field bit-size; still super-polynomial.",
+   "notes": "First public preprint date; no constant for a concrete inversion is inferred.",
+   "assumptions": "",
+   "verified": false
+  },
+  {
+   "year": 2014,
+   "date": "2014-02-15",
+   "name": "Concrete reassessment of a supersingular pairing field",
+   "authors": "Granger, Kleinjung, Zumbragel",
+   "ref": "arXiv:1402.3668; CRYPTO 2014",
+   "source_url": "https://arxiv.org/abs/1402.3668",
+   "model": "classical",
+   "series": false,
+   "status": "context",
+   "cost": null,
+   "event": "Estimated about 59 bits for DLP in F_(2^(4*1223)), in the authors’ modular-multiplication units.",
+   "notes": "The curve base field is F_(2^1223). The analysis uses L(1/4)-type techniques; the BGJT elimination steps were not required. This is a concrete estimate, not an executed 59-bit computation or a cost for the base field.",
+   "assumptions": "",
+   "verified": false
+  }
+ ],
+ "role": "comparator",
+ "display_kind": "events",
+ "from_year": 2013,
+ "size_unit": "",
+ "size_name": "",
+ "reference": null
+}

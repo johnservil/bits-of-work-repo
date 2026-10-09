@@ -1,0 +1,327 @@
+id,class,problem,date,instance,instance_size,unit,log2_ops_reported,sieve_dim,sieve_dim_how,structure_exploited,record_setting,bitcoin_puzzle,verified,core_years_low,core_years_high,core_years_how
+bdhv2025_qasd_f4oleage,code,LPN,2025-05,QA-SD (quasi-Abelian syndrome decoding) PCG parameters incl. F4OLEage (Asiacrypt 2024),,n,,,,True,False,False,False,,,no usable compute statement
+blp2008_mceliece_1024_50,code,SD-Goppa,2008-10,"original McEliece 1978 parameters (n=1024, k=524, t=50) challenge ciphertext",1024,n,,,,False,True,False,False,5.4757,8.76112,stated core-years x era(2008)
+brlt2026_cfs_m16_r9,code,SD-Goppa,2026-06-10,"CFS signature key, binary Goppa m=16, r=9 (claimed 74.9-bit security per LS12)",,n,,,,True,False,False,False,0.0015970796258270592,0.0015970796258270592,"single machine assumed, 0.583 d"
+cb2013_rm_mceliece_65536,code,SD,2013-05,"McEliece with binary Reed-Muller codes RM(r,m), n=65536",65536,n,,,,True,True,False,False,0.0003992699064567648,0.0005589778690394707,"single machine assumed, 0.292 d"
+dc_goppa_n1041,code,SD-Goppa,2020-08-11,decodingchallenge goppa n=1041 w=19,1041,n,45.0,,,False,True,False,False,,,no usable compute statement
+dc_goppa_n1101,code,SD-Goppa,2020-08-14,decodingchallenge goppa n=1101 w=21,1101,n,50.0,,,False,True,False,False,0.05475701574264202,0.05475701574264202,8 cores x 2.5 d x era(2020)
+dc_goppa_n1161,code,SD-Goppa,2021-01-10,decodingchallenge goppa n=1161 w=22,1161,n,52.0,,,False,True,False,False,,,no usable compute statement
+dc_goppa_n1223,code,SD-Goppa,2021-05-10,decodingchallenge goppa n=1223 w=23,1223,n,54.0,,,False,True,False,False,,,no usable compute statement
+dc_goppa_n1284,code,SD-Goppa,2021-08-16,decodingchallenge goppa n=1284 w=24,1284,n,56.0,,,False,True,False,False,22.0315,22.0315,stated core-years x era(2021)
+dc_goppa_n1347,code,SD-Goppa,2023-02-24,decodingchallenge goppa n=1347 w=25,1347,n,59.0,,,False,True,False,False,,,no usable compute statement
+dc_goppa_n1409,code,SD-Goppa,2023-11-13,decodingchallenge goppa n=1409 w=26,1409,n,63.0,,,False,True,False,False,0.0034223134839151265,0.0034223134839151265,"single machine assumed, 1.25 d"
+dc_goppa_n286,code,SD-Goppa,2019-08-13,decodingchallenge goppa n=286 w=7,286,n,16.0,,,False,True,False,False,1.2675235125611582e-07,1.425963951631303e-07,"single machine assumed, 5.79e-05 d"
+dc_goppa_n333,code,SD-Goppa,2019-08-23,decodingchallenge goppa n=333 w=8,333,n,18.0,,,False,True,False,False,,,no usable compute statement
+dc_goppa_n482,code,SD-Goppa,2019-08-24,decodingchallenge goppa n=482 w=11,482,n,27.0,,,False,True,False,False,,,no usable compute statement
+dc_goppa_n534,code,SD-Goppa,2019-08-26,decodingchallenge goppa n=534 w=11,534,n,25.0,,,False,True,False,False,,,no usable compute statement
+dc_goppa_n640,code,SD-Goppa,2019-09-15,decodingchallenge goppa n=640 w=13,640,n,32.0,,,False,True,False,False,1.0140188100489265e-06,1.1407711613050424e-06,"single machine assumed, 0.000463 d"
+dc_goppa_n695,code,SD-Goppa,2019-09-22,decodingchallenge goppa n=695 w=14,695,n,34.0,,,False,True,False,False,1.8252338580880676e-05,2.053388090349076e-05,"single machine assumed, 0.00833 d"
+dc_goppa_n865,code,SD-Goppa,2019-11-06,decodingchallenge goppa n=865 w=18,865,n,43.0,,,False,True,False,False,0.00015210282150733898,0.00017111567419575633,"single machine assumed, 0.0694 d"
+dc_goppa_n923,code,SD-Goppa,2020-03-17,decodingchallenge goppa n=923 w=19,923,n,45.0,,,False,True,False,False,0.0011407711613050423,0.0011407711613050423,"single machine assumed, 0.417 d"
+dc_goppa_n982,code,SD-Goppa,2020-07-02,decodingchallenge goppa n=982 w=20,982,n,47.0,,,False,True,False,False,0.0004563084645220169,0.0004563084645220169,"single machine assumed, 0.167 d"
+dc_large_weight_n130,code,SD,2020-10-20,decodingchallenge large-weight n=130 w=128,130,n,32.0,,,False,False,False,False,0.000209,0.000209,stated core-years x era(2020)
+dc_large_weight_n140,code,SD,2020-10-21,decodingchallenge large-weight n=140 w=138,140,n,34.0,,,False,False,False,False,2.9e-05,2.9e-05,stated core-years x era(2020)
+dc_large_weight_n150,code,SD,2020-11-03,decodingchallenge large-weight n=150 w=148,150,n,37.0,,,False,False,False,False,0.0356,0.0356,stated core-years x era(2020)
+dc_large_weight_n190,code,SD,2021-12-14,decodingchallenge large-weight n=190 w=189,190,n,46.0,,,False,False,False,False,1.3142,1.3142,stated core-years x era(2021)
+dc_large_weight_n20,code,SD,2020-03-18,decodingchallenge large-weight n=20 w=20,20,n,4.0,,,False,False,False,False,3.168808781402895e-08,3.168808781402895e-08,"single machine assumed, 1.16e-05 d"
+dc_large_weight_n200,code,SD,2021-12-15,decodingchallenge large-weight n=200 w=198,200,n,49.0,,,False,False,False,False,2.5161,2.5161,stated core-years x era(2021)
+dc_large_weight_n220,code,SD,2025-09-26,decodingchallenge large-weight n=220 w=217,220,n,54.0,,,False,False,False,False,,,no usable compute statement
+dc_large_weight_n230,code,SD,2025-10-20,decodingchallenge large-weight n=230 w=227,230,n,56.0,,,False,False,False,False,,,no usable compute statement
+dc_large_weight_n240,code,SD,2025-10-22,decodingchallenge large-weight n=240 w=237,240,n,59.0,,,False,False,False,False,0.0038329911019849418,0.0038329911019849418,"single machine assumed, 1.4 d"
+dc_large_weight_n80,code,SD,2020-04-13,decodingchallenge large-weight n=80 w=79,80,n,19.0,,,False,False,False,False,3.802570537683474e-05,3.802570537683474e-05,"single machine assumed, 0.0139 d"
+dc_low_weight_w204,code,SD,2024-09-02,"decodingchallenge low-weight codeword n=1280, weight 204 found",1280,n,,,,False,True,False,False,,,no usable compute statement
+dc_low_weight_w209,code,SD,2024-06-27,"decodingchallenge low-weight codeword n=1280, weight 209 found",1280,n,,,,False,True,False,False,,,no usable compute statement
+dc_low_weight_w210,code,SD,2024-06-24,"decodingchallenge low-weight codeword n=1280, weight 210 found",1280,n,,,,False,True,False,False,0.0025895505361624455,0.0025895505361624455,"single machine assumed, 0.946 d"
+dc_low_weight_w211,code,SD,2024-02-09,"decodingchallenge low-weight codeword n=1280, weight 211 found",1280,n,,,,False,True,False,False,0.5250589398433342,0.5250589398433342,40 cores x 4.79 d x era(2024)
+dc_low_weight_w212,code,SD,2023-06-12,"decodingchallenge low-weight codeword n=1280, weight 212 found",1280,n,,,,False,True,False,False,,,no usable compute statement
+dc_low_weight_w214,code,SD,2023-05-08,"decodingchallenge low-weight codeword n=1280, weight 214 found",1280,n,,,,False,True,False,False,,,no usable compute statement
+dc_low_weight_w215,code,SD,2020-06-18,"decodingchallenge low-weight codeword n=1280, weight 215 found",1280,n,,,,False,True,False,False,,,no usable compute statement
+dc_low_weight_w220,code,SD,2019-10-26,"decodingchallenge low-weight codeword n=1280, weight 220 found",1280,n,,,,False,True,False,False,,,no usable compute statement
+dc_low_weight_w224,code,SD,2019-09-22,"decodingchallenge low-weight codeword n=1280, weight 224 found",1280,n,,,,False,True,False,False,0.003102897558749715,0.0034907597535934294,"single machine assumed, 1.42 d"
+dc_low_weight_w230,code,SD,2019-09-20,"decodingchallenge low-weight codeword n=1280, weight 230 found",1280,n,,,,False,True,False,False,9.126169290440338e-05,0.0001026694045174538,"single machine assumed, 0.0417 d"
+dc_low_weight_w231,code,SD,2019-08-25,"decodingchallenge low-weight codeword n=1280, weight 231 found",1280,n,,,,False,True,False,False,0.06568,0.07389000000000001,stated core-years x era(2019)
+dc_low_weight_w233,code,SD,2019-08-22,"decodingchallenge low-weight codeword n=1280, weight 233 found",1280,n,,,,False,True,False,False,0.006560000000000001,0.007380000000000001,stated core-years x era(2019)
+dc_low_weight_w235,code,SD,2019-08-21,"decodingchallenge low-weight codeword n=1280, weight 235 found",1280,n,,,,False,True,False,False,,,no usable compute statement
+dc_low_weight_w240,code,SD,2019-08-20,"decodingchallenge low-weight codeword n=1280, weight 240 found",1280,n,,,,False,True,False,False,,,no usable compute statement
+dc_low_weight_w568,code,SD,2019-07-28,"decodingchallenge low-weight codeword n=1280, weight 568 found",1280,n,,,,False,True,False,False,1.5210282150733898e-06,1.7111567419575635e-06,"single machine assumed, 0.000694 d"
+dc_qc_n102,code,SD-QC,2019-09-09,decodingchallenge qc n=102 w=10,102,n,10.0,,,False,True,False,False,,,no usable compute statement
+dc_qc_n1158,code,SD-QC,2019-09-16,decodingchallenge qc n=1158 w=34,1158,n,34.0,,,False,True,False,False,1.9012852688417372e-05,2.138945927446954e-05,"single machine assumed, 0.00868 d"
+dc_qc_n1298,code,SD-QC,2019-09-18,decodingchallenge qc n=1298 w=36,1298,n,36.0,,,True,True,False,False,9.126169290440338e-05,0.0001026694045174538,"single machine assumed, 0.0417 d"
+dc_qc_n1446,code,SD-QC,2019-09-21,decodingchallenge qc n=1446 w=38,1446,n,38.0,,,True,True,False,False,0.0002737850787132101,0.0003080082135523614,"single machine assumed, 0.125 d"
+dc_qc_n1602,code,SD-QC,2019-09-22,decodingchallenge qc n=1602 w=40,1602,n,40.0,,,False,True,False,False,,,no usable compute statement
+dc_qc_n1766,code,SD-QC,2019-10-26,decodingchallenge qc n=1766 w=42,1766,n,42.0,,,True,True,False,False,0.10495120000000001,0.1180701,stated core-years x era(2019)
+dc_qc_n1938,code,SD-QC,2020-08-24,decodingchallenge qc n=1938 w=44,1938,n,44.0,,,False,True,False,False,17.5222,17.5222,stated core-years x era(2020)
+dc_qc_n198,code,SD-QC,2019-09-09,decodingchallenge qc n=198 w=14,198,n,14.0,,,False,True,False,False,,,no usable compute statement
+dc_qc_n2118,code,SD-QC,2021-05-26,decodingchallenge qc n=2118 w=46,2118,n,46.0,,,True,True,False,False,0.00011978097193702943,0.00011978097193702943,"single machine assumed, 0.0437 d"
+dc_qc_n2502,code,SD-QC,2021-05-27,decodingchallenge qc n=2502 w=50,2502,n,50.0,,,True,True,False,False,0.4307,0.4307,stated core-years x era(2021)
+dc_qc_n258,code,SD-QC,2019-09-10,decodingchallenge qc n=258 w=16,258,n,16.0,,,False,True,False,False,,,no usable compute statement
+dc_qc_n2918,code,SD-QC,2021-05-31,decodingchallenge qc n=2918 w=54,2918,n,54.0,,,True,True,False,False,4.7064,4.7064,stated core-years x era(2021)
+dc_qc_n3138,code,SD-QC,2022-04-18,decodingchallenge qc n=3138 w=56,3138,n,56.0,,,True,True,False,False,2.2368,2.2368,stated core-years x era(2022)
+dc_qc_n326,code,SD-QC,2019-09-11,decodingchallenge qc n=326 w=18,326,n,18.0,,,False,True,False,False,,,no usable compute statement
+dc_qc_n3366,code,SD-QC,2024-10-17,decodingchallenge qc n=3366 w=58,3366,n,58.0,,,True,True,False,False,,,no usable compute statement
+dc_qc_n3602,code,SD-QC,2025-01-06,decodingchallenge qc n=3602 w=60,3602,n,60.0,,,True,True,False,False,,,no usable compute statement
+dc_qc_n3846,code,SD-QC,2025-04-01,decodingchallenge qc n=3846 w=62,3846,n,62.0,,,True,True,False,False,,,no usable compute statement
+dc_qc_n4098,code,SD-QC,2026-09-30,decodingchallenge qc n=4098 w=64,4098,n,64.0,,,True,True,False,False,0.055900000000000005,0.2795,stated GPU-years x gpu:code
+dc_qc_n486,code,SD-QC,2019-09-13,decodingchallenge qc n=486 w=22,486,n,22.0,,,False,True,False,False,,,no usable compute statement
+dc_sd_n10,code,SD,2019-07-12,decodingchallenge sd n=10 w=2,10,n,1.0,,,False,True,False,False,,,no usable compute statement
+dc_sd_n170,code,SD,2019-07-22,decodingchallenge sd n=170 w=23,170,n,18.0,,,False,True,False,False,2.535047025122316e-06,2.851927903262605e-06,"single machine assumed, 0.00116 d"
+dc_sd_n200,code,SD,2019-08-15,decodingchallenge sd n=200 w=27,200,n,21.0,,,False,True,False,False,9.126169290440338e-05,0.0001026694045174538,"single machine assumed, 0.0417 d"
+dc_sd_n250,code,SD,2019-08-20,decodingchallenge sd n=250 w=32,250,n,26.0,,,False,True,False,False,,,no usable compute statement
+dc_sd_n30,code,SD,2019-07-12,decodingchallenge sd n=30 w=4,30,n,3.0,,,False,True,False,False,2.5350470251223163e-07,2.851927903262606e-07,"single machine assumed, 0.000116 d"
+dc_sd_n310,code,SD,2019-08-21,decodingchallenge sd n=310 w=39,310,n,33.0,,,False,True,False,False,,,no usable compute statement
+dc_sd_n340,code,SD,2019-08-22,decodingchallenge sd n=340 w=42,340,n,36.0,,,False,True,False,False,,,no usable compute statement
+dc_sd_n370,code,SD,2019-08-28,decodingchallenge sd n=370 w=46,370,n,39.0,,,False,True,False,False,9.126169290440338e-05,0.0001026694045174538,"single machine assumed, 0.0417 d"
+dc_sd_n400,code,SD,2019-09-19,decodingchallenge sd n=400 w=50,400,n,42.0,,,False,True,False,False,,,no usable compute statement
+dc_sd_n410,code,SD,2019-09-22,decodingchallenge sd n=410 w=51,410,n,43.0,,,False,True,False,False,0.0019164955509924709,0.0021560574948665296,"single machine assumed, 0.875 d"
+dc_sd_n450,code,SD,2019-09-24,decodingchallenge sd n=450 w=54,450,n,47.0,,,False,True,False,False,0.08544000000000002,0.09612000000000001,stated core-years x era(2019)
+dc_sd_n460,code,SD,2020-07-22,decodingchallenge sd n=460 w=55,460,n,48.0,,,False,True,False,False,0.01826,0.09129999999999999,stated GPU-years x gpu:code
+dc_sd_n470,code,SD,2020-07-23,decodingchallenge sd n=470 w=58,470,n,49.0,,,False,True,False,False,0.17112,0.8555999999999999,stated GPU-years x gpu:code
+dc_sd_n500,code,SD,2020-07-27,decodingchallenge sd n=500 w=59,500,n,53.0,,,False,True,False,False,1.1119999999999999,5.56,stated GPU-years x gpu:code
+dc_sd_n510,code,SD,2021-09-19,decodingchallenge sd n=510 w=61,510,n,54.0,,,False,True,False,False,,,no usable compute statement
+dc_sd_n530,code,SD,2021-10-27,decodingchallenge sd n=530 w=65,530,n,56.0,,,False,True,False,False,,,no usable compute statement
+dc_sd_n540,code,SD,2022-02-01,decodingchallenge sd n=540 w=66,540,n,57.0,,,False,True,False,False,,,no usable compute statement
+dc_sd_n550,code,SD,2022-02-23,decodingchallenge sd n=550 w=67,550,n,58.0,,,False,True,False,False,,,no usable compute statement
+dc_sd_n570,code,SD,2023-04-17,decodingchallenge sd n=570 w=70,570,n,60.0,,,False,True,False,False,,,no usable compute statement
+ekm2017_lpn_k243,code,LPN,2017-02,"LPN k=243, tau=1/8",243,dim,,,,False,True,False,False,2.102669404517454,2.3655030800821355,64 cores x 15 d x era(2017)
+fopdt2014_qd_qm_mceliece,code,SD-Goppa,2014-03,compact (quasi-dyadic / quasi-monoidic) McEliece and CFS parameters from the literature,,n,,,,True,False,False,False,,,no usable compute statement
+tii_1b_mora_2024,code,SD-Goppa,2024-05,"TII McEliece Track 1B key recovery, best = TII-68 (n=53, k=41, t=2, m=6); also 22-66",53,n,,,,True,True,False,False,,,no usable compute statement
+tii_1b_panny_83_2024,code,SD-Goppa,2024-05,"TII McEliece Track 1B TII-83 (n=253, k=213, t=5, m=8)",253,n,,,,False,True,False,False,4.0279,4.0279,stated core-years x era(2024)
+tii_2a_timerr_2024,code,SD-Goppa,2024-05,"TII McEliece Track 2A message recovery, ~60-bit instance (parameters not read)",,n,,,,False,False,False,False,,,no usable compute statement
+tii_blt2026_upto210,code,SD-Goppa,2026-03-03,"TII Track 1B key recovery up to TII-210 (n=491, k=428, t=7, m=9); per 2026/1232 the BLT26 set was labels 83, 89, 119, 166, 210",491,n,,,,True,True,False,True,,,no usable compute statement
+tii_brlt2026_248,code,SD-Goppa,2026-06-10,"TII Track 1B TII-248 (n=482, k=419, t=7, m=9)",482,n,,,,True,False,False,True,0.0020280376200978527,0.0020280376200978527,"single machine assumed, 0.741 d"
+tii_hemmert2026_hov,code,SD-Goppa,2026-06-29,"TII Track 1B: 32 instances, labels 83-248; largest label TII-248 (n=482, k=419, t=7, m=9); max t=9 (labels 189, 209, 223)",482,n,,,,True,False,False,True,0.2526123659593885,0.2526123659593885,128 cores x 0.721 d x era(2026)
+tii_saarinen2026_254,code,SD-Goppa,2026-09-08,"TII Track 1B TII-254 (n=223, k=127, t=12, m=8)",223,n,,,,True,False,False,True,0.06206,0.31029999999999996,stated GPU-years x gpu:code
+tii_saarinen2026_hover_252,code,SD-Goppa,2026-07,"TII Track 1B TII-252 (n=1008, k=898, t=11, m=10); new: 129, 213, 240, 246, 252",1008,n,,,,True,True,False,True,1.187669531269805e-05,1.187669531269805e-05,"single machine assumed, 0.00434 d"
+tii_vedenev2026_173_249_253,code,SD-Goppa,2026-08-20,"TII Track 1B TII-173 (n=96, k=40, t=8, m=7), TII-249 (n=235, k=107, t=16, m=8), TII-253 (n=214, t=9, m=8)",235,n,,,,True,False,False,True,,,no usable compute statement
+tii_weis2026_253,code,SD-Goppa,2026-08-18,"TII Track 1B TII-253 (n=214, k=142, t=9, m=8)",214,n,,,,True,False,False,True,0.159708,0.159708,stated core-years x era(2026)
+ws2021_lpn_codedbkw,code,LPN,2021-07,"largest LPN parameters reported to date (exact k, tau unconfirmed)",,dim,,,,False,False,False,False,,,no usable compute statement
+dlp-gf2-30750-2019,comparator,FF-DLP,2019-05-28,"GF(2^30750) = GF(2^30)[X]/(X^1025+X+t^3), twisted Kummer",30750,bits,,,,True,True,False,False,2325.6,2616.3,stated core-years x era(2019)
+dlp-gf2-6168-2013,comparator,FF-DLP,2013-05-21,GF(2^6168) (Kummer-type extension),6168,bits,,,,True,True,False,False,0.0315,0.0441,stated core-years x era(2013)
+dlp-gf2-9234-2014,comparator,FF-DLP,2014-01-31,GF(2^9234),9234,bits,,,,True,True,False,False,22.5,31.499999999999996,stated core-years x era(2014)
+dlp-gf3-4841-2016,comparator,FF-DLP,2016-07-18,GF(3^(6*509)) (formerly 128-bit pairing target),4841,bits,,,,True,False,False,False,160.0,180.0,stated core-years x era(2016)
+dlp-gf3-923-2012,comparator,FF-DLP,2012-06,GF(3^(6*97)) (eta_T pairing target field),923,bits,,,,True,True,False,False,51.15,71.61,stated core-years x era(2012)
+dlp-gfp-1024-trapdoor-2016,comparator,FF-DLP,2016-10-10,"GF(p), 1024-bit trapdoored prime with 160-bit subgroup (SNFS-friendly, hidden)",1024,bits,,,,True,False,False,False,394.2505133470226,443.5318275154004,3000 cores x 60 d x era(2016)
+dlp-gfp-530-2007,comparator,FF-DLP,2007-02-05,"GF(p), 160-digit safe prime",530,bits,,,,False,True,False,False,,,no usable compute statement
+dlp-gfp-596-2014,comparator,FF-DLP,2014-06-11,"GF(p), p = RSA-180 + 625942 (180 digits, safe prime)",596,bits,,,,False,True,False,False,65.4,91.56,stated core-years x era(2014)
+dlp-gfp-768-2016,comparator,FF-DLP,2016-06-16,"GF(p), 232-digit safe prime (DLP-768)",768,bits,,,,False,True,False,False,4240.0,4770.0,stated core-years x era(2016)
+dlp-gfp-795-2019,comparator,FF-DLP,2019-12-02,"GF(p), p = RSA-240 + 49204 (DLP-240, safe prime)",795,bits,,,,False,True,False,False,2560.0,2880.0,stated core-years x era(2019)
+dlp-gfp6-521-2021,comparator,FF-DLP,2021-05,"GF(p^6), 521-bit field",521,bits,,,,False,False,False,False,,,no usable compute statement
+dlp-medium-1051-2020,comparator,FF-DLP,2020-02,"GF(p^n), 22-bit characteristic, non-Kummer",1051,bits,,,,False,True,False,False,,,no usable compute statement
+hfe-challenge1-2002,comparator,multivariate,2002-05,"HFE Challenge 1 (80 quadratic equations, 80 variables, GF(2))",80,n,,,,True,True,False,False,0.00048,0.0009,stated core-years x era(2002)
+rainbow-sl1-2022,comparator,multivariate,2022-02-25,Rainbow round-2 SL1 parameters (key recovery),,,,,,True,False,False,False,,,no usable compute statement
+rsa-129-1994,comparator,factoring,1994-04-26,RSA-129 (129 digits),426,bits,,,,False,True,False,False,0.1,0.25,MIPS-years
+rsa-130-1996,comparator,factoring,1996-04-10,RSA-130 (130 digits),430,bits,,,,False,True,False,False,0.01,0.025,MIPS-years
+rsa-140-1999,comparator,factoring,1999-02-02,RSA-140 (140 digits),463,bits,,,,False,True,False,False,0.267,0.534,stated core-years x era(1999)
+rsa-155-1999,comparator,factoring,1999-08-22,"RSA-155 (155 digits, RSA-512)",512,bits,,,,False,True,False,False,1.083,2.166,stated core-years x era(1999)
+rsa-160-2003,comparator,factoring,2003-04-01,RSA-160 (160 digits),530,bits,,,,False,True,False,False,,,no usable compute statement
+rsa-200-2005,comparator,factoring,2005-05-09,RSA-200 (200 digits),663,bits,,,,False,True,False,False,18.75,30.0,stated core-years x era(2005)
+rsa-240-2019,comparator,factoring,2019-12-02,RSA-240 (240 digits),795,bits,,,,False,True,False,False,800.0,900.0,stated core-years x era(2019)
+rsa-250-2020,comparator,factoring,2020-02-28,RSA-250 (250 digits),829,bits,,,,False,True,False,False,2700.0,2700.0,stated core-years x era(2020)
+rsa-260-2026,comparator,factoring,2026-09-03,RSA-260 (260 digits),862,bits,,,,False,True,False,True,4050.0,8100.0,stated GPU-years x gpu:factoring
+rsa-576-2003,comparator,factoring,2003-12-03,RSA-576 (174 digits),576,bits,,,,False,True,False,False,,,no usable compute statement
+rsa-768-2009,comparator,factoring,2009-12-12,RSA-768 (232 digits),768,bits,67,,,False,True,False,False,500.0,800.0,stated core-years x era(2009)
+rsa-896-2026,comparator,factoring,2026-09-19,RSA-896 (270 digits),896,bits,,,,False,True,False,True,6090.0,12180.0,stated GPU-years x gpu:factoring
+sike-ikep182-2021,comparator,isogeny,2021-08-28,"Microsoft $IKEp182 challenge (SIDH, 182-bit p)",182,bits,,,,False,True,False,False,10.0,10.0,stated core-years x era(2021)
+sike-ikep217-2022,comparator,isogeny,2022-07-22,"Microsoft $IKEp217 challenge (SIDH, 217-bit p)",217,bits,,,,True,True,False,False,1.1e-05,1.1e-05,stated core-years x era(2022)
+sike-p434-2022,comparator,isogeny,2022-07-30,SIKEp434 (NIST level 1),434,bits,,,,True,True,False,False,1.9e-05,1.9e-05,stated core-years x era(2022)
+sike-p751-2022,comparator,isogeny,2022-08,SIKEp751 (NIST level 5),751,bits,,,,True,True,False,False,0.00235,0.00235,stated core-years x era(2022)
+snfs-m1039-2007,comparator,factoring,2007-05-21,"2^1039-1 (SNFS, 313 digits)",1039,bits,,,,True,True,False,False,,,no usable compute statement
+snfs-m1061-2012,comparator,factoring,2012-08-04,"2^1061-1 (SNFS, 320 digits)",1061,bits,,,,True,True,False,False,167.5,234.49999999999997,stated core-years x era(2012)
+snfs-m1277-2026,comparator,factoring,2026-09-08,"2^1277-1 (SNFS, 385 digits)",1277,bits,,,,True,True,False,True,1989.0,3978.0,stated GPU-years x gpu:factoring
+binary127-117bit-fpga-2016,ecdlp,ECDLP,2016-12-02,target117: 117.35-bit prime-order subgroup of a curve over F_2^127,117.35,bits,59.85,,,False,True,False,False,624.4928131416838,3122.4640657084187,576 fpga x 198 d x fpga:ecdlp
+bn114-rho-2017,ecdlp,ECDLP,2017-08,114-bit Barreto-Naehrig curve over prime field,114,bits,,,,True,False,False,False,801.6427104722793,901.8480492813143,2000 cores x 183 d x era(2017)
+bn116-rho-2023,ecdlp,ECDLP,2023-07,116-bit prime-order Barreto-Naehrig curve,116,bits,,,,True,False,False,False,,,no usable compute statement
+btc-puzzle-064,ecdlp,interval-ECDLP,2022-09-09,"secp256k1 key in [2^63, 2^64), address only (Bitcoin puzzle #64)",63,bits,,,,False,True,True,False,,,no usable compute statement
+btc-puzzle-066,ecdlp,interval-ECDLP,2024-09-12,"secp256k1 key in [2^65, 2^66), address only (Bitcoin puzzle #66)",65,bits,,,,False,True,True,False,,,no usable compute statement
+btc-puzzle-067,ecdlp,interval-ECDLP,2025-02-21,"secp256k1 key in [2^66, 2^67), address only (Bitcoin puzzle #67)",66,bits,,,,False,True,True,False,,,no usable compute statement
+btc-puzzle-068,ecdlp,interval-ECDLP,2025-04-06,"secp256k1 key in [2^67, 2^68), address only (Bitcoin puzzle #68)",67,bits,,,,False,True,True,False,,,no usable compute statement
+btc-puzzle-069,ecdlp,interval-ECDLP,2025-04-30,"secp256k1 key in [2^68, 2^69), address only (Bitcoin puzzle #69)",68,bits,,,,False,True,True,False,,,no usable compute statement
+btc-puzzle-105,ecdlp,interval-ECDLP,2019-09-23,"secp256k1 key in [2^104, 2^105) (Bitcoin puzzle #105)",104,bits,,,,False,True,True,False,,,no usable compute statement
+btc-puzzle-110,ecdlp,interval-ECDLP,2020-05-30,"secp256k1 key in [2^109, 2^110) (Bitcoin puzzle #110)",109,bits,55.55,,,False,True,True,False,73.5934291581109,294.3737166324436,256 gpu x 2.1 d x gpu:ecdlp
+btc-puzzle-115,ecdlp,interval-ECDLP,2020-06-16,"secp256k1 key in [2^114, 2^115) (Bitcoin puzzle #115)",114,bits,58.36,,,False,True,True,False,455.57837097878166,1822.3134839151267,256 gpu x 13 d x gpu:ecdlp
+btc-puzzle-120,ecdlp,interval-ECDLP,2023-02-27,"secp256k1 key in [2^119, 2^120) (Bitcoin puzzle #120)",119,bits,,,,False,True,True,False,,,no usable compute statement
+btc-puzzle-125,ecdlp,interval-ECDLP,2023-07-09,"secp256k1 key in [2^124, 2^125) (Bitcoin puzzle #125)",124,bits,,,,False,True,True,False,,,no usable compute statement
+btc-puzzle-130,ecdlp,interval-ECDLP,2024-09-23,"secp256k1 key in [2^129, 2^130) (Bitcoin puzzle #130)",129,bits,,,,False,True,True,False,,,no usable compute statement
+btc-puzzle-135,ecdlp,interval-ECDLP,2026-07-28,"secp256k1 key in [2^134, 2^135) (Bitcoin puzzle #135)",134,bits,,,,False,True,True,False,4106.7761806981525,16427.10472279261,200 gpu x 150 d x gpu:ecdlp
+certicom-ecc2-109,ecdlp,ECDLP,2004-04-08,Certicom ECC2-109 (random curve over F_2^109),108.0,bits,,,,False,False,False,False,96.0,180.0,stated core-years x era(2004)
+certicom-ecc2-79,ecdlp,ECDLP,1997-12-16,Certicom ECC2-79 (random curve over F_2^79),78.0,bits,40.66,,,False,False,False,False,0.0096,0.0192,stated core-years x era(1997)
+certicom-ecc2-89,ecdlp,ECDLP,1998-02-09,Certicom ECC2-89 (random curve over F_2^89),88.0,bits,44.05,,,False,False,False,False,0.0915,0.183,stated core-years x era(1998)
+certicom-ecc2-97,ecdlp,ECDLP,1999-09-22,Certicom ECC2-97 (random curve over F_2^97),96.0,bits,46.76,,,False,False,False,False,0.5025,1.005,stated core-years x era(1999)
+certicom-ecc2k-108,ecdlp,ECDLP,2000-04-04,Certicom ECC2K-108 (Koblitz curve over F_2^109),108.0,bits,51.03,,,True,True,False,False,36.3584,68.172,stated core-years x era(2000)
+certicom-ecc2k-95,ecdlp,ECDLP,1998-05-21,Certicom ECC2K-95 (Koblitz curve over F_2^97),95.0,bits,44.3,,,True,True,False,False,0.1404,0.2808,stated core-years x era(1998)
+certicom-eccp-109,ecdlp,ECDLP,2002-10-15,Certicom ECCp-109 (curve over 109-bit prime field),108.8,bits,55.0,,,False,True,False,False,,,no usable compute statement
+certicom-eccp-79,ecdlp,ECDLP,1997-12-06,Certicom ECCp-79 (curve over 79-bit prime field),78.63,bits,40.35,,,False,True,False,False,0.004200000000000001,0.008400000000000001,stated core-years x era(1997)
+certicom-eccp-89,ecdlp,ECDLP,1998-01-12,Certicom ECCp-89 (curve over 89-bit prime field),88.43,bits,44.46,,,False,True,False,False,0.0588,0.1176,stated core-years x era(1998)
+certicom-eccp-97,ecdlp,ECDLP,1998-03-18,Certicom ECCp-97 (curve over 97-bit prime field),96.52,bits,47.51,,,False,True,False,False,0.5267999999999999,1.0535999999999999,stated core-years x era(1998)
+gls-ghs-f2-155-2021,ecdlp,ECDLP,2021-05,"GLS binary curve over F_2^155 = F_{(2^5)^31}, 115-bit prime subgroup; GHS descent to genus-32 hyperelliptic over F_2^5",114.76,bits,,,,True,False,False,False,2.83,2.83,stated core-years x era(2021)
+joux-vitse-fp6-149bit-2012,ecdlp,ECDLP,2012-01,"curve over F_{p^6} (151-bit field, p ~25-26 bits), 149-bit prime-order subgroup",149,bits,,,,True,True,False,False,6.275,8.785,stated core-years x era(2012)
+koblitz113-fpga-2014,ecdlp,ECDLP,2014-04,"113-bit Koblitz curve y^2+xy=x^3+x^2+1 over F_2^113, challenge from SHA-256",112.0,bits,,,,True,False,False,False,4.632443531827516,23.16221765913758,18 fpga x 47 d x fpga:ecdlp
+mnt170-pairing-2016,ecdlp,FF-DLP,2016-05,"weak MNT curve (k=3) over 170-bit p, 156-bit subgroup; DLP via pairing to 508-bit F_{p^3}",508,bits,,,,True,True,False,False,2.3760000000000003,2.673,stated core-years x era(2016)
+secp112r1-ps3-2009,ecdlp,ECDLP,2009-07-08,"secp112r1 (SECG 112-bit prime field, p=(2^128-3)/76439)",111.78,bits,56.25,,,False,True,False,False,8.673511293634498,23.129363449691994,6 ps3 x 176 d x ps3:ecdlp
+sect113r1-fpga-2015,ecdlp,ECDLP,2015-01,sect113r1 (SECG binary curve over F_2^113),112.0,bits,,,,False,True,False,False,4.161533196440794,20.807665982203968,10 fpga x 76 d x fpga:ecdlp
+sect113r2-fpga-2016,ecdlp,ECDLP,2016-04,sect113r2 (SECG binary curve over F_2^113),112.0,bits,56.29,,,False,False,False,False,31.60574948665298,158.0287474332649,120 fpga x 48.1 d x fpga:ecdlp
+vjs-ghs-f2-155-2011,ecdlp,ECDLP,2011-02,"elliptic curve over F_2^155 = F_{(2^5)^31}, 115-bit prime subgroup; GHS descent to genus-32 hyperelliptic over F_2^5",114.76,bits,,,,True,True,False,False,2.375,3.3249999999999997,stated core-years x era(2011)
+ideal_apxsvp_d112_20130122_plantard,lattice,Ideal-SVP,2013-01-22,Ideal Lattice Challenge approx-SVP dim 112 (index 113),112,dim,,88,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+ideal_apxsvp_d168_20130211_kuo,lattice,Ideal-SVP,2013-02-11,Ideal Lattice Challenge approx-SVP dim 168 (index 522),168,dim,,135,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+ideal_apxsvp_d178_20130303_usatyuk,lattice,Ideal-SVP,2013-03-03,Ideal Lattice Challenge approx-SVP dim 178 (index 358),178,dim,,144,dimension - d/ln d (estimated dims-for-free),False,True,False,False,5.065023956194388e-06,7.0910335386721425e-06,"single machine assumed, 0.0037 d"
+ideal_apxsvp_d200_20130421_usatyuk,lattice,Ideal-SVP,2013-04-21,Ideal Lattice Challenge approx-SVP dim 200 (index 275),200,dim,,162,dimension - d/ln d (estimated dims-for-free),False,True,False,False,5.886379192334018e-06,8.240930869267625e-06,"single machine assumed, 0.0043 d"
+ideal_apxsvp_d272_20130422_usatyuk,lattice,Ideal-SVP,2013-04-22,Ideal Lattice Challenge approx-SVP dim 272 (index 289),272,dim,,223,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+ideal_apxsvp_d372_20130424_usatyuk,lattice,Ideal-SVP,2013-04-24,Ideal Lattice Challenge approx-SVP dim 372 (index 373),372,dim,,309,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.0007830253251197809,0.0010962354551676933,"single machine assumed, 0.572 d"
+ideal_apxsvp_d420_20130802_schneider,lattice,Ideal-SVP,2013-08-02,Ideal Lattice Challenge approx-SVP dim 420 (index 421),420,dim,,350,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.00014,0.00019599999999999997,stated core-years x era(2013)
+ideal_apxsvp_d424_20130805_usatyuk,lattice,Ideal-SVP,2013-08-05,Ideal Lattice Challenge approx-SVP dim 424 (index 856),424,dim,,354,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.0009212867898699521,0.0012898015058179328,"single machine assumed, 0.673 d"
+ideal_apxsvp_d452_20130811_usatyuk,lattice,Ideal-SVP,2013-08-11,Ideal Lattice Challenge approx-SVP dim 452 (index 908),452,dim,,378,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.0015619438740588638,0.002186721423682409,"single machine assumed, 1.14 d"
+ideal_apxsvp_d478_20130824_usatyuk,lattice,Ideal-SVP,2013-08-24,Ideal Lattice Challenge approx-SVP dim 478 (index 958),478,dim,,401,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+ideal_apxsvp_d500_20150122_wang,lattice,Ideal-SVP,2015-01-22,Ideal Lattice Challenge approx-SVP dim 500 (index 1004),500,dim,,420,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.000688,0.000774,stated core-years x era(2015)
+ideal_apxsvp_d552_20150428_wang,lattice,Ideal-SVP,2015-04-28,Ideal Lattice Challenge approx-SVP dim 552 (index 1668),552,dim,,465,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.014560000000000002,0.016380000000000002,stated core-years x era(2015)
+ideal_apxsvp_d600_20150429_wang,lattice,Ideal-SVP,2015-04-29,Ideal Lattice Challenge approx-SVP dim 600 (index 601),600,dim,,506,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.05608,0.06309,stated core-years x era(2015)
+ideal_apxsvp_d652_20150526_wang,lattice,Ideal-SVP,2015-05-26,Ideal Lattice Challenge approx-SVP dim 652 (index 653),652,dim,,551,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.4232,0.4761,stated core-years x era(2015)
+ideal_apxsvp_d656_20210831_zhao,lattice,Ideal-SVP,2021-08-31,Ideal Lattice Challenge approx-SVP dim 656 (index 1245),656,dim,,555,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.1597,0.1597,stated core-years x era(2021)
+ideal_apxsvp_d700_20220514_zhao,lattice,Ideal-SVP,2022-05-14,Ideal Lattice Challenge approx-SVP dim 700 (index 701),700,dim,,593,dimension - d/ln d (estimated dims-for-free),True,True,False,False,0.2039,0.2039,stated core-years x era(2022)
+ideal_apxsvp_d750_20230130_wang,lattice,Ideal-SVP,2023-01-30,Ideal Lattice Challenge approx-SVP dim 750 (index 751),750,dim,,637,dimension - d/ln d (estimated dims-for-free),True,True,False,False,6.082,6.082,stated core-years x era(2023)
+ideal_apxsvp_d796_20240627_zhao,lattice,Ideal-SVP,2024-06-27,Ideal Lattice Challenge approx-SVP dim 796 (index 797),796,dim,,677,dimension - d/ln d (estimated dims-for-free),True,True,False,False,1.68,1.68,stated core-years x era(2024)
+ideal_svp_d100_20130221_kuo,lattice,Ideal-SVP,2013-02-21,Ideal Lattice Challenge SVP dim 100 (index 202),100,dim,,78,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+ideal_svp_d108_20130308_ishiguro,lattice,Ideal-SVP,2013-03-08,Ideal Lattice Challenge SVP dim 108 (index 324),108,dim,,85,dimension - d/ln d (estimated dims-for-free),True,True,False,False,,,no usable compute statement
+ideal_svp_d128_20130411_ishiguro,lattice,Ideal-SVP,2013-04-11,Ideal Lattice Challenge SVP dim 128 (index 256),128,dim,,102,dimension - d/ln d (estimated dims-for-free),True,True,False,False,1.711,2.3954,stated core-years x era(2013)
+ideal_svp_d128_2014_bos_naehrig_vandepol,lattice,Ideal-SVP,2014-10,negacyclic ideal lattice dim 128 (Ideal Lattice Challenge instance),128,dim,,102,dimension - d/ln d (estimated dims-for-free),True,True,False,False,12.616016427104723,17.66242299794661,1024 cores x 9 d x era(2014)
+ideal_svp_d130_20150903_kashiwabara,lattice,Ideal-SVP,2015-09-03,Ideal Lattice Challenge SVP dim 130 (index 262),130,dim,,103,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.9172895277207392,1.0319507186858317,30 cores x 14 d x era(2015)
+ideal_svp_d130_20160427_yang,lattice,Ideal-SVP,2016-04-27,Ideal Lattice Challenge SVP dim 130 (index 131),130,dim,,103,dimension - d/ln d (estimated dims-for-free),True,True,False,False,75.1047227926078,375.523613963039,8 gpu x 34.3 d x gpu:lattice
+ideal_svp_d132_20190307_sekiguchi,lattice,Ideal-SVP,2019-03-07,Ideal Lattice Challenge SVP dim 132 (index 161),132,dim,,105,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.007679999999999999,0.00864,stated core-years x era(2019)
+ideal_svp_d144_20190403_miyagi,lattice,Ideal-SVP,2019-04-03,Ideal Lattice Challenge SVP dim 144 (index 185),144,dim,,115,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.00864,0.009720000000000001,stated core-years x era(2019)
+ideal_svp_d148_20200202_miyagi,lattice,Ideal-SVP,2020-02-02,Ideal Lattice Challenge SVP dim 148 (index 149),148,dim,,118,dimension - d/ln d (estimated dims-for-free),True,True,False,False,0.802,0.802,stated core-years x era(2020)
+ideal_svp_d150_20200212_miyagi,lattice,Ideal-SVP,2020-02-12,Ideal Lattice Challenge SVP dim 150 (index 151),150,dim,,120,dimension - d/ln d (estimated dims-for-free),True,True,False,False,0.864,0.864,stated core-years x era(2020)
+ideal_svp_d156_20221021_wang,lattice,Ideal-SVP,2022-10-21,Ideal Lattice Challenge SVP dim 156 (index 157),156,dim,,125,dimension - d/ln d (estimated dims-for-free),True,True,False,False,0.0181,0.0181,stated core-years x era(2022)
+ideal_svp_d160_20221022_wang,lattice,Ideal-SVP,2022-10-22,Ideal Lattice Challenge SVP dim 160 (index 187),160,dim,,128,dimension - d/ln d (estimated dims-for-free),True,True,False,False,0.0999,0.0999,stated core-years x era(2022)
+ideal_svp_d162_20221024_wang,lattice,Ideal-SVP,2022-10-24,Ideal Lattice Challenge SVP dim 162 (index 163),162,dim,,130,dimension - d/ln d (estimated dims-for-free),True,True,False,False,0.1442,0.1442,stated core-years x era(2022)
+ideal_svp_d164_20260316_hashimoto,lattice,Ideal-SVP,2026-03-16,Ideal Lattice Challenge SVP dim 164 (index 249),164,dim,,132,dimension - d/ln d (estimated dims-for-free),True,False,False,False,0.0398,0.0398,stated core-years x era(2026)
+ideal_svp_d168_20221106_wang,lattice,Ideal-SVP,2022-11-06,Ideal Lattice Challenge SVP dim 168 (index 203),168,dim,,135,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.3263,0.3263,stated core-years x era(2022)
+ideal_svp_d172_20221107_wang,lattice,Ideal-SVP,2022-11-07,Ideal Lattice Challenge SVP dim 172 (index 173),172,dim,,139,dimension - d/ln d (estimated dims-for-free),True,True,False,False,0.3924,0.3924,stated core-years x era(2022)
+ideal_svp_d176_20221211_wang,lattice,Ideal-SVP,2022-12-11,Ideal Lattice Challenge SVP dim 176 (index 267),176,dim,,142,dimension - d/ln d (estimated dims-for-free),True,True,False,False,1.624,1.624,stated core-years x era(2022)
+ideal_svp_d180_20240716_wang,lattice,Ideal-SVP,2024-07-16,Ideal Lattice Challenge SVP dim 180 (index 181),180,dim,,145,dimension - d/ln d (estimated dims-for-free),True,True,False,False,53.44284736481861,267.21423682409306,8 gpu x 24.4 d x gpu:lattice
+ideal_svp_d66_20121213_plantard,lattice,Ideal-SVP,2012-12-13,Ideal Lattice Challenge SVP dim 66 (index 67),66,dim,,50,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+ideal_svp_d88_20130208_ishiguro,lattice,Ideal-SVP,2013-02-08,Ideal Lattice Challenge SVP dim 88 (index 89),88,dim,,68,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.000513347022587269,0.0007186858316221766,"single machine assumed, 0.375 d"
+ideal_svp_d92_20130210_kuo,lattice,Ideal-SVP,2013-02-10,Ideal Lattice Challenge SVP dim 92 (index 188),92,dim,,72,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+ideal_svp_d96_20130220_ishiguro,lattice,Ideal-SVP,2013-02-20,Ideal Lattice Challenge SVP dim 96 (index 288),96,dim,,75,dimension - d/ln d (estimated dims-for-free),True,True,False,False,,,no usable compute statement
+kyber_sparse_kappa2_2024_wenger_et_al,lattice,LWE,2024-08,"Kyber-like MLWE (kappa=2 params) with sparse binomial secrets, Hamming weight 9-11",512,dim,,,,True,False,False,False,,,no usable compute statement
+latchal_d1000_20221024_sun,lattice,approx-SVP,2022-10-24,TU Darmstadt Lattice Challenge dim 1000,1000,dim,,855,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d1050_20230816_sun,lattice,approx-SVP,2023-08-16,TU Darmstadt Lattice Challenge dim 1050,1050,dim,,899,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d1100_20240808_sun,lattice,approx-SVP,2024-08-08,TU Darmstadt Lattice Challenge dim 1100,1100,dim,,943,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d500_200812_gama,lattice,approx-SVP,2008-12,TU Darmstadt Lattice Challenge dim 500,500,dim,,420,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d525_200812_gama,lattice,approx-SVP,2008-12,TU Darmstadt Lattice Challenge dim 525,525,dim,,441,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d575_200812_gama,lattice,approx-SVP,2008-12,TU Darmstadt Lattice Challenge dim 575,575,dim,,485,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d625_200812_gama,lattice,approx-SVP,2008-12,TU Darmstadt Lattice Challenge dim 625,625,dim,,528,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d650_200812_gama,lattice,approx-SVP,2008-12,TU Darmstadt Lattice Challenge dim 650,650,dim,,550,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d675_200812_gama,lattice,approx-SVP,2008-12,TU Darmstadt Lattice Challenge dim 675,675,dim,,571,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d700_200812_gama,lattice,approx-SVP,2008-12,TU Darmstadt Lattice Challenge dim 700,700,dim,,593,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d725_200812_gama,lattice,approx-SVP,2008-12,TU Darmstadt Lattice Challenge dim 725,725,dim,,615,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d750_201107_chen,lattice,approx-SVP,2011-07,TU Darmstadt Lattice Challenge dim 750,750,dim,,637,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d775_20110715_chen,lattice,approx-SVP,2011-07-15,TU Darmstadt Lattice Challenge dim 775,775,dim,,659,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d800_20110723_chen,lattice,approx-SVP,2011-07-23,TU Darmstadt Lattice Challenge dim 800,800,dim,,680,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d825_20121001_aono,lattice,approx-SVP,2012-10-01,TU Darmstadt Lattice Challenge dim 825,825,dim,,702,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d850_20211116_jin,lattice,approx-SVP,2021-11-16,TU Darmstadt Lattice Challenge dim 850,850,dim,,724,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d875_20220718_sun,lattice,approx-SVP,2022-07-18,TU Darmstadt Lattice Challenge dim 875,875,dim,,746,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d900_20220804_sun,lattice,approx-SVP,2022-08-04,TU Darmstadt Lattice Challenge dim 900,900,dim,,768,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d925_20220807_sun,lattice,approx-SVP,2022-08-07,TU Darmstadt Lattice Challenge dim 925,925,dim,,790,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d950_20220810_sun,lattice,approx-SVP,2022-08-10,TU Darmstadt Lattice Challenge dim 950,950,dim,,811,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+latchal_d975_20220903_sun,lattice,approx-SVP,2022-09-03,TU Darmstadt Lattice Challenge dim 975,975,dim,,833,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+lwe_galbraith_binary_256x400_2017_may_herold,lattice,LWE,2017-03,"Galbraith binary-matrix LWE small challenge (n,m)=(256,400)",256,dim,,,,True,True,False,False,,,no usable compute statement
+lwe_n128_binary_2015_kirchner_fouque,lattice,LWE,2015-06,"binary-secret LWE n=128, q=n^2, alpha=1/(sqrt(n/pi) log^2 n)",128,dim,,,,True,False,False,False,0.0010951403148528405,0.0012320328542094457,"single machine assumed, 0.5 d"
+lwe_n350_2015_laine_lauter,lattice,LWE,2015-03,LWE n=350 with large modulus (q >= 2^O(n)) and narrow error,350,dim,,,,True,True,False,False,,,no usable compute statement
+lwe_sparse_binary_n1024_2024_nolte_et_al,lattice,LWE,2024-03,"sparse binary-secret LWE/RLWE, n = 256, 512, 768, 1024 (Cool & Cruel)",1024,dim,,,,True,False,False,False,,,no usable compute statement
+lwechal_n100_a005_20260810_ding,lattice,LWE,2026-08-10,Darmstadt LWE challenge n=100 alpha=0.005,100,dim,,,,False,True,False,False,114.91,574.55,stated GPU-years x gpu:lattice
+lwechal_n40_a005_20160615_xu,lattice,LWE,2016-06-15,Darmstadt LWE challenge n=40 alpha=0.005,40,dim,,,,False,True,False,False,4.380561259411363e-08,4.928131416837783e-08,"single machine assumed, 2e-05 d"
+lwechal_n40_a010_20160613_xu,lattice,LWE,2016-06-13,Darmstadt LWE challenge n=40 alpha=0.010,40,dim,,,,False,True,False,False,5.585215605749487e-06,6.283367556468173e-06,"single machine assumed, 0.00255 d"
+lwechal_n40_a015_20160613_xu,lattice,LWE,2016-06-13,Darmstadt LWE challenge n=40 alpha=0.015,40,dim,,,,False,True,False,False,0.00012039972621492128,0.00013544969199178643,"single machine assumed, 0.055 d"
+lwechal_n40_a020_20160809_xu,lattice,LWE,2016-08-09,Darmstadt LWE challenge n=40 alpha=0.020,40,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n40_a025_20170222_kashiwabara,lattice,LWE,2017-02-22,Darmstadt LWE challenge n=40 alpha=0.025,40,dim,,,,False,True,False,False,2.917460106776181,3.2821426201232033,864 cores x 1.54 d x era(2017)
+lwechal_n40_a030_20180923_albrecht,lattice,LWE,2018-09-23,Darmstadt LWE challenge n=40 alpha=0.030,40,dim,,,,False,True,False,False,0.22625598904859687,0.25453798767967145,40 cores x 2.58 d x era(2018)
+lwechal_n40_a035_20220406_wang,lattice,LWE,2022-04-06,Darmstadt LWE challenge n=40 alpha=0.035,40,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n40_a040_20221015_wang,lattice,LWE,2022-10-15,Darmstadt LWE challenge n=40 alpha=0.040,40,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n40_a045_20250911_bai,lattice,LWE,2025-09-11,Darmstadt LWE challenge n=40 alpha=0.045,40,dim,,146,reported max sieving dimension,False,True,False,False,,,no usable compute statement
+lwechal_n40_a050_20260721_ding,lattice,LWE,2026-07-21,Darmstadt LWE challenge n=40 alpha=0.050,40,dim,,,,False,True,False,False,23.27,116.35,stated GPU-years x gpu:lattice
+lwechal_n45_a005_20160615_xu,lattice,LWE,2016-06-15,Darmstadt LWE challenge n=45 alpha=0.005,45,dim,,,,False,True,False,False,1.3141683778234087e-07,1.4784394250513346e-07,"single machine assumed, 6e-05 d"
+lwechal_n45_a010_20160613_xu,lattice,LWE,2016-06-13,Darmstadt LWE challenge n=45 alpha=0.010,45,dim,,,,False,True,False,False,4.0914442162902126e-05,4.6028747433264885e-05,"single machine assumed, 0.0187 d"
+lwechal_n45_a015_20170213_kashiwabara,lattice,LWE,2017-02-13,Darmstadt LWE challenge n=45 alpha=0.015,45,dim,,,,False,True,False,False,2.128952772073922,2.395071868583162,864 cores x 1.12 d x era(2017)
+lwechal_n45_a020_20170329_kashiwabara,lattice,LWE,2017-03-29,Darmstadt LWE challenge n=45 alpha=0.020,45,dim,,,,False,True,False,False,22.945379876796718,25.813552361396304,864 cores x 12.1 d x era(2017)
+lwechal_n45_a025_20220224_ducas,lattice,LWE,2022-02-24,Darmstadt LWE challenge n=45 alpha=0.025,45,dim,,,,False,True,False,False,0.39901437371663245,1.995071868583162,3 gpu x 0.486 d x gpu:lattice
+lwechal_n45_a030_20220602_ducas,lattice,LWE,2022-06-02,Darmstadt LWE challenge n=45 alpha=0.030,45,dim,,,,False,True,False,False,9.217434633812458,46.08717316906229,4 gpu x 8.42 d x gpu:lattice
+lwechal_n45_a035_20250919_ding,lattice,LWE,2025-09-19,Darmstadt LWE challenge n=45 alpha=0.035,45,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n45_a040_20260809_bai,lattice,LWE,2026-08-09,Darmstadt LWE challenge n=45 alpha=0.040,45,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n50_a005_20160615_xu,lattice,LWE,2016-06-15,Darmstadt LWE challenge n=50 alpha=0.005,50,dim,,,,False,True,False,False,1.2265571526351814e-06,1.3798767967145788e-06,"single machine assumed, 0.00056 d"
+lwechal_n50_a010_20160728_wang,lattice,LWE,2016-07-28,Darmstadt LWE challenge n=50 alpha=0.010,50,dim,,,,False,True,False,False,0.063432,0.07136100000000001,stated core-years x era(2016)
+lwechal_n50_a015_20180923_albrecht,lattice,LWE,2018-09-23,Darmstadt LWE challenge n=50 alpha=0.015,50,dim,,,,False,True,False,False,0.026949913757700207,0.030318652977412732,28 cores x 0.439 d x era(2018)
+lwechal_n50_a020_20191128_albrecht,lattice,LWE,2019-11-28,Darmstadt LWE challenge n=50 alpha=0.020,50,dim,,,,False,True,False,False,0.46178400000000003,0.519507,stated core-years x era(2019)
+lwechal_n50_a025_20220710_wang,lattice,LWE,2022-07-10,Darmstadt LWE challenge n=50 alpha=0.025,50,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n50_a030_20260716_bai,lattice,LWE,2026-07-16,Darmstadt LWE challenge n=50 alpha=0.030,50,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n55_a005_20160615_xu,lattice,LWE,2016-06-15,Darmstadt LWE challenge n=55 alpha=0.005,55,dim,,,,False,True,False,False,5.57864476386037e-05,6.275975359342917e-05,"single machine assumed, 0.0255 d"
+lwechal_n55_a010_20170329_kashiwabara,lattice,LWE,2017-03-29,Darmstadt LWE challenge n=55 alpha=0.010,55,dim,,,,False,True,False,False,17.6624166899384,19.8702187761807,864 cores x 9.33 d x era(2017)
+lwechal_n55_a015_20180923_albrecht,lattice,LWE,2018-09-23,Darmstadt LWE challenge n=55 alpha=0.015,55,dim,,,,False,True,False,False,0.0851475975359343,0.09579104722792608,28 cores x 1.39 d x era(2018)
+lwechal_n55_a020_20220706_wang,lattice,LWE,2022-07-06,Darmstadt LWE challenge n=55 alpha=0.020,55,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n55_a025_20260721_ding,lattice,LWE,2026-07-21,Darmstadt LWE challenge n=55 alpha=0.025,55,dim,,,,False,True,False,False,22.720000000000002,113.60000000000001,stated GPU-years x gpu:lattice
+lwechal_n60_a005_20160701_xu,lattice,LWE,2016-07-01,Darmstadt LWE challenge n=60 alpha=0.005,60,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n60_a010_20180923_albrecht,lattice,LWE,2018-09-23,Darmstadt LWE challenge n=60 alpha=0.010,60,dim,,,,False,True,False,False,0.12168235455167693,0.13689264887063654,40 cores x 1.39 d x era(2018)
+lwechal_n60_a015_20220519_ducas,lattice,LWE,2022-05-19,Darmstadt LWE challenge n=60 alpha=0.015,60,dim,,,,False,True,False,False,5.0193894592744694,25.09694729637235,4 gpu x 4.58 d x gpu:lattice
+lwechal_n60_a020_20260721_ding,lattice,LWE,2026-07-21,Darmstadt LWE challenge n=60 alpha=0.020,60,dim,,,,False,True,False,False,65.16,325.79999999999995,stated GPU-years x gpu:lattice
+lwechal_n65_a005_20160802_wang,lattice,LWE,2016-08-02,Darmstadt LWE challenge n=65 alpha=0.005,65,dim,,,,False,True,False,False,0.0015760000000000001,0.001773,stated core-years x era(2016)
+lwechal_n65_a010_20190118_albrecht,lattice,LWE,2019-01-18,Darmstadt LWE challenge n=65 alpha=0.010,65,dim,,,,False,True,False,False,0.232992,0.262116,stated core-years x era(2019)
+lwechal_n65_a015_20250919_ding,lattice,LWE,2025-09-19,Darmstadt LWE challenge n=65 alpha=0.015,65,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n70_a005_20161024_wang,lattice,LWE,2016-10-24,Darmstadt LWE challenge n=70 alpha=0.005,70,dim,,,,False,True,False,False,0.002984,0.0033569999999999997,stated core-years x era(2016)
+lwechal_n70_a010_20220224_ducas,lattice,LWE,2022-02-24,Darmstadt LWE challenge n=70 alpha=0.010,70,dim,,,,False,True,False,False,6.844624229979466,34.22312114989733,3 gpu x 8.33 d x gpu:lattice
+lwechal_n75_a005_20180923_albrecht,lattice,LWE,2018-09-23,Darmstadt LWE challenge n=75 alpha=0.005,75,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n75_a010_20250919_ding,lattice,LWE,2025-09-19,Darmstadt LWE challenge n=75 alpha=0.010,75,dim,,,,False,True,False,False,,,no usable compute statement
+lwechal_n80_a005_20220217_xia,lattice,LWE,2022-02-17,Darmstadt LWE challenge n=80 alpha=0.005,80,dim,,,,False,True,False,False,0.08821924709103353,0.08821924709103353,32 cores x 1.01 d x era(2022)
+lwechal_n85_a005_20220224_ducas,lattice,LWE,2022-02-24,Darmstadt LWE challenge n=85 alpha=0.005,85,dim,,,,False,True,False,False,6.861741273100616,34.30870636550308,3 gpu x 8.35 d x gpu:lattice
+lwechal_n90_a005_20220612_xia,lattice,LWE,2022-06-12,Darmstadt LWE challenge n=90 alpha=0.005,90,dim,,,,False,True,False,False,16.89390828199863,84.46954140999316,4 gpu x 15.4 d x gpu:lattice
+lwechal_n95_a005_20240922_wang,lattice,LWE,2024-09-22,Darmstadt LWE challenge n=95 alpha=0.005,95,dim,,,,False,True,False,False,100.84417796030117,504.2208898015058,8 gpu x 46 d x gpu:lattice
+mintru_smallest_2020_lee_wallet,lattice,NTRU,2020-02,"MiNTRU (GGH+19 SHE scheme) smallest parameter set, claimed 100-bit",,,,,,True,False,False,False,0.0017111567419575632,0.0017111567419575632,"single machine assumed, 0.625 d"
+mrlwe_bdd16384_2018_bootland_castryck_vercauteren,lattice,LWE,2018-10,multivariate Ring-LWE (m-RLWE) params claimed >2600-bit security; BDD in structured lattice dim 16384,16384,dim,,,,True,True,False,False,,,no usable compute statement
+ntru_hps171_2023_kirshanova_may_nowakowski,lattice,NTRU,2023-04,NTRU-HPS n=171 (authors' own instance),171,dim,,,,True,True,False,False,0.2272,0.2272,stated core-years x era(2023)
+ntru_si_n107_2015_nick_h,lattice,NTRU,2015-09,"Security Innovation NTRU Challenge #1 (107r0, q=512)",107,dim,,,,False,True,False,False,,,no usable compute statement
+ntru_si_n113_2015_nick_h,lattice,NTRU,2015-09,"Security Innovation NTRU Challenge #2 (113r0, q=1024)",113,dim,,,,False,True,False,False,,,no usable compute statement
+ntru_si_n131_2015_ducas_nguyen,lattice,NTRU,2015-09,"Security Innovation NTRU Challenge #3 (131r1, q=1024)",131,dim,,,,True,True,False,False,0.0016400000000000002,0.0018450000000000003,stated core-years x era(2015)
+ntru_si_n139_2015_ducas_nguyen,lattice,NTRU,2015-09,"Security Innovation NTRU Challenge #4 (139r1, q=1024)",139,dim,,,,True,True,False,False,0.001,0.0011250000000000001,stated core-years x era(2015)
+ntru_si_n149_2015_ducas_nguyen,lattice,NTRU,2015-09,"Security Innovation NTRU Challenge #5 (149r1, q=1024)",149,dim,,,,True,True,False,False,0.004744000000000001,0.005337000000000001,stated core-years x era(2015)
+ntru_si_n163_2015_ducas_nguyen,lattice,NTRU,2015-09,"Security Innovation NTRU Challenge #6 (163r1, q=1024)",163,dim,,,,True,True,False,False,0.08984,0.10107,stated core-years x era(2015)
+ntru_si_n173_2015_ducas_nguyen,lattice,NTRU,2015-09,"Security Innovation NTRU Challenge #7 (173r1, q=1024)",173,dim,,,,True,True,False,False,0.6352000000000001,0.7146,stated core-years x era(2015)
+ntru_si_n181_2023_kirshanova_may_nowakowski,lattice,NTRU,2023-04,Security Innovation NTRU Challenge N=181,181,dim,,,,True,True,False,False,20.0,20.0,stated core-years x era(2023)
+svp_d96_2015_mariano_laarhoven_bischof,lattice,SVP,2015-01,SVP on an arbitrary lattice dim 96 (HashSieve),96,dim,,75,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.025547433264887065,0.028740862422997948,16 cores x 0.729 d x era(2015)
+svpc_d100_20100512_chen,lattice,approx-SVP,2010-05-12,TU Darmstadt SVP Challenge dim 100 (seed 0),100,dim,,78,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d102_20100524_chen,lattice,approx-SVP,2010-05-24,TU Darmstadt SVP Challenge dim 102 (seed 0),102,dim,,80,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d104_20100525_chen,lattice,approx-SVP,2010-05-25,TU Darmstadt SVP Challenge dim 104 (seed 0),104,dim,,82,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d106_20100526_chen,lattice,approx-SVP,2010-05-26,TU Darmstadt SVP Challenge dim 106 (seed 0),106,dim,,83,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d110_20100528_chen,lattice,approx-SVP,2010-05-28,TU Darmstadt SVP Challenge dim 110 (seed 0),110,dim,,87,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d112_20100605_chen,lattice,approx-SVP,2010-06-05,TU Darmstadt SVP Challenge dim 112 (seed 0),112,dim,,88,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d114_20110321_kuo,lattice,approx-SVP,2011-03-21,TU Darmstadt SVP Challenge dim 114 (seed 0),114,dim,,90,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d116_20110401_kuo,lattice,approx-SVP,2011-04-01,TU Darmstadt SVP Challenge dim 116 (seed 0),116,dim,,92,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d120_20110406_kuo,lattice,approx-SVP,2011-04-06,TU Darmstadt SVP Challenge dim 120 (seed 0),120,dim,,95,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d122_20130313_chen,lattice,approx-SVP,2013-03-13,TU Darmstadt SVP Challenge dim 122 (seed 29),122,dim,,97,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d124_20130321_chen,lattice,approx-SVP,2013-03-21,TU Darmstadt SVP Challenge dim 124 (seed 1),124,dim,,98,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d126_20130412_chen,lattice,approx-SVP,2013-04-12,TU Darmstadt SVP Challenge dim 126 (seed 42),126,dim,,100,dimension - d/ln d (estimated dims-for-free),False,True,False,False,1.095,1.533,stated core-years x era(2013)
+svpc_d128_20130919_kashiwabara,lattice,approx-SVP,2013-09-19,TU Darmstadt SVP Challenge dim 128 (seed 0),128,dim,,102,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d130_20131115_kashiwabara,lattice,approx-SVP,2013-11-15,TU Darmstadt SVP Challenge dim 130 (seed 0),130,dim,,103,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d132_20140424_kashiwabara,lattice,approx-SVP,2014-04-24,TU Darmstadt SVP Challenge dim 132 (seed 0),132,dim,,105,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d134_20140713_kashiwabara,lattice,approx-SVP,2014-07-13,TU Darmstadt SVP Challenge dim 134 (seed 0),134,dim,,107,dimension - d/ln d (estimated dims-for-free),False,True,False,False,0.5635,0.7888999999999999,stated core-years x era(2014)
+svpc_d138_20141207_kashiwabara,lattice,approx-SVP,2014-12-07,TU Darmstadt SVP Challenge dim 138 (seed 0),138,dim,,110,dimension - d/ln d (estimated dims-for-free),False,True,False,False,95.82477754962355,134.15468856947297,500 cores x 140 d x era(2014)
+svpc_d140_20150123_kashiwabara,lattice,approx-SVP,2015-01-23,TU Darmstadt SVP Challenge dim 140 (seed 0),140,dim,,112,dimension - d/ln d (estimated dims-for-free),False,True,False,False,54.757015742642025,61.60164271047228,500 cores x 50 d x era(2015)
+svpc_d142_20150315_kashiwabara,lattice,approx-SVP,2015-03-15,TU Darmstadt SVP Challenge dim 142 (seed 0),142,dim,,113,dimension - d/ln d (estimated dims-for-free),False,True,False,False,76.65982203969884,86.24229979466119,700 cores x 50 d x era(2015)
+svpc_d144_20150621_kashiwabara,lattice,approx-SVP,2015-06-21,TU Darmstadt SVP Challenge dim 144 (seed 0),144,dim,,115,dimension - d/ln d (estimated dims-for-free),False,True,False,False,76.65982203969884,86.24229979466119,700 cores x 50 d x era(2015)
+svpc_d146_20150824_kashiwabara,lattice,approx-SVP,2015-08-24,TU Darmstadt SVP Challenge dim 146 (seed 0),146,dim,,117,dimension - d/ln d (estimated dims-for-free),False,True,False,False,140.17796030116358,157.70020533880904,1000 cores x 64 d x era(2015)
+svpc_d148_20160528_kashiwabara,lattice,approx-SVP,2016-05-28,TU Darmstadt SVP Challenge dim 148 (seed 0),148,dim,,118,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d150_20170111_kashiwabara,lattice,approx-SVP,2017-01-11,TU Darmstadt SVP Challenge dim 150 (seed 0),150,dim,,120,dimension - d/ln d (estimated dims-for-free),False,True,False,False,745.6065708418892,838.8073921971253,864 cores x 394 d x era(2017)
+svpc_d153_20180830_albrecht,lattice,approx-SVP,2018-08-30,TU Darmstadt SVP Challenge dim 153 (seed 0),153,dim,,123,reported max sieving dimension,False,True,False,False,1.9952000000000003,2.2446,stated core-years x era(2018)
+svpc_d155_20180918_albrecht,lattice,approx-SVP,2018-09-18,TU Darmstadt SVP Challenge dim 155 (seed 0),155,dim,,127,reported max sieving dimension,False,True,False,False,2.3128,2.6019,stated core-years x era(2018)
+svpc_d157_20190520_ducas,lattice,approx-SVP,2019-05-20,TU Darmstadt SVP Challenge dim 157 (seed 0),157,dim,,126,dimension - d/ln d (estimated dims-for-free),False,True,False,False,3.8329911019849416,19.164955509924706,2 gpu x 7 d x gpu:lattice
+svpc_d163_20260315_hashimoto,lattice,approx-SVP,2026-03-15,TU Darmstadt SVP Challenge dim 163 (seed 0),163,dim,,131,reported max sieving dimension,False,False,False,False,0.0259,0.0259,stated core-years x era(2026)
+svpc_d170_20200512_ducas,lattice,approx-SVP,2020-05-12,TU Darmstadt SVP Challenge dim 170 (seed 0),170,dim,,137,dimension - d/ln d (estimated dims-for-free),False,True,False,False,8.761122518822724,43.80561259411362,4 gpu x 8 d x gpu:lattice
+svpc_d176_20201013_ducas,lattice,approx-SVP,2020-10-13,TU Darmstadt SVP Challenge dim 176 (seed 0),176,dim,,142,dimension - d/ln d (estimated dims-for-free),False,True,False,False,13.689253935660506,68.44626967830253,4 gpu x 12.5 d x gpu:lattice
+svpc_d180_20210208_ducas,lattice,approx-SVP,2021-02-08,TU Darmstadt SVP Challenge dim 180 (seed 0),180,dim,,145,dimension - d/ln d (estimated dims-for-free),False,True,False,False,56.50924024640658,282.5462012320329,4 gpu x 51.6 d x gpu:lattice
+svpc_d182_20230528_wang,lattice,approx-SVP,2023-05-28,TU Darmstadt SVP Challenge dim 182 (seed 0),182,dim,,147,dimension - d/ln d (estimated dims-for-free),False,True,False,False,39.00889801505817,195.04449007529087,4 gpu x 35.6 d x gpu:lattice
+svpc_d183_20240504_zhao,lattice,approx-SVP,2024-05-04,TU Darmstadt SVP Challenge dim 183 (seed 0),183,dim,,148,dimension - d/ln d (estimated dims-for-free),False,False,False,False,9.1,9.1,stated core-years x era(2024)
+svpc_d184_20230703_wang,lattice,approx-SVP,2023-07-03,TU Darmstadt SVP Challenge dim 184 (seed 0),184,dim,,149,dimension - d/ln d (estimated dims-for-free),False,True,False,False,47.31006160164271,236.55030800821356,4 gpu x 43.2 d x gpu:lattice
+svpc_d186_20230725_wang,lattice,approx-SVP,2023-07-25,TU Darmstadt SVP Challenge dim 186 (seed 0),186,dim,,150,dimension - d/ln d (estimated dims-for-free),False,True,False,False,55.08555783709787,275.42778918548936,4 gpu x 50.3 d x gpu:lattice
+svpc_d187_20260120_bai,lattice,approx-SVP,2026-01-20,TU Darmstadt SVP Challenge dim 187 (seed 0),187,dim,,157,reported max sieving dimension,False,False,False,False,77.43956194387405,387.1978097193703,8 gpu x 35.4 d x gpu:lattice
+svpc_d188_20250312_wang,lattice,approx-SVP,2025-03-12,TU Darmstadt SVP Challenge dim 188 (seed 0),188,dim,,152,reported max sieving dimension,False,False,False,False,215.01984941820672,1075.0992470910337,8 gpu x 98.2 d x gpu:lattice
+svpc_d190_20240721_sun,lattice,approx-SVP,2024-07-21,TU Darmstadt SVP Challenge dim 190 (seed 0),190,dim,,154,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement
+svpc_d192_20260917_bai,lattice,approx-SVP,2026-09-17,TU Darmstadt SVP Challenge dim 192 (seed 0),192,dim,,155,dimension - d/ln d (estimated dims-for-free),False,False,False,False,,,no usable compute statement
+svpc_d200_20250304_zhao,lattice,approx-SVP,2025-03-04,TU Darmstadt SVP Challenge dim 200 (seed 0),200,dim,,164,reported max sieving dimension,False,True,False,False,68.27104722792609,341.35523613963045,8 gpu x 31.2 d x gpu:lattice
+svpc_d210_20260101_ding,lattice,approx-SVP,2026-01-01,TU Darmstadt SVP Challenge dim 210 (seed 0),210,dim,,171,reported max sieving dimension,False,True,False,False,665.0677618069815,3325.3388090349076,31 gpu x 78.4 d x gpu:lattice
+svpc_d94_20100511_chen,lattice,approx-SVP,2010-05-11,TU Darmstadt SVP Challenge dim 94 (seed 0),94,dim,,73,dimension - d/ln d (estimated dims-for-free),False,True,False,False,,,no usable compute statement

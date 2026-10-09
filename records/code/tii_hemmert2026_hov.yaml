@@ -1,0 +1,27 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "tii_hemmert2026_hov"
+class: "code"
+problem: "SD-Goppa"
+instance: "TII Track 1B: 32 instances, labels 83-248; largest label TII-248 (n=482, k=419, t=7, m=9); max t=9 (labels 189, 209, 223)"
+instance_size: 482
+instance_size_unit: "n"
+log2_ops: null
+method: "higher-order vanishing (HOV) key recovery (Hemmert; distinguisher Hemmert-Wiemers CRYPTO 2026)"
+structure_exploited: true
+hardware: "2x AMD EPYC 9745 (2x128 cores)"
+raw_compute: "TII-248: 17 h 18 min, 0.5 GB; TII-83: 13 min, 1.7 GB (paper Table 1 as quoted by Saarinen)"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.7208333333333333
+date: "2026-06-29"
+solvers: ["Tobias Hemmert"]
+academic: true
+challenge: "TII McEliece"
+extrapolation: "conjectured to apply to Classic McEliece at roughly the HOV distinguisher cost, still far above target security"
+paper: "2026/1339"
+source_url: "https://github.com/tobhem/key-recovery-mceliece-tii-solutions"
+other_urls: ["https://eprint.iacr.org/2026/1339", "https://github.com/mjosaarinen/tii-solved", "https://raw.githubusercontent.com/ElenaKirshanova/tii_decoding_challenge/main/key_rec_instances"]
+confidence: 0.75
+verified: true
+verified_by: "user 2026-10-09: checked, accepted provisionally (\"willing to trust for now\")"
+notes: "Hemmert reportedly at BSI (search summary). Labels solved (from repo file list, committed 2026-06-29): 83,84,85,86,89,90,91,92,93,94,96,100,105,110,113,119,125,134,160,164,166,171,178,189,200,209,210,212,220,223,244,248. Timings are second-hand (Saarinen README). TII label = round(bitcomplexity) from the organizers' key_rec_instances file (a brute-force/support-splitting estimate, disputed by Bernstein 2023 and the 2026 papers); labels are not security levels. TII/HeroX confirmation: none found; HeroX leaderboard (static since the May 2024 close) still lists every Track 1B label above 83 as \"Available to Solve\". Keys are publicly checkable against the official public keys."

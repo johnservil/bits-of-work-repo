@@ -1,0 +1,40 @@
+{"id": "W2564903776", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Reed-Muller testing"}
+{"id": "W2566335580", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LS hierarchy original"}
+{"id": "W2568156592", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum provers"}
+{"id": "W2569308491", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SDP limits for entangled games"}
+{"id": "W2569769046", "include": "borderline", "category": "F", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "SoS hypercontractivity on Frankl-Rodl graph, motivated by UG integrality gaps"}
+{"id": "W2570910249", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled projection game repetition"}
+{"id": "W2571658045", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS symmetric lower bounds"}
+{"id": "W2572894540", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semialgebraic proof width"}
+{"id": "W2574497079", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS refutation of CSPs"}
+{"id": "W2576456765", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "gap 3SAT to label cover reduction"}
+{"id": "W2579583840", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "candidate reduction to 2-to-2 Games and Grassmann graph hypothesis"}
+{"id": "W2581091247", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "best separable state SoS algorithm"}
+{"id": "W2583426397", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for feedback vertex set"}
+{"id": "W2583499038", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "new proof of Majority is Stablest"}
+{"id": "W2585506700", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "reduction from 3LIN to 2-to-1 label cover"}
+{"id": "W2588530677", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Kneser graph removal lemma"}
+{"id": "W2591560904", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "dictatorship test"}
+{"id": "W2593693579", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "approximation algorithms for unique games via graph decomposition"}
+{"id": "W2604766414", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "DNF approximation of Boolean functions"}
+{"id": "W2606812758", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS proof size"}
+{"id": "W2607237413", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Goemans-Linial gap"}
+{"id": "W2610313478", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "low-degree testing"}
+{"id": "W2610340222", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "Lasserre rounding with higher eigenvalues, UG-style algorithms"}
+{"id": "W2611404581", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for Horn SAT hardness"}
+{"id": "W2611715903", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "boson sampling"}
+{"id": "W2612149215", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Majority is stablest variant"}
+{"id": "W2613249685", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Cheeger inequality improvements"}
+{"id": "W2613308084", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "assumes SSE hypothesis for hardness"}
+{"id": "W2615293811", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Gaussian surface area"}
+{"id": "W2619061098", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "integrality gap and negative type embedding counterexample from UG-type construction"}
+{"id": "W2620998635", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "perfect completeness inapproximability, UGC context only"}
+{"id": "W2621263703", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max k-CSP algorithms"}
+{"id": "W2622192510", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multi-prover protocols"}
+{"id": "W2626503362", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "negative type embeddings"}
+{"id": "W2627090645", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled anchoring"}
+{"id": "W2636179653", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "random tensor certificates"}
+{"id": "W2730015764", "include": "yes", "category": "C", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "non-expanding sets in Grassmann graphs, 2-to-2 Games line"}
+{"id": "W2735245875", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "noise correlation"}
+{"id": "W2735568186", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "high order walks"}
+{"id": "W2735864074", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph junta method"}

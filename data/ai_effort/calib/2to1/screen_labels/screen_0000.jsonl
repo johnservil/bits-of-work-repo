@@ -1,0 +1,100 @@
+{"id": "W100944330", "keep": false, "why": "unrelated: Laplacian eigenvalue bound"}
+{"id": "W11084176", "keep": true, "why": "sub-constant error PCP construction"}
+{"id": "W1124123724", "keep": false, "why": "unrelated: RDF instance matching"}
+{"id": "W132016661", "keep": false, "why": "unrelated: convex recoloring"}
+{"id": "W135432853", "keep": false, "why": "generic approximation algorithms"}
+{"id": "W142896123", "keep": true, "why": "PCP consistency lemma"}
+{"id": "W1465058481", "keep": false, "why": "unrelated: connectivity approximation"}
+{"id": "W1480006018", "keep": false, "why": "unrelated: knapsack approximation"}
+{"id": "W1480083412", "keep": false, "why": "unrelated: control-flow exploration"}
+{"id": "W1480663790", "keep": true, "why": "learning hardness via PCP-style reduction; unsure"}
+{"id": "W1482900401", "keep": false, "why": "unrelated: election approximation"}
+{"id": "W1483324665", "keep": true, "why": "Hardness reductions; Min-3Lin deletion, PCP-style"}
+{"id": "W1486325209", "keep": true, "why": "slice of hypercube functions; Grassmann-adjacent"}
+{"id": "W1486987106", "keep": false, "why": "unrelated: overlay networks"}
+{"id": "W1487870616", "keep": false, "why": "unrelated: cops and robbers"}
+{"id": "W1488129004", "keep": false, "why": "unrelated: maintenance scheduling"}
+{"id": "W1488425980", "keep": false, "why": "unrelated: summarization"}
+{"id": "W1493650034", "keep": false, "why": "unrelated: search heuristics"}
+{"id": "W1494075208", "keep": false, "why": "generic graph parameter approximability"}
+{"id": "W1494263671", "keep": false, "why": "unrelated: genome distance"}
+{"id": "W1497086998", "keep": true, "why": "two-query PCP sub-constant error"}
+{"id": "W1497312391", "keep": false, "why": "generic submodular approximation"}
+{"id": "W1500425902", "keep": false, "why": "unrelated: advice complexity"}
+{"id": "W1500791234", "keep": true, "why": "low-degree polynomial testing"}
+{"id": "W1501644705", "keep": true, "why": "clique hardness; PCP-based, unsure"}
+{"id": "W1502009568", "keep": true, "why": "two-variable linear equations; UG-adjacent"}
+{"id": "W1507028355", "keep": true, "why": "parallel repetition for projection games"}
+{"id": "W1508211895", "keep": false, "why": "unrelated: firefighter problem"}
+{"id": "W1508327628", "keep": false, "why": "unrelated: reoptimization"}
+{"id": "W1508610352", "keep": false, "why": "unrelated: association rules"}
+{"id": "W1509590713", "keep": false, "why": "unrelated: social network nodes"}
+{"id": "W1511716344", "keep": true, "why": "two-prover proof systems"}
+{"id": "W1513264994", "keep": true, "why": "robust locally testable codes"}
+{"id": "W1520199687", "keep": false, "why": "unrelated: arborescences"}
+{"id": "W1521628414", "keep": false, "why": "unrelated: Steiner tree"}
+{"id": "W1522029489", "keep": false, "why": "generic minimization hardness; no games link"}
+{"id": "W1523147308", "keep": false, "why": "unrelated: code detection"}
+{"id": "W1523265685", "keep": true, "why": "inapproximability survey; unsure"}
+{"id": "W1523686656", "keep": false, "why": "unrelated: recoverable selection"}
+{"id": "W1523755288", "keep": false, "why": "unrelated: dominating set"}
+{"id": "W1524356573", "keep": true, "why": "vertex cover hardness; UGC-related"}
+{"id": "W1525153939", "keep": false, "why": "unrelated: polygon covering"}
+{"id": "W1527094333", "keep": true, "why": "tensor codes robust testability"}
+{"id": "W1528180898", "keep": false, "why": "monotonicity distance; no games link"}
+{"id": "W1528979437", "keep": false, "why": "unrelated: Steiner tree"}
+{"id": "W1529556207", "keep": false, "why": "unrelated: graph thresholds"}
+{"id": "W1531368347", "keep": true, "why": "STOC proceedings record; unsure"}
+{"id": "W1534413569", "keep": false, "why": "generic representation theory textbook"}
+{"id": "W1539563432", "keep": false, "why": "unrelated: unit disk covering"}
+{"id": "W1540171566", "keep": false, "why": "generic minimization hardness; Sigma2p"}
+{"id": "W1542241645", "keep": true, "why": "combinatorial consistency lemma for PCP"}
+{"id": "W1544920412", "keep": false, "why": "unrelated: multiobjective optimization"}
+{"id": "W1546177704", "keep": true, "why": "CSP approximability; label-cover-adjacent"}
+{"id": "W1547191523", "keep": true, "why": "spectral sparsest cut; UG-adjacent"}
+{"id": "W1550030874", "keep": false, "why": "unrelated: TSP neighborhoods"}
+{"id": "W1550204818", "keep": true, "why": "log-Sobolev for random walks; hypercontractivity"}
+{"id": "W1552350267", "keep": false, "why": "set cover hardness; not games-specific"}
+{"id": "W1553437522", "keep": false, "why": "unrelated: closest substring"}
+{"id": "W1559492868", "keep": false, "why": "unrelated: sharp thresholds"}
+{"id": "W1559562756", "keep": false, "why": "unrelated: EKR integer sequences"}
+{"id": "W1559585986", "keep": true, "why": "quantum PCP theorem"}
+{"id": "W1564025554", "keep": true, "why": "optimal inapproximability; PCP foundations"}
+{"id": "W1569176896", "keep": true, "why": "SDP gaps for 2-to-1 label cover"}
+{"id": "W1569752386", "keep": false, "why": "generic combinatorics exercises"}
+{"id": "W1569885018", "keep": false, "why": "generic cryptography textbook"}
+{"id": "W1570266953", "keep": false, "why": "unrelated: algorithmic learning"}
+{"id": "W1570370412", "keep": false, "why": "unrelated: exact algorithms"}
+{"id": "W1571037334", "keep": true, "why": "Unique Games integrality gap work"}
+{"id": "W1571257748", "keep": true, "why": "PTAS-hardness, likely UG/PCP-based"}
+{"id": "W1573288331", "keep": true, "why": "hardness of approximation; unsure"}
+{"id": "W1573473661", "keep": false, "why": "unrelated: Hamming anticodes"}
+{"id": "W1583038314", "keep": true, "why": "PCP checking; foundational PCP paper"}
+{"id": "W1583136812", "keep": false, "why": "unrelated: algorithmic teaching"}
+{"id": "W1586488998", "keep": true, "why": "bypassing UGC for geometric hardness"}
+{"id": "W1586797185", "keep": true, "why": "untitled record; unsure"}
+{"id": "W1586809440", "keep": false, "why": "monotonicity testing; no games link"}
+{"id": "W1587208437", "keep": false, "why": "unrelated: wireless networks"}
+{"id": "W1587504556", "keep": false, "why": "unrelated: distributed approximation"}
+{"id": "W1588469622", "keep": true, "why": "SDP hierarchy rounding; UG-adjacent"}
+{"id": "W1591762700", "keep": true, "why": "untitled record; unsure"}
+{"id": "W1594413663", "keep": false, "why": "unrelated: set cover algorithms"}
+{"id": "W1596412683", "keep": true, "why": "property testing volume; unsure"}
+{"id": "W1598648425", "keep": false, "why": "unrelated: attribute reduction"}
+{"id": "W1600412016", "keep": true, "why": "counterexample to strong parallel repetition"}
+{"id": "W1601503375", "keep": false, "why": "unrelated: MAX-k-CUT algorithms"}
+{"id": "W1601613236", "keep": true, "why": "strong parallel repetition on expanders"}
+{"id": "W1605144615", "keep": true, "why": "robust PCPs of proximity"}
+{"id": "W1607013242", "keep": false, "why": "q-cube complexity; no games link"}
+{"id": "W1619463472", "keep": true, "why": "Max-CSP hardness; PCP-style"}
+{"id": "W1620365865", "keep": false, "why": "unrelated: substring cover"}
+{"id": "W1631603072", "keep": true, "why": "spectral expanders foundations"}
+{"id": "W1644094983", "keep": false, "why": "unrelated: ant algorithm"}
+{"id": "W1648902078", "keep": false, "why": "unrelated: Turan problems"}
+{"id": "W165063463", "keep": false, "why": "unrelated: test-based problems"}
+{"id": "W168739660", "keep": false, "why": "unrelated: planar domination"}
+{"id": "W169464267", "keep": false, "why": "unrelated: order scheduling"}
+{"id": "W1706415889", "keep": true, "why": "journal record; unsure"}
+{"id": "W1710106417", "keep": false, "why": "unrelated: campaign management"}
+{"id": "W1755312702", "keep": false, "why": "unrelated: traveling purchaser"}
+{"id": "W176777629", "keep": true, "why": "Unique Games and multicut"}

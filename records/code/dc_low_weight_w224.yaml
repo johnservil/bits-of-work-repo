@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_low_weight_w224"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge low-weight codeword n=1280, weight 224 found"
+instance_size: 1280
+instance_size_unit: "n"
+log2_ops: null
+method: "Dumer"
+structure_exploited: false
+hardware: "Xeon E5-2695 v4"
+raw_compute: "runtime: 34 h; hardware: Xeon E5-2695 v4"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 1.4166666666666667
+date: "2019-09-22"
+solvers: ["Valentin Vasseur"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/low-weight/record/12"
+other_urls: ["https://decodingchallenge.org/low-weight/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n / new min weight at submission date per hall of fame)"

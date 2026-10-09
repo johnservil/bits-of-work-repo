@@ -1,0 +1,22 @@
+2013/388 [E] Parallel Gauss Sieve Algorithm : Solving the SVP in the Ideal Lattice of 128-dimensions
+2013/470 [C] Practical Cryptanalysis of a Public-Key Encryption Scheme Based on New Multivariate Quadratic Assumptions
+2014/880 [A] Sieving for Shortest Vectors in Ideal Lattices: a Practical Perspective
+2015/041 [A] Parallel (probable) lock-free HashSieve: a practical sieving algorithm for the SVP
+2015/176 [A] Key Recovery for LWE in Polynomial Time
+2015/552 [A] An Improved BKW Algorithm for LWE with Applications to Cryptography and Lattices
+2018/044 [E] Fast Lattice Basis Reduction Suitable for Massive Parallelization and Its Application to the Shortest Vector Problem
+2018/741 [A] LP Solutions of Vectorial Integer Subset Sums - Cryptanalysis of Galbraith's Binary Matrix LWE
+2018/966 [C] On the Security of the Multivariate Ring Learning with Errors Problem
+2019/089 [A] The General Sieve Kernel and New Records in Lattice Reduction
+2020/230 [D] Lattice analysis on MiNTRU problem
+2020/539 [D] On the Concrete Security of LWE with Small Secret
+2021/141 [E] Advanced Lattice Sieving on GPUs, with Tensor Cores
+2022/239 [A] Several Improvements on BKZ Algorithm
+2023/582 [E] New NTRU Records with Improved Lattice Bases
+2024/1229 [E] Benchmarking Attacks on Learning with Errors
+2024/366 [C] Key Recovery Attack on the Partial Vandermonde Knapsack Problem
+2024/443 [A] The cool and the cruel: separating hard parts of LWE secrets
+2024/739 [A] BGJ15 Revisited: Sieving with Streamed Memory Access
+2026/1593 [C] HAWK-$n$ Key Recovery Reduces to SVP in Dimension $n/2 + 1$
+2026/1876 [A] AH-BKZ: A Lattice Reduction Algorithm with Asynchronous Hybrid Processing
+2026/366 [A] Careful with the Ring: Enhanced Hybrid Decoding Attacks against Module/Ring-LWE

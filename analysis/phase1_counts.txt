@@ -1,0 +1,177 @@
+labeled rows: 16468 (ePrint 5106, Phase 1 11362)
+
+== ePrint only (Phase 0 + isogeny supplement): 907 effort items (A-F,H); borderline counted: False
+class                  frac  touch  authors  pre2006    06-16    17-26  categories
+ECDLP                 111.3    134      255     10.6     57.8     42.9  A:62 B:21 C:20 D:13 E:7 F:10 H:1
+MLWE_structured       177.7    300      402      1.5     51.4    124.8  A:151 B:31 C:53 D:48 E:5 F:5 H:7
+LWE_plain             145.8    257      373      0.4     35.1    110.2  A:165 B:25 C:7 D:46 E:4 F:5 H:5
+SD_code               112.8    130      222      0.0     27.6     85.2  A:65 B:9 C:39 D:9 E:4 F:2 H:2
+Factoring_FFDLP       179.7    201      320      9.0     95.9     74.8  A:89 B:13 C:54 D:11 E:20 F:13 H:1
+Isogeny                57.3     58      124      0.0      1.0     56.3  A:21 B:9 C:21 D:4 E:1 F:2
+Multivariate           90.4     97      140      4.0     25.7     60.7  A:33 C:44 D:16 F:2 H:2
+ALL LATTICES          323.6    331      446      2.0     86.6    235.0
+
+== Phase 1 new items only: 1970 effort items (A-F,H); borderline counted: False
+class                  frac  touch  authors  pre2006    06-16    17-26  categories
+ECDLP                 353.8    421      621     86.7    139.8    127.3  A:237 B:55 C:78 D:7 E:11 F:31 H:2
+MLWE_structured       299.6    503      731     31.0     81.8    186.9  A:331 B:52 C:49 D:57 E:7 F:6 H:1
+LWE_plain             216.8    421      630     22.0     56.7    138.1  A:312 B:42 C:5 D:47 E:6 F:8 H:1
+SD_code               176.7    195      308     24.7     52.4     99.6  A:92 B:23 C:58 D:16 E:3 F:2 H:1
+Factoring_FFDLP       669.4    739     1131    203.5    247.1    218.9  A:537 B:87 C:16 D:27 E:37 F:33 H:2
+Isogeny                23.1     25       65      0.0      1.2     21.9  A:10 B:8 C:6 D:1
+Multivariate           84.3     93      133      9.0     42.0     33.3  A:44 B:5 C:36 D:8
+ALL LATTICES          516.4    531      786     53.0    138.5    325.0
+
+== COMBINED, all sources: 2877 effort items (A-F,H); borderline counted: False
+class                  frac  touch  authors  pre2006    06-16    17-26  categories
+ECDLP                 465.2    555      801     97.3    197.6    170.2  A:299 B:76 C:98 D:20 E:18 F:41 H:3
+MLWE_structured       477.4    803      988     32.5    133.2    311.6  A:482 B:83 C:102 D:105 E:12 F:11 H:8
+LWE_plain             362.6    678      881     22.4     91.8    248.3  A:477 B:67 C:12 D:93 E:10 F:13 H:6
+SD_code               289.5    325      473     24.7     80.1    184.7  A:157 B:32 C:97 D:25 E:7 F:4 H:3
+Factoring_FFDLP       849.1    940     1351    212.5    343.0    293.7  A:626 B:100 C:70 D:38 E:57 F:46 H:3
+Isogeny                80.4     83      168      0.0      2.2     78.2  A:31 B:17 C:27 D:5 E:1 F:2
+Multivariate          174.7    190      224     13.0     67.7     94.0  A:77 B:5 C:80 D:24 F:2 H:2
+ALL LATTICES          840.0    862     1071     55.0    225.1    559.9
+
+== COMBINED, vetted (ePrint + DBLP-indexed): 1874 effort items (A-F,H); borderline counted: False
+class                  frac  touch  authors  pre2006    06-16    17-26  categories
+ECDLP                 274.4    332      500     54.2    125.5     94.8  A:175 B:47 C:47 D:18 E:15 F:27 H:3
+MLWE_structured       348.7    591      735     21.1     98.0    229.7  A:352 B:57 C:78 D:81 E:8 F:8 H:7
+LWE_plain             277.9    504      660     13.9     71.4    192.6  A:358 B:42 C:9 D:74 E:7 F:9 H:5
+SD_code               213.5    242      363     13.0     55.1    145.4  A:122 B:22 C:67 D:18 E:6 F:4 H:3
+Factoring_FFDLP       422.1    479      653     99.7    187.8    134.7  A:297 B:33 C:60 D:23 E:39 F:26 H:1
+Isogeny                71.4     74      152      0.0      2.2     69.2  A:27 B:15 C:24 D:5 E:1 F:2
+Multivariate          143.6    154      189     10.0     51.4     82.2  A:63 B:2 C:66 D:19 F:2 H:2
+ALL LATTICES          626.7    641      802     35.0    169.4    422.3
+
+== COMBINED, all sources, classifier confidence >= 0.6: 2622 effort items (A-F,H); borderline counted: False
+class                  frac  touch  authors  pre2006    06-16    17-26  categories
+ECDLP                 424.4    505      729     90.8    183.7    149.8  A:271 B:73 C:85 D:18 E:18 F:37 H:3
+MLWE_structured       447.3    757      929     30.1    121.6    295.7  A:452 B:81 C:96 D:97 E:12 F:11 H:8
+LWE_plain             348.0    644      836     20.9     88.7    238.3  A:453 B:65 C:10 D:88 E:10 F:12 H:6
+SD_code               270.5    305      435     20.7     77.1    172.7  A:150 B:32 C:89 D:21 E:7 F:4 H:2
+Factoring_FFDLP       725.5    807     1125    197.0    287.7    240.9  A:525 B:85 C:64 D:35 E:57 F:38 H:3
+Isogeny                75.9     77      153      0.0      2.0     73.9  A:28 B:17 C:24 D:5 E:1 F:2
+Multivariate          168.3    183      215     13.0     64.7     90.6  A:75 B:5 C:78 D:22 F:2 H:1
+ALL LATTICES          795.3    814     1007     51.0    210.3    534.0
+
+== COMBINED, vetted, confidence >= 0.6 (most conservative): 1797 effort items (A-F,H); borderline counted: False
+class                  frac  touch  authors  pre2006    06-16    17-26  categories
+ECDLP                 264.8    318      488     54.2    120.2     90.5  A:168 B:46 C:43 D:16 E:15 F:27 H:3
+MLWE_structured       336.3    572      712     21.1     91.8    223.5  A:341 B:55 C:76 D:77 E:8 F:8 H:7
+LWE_plain             272.8    492      645     13.9     69.7    189.2  A:350 B:41 C:9 D:71 E:7 F:9 H:5
+SD_code               205.5    234      347     11.0     53.1    141.4  A:118 B:22 C:66 D:16 E:6 F:4 H:2
+Factoring_FFDLP       393.2    446      602     95.7    172.5    125.1  A:273 B:31 C:56 D:21 E:39 F:25 H:1
+Isogeny                70.9     72      149      0.0      2.0     68.9  A:25 B:15 C:24 D:5 E:1 F:2
+Multivariate          140.2    150      181     10.0     50.4     79.8  A:61 B:2 C:65 D:19 F:2 H:1
+ALL LATTICES          609.2    622      779     35.0    161.6    412.6
+
+== COMBINED + tier-B extrapolation (sample items weighted x10.00; author counts not extrapolated): 2877 effort items (A-F,H); borderline counted: False
+class                  frac  touch  authors  pre2006    06-16    17-26  categories
+ECDLP                 474.2    564      801     97.3    206.7    170.2  A:299 B:76 C:98 D:20 E:18 F:41 H:3
+MLWE_structured       538.6    911      988     37.1    151.2    350.3  A:482 B:83 C:102 D:105 E:12 F:11 H:8
+LWE_plain             409.4    786      881     27.0    109.8    272.7  A:477 B:67 C:12 D:93 E:10 F:13 H:6
+SD_code               303.0    343      473     24.7     80.1    198.2  A:157 B:32 C:97 D:25 E:7 F:4 H:3
+Factoring_FFDLP       885.2    976     1351    230.5    343.0    311.7  A:626 B:100 C:70 D:38 E:57 F:46 H:3
+Isogeny                80.4     83      168      0.0      2.2     78.2  A:31 B:17 C:27 D:5 E:1 F:2
+Multivariate          174.7    190      224     13.0     67.7     94.0  A:77 B:5 C:80 D:24 F:2 H:2
+ALL LATTICES          948.0    970     1071     64.0    261.1    623.0
+
+== COMBINED vetted + tier-B extrapolation (x10.00): 1874 effort items (A-F,H); borderline counted: False
+class                  frac  touch  authors  pre2006    06-16    17-26  categories
+ECDLP                 274.4    332      500     54.2    125.5     94.8  A:175 B:47 C:47 D:18 E:15 F:27 H:3
+MLWE_structured       390.2    672      735     25.6    111.5    253.1  A:352 B:57 C:78 D:81 E:8 F:8 H:7
+LWE_plain             317.6    585      660     18.5     84.9    214.2  A:358 B:42 C:9 D:74 E:7 F:9 H:5
+SD_code               227.0    260      363     13.0     55.1    158.9  A:122 B:22 C:67 D:18 E:6 F:4 H:3
+Factoring_FFDLP       440.2    497      653    108.7    187.8    143.7  A:297 B:33 C:60 D:23 E:39 F:26 H:1
+Isogeny                71.4     74      152      0.0      2.2     69.2  A:27 B:15 C:24 D:5 E:1 F:2
+Multivariate          143.6    154      189     10.0     51.4     82.2  A:63 B:2 C:66 D:19 F:2 H:2
+ALL LATTICES          707.7    722      802     44.0    196.4    467.4
+
+Phase 1 items labeled E or is_record:
+  1975  factoring                A method of factoring and the factorization of 𝐹₇
+  1981  factoring                Factorization of the eighth Fermat number
+  1983  factoring                Factorizations of \(b^n\pm 1\), \(b=2,3,5,6,7,10,11,12\) up to high powers
+  1985  factoring                New results on integer factorizations
+  1989  factoring                Factoring with the quadratic sieve on large vector computers
+  1990  ffdlp                    Computation of Discrete Logarithms in Prime Fields (Extended Abstract)
+  1991  ffdlp                    Computation of Discrete Logarithms in Prime Fields
+  1991  factoring                Factorization beyond the googol with MPQS on a single computer
+  1992  ffdlp                    Massively Parallel Computation of Discrete Logarithms
+  1993  factoring                The factorization of the ninth Fermat number
+  1993  factoring                On the Factorization of RSA-120
+  1993  factoring                Factorizations of \(17^ n - 1\) for \(n\leq 78\)
+  1995  factoring                An Implementation of the Number Field Sieve
+  1995  factoring                Implementing the self initializing quadratic sieve on a distributed network
+  1996  ffdlp                    Computing Discrete Logarithms with the General Number Field Sieve
+  1996  factoring                A World Wide Number Field Sieve Factoring Record: On to 512 Bits
+  1997  factoring                A new world record for the special number field sieve factoring method
+  1997  ffdlp                    On the computation of discrete logarithms in finite prime fields
+  1998  ffdlp                    The Solution of McCurley's Discrete Log Challenge
+  1999  factoring                The number field sieve on many computers
+  1999  factoring                Factorization of RSA-140 Using the Number Field Sieve
+  2000  factoring                Factorization of a 512-Bit RSA Modulus
+  2001  ffdlp                    Computation of Discrete Logarithms in $$ \mathbb{F}_{2^{607} } $$
+  2002  ffdlp                    Improvements to the general number field sieve for discrete logarithms in prime fields. A 
+  2003  multivariate             Algebraic cryptanalysis of HFE using Gröbner bases
+  2003  multivariate             Algebraic Cryptanalysis of Hidden Field Equation (HFE) Cryptosystems Using Gröbner Bases
+  2005  factoring                Factorization of RSA-110 using multiple polynomial quadratic sieve
+  2010  factoring                Using a grid platform for solving large sparse linear systems over GF(2)
+  2010  multivariate             PWXL: A Parallel Wiedemann-XL Algorithm for Solving Polynomial Equations over GF(2)
+  2011  lattice_generic          Extreme Enumeration on GPU and in Clouds - - How Many Dollars You Need to Break SVP Challe
+  2011  ecdlp,factoring          On the Cryptanalysis of Public-Key Cryptography
+  2011  ecdlp                    Solving DLP with Auxiliary Input over an Elliptic Curve Used in TinyTate Library
+  2012  ffdlp                    Breaking Pairing-Based Cryptosystems Using η T Pairing over GF(397)
+  2012  multivariate             Solving Quadratic Equations with XL on Parallel Architectures
+  2012  ecdlp                    Solving a Discrete Logarithm Problem with Auxiliary Input on a 160-Bit Elliptic Curve
+  2012  ecdlp                    Solving a 112-bit prime elliptic curve discrete logarithm problem on game consoles using s
+  2013  ffdlp                    An Experiment of Number Field Sieve for Discrete Logarithm Problem over GF(p 12)
+  2013  ffdlp                    Solving a 6120 -bit DLP on a Desktop Computer
+  2014  lattice_generic,lattice_ Parallel Gauss Sieve Algorithm: Solving the SVP Challenge over a 128-Dimensional Ideal Lat
+  2014  ffdlp                    COMPUTING DISCRETE LOGARITHMS IN F36·137 USING MAGMA
+  2014  ffdlp                    Discrete logarithm in \(\mathrm{GF}(2^{809})\) with FFS
+  2015  ecdlp                    Solving 94-Bit Ecdlp With 70 Computers In Parallel
+  2015  factoring,ffdlp          Algorithms for integer factorization and discrete logarithms computation
+  2015  ffdlp                    Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice
+  2015  ecdlp                    Volunteer Computing for Solving an Elliptic Curve Discrete Logarithm Problem
+  2015  lattice_generic          An Accelerated Algorithm for Solving SVP Based on Statistical Analysis
+  2015  ffdlp                    Computing Discrete Logarithms in $${\mathbb F}_{3^{6 \cdot 137}}$$ and $${\mathbb F}_{3^{6
+  2016  ntru                     Solving NTRU Challenges Using the New Progressive BKZ Library
+  2016  ecdlp                    Faster discrete logarithms on FPGAs
+  2016  ecdlp                    Web-based Volunteer Computing for Solving the Elliptic Curve Discrete Logarithm Problem
+  2017  ffdlp                    Breaking DLP in $GF(p^5)$ using 3-dimensional sieving
+  2017  factoring                Efficiency of RSA Key Factorization by Open-Source Libraries and Distributed System Archit
+  2017  rsa_variant              The Return of Coppersmith's Attack: Practical Factorization of Widely Used RSA Moduli
+  2017  ecdlp                    Solving 114-Bit ECDLP for a Barreto-Naehrig Curve
+  2017  ecdlp                    Scalability of CPU and GPU Solutions of the Prime Elliptic Curve Discrete Logarithm Proble
+  2017  ffdlp                    Computing Discrete Logarithms in $${\mathbb F}_{{p}^{6}}$$
+  2018  lattice_generic          Analysis of Lattice Reduction Algorithms : Solving SVP Challenges
+  2018  lwe_plain,lattice_generi Development of a Dual Version of DeepBKZ and Its Application to Solving the LWE Challenge
+  2018  lwe_plain,lattice_generi Hardness Evaluation for Search LWE Problem Using Progressive BKZ Simulator
+  2018  ffdlp                    Computing discrete logarithms in cryptographically-interesting characteristic-three finite
+  2019  ecdlp,ffdlp              Security analysis of elliptic curves with embedding degree 1 proposed in PLOS ONE 2016
+  2020  ffdlp,factoring          A New Angle on Lattice Sieving for the Number Field Sieve
+  2020  factoring                Prime factorization algorithm based on parameter optimization of Ising model
+  2020  lattice_generic          Massive Parallelization for Finding Shortest Lattice Vectors Based on Ubiquity Generator F
+  2020  ffdlp                    Lattice Sieving in Three Dimensions for Discrete Log in Medium Characteristic
+  2020  lattice_generic          PBKZ algorithm and its application in lattice challenge
+  2021  ffdlp,other              Cryptanalyses de logarithmes discrets : crible algébrique et réseaux pour canaux auxiliair
+  2021  ffdlp                    Analysis and Improvements to the Special Number Field Sieve for Discrete Logarithm Problem
+  2021  sd_generic,sd_goppa      Fast GPU Implementation of Dumer's Algorithm Solving the Syndrome Decoding Problem
+  2021  lattice_generic,lattice_ Parallelization on Gauss Sieve Algorithm over Ideal Lattice
+  2021  ffdlp,lattice_generic    Discrete Logarithm Cryptanalyses : Number Field Sieve and Lattice Tools for Side-Channel A
+  2021  ffdlp                    Computation of a 30750-bit binary field discrete logarithm
+  2022  factoring,other          Applications of Quantum Annealing in Cryptography
+  2022  ffdlp                    An Implementation of the Extended Tower Number Field Sieve using 4d Sieving in a Box and a
+  2022  sd_generic               Multiparallel MMT: Faster ISD Algorithm Solving High-Dimensional Syndrome Decoding Problem
+  2023  factoring                Deciphering a Million-Plus RSA Integer with Ultralow Local Field Coefficient h and Couplin
+  2023  ecdlp                    An Attack for a 116bit ECDLP for a Barreto-Naehrig Curve
+  2023  ffdlp                    Lattice Enumeration and Automorphisms for Tower NFS: A 521-Bit Discrete Logarithm Computat
+  2024  sd_generic               Heuristic Number Geometry Method for Finding Low-Weight Codeword in Linear Block Codes
+  2024  ffdlp                    Higher Dimensional Sieving in a Box for Discrete Logarithm in Medium Characteristic Finite
+  2025  lattice_generic,lattice_ Cryptanalysis of public-key cryptography
+  2025  lattice_generic          Sieving with Streaming Memory Access
+  2026  ecdlp                    Solving the Elliptic Curve Discrete Logarithm Problem Using Quantum Tunneling Effects on t
+  2026  lattice_generic          Towards Large-Scale Lattice Attack: New Lattice Records by Disk-Based Sieving
+  2026  sd_generic               Revisiting ISD Algorithms and New Decoding Records for Large Weight Syndrome Decoding over
+  2026  factoring                CUDA-MPQS: A GPU-Resident Self-Initializing Quadratic Sieve, and the Factorization of RSA-

@@ -1,0 +1,27 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "tii_blt2026_upto210"
+class: "code"
+problem: "SD-Goppa"
+instance: "TII Track 1B key recovery up to TII-210 (n=491, k=428, t=7, m=9); per 2026/1232 the BLT26 set was labels 83, 89, 119, 166, 210"
+instance_size: 491
+instance_size_unit: "n"
+log2_ops: null
+method: "Pfaffian modeling of quadratic-relations code + shortening + square search (polynomial-time for very high-rate Goppa)"
+structure_exploited: true
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2026-03-03"
+solvers: ["Magali Bardet", "Axel Lemoine", "Jean-Pierre Tillich"]
+academic: true
+challenge: "TII McEliece"
+extrapolation: "breaks the CFS signature scheme (very high-rate Goppa); not applicable at Classic McEliece rates"
+paper: "2026/430"
+source_url: "https://eprint.iacr.org/2026/430"
+other_urls: ["https://classic.mceliece.org/mceliece-610-20260623.pdf", "https://link.springer.com/chapter/10.1007/978-3-032-35398-6_13", "https://raw.githubusercontent.com/ElenaKirshanova/tii_decoding_challenge/main/key_rec_instances"]
+confidence: 0.55
+verified: true
+verified_by: "user 2026-10-09: checked, accepted provisionally (\"willing to trust for now\")"
+notes: "CRYPTO 2026. Compute not read (PDF blocked). Instance list inferred from 2026/1232 as quoted in the Classic McEliece team note; one search summary instead listed 89, 125, 166, 210 - conflict unresolved. TII label = round(bitcomplexity) from the organizers' key_rec_instances file (a brute-force/support-splitting estimate, disputed by Bernstein 2023 and the 2026 papers); labels are not security levels. TII/HeroX confirmation: none found; HeroX leaderboard (static since the May 2024 close) still lists every Track 1B label above 83 as \"Available to Solve\". Keys are publicly checkable against the official public keys."

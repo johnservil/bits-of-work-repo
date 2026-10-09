@@ -1,0 +1,25 @@
+id: "lwe_galbraith_binary_256x400_2017_may_herold"
+class: "lattice"
+problem: "LWE"
+instance: "Galbraith binary-matrix LWE small challenge (n,m)=(256,400)"
+instance_size: 256
+instance_size_unit: "dim"
+log2_ops: null
+method: "integer linear programming / LP relaxation on vectorial subset sum"
+structure_exploited: true
+hardware: null
+raw_compute: "100 instances each solved in a fraction of a second"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2017-03"
+solvers: ["Gottfried Herold", "Alexander May"]
+academic: true
+challenge: "Galbraith binary-matrix LWE challenge"
+extrapolation: null
+paper: "ePrint 2018/741"
+source_url: "https://eprint.iacr.org/2018/741"
+other_urls: []
+confidence: 0.7
+verified: false
+notes: "Published at PKC 2017 (ePrint posted 2018-08). Exploits binary public matrix A; also identifies weak instances of the large challenge (256,640). Date approximated to PKC 2017 (March 2017)."

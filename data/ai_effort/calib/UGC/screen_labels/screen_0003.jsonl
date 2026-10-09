@@ -1,0 +1,100 @@
+{"id": "W1981566278", "keep": false, "why": "polynomial global optimization, generic"}
+{"id": "W1982055457", "keep": false, "why": "concurrent open shop scheduling"}
+{"id": "W1982556961", "keep": true, "why": "balanced cut approximation"}
+{"id": "W1982716240", "keep": true, "why": "column subset selection, UG-hard reduction"}
+{"id": "W1984268750", "keep": true, "why": "negative type metric embeddings, ARV line"}
+{"id": "W1984685721", "keep": false, "why": "intersecting permutation families"}
+{"id": "W1985123706", "keep": true, "why": "SDP approximation for Max-Cut and Max-Sat"}
+{"id": "W1985476702", "keep": true, "why": "random hyperplane rounding, Max-Cut optimality"}
+{"id": "W1985572324", "keep": false, "why": "k-SAT complexity, unrelated"}
+{"id": "W1985694287", "keep": false, "why": "exponential-time set cover"}
+{"id": "W1986296546", "keep": true, "why": "low-sensitivity Boolean functions, Fourier"}
+{"id": "W1986604329", "keep": true, "why": "Lasserre integrality gaps, graph partitioning"}
+{"id": "W1987178221", "keep": true, "why": "semirandom graph problems, UG-line"}
+{"id": "W1987406389", "keep": true, "why": "Majority is Stablest"}
+{"id": "W1987536045", "keep": false, "why": "machine scheduling preemption"}
+{"id": "W1988522098", "keep": false, "why": "k-colorability threshold"}
+{"id": "W1989051052", "keep": false, "why": "quantum interactive proof parallelization"}
+{"id": "W1989966214", "keep": false, "why": "communication lower bounds, derivatives"}
+{"id": "W1990313671", "keep": false, "why": "approximation algorithms textbook"}
+{"id": "W1990487760", "keep": true, "why": "low-degree long code, hypergraph coloring hardness"}
+{"id": "W1990770240", "keep": true, "why": "Brunn-Minkowski in Gauss space"}
+{"id": "W1990896327", "keep": true, "why": "hypercontractivity of random variables"}
+{"id": "W1991001643", "keep": false, "why": "thresholds, expectation thresholds"}
+{"id": "W1991265104", "keep": true, "why": "NP-hardness of 2-to-1 label cover"}
+{"id": "W1991407886", "keep": false, "why": "metric space local-global properties"}
+{"id": "W1991651214", "keep": false, "why": "FPT cut algorithms"}
+{"id": "W1992068214", "keep": false, "why": "jackknife variance estimator"}
+{"id": "W1992454573", "keep": false, "why": "power grid spectral clustering"}
+{"id": "W1992472342", "keep": false, "why": "Hamming anticodes, unrelated"}
+{"id": "W1992771184", "keep": false, "why": "linear equations over reals hardness"}
+{"id": "W1992851378", "keep": false, "why": "password policy optimization"}
+{"id": "W1993111701", "keep": true, "why": "Alon isoperimetry and superconcentrators"}
+{"id": "W1993116423", "keep": true, "why": "sharp inapproximability for 2-CSP"}
+{"id": "W1994584977", "keep": false, "why": "theory of computation textbook"}
+{"id": "W1995073517", "keep": false, "why": "precedence scheduling hardness, UGC consumer"}
+{"id": "W1995472412", "keep": true, "why": "sparsest cut, edge biclique inapproximability"}
+{"id": "W1995725694", "keep": false, "why": "strong exponential complexity"}
+{"id": "W1995963238", "keep": false, "why": "tensor methods in statistics"}
+{"id": "W1995977886", "keep": false, "why": "Heisenberg group L1 compression"}
+{"id": "W1996447604", "keep": false, "why": "mixing times, spectral profile"}
+{"id": "W1997672673", "keep": false, "why": "SDP for nonlinear 0-1 programs"}
+{"id": "W1998375896", "keep": false, "why": "narrow proof complexity"}
+{"id": "W1998544343", "keep": false, "why": "low-diameter graph decompositions"}
+{"id": "W1998721609", "keep": false, "why": "spanner problem hardness"}
+{"id": "W1998923931", "keep": true, "why": "Bobkov inequality, Gaussian rearrangement"}
+{"id": "W1999144970", "keep": true, "why": "CSP reoptimization, approximation-resistant predicates"}
+{"id": "W1999590989", "keep": true, "why": "symmetric LP and SDP relaxations"}
+{"id": "W1999705592", "keep": true, "why": "direct-product testers, 2-query PCPs"}
+{"id": "W1999797449", "keep": true, "why": "UGC hardness threshold, Lp Grothendieck"}
+{"id": "W1999877046", "keep": true, "why": "expansion profile, local graph clustering"}
+{"id": "W2000151313", "keep": false, "why": "Horn SAT and hitting set approximability"}
+{"id": "W2000311286", "keep": false, "why": "kernelization tools"}
+{"id": "W2000835972", "keep": true, "why": "L1 embedding lower bounds"}
+{"id": "W2000869424", "keep": false, "why": "set cover threshold, unrelated"}
+{"id": "W2000920428", "keep": false, "why": "Bell inequality violations"}
+{"id": "W2001334051", "keep": false, "why": "Lasserre for convex polynomial optimization"}
+{"id": "W2001663593", "keep": false, "why": "bounded-degree non-approximability, generic"}
+{"id": "W2002443286", "keep": true, "why": "vertex expansion approximability"}
+{"id": "W2002617302", "keep": true, "why": "cut cone embeddings, relaxations"}
+{"id": "W2002766600", "keep": false, "why": "checkpoint problem"}
+{"id": "W2003159902", "keep": true, "why": "sub-constant low-degree test, PCP"}
+{"id": "W2003388935", "keep": false, "why": "primal-dual local-ratio algorithms"}
+{"id": "W2003858108", "keep": false, "why": "logic minimization, cryptology"}
+{"id": "W2003866002", "keep": true, "why": "LP-based approximability of strict CSPs"}
+{"id": "W2003995429", "keep": false, "why": "Kneser conjecture, homotopy"}
+{"id": "W2004012902", "keep": true, "why": "multilayered PCP, hypergraph vertex cover"}
+{"id": "W2004216344", "keep": false, "why": "measure-theoretic probability text"}
+{"id": "W2004804919", "keep": true, "why": "conditional hardness, approximate coloring"}
+{"id": "W2004879152", "keep": true, "why": "improved Cheeger inequality"}
+{"id": "W2005079828", "keep": false, "why": "graph minors disjoint paths"}
+{"id": "W2005090831", "keep": true, "why": "Fourier spectrum of Boolean functions"}
+{"id": "W2005606079", "keep": false, "why": "balanced partitioning hardness"}
+{"id": "W2006023152", "keep": false, "why": "graph partitioning for streaming"}
+{"id": "W2006271461", "keep": true, "why": "approximation resistance, even k-partite CSPs"}
+{"id": "W2006469590", "keep": false, "why": "Ramanujan complexes"}
+{"id": "W2006837132", "keep": false, "why": "sound 3-query PCPPs"}
+{"id": "W2007239493", "keep": true, "why": "Lovasz-Schrijver nonapproximability"}
+{"id": "W2007385254", "keep": false, "why": "subsampling relaxations, average-case"}
+{"id": "W2007997869", "keep": true, "why": "parallel repetition theorem"}
+{"id": "W2008585918", "keep": false, "why": "Hamming code weight distributions"}
+{"id": "W2008590575", "keep": false, "why": "connection Laplacian Cheeger, synchronization"}
+{"id": "W2008724760", "keep": true, "why": "conditional hardness, satisfiable 3-CSPs"}
+{"id": "W2009405883", "keep": false, "why": "communication lower bounds, derivatives"}
+{"id": "W2009411756", "keep": false, "why": "set cover, moderately exponential"}
+{"id": "W2010004564", "keep": false, "why": "multiway cuts, node weights"}
+{"id": "W2010161771", "keep": false, "why": "halfspaces, spherically invariant measures"}
+{"id": "W2010271471", "keep": false, "why": "sparse regularity concept"}
+{"id": "W2010350688", "keep": false, "why": "graph bisection heuristic"}
+{"id": "W2010471713", "keep": true, "why": "geometric approach to betweenness"}
+{"id": "W2010511039", "keep": true, "why": "kernel clustering, Grothendieck inequalities"}
+{"id": "W2010601719", "keep": false, "why": "cliques, Metropolis process"}
+{"id": "W2010820875", "keep": false, "why": "directed isoperimetry, near neighbor bounds"}
+{"id": "W2010873187", "keep": false, "why": "constant-depth verification"}
+{"id": "W2010886177", "keep": true, "why": "PCP outer verifier, max-bisection"}
+{"id": "W2010961669", "keep": false, "why": "Sidon sets, Cayley graphs"}
+{"id": "W2011113110", "keep": false, "why": "vertex cover edge representations"}
+{"id": "W2011764853", "keep": false, "why": "edge-disjoint paths decomposition"}
+{"id": "W2011823863", "keep": false, "why": "generalized Steiner problem"}
+{"id": "W2011869755", "keep": false, "why": "independence number via theta function"}
+{"id": "W2012464972", "keep": true, "why": "semirandom graph problems, polynomial time"}

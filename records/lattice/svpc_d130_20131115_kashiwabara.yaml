@@ -1,0 +1,25 @@
+id: "svpc_d130_20131115_kashiwabara"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 130 (seed 0)"
+instance_size: 130
+instance_size_unit: "dim"
+log2_ops: null
+method: "RSR-based (random sampling reduction variant), Java"
+structure_exploited: false
+hardware: "1 iMac"
+raw_compute: "computed on an iMac (time not stated)"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2013-11-15"
+solvers: ["Kenji Kashiwabara", "Masaharu Fukase"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Record progression entry (new max dimension). HoF: norm 3025, seed 0, approx factor 1.04787, algorithm tag 'Other'."

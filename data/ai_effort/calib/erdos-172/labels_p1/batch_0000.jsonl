@@ -1,0 +1,40 @@
+{"id": "W1150686645", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-free sequence reciprocal sums, unrelated"}
+{"id": "W132395906", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "sum-free sets thesis, not monochromatic sums/products"}
+{"id": "W1419628688", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Graham number-theoretic problem, sum-free/bases, not this problem"}
+{"id": "W142455466", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sumsets containing k-free integers, unrelated"}
+{"id": "W148580239", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "computer experiments on integral bases, unrelated"}
+{"id": "W1489006728", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos-Graham problem survey; problem likely mentioned among many"}
+{"id": "W152445509", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "sum-product survey, different problem"}
+{"id": "W1537054460", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "density of sets with additive bases, unrelated"}
+{"id": "W1544799042", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "general problem collection, no engagement evident"}
+{"id": "W1549301089", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different Erdos sumset conjecture B+C in A"}
+{"id": "W1551680922", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "Guy general sequences chapter, unrelated"}
+{"id": "W1555768633", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Freiman set addition textbook"}
+{"id": "W1563756929", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "conjecture of Erdos and Renyi on bases, different problem"}
+{"id": "W1569122547", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "probabilistic representation of 0, unrelated"}
+{"id": "W1593433469", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "sums and products of finite sets of reals, sum-product problem"}
+{"id": "W1595828591", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Roth integer sequences remark, unrelated"}
+{"id": "W1718118126", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "bases of natural numbers, unrelated"}
+{"id": "W177593908", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "number of sums and products via graphs, sum-product problem"}
+{"id": "W1821981504", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Erdos-Szemeredi sum-product bound, different problem"}
+{"id": "W1897701252", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Erdos-Szemeredi sum-product bound, different problem"}
+{"id": "W19324417", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "extremal density for linear forms, unrelated"}
+{"id": "W1963587264", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "conjecture of Erdos, unknown but likely other topic"}
+{"id": "W1967909233", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "additive number theory classic, unrelated"}
+{"id": "W1975270114", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "additive number theory problem, unrelated"}
+{"id": "W1978976963", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "minimal bases, unrelated"}
+{"id": "W1983812624", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "ordered sums of group elements, unrelated"}
+{"id": "W1987346952", "include": "borderline", "category": "F", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Smith partitions and sums of products, same line as sums-and-products partition results"}
+{"id": "W1989548622", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "density of sequences, unrelated"}
+{"id": "W1989630703", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "maximal asymptotic nonbases, unrelated"}
+{"id": "W1995296546", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "addition theorem in abelian groups, unrelated"}
+{"id": "W1996285409", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "short proof of Hindman theorem (sums only), not the sums-and-products problem"}
+{"id": "W1997681421", "include": "borderline", "category": "G", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Hindman theorem for finite sums, the sums-only weaker variant"}
+{"id": "W1999682169", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "recursively defined sets, unrelated"}
+{"id": "W2004479099", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "intersection properties of integer subsets, unrelated"}
+{"id": "W2008037211", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multiplicative bases density, unrelated"}
+{"id": "W2009196521", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "d-complete sequences, unrelated"}
+{"id": "W2011601728", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "additive problem on counting functions, unrelated"}
+{"id": "W2020272617", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "completeness of sequences, unrelated"}
+{"id": "W2021073476", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "converse of Waring problem, unrelated"}
+{"id": "W2021414653", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "extremal number theory problem, unrelated"}

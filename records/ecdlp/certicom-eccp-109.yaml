@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "certicom-eccp-109"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "Certicom ECCp-109 (curve over 109-bit prime field)"
+instance_size: 108.8
+instance_size_unit: "bits"
+log2_ops: 55.0
+method: "parallel Pollard rho (distinguished points)"
+structure_exploited: false
+hardware: "about 10,000 computers, mostly PCs (Certicom press release)"
+raw_compute: "3.6e16 iterations, 68,228,557 DPs; 549 days calendar time; 10,308 users in 247 teams"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 549
+date: "2002-10-15"
+solvers: ["Chris Monico", "about 10,308 participants"]
+academic: true
+challenge: "Certicom"
+extrapolation: "Certicom: ECC2-131/ECCp-131 need several thousand times more computing than ECCp-109; 163-bit about 1e8 times harder"
+paper: null
+source_url: "https://www.certicom.com/content/dam/certicom/images/pdfs/challenge-2009.pdf"
+other_urls: ["https://certicom.com/en/about/news/release/2002/certicom-announces-elliptic-curve-cryptosystem--ecc--challenge-w"]
+confidence: 0.85
+verified: false
+notes: "Date is submission date in Certicom table; press release dated 2002-11-06. No machine-days given for this one. instance_size = log2(n)."

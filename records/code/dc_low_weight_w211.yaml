@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_low_weight_w211"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge low-weight codeword n=1280, weight 211 found"
+instance_size: 1280
+instance_size_unit: "n"
+log2_ops: null
+method: "Hybrid Wagner-Babai using Code Reduction [eprint:2020/869]"
+structure_exploited: false
+hardware: "2x 20-core Xeon Gold 6248 @ 2.5Ghz"
+raw_compute: "runtime: 4 days, 19 hours, 4 minutes.; hardware: 2x 20-core Xeon Gold 6248 @ 2.5Ghz"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 4.794444444444445
+date: "2024-02-09"
+solvers: ["Leo Ducas", "Marc Stevens"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: "2020/869"
+source_url: "https://decodingchallenge.org/low-weight/record/17"
+other_urls: ["https://decodingchallenge.org/low-weight/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n / new min weight at submission date per hall of fame); MCCL implementation, 40 threads; 2-level Wagner p=3 with Babai lifting on reduced code basis."

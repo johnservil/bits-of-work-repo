@@ -1,0 +1,1 @@
+The 2-to-1 Games Conjecture (with or without perfect completeness): proofs of special cases, reductions, structural results used to attack it, and the 2026 resolution lineage. Papers that merely assume it are include=no.

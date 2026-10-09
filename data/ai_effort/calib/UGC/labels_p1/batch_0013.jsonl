@@ -1,0 +1,40 @@
+{"id": "W2397159611", "include": "borderline", "category": "G", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "bypasses UGC for geometric hardness via bijective projections"}
+{"id": "W2399199715", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "fortified parallel repetition"}
+{"id": "W2400082414", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "approximation resistance on satisfiable instances"}
+{"id": "W2400360167", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Bell inequality games"}
+{"id": "W2402915626", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "spectral algorithm for unique games"}
+{"id": "W2403580050", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "candidate Lasserre integrality gap for unique games"}
+{"id": "W2403620996", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "projection game repetition on low threshold rank graphs, UG-adjacent"}
+{"id": "W2404334769", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semi-algebraic hierarchy survey"}
+{"id": "W2404972755", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph coloring hardness"}
+{"id": "W2405285952", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "approximation resistance NP-hardness"}
+{"id": "W2405388088", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "two-prover game NP-hardness"}
+{"id": "W2405977959", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP relaxation CSP approximation"}
+{"id": "W2406433465", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "certifying expansion via spectra"}
+{"id": "W2409117471", "include": "yes", "category": "G", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "candidate hard unique game reduction"}
+{"id": "W2411124016", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonconvex optimization"}
+{"id": "W2411816729", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Sherali-Adams VCSP"}
+{"id": "W2412595538", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "proof complexity essay"}
+{"id": "W2419411713", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "column listing"}
+{"id": "W2461430093", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "birthday repetition dense CSPs"}
+{"id": "W2464352699", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "SDP gaps to Sherali-Adams"}
+{"id": "W2490668581", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest k-partitioning"}
+{"id": "W2499382624", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "unrelated analysis proof"}
+{"id": "W2503553525", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "non-interactive simulation"}
+{"id": "W2506301897", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LS hierarchy lower bounds"}
+{"id": "W2511322911", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "integrality gaps thesis"}
+{"id": "W2517212374", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Gaussian Brunn-Minkowski"}
+{"id": "W2519488296", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "CSP testing"}
+{"id": "W2520836573", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "high dimensional walks"}
+{"id": "W2522512940", "include": "borderline", "category": "S", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "thesis including Lasserre integrality gap for unique games"}
+{"id": "W2526840193", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "2-CatSP rounding"}
+{"id": "W2529974411", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP lower bounds for CSPs"}
+{"id": "W2534717833", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP lower bounds for CSPs"}
+{"id": "W2537901922", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max bisection algorithm"}
+{"id": "W2541328924", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max k-uncut"}
+{"id": "W2554413858", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multicut report"}
+{"id": "W2555329167", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "graph partition survey"}
+{"id": "W2558057826", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "little Grothendieck"}
+{"id": "W2558474213", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "digraph ordering"}
+{"id": "W2560316516", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "VCSP SDP limits"}
+{"id": "W2564351170", "include": "borderline", "category": "C", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "thesis on higher-order Cheeger and small-set structure"}

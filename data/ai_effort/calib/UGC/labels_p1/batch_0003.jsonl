@@ -1,0 +1,40 @@
+{"id": "W1926829926", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multi-way expanders group theory"}
+{"id": "W1927441416", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semi-random model algorithms for unique games"}
+{"id": "W1937872493", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "parallel repetition negative result"}
+{"id": "W1938427549", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Grothendieck inequalities thesis"}
+{"id": "W1941439587", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "general SDP approximation survey"}
+{"id": "W1945290888", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "boolean function open problems list"}
+{"id": "W1947552815", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "graph coloring tools"}
+{"id": "W1961231572", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "multiway partitioning symmetry gap"}
+{"id": "W1965562201", "include": "yes", "category": "G", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "reductions between expansion problems and SSE/UGC"}
+{"id": "W1967344706", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "polynomial optimization moments"}
+{"id": "W1967821609", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP relaxations of maxcut"}
+{"id": "W1967935161", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "MAX 3CSP algorithms"}
+{"id": "W1970259241", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "parallel repetition theorem"}
+{"id": "W1970436138", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "matrix algebra hypercontractivity"}
+{"id": "W1971195978", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "MAX CUT integrality ratio"}
+{"id": "W1971339801", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "negative type metrics snowflakes"}
+{"id": "W1971801736", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "low-degree testing"}
+{"id": "W1973898585", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "noise correlation bounds"}
+{"id": "W1974252294", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "combinatorial MaxCut algorithm"}
+{"id": "W1975810219", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "PCP built on UG-hard languages, assumes UGC"}
+{"id": "W1976779334", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sampling for MAX-CSP"}
+{"id": "W1978526953", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "influence of variables classical"}
+{"id": "W1979065044", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max-Not-2 NP-hardness"}
+{"id": "W1980830593", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "PRG for polynomials"}
+{"id": "W1982556961", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "semi-random balanced cut"}
+{"id": "W1982716240", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for column subset selection"}
+{"id": "W1984268750", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Frechet embeddings"}
+{"id": "W1985123706", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Goemans-Williamson MAX CUT"}
+{"id": "W1985476702", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "random hyperplane rounding optimality"}
+{"id": "W1986296546", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Fourier analysis of boolean functions"}
+{"id": "W1986604329", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Lasserre gaps for balanced separator"}
+{"id": "W1987178221", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semirandom graph heuristics"}
+{"id": "W1987406389", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "new proof of Majority is Stablest, tool not UG itself"}
+{"id": "W1990487760", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "low-degree long code PCP, hypergraph coloring"}
+{"id": "W1990770240", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Gaussian Brunn-Minkowski"}
+{"id": "W1990896327", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypercontractivity constants"}
+{"id": "W1991265104", "include": "borderline", "category": "G", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "NP-hardness for 2-to-1 label cover, related to 2-to-1 conjecture"}
+{"id": "W1993111701", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "classical eigenvalue isoperimetry"}
+{"id": "W1993116423", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "2-CSP inapproximability under UGC"}
+{"id": "W1995472412", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "inapproximability of linear arrangement"}

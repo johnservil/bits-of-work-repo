@@ -1,0 +1,66 @@
+{
+ "_comment": "Scenario parameters for the classified-vs-public comparison (analysis/classified_scenarios.py). Units: full-time staff (calendar FTE). Every range cites the evidence row in notes/classified_headcount_evidence.md it rests on. These are judgement calls to be argued with, not measurements.",
+ "period": [
+  2022,
+  2026
+ ],
+ "components": {
+  "NSA in-house mathematical cryptology research": {
+   "low": 150,
+   "mid": 400,
+   "high": 900,
+   "basis": "Research Directorate math department 100-200 people (MIT Tech Review 2022, journalist); NSA hires ~30-50 mathematicians/yr (NSA ~2003; AMS 2013), i.e. a stock of several hundred to ~1,500 over a career, of whom only part do research-grade cryptanalysis; S31 cryptanalysis office >1,500 incl. engineers/technicians (Aid 2013, journalist)."
+  },
+  "IDA Center for Communications and Computing (CCR Princeton, CCR La Jolla, CCS Bowie)": {
+   "low": 70,
+   "mid": 120,
+   "high": 200,
+   "basis": ">70 PhD mathematicians/computer scientists at the two CCRs (IDA, undated, secondary); NSA contract ~$713M over 2016-2025 (~$71M/yr, GAO-22-105278, verified), ~175-235 staff-years incl. support at $300-400k loaded."
+  },
+  "UK (GCHQ/NCSC in-house + Heilbronn classified half-time)": {
+   "low": 30,
+   "mid": 80,
+   "high": 200,
+   "basis": "Heilbronn >30 fellows + >45 members each half-time on GCHQ research, ~20-25 FTE (official); GCHQ 7,082 FTE (2022), about 1/5 of NSA's workforce; Soliloquy (2010-13) shows in-house structured-lattice cryptanalysis."
+  },
+  "Canada, Australia, New Zealand (CSE/Tutte, ASD, GCSB)": {
+   "low": 10,
+   "mid": 30,
+   "high": 80,
+   "basis": "CSE 4,178 staff (2025-26, official) with the Tutte Institute (cryptography focus, no headcount); ASD >4,000 (2025, journalist); GCSB ~600 FTE (2024, official)."
+  }
+ },
+ "budget_crosscheck": {
+  "line": "NSA R&T 'Cryptologic Math & IDA Research', FY2011-13: $146.4M / $128.5M / $119.3M (leaked FY2013 CBJ Exhibit 13, verified in the document text)",
+  "loaded_cost_per_fte_usd": [
+   300000,
+   400000
+  ]
+ },
+ "public_key_share": {
+  "low": 0.1,
+  "mid": 0.2,
+  "high": 0.35,
+  "basis": "Share of classified mathematical cryptology effort spent on public-key ASSUMPTION cryptanalysis (as opposed to symmetric primitives, protocols and implementations, signals analysis, data science, quantum computing, design and assurance of own systems). No source gives this; NSA Mathematics Research Group postings list cryptanalysis as one of ~8 areas. The leaked 'Analysis of Target Systems' project (240 FTE, FY2011) explicitly includes public-key systems but mixes exploitation with mathematics."
+ },
+ "allocation_scenarios": {
+  "_comment": "How the classified public-key effort splits across classes. Shares sum to 1 over the six study classes.",
+  "operational (exploit what is deployed: RSA, DH, ECC)": {
+   "ECDLP": 0.35,
+   "Lat(any)": 0.15,
+   "SD": 0.05,
+   "Fact/FFDLP": 0.4,
+   "Isog": 0.02,
+   "MQ": 0.03
+  },
+  "transition (assure CNSA 2.0: ML-KEM, ML-DSA)": {
+   "ECDLP": 0.2,
+   "Lat(any)": 0.5,
+   "SD": 0.08,
+   "Fact/FFDLP": 0.15,
+   "Isog": 0.03,
+   "MQ": 0.04
+  },
+  "mirror public (same mix as the public literature)": "public"
+ }
+}

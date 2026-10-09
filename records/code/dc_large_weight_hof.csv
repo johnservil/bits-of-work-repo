@@ -1,0 +1,26 @@
+track,length_n,weight,authors,algorithm,date,provider_or_seed,hardware,runtime,comments,site_log2_complexity,record_url
+large-weight,10,9,Matthieu Lequesne,-,2020-03-18,10 Seed 0,-,-,-,2.0,https://decodingchallenge.org/large-weight/record/0
+large-weight,20,20,Matthieu Lequesne,Randon search,2020-03-18,20 Seed 0,-,1 second,-,4.0,https://decodingchallenge.org/large-weight/record/1
+large-weight,30,30,Matthieu Lequesne,Exhaustive search,2020-04-13,30 Seed 0,-,instantaneous,-,7.0,https://decodingchallenge.org/large-weight/record/2
+large-weight,40,39,Matthieu Lequesne,Exhaustive search,2020-04-13,40 Seed 0,-,instantaneous,-,9.0,https://decodingchallenge.org/large-weight/record/3
+large-weight,50,49,Matthieu Lequesne,Exhaustive search,2020-04-13,50 Seed 0,-,instantaneous,-,12.0,https://decodingchallenge.org/large-weight/record/4
+large-weight,60,59,Matthieu Lequesne,Exhaustive search,2020-04-13,60 Seed 0,-,instantaneous,-,14.0,https://decodingchallenge.org/large-weight/record/5
+large-weight,70,69,Matthieu Lequesne,Exhaustive search,2020-04-13,70 Seed 0,-,instantaneous,-,17.0,https://decodingchallenge.org/large-weight/record/6
+large-weight,80,79,Matthieu Lequesne,Exhaustive search,2020-04-13,80 Seed 0,-,20 minutes,-,19.0,https://decodingchallenge.org/large-weight/record/7
+large-weight,90,89,Nicolas Bordes and Pierre Karpman,Non-optimized Prange,2020-10-20,90 Seed 0,i5-8250U,~15s,-,22.0,https://decodingchallenge.org/large-weight/record/8
+large-weight,100,99,Nicolas Bordes and Pierre Karpman,Non-optimized Prange,2020-10-20,100 Seed 0,i5-8250U,~1h,-,24.0,https://decodingchallenge.org/large-weight/record/9
+large-weight,110,108,Nicolas Bordes and Pierre Karpman,Prange,2020-10-20,110 Seed 0,i5-8250U,~60 core-sec,-,27.0,https://decodingchallenge.org/large-weight/record/11
+large-weight,120,118,Nicolas Bordes and Pierre Karpman,Non-optimized Prange,2020-10-20,120 Seed 0,i5-8250U,~30 CPU-sec,-,29.0,https://decodingchallenge.org/large-weight/record/10
+large-weight,130,128,Nicolas Bordes and Pierre Karpman,Prange,2020-10-20,130 Seed 0,Xeon Gold 6126,110 core-min,-,32.0,https://decodingchallenge.org/large-weight/record/12
+large-weight,130,128,Nicolas Bordes and Pierre Karpman,Prange,2020-10-20,130 Seed 1,Xeon Gold 6126,32 core-min,-,32.0,https://decodingchallenge.org/large-weight/record/13
+large-weight,140,138,Nicolas Bordes and Pierre Karpman,Prange,2020-10-21,140 Seed 1,Xeon Gold 6126,~15 core-min,-,34.0,https://decodingchallenge.org/large-weight/record/14
+large-weight,150,148,Nicolas Bordes and Pierre Karpman,Prange,2020-11-03,150 Seed 0,Xeon Gold 6126,~13 core-days,-,37.0,https://decodingchallenge.org/large-weight/record/15
+large-weight,160,158,"Andre Esser, Alexander May and Floyd Zweydinger",MMT Variant,2021-12-14,160 Seed 0,"2 * EPYC 7742, 2TB RAM","22 wall min, 47 CPU hours",Greetings from Abu Dhabi and Bochum,39.0,https://decodingchallenge.org/large-weight/record/16
+large-weight,170,168,"Andre Esser, Alexander May and Floyd Zweydinger",MMT Variant,2021-12-14,170 Seed 0,"2 * EPYC 7742, 2TB RAM","446 wall min, 40 CPU days",Greetings from Abu Dhabi and Bochum,41.0,https://decodingchallenge.org/large-weight/record/17
+large-weight,180,178,"Andre Esser, Alexander May and Floyd Zweydinger",MMT Variant,2021-12-14,180 Seed 0,"2 * EPYC 7742, 2TB RAM","64 wall min, 6 CPU days",Greetings from Abu Dhabi and Bochum,44.0,https://decodingchallenge.org/large-weight/record/18
+large-weight,190,189,"Andre Esser, Alexander May and Floyd Zweydinger",MMT Variant,2021-12-14,190 Seed 0,"2 * EPYC 7742, 2TB RAM","90 wall hours, 480 CPU days",Greetings from Abu Dhabi and Bochum,46.0,https://decodingchallenge.org/large-weight/record/19
+large-weight,200,198,"Andre Esser, Alexander May and Floyd Zweydinger",MMT Variant,2021-12-15,200 Seed 0,"4 * EPYC 7742, 4TB RAM","43 wall hours, 919 CPU days",Greetings from Abu Dhabi and Bochum,49.0,https://decodingchallenge.org/large-weight/record/20
+large-weight,210,207,"Shintaro Narisada, Takeshi Wakao, Shusaku Uemura, Hiroki Okada, Yusuke Aikawa, Kazuhide Fukushima, Tsuyoshi Takagi",A variant of Wagner's algorithm,2025-09-26,210 Seed 0,"1 desktop PC (CPU: i9-12900, GPU: RTX3090)",Wall-clock time: 49 mins,-,51.0,https://decodingchallenge.org/large-weight/record/21
+large-weight,220,217,"Shintaro Narisada, Takeshi Wakao, Shusaku Uemura, Hiroki Okada, Yusuke Aikawa, Kazuhide Fukushima, Tsuyoshi Takagi",A variant of Wagner's algorithm,2025-09-26,220 Seed 0,"1 desktop PC (CPU: i9-12900, GPU: RTX3090)",Wall-clock time: 15.8 days,-,54.0,https://decodingchallenge.org/large-weight/record/22
+large-weight,230,227,"Shintaro Narisada, Takeshi Wakao, Shusaku Uemura, Hiroki Okada, Yusuke Aikawa, Kazuhide Fukushima, Tsuyoshi Takagi",A variant of Wagner's algorithm,2025-10-20,230 Seed 0,"7 desktop PCs (CPU: i9-12900 or i9-13900, GPU: RTX3090 or RTX4080)",Wall-clock time: 2.4 days,-,56.0,https://decodingchallenge.org/large-weight/record/23
+large-weight,240,237,"Shintaro Narisada, Takeshi Wakao, Shusaku Uemura, Hiroki Okada, Yusuke Aikawa, Kazuhide Fukushima, Tsuyoshi Takagi",A variant of Wagner's algorithm,2025-10-22,240 Seed 0,"7 desktop PCs (CPU: i9-12900 or i9-13900, GPU: RTX3090 or RTX4080)",Wall-clock time: 1.4 days,-,59.0,https://decodingchallenge.org/large-weight/record/24

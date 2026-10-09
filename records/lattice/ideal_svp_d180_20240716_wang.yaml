@@ -1,0 +1,25 @@
+id: "ideal_svp_d180_20240716_wang"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge SVP dim 180 (index 181)"
+instance_size: 180
+instance_size_unit: "dim"
+log2_ops: null
+method: "progressive PnJ-BKZ + GPU sieving"
+structure_exploited: true
+hardware: "AMD EPYC 7H12 (64 cores), 2TB RAM, 8x RTX 3090"
+raw_compute: "reduction 4.3 days + sieving 20.1 days"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 24.4
+date: "2024-07-16"
+solvers: ["Lin Wang", "Huiwen Jia", "Leizhang Wang", "Xixuan Deng", "Yue Cao", "Baocang Wang"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (SVP HoF)"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/svphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "Ideal Lattice Challenge (Plantard-Schneider): random ideal lattices from cyclotomic polynomials; SVP HoF threshold is a Gaussian-heuristic-based bound (formula shown as image on site), so this is approx-SVP near GH, not proven exact SVP. Record progression entry (new max dimension). HoF: cyclotomic index 181, seed 0, norm 3536, 'using ideal structure' = yes."

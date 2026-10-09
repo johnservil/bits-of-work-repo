@@ -1,0 +1,100 @@
+{"id": "W2328760090", "keep": true, "why": "blocks of consecutive integers, unclear"}
+{"id": "W2329503866", "keep": true, "why": "covering systems, neighboring topic"}
+{"id": "W2330076678", "keep": false, "why": "prime ratios p_k/k, different object"}
+{"id": "W2334488458", "keep": true, "why": "arithmetic progressions questions, related"}
+{"id": "W2334983898", "keep": false, "why": "square-free sets on grids, different object"}
+{"id": "W2335339119", "keep": false, "why": "Erdos-Hajnal hypergraph colouring, unrelated"}
+{"id": "W2337272372", "keep": true, "why": "question of Erdos and Graham"}
+{"id": "W2468037275", "keep": false, "why": "distinct prime factors, different object"}
+{"id": "W2486439685", "keep": true, "why": "combinatorial number theory problems, Erdos"}
+{"id": "W2501351516", "keep": false, "why": "cycles in graphs, unrelated"}
+{"id": "W2521224986", "keep": false, "why": "odd-girth graph density, unrelated"}
+{"id": "W2525887554", "keep": true, "why": "Erdos-Sarkozy sequences, related"}
+{"id": "W2530839785", "keep": true, "why": "primitive covering numbers, related"}
+{"id": "W2536060116", "keep": false, "why": "chromatic conjectures, unrelated"}
+{"id": "W2546062833", "keep": false, "why": "prime labeling of ladders, unrelated"}
+{"id": "W2553407886", "keep": false, "why": "Erdos-Gyarfas graph conjecture, unrelated"}
+{"id": "W2559553318", "keep": false, "why": "sparse halves triangle-free graphs, unrelated"}
+{"id": "W2561894848", "keep": false, "why": "rational function derivative, unrelated"}
+{"id": "W2571066894", "keep": false, "why": "cubic graph cycles, unrelated"}
+{"id": "W2592983029", "keep": false, "why": "Erdos-Gyarfas claw-free graphs, unrelated"}
+{"id": "W2601463216", "keep": true, "why": "additive number theory problems"}
+{"id": "W2611456884", "keep": true, "why": "forgotten number theory problems, Erdos"}
+{"id": "W2617014456", "keep": false, "why": "discrepancy of vectors, different object"}
+{"id": "W2620155147", "keep": true, "why": "additive combinatorics research problems"}
+{"id": "W2755121514", "keep": false, "why": "Erdos discrepancy problem, different object"}
+{"id": "W2756213202", "keep": true, "why": "Ramsey and combinatorial number theory"}
+{"id": "W2771028857", "keep": false, "why": "Erdos-Gyarfas Cayley graphs, unrelated"}
+{"id": "W2791145269", "keep": true, "why": "Erdos sumset conjecture proof"}
+{"id": "W2885295354", "keep": false, "why": "hypergraph chromatic number, unrelated"}
+{"id": "W2887053484", "keep": true, "why": "sumsets and covering codes, related"}
+{"id": "W2895866514", "keep": false, "why": "lattice point distances, different object"}
+{"id": "W2897846290", "keep": true, "why": "Sidon sets, related"}
+{"id": "W2898264679", "keep": false, "why": "graph theory glossary, unrelated"}
+{"id": "W2911658295", "keep": false, "why": "edge colorings, unrelated"}
+{"id": "W2913859726", "keep": false, "why": "sparse graphs, unrelated"}
+{"id": "W2914222527", "keep": true, "why": "Erdos-Selfridge covering moduli, related"}
+{"id": "W2914770100", "keep": false, "why": "Bondy-Vince conjecture, unrelated"}
+{"id": "W2915160394", "keep": false, "why": "chromatic number growth, unrelated"}
+{"id": "W2919772532", "keep": true, "why": "proof of Erdos sumset conjecture"}
+{"id": "W2936249484", "keep": true, "why": "progression-free sets, related"}
+{"id": "W2938910622", "keep": true, "why": "structure of Erdos covering systems"}
+{"id": "W2943918691", "keep": true, "why": "equal subset sums, related"}
+{"id": "W2944722921", "keep": false, "why": "Erdos-Hajnal hypergraphs, unrelated"}
+{"id": "W2945557435", "keep": false, "why": "cycle spectrum of planar graphs, unrelated"}
+{"id": "W2945753122", "keep": false, "why": "local density in graphs, unrelated"}
+{"id": "W2946048198", "keep": true, "why": "sumset configurations in dense sets"}
+{"id": "W2949709867", "keep": true, "why": "edge-magic graphs and additive bases"}
+{"id": "W2950528977", "keep": false, "why": "uncountably chromatic graphs, unrelated"}
+{"id": "W2950922715", "keep": true, "why": "Erdos-Szemeredi sum-product problem"}
+{"id": "W2951139953", "keep": false, "why": "cycle lengths in graphs, unrelated"}
+{"id": "W2951478996", "keep": false, "why": "Erdos-Gyarfas claw-free graphs, unrelated"}
+{"id": "W2952282870", "keep": false, "why": "cycles in finite planes, unrelated"}
+{"id": "W2952749208", "keep": false, "why": "sparse halves triangle-free graphs, unrelated"}
+{"id": "W2955520683", "keep": false, "why": "even-cycle-free subgraphs, unrelated"}
+{"id": "W2963290839", "keep": false, "why": "odd-girth graph density, unrelated"}
+{"id": "W2963410422", "keep": true, "why": "subsets of integers without k-term AP"}
+{"id": "W2963476552", "keep": false, "why": "Ramsey numbers with girth, unrelated"}
+{"id": "W2963882948", "keep": false, "why": "wheels and gears in planes, unrelated"}
+{"id": "W2963942939", "keep": false, "why": "Bondy-Vince conjecture, unrelated"}
+{"id": "W2964097236", "keep": false, "why": "prime gaps, different object"}
+{"id": "W2964307401", "keep": false, "why": "prime gaps, different object"}
+{"id": "W2964411006", "keep": false, "why": "coprime graph labelings, unrelated"}
+{"id": "W2977273815", "keep": true, "why": "number theory proceedings, unclear"}
+{"id": "W2997483836", "keep": false, "why": "anti-Ramsey random graphs, unrelated"}
+{"id": "W3003803721", "keep": false, "why": "Turan number graphs, unrelated"}
+{"id": "W3003854522", "keep": false, "why": "hypergraph colourings, unrelated"}
+{"id": "W3007558129", "keep": false, "why": "hypergraph colourings, unrelated"}
+{"id": "W3008591388", "keep": false, "why": "anti-Ramsey random graphs, unrelated"}
+{"id": "W3013139591", "keep": false, "why": "Brown-Erdos-Sos problem, unrelated"}
+{"id": "W3018741894", "keep": false, "why": "rainbow cliques, unrelated"}
+{"id": "W3033975125", "keep": false, "why": "anti-Ramsey cycles, unrelated"}
+{"id": "W3036512481", "keep": true, "why": "progression-free sets, related"}
+{"id": "W3038894848", "keep": false, "why": "prime gaps, different object"}
+{"id": "W3040332716", "keep": false, "why": "Riemann hypothesis claim, unrelated"}
+{"id": "W304188901", "keep": true, "why": "covering integers by arithmetic sequences"}
+{"id": "W3045988463", "keep": false, "why": "sparse halves K4-free graphs, unrelated"}
+{"id": "W3089076296", "keep": false, "why": "Blaschke product, unrelated"}
+{"id": "W3095029562", "keep": false, "why": "Erdos-Hajnal odd cycle problem, unrelated"}
+{"id": "W3098022636", "keep": true, "why": "sets with no large sum-free subset"}
+{"id": "W3106700732", "keep": true, "why": "divisibility of random integer samples"}
+{"id": "W3107354381", "keep": false, "why": "ergodic Ramsey theory, unrelated"}
+{"id": "W3112255858", "keep": true, "why": "sets without k-term progressions"}
+{"id": "W3120586469", "keep": false, "why": "ultrafilters Ramsey theorems, unrelated"}
+{"id": "W3127534791", "keep": false, "why": "list chromatic hypergraphs, unrelated"}
+{"id": "W3130072254", "keep": false, "why": "prime gap bounds, different object"}
+{"id": "W3133489831", "keep": false, "why": "Nicholson conjecture, unclear object"}
+{"id": "W3143259507", "keep": false, "why": "max cuts triangle-free graphs, unrelated"}
+{"id": "W3149979553", "keep": true, "why": "divisibility properties of integer sequences"}
+{"id": "W3153036256", "keep": false, "why": "Ramsey numbers with girth, unrelated"}
+{"id": "W3154005122", "keep": false, "why": "sparse halves triangle-free graphs, unrelated"}
+{"id": "W3156089645", "keep": false, "why": "Brown-Erdos-Sos variant, unrelated"}
+{"id": "W3158628378", "keep": true, "why": "density of sumsets"}
+{"id": "W3177693470", "keep": false, "why": "RSA key generation, unrelated"}
+{"id": "W3182414143", "keep": false, "why": "coprime graph Hamiltonicity, unrelated"}
+{"id": "W3184635925", "keep": false, "why": "sparse halves K4-free graphs, unrelated"}
+{"id": "W3193549712", "keep": false, "why": "K4-free sparse halves, unrelated"}
+{"id": "W3198560882", "keep": false, "why": "Erdos-Gyarfas P8-free graphs, unrelated"}
+{"id": "W3206378641", "keep": false, "why": "congruent number problem, different object"}
+{"id": "W3215989232", "keep": false, "why": "geodesics in graphs, unrelated"}
+{"id": "W348244977", "keep": false, "why": "graph theory overview, unrelated"}

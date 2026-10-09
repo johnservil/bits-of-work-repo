@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_large_weight_n190"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge large-weight n=190 w=189"
+instance_size: 190
+instance_size_unit: "n"
+log2_ops: 46.0
+method: "MMT Variant"
+structure_exploited: false
+hardware: "2 * EPYC 7742, 2TB RAM"
+raw_compute: "runtime: 90 wall hours, 480 CPU days; hardware: 2 * EPYC 7742, 2TB RAM"
+reported_core_years: 1.3142
+gpu_years: null
+wall_time_days: 3.75
+date: "2021-12-14"
+solvers: ["Andre Esser", "Alexander May", "Floyd Zweydinger"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: "2021/1634"
+source_url: "https://decodingchallenge.org/large-weight/record/19"
+other_urls: ["https://decodingchallenge.org/large-weight/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; ternary large-weight SD (Wave-like)"

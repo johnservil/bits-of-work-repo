@@ -1,0 +1,100 @@
+{"id": "W2918257103", "keep": false, "why": "optimal coupling of random variables"}
+{"id": "W2920978879", "keep": true, "why": "dependencies of polynomial optimization hierarchies"}
+{"id": "W2922488429", "keep": false, "why": "robust mean estimation hardness"}
+{"id": "W2923767790", "keep": false, "why": "Twitter political affinity"}
+{"id": "W2925520559", "keep": false, "why": "effective resistance network design"}
+{"id": "W2930717211", "keep": false, "why": "graphical channel models, SDP"}
+{"id": "W2935819705", "keep": false, "why": "expander decomposition, triangle enumeration"}
+{"id": "W2936835067", "keep": true, "why": "cumulative pebbling, unique games hard"}
+{"id": "W2937927637", "keep": false, "why": "minimum bisection FPT"}
+{"id": "W2942732240", "keep": false, "why": "maximum multi-coverage approximation"}
+{"id": "W2943534729", "keep": false, "why": "min-max correlation clustering"}
+{"id": "W2946023161", "keep": true, "why": "Lasserre gaps for spanners, related problems"}
+{"id": "W2947175317", "keep": false, "why": "principal fairness, projections"}
+{"id": "W2947549454", "keep": false, "why": "influence spread balancing"}
+{"id": "W2947845939", "keep": false, "why": "dictionary learning guarantees"}
+{"id": "W2948465511", "keep": false, "why": "learning polynomial proofs"}
+{"id": "W2948988145", "keep": false, "why": "one-shot quantum communication"}
+{"id": "W2949121808", "keep": false, "why": "refuting random CSP"}
+{"id": "W2949165676", "keep": true, "why": "Bilu-Linial stable Max-Cut, multiway cut"}
+{"id": "W2949212323", "keep": false, "why": "column-based low-rank reconstruction"}
+{"id": "W2949236705", "keep": true, "why": "unique games with negative weights"}
+{"id": "W2949246525", "keep": false, "why": "spectral sparsification"}
+{"id": "W2949361196", "keep": false, "why": "near-unanimity CSP algorithms"}
+{"id": "W2949387839", "keep": true, "why": "oracularization, two-prover proofs"}
+{"id": "W2949387874", "keep": true, "why": "well-clustered graphs, spectral clustering"}
+{"id": "W2949402393", "keep": false, "why": "random spanning trees"}
+{"id": "W2949404631", "keep": false, "why": "polytope lower bounds, combinatorial optimization"}
+{"id": "W2949441778", "keep": true, "why": "little Grothendieck problem, orthogonal groups"}
+{"id": "W2949537674", "keep": true, "why": "independent sets in 2-colorable hypergraphs"}
+{"id": "W2949580236", "keep": true, "why": "CSP global cardinality, SDP hierarchies"}
+{"id": "W2949604414", "keep": true, "why": "unique games with entangled provers"}
+{"id": "W2949609528", "keep": true, "why": "bipartiteness ratio, small dense subgraphs"}
+{"id": "W2949611765", "keep": false, "why": "treewidth inapproximability"}
+{"id": "W2949620154", "keep": true, "why": "Cheeger-type sparsest st-cut"}
+{"id": "W2949670414", "keep": true, "why": "entanglement, multi-prover proofs"}
+{"id": "W2949741362", "keep": false, "why": "many-player games"}
+{"id": "W2949825496", "keep": false, "why": "Brouwer fixed point"}
+{"id": "W2949874440", "keep": true, "why": "noise sensitivity, percolation applications"}
+{"id": "W2949883286", "keep": true, "why": "nonuniform graph partitioning, unrelated weights"}
+{"id": "W2949896029", "keep": false, "why": "note on spectral clustering"}
+{"id": "W2949921133", "keep": true, "why": "approximating vertex expansion complexity"}
+{"id": "W2949949472", "keep": true, "why": "sparsest k-partitioning approximation"}
+{"id": "W2949957608", "keep": false, "why": "connected dense k-subgraphs"}
+{"id": "W2950014110", "keep": false, "why": "Bayesian Nash equilibrium"}
+{"id": "W2950024625", "keep": true, "why": "ordering CSPs, NP-hardness"}
+{"id": "W2950029189", "keep": false, "why": "fair correlation clustering"}
+{"id": "W2950034824", "keep": false, "why": "conic formulations, graph homomorphisms"}
+{"id": "W2950127454", "keep": false, "why": "frontier of intractability"}
+{"id": "W2950152462", "keep": false, "why": "subsampling relaxations, average-case"}
+{"id": "W2950161481", "keep": false, "why": "decomposing graph into expanding subgraphs"}
+{"id": "W2950171000", "keep": true, "why": "parallel repetition of entangled games"}
+{"id": "W2950188968", "keep": false, "why": "multiwinner voting"}
+{"id": "W2950298732", "keep": false, "why": "LP for general-valued CSPs"}
+{"id": "W2950339362", "keep": false, "why": "canonical integer sequences"}
+{"id": "W2950359143", "keep": true, "why": "no strong parallel repetition, non-signaling provers"}
+{"id": "W2950380339", "keep": true, "why": "SoS tensor decomposition, sparse vectors"}
+{"id": "W2950447941", "keep": false, "why": "k-route cut approximation"}
+{"id": "W2950480768", "keep": true, "why": "Majority is Stablest, discrete and SoS"}
+{"id": "W2950556544", "keep": false, "why": "quasimetric embeddings"}
+{"id": "W2950588442", "keep": false, "why": "uncapacitated flow extended formulations"}
+{"id": "W2950602321", "keep": false, "why": "densest k-subgraph"}
+{"id": "W2950617570", "keep": false, "why": "maps into L1, BV functions"}
+{"id": "W2950635194", "keep": false, "why": "ATSP integrality ratios, Sherali-Adams"}
+{"id": "W2950639237", "keep": true, "why": "analytical approach to parallel repetition"}
+{"id": "W2950684534", "keep": false, "why": "expanders in locally sparse graphs"}
+{"id": "W2950706437", "keep": true, "why": "approximability and proof complexity"}
+{"id": "W2950726077", "keep": false, "why": "flattenability of graphs"}
+{"id": "W2950821282", "keep": false, "why": "matrix p-norm approximation"}
+{"id": "W2950851895", "keep": true, "why": "NP-hardness of 2-to-1 label cover"}
+{"id": "W2950890626", "keep": true, "why": "strongly refuting random CSPs, spectral threshold"}
+{"id": "W2950897465", "keep": true, "why": "lower bounds on SDP relaxation size"}
+{"id": "W2950908404", "keep": false, "why": "Lovasz theta, sparse independent sets"}
+{"id": "W2950932629", "keep": true, "why": "hypercontractivity, global functions, sharp thresholds"}
+{"id": "W2951003715", "keep": true, "why": "parallel repetition of non-signaling games"}
+{"id": "W2951040704", "keep": false, "why": "PPAD-hardness of approximation"}
+{"id": "W2951062585", "keep": false, "why": "pure Horn CNF minimization"}
+{"id": "W2951099296", "keep": true, "why": "hardest formulations, 0/1 Lasserre"}
+{"id": "W2951106755", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2951124766", "keep": true, "why": "consequences and limits of nonlocal strategies"}
+{"id": "W2951166730", "keep": false, "why": "finite metric spaces survey"}
+{"id": "W2951168422", "keep": true, "why": "biclique, min k-cut, SSE hypothesis"}
+{"id": "W2951207306", "keep": false, "why": "Schur complement Cheeger inequality"}
+{"id": "W2951216714", "keep": true, "why": "expansion profile, local graph clustering"}
+{"id": "W2951341567", "keep": false, "why": "password composition policies"}
+{"id": "W2951429494", "keep": true, "why": "inapproximability of combinatorial optimization survey"}
+{"id": "W2951432064", "keep": true, "why": "balanced cut approximation, PIE model"}
+{"id": "W2951567887", "keep": true, "why": "sparsest cut, bounded treewidth"}
+{"id": "W2951582091", "keep": false, "why": "universal factor graphs"}
+{"id": "W2951611364", "keep": false, "why": "quadratic programming ratio objective"}
+{"id": "W2951680343", "keep": false, "why": "hardness of approximation between P and NP"}
+{"id": "W2951692244", "keep": true, "why": "juntas and LP relaxations of CSPs"}
+{"id": "W2951768104", "keep": true, "why": "maximally stable Gaussian partitions"}
+{"id": "W2951843400", "keep": false, "why": "robust graph isomorphism, Lasserre gaps"}
+{"id": "W2951899199", "keep": true, "why": "non-Boolean MAX k-CSP approximation"}
+{"id": "W2951910694", "keep": false, "why": "generalized circuit problem"}
+{"id": "W2951914620", "keep": true, "why": "densest k-subgraph SDP gaps"}
+{"id": "W2951982454", "keep": true, "why": "LP approximation limits beyond hierarchies"}
+{"id": "W2952056253", "keep": true, "why": "non-uniform sparsest cut, generalized spectra"}
+{"id": "W2952057730", "keep": true, "why": "semi-random graph partitioning approximation"}
+{"id": "W2952132687", "keep": false, "why": "factors in random graphs"}

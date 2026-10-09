@@ -1,0 +1,25 @@
+id: "ideal_apxsvp_d552_20150428_wang"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge approx-SVP dim 552 (index 1668)"
+instance_size: 552
+instance_size_unit: "dim"
+log2_ops: null
+method: "LLL + progressive BKZ (beta=97)"
+structure_exploited: false
+hardware: "Xeon E5-2697 v2, 4 threads"
+raw_compute: "about 159.7 single-thread hours (76 h wall)"
+reported_core_years: 0.0182
+gpu_years: null
+wall_time_days: 3.17
+date: "2015-04-28"
+solvers: ["Yuntao Wang", "Yoshinori Aono", "Takuya Hayashi", "Tsuyoshi Takagi"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (approx-SVP HoF)"
+extrapolation: null
+paper: "ePrint 2016/146"
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/alphasvphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php", "https://eprint.iacr.org/2016/146"]
+confidence: 0.85
+verified: false
+notes: "Ideal Lattice Challenge approx-SVP HoF: much looser norm bound (formula shown as image on site, not transcribed); a BKZ-quality short-vector record rather than an SVP solve. Record progression entry (new max dimension). HoF: cyclotomic index 1668, seed 0, norm 383154, 'using ideal structure' = no."

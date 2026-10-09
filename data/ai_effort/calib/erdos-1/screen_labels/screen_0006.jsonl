@@ -1,0 +1,79 @@
+{"id": "W4376878199", "keep": true, "why": "infinite sumsets in dense sets"}
+{"id": "W4380876779", "keep": true, "why": "Erdos distinct evaluations, variant"}
+{"id": "W4386395004", "keep": false, "why": "graph copies search theory, unrelated"}
+{"id": "W4386984735", "keep": true, "why": "covering sumsets of prime field"}
+{"id": "W4389964398", "keep": false, "why": "rainbow subdivisions, graph theory"}
+{"id": "W4390105475", "keep": true, "why": "Sidon sets in finite contexts"}
+{"id": "W4391170001", "keep": false, "why": "consecutive even cycle lengths"}
+{"id": "W4391428404", "keep": true, "why": "untitled record, cannot screen"}
+{"id": "W4391428481", "keep": false, "why": "alternating series, prime tuples"}
+{"id": "W4392641268", "keep": false, "why": "Ramsey theory history"}
+{"id": "W4396523507", "keep": true, "why": "numbers far from primes, additive basis"}
+{"id": "W4398240880", "keep": false, "why": "Erdos covering systems book"}
+{"id": "W4399991262", "keep": false, "why": "unit distance graphs search"}
+{"id": "W4401210516", "keep": true, "why": "untitled record, cannot screen"}
+{"id": "W4401210571", "keep": true, "why": "Erdos B+B+t conjecture"}
+{"id": "W4401759458", "keep": false, "why": "covering systems function fields"}
+{"id": "W4401759500", "keep": false, "why": "de Polignac conjecture computations"}
+{"id": "W4402258857", "keep": true, "why": "prime-avoiding numbers, additive basis"}
+{"id": "W4403205703", "keep": false, "why": "hyperperfect numbers"}
+{"id": "W4404188127", "keep": true, "why": "unrestricted sumsets in dense sets"}
+{"id": "W4405886106", "keep": false, "why": "hypercube Turan density"}
+{"id": "W4406122334", "keep": true, "why": "distinct subset products bounds"}
+{"id": "W4406810291", "keep": true, "why": "product sets in groups, marginal"}
+{"id": "W4407231387", "keep": true, "why": "diameter of finite Sidon sets"}
+{"id": "W4408526020", "keep": false, "why": "Erdos-Faber-Lovasz conjecture"}
+{"id": "W4408552919", "keep": true, "why": "combinatorial properties of big sets"}
+{"id": "W4408558795", "keep": true, "why": "variants of Erdos distinct sums"}
+{"id": "W4410251722", "keep": false, "why": "minimally non-Ramsey graphs"}
+{"id": "W4412617408", "keep": true, "why": "subset-sum-distinct sufficient condition"}
+{"id": "W4413355283", "keep": false, "why": "graphs without cycles mod 4"}
+{"id": "W4414261623", "keep": true, "why": "economical additive basis"}
+{"id": "W4414487897", "keep": true, "why": "density finite sums theorem"}
+{"id": "W4414688548", "keep": true, "why": "infinite sumset configurations"}
+{"id": "W51500770", "keep": true, "why": "ultrafilters and combinatorial NT"}
+{"id": "W588476729", "keep": false, "why": "Ramsey theory book"}
+{"id": "W593584913", "keep": false, "why": "large prime factor note"}
+{"id": "W606453859", "keep": false, "why": "general combinatorics handbook"}
+{"id": "W626759026", "keep": false, "why": "probabilistic number theory I"}
+{"id": "W63284382", "keep": true, "why": "extremal sets without coprimes"}
+{"id": "W650639416", "keep": false, "why": "arrangements and spreads"}
+{"id": "W651535583", "keep": true, "why": "elementary NT problems book, generic"}
+{"id": "W658849301", "keep": true, "why": "combinatorial theory collected papers, generic"}
+{"id": "W7125690810", "keep": true, "why": "Erdos mysterious remark note"}
+{"id": "W7136250252", "keep": true, "why": "arithmetic progressions journal collection"}
+{"id": "W7150942801", "keep": false, "why": "hypergraphs and channels"}
+{"id": "W7167679819", "keep": false, "why": "tetranacci graphs"}
+{"id": "W756426363", "keep": false, "why": "least prime in progression"}
+{"id": "W759014763", "keep": true, "why": "Erdos number theory problems wish solved"}
+{"id": "W79326132", "keep": false, "why": "exactly covering systems"}
+{"id": "W820979427", "keep": false, "why": "prime number hypotheses 1958"}
+{"id": "W823411319", "keep": false, "why": "PL-Grid computing infrastructure"}
+{"id": "W842301775", "keep": true, "why": "addition of residue classes mod p"}
+{"id": "W874532184", "keep": true, "why": "additive properties of random sequences"}
+{"id": "W915366989", "keep": true, "why": "Erdos-Stein problem"}
+{"id": "W91574864", "keep": true, "why": "integers with pairwise common divisors"}
+{"id": "W93140271", "keep": true, "why": "extremal problems in NT and combinatorics"}
+{"id": "W971488519", "keep": true, "why": "Erdos-Heilbronn conjecture"}
+{"id": "W975749681", "keep": true, "why": "zero-free subset sums"}
+{"id": "W986587584", "keep": true, "why": "monotonicity of difference sequences"}
+{"id": "W986937197", "keep": false, "why": "primes in intervals"}
+{"id": "W996473569", "keep": true, "why": "Erdos-Moser problem"}
+{"id": "seed:erdos-1-1", "keep": true, "why": "additive number theory problems"}
+{"id": "seed:erdos-1-12", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "seed:erdos-1-20", "keep": true, "why": "combinatorial NT survey"}
+{"id": "seed:erdos-1-21", "keep": true, "why": "Erdos favourite combinatorics problems"}
+{"id": "seed:erdos-1-25", "keep": true, "why": "Erdos favourite problems"}
+{"id": "seed:erdos-1-26", "keep": true, "why": "sets with distinct sums"}
+{"id": "seed:erdos-1-28", "keep": true, "why": "Erdos and his mathematics"}
+{"id": "seed:erdos-1-29", "keep": true, "why": "remarks on distinct subset sums"}
+{"id": "seed:erdos-1-3", "keep": true, "why": "additive number theory problems 1959"}
+{"id": "seed:erdos-1-30", "keep": true, "why": "note on distinct subset sums"}
+{"id": "seed:erdos-1-31", "keep": true, "why": "sums from fixed sequence"}
+{"id": "seed:erdos-1-32", "keep": true, "why": "Erdos and the integers"}
+{"id": "seed:erdos-1-35", "keep": false, "why": "diophantine approximation applications"}
+{"id": "seed:erdos-1-36", "keep": true, "why": "Siegel lemma, used in sum-distinct bounds"}
+{"id": "seed:erdos-1-38", "keep": true, "why": "Siegel lemma and sum-distinct sets"}
+{"id": "seed:erdos-1-39", "keep": false, "why": "successive minima, geometry of numbers"}
+{"id": "seed:erdos-1-40", "keep": false, "why": "lattice equidistribution, geometry"}
+{"id": "seed:erdos-1-5", "keep": true, "why": "recent number theory problems survey"}

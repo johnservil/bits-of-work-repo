@@ -1,0 +1,1 @@
+Erdős problem 26 (erdosproblems.com): Let $A\subset\mathbb{N}$ be infinite. Must there exist some $k\geq 1$ such that almost all integers have a divisor of the form $a+k$ for some $a\in A$?

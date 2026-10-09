@@ -1,0 +1,25 @@
+id: "svpc_d155_20180918_albrecht"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 155 (seed 0)"
+instance_size: 155
+instance_size_unit: "dim"
+log2_ops: null
+method: "G6K sieving (CPU)"
+structure_exploited: false
+hardware: "4x Xeon E7-8860 v4 (72 cores), 512GB RAM"
+raw_compute: "wall 14d16h on 72 threads; total CPU time 1056 days"
+reported_core_years: 2.891
+gpu_years: null
+wall_time_days: 14.667
+date: "2018-09-18"
+solvers: ["M. Albrecht", "L. Ducas", "G. Herold", "E. Kirshanova", "E. Postlethwaite", "M. Stevens", "P. Karpman"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: "ePrint 2019/089"
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php", "https://eprint.iacr.org/2019/089"]
+confidence: 0.85
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Record progression entry (new max dimension). HoF: norm 3165, seed 0, approx factor 1.00803, algorithm tag 'Sieving'. Run by Pierre Karpman with G6K."

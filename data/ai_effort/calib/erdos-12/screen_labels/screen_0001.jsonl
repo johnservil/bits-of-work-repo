@@ -1,0 +1,100 @@
+{"id": "W2038466635", "keep": false, "why": "Collatz functions, unrelated"}
+{"id": "W2038497135", "keep": false, "why": "multiplicative functions means, different object"}
+{"id": "W2039456297", "keep": false, "why": "probabilistic group theory, unrelated"}
+{"id": "W2039499253", "keep": false, "why": "odd cycle colourings, unrelated"}
+{"id": "W2039627336", "keep": true, "why": "densities of integer subsets, related"}
+{"id": "W2040015983", "keep": true, "why": "covering systems of congruences, neighboring topic"}
+{"id": "W2041724798", "keep": true, "why": "primitive sequences, related"}
+{"id": "W2043191005", "keep": true, "why": "extremal result for sum-free sequences"}
+{"id": "W2044004462", "keep": false, "why": "chromatic index multigraphs, unrelated"}
+{"id": "W2044105263", "keep": false, "why": "anti-Ramsey random graphs, unrelated"}
+{"id": "W2044429866", "keep": true, "why": "Graham conjecture on sequences, related"}
+{"id": "W2044740967", "keep": false, "why": "extremal complex polynomials, unrelated"}
+{"id": "W2046941141", "keep": true, "why": "Graham conjecture on sequences with primes"}
+{"id": "W2052034072", "keep": true, "why": "subset sums and divisibility, related"}
+{"id": "W2052059867", "keep": true, "why": "squarefree numbers in sumsets"}
+{"id": "W2052802307", "keep": true, "why": "integer sequence families, related"}
+{"id": "W2053524037", "keep": false, "why": "zero-sum sequences in groups, different object"}
+{"id": "W2056806689", "keep": false, "why": "multiplicative function sums, different object"}
+{"id": "W2057394949", "keep": false, "why": "induced cycle lengths coloring, unrelated"}
+{"id": "W2058073416", "keep": false, "why": "primality of trees, unrelated"}
+{"id": "W2062097565", "keep": false, "why": "hypercube subgraphs, unrelated"}
+{"id": "W2063190536", "keep": false, "why": "triangle-free graph diameter, unrelated"}
+{"id": "W2064183481", "keep": true, "why": "integers not dividing products, divisibility"}
+{"id": "W2064298921", "keep": false, "why": "anti-Ramsey random graphs, unrelated"}
+{"id": "W2065042838", "keep": true, "why": "sumsets in integer sets"}
+{"id": "W2066637298", "keep": true, "why": "covering integers by congruences, related"}
+{"id": "W2068465902", "keep": true, "why": "density of primitive sets"}
+{"id": "W2068893962", "keep": true, "why": "multiplicative structure in additive sets"}
+{"id": "W2069220307", "keep": false, "why": "Markov shifts recurrence, unrelated"}
+{"id": "W2069367490", "keep": false, "why": "geometry combinatorial problem, unrelated"}
+{"id": "W2070496958", "keep": true, "why": "combinatorics studies, unclear"}
+{"id": "W2070834764", "keep": false, "why": "Ramsey-Turan problem, unrelated"}
+{"id": "W2072075682", "keep": true, "why": "arithmetic progressions remark, related"}
+{"id": "W2075196560", "keep": false, "why": "anti-Ramsey Ramanujan graphs, unrelated"}
+{"id": "W2076460709", "keep": false, "why": "Faber polynomials, unrelated"}
+{"id": "W2077900329", "keep": true, "why": "exactly covering systems of congruences"}
+{"id": "W2078604563", "keep": false, "why": "independence numbers of graphs, unrelated"}
+{"id": "W2079121590", "keep": false, "why": "finite linear spaces, unrelated"}
+{"id": "W2079979850", "keep": true, "why": "additive theorems, related"}
+{"id": "W2081643856", "keep": true, "why": "Erdos-diameter of sets, unclear"}
+{"id": "W2081708172", "keep": true, "why": "natural numbers with distinct multiples"}
+{"id": "W2082471372", "keep": true, "why": "density and pairwise sums of integers"}
+{"id": "W2085943590", "keep": false, "why": "subgraph density, unrelated"}
+{"id": "W2086041665", "keep": true, "why": "differences of sets, Graham problem"}
+{"id": "W2087699257", "keep": true, "why": "Erdos and the integers"}
+{"id": "W2087839647", "keep": false, "why": "zero-free sequences in groups, different object"}
+{"id": "W2089191641", "keep": false, "why": "vertex colouring survey, unrelated"}
+{"id": "W2097155487", "keep": true, "why": "number theory problems, Erdos-style"}
+{"id": "W2099986052", "keep": false, "why": "graph theory open problems, unrelated"}
+{"id": "W2102470573", "keep": false, "why": "cycle lengths in graphs, unrelated"}
+{"id": "W2107062643", "keep": false, "why": "zero-free sequences in groups, different object"}
+{"id": "W2107083378", "keep": false, "why": "k-gons in projective planes, unrelated"}
+{"id": "W2108900323", "keep": true, "why": "sets of integers, additive"}
+{"id": "W2111220106", "keep": true, "why": "additive number theory results"}
+{"id": "W2113268225", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "W2115811550", "keep": true, "why": "question of Erdos and Graham"}
+{"id": "W2116109685", "keep": true, "why": "divisibility properties of integer sequences"}
+{"id": "W2118360213", "keep": false, "why": "Turan theorem pseudorandom graphs, unrelated"}
+{"id": "W2118381068", "keep": true, "why": "elementary number theory problem, related"}
+{"id": "W2118502851", "keep": false, "why": "triangle-free sparse halves, unrelated"}
+{"id": "W2120600794", "keep": true, "why": "multiplicative representation of integers"}
+{"id": "W2122560436", "keep": false, "why": "cycle lengths and chromatic number, unrelated"}
+{"id": "W2123293563", "keep": true, "why": "combinatorics problems survey, unclear"}
+{"id": "W2125817895", "keep": true, "why": "number theory remarks, related"}
+{"id": "W2128000059", "keep": false, "why": "consecutive primes, unrelated"}
+{"id": "W2128824427", "keep": false, "why": "finite planes, unrelated"}
+{"id": "W2130018900", "keep": true, "why": "additive and combinatorial number theory problems"}
+{"id": "W2130585072", "keep": true, "why": "restricted addition question of Burr and Erdos"}
+{"id": "W2130828821", "keep": true, "why": "sets with no large sum-free subset"}
+{"id": "W2132134025", "keep": true, "why": "integer sets without 4-term AP"}
+{"id": "W2132713860", "keep": true, "why": "quasi-primitive sequences, related"}
+{"id": "W2134350015", "keep": true, "why": "primitive and cross-primitive sequences"}
+{"id": "W2142443207", "keep": true, "why": "Erdos-Szemeredi sum-product problem"}
+{"id": "W2143169901", "keep": false, "why": "cycle lengths in sparse graphs, unrelated"}
+{"id": "W2145433475", "keep": true, "why": "unconventional problems in number theory"}
+{"id": "W2147744878", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "W2148243655", "keep": true, "why": "divisors as polynomial values, related"}
+{"id": "W2151336588", "keep": true, "why": "coprime graph of integers, related"}
+{"id": "W2155187680", "keep": true, "why": "integer sets with distinct differences"}
+{"id": "W2159622301", "keep": false, "why": "consecutive prime gaps, different object"}
+{"id": "W2162608281", "keep": true, "why": "arithmetic progressions in lacunary sets"}
+{"id": "W2163674569", "keep": true, "why": "integer sets without long APs"}
+{"id": "W2166698266", "keep": true, "why": "Graham conjecture on gcds"}
+{"id": "W2168333587", "keep": false, "why": "covering numbers in design theory, unrelated"}
+{"id": "W2169468046", "keep": false, "why": "cycles in finite planes, unrelated"}
+{"id": "W2169823105", "keep": true, "why": "polynomial values dividing integers, related"}
+{"id": "W2190263142", "keep": true, "why": "Erdos-style problem collection"}
+{"id": "W2217780633", "keep": false, "why": "pseudorandom hypergraph counting, unrelated"}
+{"id": "W2238816572", "keep": false, "why": "two odd cycle colourings, unrelated"}
+{"id": "W228379338", "keep": true, "why": "Hanani conjecture, additive number theory"}
+{"id": "W2286993093", "keep": false, "why": "tree automorphisms, unrelated"}
+{"id": "W2288237314", "keep": false, "why": "pseudorandom hypergraphs, unrelated"}
+{"id": "W23094635", "keep": false, "why": "Hales-Jewett theorem, unrelated"}
+{"id": "W2312673203", "keep": false, "why": "abelian group minimum, different object"}
+{"id": "W2317039618", "keep": false, "why": "cycles in graphs, unrelated"}
+{"id": "W2317251561", "keep": true, "why": "extremal problem in number theory"}
+{"id": "W2320708790", "keep": false, "why": "polynomial irreducibility, unrelated"}
+{"id": "W2321615147", "keep": false, "why": "hypergraph colourings, unrelated"}
+{"id": "W2323526206", "keep": true, "why": "Erdos mathematics overview, related"}
+{"id": "W2326082038", "keep": false, "why": "Erdos-Rado theorem remark, unrelated"}

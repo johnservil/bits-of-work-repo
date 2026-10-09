@@ -1,0 +1,40 @@
+{"id": "W2125817895", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Erdos remarks on number theory, unclear but likely unrelated"}
+{"id": "W2140028675", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "completeness of sequences, unrelated"}
+{"id": "W2142443207", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Erdos-Szemeredi sum-product, different problem"}
+{"id": "W2145433475", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Erdos unconventional problems, no evident engagement"}
+{"id": "W2166698266", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture, unrelated"}
+{"id": "W228379338", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Hanani conjecture additive number theory, unrelated"}
+{"id": "W2313298573", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "problem of Erdos, unspecified, likely unrelated"}
+{"id": "W2313391498", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "non-averaging sets, unrelated"}
+{"id": "W2314290950", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "bases of natural numbers, unrelated"}
+{"id": "W2317251561", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "gcd extremal problem, unrelated"}
+{"id": "W2325408613", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "discrepancy of colorings, unrelated"}
+{"id": "W2326082038", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Erdos-Rado sunflower-type theorem, unrelated"}
+{"id": "W2327456046", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sums of distinct divisors, unrelated"}
+{"id": "W2328642983", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Waring problem, unrelated"}
+{"id": "W2328726307", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Moser collinear problem, unrelated"}
+{"id": "W2330372082", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture, unrelated"}
+{"id": "W2335606727", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "partitions problem, unrelated"}
+{"id": "W2337272372", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Solymosi note on Erdos-Graham question, different problem"}
+{"id": "W2337621514", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "ultrafilter/IP survey, general background not centred on problem"}
+{"id": "W2601463216", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Erdos additive number theory problems, unrelated"}
+{"id": "W2620155147", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "general additive combinatorics problem collection"}
+{"id": "W2791145269", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "different Erdos sumset conjecture"}
+{"id": "W2887053484", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sumsets and covering codes, unrelated"}
+{"id": "W2919772532", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "different Erdos sumset conjecture"}
+{"id": "W2950922715", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Erdos-Szemeredi sum-product, different problem"}
+{"id": "W2977273815", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Number theory day proceedings, unrelated"}
+{"id": "W3098022636", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subset problem, different Erdos problem"}
+{"id": "W3120586469", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "ultrafilter Ramsey exposition, unrelated"}
+{"id": "W3150381009", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "general number theory textbook"}
+{"id": "W3158628378", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "density of sumsets, unrelated"}
+{"id": "W37379289", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "abelian group combinatorics, unrelated"}
+{"id": "W4211101493", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "Guy problem-book chapter, no engagement evident"}
+{"id": "W4211212174", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "bibliography of Stone-Cech book, not centred on problem"}
+{"id": "W4211214111", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "Guy problem-book chapter, no engagement evident"}
+{"id": "W4231447687", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "introduction to Guy problem book"}
+{"id": "W4236705909", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "introduction to Guy problem book"}
+{"id": "W4244591610", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "sum-product, different problem"}
+{"id": "W4376878199", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "infinite sumsets with positive density, different Erdos problem"}
+{"id": "W4386984735", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "covering sumsets of prime field, unrelated"}
+{"id": "W4401210571", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "B+B+t conjecture, different Erdos problem"}

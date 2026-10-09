@@ -1,0 +1,25 @@
+{"id": "W651535583", "keep": true, "why": "elementary number theory problems, Erdos"}
+{"id": "W658849301", "keep": true, "why": "combinatorial theory book, unclear"}
+{"id": "W7125690810", "keep": true, "why": "Erdos remark, unclear"}
+{"id": "W7136250252", "keep": true, "why": "arithmetic progressions, related"}
+{"id": "W7150942801", "keep": false, "why": "hypergraphs and channels, unrelated"}
+{"id": "W7163276196", "keep": true, "why": "three-colour van der Waerden numbers"}
+{"id": "W7212312463", "keep": true, "why": "van der Waerden and Szemeredi analogs"}
+{"id": "W79326132", "keep": true, "why": "exactly covering systems"}
+{"id": "W820979427", "keep": false, "why": "prime number hypotheses, different object"}
+{"id": "W842301775", "keep": true, "why": "addition of residue classes, additive"}
+{"id": "W874532184", "keep": true, "why": "additive properties of integer sequences"}
+{"id": "W915366989", "keep": true, "why": "Erdos-Stein problem"}
+{"id": "W91574864", "keep": false, "why": "common divisor sets, different object"}
+{"id": "W93140271", "keep": true, "why": "extremal problems in NT and combinatorics"}
+{"id": "W93765889", "keep": true, "why": "APs and tic-tac-toe games"}
+{"id": "W95393621", "keep": true, "why": "Ramsey theory problems"}
+{"id": "W971488519", "keep": true, "why": "Erdos-Heilbronn conjecture"}
+{"id": "W975749681", "keep": false, "why": "zero-free subset sums, different object"}
+{"id": "W986587584", "keep": false, "why": "difference sequences monotonicity, different object"}
+{"id": "W986937197", "keep": false, "why": "prime gaps in intervals, different object"}
+{"id": "W996473569", "keep": true, "why": "Erdos-Moser problem, unclear"}
+{"id": "seed:erdos-1-12", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "seed:erdos-3-1", "keep": true, "why": "number theory problems, related"}
+{"id": "seed:erdos-3-19", "keep": true, "why": "Szemeredi theorem proof"}
+{"id": "seed:erdos-3-4", "keep": true, "why": "van der Waerden theorem and related"}

@@ -1,0 +1,38 @@
+\section{Selected changes in attack methods}
+\label{sec:attack-history}
+Research effort and attack progress are separate quantities. To make the distinction concrete, a supplementary track records selected published attack analyses, their assumptions, and corrections. It compares leading cost expressions where a defensible common scale exists, and otherwise records qualitative events. This is not a complete history of the best attack at every date, an estimate of research productivity, or a forecast of the next breakthrough.
+
+\subsection{Indices, dates, and scope}
+For an analysis $j$, let $\widetilde W_j(s)$ be its cost expression after the stated simplifications, evaluated at a reference scale $s$. We display
+\begin{equation}
+ I_j(s)=\log_2\widetilde W_j(s),\qquad
+ I_{\mathcal S,t}(s)=\min_{j\in\mathcal S:\,t_j\leq t} I_j(s),
+ \label{eq:attack-index}
+\end{equation}
+where $\mathcal S$ is the explicitly selected set of analyses. The minimum is an envelope of those models, not a lower bound on attack cost. Dropping lower-order terms can distort finite-size comparisons, and memory requirements and success guarantees differ. Even within a track, a change in the index is not automatically an equal change in practical security. Values across tracks use different operations, assumptions, and reference scales.
+
+Dates refer to the quoted analysis, using a public preprint or a specified checked revision when appropriate. An improved analysis of an old algorithm is not backdated to the algorithm's invention. Incorrect historical claims are retained as contextual records rather than plotted as supported bounds. Thus this view does not reconstruct what researchers believed at each historical date. Gaps in the selected record and unchanged leading terms are not evidence that practical attacks stopped improving.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Selected numerical tracks. Windows delimit the plotted endpoints, not the age of an assumption. Endpoints are leading-term indices at each track's own reference scale; they are not comparable security ratings. Qualitative events are excluded.}
+\label{tab:attack-history}
+\begin{tabularx}{\linewidth}{@{}Yrrr@{}}\toprule
+Track & Window & First index & Latest index\\\midrule
+\inputrows generated/attack_history_rows.tex
+\bottomrule\end{tabularx}
+\end{table}
+
+The elliptic-curve track concerns generic discrete logarithms in prime-order groups; weak-curve attacks are contextual. Factoring uses selected leading asymptotic expressions for balanced moduli. The factoring curve starts with the quadratic-sieve analysis, omitting the incomplete earlier history. Neither the table's cost indices nor their inversions replace concrete parameter recommendations. A polynomial-time classification alone also does not imply that no finite input could require a large amount of work.
+
+\subsection{Three boundaries that change the interpretation}
+\textbf{Lattices.} The numeric track compares selected heuristic classical sieve bounds at SVP dimension 406. That dimension comes from Kyber's coarse core-SVP convention, not a complete ML-KEM attack. The specification's separate refined estimate uses blocksize 413 and sieve dimension 375; repeated oracle calls and concrete work costs also matter.\cite{kyberhistory} Worst-case enumeration bounds are kept outside the sieve curve, avoiding the earlier spurious comparison that suggested hundreds of bits of lost ML-KEM security. Locality-sensitive filtering improves the selected leading sieve coefficient, but its memory tradeoffs must accompany its time bound.\cite{bdglhistory} Dimensions-for-free subsequently produces a dimension-dependent subexponential saving: preserving the leading coefficient does not make the saving a constant factor or make fixed-size work unchanged.\cite{ducastfree}
+
+\textbf{Decoding.} The scalar series concerns random binary codes at full Gilbert--Varshamov distance, maximizing each algorithm's optimized exponent over the code rate. The maximizing rate can change; this is not one rate-$1/2$ code or a fixed deployed instance. The length scale $n=1346$ is merely a normalization. The selected corrected endpoint uses $c\simeq0.0951$ in $2^{cn+o(n)}$, from the 2022 reassessment of Both--May, rather than the original erroneous claim.\cite{esserhistory,codesievehistory} Its date denotes a correction to the analysis, not a new attack invented that year. Hidden factors, exponential memory, and later rate-specific results limit what this scalar history establishes.
+
+\textbf{Boolean quadratic systems.} The selected record includes early XL and hybrid methods, not only exhaustive search and later parity-counting. Conditional algebraic estimates for random square systems must be distinguished from randomized bounds valid for every input. BooleanSolve's assumptions and Dinur's general-input guarantee are different, even when both are evaluated on a square Boolean reference system.\cite{booleansolvehistory,dinurhistory} A corrected hybrid coefficient enters at the checked analysis version; it is not retrospectively attributed to the original proposal.\cite{fxlhistory} Taking the smallest selected coefficient does not remove these differences or establish the security of structured signature schemes.
+
+\subsection{Breaks that should remain events}
+Small-characteristic finite-field DLP illustrates why incompatible units should not be joined into a curve. The BGJT result has heuristic quasi-polynomial complexity $n^{O(\log n)}$ in field bit-size, which remains super-polynomial.\cite{bgjthistory} Separately, the concrete reassessment of a supersingular pairing construction estimates about 59 bits of work for $\mathbb F_{2^{4\cdot1223}}$, in the authors' modular-multiplication units. This is neither a measured computation nor an estimate for the base field $\mathbb F_{2^{1223}}$.\cite{gkzhistory} SIDH provides a practical key-recovery break exploiting auxiliary torsion images; it does not break the general isogeny-path problem.\cite{sidhhistory} We retain that event without manufacturing an operation count from wall-clock time.
+
+The milestone ledger in \repo{data/attack_history/} records sources, assumptions, selection status, and corrections; \repo{analysis/attack_stability.py} generates Table~\ref{tab:attack-history}. Source checking here is an agent review, not independent mathematical verification or the repository's separate human-verification flag. This track helps distinguish algorithmic discoveries, revised estimates, and implementation gains. It supplies no exchange rate between those outcomes and the literature-derived person-time estimates.

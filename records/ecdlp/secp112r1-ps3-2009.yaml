@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "secp112r1-ps3-2009"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "secp112r1 (SECG 112-bit prime field, p=(2^128-3)/76439)"
+instance_size: 111.78
+instance_size_unit: "bits"
+log2_ops: 56.25
+method: "parallel Pollard rho, 16-adding walk, no negation map, sloppy reduction on Cell SPEs"
+structure_exploited: false
+hardware: "cluster of more than 200 PlayStation 3 consoles (EPFL; ~215 PS3s per later paper)"
+raw_compute: "62.6 PS3-years; ran on and off 2009-01-13 to 2009-07-08; 3.5 months if run continuously with final code; ~5e9 DPs"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 176
+date: "2009-07-08"
+solvers: ["Joppe W. Bos", "Marcelo E. Kaihara", "Thorsten Kleinjung", "Arjen K. Lenstra", "Peter L. Montgomery"]
+academic: true
+challenge: null
+extrapolation: "BKKLM 2009/389: authors would be surprised if a public effort made a dent in 160-bit prime-field ECC by 2020"
+paper: "SHARCS 2009 'Pollard Rho on the PlayStation 3'; IJACT 2(3) 2012 doi:10.1504/IJACT.2012.045590"
+source_url: "https://www.joppebos.com/files/rho_ps3.pdf"
+other_urls: ["https://www.metzdowd.com/pipermail/cryptography/2009-July/015476.html", "https://eprint.iacr.org/2009/389", "https://en.wikipedia.org/wiki/Discrete_logarithm_records"]
+confidence: 0.9
+verified: false
+notes: "Expected iterations sqrt(pi*n/2)~8.4e16; actual ~2% higher (log2_ops from that). n~2^111.78 per Bernstein et al. 2016. Special prime form only speeds arithmetic, not a DLP weakness. Announced 2009-07-09."

@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_goppa_n1284"
+class: "code"
+problem: "SD-Goppa"
+instance: "decodingchallenge goppa n=1284 w=24"
+instance_size: 1284
+instance_size_unit: "n"
+log2_ops: 56.0
+method: "MMT variant"
+structure_exploited: false
+hardware: "4* EPYC 7742"
+raw_compute: "runtime: 8047 CPU Days; hardware: 4* EPYC 7742"
+reported_core_years: 22.0315
+gpu_years: null
+wall_time_days: null
+date: "2021-08-16"
+solvers: ["Andre Esser", "Alex May", "Floyd Zweydinger"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: "EMZ22: McEliece round-3 192/256-bit parameter sets ~20/~10 bits below claimed level."
+paper: "2021/1634"
+source_url: "https://decodingchallenge.org/goppa/record/25"
+other_urls: ["https://decodingchallenge.org/goppa/halloffame", "https://eprint.iacr.org/2021/1634", "https://isd.mceliece.org/1347.html"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 0 - Inria Paris; instances are random parity-check matrices with planted error (not actual Goppa codes); McEliece-like rate/weight; \"8047 CPU Days\" on record page (CPU vs hardware-thread ambiguous); paper ~22 CPU-years (search snippet). Bernstein (isd.mceliece.org/1347.html) says EMZ22 average was 37.47 days on 4x EPYC 7742 vs 31.56 days for the BLP 2008 software."

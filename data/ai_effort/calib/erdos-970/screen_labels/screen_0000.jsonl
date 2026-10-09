@@ -1,0 +1,100 @@
+{"id": "W129012938", "keep": true, "why": "problem of Jacobsthal"}
+{"id": "W13262566", "keep": true, "why": "large prime gaps construction"}
+{"id": "W143004564", "keep": false, "why": "compressive sensing"}
+{"id": "W1481561048", "keep": false, "why": "integer matrix algorithms"}
+{"id": "W148203997", "keep": true, "why": "sieve theory, coprime counting; unsure"}
+{"id": "W1498769399", "keep": true, "why": "multiplicative number theory textbook; unsure"}
+{"id": "W1514653080", "keep": true, "why": "computation of Jacobsthal function"}
+{"id": "W1554274636", "keep": true, "why": "dense clusters of primes; unsure"}
+{"id": "W1573251302", "keep": false, "why": "prime sieve algorithms"}
+{"id": "W1591381094", "keep": false, "why": "Jones representations, knot theory"}
+{"id": "W1598706676", "keep": true, "why": "state complexity and Jacobsthal function"}
+{"id": "W162669174", "keep": true, "why": "note on Jacobsthal function"}
+{"id": "W1660188797", "keep": true, "why": "Jacobsthal function, hypercube density"}
+{"id": "W1741779805", "keep": true, "why": "Jacobsthal function, totient generalisation"}
+{"id": "W1810652169", "keep": true, "why": "wakeup protocols; Jacobsthal-related; unsure"}
+{"id": "W1972643643", "keep": false, "why": "triangle groups, arithmeticity"}
+{"id": "W1975396628", "keep": false, "why": "primitive roots in finite fields"}
+{"id": "W1978809935", "keep": true, "why": "unusually large prime gaps"}
+{"id": "W1979354264", "keep": false, "why": "primitive roots, number fields"}
+{"id": "W1983743564", "keep": false, "why": "primitive elements in finite fields"}
+{"id": "W1986033901", "keep": false, "why": "circulant digraph Hamiltonicity"}
+{"id": "W1987812975", "keep": false, "why": "least prime in arithmetic progression"}
+{"id": "W1988229094", "keep": false, "why": "hypergraph perfect matchings"}
+{"id": "W1988560957", "keep": true, "why": "Jacobsthal function, state complexity"}
+{"id": "W1989233798", "keep": false, "why": "primitive roots in finite fields"}
+{"id": "W1990381101", "keep": false, "why": "Frankl-Rodl-Pippenger theorem"}
+{"id": "W1997209544", "keep": false, "why": "prime sieve algorithms"}
+{"id": "W2004203774", "keep": false, "why": "prime sieve algorithms"}
+{"id": "W2014500183", "keep": true, "why": "gcd of shifted sets; unsure"}
+{"id": "W2017222678", "keep": false, "why": "illumination problems"}
+{"id": "W2017277338", "keep": false, "why": "multiplicative congruences"}
+{"id": "W2028633248", "keep": false, "why": "elliptic periods, finite fields"}
+{"id": "W2034013822", "keep": false, "why": "primitive roots in finite fields"}
+{"id": "W2034249254", "keep": true, "why": "prime gaps computation, Goldbach; unsure"}
+{"id": "W2042703645", "keep": false, "why": "chromatic index of hypergraphs"}
+{"id": "W2044185112", "keep": false, "why": "extended GCD for polynomials"}
+{"id": "W2045274883", "keep": true, "why": "Cramer model, prime gaps"}
+{"id": "W2049769414", "keep": true, "why": "integers coprime to n without small factors"}
+{"id": "W2060291661", "keep": true, "why": "Selberg sieve, bounded prime gaps"}
+{"id": "W2060421361", "keep": false, "why": "sum-difference sequences, Catalan"}
+{"id": "W2064469747", "keep": false, "why": "linear equations in primes"}
+{"id": "W2067837357", "keep": false, "why": "large sieve density estimate"}
+{"id": "W2071743058", "keep": false, "why": "sums of primes, Partitio numerorum"}
+{"id": "W2088622619", "keep": false, "why": "packing and covering problem"}
+{"id": "W2094054391", "keep": true, "why": "differences between consecutive primes"}
+{"id": "W2095527188", "keep": true, "why": "very large prime gaps"}
+{"id": "W2102401836", "keep": true, "why": "upper bound on Jacobsthal function"}
+{"id": "W2106160186", "keep": true, "why": "integers free of large prime factors; unsure"}
+{"id": "W2106210395", "keep": true, "why": "small gaps between primes"}
+{"id": "W2126897083", "keep": false, "why": "noisy polynomial evaluation"}
+{"id": "W2129076835", "keep": false, "why": "prime distribution, general"}
+{"id": "W2143530891", "keep": true, "why": "differences between consecutive primes"}
+{"id": "W2152985036", "keep": true, "why": "wakeup protocols; Jacobsthal-related; unsure"}
+{"id": "W2155295958", "keep": false, "why": "near perfect coverings, hypergraphs"}
+{"id": "W2159622301", "keep": true, "why": "differences between consecutive primes"}
+{"id": "W2168517325", "keep": false, "why": "irreducible polynomials over finite fields"}
+{"id": "W2228681065", "keep": true, "why": "large prime gaps with perfect powers"}
+{"id": "W2244936664", "keep": true, "why": "chains of large prime gaps"}
+{"id": "W2249264406", "keep": true, "why": "smooth numbers, computational NT; unsure"}
+{"id": "W2271872317", "keep": true, "why": "computational bound on Jacobsthal function"}
+{"id": "W2394813857", "keep": false, "why": "paramodular forms"}
+{"id": "W2424413680", "keep": false, "why": "ternary Goldbach problem"}
+{"id": "W2518953309", "keep": false, "why": "lattices, congruence xy+uv"}
+{"id": "W2519834410", "keep": false, "why": "sums of two squares"}
+{"id": "W2529753607", "keep": true, "why": "distribution of primes, general; unsure"}
+{"id": "W2530599462", "keep": true, "why": "maximal prime gaps in residue classes"}
+{"id": "W2592094310", "keep": false, "why": "discrete Fourier transform on lattices"}
+{"id": "W2621293163", "keep": true, "why": "large gaps between primes"}
+{"id": "W2736271132", "keep": false, "why": "symmetric group algorithms"}
+{"id": "W2741153371", "keep": true, "why": "distribution of primes, expository; unsure"}
+{"id": "W2743327613", "keep": false, "why": "rank-metric codes"}
+{"id": "W2744017802", "keep": false, "why": "domination of graphs"}
+{"id": "W2753986856", "keep": true, "why": "record prime gaps in progressions"}
+{"id": "W2765709597", "keep": false, "why": "Radon transforms, harmonic analysis"}
+{"id": "W2767492329", "keep": false, "why": "prime grid visualization"}
+{"id": "W2777506625", "keep": false, "why": "Gowers norm inverse theorem"}
+{"id": "W2780541028", "keep": false, "why": "sums of squares, Uchiyama"}
+{"id": "W2786497792", "keep": false, "why": "scheduling complexity"}
+{"id": "W2787113091", "keep": true, "why": "gaps between consecutive primes"}
+{"id": "W2788886212", "keep": true, "why": "long gaps in sieved sets"}
+{"id": "W2890172458", "keep": true, "why": "sets without large gaps; unsure"}
+{"id": "W2893710329", "keep": true, "why": "large prime gaps in progressions"}
+{"id": "W2899597138", "keep": true, "why": "limit points of normalized prime gaps"}
+{"id": "W2902482348", "keep": false, "why": "eigenfunction sup-norms"}
+{"id": "W2906891288", "keep": true, "why": "least r-free number in progression; unsure"}
+{"id": "W2907983563", "keep": false, "why": "multilinear harmonic analysis"}
+{"id": "W2909857905", "keep": true, "why": "maximal gaps in sets of primes"}
+{"id": "W2920826150", "keep": false, "why": "extreme values of L-functions"}
+{"id": "W2942771028", "keep": false, "why": "pseudo-Anosov maps"}
+{"id": "W2942911084", "keep": false, "why": "Adjacency-Jacobsthal numbers, matrices"}
+{"id": "W2949065168", "keep": true, "why": "twin prime conjecture"}
+{"id": "W2950667477", "keep": false, "why": "multiplicative congruences"}
+{"id": "W2950937703", "keep": true, "why": "large gaps between sums of two squares; unsure"}
+{"id": "W2951697820", "keep": false, "why": "irreducible polynomials construction"}
+{"id": "W2952568711", "keep": true, "why": "gaps between binary quadratic form values; unsure"}
+{"id": "W2952929108", "keep": false, "why": "triangle groups, arithmeticity"}
+{"id": "W2953016488", "keep": false, "why": "baby-step giant-step algorithms"}
+{"id": "W2954454029", "keep": true, "why": "primes in arithmetic progressions; unsure"}
+{"id": "W2963464756", "keep": false, "why": "least prime in progression"}
+{"id": "W2963496761", "keep": true, "why": "long gaps between primes"}

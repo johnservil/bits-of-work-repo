@@ -1,0 +1,100 @@
+{"id": "W2012677277", "keep": false, "why": "percolation thresholds on expanders"}
+{"id": "W2012723916", "keep": true, "why": "derandomized parallel repetition via PCPs"}
+{"id": "W2012833704", "keep": true, "why": "similarity estimation from rounding algorithms"}
+{"id": "W2013854554", "keep": false, "why": "permutation routing via matchings"}
+{"id": "W2014079391", "keep": true, "why": "Max-cut approximation complexity"}
+{"id": "W2014323766", "keep": true, "why": "approximating unique games"}
+{"id": "W2015573459", "keep": false, "why": "interpolation of linear operators"}
+{"id": "W2016232593", "keep": true, "why": "two-prover one-round proof systems"}
+{"id": "W2016332468", "keep": false, "why": "rounding via trees"}
+{"id": "W2016580234", "keep": true, "why": "K-prover parallel repetition, no-signaling"}
+{"id": "W2016990905", "keep": false, "why": "separability criteria, quantum"}
+{"id": "W2017280430", "keep": false, "why": "everywhere-sparse spanners"}
+{"id": "W2018451329", "keep": false, "why": "NP-completeness column"}
+{"id": "W2018582120", "keep": false, "why": "random 2-complexes homology"}
+{"id": "W2018655187", "keep": true, "why": "LS and Sherali-Adams rank lower bounds"}
+{"id": "W2018925011", "keep": true, "why": "robust polynomial characterizations, program testing"}
+{"id": "W2019120673", "keep": false, "why": "learning complexity, average-case"}
+{"id": "W2019226560", "keep": false, "why": "moment tensors, Hilbert identity"}
+{"id": "W2019374631", "keep": false, "why": "toric spines, Cheeger"}
+{"id": "W2019404063", "keep": true, "why": "graph expansion and unique games"}
+{"id": "W2019578639", "keep": false, "why": "probabilistic checking of proofs, general PCP"}
+{"id": "W2019886197", "keep": false, "why": "nonlinear program approximation complexity"}
+{"id": "W2020087044", "keep": false, "why": "undirected congestion hardness"}
+{"id": "W2020312327", "keep": false, "why": "quantum hypothesis testing"}
+{"id": "W2020632401", "keep": true, "why": "expander flows, graph partitioning"}
+{"id": "W2021083959", "keep": false, "why": "set union knapsack"}
+{"id": "W2021145763", "keep": false, "why": "spectral techniques, sparse random graphs"}
+{"id": "W2021413381", "keep": false, "why": "PCP consistency lemma, general PCP"}
+{"id": "W2021720298", "keep": false, "why": "maximum acyclic subgraph"}
+{"id": "W2022116437", "keep": false, "why": "hypergraph matching relaxations"}
+{"id": "W2022191808", "keep": false, "why": "randomized rounding technique survey"}
+{"id": "W2022596683", "keep": false, "why": "quasisymmetric embeddings, expansion"}
+{"id": "W2022749269", "keep": true, "why": "Positivstellensatz parity lower bound"}
+{"id": "W2023144280", "keep": false, "why": "matrix p-norm approximation"}
+{"id": "W2023546589", "keep": true, "why": "vertex cover SDP integrality gaps, LS hierarchy"}
+{"id": "W2024428102", "keep": false, "why": "quasi-randomness, graph regularity"}
+{"id": "W2024520830", "keep": true, "why": "unique games with negative weights"}
+{"id": "W2024654848", "keep": false, "why": "minimum-quotient cuts, planar graphs"}
+{"id": "W2025304499", "keep": false, "why": "FPT transversal algorithms"}
+{"id": "W2025392770", "keep": true, "why": "sum-of-squares partition, inoculation"}
+{"id": "W2026298842", "keep": false, "why": "entanglement detection, symmetric extensions"}
+{"id": "W2026595584", "keep": false, "why": "spectral gap criteria, Markov operators"}
+{"id": "W2026709222", "keep": false, "why": "second eigenvalue, random regular graphs"}
+{"id": "W2026753685", "keep": false, "why": "CSP complexity via finite algebras"}
+{"id": "W2026900294", "keep": false, "why": "single machine scheduling"}
+{"id": "W2027020884", "keep": true, "why": "SDP for linear equations mod p"}
+{"id": "W2027107615", "keep": true, "why": "entanglement-resistant multi-prover parallelization"}
+{"id": "W2027210158", "keep": false, "why": "scheduling inapproximability via hypergraph VC"}
+{"id": "W2028085501", "keep": true, "why": "SoS lower bounds, pairwise independence"}
+{"id": "W2028146521", "keep": true, "why": "biased games, Max-Cut hardness"}
+{"id": "W2028815089", "keep": false, "why": "Bell test proposal"}
+{"id": "W2029110781", "keep": true, "why": "CSP gaps, hardness at location 1"}
+{"id": "W2029475840", "keep": false, "why": "multipowers, combinatorial optimization"}
+{"id": "W2029859729", "keep": false, "why": "nearly-linear holographic proofs"}
+{"id": "W2030115941", "keep": false, "why": "bi-Lipschitz nonembedding in L1"}
+{"id": "W2030239719", "keep": false, "why": "quantum channel hypercontractivity"}
+{"id": "W2030365814", "keep": false, "why": "high log-densities, unrelated"}
+{"id": "W2030369304", "keep": false, "why": "quantum de Finetti representation"}
+{"id": "W2030737920", "keep": true, "why": "signed graph balancing data reduction"}
+{"id": "W2030970869", "keep": false, "why": "vertex cover approximation ratio"}
+{"id": "W2031923588", "keep": true, "why": "lower bounds on SDP relaxation size"}
+{"id": "W2032336879", "keep": true, "why": "random walks and local cuts"}
+{"id": "W2032606560", "keep": false, "why": "two-prover PSPACE, quantum-style"}
+{"id": "W2032692205", "keep": false, "why": "edge multicut FPT"}
+{"id": "W2032916024", "keep": false, "why": "probability metrics"}
+{"id": "W2033515640", "keep": true, "why": "SoS lower bounds, planted clique"}
+{"id": "W2034269606", "keep": false, "why": "edge-disjoint paths hardness"}
+{"id": "W2034331023", "keep": false, "why": "clustering theory"}
+{"id": "W2034534236", "keep": true, "why": "many sparse cuts, higher eigenvalues"}
+{"id": "W2034889029", "keep": false, "why": "Ribe program introduction"}
+{"id": "W2036265926", "keep": false, "why": "theorem-proving complexity, Cook"}
+{"id": "W2036322374", "keep": true, "why": "integrality gaps, sparsest cut"}
+{"id": "W2036930319", "keep": false, "why": "weighted vs unweighted optimization"}
+{"id": "W2037477842", "keep": false, "why": "power system restoration clustering"}
+{"id": "W2037586880", "keep": false, "why": "multivariate confidence regions"}
+{"id": "W2038098381", "keep": false, "why": "isoperimetry, random walk transience"}
+{"id": "W2038225707", "keep": false, "why": "optimization complexity classes textbook"}
+{"id": "W2038842031", "keep": false, "why": "isoperimetric trees clustering"}
+{"id": "W2038907843", "keep": true, "why": "approximate CSP needs large LP relaxations"}
+{"id": "W2038921147", "keep": true, "why": "nonembeddability via Fourier analysis"}
+{"id": "W2039104910", "keep": false, "why": "commuting local Hamiltonians"}
+{"id": "W2039592987", "keep": true, "why": "multiway spectral partitioning, higher-order Cheeger"}
+{"id": "W2039681975", "keep": false, "why": "communication lower bounds, block sensitivity"}
+{"id": "W2039759060", "keep": true, "why": "semi-random partitioning approximation"}
+{"id": "W2040831377", "keep": false, "why": "directed circuit packing"}
+{"id": "W2040847787", "keep": true, "why": "Heisenberg group, Goemans-Linial conjecture"}
+{"id": "W2041493135", "keep": false, "why": "doubling spaces embedding distortion"}
+{"id": "W2041499697", "keep": false, "why": "multi-multiway cut"}
+{"id": "W2041571997", "keep": false, "why": "tree metric approximation"}
+{"id": "W2041979432", "keep": true, "why": "Goemans-Williamson Max-Cut analysis"}
+{"id": "W2042134536", "keep": false, "why": "product state test, QMA"}
+{"id": "W2042179958", "keep": false, "why": "Ornstein-Uhlenbeck geometric bounds"}
+{"id": "W2042649619", "keep": false, "why": "acyclic subgraph polytope"}
+{"id": "W2042654457", "keep": false, "why": "power indices, hard problems"}
+{"id": "W2042899161", "keep": false, "why": "excluded minors, multicommodity flow"}
+{"id": "W2043506441", "keep": true, "why": "derandomizing SDP algorithms"}
+{"id": "W2043541258", "keep": true, "why": "randomized CSP approximation"}
+{"id": "W2043644965", "keep": false, "why": "robust network design, traffic"}
+{"id": "W2043862835", "keep": true, "why": "sparsest cut approximation"}
+{"id": "W2043870513", "keep": false, "why": "evolution, rigorous treatment"}

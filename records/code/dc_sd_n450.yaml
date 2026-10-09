@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_sd_n450"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge sd n=450 w=54"
+instance_size: 450
+instance_size_unit: "n"
+log2_ops: 47.0
+method: "Dumer"
+structure_exploited: false
+hardware: "Xeon E5-2695 v4"
+raw_compute: "runtime: 39 d; hardware: Xeon E5-2695 v4"
+reported_core_years: 0.1068
+gpu_years: null
+wall_time_days: null
+date: "2019-09-24"
+solvers: ["Valentin Vasseur"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/syndrome/record/41"
+other_urls: ["https://decodingchallenge.org/syndrome/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; \"39 d\" marked CPU time."

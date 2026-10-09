@@ -1,0 +1,25 @@
+id: "ideal_apxsvp_d700_20220514_zhao"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge approx-SVP dim 700 (index 701)"
+instance_size: 700
+instance_size_unit: "dim"
+log2_ops: null
+method: "BKZ-80 preprocessing + BKZ with 3-sieve"
+structure_exploited: true
+hardware: "2.1GHz machine"
+raw_compute: "~200 core hours preprocessing + 1587 core hours"
+reported_core_years: 0.2039
+gpu_years: null
+wall_time_days: null
+date: "2022-05-14"
+solvers: ["Ziyu Zhao"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (approx-SVP HoF)"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/alphasvphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "Ideal Lattice Challenge approx-SVP HoF: much looser norm bound (formula shown as image on site, not transcribed); a BKZ-quality short-vector record rather than an SVP solve. Record progression entry (new max dimension). HoF: cyclotomic index 701, seed 0, norm 658346, 'using ideal structure' = yes."

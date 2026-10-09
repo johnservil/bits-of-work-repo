@@ -1,0 +1,100 @@
+{"id": "W1043822130", "keep": false, "why": "additive number theory survey"}
+{"id": "W121476753", "keep": false, "why": "subset-sum sequences"}
+{"id": "W1479782671", "keep": true, "why": "cycles in sparse graphs"}
+{"id": "W1482178583", "keep": true, "why": "Turan-type problem of Erdos"}
+{"id": "W1484040084", "keep": true, "why": "graph theory textbook; unsure"}
+{"id": "W1494215778", "keep": false, "why": "edge distribution, induced copies"}
+{"id": "W1500017875", "keep": false, "why": "abelian finite groups"}
+{"id": "W1510730180", "keep": true, "why": "extremal graph theory textbook"}
+{"id": "W1513878650", "keep": false, "why": "Erdos set theory"}
+{"id": "W1520139570", "keep": true, "why": "hypergraph colourings, Erdos problems"}
+{"id": "W1538374560", "keep": true, "why": "colour-critical graphs, chromatic"}
+{"id": "W1555293549", "keep": false, "why": "asymptotic number of lattices"}
+{"id": "W1557120217", "keep": false, "why": "triangle packing, geometry"}
+{"id": "W1558198855", "keep": true, "why": "Erdos-Gyarfas conjecture, colourings"}
+{"id": "W1568934558", "keep": true, "why": "regularity lemma in graph theory; unsure"}
+{"id": "W156958920", "keep": false, "why": "polynomial methods in combinatorics"}
+{"id": "W1569752386", "keep": true, "why": "combinatorial problems textbook; unsure"}
+{"id": "W1572708899", "keep": false, "why": "unsolved geometry problems"}
+{"id": "W1576509659", "keep": false, "why": "extremal hypercube theorem"}
+{"id": "W1584831215", "keep": false, "why": "hypercube subgraph symmetry"}
+{"id": "W1603824269", "keep": false, "why": "tripod packing"}
+{"id": "W1608205525", "keep": true, "why": "infinite chromatic graphs"}
+{"id": "W1631671962", "keep": false, "why": "graph removal lemmas"}
+{"id": "W1646823299", "keep": false, "why": "cycles in finite planes"}
+{"id": "W1661292865", "keep": false, "why": "covering systems of congruences"}
+{"id": "W177744091", "keep": true, "why": "Erdos work on infinite graphs"}
+{"id": "W1781028155", "keep": true, "why": "almost bipartite large chromatic graphs"}
+{"id": "W1784046855", "keep": true, "why": "Erdos unsolved problems survey"}
+{"id": "W1824359407", "keep": false, "why": "triangular edges, symmetrization"}
+{"id": "W1884418294", "keep": true, "why": "cycles with consecutive odd lengths"}
+{"id": "W1947306769", "keep": false, "why": "mixed sums of primes"}
+{"id": "W1964700291", "keep": true, "why": "graph theory conjectures; unsure"}
+{"id": "W1966279781", "keep": false, "why": "covers of groups"}
+{"id": "W1968979498", "keep": false, "why": "tripod packing"}
+{"id": "W1969590881", "keep": true, "why": "perfect graphs, kernels; unsure"}
+{"id": "W1971010887", "keep": true, "why": "chromatic number of graphs and set systems"}
+{"id": "W1972958674", "keep": false, "why": "primes and powers of two"}
+{"id": "W1973511831", "keep": true, "why": "cycles with lengths differing by one or two"}
+{"id": "W1974047440", "keep": true, "why": "Erdos-Hajnal hypergraph colouring"}
+{"id": "W1975174360", "keep": true, "why": "subgraphs of minimum degree k"}
+{"id": "W1975538108", "keep": true, "why": "finite subgraphs of uncountably chromatic graphs"}
+{"id": "W1975858565", "keep": false, "why": "prime plus powers of two"}
+{"id": "W1976661633", "keep": true, "why": "colouring with prescribed induced cycle lengths"}
+{"id": "W1981896282", "keep": false, "why": "clique partitions of chordal graphs"}
+{"id": "W1982044733", "keep": true, "why": "total and list chromatic numbers"}
+{"id": "W1984080039", "keep": false, "why": "universal graphs, uniform edges"}
+{"id": "W1984375054", "keep": true, "why": "colouring hypergraphs"}
+{"id": "W1986233232", "keep": true, "why": "extremal graph problem"}
+{"id": "W1989539066", "keep": true, "why": "cycles modulo k"}
+{"id": "W1990271562", "keep": true, "why": "colouring number, infinite graphs"}
+{"id": "W1990574543", "keep": false, "why": "edge distribution, copies of graph"}
+{"id": "W1990801743", "keep": false, "why": "Erdos-Sarkozy additive problem"}
+{"id": "W1991488174", "keep": false, "why": "highly composite numbers"}
+{"id": "W1992843513", "keep": false, "why": "Ramsey lower bound"}
+{"id": "W1994335179", "keep": false, "why": "induced subgraphs, degrees"}
+{"id": "W1994700616", "keep": false, "why": "Erdos-Rothschild triangle edges"}
+{"id": "W1997862973", "keep": true, "why": "colourability with forbidden minors"}
+{"id": "W2002473456", "keep": true, "why": "sparse halves in triangle-free graphs, bipartite"}
+{"id": "W2003995429", "keep": true, "why": "Kneser conjecture, chromatic number"}
+{"id": "W2004580743", "keep": false, "why": "additive number theory (1934)"}
+{"id": "W2006409548", "keep": true, "why": "distribution of cycle lengths"}
+{"id": "W2008824802", "keep": false, "why": "unit distances, geometry"}
+{"id": "W2009170871", "keep": false, "why": "extremal problem for polynomials"}
+{"id": "W2011956632", "keep": true, "why": "list colourings"}
+{"id": "W2012495969", "keep": true, "why": "colouring graphs with small odd cycles"}
+{"id": "W2019350858", "keep": false, "why": "nowhere-zero flows"}
+{"id": "W2019573948", "keep": false, "why": "spreads in vector spaces"}
+{"id": "W2020529018", "keep": false, "why": "Besicovitch-type integer theorem"}
+{"id": "W2021315980", "keep": false, "why": "zero-sum and residue covers"}
+{"id": "W2023163209", "keep": true, "why": "rainbow subgraphs, edge colouring; unsure"}
+{"id": "W2024769658", "keep": true, "why": "asymptotically good list-colourings"}
+{"id": "W2025928899", "keep": false, "why": "m-covers of integers"}
+{"id": "W2029739940", "keep": false, "why": "monochromatic copies of a graph"}
+{"id": "W2030551570", "keep": false, "why": "Ramsey number upper bound"}
+{"id": "W2032716544", "keep": false, "why": "hypercube subgraphs, even cycles"}
+{"id": "W2033259203", "keep": false, "why": "repeated distances"}
+{"id": "W2033366500", "keep": true, "why": "graphs with k odd cycle lengths"}
+{"id": "W2035541146", "keep": true, "why": "linked graphs with restricted cycle lengths"}
+{"id": "W2037617500", "keep": true, "why": "nearly bipartite graphs, large chromatic number"}
+{"id": "W2038951761", "keep": false, "why": "intersection theorems for set systems"}
+{"id": "W2039499253", "keep": true, "why": "colourings with two consecutive odd cycle lengths"}
+{"id": "W2040379672", "keep": false, "why": "Ramsey-Turan problem"}
+{"id": "W2043381187", "keep": false, "why": "additive Ramsey-type property"}
+{"id": "W2044004462", "keep": true, "why": "chromatic index of multigraphs"}
+{"id": "W2044105263", "keep": false, "why": "anti-Ramsey random graphs"}
+{"id": "W2044740967", "keep": false, "why": "extremal problem for complex polynomials"}
+{"id": "W2045472305", "keep": false, "why": "Erdos Ramsey remarks, 1947"}
+{"id": "W2046128506", "keep": true, "why": "favourite problems in graph theory"}
+{"id": "W2046939500", "keep": false, "why": "ordinary points, geometry"}
+{"id": "W2051336598", "keep": false, "why": "Ramsey function bounds"}
+{"id": "W2057394949", "keep": true, "why": "colouring with prescribed induced cycle lengths"}
+{"id": "W2062097565", "keep": false, "why": "hexagon-free hypercube subgraphs"}
+{"id": "W2063135663", "keep": true, "why": "chromatic number of finite and infinite graphs"}
+{"id": "W2063190536", "keep": false, "why": "diameter of triangle-free graphs"}
+{"id": "W2064197162", "keep": false, "why": "intersection theorems, geometry"}
+{"id": "W2064298921", "keep": false, "why": "anti-Ramsey threshold"}
+{"id": "W2065868027", "keep": false, "why": "Ramsey theorem graph results"}
+{"id": "W2066637298", "keep": false, "why": "integer covering by congruence classes"}
+{"id": "W2067692941", "keep": false, "why": "distinct induced subgraphs"}
+{"id": "W2070834764", "keep": false, "why": "Ramsey-Turan window"}

@@ -1,0 +1,40 @@
+{"id": "W2885551440", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP relaxation power for CSPs"}
+{"id": "W2885803187", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Fourier analysis intro"}
+{"id": "W2886036951", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "moment-SOS hierarchy"}
+{"id": "W2886270469", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypercube isoperimetry"}
+{"id": "W2886658624", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "double samplers list decoding"}
+{"id": "W2888275186", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "mean-field and convex hierarchies"}
+{"id": "W288944068", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LS LP gaps"}
+{"id": "W2889745393", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph Cheeger cuts"}
+{"id": "W2889877476", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "log-Sobolev multislice"}
+{"id": "W2890953787", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "negative type diversities"}
+{"id": "W2893083669", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "linear arrangement"}
+{"id": "W2898617375", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "matroid FPRAS"}
+{"id": "W2899349648", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes SSEH for width hardness"}
+{"id": "W2899413771", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS size-degree"}
+{"id": "W2902308496", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "double samplers"}
+{"id": "W2903365749", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonlocal game separations"}
+{"id": "W2903710486", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sticky Brownian rounding for CSPs"}
+{"id": "W2906052802", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Sherali-Adams on low threshold rank graphs, UG-adjacent"}
+{"id": "W2907567654", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "biased hypercube agreement tests"}
+{"id": "W2910036433", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "random walk noise sensitivity"}
+{"id": "W2910713864", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "shifted families juntas"}
+{"id": "W2917997019", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Goemans-Williamson MAX CUT"}
+{"id": "W2920978879", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "polynomial optimization hierarchies"}
+{"id": "W2936835067", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for pebbling hardness"}
+{"id": "W2946023161", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Lasserre gaps for spanners"}
+{"id": "W2949165676", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "stable instances"}
+{"id": "W2949236705", "include": "yes", "category": "A", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "unique games with negative weights"}
+{"id": "W2949387839", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum provers"}
+{"id": "W2949387874", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "spectral clustering"}
+{"id": "W2949441778", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "little Grothendieck"}
+{"id": "W2949537674", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph independent sets hardness"}
+{"id": "W2949580236", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "CSPs with cardinality constraints"}
+{"id": "W2949604414", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "unique games with entangled provers, SDP algorithm"}
+{"id": "W2949609528", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bipartiteness ratio"}
+{"id": "W2949620154", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest st-cut"}
+{"id": "W2949670414", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum provers"}
+{"id": "W2949874440", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "noise sensitivity percolation"}
+{"id": "W2949883286", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonuniform partitioning"}
+{"id": "W2949921133", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "vertex expansion complexity, SSE as assumption"}
+{"id": "W2949949472", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest k-partitioning"}

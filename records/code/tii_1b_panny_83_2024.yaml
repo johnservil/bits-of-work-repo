@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "tii_1b_panny_83_2024"
+class: "code"
+problem: "SD-Goppa"
+instance: "TII McEliece Track 1B TII-83 (n=253, k=213, t=5, m=8)"
+instance_size: 253
+instance_size_unit: "n"
+log2_ops: null
+method: "brute-force private-key enumeration with optimized support-splitting algorithm, using key equivalences"
+structure_exploited: false
+hardware: "various servers with AMD and Ampere CPUs"
+raw_compute: "1471:04:51:00 single-core time (HeroX); ~1470 core-days, ~7700 key candidates per core-second (paper)"
+reported_core_years: 4.0279
+gpu_years: null
+wall_time_days: null
+date: "2024-05"
+solvers: ["Lorenz Panny"]
+academic: true
+challenge: "TII McEliece"
+extrapolation: null
+paper: "2025/632"
+source_url: "https://www.herox.com/TIIMcElieceChallenges/leaderboard"
+other_urls: ["https://eprint.iacr.org/2025/632", "https://tii.ae/news/tii-mceliece-encryption-challenges-winners-announced", "https://raw.githubusercontent.com/ElenaKirshanova/tii_decoding_challenge/main/key_rec_instances"]
+confidence: 0.85
+verified: false
+notes: "Track 1B prize winner (announced 2024-05-30). Paper: naive a-priori estimate 2^91 bit operations. Generic key search, no algebraic structural attack. TII label = round(bitcomplexity) from the organizers' key_rec_instances file (a brute-force/support-splitting estimate, disputed by Bernstein 2023 and the 2026 papers); labels are not security levels."

@@ -1,0 +1,482 @@
+{
+ "audit_date": "2026-10-09",
+ "scope": "Bounded title/abstract/reason review of keyword-selected main-view records. No full-text or comprehensive corpus audit; no production records changed. User requested caveats rather than wholesale re-estimation.",
+ "input_sha256": "fe922073acc948ac3e9e79f5ee75538233deaac5c1b91e79cbafb574a525fb5f",
+ "rules": "pipeline/rubric.md v0.3.4 excludes extracting leakage but includes mathematical attacks with abstract hints and speed-focused implementations of mathematical solvers.",
+ "summary": {
+  "export_rows": 4349,
+  "main_rows": 2877,
+  "main_weighted_items": {
+   "ECDLP": 465.15,
+   "MLWE_structured": 477.375,
+   "LWE_plain": 362.625,
+   "SD_code": 289.5,
+   "Factoring_FFDLP": 849.15,
+   "Isogeny": 80.4,
+   "Multivariate": 174.7
+  },
+  "keyword_pattern": "side.channel|fault.attack|fault.injection|timing.attack|power.analysis|cold.boot|cache.attack|invalid.curve|nonce.leak|\\bHNP\\b|hidden.number|leakage|leaked",
+  "keyword_selected_main_rows": 45,
+  "keyword_selected_weights": {
+   "ECDLP": 5.7,
+   "MLWE_structured": 9.375,
+   "LWE_plain": 7.475,
+   "SD_code": 4.0,
+   "Factoring_FFDLP": 8.15,
+   "Isogeny": 3.3,
+   "Multivariate": 1.3
+  },
+  "leakage_true_rows": 39,
+  "leakage_true_weights": {
+   "ECDLP": 5.4,
+   "MLWE_structured": 9.15,
+   "LWE_plain": 3.75,
+   "SD_code": 5.7,
+   "Factoring_FFDLP": 1.3,
+   "Isogeny": 1.0,
+   "Multivariate": 0.0
+  },
+  "leakage_flag_missing_rows": 871,
+  "confirmed_scope_mismatch_rows": 1,
+  "confirmed_scope_mismatch_weights": {
+   "ECDLP": 0.0,
+   "MLWE_structured": 0.75,
+   "LWE_plain": 0.25,
+   "SD_code": 0.0,
+   "Factoring_FFDLP": 0.0,
+   "Isogeny": 0.0,
+   "Multivariate": 0.0
+  },
+  "confirmed_pure_leakage_extraction_rows_in_bounded_review": 0
+ },
+ "interpretation": [
+  "These counts are weighted items, not person-years; deleting a record can change an author publication-share denominator and smoothing, so there is no valid direct item-to-FTE subtraction.",
+  "The existing leakage flag is incomplete; its 39 flagged main records cannot provide a comprehensive no-leakage sensitivity estimate.",
+  "This review does not establish that contamination is globally small. It found little direct evidence of pure implementation leakage extraction in the selected records, but material scope/attribution ambiguities remain.",
+  "Suggested site text: We exclude implementation-only attacks such as timing, power analysis and fault injection. Our broader research corpus still includes mathematical attacks supplied with partial information, special-case instances and shared algorithmic tools; it is not a count of attacks directly applicable to deployed schemes. Classification and attribution errors remain possible."
+ ],
+ "recommended_next_audit_steps": [
+  "Review the single HAWK/LIP scope mismatch against the current rubric before adding a focused manual exclusion.",
+  "Review HNP/ECDSA class attribution and mixed-thesis effort fractions.",
+  "Complete leakage flags before reporting a no-hints sensitivity view.",
+  "If canonical exclusions are approved, rerun analysis/export_combined.py, analysis/phase1_counts.py, analysis/author_map.py, paper/generate_tables.py and pipeline/build_site_data.py using each script’s documented prerequisites; do not subtract paper counts directly from author-years."
+ ],
+ "evidence": [
+  {
+   "id": "2026/2381",
+   "title": "The Lattice Isomorphism Problem with Hints",
+   "verdict": "confirmed_rubric_scope_mismatch",
+   "audit_reason": "The main target is HAWK/LIP, expressly excluded by rubric v0.3.4. An SVP embedding does not establish generic LWE/MLWE attack applicability. Recommend excluding from headline assumption corpus while retaining it in the separate HAWK comparison corpus.",
+   "current_label_reason": "LIP-with-hints SVP embedding; intrinsic signature hints cut Hawk-1024 security ~11 bits.",
+   "current_problem_tags": {
+    "lattice_structured": 0.5,
+    "lattice_generic": 0.5
+   },
+   "current_leakage_flag": null,
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.75,
+    "LWE_plain": 0.25,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "https://eprint.iacr.org/2026/2381"
+  },
+  {
+   "id": "dblp:conf/cisc/LiFL21",
+   "title": "Attacking ECDSA Leaking Discrete Bits with a More Efficient Lattice",
+   "verdict": "attribution_review",
+   "audit_reason": "Title and existing reason concern ECDSA nonce leakage / HNP, not direct ECDLP. Abstract is absent. Review 0.5 ECDLP attribution; do not automatically remove transferable lattice machinery.",
+   "current_label_reason": "More efficient lattice for HNP with leaked ECDSA nonce bits; solving under hints.",
+   "current_problem_tags": {
+    "lattice_generic": 0.5,
+    "ecdlp": 0.5
+   },
+   "current_leakage_flag": "True",
+   "class_weights": {
+    "ECDLP": 0.5,
+    "MLWE_structured": 0.25,
+    "LWE_plain": 0.25,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "10.1007/978-3-030-88323-2_13"
+  },
+  {
+   "id": "dblp:journals/entropy/ShiJM23",
+   "title": "Solving HNP with One Bit Leakage: An Asymmetric Lattice Sieving Algorithm",
+   "verdict": "attribution_review",
+   "audit_reason": "Abstract describes HNP from nonce leakage and an asymmetric lattice-sieving algorithm. Review 0.5 ECDLP attribution; lattice method may remain relevant.",
+   "current_label_reason": "Asymmetric sieving algorithm solving HNP with 1-bit nonce leakage.",
+   "current_problem_tags": {
+    "lattice_generic": 0.5,
+    "ecdlp": 0.5
+   },
+   "current_leakage_flag": "True",
+   "class_weights": {
+    "ECDLP": 0.5,
+    "MLWE_structured": 0.25,
+    "LWE_plain": 0.25,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "10.3390/e25010049"
+  },
+  {
+   "id": "dblp:journals/tches/XuDWL23",
+   "title": "Improved Attacks on (EC)DSA with Nonce Leakage by Lattice Sieving with Predicate",
+   "verdict": "attribution_review",
+   "audit_reason": "Abstract concerns HNP from nonce leakage and sieving-with-predicate improvements. Review 0.4 ECDLP attribution; transferable lattice method may remain relevant.",
+   "current_label_reason": "Improved sieving-with-predicate for HNP from (EC)DSA nonce leakage; new lattice records.",
+   "current_problem_tags": {
+    "lattice_generic": 0.6,
+    "ecdlp": 0.4
+   },
+   "current_leakage_flag": "True",
+   "class_weights": {
+    "ECDLP": 0.4,
+    "MLWE_structured": 0.3,
+    "LWE_plain": 0.3,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "10.46586/tches.v2023.i2.568-586"
+  },
+  {
+   "id": "dblp:journals/tches/LiXSXJZH25",
+   "title": "Improved Attacks Against Lattice-Based KEMs Using Hints From Hertzbleed",
+   "verdict": "mixed_contribution_review",
+   "audit_reason": "Main contribution exploits existing modular hints with low-dimensional lattices, which rubric allows, but abstract also says additional hints are extracted. A closer read is needed before assigning any exclusion fraction.",
+   "current_label_reason": "Better use of modular hints via low-dimensional lattices for key recovery; hint exploitation.",
+   "current_problem_tags": {
+    "lattice_structured": 0.6,
+    "ntru": 0.2,
+    "lattice_generic": 0.2
+   },
+   "current_leakage_flag": "True",
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.9,
+    "LWE_plain": 0.1,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "10.46586/tches.v2025.i4.463-485"
+  },
+  {
+   "id": "dblp:phd/basesearch/Bulens09",
+   "title": "Mathematical and physical concerns regarding cryptographic key length",
+   "verdict": "mixed_contribution_review",
+   "audit_reason": "Thesis includes hardware ECDLP record and key-length models, but also fault attacks and fuzzy extractors. Whole-thesis effort need not belong entirely to the mathematical-assumption corpus.",
+   "current_label_reason": "Thesis on key-length models with hardware ECDLP attack cost data point.",
+   "current_problem_tags": {
+    "ecdlp": 0.5,
+    "factoring": 0.25,
+    "ffdlp": 0.25
+   },
+   "current_leakage_flag": "False",
+   "class_weights": {
+    "ECDLP": 0.5,
+    "MLWE_structured": 0.0,
+    "LWE_plain": 0.0,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.5,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": null
+  },
+  {
+   "id": "dblp:phd/hal/Micheli21",
+   "title": "Discrete Logarithm Cryptanalyses : Number Field Sieve and Lattice Tools for Side-Channel Attacks. (Cryptanalyses de logarithmes discrets : crible algébrique et réseaux pour canaux auxiliaires)",
+   "verdict": "mixed_contribution_review",
+   "audit_reason": "Thesis combines TNFS complexity and an actual 521-bit finite-field DLP record with side-channel lattice tools. Legitimate mathematical component; review attribution and possible duplicate W7027626139.",
+   "current_label_reason": "Thesis: NFS/TNFS complexity, 521-bit DL record, lattice tools for exponent leakage.",
+   "current_problem_tags": {
+    "ffdlp": 0.75,
+    "lattice_generic": 0.25
+   },
+   "current_leakage_flag": "False",
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.125,
+    "LWE_plain": 0.125,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.75,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "10.70675/03e70022z3b51z4264z86ffz300c571650d3"
+  },
+  {
+   "id": "W7027626139",
+   "title": "Cryptanalyses de logarithmes discrets : crible algébrique et réseaux pour canaux auxiliaires",
+   "verdict": "mixed_contribution_review",
+   "audit_reason": "Same French thesis title and matching abstract content as dblp:phd/hal/Micheli21; possible duplicate with differing attribution. Not a reason to exclude the legitimate TNFS component.",
+   "current_label_reason": "Thesis: TNFS complexity, 521-bit TNFS record DL, plus lattice side-channel work.",
+   "current_problem_tags": {
+    "ffdlp": 0.7,
+    "other": 0.3
+   },
+   "current_leakage_flag": "False",
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.0,
+    "LWE_plain": 0.0,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.7,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": null
+  },
+  {
+   "id": "2020/292",
+   "title": "LWE with Side Information: Attacks and Concrete Security Estimation",
+   "verdict": "in_scope_abstract_hints",
+   "audit_reason": "Framework mathematically integrates hints into primal LWE attacks. Intentionally included by current leakage rubric, but not evidence of progress on an instance without extra information. Leakage flag is absent.",
+   "current_label_reason": "Framework integrating hints into primal lattice attacks with performance prediction toolkit.",
+   "current_problem_tags": {
+    "lattice_generic": 0.7,
+    "lwe_plain": 0.3
+   },
+   "current_leakage_flag": null,
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.35,
+    "LWE_plain": 0.65,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "https://eprint.iacr.org/2020/292"
+  },
+  {
+   "id": "2022/1403",
+   "title": "On the Dual Attack of LWE Schemes in the Presence of Hints",
+   "verdict": "in_scope_abstract_hints",
+   "audit_reason": "Mathematical dual LWE attack framework given hints; current scope intentionally includes it. Leakage flag is absent.",
+   "current_label_reason": "Fourier-analytic dual attack framework incorporating hints; estimates for Kyber768 and FireSaber.",
+   "current_problem_tags": {
+    "lattice_generic": 0.5,
+    "lwe_plain": 0.25,
+    "lattice_structured": 0.25
+   },
+   "current_leakage_flag": null,
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.5,
+    "LWE_plain": 0.5,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "https://eprint.iacr.org/2022/1403"
+  },
+  {
+   "id": "2022/1404",
+   "title": "Reducing an LWE Instance by Modular Hints and its Applications to Primal Attack, Dual Attack and BKW Attack",
+   "verdict": "in_scope_abstract_hints",
+   "audit_reason": "Mathematical transformation of LWE with modular hints; current scope intentionally includes it. Leakage flag is absent.",
+   "current_label_reason": "Reduces LWE instances using modular hints; improves primal, dual and BKW attacks.",
+   "current_problem_tags": {
+    "lwe_plain": 0.5,
+    "lattice_generic": 0.5
+   },
+   "current_leakage_flag": null,
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.25,
+    "LWE_plain": 0.75,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "https://eprint.iacr.org/2022/1404"
+  },
+  {
+   "id": "2025/1128",
+   "title": "Solving LWE with Independent Hints about Secret and Errors",
+   "verdict": "in_scope_abstract_hints",
+   "audit_reason": "Mathematical method integrating secret/error hints; current scope intentionally includes it. Leakage flag is absent.",
+   "current_label_reason": "Faster integration of secret and error hints into LWE lattice attacks.",
+   "current_problem_tags": {
+    "lattice_generic": 0.6,
+    "lwe_plain": 0.2,
+    "lattice_structured": 0.2
+   },
+   "current_leakage_flag": null,
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.5,
+    "LWE_plain": 0.5,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "https://eprint.iacr.org/2025/1128"
+  },
+  {
+   "id": "2026/341",
+   "title": "Syndrome Decoding with Hints",
+   "verdict": "in_scope_abstract_hints",
+   "audit_reason": "ISD algorithm with abstract perfect/noisy hints; current scope intentionally includes it. Leakage flag is absent.",
+   "current_label_reason": "ISD adapted to syndrome decoding with perfect/noisy hints; thresholds for polynomial-time regime.",
+   "current_problem_tags": {
+    "sd_generic": 1.0
+   },
+   "current_leakage_flag": null,
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.0,
+    "LWE_plain": 0.0,
+    "SD_code": 1.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "https://eprint.iacr.org/2026/341"
+  },
+  {
+   "id": "W7214862507",
+   "title": "Syndrome Decoding Under Posterior Leakage: Experimental and Theorical Analysis in Post-Quantum Cryptography : Comparative Analysis of Reed-Muller and Random Codes",
+   "verdict": "in_scope_abstract_hints",
+   "audit_reason": "Models cold-boot posterior information and studies guided decoding; abstract supports hint-exploitation rather than an experiment extracting physical leakage. Low-dimensional toy comparisons warrant quality caution, not keyword exclusion.",
+   "current_label_reason": "Syndrome decoding given noisy cold-boot posteriors; decoding with hints.",
+   "current_problem_tags": {
+    "sd_generic": 1
+   },
+   "current_leakage_flag": "True",
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.0,
+    "LWE_plain": 0.0,
+    "SD_code": 1.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": null
+  },
+  {
+   "id": "2011/146",
+   "title": "ECDLP on GPU",
+   "verdict": "in_scope_solver_engineering",
+   "audit_reason": "GPU implementation speeds Pollard rho for ECDLP. Incidental remark that branchless routines also prevent side channels does not make the work out of scope.",
+   "current_label_reason": "Branchless GPU implementation of parallel Pollard rho for ECDLP; attack speed.",
+   "current_problem_tags": {
+    "ecdlp": 1
+   },
+   "current_leakage_flag": null,
+   "class_weights": {
+    "ECDLP": 1.0,
+    "MLWE_structured": 0.0,
+    "LWE_plain": 0.0,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "https://eprint.iacr.org/2011/146"
+  },
+  {
+   "id": "W3114495525",
+   "title": "Statistical Analysis of Pollard's Rho Attack on Elliptic Curve Cryptography",
+   "verdict": "in_scope_solver_analysis",
+   "audit_reason": "Statistical performance study of Pollard rho; side channels are background only. Weak evidence quality is distinct from mathematical scope.",
+   "current_label_reason": "Statistical study of Pollard rho performance factors on ECDLP; weak.",
+   "current_problem_tags": {
+    "ecdlp": 1
+   },
+   "current_leakage_flag": "False",
+   "class_weights": {
+    "ECDLP": 1.0,
+    "MLWE_structured": 0.0,
+    "LWE_plain": 0.0,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "10.1109/ictiia54654.2022.9936026"
+  },
+  {
+   "id": "dblp:conf/iscc/KopplZT24",
+   "title": "Resilience of lattice-based Cryptosystems to Quantum Attacks",
+   "verdict": "in_scope_with_quality_caveat",
+   "audit_reason": "Quantum LWE solver experiments and proposed methodology. Mention of side channels does not dominate the contribution; full-paper quality assessment is separate.",
+   "current_label_reason": "Testing quantum LWE solvers on reduced FIPS 203 keys; preliminary methodology.",
+   "current_problem_tags": {
+    "lattice_structured": 0.5,
+    "lwe_plain": 0.5
+   },
+   "current_leakage_flag": "False",
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.5,
+    "LWE_plain": 0.5,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 0.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "10.1109/iscc61673.2024.10733570"
+  },
+  {
+   "id": "2014/343",
+   "title": "Solving Linear Equations Modulo Unknown Divisors: Revisited",
+   "verdict": "tag_review",
+   "audit_reason": "Abstract and reason emphasize Coppersmith/structured-RSA applications. Rubric now provides rsa_variant rather than generic factoring; review tag. Not a pure side-channel extraction paper.",
+   "current_label_reason": "Coppersmith-style modular equation solving improving attacks on RSA variants.",
+   "current_problem_tags": {
+    "factoring": 1.0
+   },
+   "current_leakage_flag": null,
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.0,
+    "LWE_plain": 0.0,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 1.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "https://eprint.iacr.org/2014/343"
+  },
+  {
+   "id": "2025/2079",
+   "title": "On the Dangers of RSA Exponent Transforms",
+   "verdict": "tag_review",
+   "audit_reason": "Weak public exponent / transformed exponent special cases, presently credited to factoring. Review rsa_variant tag; mathematical attack remains distinct from general factoring.",
+   "current_label_reason": "Coppersmith/Blomer-May factoring given approximate multiple of phi(N); weak large exponents.",
+   "current_problem_tags": {
+    "factoring": 1.0
+   },
+   "current_leakage_flag": null,
+   "class_weights": {
+    "ECDLP": 0.0,
+    "MLWE_structured": 0.0,
+    "LWE_plain": 0.0,
+    "SD_code": 0.0,
+    "Factoring_FFDLP": 1.0,
+    "Isogeny": 0.0,
+    "Multivariate": 0.0
+   },
+   "source_url": "https://eprint.iacr.org/2025/2079"
+  }
+ ]
+}

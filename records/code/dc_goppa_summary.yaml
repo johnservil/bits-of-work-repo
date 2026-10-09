@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_goppa_summary"
+class: "code"
+problem: "SD-Goppa"
+instance: "decodingchallenge Goppa-McEliece setting (random binary, R=0.8, w=ceil(n/(5 ceil(log2 n)))) track summary: max n=1409 (w=26)"
+instance_size: 1409
+instance_size_unit: "n"
+log2_ops: 63.0
+method: "MMT variant"
+structure_exploited: false
+hardware: null
+raw_compute: "30 hours"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2023-11-13"
+solvers: ["Shintaro Narisada", "Hiroki Furue", "Yusuke Aikawa", "Kazuhide Fukushima", "Shinsaku Kiyomoto"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/goppa/halloffame"
+other_urls: ["https://decodingchallenge.org/goppa", "https://decodingchallenge.org/goppa/record/27"]
+confidence: 0.85
+verified: false
+notes: "SUMMARY FILE - duplicates the latest progression record; exclude from record counts. Hall of fame has 28 entries (first ten solvers per instance). Progression (n or weight, date): 286 2019-08, 333 2019-08, 482 2019-08, 534 2019-08, 640 2019-09, 695 2019-09, 865 2019-11, 923 2020-03, 982 2020-07, 1041 2020-08, 1101 2020-08, 1161 2021-01, 1223 2021-05, 1284 2021-08, 1347 2023-02, 1409 2023-11. Full table: dc_goppa_hof.csv. Harvested 2026-10-08."

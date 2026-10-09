@@ -1,0 +1,25 @@
+id: "latchal_d825_20121001_aono"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt Lattice Challenge dim 825"
+instance_size: 825
+instance_size_unit: "dim"
+log2_ops: null
+method: "BKZ 2.0 (improved heuristic)"
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2012-10-01"
+solvers: ["Yoshinori Aono", "Ken Naganuma"]
+academic: true
+challenge: "TU Darmstadt Lattice Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/details.php?id=127"
+other_urls: ["https://www.latticechallenge.org/halloffame.php", "https://www.latticechallenge.org/"]
+confidence: 0.8
+verified: false
+notes: "Original TU Darmstadt Lattice Challenge (Buchmann-Lindner-Rueckert-Schneider, PQCrypto 2008): Ajtai-type q-ary lattices; goal is any lattice vector with Euclidean norm below a stated bound n (smaller than lattice dim m). Approx-SVP / SIS-type short vector, not exact SVP. Record progression entry (new max dimension), ordered by HoF submission id 127. HoF norm 122.38. No resource statement on HoF/details page."

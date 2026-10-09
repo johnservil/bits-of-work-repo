@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_qc_n3846"
+class: "code"
+problem: "SD-QC"
+instance: "decodingchallenge qc n=3846 w=62"
+instance_size: 3846
+instance_size_unit: "n"
+log2_ops: 62.0
+method: "cuBJMM [eprint:2024/393] + DOOM for MMT/BJMM [eprint:2021/1634, Section 5.1]"
+structure_exploited: true
+hardware: "10 desktop PCs (CPU: i9-13900 or i9-12900, GPU: RTX4080 or RTX3090)"
+raw_compute: "runtime: 66.2 days (expected runtime: 138.7 days for 10 desktop PCs); hardware: 10 desktop PCs (CPU: i9-13900 or i9-12900, GPU: RTX4080 or RTX3090)"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 66.2
+date: "2025-04-01"
+solvers: ["Shintaro Narisada", "Hiroki Okada", "Shusaku Uemura", "Yusuke Aikawa", "Kazuhide Fukushima", "Shinsaku Kiyomoto"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: "2024/393"
+source_url: "https://decodingchallenge.org/q-c/record/26"
+other_urls: ["https://decodingchallenge.org/q-c/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 0 - Inria Paris; DOOM/QC structure exploited; expected runtime 138.7 days on 10 PCs (lucky)."

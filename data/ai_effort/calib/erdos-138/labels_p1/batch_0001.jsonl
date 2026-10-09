@@ -1,0 +1,40 @@
+{"id": "W1919156896", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W19324417", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1947129526", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "hypergraph coloring algorithms with application to vdW lower bounds"}
+{"id": "W1963587264", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1963997033", "include": "borderline", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "monochromatic progressions in random colorings, related to lower bounds"}
+{"id": "W1964445489", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1966494790", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1967909233", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1970366772", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1974047440", "include": "borderline", "category": "S", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "survey of hypergraph colouring incl vdW-type bounds"}
+{"id": "W1975270114", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1977242405", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1978976963", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1983459300", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1988370884", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1989548622", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1989630703", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1989727117", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "van der Waerden function bounds via hypergraph coloring"}
+{"id": "W1995117763", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "local lemma for Ramsey-type problems, maybe vdW application"}
+{"id": "W1995296546", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1996285409", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1996516812", "include": "borderline", "category": "A", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.2, "reason": "Erdos-Rado 1952 classification theorems, early exponential lower bound for vdW possibly"}
+{"id": "W1997681421", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1999614683", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "overview of Ramsey-type numbers, vdW only a part"}
+{"id": "W1999682169", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2001432931", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "pseudo upper bound for the van der Waerden function"}
+{"id": "W2001838070", "include": "yes", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.55, "reason": "Schmidt combinatorial theorems on APs, early lower bound for vdW"}
+{"id": "W2002063814", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2002288087", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2004479099", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2004580743", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2004782359", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2008037211", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2008476758", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2009090807", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "partitioning integers into progression-free sets, related quantity"}
+{"id": "W2009196521", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2011601728", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2012104750", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2013188591", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2013792512", "include": "borderline", "category": "A", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.55, "reason": "Ramsey functions related to vdW numbers, variant"}

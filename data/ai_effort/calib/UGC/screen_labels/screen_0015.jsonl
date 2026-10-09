@@ -1,0 +1,100 @@
+{"id": "W2952217662", "keep": false, "why": "cluster structure testing, graphs"}
+{"id": "W2952377962", "keep": true, "why": "LP lower bound, vertex cover approximation"}
+{"id": "W2952489188", "keep": true, "why": "conditional hardness, approximate coloring"}
+{"id": "W2952502501", "keep": true, "why": "quantum multi-prover, limited entanglement"}
+{"id": "W2952511439", "keep": true, "why": "sparsest cut, bounded treewidth"}
+{"id": "W2952517567", "keep": false, "why": "LP for valued CSPs, characterization"}
+{"id": "W2952587604", "keep": false, "why": "everywhere-sparse spanners"}
+{"id": "W2952621790", "keep": true, "why": "SoS lower bounds, refuting CSPs"}
+{"id": "W2952626533", "keep": false, "why": "weak decoupling, sphere optimization"}
+{"id": "W2952657908", "keep": true, "why": "UGC integrality gap, cut problems"}
+{"id": "W2952672455", "keep": false, "why": "angular synchronization, SDP"}
+{"id": "W2952697234", "keep": false, "why": "SoS engineering applications survey"}
+{"id": "W2952754971", "keep": false, "why": "FPT cut problems, contractions"}
+{"id": "W2952763318", "keep": true, "why": "SoS lower bounds, planted clique"}
+{"id": "W2952895509", "keep": false, "why": "triangle detection, expander decomposition"}
+{"id": "W2952917033", "keep": true, "why": "noise stability, low influences"}
+{"id": "W2952933284", "keep": true, "why": "0.8776-approximation, max bisection"}
+{"id": "W2952965238", "keep": false, "why": "matroid compression, odd cycle transversal"}
+{"id": "W2952965556", "keep": false, "why": "knapsack integrality gaps"}
+{"id": "W2952984668", "keep": false, "why": "multireference alignment, SDP"}
+{"id": "W2953032586", "keep": true, "why": "Cheeger inequality, local partitioning, expansion profile"}
+{"id": "W2953034389", "keep": true, "why": "entangled games, parallel repetition decay"}
+{"id": "W2953073252", "keep": false, "why": "pebble games, linear equations"}
+{"id": "W2953080341", "keep": true, "why": "3-coloring and 2-to-1 label cover hardness"}
+{"id": "W2953080597", "keep": false, "why": "VC and Littlestone dimensions"}
+{"id": "W2953082259", "keep": true, "why": "bit complexity of SoS proofs"}
+{"id": "W2953139503", "keep": false, "why": "approximate Nash equilibrium, two players"}
+{"id": "W2953142925", "keep": false, "why": "H-transversal and packing inapproximability"}
+{"id": "W2953165423", "keep": false, "why": "Heisenberg group compression into L1"}
+{"id": "W2953192012", "keep": true, "why": "hypercontractivity via SoS, Frankl-Rodl graph"}
+{"id": "W2953247147", "keep": true, "why": "regularity lemma, low threshold rank graphs"}
+{"id": "W2953269844", "keep": true, "why": "non-Boolean 2CSP approximation"}
+{"id": "W2953303692", "keep": false, "why": "contagious sets in expanders"}
+{"id": "W2953343149", "keep": true, "why": "min-max partitioning, small set expansion"}
+{"id": "W2954060132", "keep": false, "why": "greedy decision tree approximation"}
+{"id": "W2954166523", "keep": false, "why": "min-max correlation clustering"}
+{"id": "W2954464507", "keep": true, "why": "higher-order Poincare constant bounds"}
+{"id": "W2954681569", "keep": false, "why": "evolutionary economics"}
+{"id": "W2955616642", "keep": true, "why": "H-colouring hardness, G-colourable graphs"}
+{"id": "W2957416585", "keep": true, "why": "CSP approximation on high-dimensional expanders"}
+{"id": "W2961983551", "keep": true, "why": "Gap-ETH and PCP imperfect gaps"}
+{"id": "W2962711675", "keep": true, "why": "agreement tests, graphs and hypergraphs"}
+{"id": "W2962744657", "keep": true, "why": "L1 embeddings, Heisenberg group, isoperimetry"}
+{"id": "W2962780495", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2962796306", "keep": false, "why": "two-layer networks, tensor decomposition"}
+{"id": "W2962815400", "keep": false, "why": "SDP limits, general-valued CSPs"}
+{"id": "W2962820675", "keep": false, "why": "mixture models, SoS robustness"}
+{"id": "W2962881498", "keep": false, "why": "hypergraph community detection, SoS"}
+{"id": "W2962907923", "keep": false, "why": "tensor decomposition, SoS"}
+{"id": "W2962922559", "keep": false, "why": "sketching and embedding norms"}
+{"id": "W2962944954", "keep": true, "why": "unique games on the hypercube"}
+{"id": "W2963002838", "keep": false, "why": "nonnegativity test sets, reflection groups"}
+{"id": "W2963055664", "keep": true, "why": "hypergraph Laplacian, approximation algorithms"}
+{"id": "W2963064400", "keep": false, "why": "propeller conjecture"}
+{"id": "W2963341849", "keep": true, "why": "directed hypergraph Laplacian diffusion"}
+{"id": "W2963363959", "keep": false, "why": "RIP certification complexity"}
+{"id": "W2963382491", "keep": true, "why": "MaxCut approximation via random walks"}
+{"id": "W2963406632", "keep": true, "why": "low-degree Boolean functions, isoperimetry"}
+{"id": "W2963487913", "keep": false, "why": "metric uniformization, graph spectral bounds"}
+{"id": "W2963516964", "keep": false, "why": "linear vs SDP extended formulations"}
+{"id": "W2963530480", "keep": true, "why": "SoS efficiency and limitations"}
+{"id": "W2963553534", "keep": true, "why": "tensor decomposition via SoS"}
+{"id": "W2963570008", "keep": false, "why": "probabilistic reasoning, implicit learning"}
+{"id": "W2963595633", "keep": true, "why": "tensor PCA via SoS"}
+{"id": "W2963612177", "keep": false, "why": "expander decomposition, triangle enumeration"}
+{"id": "W2963617896", "keep": true, "why": "dispersers, bipartite expanders integrality gaps"}
+{"id": "W2963622251", "keep": false, "why": "directed signed graph spectra"}
+{"id": "W2963687064", "keep": true, "why": "high-dimensional random walks, colorful expansion"}
+{"id": "W2963722886", "keep": true, "why": "log-concave polynomials, high-dimensional walks"}
+{"id": "W2963817832", "keep": false, "why": "Borsuk problem, combinatorial geometry"}
+{"id": "W2963857009", "keep": false, "why": "eigenvalue estimates transfer principle"}
+{"id": "W2963946005", "keep": true, "why": "SoS proofs toward optimal algorithms"}
+{"id": "W2963978011", "keep": false, "why": "propeller conjecture"}
+{"id": "W2963988057", "keep": true, "why": "minimum unique game, small set expansion hardness"}
+{"id": "W2964021737", "keep": false, "why": "spectral tensor completion"}
+{"id": "W2964070965", "keep": true, "why": "LP-based algorithms optimality"}
+{"id": "W2964123507", "keep": false, "why": "supermodular degree, monotone maximization"}
+{"id": "W2964132352", "keep": false, "why": "marginals of convex bodies"}
+{"id": "W2964758001", "keep": true, "why": "UG-hardness to NP-hardness reduction"}
+{"id": "W2965907505", "keep": true, "why": "nonlocality and zero-knowledge MIPs"}
+{"id": "W2967242522", "keep": false, "why": "disjoint clustering in circuits"}
+{"id": "W2968673520", "keep": true, "why": "semirandom adversaries, sparse mixtures"}
+{"id": "W2968911711", "keep": true, "why": "SoS on sphere, quantum information"}
+{"id": "W2970212503", "keep": false, "why": "secure computation"}
+{"id": "W2970612254", "keep": false, "why": "cumulative pebbling complexity"}
+{"id": "W2971115134", "keep": false, "why": "partially colorable graphs approximation"}
+{"id": "W2971546537", "keep": true, "why": "noise sensitivity on p-biased hypercube"}
+{"id": "W2971668650", "keep": false, "why": "clustering inapproximability, Lp metrics"}
+{"id": "W2971750264", "keep": true, "why": "agreement testing, layered set systems"}
+{"id": "W2971963065", "keep": false, "why": "CUR decompositions"}
+{"id": "W2972287267", "keep": true, "why": "agreement testing, layered set systems"}
+{"id": "W2972463292", "keep": false, "why": "tight frames, SoS"}
+{"id": "W2974931306", "keep": true, "why": "sliding scale conjectures in PCP"}
+{"id": "W2977155222", "keep": false, "why": "quantum coding via SDP"}
+{"id": "W2977636792", "keep": true, "why": "d-to-1 hardness, 3-colorable graphs"}
+{"id": "W2977844085", "keep": true, "why": "semialgebraic proofs, algorithm design"}
+{"id": "W2978077955", "keep": false, "why": "spiked Laplacian graphs"}
+{"id": "W2978217326", "keep": false, "why": "estimated likelihoods, complexity"}
+{"id": "W2978911227", "keep": false, "why": "frustration index, signed networks"}
+{"id": "W2979518666", "keep": true, "why": "non-signalling violations, tensor norms"}

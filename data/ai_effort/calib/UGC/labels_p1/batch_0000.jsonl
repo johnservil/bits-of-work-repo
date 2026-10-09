@@ -1,0 +1,40 @@
+{"id": "W100944330", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Classical Cheeger inequality, no UG connection"}
+{"id": "W1028870867", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SOS lower bound for planted clique"}
+{"id": "W110441439", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "balanced partitioning algorithm"}
+{"id": "W119421804", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "learning/CSP approximability, UGC only as assumption"}
+{"id": "W122315002", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparse recovery"}
+{"id": "W129224317", "include": "borderline", "category": "S", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "survey of convex relaxations and integrality gaps, UG one topic"}
+{"id": "W142429389", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Max 2SAT approximation, no UG angle"}
+{"id": "W1480046334", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Lovasz-Schrijver lower bounds"}
+{"id": "W1481458511", "include": "yes", "category": "S", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "report centred on UGC and its inapproximability implications"}
+{"id": "W1483324665", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "inapproximability results, not about UGC"}
+{"id": "W1485993952", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "Sherali-Adams gaps for CSPs, no UG angle"}
+{"id": "W1486325209", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "orthogonal basis over slice"}
+{"id": "W1491127810", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for vertex cover hardness"}
+{"id": "W1495338626", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "signed graph balancing FPT"}
+{"id": "W1497086998", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "general two-query PCP construction"}
+{"id": "W1497908086", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "higher-order Cheeger inequality, no stated UG link"}
+{"id": "W1500791234", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "polynomial testing"}
+{"id": "W1500846071", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "codeword testing PCP-style, no UG angle"}
+{"id": "W1502009568", "include": "borderline", "category": "G", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Max-2Lin hardness/algorithms, close to UG but title only"}
+{"id": "W1505739153", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "thesis on noise sensitivity, UGC application only"}
+{"id": "W1507028355", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "parallel repetition for projection games"}
+{"id": "W1510455279", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "subspace enumeration algorithms for unique games and small set expansion"}
+{"id": "W1511070007", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "algorithm for unique games on expanders"}
+{"id": "W1511716344", "include": "borderline", "category": "G", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "early two-prover game paper, relation to UG indirect"}
+{"id": "W1512648280", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Gaussian isoperimetry"}
+{"id": "W1513663661", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "parallel repetition conjecture"}
+{"id": "W1520452425", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Fourier analysis textbook"}
+{"id": "W1521197246", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "tensor PCA via SoS"}
+{"id": "W1521487341", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "conditional hardness for Max 3CSP, not UG itself"}
+{"id": "W1523265685", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "inapproximability chapter, UGC-conditional results part"}
+{"id": "W1528220564", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "2SAT-deletion hardness"}
+{"id": "W153015188", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "cutting planes rank lower bounds"}
+{"id": "W153602290", "include": "borderline", "category": "F", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "survey of LP/SDP local constraints with UG integrality gaps among topics"}
+{"id": "W1539723571", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "coloring hardness"}
+{"id": "W1540861457", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "Lasserre rounding for threshold-rank graphs, UG-related algorithms plausibly"}
+{"id": "W1543591046", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "odd cycle game repetition"}
+{"id": "W1544239802", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "boolean function analysis tutorial"}
+{"id": "W154567010", "include": "borderline", "category": "G", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "small set expansion conjecture hardness results"}
+{"id": "W1547191523", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "sparsest cut algorithm, no UG angle stated"}
+{"id": "W1547393877", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Grothendieck problem"}

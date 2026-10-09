@@ -1,0 +1,64 @@
+{
+ "key": "ecdlp",
+ "label": "ECDLP, prime-field curves",
+ "cls": "ecdlp",
+ "role": "primary",
+ "display_kind": "index",
+ "problem": "Discrete logarithm in a prime-order subgroup of an elliptic curve over a prime field, using generic collision attacks and the universally available negation map.",
+ "size_unit": "bits",
+ "size_name": "group-order bits",
+ "reference": {
+  "label": "P-256-sized group",
+  "size": 256,
+  "why": "A fixed illustrative group-order size. The plotted birthday-model index is not a complete concrete security estimate for every 256-bit curve."
+ },
+ "from_year": 1985,
+ "notes": "Selected classical collision-cost models, not an exhaustive attack history. The constant-factor negation saving changes the modeled cost by 0.5 bits while the square-root exponent stays unchanged. Additional automorphisms, weak curve families, parallel hardware and implementation costs require separate analyses. The group-order parameter must not be confused with field size: for example, Curve25519 has a roughly 252-bit prime-order subgroup.",
+ "assumptions": "An idealized random walk and birthday-collision calculation give k sqrt(r) for subgroup order r. Per-step costs, cycle handling, coordination and memory are omitted. Both entries use the same model; a flat selected envelope is not evidence that all cryptanalysis stopped.",
+ "milestones": [
+  {
+   "year": 1978,
+   "date": "1978",
+   "name": "Pollard rho: idealized birthday model",
+   "authors": "J. M. Pollard",
+   "ref": "Monte Carlo methods for index computation (mod p), Mathematics of Computation 32 (1978), 918–924",
+   "model": "classical",
+   "generic": true,
+   "series": true,
+   "status": "supported",
+   "verified": false,
+   "cost": {
+    "type": "sqrt_group",
+    "k": 1.2533141373155001
+   },
+   "assumptions": "Random-mapping heuristic; k = sqrt(pi/2) counts idealized steps to a useful collision, not the complete cost of a particular cycle-detection implementation. The 1978 generic-group method predates elliptic-curve cryptography.",
+   "notes": "Inherited baseline when the displayed curve timeline begins in 1985.",
+   "source_url": "https://doi.org/10.1090/S0025-5718-1978-0491431-9",
+   "additional_source_urls": [
+    "https://safecurves.cr.yp.to/rho.html"
+   ]
+  },
+  {
+   "year": 1998,
+   "date": "1998",
+   "name": "Negation-map collision model",
+   "authors": "Michael J. Wiener; Robert J. Zuccherato",
+   "ref": "Faster Attacks on Elliptic Curve Cryptosystems, SAC 1998, LNCS 1556 (1999), 190–200",
+   "model": "classical",
+   "generic": true,
+   "series": true,
+   "status": "supported",
+   "verified": false,
+   "cost": {
+    "type": "sqrt_group",
+    "k": 0.8862269254527579
+   },
+   "assumptions": "Identifying a point with its negative halves the idealized collision search space. Efficient handling of fruitless cycles and negligible negation overhead are assumed.",
+   "notes": "The source reports a sqrt(2) speedup for arbitrary curves. This is a constant-factor modeled-cost improvement, not an exponent improvement. Dated to SAC 1998, rather than the 1999 proceedings year.",
+   "source_url": "https://link.springer.com/chapter/10.1007/3-540-48892-8_15",
+   "additional_source_urls": [
+    "https://safecurves.cr.yp.to/rho.html"
+   ]
+  }
+ ]
+}

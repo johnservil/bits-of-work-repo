@@ -1,0 +1,1351 @@
+{
+ "schema_version": 2,
+ "reviewed_on": "2026-10-09",
+ "target_index": 128,
+ "end_year": 2026,
+ "problems": [
+  {
+   "key": "ecdlp",
+   "label": "ECDLP, prime-field curves",
+   "cls": "ecdlp",
+   "role": "primary",
+   "display_kind": "index",
+   "problem": "Discrete logarithm in a prime-order subgroup of an elliptic curve over a prime field, using generic collision attacks and the universally available negation map.",
+   "size_unit": "bits",
+   "size_name": "group-order bits",
+   "reference": {
+    "label": "P-256-sized group",
+    "size": 256,
+    "why": "A fixed illustrative group-order size. The plotted birthday-model index is not a complete concrete security estimate for every 256-bit curve."
+   },
+   "from_year": 1985,
+   "notes": "Selected classical collision-cost models, not an exhaustive attack history. The constant-factor negation saving changes the modeled cost by 0.5 bits while the square-root exponent stays unchanged. Additional automorphisms, weak curve families, parallel hardware and implementation costs require separate analyses. The group-order parameter must not be confused with field size: for example, Curve25519 has a roughly 252-bit prime-order subgroup.",
+   "assumptions": "An idealized random walk and birthday-collision calculation give k sqrt(r) for subgroup order r. Per-step costs, cycle handling, coordination and memory are omitted. Both entries use the same model; a flat selected envelope is not evidence that all cryptanalysis stopped.",
+   "milestones": [
+    {
+     "year": 1978,
+     "date": "1978",
+     "name": "Pollard rho: idealized birthday model",
+     "authors": "J. M. Pollard",
+     "ref": "Monte Carlo methods for index computation (mod p), Mathematics of Computation 32 (1978), 918–924",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "sqrt_group",
+      "k": 1.2533141373155001
+     },
+     "assumptions": "Random-mapping heuristic; k = sqrt(pi/2) counts idealized steps to a useful collision, not the complete cost of a particular cycle-detection implementation. The 1978 generic-group method predates elliptic-curve cryptography.",
+     "notes": "Inherited baseline when the displayed curve timeline begins in 1985.",
+     "source_url": "https://doi.org/10.1090/S0025-5718-1978-0491431-9",
+     "additional_source_urls": [
+      "https://safecurves.cr.yp.to/rho.html"
+     ],
+     "in_series": true
+    },
+    {
+     "year": 1998,
+     "date": "1998",
+     "name": "Negation-map collision model",
+     "authors": "Michael J. Wiener; Robert J. Zuccherato",
+     "ref": "Faster Attacks on Elliptic Curve Cryptosystems, SAC 1998, LNCS 1556 (1999), 190–200",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "sqrt_group",
+      "k": 0.8862269254527579
+     },
+     "assumptions": "Identifying a point with its negative halves the idealized collision search space. Efficient handling of fruitless cycles and negligible negation overhead are assumed.",
+     "notes": "The source reports a sqrt(2) speedup for arbitrary curves. This is a constant-factor modeled-cost improvement, not an exponent improvement. Dated to SAC 1998, rather than the 1999 proceedings year.",
+     "source_url": "https://link.springer.com/chapter/10.1007/3-540-48892-8_15",
+     "additional_source_urls": [
+      "https://safecurves.cr.yp.to/rho.html"
+     ],
+     "in_series": true
+    }
+   ],
+   "steps": [
+    {
+     "year": 1985,
+     "cost": 128.32574806473616,
+     "name": "Pollard rho: idealized birthday model",
+     "authors": "J. M. Pollard",
+     "ref": "Monte Carlo methods for index computation (mod p), Mathematics of Computation 32 (1978), 918–924",
+     "source_url": "https://doi.org/10.1090/S0025-5718-1978-0491431-9",
+     "assumptions": "Random-mapping heuristic; k = sqrt(pi/2) counts idealized steps to a useful collision, not the complete cost of a particular cycle-detection implementation. The 1978 generic-group method predates elliptic-curve cryptography."
+    },
+    {
+     "year": 1998,
+     "cost": 127.82574806473616,
+     "name": "Negation-map collision model",
+     "authors": "Michael J. Wiener; Robert J. Zuccherato",
+     "ref": "Faster Attacks on Elliptic Curve Cryptosystems, SAC 1998, LNCS 1556 (1999), 190–200",
+     "source_url": "https://link.springer.com/chapter/10.1007/3-540-48892-8_15",
+     "assumptions": "Identifying a point with its negative halves the idealized collision search space. Efficient handling of fruitless cycles and negligible negation overhead are assumed."
+    }
+   ],
+   "size_steps": [
+    {
+     "year": 1985,
+     "size": 255.34850387052768,
+     "name": "Pollard rho: idealized birthday model",
+     "authors": "J. M. Pollard",
+     "ref": "Monte Carlo methods for index computation (mod p), Mathematics of Computation 32 (1978), 918–924",
+     "source_url": "https://doi.org/10.1090/S0025-5718-1978-0491431-9",
+     "assumptions": "Random-mapping heuristic; k = sqrt(pi/2) counts idealized steps to a useful collision, not the complete cost of a particular cycle-detection implementation. The 1978 generic-group method predates elliptic-curve cryptography."
+    },
+    {
+     "year": 1998,
+     "size": 256.3485038705277,
+     "name": "Negation-map collision model",
+     "authors": "Michael J. Wiener; Robert J. Zuccherato",
+     "ref": "Faster Attacks on Elliptic Curve Cryptosystems, SAC 1998, LNCS 1556 (1999), 190–200",
+     "source_url": "https://link.springer.com/chapter/10.1007/3-540-48892-8_15",
+     "assumptions": "Identifying a point with its negative halves the idealized collision search space. Efficient handling of fruitless cycles and negligible negation overhead are assumed."
+    }
+   ],
+   "metrics": {
+    "first_year": 1985,
+    "first_cost": 128.32574806473616,
+    "current_cost": 127.82574806473616,
+    "index_drop": 0.5,
+    "first_size": 255.34850387052768,
+    "current_size": 256.3485038705277,
+    "last_bound_year": 1998
+   }
+  },
+  {
+   "key": "svp",
+   "label": "Lattices (selected classical SVP sieve bounds)",
+   "cls": "lattice",
+   "role": "primary",
+   "display_kind": "index",
+   "problem": "Heuristic classical sieving for Euclidean SVP in dimension n. The selected series compares leading coefficients in 2^(c n + o(n)); this is an SVP-subroutine index, not a history of full ML-KEM attacks or practical runtimes.",
+   "size_unit": "dim",
+   "size_name": "SVP oracle dimension",
+   "reference": {
+    "label": "SVP oracle dimension 406",
+    "size": 406,
+    "why": "Illustrative dimension from the coarse primal core-SVP row of Kyber round-3 Table 4. Its blocksize is 406; the separate refined model uses blocksize 413 and sieve dimension 375. Holding this oracle dimension fixed does not hold a full historical LWE attack model fixed. An inverse index of 128 is not a scheme parameter recommendation.",
+    "source_url": "https://pq-crystals.org/kyber/data/kyber-specification-round3-20210804.pdf"
+   },
+   "from_year": 2008,
+   "assumptions": "Selected sieve analyses use heuristic distribution assumptions and exponential memory. Lower-order terms, preprocessing, repeated oracle calls, reduction quality, hardware and memory-access costs are omitted. Memory requirements vary by algorithm and variant. Worst-case enumeration bounds are not mixed with heuristic sieve bounds.",
+   "notes": "The selected series starts at the checked 2008 Nguyen-Vidick publication, not the invention of lattice cryptography. Context records describe other tasks, guarantees or lower-order improvements. Dates refer to the public appearance of the quoted analysis where established, with uncertainty noted. This is a selected history, not a completeness claim for all attacks or quantum algorithms. A flat leading coefficient does not mean unchanged finite-size attack cost. The separate frontier track compares actual sieve dimension 171 with refined target sieve dimension 375; those dimensions cannot be interchanged with this coarse 406-dimensional oracle.",
+   "milestones": [
+    {
+     "year": 2007,
+     "date": "2007",
+     "name": "Improved worst-case analysis of Kannan enumeration",
+     "authors": "Guillaume Hanrot and Damien Stehle; original algorithm by Ravi Kannan",
+     "ref": "Hanrot and Stehle, CRYPTO 2007, Improved Analysis of Kannan's Shortest Lattice Vector Algorithm",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "verified": false,
+     "cost": null,
+     "complexity_description": "Worst-case upper bound n^(n/(2e) + o(n)) for Kannan's exact-SVP algorithm.",
+     "assumptions": "Worst-case enumeration analysis, not a heuristic typical-instance runtime. The improved bound appeared in 2007 although the algorithm dates to 1983.",
+     "notes": "Context only. The source distinguishes improved complexity analysis from a direct practical speedup. Backdating this exponent and numerically mixing it with heuristic sieving produced the earlier unsupported 528-bit security-loss headline.",
+     "source_url": "https://perso.ens-lyon.fr/damien.stehle/downloads/crypto2007.pdf",
+     "algorithm_year": 1983,
+     "in_series": false
+    },
+    {
+     "year": 2008,
+     "date": "2008",
+     "name": "Nguyen-Vidick heuristic sieve",
+     "authors": "Phong Q. Nguyen and Thomas Vidick",
+     "ref": "Sieve Algorithms for the Shortest Vector Problem are Practical, Journal of Mathematical Cryptology 2(2), 2008",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.41503749927884376
+     },
+     "complexity_description": "Leading time coefficient log2(4/3); leading space coefficient log2(4/3)/2, approximately 0.2075.",
+     "assumptions": "Heuristic distribution of sieve vectors; polynomial factors and the limiting sieve parameter are suppressed.",
+     "notes": "The source reports an implementation but finds enumeration faster at the tested low dimensions. This first selected sieve index does not assert that sieving was then the fastest practical solver.",
+     "source_url": "https://people.csail.mit.edu/vidick/JoMC08.pdf",
+     "dating_note": "2008 is the checked journal-publication year. Earlier literature cites a 2007 draft; its first public date and version-specific bounds have not been established here.",
+     "date_source_url": "https://www.degruyterbrill.com/document/doi/10.1515/JMC.2008.009/html",
+     "in_series": true
+    },
+    {
+     "year": 2010,
+     "date": "2010-12-21",
+     "name": "Two-level heuristic sieve",
+     "authors": "Xiaoyun Wang, Mingjie Liu, Chengliang Tian and Jingguo Bi",
+     "ref": "Improved Nguyen-Vidick Heuristic Sieve Algorithm for Shortest Vector Problem, ePrint 2010/647; ASIACCS 2011",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.3836
+     },
+     "complexity_description": "Time 2^(0.3836 n + o(n)); space 2^(0.2557 n + o(n)).",
+     "assumptions": "Heuristic sieve geometry; polynomial work and practical memory limits are excluded.",
+     "notes": "The ePrint appeared in 2010, before the 2011 proceedings. The reduced time coefficient comes with more space than the original Nguyen-Vidick sieve.",
+     "source_url": "https://eprint.iacr.org/2010/647",
+     "in_series": true
+    },
+    {
+     "year": 2014,
+     "date": "2014-09-26",
+     "name": "Angular locality-sensitive hashing sieve",
+     "authors": "Thijs Laarhoven",
+     "ref": "Sieving for Shortest Vectors in Lattices Using Angular Locality-Sensitive Hashing, ePrint 2014/744; CRYPTO 2015",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.3366
+     },
+     "complexity_description": "Time 2^(0.3366 n + o(n)); space 2^(0.2075 n + o(n)) for the Nguyen-Vidick variant, or up to 2^(0.3366 n + o(n)) for the GaussSieve-based variant.",
+     "assumptions": "Heuristic sieve-vector distributions and hashing analysis; practical behavior depends on the variant.",
+     "notes": "Dated by the 2014 ePrint rather than the 2015 proceedings. The time-only index does not impose a common memory budget.",
+     "source_url": "https://eprint.iacr.org/2014/744",
+     "in_series": true
+    },
+    {
+     "year": 2014,
+     "date": "2014-10-22",
+     "name": "Three-level heuristic sieve (corrected analysis)",
+     "authors": "Feng Zhang, Yanbin Pan and Gengran Hu",
+     "ref": "A Three-Level Sieve Algorithm for the Shortest Vector Problem, ePrint 2013/536; SAC 2013; corrected October 2014",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.3778
+     },
+     "complexity_description": "Time 2^(0.3778 n + o(n)); space 2^(0.2833 n + o(n)).",
+     "assumptions": "Heuristic distribution assumption and numerical optimization; substantial polynomial factors are omitted.",
+     "notes": "The checked ePrint explicitly corrects a mistake in the previous version. The coefficient is from that corrected analysis; the algorithm itself appeared in 2013. This record is not independent verification of the analysis.",
+     "source_url": "https://eprint.iacr.org/2013/536",
+     "algorithm_year": 2013,
+     "dating_note": "Initial ePrint received 2013-08-30. This entry conservatively dates the checked corrected analysis to its 2014-10-22 revision; it does not assert that the final coefficient first appeared then.",
+     "in_series": true
+    },
+    {
+     "year": 2015,
+     "date": "2015-03-06",
+     "name": "Spherical locality-sensitive hashing sieve",
+     "authors": "Thijs Laarhoven and Benne de Weger",
+     "ref": "Faster Sieving for Shortest Lattice Vectors Using Spherical Locality-Sensitive Hashing, ePrint 2015/211; LATINCRYPT 2015",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.2972
+     },
+     "complexity_description": "Time 2^(0.2972 n + o(n)); sequential hash-table processing can retain space 2^(0.2075 n + o(n)).",
+     "assumptions": "Heuristic sieving and spherical hashing; lower-order and preprocessing costs are omitted.",
+     "notes": "The paper rounds the coefficient to 0.298 in its abstract and gives 0.2972 in its analysis; the index uses the latter.",
+     "source_url": "https://eprint.iacr.org/2015/211",
+     "in_series": true
+    },
+    {
+     "year": 2015,
+     "date": "2015-11-23",
+     "name": "Locality-sensitive filtering sieve (BDGL)",
+     "authors": "Anja Becker, Leo Ducas, Nicolas Gama and Thijs Laarhoven",
+     "ref": "New Directions in Nearest Neighbor Searching with Applications to Lattice Sieving, ePrint 2015/1128; SODA 2016",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.2924812503605781
+     },
+     "complexity_description": "Leading time coefficient log2(3/2)/2. The time-optimized GaussSieve/LSF option has the same space coefficient; a Nguyen-Vidick option can retain space coefficient log2(4/3)/2.",
+     "assumptions": "Heuristic sieve behavior and locality-sensitive filters with suitable decoding. The variants differ in memory and practical behavior.",
+     "notes": "Dated by the 2015 preprint, not SODA 2016. This is the smallest time coefficient among the selected classical bounds. Section 7 separates the high-memory GaussSieve option from a lower-memory Nguyen-Vidick option that performs less well in practice.",
+     "source_url": "https://eprint.iacr.org/2015/1128",
+     "analysis_source_url": "https://ir.cwi.nl/pub/23692/23692.pdf",
+     "in_series": true
+    },
+    {
+     "year": 2017,
+     "date": "2017-10-11",
+     "name": "Dimensions for free: a subexponential saving",
+     "authors": "Leo Ducas",
+     "ref": "Shortest Vector from Lattice Sieving: a Few Dimensions for Free, ePrint 2017/999; EUROCRYPT 2018",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "verified": false,
+     "cost": null,
+     "complexity_description": "SVP in dimension n uses sieves in dimension n - Theta(n/log n), giving a subexponential dimension-dependent saving without changing the leading linear coefficient c.",
+     "assumptions": "Heuristic reduction and sieve behavior; concrete free-dimension counts depend on the reduction model.",
+     "notes": "This is not a constant-factor improvement. It is contextual only because the selected series omits lower-order terms. The Kyber refined example reduces blocksize 413 to sieve dimension 375; this is not a universal deduction from coarse blocksize 406.",
+     "source_url": "https://eprint.iacr.org/2017/999",
+     "in_series": false
+    },
+    {
+     "year": 2020,
+     "date": "2020-06-14",
+     "name": "Faster enumeration-based lattice reduction",
+     "authors": "Martin R. Albrecht, Shi Bai, Pierre-Alain Fouque, Paul Kirchner, Damien Stehle and Weiqiang Wen",
+     "ref": "Faster Enumeration-based Lattice Reduction: Root Hermite Factor k^(1/(2k)) in Time k^(k/8 + o(k)), ePrint 2020/707; CRYPTO 2020",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "verified": false,
+     "cost": null,
+     "complexity_description": "Root-Hermite factor k^(1/(2k)) in time k^(k/8 + o(k)) and polynomial memory, under the paper's heuristic assumption.",
+     "assumptions": "A reduction-quality/time result, not an exact-SVP oracle bound in dimension k.",
+     "notes": "The previous numerical entry incorrectly substituted k directly as SVP dimension. A comparison needs an explicit conversion of reduction quality and attack parameters; this remains context only.",
+     "source_url": "https://eprint.iacr.org/2020/707",
+     "in_series": false
+    },
+    {
+     "year": 2026,
+     "date": "2026-09-26",
+     "name": "Provable sieving on Haar-random lattices",
+     "authors": "Emmanouil Doulgerakis and Thijs Laarhoven",
+     "ref": "Smooth Sailing through Spherical Shells: Provable Random-Lattice Sieving in Time 2^(0.292n), arXiv:2609.37482v1",
+     "model": "classical",
+     "generic": false,
+     "series": false,
+     "status": "context",
+     "verified": false,
+     "cost": null,
+     "complexity_description": "Time 2^(0.2924... n + o(n)), space 2^(0.2075... n + o(n)), and success probability 1-o(1) over Haar-random lattices and algorithmic randomness.",
+     "assumptions": "Guarantee for the specified Haar-random distribution, not worst-case lattices or a proved distributional model for cryptographic LWE/BKZ instances.",
+     "notes": "A new proof guarantee, not a smaller selected leading time coefficient. Included as a reported recent preprint, not independent verification of the proof or resolution of cryptographic sieve heuristics.",
+     "source_url": "https://arxiv.org/abs/2609.37482v1",
+     "in_series": false
+    }
+   ],
+   "steps": [
+    {
+     "year": 2008,
+     "cost": 168.50522470721057,
+     "name": "Nguyen-Vidick heuristic sieve",
+     "authors": "Phong Q. Nguyen and Thomas Vidick",
+     "ref": "Sieve Algorithms for the Shortest Vector Problem are Practical, Journal of Mathematical Cryptology 2(2), 2008",
+     "source_url": "https://people.csail.mit.edu/vidick/JoMC08.pdf",
+     "assumptions": "Heuristic distribution of sieve vectors; polynomial factors and the limiting sieve parameter are suppressed."
+    },
+    {
+     "year": 2010,
+     "cost": 155.7416,
+     "name": "Two-level heuristic sieve",
+     "authors": "Xiaoyun Wang, Mingjie Liu, Chengliang Tian and Jingguo Bi",
+     "ref": "Improved Nguyen-Vidick Heuristic Sieve Algorithm for Shortest Vector Problem, ePrint 2010/647; ASIACCS 2011",
+     "source_url": "https://eprint.iacr.org/2010/647",
+     "assumptions": "Heuristic sieve geometry; polynomial work and practical memory limits are excluded."
+    },
+    {
+     "year": 2014,
+     "cost": 136.6596,
+     "name": "Angular locality-sensitive hashing sieve",
+     "authors": "Thijs Laarhoven",
+     "ref": "Sieving for Shortest Vectors in Lattices Using Angular Locality-Sensitive Hashing, ePrint 2014/744; CRYPTO 2015",
+     "source_url": "https://eprint.iacr.org/2014/744",
+     "assumptions": "Heuristic sieve-vector distributions and hashing analysis; practical behavior depends on the variant."
+    },
+    {
+     "year": 2015,
+     "cost": 118.7473876463947,
+     "name": "Locality-sensitive filtering sieve (BDGL)",
+     "authors": "Anja Becker, Leo Ducas, Nicolas Gama and Thijs Laarhoven",
+     "ref": "New Directions in Nearest Neighbor Searching with Applications to Lattice Sieving, ePrint 2015/1128; SODA 2016",
+     "source_url": "https://eprint.iacr.org/2015/1128",
+     "assumptions": "Heuristic sieve behavior and locality-sensitive filters with suitable decoding. The variants differ in memory and practical behavior."
+    }
+   ],
+   "size_steps": [
+    {
+     "year": 2008,
+     "size": 308.4058674756108,
+     "name": "Nguyen-Vidick heuristic sieve",
+     "authors": "Phong Q. Nguyen and Thomas Vidick",
+     "ref": "Sieve Algorithms for the Shortest Vector Problem are Practical, Journal of Mathematical Cryptology 2(2), 2008",
+     "source_url": "https://people.csail.mit.edu/vidick/JoMC08.pdf",
+     "assumptions": "Heuristic distribution of sieve vectors; polynomial factors and the limiting sieve parameter are suppressed."
+    },
+    {
+     "year": 2010,
+     "size": 333.68091762252345,
+     "name": "Two-level heuristic sieve",
+     "authors": "Xiaoyun Wang, Mingjie Liu, Chengliang Tian and Jingguo Bi",
+     "ref": "Improved Nguyen-Vidick Heuristic Sieve Algorithm for Shortest Vector Problem, ePrint 2010/647; ASIACCS 2011",
+     "source_url": "https://eprint.iacr.org/2010/647",
+     "assumptions": "Heuristic sieve geometry; polynomial work and practical memory limits are excluded."
+    },
+    {
+     "year": 2014,
+     "size": 380.27332144979204,
+     "name": "Angular locality-sensitive hashing sieve",
+     "authors": "Thijs Laarhoven",
+     "ref": "Sieving for Shortest Vectors in Lattices Using Angular Locality-Sensitive Hashing, ePrint 2014/744; CRYPTO 2015",
+     "source_url": "https://eprint.iacr.org/2014/744",
+     "assumptions": "Heuristic sieve-vector distributions and hashing analysis; practical behavior depends on the variant."
+    },
+    {
+     "year": 2015,
+     "size": 437.6348905859724,
+     "name": "Locality-sensitive filtering sieve (BDGL)",
+     "authors": "Anja Becker, Leo Ducas, Nicolas Gama and Thijs Laarhoven",
+     "ref": "New Directions in Nearest Neighbor Searching with Applications to Lattice Sieving, ePrint 2015/1128; SODA 2016",
+     "source_url": "https://eprint.iacr.org/2015/1128",
+     "assumptions": "Heuristic sieve behavior and locality-sensitive filters with suitable decoding. The variants differ in memory and practical behavior."
+    }
+   ],
+   "metrics": {
+    "first_year": 2008,
+    "first_cost": 168.50522470721057,
+    "current_cost": 118.7473876463947,
+    "index_drop": 49.75783706081587,
+    "first_size": 308.4058674756108,
+    "current_size": 437.6348905859724,
+    "last_bound_year": 2015
+   }
+  },
+  {
+   "key": "sd",
+   "label": "Syndrome decoding (binary, full-distance exponent)",
+   "cls": "code",
+   "role": "primary",
+   "display_kind": "index",
+   "problem": "Selected classical upper bounds for decoding random binary linear codes at full Gilbert-Varshamov distance: for each algorithm, maximize its optimized time exponent over code rate R = k/n, with relative error weight H_2^{-1}(1-R). The coefficient c describes time 2^(c n + o(n)). The maximizing rate can change between algorithms; this is not a fixed-rate or fixed-code-instance comparison.",
+   "size_unit": "n",
+   "size_name": "illustrative code-length scale n",
+   "reference": {
+    "label": "n = 1346; worst-over-rate full-distance index",
+    "size": 1346,
+    "why": "1346 is 128/0.0951 rounded to the nearest integer, so the selected corrected endpoint has c*n = 128.0046. This is an arbitrary normalization of an asymptotic exponent, not a claim of 128-bit security for a concrete code or deployed scheme. Each bound can attain its maximum at a different rate; no common rate, dimension, or error weight is fixed by this reference."
+   },
+   "from_year": 2012,
+   "assumptions": "Binary random linear codes; classical computation; full GV distance, not half-distance decoding; numerical optimization over algorithm parameters and then maximization over rate. The quoted asymptotic analyses and their distributional/list-size assumptions are accepted as stated. Polynomial factors, lower-order exponents, finite-size costs, and memory constraints are omitted. Exponential memory is allowed. Multiplying the rounded coefficient by n gives an index, not a calibrated operation count.",
+   "notes": "The numeric series is deliberately limited to four sourced analyses from 2012 onward. It is not a complete history or a certification of the best attack as of 2026; omitted work and gaps between selected entries are not evidence of stability. Earlier ball-collision and representation work is retained as context without retrospectively dating coefficients from later comparison tables. Each year is the first public year of the quoted analysis rather than automatically the proceedings year; algorithm_year records an older algorithm when applicable. The series includes only bounds that remain supported by the cited analyses, under their assumptions. It does not reconstruct what researchers believed at every historical date: the original Both-May 0.0885 claim is excluded, and the corrected 0.0951 analysis enters in 2022. Different papers round numerical optima differently, so differences in the last reported decimal are not precise measurements. All entries remain verified:false pending the separate human review.",
+   "milestones": [
+    {
+     "year": 2010,
+     "date": "2010-11-18",
+     "name": "Ball-collision decoding (historical context)",
+     "authors": "Bernstein, Lange, Peters",
+     "ref": "Smaller decoding exponents: ball-collision decoding, ePrint 2010/585; CRYPTO 2011",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "assumptions": "Asymptotic random-code analysis, with time-memory tradeoffs and parameters optimized for the chosen rate and error fraction.",
+     "notes": "This is an exponential improvement, not merely a constant-factor improvement. No scalar coefficient is entered here because this selected numeric series starts with the directly quoted 2012 full-distance table. The date is the first ePrint posting, before the 2011 proceedings.",
+     "source_url": "https://eprint.iacr.org/2010/585",
+     "verified": false,
+     "in_series": false
+    },
+    {
+     "year": 2011,
+     "date": "2011",
+     "name": "Representation technique (MMT; historical context)",
+     "authors": "May, Meurer, Thomae",
+     "ref": "Decoding Random Linear Codes in O-tilde(2^(0.054 n)), ASIACRYPT 2011",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "assumptions": "Random binary linear codes; representation-based information-set decoding with exponential memory.",
+     "notes": "A precursor of BJMM. The exponent in this paper's title and abstract concerns half-distance decoding and must not be used in the full-distance series. The later 2012 comparison table reports a full-distance MMT coefficient, which is not backdated here.",
+     "source_url": "https://www.iacr.org/archive/asiacrypt2011/70730106/70730106.pdf",
+     "verified": false,
+     "in_series": false
+    },
+    {
+     "year": 2012,
+     "date": "2012-01-20",
+     "name": "BJMM full-distance analysis",
+     "authors": "Becker, Joux, May, Meurer",
+     "ref": "Decoding Random Binary Linear Codes in 2^(n/20): How 1+1=0 Improves Information Set Decoding, ePrint 2012/026, Table 1; EUROCRYPT 2012",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "cost": {
+      "type": "linear",
+      "c": 0.1019
+     },
+     "assumptions": "Table 1 full-decoding time column: maximize the optimized coefficient over 0 < R < 1. Optimize for time rather than a common memory budget; omit lower-order costs.",
+     "notes": "The selected series begins here. The same table's half-distance coefficient is 0.04934; it is not the value used in this series.",
+     "source_url": "https://eprint.iacr.org/2012/026",
+     "verified": false,
+     "in_series": true
+    },
+    {
+     "year": 2015,
+     "date": "2015",
+     "name": "Nearest-neighbor decoding (May-Ozerov)",
+     "authors": "May, Ozerov",
+     "ref": "On Computing Nearest Neighbors with Applications to Decoding of Binary Linear Codes, EUROCRYPT 2015, Theorem 3 and Figure 1",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "cost": {
+      "type": "linear",
+      "c": 0.097
+     },
+     "assumptions": "Full-distance worst-over-rate asymptotic analysis using the nearest-neighbor routine and representation technique; accept the paper's list-distribution model and omit hidden factors.",
+     "notes": "Uses the 0.097 coefficient explicitly printed in this primary paper, without adding unsupported decimal precision. This asymptotic bound is not an implementation cost estimate; see the 2025 context entry.",
+     "source_url": "https://www.iacr.org/archive/eurocrypt2015/90560136/90560136.pdf",
+     "verified": false,
+     "in_series": true
+    },
+    {
+     "year": 2017,
+     "date": "2017",
+     "name": "BJMM with nearest neighbors",
+     "authors": "Both, May",
+     "ref": "Optimizing BJMM with Nearest Neighbors: Full Decoding in 2^(2n/21) and McEliece Security, WCC 2017; prior bound reported in ePrint 2017/1139",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "cost": {
+      "type": "linear",
+      "c": 0.0953
+     },
+     "assumptions": "Full-distance worst-over-rate asymptotic analysis; exponential-memory list algorithms and nearest-neighbor assumptions; lower-order factors suppressed.",
+     "notes": "This is the prior BJMM-nearest-neighbor bound reported by Both-May. It is distinct from their subsequently corrected 0.0885 claim in the same year.",
+     "source_url": "https://eprint.iacr.org/2017/1139",
+     "verified": false,
+     "in_series": true
+    },
+    {
+     "year": 2017,
+     "date": "2017-11-27",
+     "name": "Original Both-May 0.0885 claim (subsequently corrected)",
+     "authors": "Both, May",
+     "ref": "Decoding Linear Codes with High Error Rate and its Impact for LPN Security, ePrint 2017/1139; PQCrypto 2018",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "corrected",
+     "cost": null,
+     "assumptions": "Historical claim only. Its original list-size analysis was flawed, so the claimed exponent is not accepted as a supported bound.",
+     "notes": "The original paper claimed a full-distance coefficient of 0.0885. Carrier et al. identified the error in 2022, and Esser supplied a detailed corrected analysis. The 0.0885 value is deliberately excluded from the numeric series; see the 2022 correction. The first public posting was in 2017, although the proceedings appeared in 2018.",
+     "source_url": "https://eprint.iacr.org/2017/1139",
+     "verified": false,
+     "in_series": false
+    },
+    {
+     "year": 2022,
+     "date": "2022-08-03",
+     "name": "RLPN decoding and identification of the Both-May error",
+     "authors": "Carrier, Debris-Alazard, Meyer-Hilfiger, Tillich",
+     "ref": "Statistical Decoding 2.0: Reducing Decoding to LPN, arXiv:2208.02201, Appendix B; ASIACRYPT 2022",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "assumptions": "RLPN uses a reduction to LPN and the distributional assumptions stated in the paper. Its rate-dependent improvements are not entered as a single worst-over-rate coefficient here.",
+     "notes": "RLPN improves over ISD at low rates, around R <= 0.3. The paper also identifies the invalid Both-May list-size estimate. A hoped-for or genie-aided low-rate limit is not an achieved algorithm and is not included in the series.",
+     "source_url": "https://arxiv.org/abs/2208.02201",
+     "verified": false,
+     "in_series": false
+    },
+    {
+     "year": 2022,
+     "date": "2022-10-06",
+     "algorithm_year": 2017,
+     "name": "Corrected Both-May analysis",
+     "authors": "Esser; following the correction by Carrier et al.",
+     "ref": "Revisiting Nearest-Neighbor-Based Information Set Decoding, ePrint 2022/1328; also tabulated in Ducas et al., Asymptotics and Improvements of Sieving for Codes, Table 1",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "cost": {
+      "type": "linear",
+      "c": 0.0951
+     },
+     "assumptions": "Corrected full-GV-distance worst-over-rate analysis with nearest-neighbor/list assumptions and exponential memory. The exponent is a rounded numerical optimum; suppressed terms are not calibrated.",
+     "notes": "The corrected coefficient is about 0.0951, not 0.0885. It is assigned to the 2022 analysis rather than backdated to the original 2017 algorithm. The later Ducas et al. comparison places the maximizing rate near 0.42, illustrating why this series must not be described as fixed rate 1/2. This is the endpoint of the selected series, not a claim of an exhaustive latest frontier.",
+     "source_url": "https://eprint.iacr.org/2022/1328",
+     "verified": false,
+     "in_series": true
+    },
+    {
+     "year": 2023,
+     "date": "2023-12-01",
+     "name": "Double-RLPN (rate-dependent improvement)",
+     "authors": "Carrier, Debris-Alazard, Meyer-Hilfiger, Tillich",
+     "ref": "Reduction from sparse LPN to LPN, Dual Attack 3.0, arXiv:2312.00747; EUROCRYPT 2024",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "assumptions": "Rate-dependent random-code analysis under the paper's reduction and decoding assumptions; no single scalar worst-over-rate bound is extracted for this dataset.",
+     "notes": "Extends the range of rates at which the proposed method improves over previous methods to approximately R <= 0.42. It was first public in December 2023. Its omission from the scalar series does not mean there was no progress in decoding after 2022.",
+     "source_url": "https://arxiv.org/abs/2312.00747",
+     "verified": false,
+     "in_series": false
+    },
+    {
+     "year": 2023,
+     "date": "2023-12-01",
+     "name": "Sieving for codes and comparison of corrected bounds",
+     "authors": "Ducas, Esser, Etinski, Kirshanova",
+     "ref": "Asymptotics and Improvements of Sieving for Codes, Table 1, CWI publication 33753",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "assumptions": "Full-GV-distance worst-case rates are optimized separately for each algorithm; time and memory are separately tabulated.",
+     "notes": "Table 1 lists Prange at about R=0.45 with c=0.1207, BJMM at about R=0.43 with c=0.1020, and corrected Both-May at about R=0.42 with c=0.0951. The sieving variants in this table do not lower the selected scalar endpoint. These comparisons corroborate the varying-rate interpretation rather than supply a fixed-code security estimate.",
+     "source_url": "https://ir.cwi.nl/pub/33753/33753.pdf",
+     "verified": false,
+     "in_series": false
+    },
+    {
+     "year": 2025,
+     "date": "2025",
+     "name": "Concrete limitations of the May-Ozerov nearest-neighbor routine",
+     "authors": "Bouillaguet, Delaplace, Hamdad",
+     "ref": "The May-Ozerov Algorithm for Syndrome Decoding is Galactic, IACR Communications in Cryptology 2(1), 2025",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "assumptions": "Concrete analysis of the asymptotic nearest-neighbor subroutine, including costs suppressed in a leading-exponent comparison.",
+     "notes": "Shows that the asymptotic nearest-neighbor advantage can require enormous code lengths before becoming useful. This reinforces the limitation of c*n as a leading-term index; it is not a finite-parameter work estimate or an implementation benchmark.",
+     "source_url": "https://cic.iacr.org/p/2/1/31/pdf",
+     "verified": false,
+     "in_series": false
+    }
+   ],
+   "steps": [
+    {
+     "year": 2012,
+     "cost": 137.1574,
+     "name": "BJMM full-distance analysis",
+     "authors": "Becker, Joux, May, Meurer",
+     "ref": "Decoding Random Binary Linear Codes in 2^(n/20): How 1+1=0 Improves Information Set Decoding, ePrint 2012/026, Table 1; EUROCRYPT 2012",
+     "source_url": "https://eprint.iacr.org/2012/026",
+     "assumptions": "Table 1 full-decoding time column: maximize the optimized coefficient over 0 < R < 1. Optimize for time rather than a common memory budget; omit lower-order costs."
+    },
+    {
+     "year": 2015,
+     "cost": 130.562,
+     "name": "Nearest-neighbor decoding (May-Ozerov)",
+     "authors": "May, Ozerov",
+     "ref": "On Computing Nearest Neighbors with Applications to Decoding of Binary Linear Codes, EUROCRYPT 2015, Theorem 3 and Figure 1",
+     "source_url": "https://www.iacr.org/archive/eurocrypt2015/90560136/90560136.pdf",
+     "assumptions": "Full-distance worst-over-rate asymptotic analysis using the nearest-neighbor routine and representation technique; accept the paper's list-distribution model and omit hidden factors."
+    },
+    {
+     "year": 2017,
+     "cost": 128.2738,
+     "name": "BJMM with nearest neighbors",
+     "authors": "Both, May",
+     "ref": "Optimizing BJMM with Nearest Neighbors: Full Decoding in 2^(2n/21) and McEliece Security, WCC 2017; prior bound reported in ePrint 2017/1139",
+     "source_url": "https://eprint.iacr.org/2017/1139",
+     "assumptions": "Full-distance worst-over-rate asymptotic analysis; exponential-memory list algorithms and nearest-neighbor assumptions; lower-order factors suppressed."
+    },
+    {
+     "year": 2022,
+     "cost": 128.0046,
+     "name": "Corrected Both-May analysis",
+     "authors": "Esser; following the correction by Carrier et al.",
+     "ref": "Revisiting Nearest-Neighbor-Based Information Set Decoding, ePrint 2022/1328; also tabulated in Ducas et al., Asymptotics and Improvements of Sieving for Codes, Table 1",
+     "source_url": "https://eprint.iacr.org/2022/1328",
+     "assumptions": "Corrected full-GV-distance worst-over-rate analysis with nearest-neighbor/list assumptions and exponential memory. The exponent is a rounded numerical optimum; suppressed terms are not calibrated."
+    }
+   ],
+   "size_steps": [
+    {
+     "year": 2012,
+     "size": 1256.133464180569,
+     "name": "BJMM full-distance analysis",
+     "authors": "Becker, Joux, May, Meurer",
+     "ref": "Decoding Random Binary Linear Codes in 2^(n/20): How 1+1=0 Improves Information Set Decoding, ePrint 2012/026, Table 1; EUROCRYPT 2012",
+     "source_url": "https://eprint.iacr.org/2012/026",
+     "assumptions": "Table 1 full-decoding time column: maximize the optimized coefficient over 0 < R < 1. Optimize for time rather than a common memory budget; omit lower-order costs."
+    },
+    {
+     "year": 2015,
+     "size": 1319.5876288659792,
+     "name": "Nearest-neighbor decoding (May-Ozerov)",
+     "authors": "May, Ozerov",
+     "ref": "On Computing Nearest Neighbors with Applications to Decoding of Binary Linear Codes, EUROCRYPT 2015, Theorem 3 and Figure 1",
+     "source_url": "https://www.iacr.org/archive/eurocrypt2015/90560136/90560136.pdf",
+     "assumptions": "Full-distance worst-over-rate asymptotic analysis using the nearest-neighbor routine and representation technique; accept the paper's list-distribution model and omit hidden factors."
+    },
+    {
+     "year": 2017,
+     "size": 1343.1269674711439,
+     "name": "BJMM with nearest neighbors",
+     "authors": "Both, May",
+     "ref": "Optimizing BJMM with Nearest Neighbors: Full Decoding in 2^(2n/21) and McEliece Security, WCC 2017; prior bound reported in ePrint 2017/1139",
+     "source_url": "https://eprint.iacr.org/2017/1139",
+     "assumptions": "Full-distance worst-over-rate asymptotic analysis; exponential-memory list algorithms and nearest-neighbor assumptions; lower-order factors suppressed."
+    },
+    {
+     "year": 2022,
+     "size": 1345.9516298633018,
+     "name": "Corrected Both-May analysis",
+     "authors": "Esser; following the correction by Carrier et al.",
+     "ref": "Revisiting Nearest-Neighbor-Based Information Set Decoding, ePrint 2022/1328; also tabulated in Ducas et al., Asymptotics and Improvements of Sieving for Codes, Table 1",
+     "source_url": "https://eprint.iacr.org/2022/1328",
+     "assumptions": "Corrected full-GV-distance worst-over-rate analysis with nearest-neighbor/list assumptions and exponential memory. The exponent is a rounded numerical optimum; suppressed terms are not calibrated."
+    }
+   ],
+   "metrics": {
+    "first_year": 2012,
+    "first_cost": 137.1574,
+    "current_cost": 128.0046,
+    "index_drop": 9.152799999999985,
+    "first_size": 1256.133464180569,
+    "current_size": 1345.9516298633018,
+    "last_bound_year": 2022
+   }
+  },
+  {
+   "key": "rsa",
+   "label": "Factoring (RSA)",
+   "cls": "factoring",
+   "role": "comparator",
+   "display_kind": "index",
+   "problem": "Factoring a general balanced semiprime N = pq, with equally sized prime factors and no special algebraic form.",
+   "size_unit": "bits",
+   "size_name": "modulus bits",
+   "reference": {
+    "label": "3072-bit modulus",
+    "size": 3072,
+    "why": "A familiar RSA size used only as a fixed reference. Leading asymptotic expressions are not calibrated security estimates or parameter recommendations."
+   },
+   "from_year": 1982,
+   "notes": "Selected classical asymptotic bounds beginning with the 1982 quadratic-sieve analysis; earlier methods remain outside this deliberately limited curve. L_N[a,c] means exp((c+o(1))(ln N)^a(ln ln N)^(1-a)); the plotted index drops o(1), polynomial factors and constants outside this expression. Coppersmith’s multiple-polynomial NFS bound is included under the same asymptotic criterion as other tracks. This selection omits intermediate algorithms and does not reconstruct the complete historical best attack. A small difference in the index is not a demonstrated speedup at a real RSA size.",
+   "assumptions": "Rho uses a random-walk heuristic; sieve bounds assume suitable smoothness and relation behavior. Costs are represented only by their displayed leading expressions. Memory, preprocessing, parallelism, lower-order terms and measured implementations are not equalized.",
+   "milestones": [
+    {
+     "year": 1975,
+     "date": "1975",
+     "name": "Pollard rho factoring",
+     "authors": "J. M. Pollard",
+     "ref": "A Monte Carlo method for factorization, BIT 15 (1975), 331–334",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "verified": false,
+     "cost": {
+      "type": "power",
+      "exp": 0.25
+     },
+     "assumptions": "Expected square-root work in the smallest prime factor under the random-mapping model. With p approximately sqrt(N), this gives N^(1/4); arithmetic costs and multiplicative constants are suppressed.",
+     "notes": "Contextual baseline only. Rho was available at RSA’s proposal, but it was not the strongest factoring method then; it is excluded from the selected curve to avoid an artificial starting point.",
+     "source_url": "https://pages.cs.wisc.edu/~cs812-1/pollardrho.pdf",
+     "in_series": false
+    },
+    {
+     "year": 1982,
+     "date": "1982",
+     "algorithm_year": 1981,
+     "name": "Quadratic-sieve asymptotic analysis",
+     "authors": "Carl Pomerance",
+     "ref": "Analysis and comparison of some integer factoring algorithms, Computational Methods in Number Theory, Part I (1982), 89–139; author’s retrospective A Tale of Two Sieves (1996)",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "L",
+      "a": 0.5,
+      "c": 1.0
+     },
+     "assumptions": "Heuristic smoothness and relation independence; leading L_N[1/2,1] term only.",
+     "notes": "Uses the documented 1982 analysis publication, rather than the 1981 invention date.",
+     "source_url": "https://math.dartmouth.edu/~carlp/PDF/analysiscomparison.pdf",
+     "additional_source_urls": [
+      "https://math.dartmouth.edu/~carlp/PDF/paper109.pdf"
+     ],
+     "in_series": true
+    },
+    {
+     "year": 1993,
+     "date": "1993",
+     "name": "General number field sieve",
+     "authors": "Joe P. Buhler; Hendrik W. Lenstra Jr.; Carl Pomerance",
+     "ref": "Factoring integers with the number field sieve, The Development of the Number Field Sieve, LNMS 1554 (1993), 50–94",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "L",
+      "a": 0.3333333333333333,
+      "c": 1.9229994270765445
+     },
+     "assumptions": "Heuristic smoothness estimates and NFS relation assumptions for general integers; leading L_N[1/3,(64/9)^(1/3)] term.",
+     "notes": "The dated source is the published 1993 analysis; earlier circulation is not resolved here. This is also the model used separately for the repository’s RSA frontier-gap calculation.",
+     "source_url": "https://www.cs.umd.edu/~gasarch/TOPICS/factoring/1993_Book_TheDevelopmentOfTheNumberField.pdf",
+     "additional_source_urls": [
+      "https://math.dartmouth.edu/~carlp/PDF/paper109.pdf"
+     ],
+     "in_series": true
+    },
+    {
+     "year": 1993,
+     "date": "1993-03-01",
+     "name": "Multiple-polynomial NFS bound",
+     "authors": "Don Coppersmith",
+     "ref": "Modifications to the Number Field Sieve, Journal of Cryptology 6 (1993), 169–180; constant also given by Pomerance (1996)",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "L",
+      "a": 0.3333333333333333,
+      "c": 1.9018836118648392
+     },
+     "assumptions": "Heuristic asymptotic analysis reusing smoothness work across polynomials; c = (92 + 26 sqrt(13))^(1/3)/3, approximately 1.902.",
+     "notes": "Included as an asymptotic bound; this is not a claim of a faster implementation at the reference modulus size.",
+     "source_url": "https://research.ibm.com/publications/modifications-to-the-number-field-sieve",
+     "additional_source_urls": [
+      "https://math.dartmouth.edu/~carlp/PDF/paper109.pdf"
+     ],
+     "in_series": true
+    }
+   ],
+   "steps": [
+    {
+     "year": 1982,
+     "cost": 184.29496603143738,
+     "name": "Quadratic-sieve asymptotic analysis",
+     "authors": "Carl Pomerance",
+     "ref": "Analysis and comparison of some integer factoring algorithms, Computational Methods in Number Theory, Part I (1982), 89–139; author’s retrospective A Tale of Two Sieves (1996)",
+     "source_url": "https://math.dartmouth.edu/~carlp/PDF/analysiscomparison.pdf",
+     "assumptions": "Heuristic smoothness and relation independence; leading L_N[1/2,1] term only."
+    },
+    {
+     "year": 1993,
+     "cost": 137.21286403398014,
+     "name": "Multiple-polynomial NFS bound",
+     "authors": "Don Coppersmith",
+     "ref": "Modifications to the Number Field Sieve, Journal of Cryptology 6 (1993), 169–180; constant also given by Pomerance (1996)",
+     "source_url": "https://research.ibm.com/publications/modifications-to-the-number-field-sieve",
+     "assumptions": "Heuristic asymptotic analysis reusing smoothness work across polynomials; c = (92 + 26 sqrt(13))^(1/3)/3, approximately 1.902."
+    }
+   ],
+   "size_steps": [
+    {
+     "year": 1982,
+     "size": 1617.280313826761,
+     "name": "Quadratic-sieve asymptotic analysis",
+     "authors": "Carl Pomerance",
+     "ref": "Analysis and comparison of some integer factoring algorithms, Computational Methods in Number Theory, Part I (1982), 89–139; author’s retrospective A Tale of Two Sieves (1996)",
+     "source_url": "https://math.dartmouth.edu/~carlp/PDF/analysiscomparison.pdf",
+     "assumptions": "Heuristic smoothness and relation independence; leading L_N[1/2,1] term only."
+    },
+    {
+     "year": 1993,
+     "size": 2604.7737982339577,
+     "name": "Multiple-polynomial NFS bound",
+     "authors": "Don Coppersmith",
+     "ref": "Modifications to the Number Field Sieve, Journal of Cryptology 6 (1993), 169–180; constant also given by Pomerance (1996)",
+     "source_url": "https://research.ibm.com/publications/modifications-to-the-number-field-sieve",
+     "assumptions": "Heuristic asymptotic analysis reusing smoothness work across polynomials; c = (92 + 26 sqrt(13))^(1/3)/3, approximately 1.902."
+    }
+   ],
+   "metrics": {
+    "first_year": 1982,
+    "first_cost": 184.29496603143738,
+    "current_cost": 137.21286403398014,
+    "index_drop": 47.082101997457244,
+    "first_size": 1617.280313826761,
+    "current_size": 2604.7737982339577,
+    "last_bound_year": 1993
+   }
+  },
+  {
+   "key": "mq",
+   "label": "Multivariate quadratic systems over GF(2)",
+   "cls": "mq",
+   "role": "comparator",
+   "display_kind": "index",
+   "problem": "Finding a solution, or deciding that none exists, for n quadratic equations in n variables over GF(2). Random-system algebraic estimates and general-input randomized bounds are distinguished in each entry.",
+   "size_unit": "n",
+   "size_name": "variables n",
+   "reference": {
+    "label": "n = 184, m = n",
+    "size": 184,
+    "why": "An illustrative square Boolean system. The selected 0.6943 leading exponent gives 127.7512 at this size, approximately 128; this is neither a standardized parameter set nor a concrete security recommendation."
+   },
+   "from_year": 2004,
+   "notes": "A selected timeline of sourced analyses, beginning in 2004, not a complete historical best-known envelope. Earlier XL and hybrid methods matter: the original FXL exponent was later corrected, and the corrected value is dated to the checked analysis version rather than backdated to the algorithm’s proposal. Lower-order factors and memory can dominate at the reference size. These generic-system estimates do not establish the security of a structured multivariate signature scheme.",
+   "assumptions": "The plotted costs are 2^(c n) after dropping polynomial and lower-order terms. Conditional random-system algebraic estimates and randomized worst-case bounds share the same square Boolean target, but have different guarantees; their minimum is only an envelope of selected stated models. Date fields use the earliest checked public analysis or explicitly identified checked revision; undocumented earlier circulation is not inferred.",
+   "milestones": [
+    {
+     "year": 2004,
+     "date": "2004",
+     "name": "Exhaustive enumeration (context)",
+     "authors": "Generic method; baseline discussed by Yang and Chen",
+     "ref": "Yang and Chen, Theoretical Analysis of XL over Small Fields, ACISP 2004, LNCS 3108, 277–288",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 1.0
+     },
+     "assumptions": "Enumerate all 2^n Boolean assignments; polynomial evaluation costs are suppressed.",
+     "notes": "This is a comparison baseline in the cited analysis, not an algorithm invented in 2004. No invented 1988 publication date is assigned to exhaustive search.",
+     "source_url": "https://troll.iis.sinica.edu.tw/by-publ/recent/xxl2.pdf",
+     "in_series": false
+    },
+    {
+     "year": 2004,
+     "date": "2004",
+     "name": "XL over GF(2), early asymptotic estimate",
+     "authors": "Bo-Yin Yang; Jiun-Ming Chen",
+     "ref": "Theoretical Analysis of XL over Small Fields, ACISP 2004, Proposition 1",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.875
+     },
+     "assumptions": "Square Boolean systems, algebraic regularity/no-extra-dependency assumptions and the paper’s sparse linear-algebra estimate. The displayed 7/8 coefficient is the paper’s approximate asymptotic estimate.",
+     "notes": "An early improvement over enumeration, omitted from the previous dataset. Later analysis refines the XL coefficient to approximately 0.87280.",
+     "source_url": "https://troll.iis.sinica.edu.tw/by-publ/recent/xxl2.pdf",
+     "additional_source_urls": [
+      "https://homepage.iis.sinica.edu.tw/papers/byyang/21806-F.pdf"
+     ],
+     "in_series": true
+    },
+    {
+     "year": 2004,
+     "date": "2004",
+     "name": "FXL hybrid analysis (historical numerical error)",
+     "authors": "Bo-Yin Yang; Jiun-Ming Chen; Nicolas Courtois",
+     "ref": "On Asymptotic Security Estimates in XL and Gröbner Bases-Related Algebraic Cryptanalysis, ICICS 2004",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "corrected",
+     "verified": false,
+     "cost": null,
+     "assumptions": "Fix some variables by enumeration, then apply XL to the remaining algebraic system.",
+     "notes": "The original 0.785 coefficient contains a calculation error identified by Bernstein–Yang. It is not plotted as a valid bound; the checked corrected 0.79106 analysis appears as a separate 2018 entry.",
+     "source_url": "https://troll.iis.sinica.edu.tw/by-publ/recent/xxl3.pdf",
+     "additional_source_urls": [
+      "https://homepage.iis.sinica.edu.tw/papers/byyang/21806-F.pdf"
+     ],
+     "in_series": false
+    },
+    {
+     "year": 2011,
+     "date": "2011-12-29",
+     "name": "BooleanSolve (conditional Las Vegas bound)",
+     "authors": "Magali Bardet; Jean-Charles Faugère; Bruno Salvy; Pierre-Jean Spaenlehauer",
+     "ref": "On the Complexity of Solving Quadratic Boolean Systems, arXiv:1112.6263 (2011); Journal of Complexity 29 (2013)",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.792
+     },
+     "assumptions": "Expected Las Vegas running time under explicit algebraic assumptions on the input, experimentally supported for random systems. This is not an unconditional bound for every square system.",
+     "notes": "Uses the 2011 preprint date. The same work’s deterministic conditional coefficient is 0.841, not 0.8765.",
+     "source_url": "https://arxiv.org/abs/1112.6263",
+     "in_series": true
+    },
+    {
+     "year": 2017,
+     "date": "2017-01-04",
+     "name": "Polynomial method (randomized worst-case bound)",
+     "authors": "Daniel Lokshtanov; Ramamohan Paturi; Suguru Tamaki; Ryan Williams; Huacheng Yu",
+     "ref": "Beating Brute Force for Systems of Polynomial Equations over Finite Fields, SODA 2017, 2190–2202",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.8765
+     },
+     "assumptions": "Randomized algorithm correct with high probability for every input, without the random-system algebraic assumptions of XL or BooleanSolve.",
+     "notes": "The 0.8765 coefficient is randomized, not deterministic. It need not lower the selected conditional envelope to represent an advance in guarantees. Date is the publisher’s documented publication date.",
+     "source_url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611974782.143",
+     "additional_source_urls": [
+      "https://www.cs.princeton.edu/~hy2/files/polyEq.pdf"
+     ],
+     "in_series": true
+    },
+    {
+     "year": 2018,
+     "date": "2018-01-25",
+     "algorithm_year": 2004,
+     "name": "Corrected FXL operation-count analysis",
+     "authors": "Daniel J. Bernstein; Bo-Yin Yang; original FXL analysis by Yang, Chen and Courtois",
+     "ref": "Asymptotically faster quantum algorithms to solve multivariate quadratic equations, classical analysis in §§1.2 and 4.5, checked version 2018-01-25",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.79106
+     },
+     "assumptions": "Classical hybrid enumeration and XL on random square systems, under algebraic assumptions; operation-count model excludes communication costs.",
+     "notes": "Corrects the 2004 numerical coefficient 0.785. The paper was received as ePrint 2017/1206 on 2017-12-18, but the checked text is dated 2018-01-25; first appearance of the correction is not resolved. The chart does not backdate the corrected bound to 2004.",
+     "source_url": "https://homepage.iis.sinica.edu.tw/papers/byyang/21806-F.pdf",
+     "additional_source_urls": [
+      "https://eprint.iacr.org/2017/1206"
+     ],
+     "in_series": true
+    },
+    {
+     "year": 2019,
+     "date": "2019",
+     "name": "Parity-counting self-reduction",
+     "authors": "Andreas Björklund; Petteri Kaski; Ryan Williams",
+     "ref": "Solving Systems of Polynomial Equations over GF(2) by a Parity-Counting Self-Reduction, ICALP 2019, 26:1–26:13",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.804
+     },
+     "assumptions": "Randomized solution-finding bound for general quadratic Boolean systems; polynomial factors suppressed.",
+     "notes": "Improves the prior general-input bound, even though its coefficient exceeds the selected conditional random-system estimates.",
+     "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2019.26",
+     "in_series": true
+    },
+    {
+     "year": 2020,
+     "date": "2020-05-10",
+     "name": "Multiple parity-counting",
+     "authors": "Itai Dinur",
+     "ref": "Improved Algorithms for Solving Polynomial Systems over GF(2) by Multiple Parity-Counting, arXiv:2005.04800 (2020); SODA 2021",
+     "model": "classical",
+     "generic": true,
+     "series": true,
+     "status": "supported",
+     "verified": false,
+     "cost": {
+      "type": "linear",
+      "c": 0.6943
+     },
+     "assumptions": "Randomized worst-case algorithm succeeding with high probability; applies to arbitrary quadratic Boolean systems, hence also to random square systems. Suppressed factors and memory requirements are substantial.",
+     "notes": "Dated to the 2020 preprint; the conference was SODA 2021. An asymptotic bound, not a measured cost at n = 184 or a proof that the finite-size algorithm is fastest.",
+     "source_url": "https://arxiv.org/abs/2005.04800",
+     "additional_source_urls": [
+      "https://mqom.org/docs/mqom-v2.1.pdf"
+     ],
+     "in_series": true
+    },
+    {
+     "year": 2024,
+     "date": "2024-10-26",
+     "name": "Extension to general finite fields",
+     "authors": "Holger Dell; Anselm Haak; Melvin Kallmayer; Leo Wennmann",
+     "ref": "Solving Polynomial Equations Over Finite Fields, arXiv:2410.20162 (2024); SODA 2025",
+     "model": "classical",
+     "generic": true,
+     "series": false,
+     "status": "context",
+     "verified": false,
+     "cost": null,
+     "assumptions": "Randomized general-input algorithms; field-specific asymptotic comparisons.",
+     "notes": "The paper matches Dinur’s Boolean exponent while extending improvements to other fields. It does not add a lower GF(2) coefficient to this selected series.",
+     "source_url": "https://arxiv.org/abs/2410.20162",
+     "in_series": false
+    }
+   ],
+   "steps": [
+    {
+     "year": 2004,
+     "cost": 161.0,
+     "name": "XL over GF(2), early asymptotic estimate",
+     "authors": "Bo-Yin Yang; Jiun-Ming Chen",
+     "ref": "Theoretical Analysis of XL over Small Fields, ACISP 2004, Proposition 1",
+     "source_url": "https://troll.iis.sinica.edu.tw/by-publ/recent/xxl2.pdf",
+     "assumptions": "Square Boolean systems, algebraic regularity/no-extra-dependency assumptions and the paper’s sparse linear-algebra estimate. The displayed 7/8 coefficient is the paper’s approximate asymptotic estimate."
+    },
+    {
+     "year": 2011,
+     "cost": 145.728,
+     "name": "BooleanSolve (conditional Las Vegas bound)",
+     "authors": "Magali Bardet; Jean-Charles Faugère; Bruno Salvy; Pierre-Jean Spaenlehauer",
+     "ref": "On the Complexity of Solving Quadratic Boolean Systems, arXiv:1112.6263 (2011); Journal of Complexity 29 (2013)",
+     "source_url": "https://arxiv.org/abs/1112.6263",
+     "assumptions": "Expected Las Vegas running time under explicit algebraic assumptions on the input, experimentally supported for random systems. This is not an unconditional bound for every square system."
+    },
+    {
+     "year": 2018,
+     "cost": 145.55504,
+     "name": "Corrected FXL operation-count analysis",
+     "authors": "Daniel J. Bernstein; Bo-Yin Yang; original FXL analysis by Yang, Chen and Courtois",
+     "ref": "Asymptotically faster quantum algorithms to solve multivariate quadratic equations, classical analysis in §§1.2 and 4.5, checked version 2018-01-25",
+     "source_url": "https://homepage.iis.sinica.edu.tw/papers/byyang/21806-F.pdf",
+     "assumptions": "Classical hybrid enumeration and XL on random square systems, under algebraic assumptions; operation-count model excludes communication costs."
+    },
+    {
+     "year": 2020,
+     "cost": 127.75120000000001,
+     "name": "Multiple parity-counting",
+     "authors": "Itai Dinur",
+     "ref": "Improved Algorithms for Solving Polynomial Systems over GF(2) by Multiple Parity-Counting, arXiv:2005.04800 (2020); SODA 2021",
+     "source_url": "https://arxiv.org/abs/2005.04800",
+     "assumptions": "Randomized worst-case algorithm succeeding with high probability; applies to arbitrary quadratic Boolean systems, hence also to random square systems. Suppressed factors and memory requirements are substantial."
+    }
+   ],
+   "size_steps": [
+    {
+     "year": 2004,
+     "size": 146.28571428571428,
+     "name": "XL over GF(2), early asymptotic estimate",
+     "authors": "Bo-Yin Yang; Jiun-Ming Chen",
+     "ref": "Theoretical Analysis of XL over Small Fields, ACISP 2004, Proposition 1",
+     "source_url": "https://troll.iis.sinica.edu.tw/by-publ/recent/xxl2.pdf",
+     "assumptions": "Square Boolean systems, algebraic regularity/no-extra-dependency assumptions and the paper’s sparse linear-algebra estimate. The displayed 7/8 coefficient is the paper’s approximate asymptotic estimate."
+    },
+    {
+     "year": 2011,
+     "size": 161.6161616161616,
+     "name": "BooleanSolve (conditional Las Vegas bound)",
+     "authors": "Magali Bardet; Jean-Charles Faugère; Bruno Salvy; Pierre-Jean Spaenlehauer",
+     "ref": "On the Complexity of Solving Quadratic Boolean Systems, arXiv:1112.6263 (2011); Journal of Complexity 29 (2013)",
+     "source_url": "https://arxiv.org/abs/1112.6263",
+     "assumptions": "Expected Las Vegas running time under explicit algebraic assumptions on the input, experimentally supported for random systems. This is not an unconditional bound for every square system."
+    },
+    {
+     "year": 2018,
+     "size": 161.80820670998406,
+     "name": "Corrected FXL operation-count analysis",
+     "authors": "Daniel J. Bernstein; Bo-Yin Yang; original FXL analysis by Yang, Chen and Courtois",
+     "ref": "Asymptotically faster quantum algorithms to solve multivariate quadratic equations, classical analysis in §§1.2 and 4.5, checked version 2018-01-25",
+     "source_url": "https://homepage.iis.sinica.edu.tw/papers/byyang/21806-F.pdf",
+     "assumptions": "Classical hybrid enumeration and XL on random square systems, under algebraic assumptions; operation-count model excludes communication costs."
+    },
+    {
+     "year": 2020,
+     "size": 184.3583465360795,
+     "name": "Multiple parity-counting",
+     "authors": "Itai Dinur",
+     "ref": "Improved Algorithms for Solving Polynomial Systems over GF(2) by Multiple Parity-Counting, arXiv:2005.04800 (2020); SODA 2021",
+     "source_url": "https://arxiv.org/abs/2005.04800",
+     "assumptions": "Randomized worst-case algorithm succeeding with high probability; applies to arbitrary quadratic Boolean systems, hence also to random square systems. Suppressed factors and memory requirements are substantial."
+    }
+   ],
+   "metrics": {
+    "first_year": 2004,
+    "first_cost": 161.0,
+    "current_cost": 127.75120000000001,
+    "index_drop": 33.24879999999999,
+    "first_size": 146.28571428571428,
+    "current_size": 184.3583465360795,
+    "last_bound_year": 2020
+   }
+  },
+  {
+   "key": "ffdlp_small",
+   "label": "Small-characteristic finite-field DLP",
+   "cls": "factoring",
+   "problem": "Discrete logarithms in finite fields of small characteristic; the practical example is the pairing field F_(2^(4*1223)), not F_(2^1223).",
+   "notes": "Theoretical advances and concrete security reassessments are distinct events. We do not join leading L-indices, modular-multiplication estimates and measured runtimes on one curve. The former 2^70 placeholder is removed. No parameter-size inversion is supplied.",
+   "milestones": [
+    {
+     "year": 2013,
+     "date": "2013-02-21",
+     "name": "Joux subexponential algorithm",
+     "authors": "Antoine Joux",
+     "ref": "ePrint 2013/095; SAC 2013",
+     "source_url": "https://eprint.iacr.org/2013/095",
+     "model": "classical",
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "event": "Heuristic L_Q(1/4+o(1)) complexity, with embeddings into a suitable extension when needed.",
+     "notes": "This is subexponential, not quasi-polynomial. No numerical reference-instance estimate is assigned.",
+     "assumptions": "",
+     "verified": false,
+     "in_series": false
+    },
+    {
+     "year": 2013,
+     "date": "2013-06-18",
+     "name": "BGJT quasi-polynomial algorithm",
+     "authors": "Barbulescu, Gaudry, Joux, Thome",
+     "ref": "arXiv:1306.4244; EUROCRYPT 2014",
+     "source_url": "https://arxiv.org/abs/1306.4244",
+     "model": "classical",
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "event": "Heuristic n^O(log n) time, where n is the field bit-size; still super-polynomial.",
+     "notes": "First public preprint date; no constant for a concrete inversion is inferred.",
+     "assumptions": "",
+     "verified": false,
+     "in_series": false
+    },
+    {
+     "year": 2014,
+     "date": "2014-02-15",
+     "name": "Concrete reassessment of a supersingular pairing field",
+     "authors": "Granger, Kleinjung, Zumbragel",
+     "ref": "arXiv:1402.3668; CRYPTO 2014",
+     "source_url": "https://arxiv.org/abs/1402.3668",
+     "model": "classical",
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "event": "Estimated about 59 bits for DLP in F_(2^(4*1223)), in the authors’ modular-multiplication units.",
+     "notes": "The curve base field is F_(2^1223). The analysis uses L(1/4)-type techniques; the BGJT elimination steps were not required. This is a concrete estimate, not an executed 59-bit computation or a cost for the base field.",
+     "assumptions": "",
+     "verified": false,
+     "in_series": false
+    }
+   ],
+   "role": "comparator",
+   "display_kind": "events",
+   "from_year": 2013,
+   "size_unit": "",
+   "size_name": "",
+   "reference": null,
+   "steps": [],
+   "size_steps": [],
+   "metrics": null
+  },
+  {
+   "key": "ffdlp_pairing",
+   "label": "DLP in pairing-friendly extension fields",
+   "cls": "factoring",
+   "problem": "Discrete logarithms in extension fields used by pairing-friendly curves, including degree-12 families.",
+   "notes": "Pairing-field structure, polynomial selection and concrete resource models matter. We retain the new pairing track as sourced reassessment events, without collapsing medium/large-characteristic regimes into one L-constant curve or asserting uniform deployment changes.",
+   "milestones": [
+    {
+     "year": 2015,
+     "date": "2015-10-26",
+     "name": "Extended tower NFS",
+     "authors": "Kim, Barbulescu",
+     "ref": "ePrint 2015/1027; CRYPTO 2016",
+     "source_url": "https://eprint.iacr.org/2015/1027",
+     "model": "classical",
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "event": "exTNFS improves the medium-prime asymptotic complexity and applies to important degree-6 and degree-12 pairing fields.",
+     "notes": "The source is a merged/revised paper. Its applicability depends on field representation and extension structure; no universal BN/BLS cost coefficient is asserted here.",
+     "assumptions": "",
+     "verified": false,
+     "in_series": false
+    },
+    {
+     "year": 2017,
+     "date": "2017-04-18",
+     "name": "Concrete pairing key-size reassessment",
+     "authors": "Barbulescu, Duquesne",
+     "ref": "ePrint 2017/334; Journal of Cryptology",
+     "source_url": "https://eprint.iacr.org/2017/334",
+     "model": "classical",
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "event": "Reassesses popular pairing parameters after NFS advances and proposes updated key sizes.",
+     "notes": "First preprint date, with revisions through February 2018. Source-specific concrete estimates require their own operation, memory and polynomial-selection conventions.",
+     "assumptions": "",
+     "verified": false,
+     "in_series": false
+    }
+   ],
+   "role": "comparator",
+   "display_kind": "events",
+   "from_year": 2015,
+   "size_unit": "",
+   "size_name": "",
+   "reference": null,
+   "steps": [],
+   "size_steps": [],
+   "metrics": null
+  },
+  {
+   "key": "sidh",
+   "label": "SIDH / SIKE key recovery",
+   "cls": "isogeny",
+   "problem": "Recovering the SIDH secret isogeny from public curves and auxiliary torsion-point images. This is not the pure isogeny-path problem.",
+   "notes": "The break is shown as a qualitative event. An hour of CPU time is not converted to an invented 2^42 group-operation count. Polynomial-time behavior is distinct from a claim that no finite input could ever require 2^128 work. The result does not break every isogeny-based construction.",
+   "milestones": [
+    {
+     "year": 2022,
+     "date": "2022-07-30",
+     "name": "Efficient SIDH key recovery",
+     "authors": "Castryck, Decru",
+     "ref": "ePrint 2022/975; EUROCRYPT 2023",
+     "source_url": "https://eprint.iacr.org/2022/975",
+     "model": "classical",
+     "series": false,
+     "status": "context",
+     "cost": null,
+     "event": "Practical key recovery for SIKE; the revised report gives about ten minutes on one core for SIKEp434.",
+     "notes": "Date records the initial attack disclosure; runtime refers to the revised report, not the original July implementation.",
+     "assumptions": "The attack exploits torsion images. The stated heuristic polynomial analysis assumes the starting endomorphism ring and excludes certain parameter-dependent integer factorizations.",
+     "verified": false,
+     "in_series": false
+    }
+   ],
+   "role": "comparator",
+   "display_kind": "events",
+   "from_year": 2022,
+   "size_unit": "",
+   "size_name": "",
+   "reference": null,
+   "steps": [],
+   "size_steps": [],
+   "metrics": null
+  }
+ ]
+}

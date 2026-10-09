@@ -1,0 +1,40 @@
+{"id": "W1150686645", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free sequences, unrelated"}
+{"id": "W1419628688", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd problem, unrelated"}
+{"id": "W148580239", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "computer experiments on bases, unrelated"}
+{"id": "W1489006728", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Erdos-Graham problem survey, seed; may state the problem"}
+{"id": "W1537054460", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "density of sets with bases, unrelated"}
+{"id": "W1544799042", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "general problem collection"}
+{"id": "W1555475515", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Guy unsolved problems book, seed; may state the problem"}
+{"id": "W1555768633", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Freiman set addition textbook"}
+{"id": "W1606547675", "include": "borderline", "category": "C", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Davenport-Lewis-Schinzel on special polynomial forms, possibly related to f(x)+f(y) structure"}
+{"id": "W1876197808", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Guy additive number theory chapter, may mention the problem"}
+{"id": "W19324417", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "extremal density linear forms, unrelated"}
+{"id": "W1963587264", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.55, "reason": "conjecture of Erdos, unspecified"}
+{"id": "W1967909233", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Rohrbach additive theory, unrelated"}
+{"id": "W1970152983", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "generalized Sidon sets, not polynomial sequences"}
+{"id": "W1978976963", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "minimal bases, unrelated"}
+{"id": "W1980338270", "include": "yes", "category": "C", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Swinnerton-Dyer on a^4+b^4=c^4+d^4 solutions, shows degree 4 monomial fails the distinct-sums property"}
+{"id": "W1983812624", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "ordered sums in groups, unrelated"}
+{"id": "W1989548622", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "density of sequences, unrelated"}
+{"id": "W1989630703", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "maximal asymptotic nonbases, unrelated"}
+{"id": "W1995296546", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "addition theorem in groups, unrelated"}
+{"id": "W1999682169", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "recursively defined sets, unrelated"}
+{"id": "W2004479099", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "intersection properties of subsets, unrelated"}
+{"id": "W2008037211", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "multiplicative bases, unrelated"}
+{"id": "W2011033909", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Euler conjecture fifth powers counterexample, different equation"}
+{"id": "W2014985855", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "sums of three cubes, unrelated"}
+{"id": "W2020272617", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "completeness thresholds, unrelated"}
+{"id": "W2021073476", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "converse of Waring problem, unrelated"}
+{"id": "W2023011716", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Elliott sequences of integers, unrelated"}
+{"id": "W2034596135", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "primitive sequences, unrelated"}
+{"id": "W2039481459", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "reciprocal bases, unrelated"}
+{"id": "W2043225947", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Sidon sets as asymptotic bases, different problem"}
+{"id": "W204468088", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "history chapter of number theory book, general"}
+{"id": "W2045789201", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "addition theorem mod p, unrelated"}
+{"id": "W2052274976", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "sum sets of Sidon sets, different Erdos problem"}
+{"id": "W2054140454", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "primitive sequences, unrelated"}
+{"id": "W2065692742", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "sums of two cubes in polynomials, different problem"}
+{"id": "W2065880080", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "consecutive-integer blocks sums, unrelated"}
+{"id": "W2068131989", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "bases for sets of integers, unrelated"}
+{"id": "W2069388296", "include": "yes", "category": "A", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Ruzsa almost polynomial Sidon sequence, partial result on the polynomial Sidon problem"}
+{"id": "W2071478109", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "sum sets of Sidon sets, different Erdos problem"}

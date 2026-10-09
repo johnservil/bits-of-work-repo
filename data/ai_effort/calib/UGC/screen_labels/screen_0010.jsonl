@@ -1,0 +1,100 @@
+{"id": "W2225750372", "keep": true, "why": "stable instances of Max-Cut, multiway cut"}
+{"id": "W2225933233", "keep": false, "why": "sparse PCA approximability"}
+{"id": "W2227764400", "keep": false, "why": "k-way partitioning via SDP, bundle method"}
+{"id": "W2229053133", "keep": false, "why": "k-path covers"}
+{"id": "W2229954659", "keep": false, "why": "spanner hardness"}
+{"id": "W2232305496", "keep": true, "why": "quantum XOR games"}
+{"id": "W2234995292", "keep": false, "why": "topological tensor products, metric theory"}
+{"id": "W2235071187", "keep": true, "why": "nonlocal games survey"}
+{"id": "W2238018701", "keep": true, "why": "UGC-hardness, Max k-CSP"}
+{"id": "W2241405024", "keep": true, "why": "anchoring games, parallel repetition"}
+{"id": "W2242403914", "keep": true, "why": "subexponential algorithms for unique games"}
+{"id": "W2246801328", "keep": true, "why": "SDP and combinatorial optimization"}
+{"id": "W2249596971", "keep": false, "why": "temporal CSP approximation"}
+{"id": "W2253388016", "keep": false, "why": "AM with multiple Merlins"}
+{"id": "W2254328923", "keep": false, "why": "above-average CSP parameterized algorithms"}
+{"id": "W2254494673", "keep": true, "why": "unique games, Boolean hypercube, graph lifts"}
+{"id": "W2255379171", "keep": true, "why": "cosystolic expanders, high-dimensional"}
+{"id": "W2256256972", "keep": true, "why": "low-degree long code, hypergraph coloring"}
+{"id": "W2256374442", "keep": false, "why": "balanced separators in road networks"}
+{"id": "W2257080673", "keep": true, "why": "maximum acyclic subgraph approximation"}
+{"id": "W2258079515", "keep": true, "why": "hardest formulations, 0/1 Lasserre"}
+{"id": "W2258798086", "keep": true, "why": "non-unique games, cryo-EM orientation"}
+{"id": "W2260276383", "keep": true, "why": "hypergraph edge expansion, spectral"}
+{"id": "W2262666886", "keep": false, "why": "multisection in stochastic block model"}
+{"id": "W2263037917", "keep": false, "why": "beyond worst-case approximation"}
+{"id": "W2265377224", "keep": false, "why": "election audits, randomness"}
+{"id": "W2266670540", "keep": false, "why": "entanglement-assisted Lovasz theta"}
+{"id": "W2269732096", "keep": true, "why": "approximability of Min CSPs"}
+{"id": "W2270781570", "keep": true, "why": "minimum linear arrangement, higher eigenvalues"}
+{"id": "W2272045681", "keep": false, "why": "independent sets in sparse graphs"}
+{"id": "W2272170891", "keep": false, "why": "maximum induced expanders approximation"}
+{"id": "W2272705023", "keep": true, "why": "minimum unique game, small set expansion"}
+{"id": "W2272853635", "keep": true, "why": "lower bound for unique games problem"}
+{"id": "W2277469547", "keep": true, "why": "unique games and graph expansion"}
+{"id": "W2278935364", "keep": false, "why": "modularity bounds, eigenvectors"}
+{"id": "W228077171", "keep": true, "why": "nonlocal correlations, interactive games"}
+{"id": "W2282473939", "keep": true, "why": "expansion of graph powers"}
+{"id": "W2284746893", "keep": false, "why": "SDP product rules, quantum query complexity"}
+{"id": "W2284855724", "keep": false, "why": "cryptographic hardness, local functions"}
+{"id": "W2285223547", "keep": true, "why": "NP-inapproximability, 2-variable linear equations"}
+{"id": "W2285342101", "keep": false, "why": "nodal domains, 1-Laplacian"}
+{"id": "W2285737492", "keep": false, "why": "product-state approximations, quantum states"}
+{"id": "W2286679426", "keep": true, "why": "lift-and-project methods, combinatorial optimization"}
+{"id": "W2286706273", "keep": true, "why": "vertex cover gaps, Sherali-Adams"}
+{"id": "W2289072789", "keep": true, "why": "affine reductions for LPs and SDPs"}
+{"id": "W2289435862", "keep": false, "why": "multiwinner voting rules"}
+{"id": "W2290522125", "keep": true, "why": "sum-of-squares tensor decomposition, sparse vectors"}
+{"id": "W2291107068", "keep": false, "why": "finite-valued CSP complexity"}
+{"id": "W2292059414", "keep": false, "why": "Gromov-hyperbolicity, cuts and expansions"}
+{"id": "W2293371160", "keep": true, "why": "covering CSPs"}
+{"id": "W2293386845", "keep": true, "why": "non-convex compressed sensing, SoS"}
+{"id": "W2293497821", "keep": false, "why": "Sync-Rank, rank aggregation"}
+{"id": "W2295173494", "keep": false, "why": "data packing hardness"}
+{"id": "W2295225727", "keep": false, "why": "spectral embedding, k-cliques, k-means"}
+{"id": "W2295286740", "keep": false, "why": "parameterized complexity, graph arrangements"}
+{"id": "W2295501631", "keep": false, "why": "treewidth inapproximability"}
+{"id": "W2295961103", "keep": false, "why": "polylogarithmic inapproximability"}
+{"id": "W2296146816", "keep": false, "why": "structure vs combinatorics, complexity"}
+{"id": "W2296150830", "keep": false, "why": "pebble games and linear equations"}
+{"id": "W2296317949", "keep": false, "why": "linear index coding via SDP"}
+{"id": "W2297715607", "keep": false, "why": "graph generator survey"}
+{"id": "W2300719146", "keep": true, "why": "noise stability and half-spaces"}
+{"id": "W2301205936", "keep": false, "why": "planted 3-coloring random models"}
+{"id": "W2302438773", "keep": true, "why": "noisy tensor completion, SoS"}
+{"id": "W2304492655", "keep": true, "why": "Boolean and pseudo-Boolean function algorithms"}
+{"id": "W2306186691", "keep": true, "why": "SoS lower bounds, symmetric formulations"}
+{"id": "W2307719096", "keep": true, "why": "approximating projection games"}
+{"id": "W2320124569", "keep": false, "why": "product mixing, alternating group"}
+{"id": "W2327131051", "keep": true, "why": "weighted t-uniform sparsest cut approximation"}
+{"id": "W2327680971", "keep": true, "why": "log-Sobolev inequalities"}
+{"id": "W232814632", "keep": true, "why": "CSP gaps in Lasserre hierarchy"}
+{"id": "W2328983859", "keep": false, "why": "path TSP and TAP approximation"}
+{"id": "W2330497895", "keep": false, "why": "inference on graphs via SDP"}
+{"id": "W2331602765", "keep": true, "why": "NP-inapproximability, discrete Fourier analysis, geometry"}
+{"id": "W2332557226", "keep": false, "why": "learning and approximation intractability"}
+{"id": "W2332701672", "keep": false, "why": "Laplacian linear equations algorithms"}
+{"id": "W2334237942", "keep": false, "why": "Fourier coefficients of L_p functions"}
+{"id": "W2336106727", "keep": true, "why": "high-dimensional random walks, colorful expansion"}
+{"id": "W2336168952", "keep": false, "why": "tree augmentation lift-and-project"}
+{"id": "W2336564206", "keep": false, "why": "information theory, polyhedral combinatorics"}
+{"id": "W2339253107", "keep": false, "why": "heavy hitters clustering"}
+{"id": "W2340722762", "keep": false, "why": "switched systems, dual SoS"}
+{"id": "W2341022752", "keep": true, "why": "SoS lower bound, planted clique"}
+{"id": "W2342359613", "keep": true, "why": "lecture: approximation for unique games"}
+{"id": "W2342433841", "keep": false, "why": "Szemeredi theorem, arithmetic progressions"}
+{"id": "W2342563361", "keep": false, "why": "minimum error correction, FPT"}
+{"id": "W2343841970", "keep": true, "why": "node unique label cover algorithm"}
+{"id": "W2345432430", "keep": true, "why": "refuting random CSPs below spectral threshold"}
+{"id": "W2345473721", "keep": true, "why": "hypergraph Laplacian, approximation algorithms"}
+{"id": "W2345608018", "keep": true, "why": "certifying random polynomials, SoS"}
+{"id": "W2346393863", "keep": true, "why": "local graph clustering, evolving sets"}
+{"id": "W2351811947", "keep": true, "why": "SoS lower bounds, binary polynomial optimization"}
+{"id": "W2353214757", "keep": false, "why": "graph protection approximation"}
+{"id": "W235419749", "keep": true, "why": "balanced Max 2-SAT hardness"}
+{"id": "W2359433451", "keep": false, "why": "constrained spectral clustering"}
+{"id": "W2360215740", "keep": false, "why": "balls and bins, negative dependence"}
+{"id": "W2394794047", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2395905123", "keep": true, "why": "direct product testing, nearly identical sets"}
+{"id": "W2396393208", "keep": false, "why": "narrow proofs, proof complexity"}
+{"id": "W2397159611", "keep": true, "why": "bypassing UGC, geometric inapproximability"}

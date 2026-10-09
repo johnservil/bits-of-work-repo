@@ -1,0 +1,2 @@
+{"id": "W7147138693", "include": "yes", "category": "A", "weight": 0.33, "solves": false, "ai_assisted": true, "confidence": 0.8, "reason": "one of three proofs constructs a basis answering the second (bounded-gaps splitting) question; AI-generated, first question not addressed"}
+{"id": "seed:erdos-28-18", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general Erdős problem collection; title does not name this problem"}

@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_low_weight_summary"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge low-weight codeword search, fixed n=1280, R=0.5 track summary: best weight 204 at n=1280 (GV ~144)"
+instance_size: 1280
+instance_size_unit: "n"
+log2_ops: null
+method: "cuBJMM [eprint:2024/393]"
+structure_exploited: false
+hardware: "10 desktop PCs (5 with RTX 4080 + Intel Core i9-12900, 5 with RTX 3090 + Intel Core i9-12900)"
+raw_compute: "62.4 days (expected runtime is 440 days for 10 desktop PCs)"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2024-09-02"
+solvers: ["Shintaro Narisada", "Hiroki Okada", "Shusaku Uemura", "Yusuke Aikawa", "Kazuhide Fukushima", "Shinsaku Kiyomoto"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/low-weight/halloffame"
+other_urls: ["https://decodingchallenge.org/low-weight", "https://decodingchallenge.org/low-weight/record/20"]
+confidence: 0.85
+verified: false
+notes: "SUMMARY FILE - duplicates the latest progression record; exclude from record counts. Hall of fame has 21 entries (first ten solvers per instance). Progression (n or weight, date): w568 2019-07, w240 2019-08, w235 2019-08, w233 2019-08, w231 2019-08, w230 2019-09, w224 2019-09, w220 2019-10, w215 2020-06, w214 2023-05, w212 2023-06, w211 2024-02, w210 2024-06, w209 2024-06, w204 2024-09. Full table: dc_low_weight_hof.csv. Harvested 2026-10-08."

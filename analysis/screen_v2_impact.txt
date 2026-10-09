@@ -1,0 +1,17 @@
+v2 screen would add 1840 items not screened by v1 (1457 with crypto/lattice/decoding context)
+by era: {'2006+': 1374, 'pre-2006': 466}
+by source: {'dblp': 310, 'dblp|openalex|zbmath': 38, 'dblp|eprint|openalex': 103, 'dblp|openalex': 191, 'dblp|eprint': 221, 'dblp|zbmath': 48, 'dblp|eprint|openalex|zbmath': 16, 'dblp|eprint|zbmath': 6, 'openalex': 237, 'openalex|zbmath': 53, 'eprint|openalex': 49, 'eprint|openalex|zbmath': 2, 'zbmath': 202, 'eprint|zbmath': 7, 'eprint': 357}
+by class set and context:
+  ecdlp                          ctx=True: 985
+  comparator                     ctx=True: 198
+  ecdlp                          ctx=False: 177
+  lattice                        ctx=False: 160
+  lattice                        ctx=True: 129
+  code                           ctx=True: 121
+  comparator                     ctx=False: 22
+  comparator+ecdlp               ctx=True: 21
+  code                           ctx=False: 21
+  comparator+ecdlp               ctx=False: 3
+  ecdlp+lattice                  ctx=True: 1
+  comparator+lattice             ctx=True: 1
+  code+lattice                   ctx=True: 1

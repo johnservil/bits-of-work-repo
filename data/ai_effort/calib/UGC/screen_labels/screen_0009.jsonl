@@ -1,0 +1,100 @@
+{"id": "W2155618818", "keep": true, "why": "unique games on expanding constraint graphs"}
+{"id": "W2155986034", "keep": false, "why": "SDP bounds for graph bandwidth"}
+{"id": "W2156184725", "keep": false, "why": "universal traversal sequences, maze complexity"}
+{"id": "W2156397150", "keep": false, "why": "regularity lemma, dense approximation schemes"}
+{"id": "W2156747735", "keep": true, "why": "LP lower bound for vertex cover, UG-line"}
+{"id": "W2156760067", "keep": false, "why": "planar graph approximation algorithms"}
+{"id": "W2156792066", "keep": true, "why": "approximation via SDP hierarchies"}
+{"id": "W2156867528", "keep": true, "why": "fully parallelized multi-prover NEXP"}
+{"id": "W2157295389", "keep": false, "why": "FPT feedback vertex set compression"}
+{"id": "W2157316274", "keep": true, "why": "sparsest cut and linear arrangement inapproximability"}
+{"id": "W2157381209", "keep": false, "why": "QMA-complete approximation"}
+{"id": "W2157721290", "keep": false, "why": "scenario scheduling, two machines"}
+{"id": "W2158170224", "keep": false, "why": "two provers one round, PSPACE"}
+{"id": "W2158907148", "keep": true, "why": "geometry of cuts and metrics"}
+{"id": "W2159113540", "keep": true, "why": "max satisfiable linear equations, bounded width"}
+{"id": "W2159363909", "keep": true, "why": "monogamy-of-entanglement game, device-independent"}
+{"id": "W2159431940", "keep": true, "why": "LS hierarchy rank bounds"}
+{"id": "W2160033075", "keep": true, "why": "hypergraph coloring hardness"}
+{"id": "W2160108357", "keep": false, "why": "reconstructing multivariate polynomials"}
+{"id": "W2160295603", "keep": true, "why": "Max-Cut on multiprojective blow-ups"}
+{"id": "W2160909640", "keep": false, "why": "hardness amplification, proof complexity"}
+{"id": "W2161066177", "keep": true, "why": "strong noise sensitivity, random graphs"}
+{"id": "W2161185760", "keep": true, "why": "faster SDP hierarchy solvers, local rounding"}
+{"id": "W2161410202", "keep": false, "why": "semi-algebraic proofs, finite fields"}
+{"id": "W2161426767", "keep": false, "why": "commuting local Hamiltonian, expanders"}
+{"id": "W2161639415", "keep": false, "why": "eigenfunctions of Markov processes"}
+{"id": "W2161666429", "keep": true, "why": "local testing of direct product"}
+{"id": "W2161719898", "keep": true, "why": "multicut and sparsest-cut hardness"}
+{"id": "W2161737792", "keep": true, "why": "every 2-CSP allows nontrivial approximation"}
+{"id": "W2162018802", "keep": false, "why": "approximate coloring via SDP"}
+{"id": "W2162117620", "keep": true, "why": "Gaussian noise correlation, long codes"}
+{"id": "W2162312882", "keep": true, "why": "derandomized parallel repetition, free games"}
+{"id": "W2162703074", "keep": true, "why": "size-degree bounds for SoS proofs"}
+{"id": "W2162746978", "keep": true, "why": "making the long code shorter"}
+{"id": "W2162784288", "keep": true, "why": "approximation resistance of random predicate"}
+{"id": "W2162898372", "keep": false, "why": "pointer jumping communication lower bound"}
+{"id": "W2162910736", "keep": true, "why": "Grothendieck constant vs Krivine bound"}
+{"id": "W2163010692", "keep": true, "why": "correlation distillation, reverse Bonami-Beckner"}
+{"id": "W2163290928", "keep": false, "why": "spectral rounding for image segmentation"}
+{"id": "W2163332813", "keep": false, "why": "Gaussian surface area, polynomial threshold functions"}
+{"id": "W2163430289", "keep": true, "why": "d-to-1 approximation resistance, parity predicates"}
+{"id": "W2163710432", "keep": true, "why": "two provers success probability, one round"}
+{"id": "W2163925208", "keep": true, "why": "subexponential algorithms for unique games"}
+{"id": "W2164137075", "keep": false, "why": "transparent holographic proofs"}
+{"id": "W2165732281", "keep": true, "why": "near-optimal algorithms for unique games"}
+{"id": "W2165755074", "keep": true, "why": "multiway spectral partitioning, higher-order Cheeger"}
+{"id": "W2165874743", "keep": false, "why": "spectral clustering analysis"}
+{"id": "W2166333866", "keep": false, "why": "community detection reconstruction thresholds"}
+{"id": "W2166341236", "keep": true, "why": "unique games with entangled provers"}
+{"id": "W2166369652", "keep": false, "why": "vertex cover in bounded degree graphs"}
+{"id": "W2166536886", "keep": true, "why": "SDP integrality gaps, local l1 embeddability"}
+{"id": "W2167061810", "keep": true, "why": "Euclidean distortion, sparsest cut"}
+{"id": "W2167236203", "keep": true, "why": "geometric embedding for multiway cut rounding"}
+{"id": "W2167816765", "keep": false, "why": "discrete geometry lectures"}
+{"id": "W2168991396", "keep": false, "why": "derandomization survey, hardness as randomness"}
+{"id": "W2169143327", "keep": false, "why": "buy-at-bulk hardness"}
+{"id": "W2169488047", "keep": true, "why": "usefulness of predicates, approximation"}
+{"id": "W2169528477", "keep": false, "why": "hierarchical decompositions, congestion"}
+{"id": "W2170827767", "keep": true, "why": "influence of monotone Boolean functions"}
+{"id": "W2170966701", "keep": false, "why": "facility location integrality gaps"}
+{"id": "W2171001107", "keep": false, "why": "average-case vs approximation complexity"}
+{"id": "W2171194443", "keep": false, "why": "tensor prediction, Rademacher complexity"}
+{"id": "W2171695231", "keep": true, "why": "maximally stable Gaussian partitions"}
+{"id": "W217353991", "keep": false, "why": "clique and chromatic number lower bounds"}
+{"id": "W2173911363", "keep": false, "why": "P-selective sets, self-reducibility"}
+{"id": "W2173985621", "keep": false, "why": "edge dominating set, dense graphs"}
+{"id": "W2174563490", "keep": true, "why": "entanglement in quantum multi-prover proofs"}
+{"id": "W2175530190", "keep": false, "why": "partial covering problems, unified approach"}
+{"id": "W2175797755", "keep": true, "why": "Grothendieck constant vs Krivine bound"}
+{"id": "W2176446742", "keep": false, "why": "geometry of graphs, algorithmic survey"}
+{"id": "W2176557215", "keep": true, "why": "parallel repetition of two-prover games, exposition"}
+{"id": "W2177980858", "keep": true, "why": "perfect parallel repetition, quantum XOR"}
+{"id": "W2179025976", "keep": false, "why": "number field sieve"}
+{"id": "W2179897858", "keep": true, "why": "approximation-resistant predicates, pairwise independence"}
+{"id": "W2181409568", "keep": false, "why": "dense structures in graphs and matrices"}
+{"id": "W2181445345", "keep": true, "why": "analysis open problems, Boolean functions"}
+{"id": "W2181448879", "keep": false, "why": "quadratic knapsack approximation"}
+{"id": "W2183497771", "keep": true, "why": "higher Laplacian eigenvalues references"}
+{"id": "W2183903896", "keep": false, "why": "discrete p-Laplacians workshop"}
+{"id": "W2184772706", "keep": true, "why": "approximation, graph algorithms, inapproximability thesis"}
+{"id": "W2185716868", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2186213904", "keep": true, "why": "expansion in simplicial complexes"}
+{"id": "W2187412414", "keep": true, "why": "SoS upper and lower bounds survey"}
+{"id": "W2187615058", "keep": true, "why": "complexity of entangled games"}
+{"id": "W2187660649", "keep": false, "why": "consecutive ones property, genomics"}
+{"id": "W2187798987", "keep": true, "why": "conic formulations, nonlocal games"}
+{"id": "W2188866658", "keep": true, "why": "UGC integrality gap, negative type metrics"}
+{"id": "W2195657359", "keep": true, "why": "two-prover proofs vs nonlocal strategies"}
+{"id": "W2195686041", "keep": true, "why": "SoS for tensor decomposition, sparse vectors"}
+{"id": "W2195836695", "keep": true, "why": "perfect parallel repetition, quantum XOR"}
+{"id": "W2197920617", "keep": false, "why": "van der Waerden threshold"}
+{"id": "W2202947145", "keep": true, "why": "free bits PCPs, nonapproximability"}
+{"id": "W2206682456", "keep": true, "why": "parallel repetition of free entangled games"}
+{"id": "W220783915", "keep": false, "why": "graph algorithms survey"}
+{"id": "W2210199651", "keep": false, "why": "envy-free pricing"}
+{"id": "W2216459995", "keep": false, "why": "SDP on sparse random graphs, community detection"}
+{"id": "W2218607027", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2219311948", "keep": false, "why": "strong reductions for extended formulations"}
+{"id": "W2220889674", "keep": false, "why": "probably certifiably correct algorithms"}
+{"id": "W2221384962", "keep": true, "why": "Max-2Lin, Max-3Lin hardness"}

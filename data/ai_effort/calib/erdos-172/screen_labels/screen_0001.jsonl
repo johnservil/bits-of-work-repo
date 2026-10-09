@@ -1,0 +1,100 @@
+{"id": "W2044429866", "keep": true, "why": "Graham conjecture, sequences"}
+{"id": "W2045789201", "keep": true, "why": "addition theorem modulo p"}
+{"id": "W2046941141", "keep": true, "why": "Graham conjecture, prime sequences"}
+{"id": "W2052059867", "keep": true, "why": "squarefree numbers in sumsets"}
+{"id": "W2052802307", "keep": true, "why": "balancing integer sequence families"}
+{"id": "W2052804318", "keep": false, "why": "elementary geometry combinatorics, unrelated"}
+{"id": "W2053221842", "keep": false, "why": "distinct unit fractions, different object"}
+{"id": "W2053383608", "keep": true, "why": "ultrafilters, multidimensional Ramsey"}
+{"id": "W2053524037", "keep": false, "why": "zero-sum sequence index, different object"}
+{"id": "W2053637971", "keep": false, "why": "runs of residues, unrelated"}
+{"id": "W2054140454", "keep": true, "why": "primitive sequences, Erdos"}
+{"id": "W2056371938", "keep": false, "why": "large prime factor numbers, unrelated"}
+{"id": "W2056806689", "keep": false, "why": "multiplicative function sums, unrelated"}
+{"id": "W2059984909", "keep": false, "why": "Ramsey for triangles in plane, geometry"}
+{"id": "W2063156942", "keep": true, "why": "additive and multiplicative Ramsey theory"}
+{"id": "W2065042838", "keep": true, "why": "sumsets in integer sets"}
+{"id": "W2065813984", "keep": true, "why": "partitions with pairwise sums and products"}
+{"id": "W2065880080", "keep": true, "why": "linear combinations of integer intervals"}
+{"id": "W2066637298", "keep": false, "why": "covering by congruence classes, unrelated"}
+{"id": "W2067308203", "keep": true, "why": "partitions with sums of products"}
+{"id": "W2068131989", "keep": true, "why": "bases for integer sets"}
+{"id": "W2069220307", "keep": false, "why": "Markov shift recurrence, unrelated"}
+{"id": "W2070496958", "keep": true, "why": "combinatorics study, possibly Ramsey"}
+{"id": "W2071163682", "keep": false, "why": "Behrend progression-free sets, different object"}
+{"id": "W2071201678", "keep": true, "why": "partitions with sums and products"}
+{"id": "W2072075682", "keep": false, "why": "arithmetic progressions remark, different object"}
+{"id": "W2073127444", "keep": false, "why": "factorial prime powers, unrelated"}
+{"id": "W2073594241", "keep": false, "why": "Erdos-Straus-Schinzel problem, unrelated"}
+{"id": "W2076244356", "keep": false, "why": "Boolean function values, unrelated"}
+{"id": "W2077900329", "keep": false, "why": "exactly covering systems"}
+{"id": "W2079979850", "keep": true, "why": "addition theorems"}
+{"id": "W2080123161", "keep": false, "why": "non-repetitive words, unrelated"}
+{"id": "W2082471372", "keep": true, "why": "density and pairwise sums of integers"}
+{"id": "W2085477555", "keep": true, "why": "partitions with equal products"}
+{"id": "W2086041665", "keep": true, "why": "differences of sets, Graham problem"}
+{"id": "W2087567316", "keep": false, "why": "finite set subsets, Sperner-type, unrelated"}
+{"id": "W2087839647", "keep": false, "why": "zero-free sequences structure, different object"}
+{"id": "W2088100739", "keep": false, "why": "signed reciprocal sums, unrelated"}
+{"id": "W2088212677", "keep": false, "why": "ergodic Szemeredi commuting transformations"}
+{"id": "W2088339746", "keep": true, "why": "complementary sets of integers"}
+{"id": "W2090294545", "keep": true, "why": "Ramsey product theorem"}
+{"id": "W2093164441", "keep": false, "why": "harmonic series remark, unrelated"}
+{"id": "W2095095818", "keep": false, "why": "Frobenius linear Diophantine bound, unrelated"}
+{"id": "W2095689360", "keep": true, "why": "original Ramsey theorem paper"}
+{"id": "W2097926077", "keep": false, "why": "binomial prime factorization, unrelated"}
+{"id": "W2107062643", "keep": false, "why": "zero-free sequences cyclic groups"}
+{"id": "W2108900323", "keep": true, "why": "sets of integers, Erdos-type"}
+{"id": "W2110917011", "keep": false, "why": "well-quasi-ordering theory, unrelated"}
+{"id": "W2111220106", "keep": true, "why": "additive number theory results"}
+{"id": "W2113268225", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "W2115034958", "keep": true, "why": "s-additive sequences"}
+{"id": "W2115811550", "keep": true, "why": "Erdos-Graham question note"}
+{"id": "W2118381068", "keep": true, "why": "elementary number theory combinatorial problem"}
+{"id": "W2120600794", "keep": true, "why": "multiplicative representation of integers"}
+{"id": "W2125817895", "keep": true, "why": "Erdos number theory remarks"}
+{"id": "W2128000059", "keep": false, "why": "consecutive primes problems, unrelated"}
+{"id": "W2132134025", "keep": false, "why": "no four-term progressions, different object"}
+{"id": "W2134817795", "keep": false, "why": "odd integers density, unrelated"}
+{"id": "W2136069334", "keep": false, "why": "non-repetitive progression-free sets"}
+{"id": "W2138069615", "keep": false, "why": "progression-free integer sets"}
+{"id": "W2138899395", "keep": false, "why": "better-quasi-ordering, unrelated"}
+{"id": "W2140028675", "keep": true, "why": "sums of distinct terms from sequence"}
+{"id": "W2142443207", "keep": true, "why": "Erdos-Szemeredi sum-product problem"}
+{"id": "W2142683079", "keep": false, "why": "Euclidean Ramsey theorems, geometry"}
+{"id": "W2145433475", "keep": true, "why": "unconventional problems in number theory"}
+{"id": "W2160948516", "keep": false, "why": "Euler totient, unrelated"}
+{"id": "W2163674569", "keep": false, "why": "progression-bounded integer sets"}
+{"id": "W2166698266", "keep": true, "why": "Graham conjecture on gcds"}
+{"id": "W228379338", "keep": true, "why": "Hanani conjecture, additive"}
+{"id": "W229079384", "keep": false, "why": "Frobenius linear Diophantine problem"}
+{"id": "W2313298573", "keep": true, "why": "Erdos problem, unclear"}
+{"id": "W2313391498", "keep": true, "why": "non-averaging integer sets"}
+{"id": "W2314290950", "keep": true, "why": "bases of natural numbers"}
+{"id": "W2314823304", "keep": false, "why": "Kellogg Diophantine problem, unrelated"}
+{"id": "W2316785615", "keep": false, "why": "game theory problem, unrelated"}
+{"id": "W2316932045", "keep": false, "why": "order type conjecture, unrelated"}
+{"id": "W2317251561", "keep": true, "why": "extremal number theory problem"}
+{"id": "W2320330683", "keep": false, "why": "linear Diophantine Frobenius-type"}
+{"id": "W2320708790", "keep": false, "why": "polynomial irreducibility, unrelated"}
+{"id": "W2321243920", "keep": false, "why": "binomial coefficient occurrences"}
+{"id": "W2321688441", "keep": false, "why": "sums of squares, unrelated"}
+{"id": "W2322536451", "keep": false, "why": "Uspensky theorem, unrelated"}
+{"id": "W2323607775", "keep": false, "why": "prime factors consecutive integers"}
+{"id": "W2323898634", "keep": false, "why": "Fermat converse, unrelated"}
+{"id": "W2325408613", "keep": true, "why": "colouring integers remark"}
+{"id": "W2326082038", "keep": true, "why": "Erdos-Rado combinatorial theorem"}
+{"id": "W2327456046", "keep": true, "why": "sums of distinct divisors"}
+{"id": "W2328084579", "keep": false, "why": "orthogonal set families, unrelated"}
+{"id": "W2328110742", "keep": false, "why": "sequences on four symbols, unrelated"}
+{"id": "W2328642983", "keep": true, "why": "Waring problem survey, representation as sums"}
+{"id": "W2328726307", "keep": true, "why": "Moser problem remarks"}
+{"id": "W2329503866", "keep": false, "why": "covering systems"}
+{"id": "W2330076678", "keep": false, "why": "p^k/k problem, unrelated"}
+{"id": "W2330372082", "keep": true, "why": "Graham conjecture on integer sequence"}
+{"id": "W2331753091", "keep": false, "why": "consecutive composite numbers, unrelated"}
+{"id": "W2334191667", "keep": false, "why": "Beatty sequences continued fractions"}
+{"id": "W2334488458", "keep": false, "why": "arithmetic progressions questions, different object"}
+{"id": "W2335290204", "keep": false, "why": "fractions bounded numerators, unrelated"}
+{"id": "W2335606727", "keep": true, "why": "partitions problem, possibly additive"}
+{"id": "W2337272372", "keep": true, "why": "Erdos-Graham question note"}

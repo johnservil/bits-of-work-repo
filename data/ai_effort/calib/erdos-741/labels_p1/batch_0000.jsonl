@@ -1,0 +1,2 @@
+{"id": "W7147138693", "include": "yes", "category": "A", "weight": 0.33, "solves": false, "ai_assisted": true, "confidence": 0.6, "reason": "one of three short proofs; resolves a basis-splitting (bounded-gaps) question of Erdos closely tied to the statement; AI-generated"}
+{"id": "seed:erdos-28-18", "include": "borderline", "category": "S", "weight": 0.03, "solves": false, "ai_assisted": false, "confidence": 0.25, "reason": "Erdos problem collection that may mention the problem"}

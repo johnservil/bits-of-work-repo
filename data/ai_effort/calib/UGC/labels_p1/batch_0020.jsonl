@@ -1,0 +1,40 @@
+{"id": "W3101751096", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "correlated sampling"}
+{"id": "W3101852693", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS lower bound machinery"}
+{"id": "W3101872385", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph expanders"}
+{"id": "W3102313022", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "list decoding direct sum"}
+{"id": "W3103578399", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "plurality is stablest"}
+{"id": "W3104153247", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Sobolev Poincare inequality"}
+{"id": "W3105711037", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS binary optimization"}
+{"id": "W3109890488", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "correlated sampling"}
+{"id": "W3113232949", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "small set vertex expansion parameterized"}
+{"id": "W3115006996", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "higher order walks thesis"}
+{"id": "W3118384327", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "log-Sobolev SoS"}
+{"id": "W3128760565", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "local-to-global expansion"}
+{"id": "W3135158295", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "anchored parallel repetition"}
+{"id": "W3137584217", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "agreement tests biased cube"}
+{"id": "W3137884736", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "negative type embeddings"}
+{"id": "W3138766854", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "strong parallel repetition for unique games on small set expanders"}
+{"id": "W3147833009", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semi-random hypergraphs"}
+{"id": "W3150556231", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "coloring hardness"}
+{"id": "W3154362624", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "L1 embeddability"}
+{"id": "W3155946679", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "infinite-domain CSPs"}
+{"id": "W3157712555", "include": "yes", "category": "F", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "FPC lower bounds for approximating unique games"}
+{"id": "W3157845808", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "0-extension gap"}
+{"id": "W3163739104", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS bit complexity"}
+{"id": "W3168358336", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entropic independence"}
+{"id": "W3170539426", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Glauber dynamics mixing"}
+{"id": "W3174938715", "include": "yes", "category": "F", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "FPC inexpressibility results for unique games"}
+{"id": "W3179914473", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS symmetric functions"}
+{"id": "W3183380864", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Lasserre gaps for spanners"}
+{"id": "W3184476290", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "unique games algorithm on high dimensional expanders"}
+{"id": "W3186467916", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "promise CSP reductions"}
+{"id": "W3191189891", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Gaussian noise stability"}
+{"id": "W3200593310", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "approximation hardness"}
+{"id": "W3201180760", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph junta method"}
+{"id": "W3202012722", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Sherali-Adams on low threshold rank graphs, UG-adjacent"}
+{"id": "W3205825087", "include": "yes", "category": "S", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "exposition of the proof of the 2-to-2 Games Conjecture"}
+{"id": "W3207594656", "include": "borderline", "category": "C", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "multi-slice invariance principle, possible 2-to-1 applications"}
+{"id": "W3208004815", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "voting algorithms for unique games on complete graphs"}
+{"id": "W3211097910", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypercontractivity tensor calculus"}
+{"id": "W3211690185", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS sparse independent set"}
+{"id": "W3212348617", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "hypercontractivity on HDX"}

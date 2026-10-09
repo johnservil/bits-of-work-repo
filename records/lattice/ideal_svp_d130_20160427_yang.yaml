@@ -1,0 +1,25 @@
+id: "ideal_svp_d130_20160427_yang"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge SVP dim 130 (index 131)"
+instance_size: 130
+instance_size_unit: "dim"
+log2_ops: null
+method: "GPU Gauss sieve (ideal structure)"
+structure_exploited: true
+hardware: "8x NVIDIA Titan X"
+raw_compute: "sieving with eight Titan X cards; found in 823 hours"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 34.29
+date: "2016-04-27"
+solvers: ["Shang-Yi Yang"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (SVP HoF)"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/svphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php"]
+confidence: 0.85
+verified: false
+notes: "Ideal Lattice Challenge (Plantard-Schneider): random ideal lattices from cyclotomic polynomials; SVP HoF threshold is a Gaussian-heuristic-based bound (formula shown as image on site), so this is approx-SVP near GH, not proven exact SVP. Not a max-dimension progression entry. HoF: cyclotomic index 131, seed 0, norm 2912, 'using ideal structure' = yes. Not a max-dimension record (dim 130 first solved 2015-09-03); shorter-vector entry included as an early multi-GPU sieving datapoint. Implied ~0.75 GPU-years (8 x 823 h; derived, so gpu_years left null). Likely Yang-Kuo-Yang-Cheng GPU Gauss sieve work (unconfirmed)."

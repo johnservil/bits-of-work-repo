@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_sd_n370"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge sd n=370 w=46"
+instance_size: 370
+instance_size_unit: "n"
+log2_ops: 39.0
+method: "Dumer implementation by Gregory Landais"
+structure_exploited: false
+hardware: null
+raw_compute: "runtime: 1 hour"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.041666666666666664
+date: "2019-08-28"
+solvers: ["Matthieu Lequesne"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/syndrome/record/36"
+other_urls: ["https://decodingchallenge.org/syndrome/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; solver is a challenge organizer; p=6, l=19."

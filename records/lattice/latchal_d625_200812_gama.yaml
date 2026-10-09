@@ -1,0 +1,25 @@
+id: "latchal_d625_200812_gama"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt Lattice Challenge dim 625"
+instance_size: 625
+instance_size_unit: "dim"
+log2_ops: null
+method: "not stated (Gama-Nguyen)"
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2008-12"
+solvers: ["Nicolas Gama", "Phong Q. Nguyen"]
+academic: true
+challenge: "TU Darmstadt Lattice Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/details.php?id=5"
+other_urls: ["https://www.latticechallenge.org/halloffame.php", "https://www.latticechallenge.org/", "http://web.archive.org/web/20081202135127/http://www.latticechallenge.org/"]
+confidence: 0.65
+verified: false
+notes: "Original TU Darmstadt Lattice Challenge (Buchmann-Lindner-Rueckert-Schneider, PQCrypto 2008): Ajtai-type q-ary lattices; goal is any lattice vector with Euclidean norm below a stated bound n (smaller than lattice dim m). Approx-SVP / SIS-type short vector, not exact SVP. Record progression entry (new max dimension), ordered by HoF submission id 5. HoF norm 80.55. HoF gives no date for early entries; dated as upper bound: a Wayback capture of 2008-12-02 already lists Gama-Nguyen at dims 675-725. No resource statement on HoF/details page."

@@ -1,0 +1,25 @@
+{"id": "W2123293563", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general Erdős problem collection whose title does not name this problem"}
+{"id": "W3149979553", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Erdős-Sárközy origin paper on Property P sequences with constructions and bounds"}
+{"id": "W2111220106", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "additive complements, a different problem"}
+{"id": "W2052034072", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "greedy sequences avoiding divisibility of subset sums, a possible variant of Property P"}
+{"id": "W4244686257", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "Sárközy survey of divisibility properties of sequences, which covers Property P among other topics"}
+{"id": "seed:erdos-1-12", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "general Erdős problem collection whose title does not name this problem"}
+{"id": "W2887053484", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sumsets and covering codes in modules, unrelated"}
+{"id": "W2046941141", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham's gcd conjecture, a different problem"}
+{"id": "W2337272372", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "note on an Erdős-Graham question, not Property P"}
+{"id": "seed:erdos-12-12", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Elsholtz-Planitzer construction of dense Property P sequences"}
+{"id": "W2329503866", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "covering systems, unrelated"}
+{"id": "W1990801743", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Schoen on the Erdős-Sárközy Property P density problem"}
+{"id": "W2087699257", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "broad survey of Erdős's work on integers, not centred on this problem"}
+{"id": "W1975270114", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Erdős-Fuchs theorem on representation functions, unrelated"}
+{"id": "W2946048198", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sumset configurations in positive-density sets, unrelated"}
+{"id": "W2009830994", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "counting function of primitive sets, a different divisibility problem"}
+{"id": "W4386984735", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "covering sumsets of prime fields, unrelated"}
+{"id": "W2525887554", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "constructs a Property P set with counting function near sqrt(x), improving Erdős-Sárközy"}
+{"id": "seed:erdos-12-13", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Schoen on the Erdős-Sárközy Property P density problem"}
+{"id": "W2116109685", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "Sárközy survey of divisibility properties of sequences, which covers Property P among other topics"}
+{"id": "W177593908", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-product counts via graphs, unrelated"}
+{"id": "W1549301089", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Erdős B+C sumset conjecture, a different problem"}
+{"id": "W152445509", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-product phenomenon, unrelated"}
+{"id": "seed:erdos-12-14", "include": "yes", "category": "A", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "note on P-sets, sets with Property P"}
+{"id": "W2068465902", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "density of primitive sets, a different divisibility problem"}

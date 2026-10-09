@@ -1,0 +1,100 @@
+{"id": "W2174287115", "keep": false, "why": "unrelated: probabilistic lobbying"}
+{"id": "W2176550001", "keep": false, "why": "unrelated: connectivity augmentation"}
+{"id": "W2179025976", "keep": false, "why": "unrelated: number field sieve"}
+{"id": "W2179557794", "keep": false, "why": "unrelated: wavelength assignment"}
+{"id": "W2179841277", "keep": false, "why": "unrelated: data exchange"}
+{"id": "W2179897858", "keep": true, "why": "approximation resistant predicates, pairwise independence"}
+{"id": "W2181828419", "keep": false, "why": "unrelated: submodular cover"}
+{"id": "W2181992650", "keep": false, "why": "unrelated: geometric set cover PTAS"}
+{"id": "W2183232590", "keep": false, "why": "unrelated: auction mechanisms"}
+{"id": "W2183497771", "keep": true, "why": "higher Laplacian eigenvalues; expansion, unsure"}
+{"id": "W2184772706", "keep": false, "why": "generic approximation thesis"}
+{"id": "W2197920617", "keep": false, "why": "van der Waerden thresholds; no games link"}
+{"id": "W2198855630", "keep": false, "why": "quadratic threshold CSPs; no games link"}
+{"id": "W2207792509", "keep": false, "why": "unrelated: influence games"}
+{"id": "W2212352090", "keep": true, "why": "monotonicity testing, Boolean isoperimetry"}
+{"id": "W2217134819", "keep": false, "why": "unrelated: submodular utility"}
+{"id": "W2218558516", "keep": true, "why": "robust testing of lifted codes, low-degree testing"}
+{"id": "W2218607027", "keep": true, "why": "untitled record; unsure"}
+{"id": "W2229954659", "keep": false, "why": "spanner hardness; no games link"}
+{"id": "W2238018701", "keep": true, "why": "UGC-hardness of Max k-CSP"}
+{"id": "W2242403914", "keep": true, "why": "subexponential algorithms for Unique Games"}
+{"id": "W225145913", "keep": true, "why": "hardness of approximating label cover"}
+{"id": "W2254328923", "keep": false, "why": "unrelated: parameterized CSP"}
+{"id": "W2255379171", "keep": true, "why": "cosystolic expanders; high-dimensional expanders"}
+{"id": "W2260327309", "keep": false, "why": "unrelated: anonymous subgraphs"}
+{"id": "W2260686010", "keep": false, "why": "unrelated: matching markets"}
+{"id": "W2265105733", "keep": false, "why": "unrelated: geometric hitting set"}
+{"id": "W2270781570", "keep": true, "why": "higher eigenvalues for linear arrangement; unsure"}
+{"id": "W2272045681", "keep": false, "why": "unrelated: sparse independent sets"}
+{"id": "W2277469547", "keep": true, "why": "Unique Games and graph expansion complexity"}
+{"id": "W2285223547", "keep": true, "why": "2-variable linear equations inapproximability"}
+{"id": "W2292999625", "keep": false, "why": "unrelated: similarity caching"}
+{"id": "W2293988196", "keep": true, "why": "IP=PSPACE; sumcheck foundation, unsure"}
+{"id": "W2295092485", "keep": false, "why": "unrelated: polynomial-expansion graphs"}
+{"id": "W2295961103", "keep": true, "why": "polylogarithmic inapproximability; unsure"}
+{"id": "W2296570267", "keep": false, "why": "monotonicity testing; weak link"}
+{"id": "W2299844414", "keep": false, "why": "unrelated: directed hypergraphs"}
+{"id": "W2320124569", "keep": false, "why": "product mixing; weak link"}
+{"id": "W2327680971", "keep": true, "why": "log-Sobolev inequalities; hypercontractivity"}
+{"id": "W2331602765", "keep": true, "why": "inapproximability via Fourier analysis and geometry"}
+{"id": "W2334237942", "keep": true, "why": "Fourier coefficients in L_p; hypercontractivity origin"}
+{"id": "W2336962990", "keep": false, "why": "unrelated: guard games"}
+{"id": "W2342433841", "keep": false, "why": "Szemeredi theorem proof; unrelated"}
+{"id": "W2360215740", "keep": false, "why": "generic negative dependence"}
+{"id": "W238058561", "keep": false, "why": "unrelated: submodular cover"}
+{"id": "W238274961", "keep": true, "why": "hardness of approximation book; unsure"}
+{"id": "W2395853779", "keep": true, "why": "testability and decodability by tensor products"}
+{"id": "W2397920857", "keep": true, "why": "untitled record; unsure"}
+{"id": "W2398844060", "keep": false, "why": "unrelated: precedence scheduling"}
+{"id": "W2401610261", "keep": false, "why": "Karp reductions; generic"}
+{"id": "W2402915626", "keep": true, "why": "spectral algorithms for Unique Games"}
+{"id": "W2402996186", "keep": true, "why": "non-approximability of quadratic programs"}
+{"id": "W2403580050", "keep": true, "why": "Lasserre integrality gap for Unique Games"}
+{"id": "W2405263596", "keep": false, "why": "unrelated: distributed LP duality"}
+{"id": "W2405388088", "keep": true, "why": "untitled record; unsure"}
+{"id": "W2407892906", "keep": false, "why": "unrelated: schema mapping"}
+{"id": "W2409117471", "keep": true, "why": "candidate hard Unique Games instance"}
+{"id": "W241077556", "keep": false, "why": "unrelated: logic minimization learning"}
+{"id": "W2416485279", "keep": false, "why": "unrelated: unit disk PTAS"}
+{"id": "W2461430093", "keep": true, "why": "birthday repetition theorem for dense CSPs"}
+{"id": "W2465116632", "keep": false, "why": "unrelated: sparse PCA"}
+{"id": "W2471129545", "keep": false, "why": "unrelated: FPT cut algorithms"}
+{"id": "W2471455272", "keep": false, "why": "unrelated: fair division"}
+{"id": "W2490668581", "keep": false, "why": "sparsest k-partitioning algorithm; weak link"}
+{"id": "W2498848698", "keep": false, "why": "unrelated: hypergraph Turan"}
+{"id": "W2503553525", "keep": false, "why": "non-interactive simulation; weak link"}
+{"id": "W2503891541", "keep": false, "why": "unrelated: pattern matching"}
+{"id": "W2510521098", "keep": false, "why": "unrelated: intersecting families"}
+{"id": "W2519488296", "keep": false, "why": "CSP assignment testing; weak link"}
+{"id": "W2521447776", "keep": false, "why": "unrelated: auction mechanisms"}
+{"id": "W2530399420", "keep": false, "why": "unrelated: CSP correlation decay"}
+{"id": "W2535021959", "keep": false, "why": "unrelated: local search limits"}
+{"id": "W2551645677", "keep": false, "why": "unrelated: broadcast optimization"}
+{"id": "W2561474155", "keep": false, "why": "unrelated: dominating set"}
+{"id": "W256842657", "keep": false, "why": "unrelated: treewidth inapproximability"}
+{"id": "W2569303878", "keep": false, "why": "unrelated: lobbying"}
+{"id": "W2576456765", "keep": true, "why": "gap 3SAT to label cover reduction"}
+{"id": "W2579583840", "keep": true, "why": "independent sets, 2-to-2 games, Grassmann graphs"}
+{"id": "W2584410634", "keep": true, "why": "vertical vs horizontal perimeter; isoperimetry, unsure"}
+{"id": "W2585506700", "keep": true, "why": "toward the 2-to-1 games conjecture"}
+{"id": "W2588530677", "keep": true, "why": "Kneser graphs and Swiss cheese; unsure"}
+{"id": "W2591190829", "keep": false, "why": "unrelated: Reed-Muller capacity"}
+{"id": "W2591560904", "keep": true, "why": "dictatorship test with perfect completeness"}
+{"id": "W2593853527", "keep": false, "why": "monotonicity lower bounds; weak link"}
+{"id": "W2593900191", "keep": false, "why": "unrelated: distributed domination"}
+{"id": "W2594885044", "keep": true, "why": "low-degree polynomial testing over prime fields"}
+{"id": "W2600945321", "keep": false, "why": "unrelated: graph coloring algorithms"}
+{"id": "W2604607828", "keep": false, "why": "unrelated: expanders in sparse graphs"}
+{"id": "W2604766414", "keep": true, "why": "biased Boolean functions, small total influence"}
+{"id": "W2604773616", "keep": true, "why": "epsilon-balanced codes; unsure"}
+{"id": "W2605041732", "keep": false, "why": "CSP dichotomy; no games link"}
+{"id": "W2606192553", "keep": false, "why": "CSP dichotomy proof; no games link"}
+{"id": "W2607074006", "keep": true, "why": "quantum de Finetti; parallel repetition, unsure"}
+{"id": "W2607237413", "keep": true, "why": "Goemans-Linial SDP integrality gap"}
+{"id": "W2610052675", "keep": false, "why": "unrelated: group Steiner"}
+{"id": "W2610313478", "keep": true, "why": "improved low-degree testing"}
+{"id": "W2610340222", "keep": true, "why": "untitled record; unsure"}
+{"id": "W2611804663", "keep": false, "why": "generic approximation algorithms reference"}
+{"id": "W2612020548", "keep": false, "why": "unrelated: particle physics"}
+{"id": "W2612149215", "keep": true, "why": "resilient functions stability; Boolean analysis"}

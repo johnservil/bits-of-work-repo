@@ -1,0 +1,100 @@
+{"id": "W1022649828", "keep": false, "why": "integer sets, arithmetic progressions"}
+{"id": "W12159974", "keep": true, "why": "extremal problems on graphs and hypergraphs"}
+{"id": "W1482178583", "keep": true, "why": "Turan-type problem of Erdos"}
+{"id": "W1527392485", "keep": false, "why": "pairwise balanced designs"}
+{"id": "W1530753374", "keep": true, "why": "graphs and hypergraphs textbook; unsure"}
+{"id": "W1597834884", "keep": false, "why": "Peano arithmetic incompleteness"}
+{"id": "W161093273", "keep": false, "why": "legitimate deck problem"}
+{"id": "W1656795039", "keep": false, "why": "four colour theorem"}
+{"id": "W1704482318", "keep": true, "why": "Erdos-Simonovits, graphs without cube"}
+{"id": "W1815896765", "keep": true, "why": "edges in graphs without even cycle"}
+{"id": "W1864540578", "keep": true, "why": "Erdos influence on extremal graph theory"}
+{"id": "W1954214817", "keep": false, "why": "Latin squares"}
+{"id": "W1964163546", "keep": false, "why": "covering cliques of a graph"}
+{"id": "W1967546560", "keep": true, "why": "edge density, homomorphisms, Erdos-Stone type"}
+{"id": "W1970366772", "keep": false, "why": "Szemeredi AP theorem, ergodic"}
+{"id": "W1971010887", "keep": false, "why": "chromatic number of set systems"}
+{"id": "W1975745114", "keep": true, "why": "edge-maximal theta-free graphs"}
+{"id": "W1981532887", "keep": true, "why": "Turan density of triple systems"}
+{"id": "W1982270970", "keep": true, "why": "book review, extremal graph theory"}
+{"id": "W1982373193", "keep": false, "why": "colouring infinite graphs"}
+{"id": "W1983527280", "keep": false, "why": "Ramsey-type problem"}
+{"id": "W1983946246", "keep": true, "why": "rational Turan exponents"}
+{"id": "W1986233232", "keep": true, "why": "extremal graph problem"}
+{"id": "W1994338883", "keep": true, "why": "edge-maximal C_{2k+1}-free graphs"}
+{"id": "W1995043396", "keep": true, "why": "regularity lemma, uniform hypergraphs"}
+{"id": "W1995481390", "keep": true, "why": "Turan numbers of subdivided graphs"}
+{"id": "W1996216417", "keep": true, "why": "regularity lemma applications, hypergraphs"}
+{"id": "W1996268095", "keep": true, "why": "compact topological minors, extremal"}
+{"id": "W1997998268", "keep": false, "why": "perfect graph conjecture"}
+{"id": "W2003919313", "keep": true, "why": "non-principal hypergraph Turan families"}
+{"id": "W2007709851", "keep": true, "why": "semidefinite method, Turan density 3-graphs"}
+{"id": "W2009196521", "keep": false, "why": "integer sequences, not extremal"}
+{"id": "W2009232680", "keep": false, "why": "Hamiltonian circuits in random graphs"}
+{"id": "W2013188591", "keep": false, "why": "set system properties"}
+{"id": "W2017502190", "keep": true, "why": "nearly regular induced subgraphs; unsure"}
+{"id": "W2020925806", "keep": false, "why": "diameter critical graphs"}
+{"id": "W2023526708", "keep": false, "why": "permutation sets, reverse-free"}
+{"id": "W2023600080", "keep": false, "why": "integer sets, 3-term AP"}
+{"id": "W2026569452", "keep": false, "why": "permanent of matrices"}
+{"id": "W2029849517", "keep": true, "why": "exact result for 3-graphs, Turan"}
+{"id": "W2033040247", "keep": false, "why": "linear programming algorithms"}
+{"id": "W2033447978", "keep": true, "why": "extremal problems in graph theory"}
+{"id": "W2033687719", "keep": true, "why": "large cycles in graphs, extremal"}
+{"id": "W2034645676", "keep": false, "why": "block designs"}
+{"id": "W2036637777", "keep": false, "why": "topological graphs, self-intersections"}
+{"id": "W2038439764", "keep": true, "why": "graphs not containing the cube"}
+{"id": "W2039027438", "keep": true, "why": "subgraphs of graphs; unsure"}
+{"id": "W2048423935", "keep": true, "why": "Turan's influence on graph theory"}
+{"id": "W2048996648", "keep": false, "why": "set families, singleton intersections"}
+{"id": "W2050675734", "keep": false, "why": "induced subtrees, chromatic number"}
+{"id": "W2051745720", "keep": false, "why": "pairwise balanced designs"}
+{"id": "W2058870462", "keep": true, "why": "hypergraph removal lemma"}
+{"id": "W2059272542", "keep": false, "why": "coverings of space"}
+{"id": "W2061788258", "keep": false, "why": "lines and planes of finite sets"}
+{"id": "W2064021831", "keep": false, "why": "set intersection problem"}
+{"id": "W2064702321", "keep": true, "why": "complete 4-graphs and subdivisions"}
+{"id": "W2069040548", "keep": false, "why": "Ramsey numbers for cycles"}
+{"id": "W2069654053", "keep": true, "why": "unavoidable subhypergraphs, Turan-type"}
+{"id": "W2074545042", "keep": true, "why": "even-cycle-free subgraphs of hypercube"}
+{"id": "W2075084424", "keep": false, "why": "graph reconstruction survey"}
+{"id": "W2078305609", "keep": false, "why": "Helly property"}
+{"id": "W2085878382", "keep": true, "why": "counting lemma, hypergraphs"}
+{"id": "W2088212677", "keep": false, "why": "ergodic Ramsey-type theorem"}
+{"id": "W2093276208", "keep": true, "why": "graphs avoiding fixed subgraph, Turan"}
+{"id": "W2093318356", "keep": false, "why": "distance realization in space"}
+{"id": "W2093480133", "keep": true, "why": "extremal combinatorics problems"}
+{"id": "W2093699365", "keep": false, "why": "pairwise balanced designs"}
+{"id": "W2093922095", "keep": true, "why": "extremal problems on set systems"}
+{"id": "W2096590808", "keep": true, "why": "extremal problems on r-graphs"}
+{"id": "W2100896331", "keep": true, "why": "exact solutions of Turan-type problems"}
+{"id": "W2104145910", "keep": false, "why": "Ramsey numbers for cycles"}
+{"id": "W2104509227", "keep": true, "why": "Turan number of triple systems"}
+{"id": "W2108137489", "keep": false, "why": "Ramsey numbers for theta graphs"}
+{"id": "W2108900323", "keep": false, "why": "integer sets, unrelated"}
+{"id": "W2110354774", "keep": true, "why": "extremal problems of graphs"}
+{"id": "W2110805362", "keep": true, "why": "compactness in extremal graph theory"}
+{"id": "W2111007781", "keep": true, "why": "structure of linear graphs; unsure"}
+{"id": "W2111368375", "keep": true, "why": "forbidding one intersection, extremal sets; unsure"}
+{"id": "W2111559003", "keep": false, "why": "random graph factors"}
+{"id": "W2117908084", "keep": false, "why": "linear equation in integers"}
+{"id": "W2118179018", "keep": false, "why": "Helly property survey"}
+{"id": "W2121190404", "keep": true, "why": "valence problem, extremal graph theory"}
+{"id": "W2126528093", "keep": true, "why": "triple systems, independent neighbourhoods"}
+{"id": "W2129834404", "keep": false, "why": "intersection theorems for set systems"}
+{"id": "W2131114615", "keep": false, "why": "extremal subsets, not graph Turan"}
+{"id": "W2143569998", "keep": false, "why": "triangulated spheres, 3-graphs"}
+{"id": "W2144100587", "keep": false, "why": "well-ordered sets"}
+{"id": "W2149054878", "keep": true, "why": "hypergraph regularity, Szemeredi-type"}
+{"id": "W2153199929", "keep": true, "why": "possible Turan densities"}
+{"id": "W2154501488", "keep": true, "why": "14-cycle-free subgraphs of hypercube"}
+{"id": "W2155085924", "keep": true, "why": "degenerate bipartite extremal problems history"}
+{"id": "W2157156052", "keep": false, "why": "perfect graph design"}
+{"id": "W2161439427", "keep": true, "why": "graph theory and probability"}
+{"id": "W2162995963", "keep": false, "why": "geometry and number theory problems"}
+{"id": "W2164149555", "keep": false, "why": "4-chromatic plane graph"}
+{"id": "W2169821423", "keep": true, "why": "Erdos combinatorial problems list; unsure"}
+{"id": "W2182823773", "keep": false, "why": "generalized Ramsey theory survey"}
+{"id": "W2218192738", "keep": false, "why": "intersecting edge families"}
+{"id": "W2318154985", "keep": false, "why": "magic configurations"}
+{"id": "W2319518804", "keep": false, "why": "ordinary lines"}

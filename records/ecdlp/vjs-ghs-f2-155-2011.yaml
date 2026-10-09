@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "vjs-ghs-f2-155-2011"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "elliptic curve over F_2^155 = F_{(2^5)^31}, 115-bit prime subgroup; GHS descent to genus-32 hyperelliptic over F_2^5"
+instance_size: 114.76
+instance_size_unit: "bits"
+log2_ops: null
+method: "GHS Weil descent + hyperelliptic index calculus (Enge-Gaudry variant, large primes, sieving)"
+structure_exploited: true
+hardware: null
+raw_compute: "1735 CPU-days total (relations 1720.8, linear algebra 14.2), as tabulated by Chi-Dominguez et al. 2021"
+reported_core_years: 4.75
+gpu_years: null
+wall_time_days: null
+date: "2011-02"
+solvers: ["M. D. Velichka", "Michael J. Jacobson Jr.", "Andreas Stein"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2011/098; Math. Comp. 83 (2014) 935-963"
+source_url: "https://ar5iv.labs.arxiv.org/html/2106.09967"
+other_urls: ["https://eprint.iacr.org/2011/098"]
+confidence: 0.55
+verified: false
+notes: "Figures from the 2021 GLS paper's comparison table (secondary); VJS full text not read. Same curve as gls-ghs-f2-155-2021 per that paper. Date = ePrint submission; computation date unknown."

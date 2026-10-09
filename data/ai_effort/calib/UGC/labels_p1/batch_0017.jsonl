@@ -1,0 +1,40 @@
+{"id": "W2950024625", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "ordering CSP NP-hardness"}
+{"id": "W2950171000", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled repetition"}
+{"id": "W2950359143", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled repetition"}
+{"id": "W2950380339", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS tensor decomposition"}
+{"id": "W2950480768", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Majority is Stablest proof, tool not UG itself"}
+{"id": "W2950639237", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "parallel repetition framework"}
+{"id": "W2950706437", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "SoS proof complexity of approximability"}
+{"id": "W2950851895", "include": "borderline", "category": "G", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "NP-hardness for 2-to-1 label cover, related to 2-to-1 conjecture"}
+{"id": "W2950890626", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "strong refutation random CSPs"}
+{"id": "W2950897465", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SDP size lower bounds"}
+{"id": "W2950932629", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "global hypercontractivity"}
+{"id": "W2951003715", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "non-signaling repetition"}
+{"id": "W2951099296", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Lasserre formulations"}
+{"id": "W2951106755", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "covering CSPs"}
+{"id": "W2951124766", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonlocal strategies"}
+{"id": "W2951168422", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "assumes SSEH for hardness"}
+{"id": "W2951216714", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "expansion profile approximation and local clustering, SSE-related"}
+{"id": "W2951429494", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "inapproximability chapter, UGC-conditional results part"}
+{"id": "W2951432064", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "balanced cut semi-random"}
+{"id": "W2951567887", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut treewidth"}
+{"id": "W2951692244", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP lower bounds for CSPs"}
+{"id": "W2951768104", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Gaussian partitions"}
+{"id": "W2951899199", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "non-boolean Max k-CSP algorithm"}
+{"id": "W2951914620", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "densest subgraph gaps"}
+{"id": "W2951982454", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP approximation limits"}
+{"id": "W2952056253", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "sparsest cut algorithm"}
+{"id": "W2952057730", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semi-random partitioning"}
+{"id": "W2952377962", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP lower bounds for vertex cover"}
+{"id": "W2952489188", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "conditional coloring hardness"}
+{"id": "W2952502501", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum provers"}
+{"id": "W2952511439", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut treewidth"}
+{"id": "W2952621790", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS refutation of CSPs"}
+{"id": "W2952657908", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "integrality gap for UG-type cut problems and negative type embeddings"}
+{"id": "W2952763318", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS planted clique"}
+{"id": "W2952917033", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "invariance principle tool paper"}
+{"id": "W2952933284", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Max bisection algorithm"}
+{"id": "W2953032586", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Cheeger improvements"}
+{"id": "W2953034389", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled repetition"}
+{"id": "W2953080341", "include": "borderline", "category": "G", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "NP-hardness for 2-to-1 label cover, related to 2-to-1 conjecture"}
+{"id": "W2953082259", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS bit complexity"}

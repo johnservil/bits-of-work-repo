@@ -1,0 +1,100 @@
+{"id": "W1991804572", "keep": false, "why": "prime powers sums, different object"}
+{"id": "W1994803663", "keep": false, "why": "consecutive integers prime factors, different object"}
+{"id": "W1995117763", "keep": true, "why": "Ramsey-type problems, local lemma"}
+{"id": "W1995296546", "keep": true, "why": "additive theorem in groups, related"}
+{"id": "W1996285409", "keep": true, "why": "Hindman theorem, Ramsey-type"}
+{"id": "W1996516812", "keep": true, "why": "combinatorial theorems on subset classes, Ramsey-type"}
+{"id": "W1997681421", "keep": true, "why": "finite sums in partition cells, Ramsey-type"}
+{"id": "W1997998268", "keep": false, "why": "perfect graph conjecture, unrelated"}
+{"id": "W1999318585", "keep": false, "why": "cubic residues, unrelated"}
+{"id": "W1999426642", "keep": false, "why": "power residues, unrelated"}
+{"id": "W1999614683", "keep": true, "why": "graph colouring and Ramsey-type numbers"}
+{"id": "W1999682169", "keep": true, "why": "recursively defined integer sets, unclear"}
+{"id": "W2001432931", "keep": true, "why": "van der Waerden function bound"}
+{"id": "W2001838070", "keep": true, "why": "combinatorial theorems on APs"}
+{"id": "W2002063814", "keep": true, "why": "irregularities of sequences relative to APs"}
+{"id": "W2002288087", "keep": true, "why": "primes in arithmetic progression"}
+{"id": "W2004479099", "keep": true, "why": "intersection properties of integer subsets, unclear"}
+{"id": "W2004580743", "keep": true, "why": "additive number theory, related"}
+{"id": "W2004782359", "keep": true, "why": "additive bases, related"}
+{"id": "W2008037211", "keep": true, "why": "multiplicative bases, unclear"}
+{"id": "W2008476758", "keep": true, "why": "irregularities relative to APs"}
+{"id": "W2009090807", "keep": true, "why": "integer partitions into progression-free sets"}
+{"id": "W2009196521", "keep": true, "why": "Erdos integer sequences"}
+{"id": "W2009232680", "keep": false, "why": "Hamiltonian circuits, unrelated"}
+{"id": "W2010717824", "keep": false, "why": "infinite products irrationality, unrelated"}
+{"id": "W2011033909", "keep": false, "why": "Euler power sums, unrelated"}
+{"id": "W2011125666", "keep": false, "why": "binary form representations, unrelated"}
+{"id": "W2011601728", "keep": true, "why": "additive number theory problem"}
+{"id": "W2011671869", "keep": false, "why": "Steiner triple systems, unrelated"}
+{"id": "W2012104750", "keep": true, "why": "sums of reciprocals without k-term APs"}
+{"id": "W2013188591", "keep": true, "why": "set systems combinatorics, unclear"}
+{"id": "W2013576033", "keep": false, "why": "prime divisors of integers, different object"}
+{"id": "W2013792512", "keep": true, "why": "Ramsey functions for van der Waerden numbers"}
+{"id": "W2014323465", "keep": true, "why": "integer sets with distinct differences"}
+{"id": "W2014507113", "keep": false, "why": "prime factors of central binomials, unrelated"}
+{"id": "W2014985855", "keep": false, "why": "sums of cubes, unrelated"}
+{"id": "W2015305877", "keep": false, "why": "unit fractions, unrelated"}
+{"id": "W2019447247", "keep": false, "why": "periodic predicates, unrelated"}
+{"id": "W2020173739", "keep": false, "why": "vector space partitions, unrelated"}
+{"id": "W2020272617", "keep": true, "why": "sums of distinct set elements"}
+{"id": "W2020925806", "keep": false, "why": "diameter critical graphs, unrelated"}
+{"id": "W2021073476", "keep": false, "why": "Waring problem converse, different object"}
+{"id": "W2021315980", "keep": true, "why": "covers of integers by residue classes"}
+{"id": "W2021414653", "keep": true, "why": "extremal problem in number theory"}
+{"id": "W2021444009", "keep": true, "why": "hypergraph colouring, vdW-related"}
+{"id": "W2023011716", "keep": true, "why": "sequences of integers"}
+{"id": "W2023397165", "keep": true, "why": "Graham-Erdos partitions, sums and products"}
+{"id": "W2023600080", "keep": true, "why": "sets with no 3-term AP"}
+{"id": "W2024478370", "keep": false, "why": "prime distribution, different object"}
+{"id": "W2025928899", "keep": true, "why": "covers of integers, related"}
+{"id": "W2026569452", "keep": false, "why": "permanent lower bound, unrelated"}
+{"id": "W2029209732", "keep": true, "why": "inverse Goldbach, sumset structure"}
+{"id": "W2029235915", "keep": true, "why": "ultrafilters, Graham-Rothschild Ramsey"}
+{"id": "W2030828770", "keep": true, "why": "computer-generated vdW partitions"}
+{"id": "W2031184395", "keep": true, "why": "additive decomposability of sets"}
+{"id": "W2032724630", "keep": false, "why": "lattice points square, unrelated"}
+{"id": "W2033040247", "keep": false, "why": "linear programming algorithms, unrelated"}
+{"id": "W2034596135", "keep": true, "why": "integer sequences no divisibility"}
+{"id": "W2034597654", "keep": true, "why": "off-diagonal vdW lower bound"}
+{"id": "W2034645676", "keep": false, "why": "block designs, unrelated"}
+{"id": "W2035971565", "keep": false, "why": "degenerate extremal graphs, unrelated"}
+{"id": "W2038010519", "keep": true, "why": "vdW lower bounds"}
+{"id": "W2038121735", "keep": true, "why": "new vdW numbers"}
+{"id": "W2038466635", "keep": false, "why": "Collatz functions, unrelated"}
+{"id": "W2038497135", "keep": false, "why": "multiplicative function means, different object"}
+{"id": "W2038951761", "keep": false, "why": "set-system intersection theorems, unrelated"}
+{"id": "W2039027438", "keep": false, "why": "subgraph theory, unrelated"}
+{"id": "W2039241885", "keep": true, "why": "hypergraph 2-colouring bounds, vdW-related"}
+{"id": "W2039456297", "keep": false, "why": "group theory probability, unrelated"}
+{"id": "W2039481459", "keep": true, "why": "reciprocal bases for integers"}
+{"id": "W2039627336", "keep": true, "why": "densities of integer subsets, related"}
+{"id": "W2040015983", "keep": true, "why": "covering systems of congruences"}
+{"id": "W2041110868", "keep": true, "why": "vdW primitive recursive bounds"}
+{"id": "W2041727161", "keep": false, "why": "primes of form k2^n+1, different object"}
+{"id": "W2043191005", "keep": true, "why": "sum-free sequences, extremal"}
+{"id": "W2043610469", "keep": true, "why": "progressions in near-consecutive integers"}
+{"id": "W2044429866", "keep": true, "why": "Graham conjecture"}
+{"id": "W2045789201", "keep": true, "why": "addition theorem modulo p"}
+{"id": "W2046941141", "keep": true, "why": "Graham conjecture with primes"}
+{"id": "W2048423935", "keep": false, "why": "Turan and graph theory, unrelated"}
+{"id": "W2048996648", "keep": false, "why": "set families, unrelated"}
+{"id": "W2050675734", "keep": false, "why": "induced subtrees, unrelated"}
+{"id": "W2051745720", "keep": false, "why": "pairwise balanced designs, unrelated"}
+{"id": "W2052059867", "keep": true, "why": "squarefree numbers in sumsets"}
+{"id": "W2052802307", "keep": true, "why": "integer sequence families"}
+{"id": "W2052804318", "keep": false, "why": "elementary geometry combinatorics, unrelated"}
+{"id": "W2053221842", "keep": false, "why": "unit fractions, different object"}
+{"id": "W2053524037", "keep": false, "why": "zero-sum sequences in groups, different object"}
+{"id": "W2053637971", "keep": false, "why": "residue runs, different object"}
+{"id": "W2054140454", "keep": true, "why": "integer sequences, not divisible"}
+{"id": "W2055441726", "keep": true, "why": "minimal sets forcing long APs"}
+{"id": "W2056371938", "keep": false, "why": "large prime factors, different object"}
+{"id": "W2056806689", "keep": false, "why": "multiplicative function sums, different object"}
+{"id": "W2057863556", "keep": true, "why": "vdW-like numbers with k colours"}
+{"id": "W2058073416", "keep": false, "why": "tree primality, unrelated"}
+{"id": "W2059272542", "keep": false, "why": "space coverings, unrelated"}
+{"id": "W2059984909", "keep": false, "why": "Ramsey for triangles in plane, unrelated"}
+{"id": "W2061788258", "keep": false, "why": "finite point set lines, unrelated"}
+{"id": "W2064021831", "keep": false, "why": "finite set intersection, unrelated"}
+{"id": "W2064702321", "keep": false, "why": "complete graphs in graphs, unrelated"}

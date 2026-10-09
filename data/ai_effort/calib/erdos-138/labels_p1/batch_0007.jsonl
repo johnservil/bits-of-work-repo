@@ -1,0 +1,40 @@
+{"id": "W4282937930", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4293703604", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "APs, quasi-progressions and Gallai-Ramsey colourings, vdW-type variants"}
+{"id": "W4302383489", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4376878199", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4386984735", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4392638280", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "history/expository on monochromatic APs after vdW proof"}
+{"id": "W4392641268", "include": "borderline", "category": "S", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "history of vdW theorem"}
+{"id": "W4398240880", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4401210516", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4401210571", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4404188127", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4406635710", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4407231387", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4407850790", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "exponential improvement of multicolour diagonal vdW lower bounds"}
+{"id": "W4408552919", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4414487897", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4414688548", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W51500770", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W588476729", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W606453859", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W626759026", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W651535583", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W658849301", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W7125690810", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W7136250252", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W7163276196", "include": "yes", "category": "A", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "three-colour vdW numbers super-exponential lower bound, variant of W(k)"}
+{"id": "W7212312463", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "vdW-type theorem for harmonic progressions, variant"}
+{"id": "W79326132", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W842301775", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W874532184", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W915366989", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W93140271", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W93765889", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W95393621", "include": "borderline", "category": "S", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Graham survey of Ramsey problems incl vdW"}
+{"id": "W971488519", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W996473569", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "seed:erdos-1-12", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "seed:erdos-3-1", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "seed:erdos-3-19", "include": "yes", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.55, "reason": "Gowers new proof of Szemeredi with bounds, implies best upper bound for W(k)"}
+{"id": "seed:erdos-3-4", "include": "borderline", "category": "S", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Erdos-Graham survey including vdW theorem and bounds"}

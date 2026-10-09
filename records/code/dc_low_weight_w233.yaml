@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_low_weight_w233"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge low-weight codeword n=1280, weight 233 found"
+instance_size: 1280
+instance_size_unit: "n"
+log2_ops: null
+method: "Lee-Brickell"
+structure_exploited: false
+hardware: "Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz"
+raw_compute: "runtime: < 3 core days; hardware: Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz"
+reported_core_years: 0.0082
+gpu_years: null
+wall_time_days: null
+date: "2019-08-22"
+solvers: ["Pierre Karpman"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/low-weight/record/9"
+other_urls: ["https://decodingchallenge.org/low-weight/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n / new min weight at submission date per hall of fame); stated as \"< 3 core days\" (upper bound)."

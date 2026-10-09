@@ -1,0 +1,100 @@
+{"id": "W2110180651", "keep": true, "why": "approximability and proof complexity"}
+{"id": "W2110225403", "keep": true, "why": "randomly supported independence, approximation resistance"}
+{"id": "W2110871651", "keep": true, "why": "optimal algorithms and inapproximability for every CSP"}
+{"id": "W2111385661", "keep": true, "why": "free bits PCPs, nonapproximability"}
+{"id": "W2111768547", "keep": false, "why": "function isomorphism testing lower bounds"}
+{"id": "W2112006606", "keep": false, "why": "k-route cut approximation"}
+{"id": "W2113141878", "keep": false, "why": "learning via Gaussian surface area"}
+{"id": "W2114382532", "keep": true, "why": "quantum moment problem, entangled games"}
+{"id": "W2114448228", "keep": true, "why": "unique games conjecture survey"}
+{"id": "W2114493937", "keep": false, "why": "metric approximation, algorithmic applications"}
+{"id": "W2114506516", "keep": true, "why": "intersecting families, juntas, Fourier"}
+{"id": "W2115163112", "keep": true, "why": "sparsest cut, bounded treewidth"}
+{"id": "W2115180773", "keep": true, "why": "Fourier tails of bounded functions"}
+{"id": "W2115318789", "keep": true, "why": "rounding SoS relaxations"}
+{"id": "W2116123253", "keep": false, "why": "quantum t-designs"}
+{"id": "W2116397277", "keep": true, "why": "nonlocal strategies, games"}
+{"id": "W2116537669", "keep": false, "why": "regular partitions of graphs"}
+{"id": "W2116839457", "keep": true, "why": "spectral theory of simplicial complexes"}
+{"id": "W2116926584", "keep": true, "why": "LS vertex cover integrality gaps"}
+{"id": "W2117220151", "keep": true, "why": "spectral algorithms for unique games"}
+{"id": "W2117226423", "keep": false, "why": "TSP heuristic analysis"}
+{"id": "W2117319425", "keep": false, "why": "max-flow min-multicut approximations"}
+{"id": "W2117372120", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2117417786", "keep": true, "why": "spherical cubes, high-dimensional rounding"}
+{"id": "W2117719091", "keep": false, "why": "subadditive network design"}
+{"id": "W2117909080", "keep": true, "why": "spectral clustering of well-clustered graphs"}
+{"id": "W2117909919", "keep": false, "why": "wavelength assignment optimization"}
+{"id": "W2118143978", "keep": true, "why": "no strong parallel repetition, entangled provers"}
+{"id": "W2118405557", "keep": true, "why": "isoperimetry in simplicial complexes"}
+{"id": "W2118409018", "keep": true, "why": "Boolean structure theorem, total influence"}
+{"id": "W2118458355", "keep": true, "why": "Gaussian noise stability deficit"}
+{"id": "W2118541957", "keep": false, "why": "randomness in interactive proofs"}
+{"id": "W2118599421", "keep": true, "why": "independent sets in graph powers, juntas"}
+{"id": "W2118690363", "keep": false, "why": "supermodular degree, monotone maximization"}
+{"id": "W2119368733", "keep": false, "why": "extended formulations, LP vs SDP"}
+{"id": "W2119378898", "keep": true, "why": "SDP gaps and UGC-hardness, multiway cut"}
+{"id": "W2119397119", "keep": true, "why": "two-prover one-round reductions"}
+{"id": "W2119741712", "keep": false, "why": "compression via matroids"}
+{"id": "W2119901068", "keep": true, "why": "multi-prover proofs, limited entanglement"}
+{"id": "W2119909607", "keep": false, "why": "agnostic learning hardness"}
+{"id": "W2120118379", "keep": false, "why": "robust unsupervised learning"}
+{"id": "W2120167892", "keep": false, "why": "network corruption detection"}
+{"id": "W2120358419", "keep": true, "why": "unique two-prover one-round games"}
+{"id": "W2121015801", "keep": false, "why": "satisfiability algorithms, measures"}
+{"id": "W2121411467", "keep": false, "why": "graph cluster structure testing"}
+{"id": "W2121472099", "keep": false, "why": "tree-constrained matchings"}
+{"id": "W2121752873", "keep": false, "why": "cloud minimum congestion mapping"}
+{"id": "W2121908678", "keep": true, "why": "Handelman hierarchy, Max-Cut rank"}
+{"id": "W2121947440", "keep": false, "why": "normalized cuts, image segmentation"}
+{"id": "W2122793266", "keep": true, "why": "Sherali-Adams approximation schemes, dense CSPs"}
+{"id": "W2122906648", "keep": true, "why": "max k-colorable subgraph inapproximability"}
+{"id": "W2123192541", "keep": false, "why": "binary tanglegrams drawing"}
+{"id": "W2123218030", "keep": true, "why": "L1 embeddings, graph isoperimetry"}
+{"id": "W2123381318", "keep": true, "why": "SDP and approximation algorithms survey"}
+{"id": "W2123416347", "keep": false, "why": "directed routing with congestion"}
+{"id": "W2124331805", "keep": true, "why": "bounded-round multi-prover proofs"}
+{"id": "W2124580341", "keep": true, "why": "Gaussian noise sensitivity, Fourier tails"}
+{"id": "W2124619161", "keep": false, "why": "hardness amplification within NP"}
+{"id": "W2125534993", "keep": true, "why": "approximation resistance, pairwise independent subgroups"}
+{"id": "W2125541192", "keep": false, "why": "cutting-plane proof systems rank"}
+{"id": "W2125632628", "keep": true, "why": "composition of 2-query PCPs, decodable PCPs"}
+{"id": "W2125703559", "keep": true, "why": "hardness of multicut and sparsest cut"}
+{"id": "W2126464735", "keep": false, "why": "neural network training, sparse connectivity"}
+{"id": "W2126492985", "keep": false, "why": "directed routing congestion hardness"}
+{"id": "W2126878106", "keep": false, "why": "DNA yield, biodiversity surveys"}
+{"id": "W2127041071", "keep": false, "why": "cutting planes width, graph isomorphism"}
+{"id": "W2127114399", "keep": false, "why": "min UnCut and directed cut approximation"}
+{"id": "W2127141092", "keep": true, "why": "near-optimal max-CSP algorithms"}
+{"id": "W2127248062", "keep": false, "why": "bounded geometries, low-distortion embeddings"}
+{"id": "W2127312480", "keep": true, "why": "robust optimality of Gaussian noise stability"}
+{"id": "W2127816126", "keep": true, "why": "balance by being biased, Max-Cut"}
+{"id": "W2127851424", "keep": true, "why": "polynomial-space approximation, no-signaling provers"}
+{"id": "W2127901211", "keep": true, "why": "property testing of Boolean functions"}
+{"id": "W2128057004", "keep": false, "why": "small PCPs, low query complexity"}
+{"id": "W2128550154", "keep": true, "why": "eigenvalue bounds, spectral partitioning via flows"}
+{"id": "W2129434754", "keep": false, "why": "low-rank SDP solutions, elliptope"}
+{"id": "W2129575457", "keep": false, "why": "spectral sparsification"}
+{"id": "W2129578811", "keep": true, "why": "direct product testing"}
+{"id": "W2129700748", "keep": false, "why": "direct product theorem for discrepancy"}
+{"id": "W2130170517", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2130190334", "keep": false, "why": "parameterized lower bounds, strong"}
+{"id": "W2130318319", "keep": true, "why": "parallel repetition of two-prover games survey"}
+{"id": "W2130590615", "keep": false, "why": "Bell inequality violations, explicit"}
+{"id": "W2130703751", "keep": true, "why": "composition of 2-query PCPs, decodable PCPs"}
+{"id": "W2130835223", "keep": true, "why": "noise sensitivity, continuum percolation"}
+{"id": "W2131176276", "keep": true, "why": "product theorems via SDP"}
+{"id": "W2131433282", "keep": true, "why": "limit theorems, polylinear forms"}
+{"id": "W2131906507", "keep": true, "why": "vertex cover, k-partite hypergraphs"}
+{"id": "W2132069633", "keep": false, "why": "resemblance and containment of documents"}
+{"id": "W2132302072", "keep": false, "why": "approximate optima in lattices and linear systems"}
+{"id": "W2132592548", "keep": true, "why": "min-max graph partitioning, small set expansion"}
+{"id": "W2132605415", "keep": false, "why": "PCP characterization of NP"}
+{"id": "W2132991500", "keep": true, "why": "MaxClique and coloring inapproximability"}
+{"id": "W2133156969", "keep": false, "why": "buy-at-bulk network design"}
+{"id": "W2133263321", "keep": true, "why": "noise stability, invariance and optimality"}
+{"id": "W2133272650", "keep": false, "why": "critical percolation, conformal invariance"}
+{"id": "W2133327329", "keep": false, "why": "magnetic Laplacian Cheeger inequalities"}
+{"id": "W2133404041", "keep": false, "why": "structured SDP, robustness optimization"}
+{"id": "W2133509071", "keep": false, "why": "small stabilizers for graphs"}
+{"id": "W2134062801", "keep": true, "why": "hypergraph Markov operators, small-set approximation"}

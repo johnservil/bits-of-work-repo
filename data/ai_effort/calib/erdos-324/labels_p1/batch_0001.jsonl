@@ -1,0 +1,33 @@
+{"id": "W2079010831", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Sidon basis construction, different problem"}
+{"id": "W2086041665", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd problem, unrelated"}
+{"id": "W2105611631", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Guy None of the Above chapter, unrelated"}
+{"id": "W2108900323", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Roth sets of integers, unrelated"}
+{"id": "W2113659224", "include": "borderline", "category": "S", "weight": 0.15, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "annotated Sidon bibliography, covers polynomial Sidon sequences among much else"}
+{"id": "W2115034958", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "s-additive sequences, unrelated"}
+{"id": "W2120600794", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multiplicative representation, unrelated"}
+{"id": "W2122280034", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum of two cubes characterization, unrelated"}
+{"id": "W2125817895", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.55, "reason": "Erdos remarks number theory, unclear"}
+{"id": "W2140028675", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "completeness of sequences, unrelated"}
+{"id": "W2144831043", "include": "borderline", "category": "G", "weight": 0.25, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Cilleruelo infinite Sidon sequences, general constructions not polynomial-specific"}
+{"id": "W2166698266", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture, unrelated"}
+{"id": "W2313298573", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.55, "reason": "problem of Erdos, unspecified"}
+{"id": "W2313391498", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "non-averaging sets, unrelated"}
+{"id": "W2314290950", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bases of natural numbers, unrelated"}
+{"id": "W2321688441", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sums of squares, unrelated"}
+{"id": "W2328642983", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Waring problem, unrelated"}
+{"id": "W2328726307", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Moser collinear problem, unrelated"}
+{"id": "W2330372082", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture, unrelated"}
+{"id": "W2335606727", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "partitions problem, unrelated"}
+{"id": "W2402117450", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "modular generalized Sidon sets, different problem"}
+{"id": "W2471402139", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Sidon sets and asymptotic bases, different Erdos problem"}
+{"id": "W2575096499", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Sidon set bounds via lattice packings, unrelated"}
+{"id": "W2754487803", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "infinite multiplicative Sidon sets, different problem"}
+{"id": "W2787766796", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "infinite Sidon sets in random sets, different problem"}
+{"id": "W2885443064", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multiplicative Sidon sets count, unrelated"}
+{"id": "W2954371499", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "restricted sumset size and sqrt d binary expansion, different problem"}
+{"id": "W3105111976", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sums of two cubes in rational functions, unrelated"}
+{"id": "W3150381009", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "general number theory textbook"}
+{"id": "W3205355178", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "no cubic integer polynomial generates a Sidon sequence, special case of the problem"}
+{"id": "W4302383489", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Guy unsolved problems book, may contain the problem"}
+{"id": "W651535583", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "general problem book"}
+{"id": "W842301775", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "addition of residue classes, unrelated"}

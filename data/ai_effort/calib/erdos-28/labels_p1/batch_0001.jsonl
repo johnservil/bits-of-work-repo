@@ -1,0 +1,40 @@
+{"id": "W1968319543", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Erdos-Turan paper on Sidon problem and bases, origin of the conjecture and related results"}
+{"id": "W1975270114", "include": "borderline", "category": "F", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Erdos-Fuchs on mean-square representation function of bases, closely related result"}
+{"id": "W1977242405", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "nonaveraging set reciprocal sums, unrelated"}
+{"id": "W1978976963", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "minimal bases and nonbases, unrelated"}
+{"id": "W1983812624", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "ordered sums of group elements, unrelated"}
+{"id": "W1985394216", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "maximal sum-free sets in groups, unrelated"}
+{"id": "W1989548622", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "density of sequences, unrelated"}
+{"id": "W1989630703", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "maximal asymptotic nonbases, unrelated"}
+{"id": "W1990801743", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Schoen on Erdos-Sarkozy problem, possibly representation related, unclear from title"}
+{"id": "W1995106671", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsets estimates, unrelated"}
+{"id": "W1995296546", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "addition theorem in groups, unrelated"}
+{"id": "W1996285409", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Hindman theorem proof, unrelated"}
+{"id": "W1997681421", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Hindman finite sums, unrelated"}
+{"id": "W1999682169", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "recursively defined sets, unrelated"}
+{"id": "W2000040997", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsets Erdos-Moser, different problem"}
+{"id": "W2000802644", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsequences, unrelated"}
+{"id": "W2004479099", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "intersection properties of subsets, unrelated"}
+{"id": "W2004580743", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Romanoff additive number theory, unrelated"}
+{"id": "W2004782359", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "Pikhurko on max size of A+A and edge-magic graphs, not representation function bounds"}
+{"id": "W2008037211", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multiplicative bases, unrelated"}
+{"id": "W2008726491", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free partitions, unrelated"}
+{"id": "W2009196521", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "d-complete sequences, unrelated"}
+{"id": "W2010961669", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Sidon sets in groups and Cayley graphs, unrelated"}
+{"id": "W2011601728", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "Lorentz thin complements, different problem"}
+{"id": "W2014323465", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "distinct pairwise differences, unrelated"}
+{"id": "W2020272617", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "completeness thresholds, unrelated"}
+{"id": "W2020529018", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Besicovitch generalization, unrelated"}
+{"id": "W2020601174", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sum-free subsequences, unrelated"}
+{"id": "W2021073476", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "converse of Waring problem, unrelated"}
+{"id": "W2021414653", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "extremal problem, unrelated"}
+{"id": "W2023011716", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "Elliott sequences of integers, unrelated"}
+{"id": "W2023397165", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Hindman sums and products, unrelated"}
+{"id": "W2026445402", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "Dubickas on supremum of representation function of a sumset, directly on bounded representation questions"}
+{"id": "W2029209732", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "inverse Goldbach, unrelated"}
+{"id": "W2029235915", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "ultrafilters and Graham-Rothschild conjecture, unrelated"}
+{"id": "W2030828770", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "van der Waerden computations, unrelated"}
+{"id": "W2031184395", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "additive decomposability of multiplicative sets, unrelated"}
+{"id": "W2031909596", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Stein-Erdos congruence conjecture, different problem"}
+{"id": "W2034596135", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "primitive sequences, unrelated"}
+{"id": "W2039481459", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "reciprocal bases, unrelated"}

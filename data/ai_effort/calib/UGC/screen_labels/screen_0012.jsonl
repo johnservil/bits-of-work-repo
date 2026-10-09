@@ -1,0 +1,100 @@
+{"id": "W2584995636", "keep": false, "why": "spectral analysis of directed signed graphs"}
+{"id": "W2585506700", "keep": true, "why": "towards proof of 2-to-1 games conjecture"}
+{"id": "W2588530677", "keep": true, "why": "Kneser graph expansion, Grassmann-type"}
+{"id": "W2589200750", "keep": false, "why": "dominating set approximation, arboricity"}
+{"id": "W2590218887", "keep": false, "why": "temporal graph cuts, spectral"}
+{"id": "W2591190829", "keep": false, "why": "Reed-Muller capacity, erasure channels"}
+{"id": "W2591560904", "keep": true, "why": "dictatorship test, perfect completeness"}
+{"id": "W2592679135", "keep": false, "why": "distributed constraint optimization inference"}
+{"id": "W2593693579", "keep": true, "why": "unique games, low-diameter decomposition"}
+{"id": "W2594691059", "keep": false, "why": "surjective general-valued CSP complexity"}
+{"id": "W2600945321", "keep": false, "why": "coloring 3-colorable graphs"}
+{"id": "W2601238642", "keep": false, "why": "signed dispute graph spectra"}
+{"id": "W2602878496", "keep": false, "why": "cooperative matching games stabilization"}
+{"id": "W2604607828", "keep": false, "why": "expander finding in sparse graphs"}
+{"id": "W2604766414", "keep": true, "why": "biased Boolean functions, small influence DNFs"}
+{"id": "W2604984619", "keep": false, "why": "reserve pricing languages"}
+{"id": "W2605041732", "keep": false, "why": "nonuniform CSP dichotomy"}
+{"id": "W2606192553", "keep": false, "why": "CSP dichotomy conjecture proof"}
+{"id": "W2606812758", "keep": true, "why": "size-degree bounds, SoS proofs"}
+{"id": "W2607074006", "keep": false, "why": "quantum de Finetti, local measurements"}
+{"id": "W2607237413", "keep": true, "why": "Goemans-Linial SDP gap, sparsest cut"}
+{"id": "W2610313478", "keep": true, "why": "improved low-degree testing"}
+{"id": "W2610340222", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2611404581", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2611715903", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2611773579", "keep": false, "why": "sublinear bipartiteness tester"}
+{"id": "W2611804663", "keep": false, "why": "approximation algorithms textbook"}
+{"id": "W2611821289", "keep": false, "why": "Lovasz theta, community detection"}
+{"id": "W2612149215", "keep": true, "why": "resilient functions, noise stability"}
+{"id": "W2613249685", "keep": true, "why": "Cheeger inequality, vertex expansion, local partitioning"}
+{"id": "W2613308084", "keep": true, "why": "small set expansion hypothesis, biclique hardness"}
+{"id": "W2613597768", "keep": false, "why": "ridesharing, road networks"}
+{"id": "W2615293811", "keep": true, "why": "Gaussian surface area, symmetric convex sets"}
+{"id": "W2617357257", "keep": false, "why": "higher-order Cheeger, Steklov eigenvalues"}
+{"id": "W2617474970", "keep": false, "why": "approximate inference, SDP bounds"}
+{"id": "W2619061098", "keep": true, "why": "UGC integrality gap, negative-type metrics"}
+{"id": "W2620689936", "keep": false, "why": "public-key cryptography complexity"}
+{"id": "W2620854080", "keep": false, "why": "MST and metric-TSP interdiction"}
+{"id": "W2620921418", "keep": false, "why": "low-degree PRGs, program obfuscation"}
+{"id": "W2620998635", "keep": true, "why": "strong inapproximability, perfect completeness"}
+{"id": "W2621013574", "keep": false, "why": "committee selection, supermodular degree"}
+{"id": "W2621263703", "keep": true, "why": "near-optimal max-CSP algorithms"}
+{"id": "W2621387495", "keep": false, "why": "Markov chain reversiblization"}
+{"id": "W2622192510", "keep": true, "why": "fully parallelized multi-prover NEXP"}
+{"id": "W2624804050", "keep": false, "why": "sphere optimization, decoupling"}
+{"id": "W2626503362", "keep": true, "why": "negative-type embeddings, generalized sparsest cut"}
+{"id": "W2627090645", "keep": true, "why": "hardness amplification entangled games, anchoring"}
+{"id": "W2636179653", "keep": true, "why": "SoS certificates, random tensors"}
+{"id": "W2717496991", "keep": false, "why": "capacity releasing diffusion, local clustering"}
+{"id": "W2724383955", "keep": false, "why": "functional maps, shape analysis"}
+{"id": "W2730015764", "keep": true, "why": "non-optimally expanding sets, Grassmann graphs"}
+{"id": "W2735245875", "keep": true, "why": "noise correlation, resilient functions"}
+{"id": "W2735568186", "keep": true, "why": "high-order random walks beyond spectral gap"}
+{"id": "W2735864074", "keep": true, "why": "junta method for hypergraphs"}
+{"id": "W2735921087", "keep": false, "why": "dense connected k-subgraphs"}
+{"id": "W2736142250", "keep": false, "why": "Laplacian multiplicity, Fiedler partitions"}
+{"id": "W2739608196", "keep": false, "why": "NP-completeness history"}
+{"id": "W2741519875", "keep": true, "why": "direct sum testing"}
+{"id": "W2742022539", "keep": true, "why": "collective coin flipping, influence"}
+{"id": "W2742996344", "keep": true, "why": "periodic isoperimetric problem, unique games"}
+{"id": "W2743235928", "keep": true, "why": "Cheeger cut, Max-Cut, 1-Laplacian"}
+{"id": "W2744328542", "keep": true, "why": "reverse hypercontractivity, erasure channel"}
+{"id": "W2745097389", "keep": true, "why": "cube edge isoperimetric stability"}
+{"id": "W2746518621", "keep": false, "why": "decomposing graph into expanding subgraphs"}
+{"id": "W2747887398", "keep": false, "why": "exponential-time approximation tools"}
+{"id": "W2748623618", "keep": true, "why": "polynomial proof systems, SoS hierarchy"}
+{"id": "W2752885799", "keep": false, "why": "stabilizing weighted graphs"}
+{"id": "W2753289174", "keep": false, "why": "Cheeger inequalities, submodular transformations"}
+{"id": "W2754777885", "keep": true, "why": "max k-uncut approximation and hardness"}
+{"id": "W2754853090", "keep": true, "why": "property testing, SoS, polynomial interpolation"}
+{"id": "W2755288388", "keep": true, "why": "local spectral expansion, high-dimensional expanders"}
+{"id": "W2761799376", "keep": false, "why": "Ricci curvature geometry"}
+{"id": "W27619712", "keep": true, "why": "Grothendieck constant computation"}
+{"id": "W2762005921", "keep": true, "why": "SoS optimization efficiency and limitations"}
+{"id": "W2762646651", "keep": false, "why": "switched systems SoS certification"}
+{"id": "W2765223888", "keep": true, "why": "local spectral high-dimensional expanders"}
+{"id": "W2765351033", "keep": false, "why": "complete intersection theorem, forbidden intersections"}
+{"id": "W2766507469", "keep": false, "why": "complexity and mathematics interactions"}
+{"id": "W2767782184", "keep": false, "why": "node-disjoint paths in grids"}
+{"id": "W2768115836", "keep": true, "why": "agreement tests, graphs and hypergraphs"}
+{"id": "W2768340386", "keep": false, "why": "graph clustering, effective resistance"}
+{"id": "W2768419087", "keep": true, "why": "power of Lasserre hierarchy"}
+{"id": "W2768738762", "keep": false, "why": "social event organization"}
+{"id": "W2769478807", "keep": false, "why": "property testing introduction"}
+{"id": "W2770219927", "keep": true, "why": "low-degree almost Boolean functions, juntas"}
+{"id": "W2770257183", "keep": false, "why": "mixture models, SoS robustness"}
+{"id": "W2771009994", "keep": false, "why": "agnostic clustering, tensor norms"}
+{"id": "W2771436571", "keep": false, "why": "continuum hypothesis"}
+{"id": "W2772999787", "keep": false, "why": "reoptimization complexity"}
+{"id": "W2773686537", "keep": false, "why": "outlier-robust moment estimation, SoS"}
+{"id": "W2775054274", "keep": false, "why": "spectrum of a graph approximation"}
+{"id": "W2778127909", "keep": true, "why": "simultaneous Max-Cut approximation"}
+{"id": "W2779965945", "keep": false, "why": "hypergraph k-cut"}
+{"id": "W2782384944", "keep": true, "why": "entangled XOR games algorithms"}
+{"id": "W2782392245", "keep": false, "why": "matrix completion, SDP rounds"}
+{"id": "W2782835010", "keep": false, "why": "structure entropy, resistor graphs"}
+{"id": "W2784245270", "keep": true, "why": "Boolean degree-1 functions, association schemes"}
+{"id": "W2785155418", "keep": false, "why": "Morse matching hardness"}
+{"id": "W2785674038", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2786284244", "keep": true, "why": "no title; cannot judge"}

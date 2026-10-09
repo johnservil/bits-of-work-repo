@@ -1,0 +1,95 @@
+{"id": "W4404849782", "keep": true, "why": "direct product testers, small soundness"}
+{"id": "W4405547431", "keep": false, "why": "single-site dynamics, Dobrushin"}
+{"id": "W4406403640", "keep": false, "why": "recursive quantum relaxation"}
+{"id": "W4406651628", "keep": false, "why": "treewidth approximation survey"}
+{"id": "W4407769948", "keep": false, "why": "1-in-3 vs NAE dichotomy"}
+{"id": "W4407779042", "keep": false, "why": "big graph partitioning"}
+{"id": "W4408177675", "keep": false, "why": "instance-specific SDP relaxations"}
+{"id": "W4409064026", "keep": false, "why": "Ising machines, annealers"}
+{"id": "W4409278296", "keep": false, "why": "Gaussian mixture clustering"}
+{"id": "W4409697622", "keep": false, "why": "Turan problems, expanded hypergraphs"}
+{"id": "W4410232740", "keep": true, "why": "almost consistent linear equations"}
+{"id": "W4410846121", "keep": true, "why": "optimal testing, global hypercontractivity"}
+{"id": "W4410927286", "keep": true, "why": "no title; cannot judge"}
+{"id": "W4411216626", "keep": false, "why": "envy minimization, house allocation"}
+{"id": "W4411319170", "keep": true, "why": "SoS lower bounds, random graph coloring"}
+{"id": "W4411319846", "keep": true, "why": "optimal rounding for sparsest cut"}
+{"id": "W4411319850", "keep": false, "why": "SoS certifiability, subgaussian distributions"}
+{"id": "W4411319883", "keep": false, "why": "DNF learning, random walks"}
+{"id": "W4411319950", "keep": true, "why": "rounding independent sets on expanders"}
+{"id": "W4411319960", "keep": true, "why": "hypercontractivity on HDX II"}
+{"id": "W4411319963", "keep": true, "why": "4-colouring of G-colourable graphs"}
+{"id": "W4411319968", "keep": false, "why": "permanent of PSD matrices"}
+{"id": "W4411320001", "keep": true, "why": "quasi-linear PCPs from HDX"}
+{"id": "W4411320009", "keep": true, "why": "coboundary expansion, coset complexes"}
+{"id": "W4411320034", "keep": false, "why": "parameterized inapproximability under ETH"}
+{"id": "W4411320037", "keep": false, "why": "no-regret learning, normal-form games"}
+{"id": "W4411436020", "keep": false, "why": "KKT solutions, quadratic programs"}
+{"id": "W4411687713", "keep": false, "why": "zonotope containment approximability"}
+{"id": "W4411750800", "keep": false, "why": "JSJ decompositions"}
+{"id": "W4412141394", "keep": true, "why": "sphere-valued noise stability, quantum Max-Cut"}
+{"id": "W4412516298", "keep": true, "why": "eigencomputations for polynomial optimization, sphere"}
+{"id": "W4412543997", "keep": true, "why": "approximability of satisfiable k-CSPs I"}
+{"id": "W4413142925", "keep": true, "why": "invariance principle, multi-slice"}
+{"id": "W4413181694", "keep": true, "why": "inapproximability of 2-CSP, k-median"}
+{"id": "W4413366411", "keep": true, "why": "approximability of satisfiable k-CSPs II"}
+{"id": "W4414080979", "keep": true, "why": "Garland technique, Grassmannian expanders"}
+{"id": "W4414128350", "keep": false, "why": "densest subgraphs, maximum cuts refinements"}
+{"id": "W4414419723", "keep": false, "why": "quantum chemistry, MaxCut"}
+{"id": "W4415308451", "keep": false, "why": "multi-agent communication, games"}
+{"id": "W4416775221", "keep": true, "why": "expanderizing higher-order random walks"}
+{"id": "W4416907084", "keep": true, "why": "linearly ordered 4-colouring, hypergraphs"}
+{"id": "W4417149161", "keep": false, "why": "rainbow matchings stability"}
+{"id": "W4417307752", "keep": false, "why": "Euclidea APX-hardness"}
+{"id": "W4417317418", "keep": true, "why": "Cheeger inequalities, vertex expansion"}
+{"id": "W4661137", "keep": false, "why": "broadcast network optimization essays"}
+{"id": "W48399392", "keep": false, "why": "approximate graph isomorphism"}
+{"id": "W49630862", "keep": false, "why": "minimum vertex cover, weights"}
+{"id": "W4985749", "keep": true, "why": "noise-resistant Boolean functions, juntas"}
+{"id": "W567708786", "keep": false, "why": "nature of computation"}
+{"id": "W600944453", "keep": true, "why": "multi-prover games, non-classical"}
+{"id": "W603975761", "keep": false, "why": "approximation algorithms textbook"}
+{"id": "W620970122", "keep": true, "why": "set expansion problems, SSE conjecture"}
+{"id": "W632831340", "keep": false, "why": "approximation algorithms and hardness book"}
+{"id": "W639289183", "keep": false, "why": "randomness and computation book"}
+{"id": "W651687795", "keep": false, "why": "statistical consistency"}
+{"id": "W67332047", "keep": false, "why": "streaming graph partitioning"}
+{"id": "W7123344146", "keep": true, "why": "edge expansion, SDP computational strategies"}
+{"id": "W7129337926", "keep": false, "why": "certifying Euclidean sections"}
+{"id": "W7136210248", "keep": false, "why": "LOCAL-CONGEST gaps, expander decompositions"}
+{"id": "W7147685244", "keep": false, "why": "QMA(2) complexity and entanglement"}
+{"id": "W7148606117", "keep": false, "why": "semi-supervised graph clustering"}
+{"id": "W7149294788", "keep": false, "why": "compressive learning privacy"}
+{"id": "W7149347846", "keep": false, "why": "wireless optical network dimensioning"}
+{"id": "W7151886089", "keep": false, "why": "rainbow structures, edge-colored graphs"}
+{"id": "W7151895601", "keep": false, "why": "bounded-width hypergraphs, tree decompositions"}
+{"id": "W7162252375", "keep": true, "why": "distributed sparsest cut, eigenvalue estimation"}
+{"id": "W7162254313", "keep": false, "why": "minimum deviation distance"}
+{"id": "W7162805215", "keep": false, "why": "minimum vertex cover, Hvala algorithm"}
+{"id": "W7163992805", "keep": true, "why": "hardness of approximating k-CSP"}
+{"id": "W7164005843", "keep": true, "why": "local list decoding from HDX"}
+{"id": "W7164032919", "keep": false, "why": "unique-SVP hardness"}
+{"id": "W7164060999", "keep": false, "why": "Pessiland, average-case complexity"}
+{"id": "W7164373718", "keep": false, "why": "distributed Laplacian techniques intro"}
+{"id": "W7164505600", "keep": true, "why": "bipartiteness ratio approximation"}
+{"id": "W7167823473", "keep": false, "why": "minimum knapsack, SoS rank"}
+{"id": "W7168050039", "keep": false, "why": "QAOA vertex cover on NISQ"}
+{"id": "W7168178331", "keep": false, "why": "abelian embeddings"}
+{"id": "W7203707273", "keep": false, "why": "monotone local search"}
+{"id": "W7204212218", "keep": false, "why": "dichotomy maximum PCSPs on graphs"}
+{"id": "W7213586897", "keep": true, "why": "degree-4 SoS, unique games on Paley graphs"}
+{"id": "W765055999", "keep": true, "why": "rational proofs, multiple provers"}
+{"id": "W772053521", "keep": false, "why": "ETH hardness, densest k-subgraph"}
+{"id": "W782508147", "keep": true, "why": "no title; cannot judge"}
+{"id": "W791130099", "keep": true, "why": "CSP approximation with balance constraints"}
+{"id": "W792200198", "keep": true, "why": "random walks, evolving sets, local partitioning"}
+{"id": "W798612896", "keep": false, "why": "connected subgraphs, fixed density"}
+{"id": "W829873228", "keep": true, "why": "digraph ordering approximability"}
+{"id": "W852493970", "keep": false, "why": "Lovasz theta duality"}
+{"id": "W87473611", "keep": false, "why": "exponential size linear programs"}
+{"id": "W906410999", "keep": false, "why": "cost sharing and clustering"}
+{"id": "W94361082", "keep": false, "why": "robust graph isomorphism, Lasserre gaps"}
+{"id": "W967421277", "keep": false, "why": "operator norm properties"}
+{"id": "W975811347", "keep": false, "why": "measuring hardness, approximability"}
+{"id": "W9863921", "keep": false, "why": "bounded-width resolution proof search"}
+{"id": "W987035227", "keep": false, "why": "complexity advanced topics textbook"}

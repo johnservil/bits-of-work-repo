@@ -1,0 +1,100 @@
+{"id": "W1769231622", "keep": false, "why": "unrelated: rough sets"}
+{"id": "W1770158118", "keep": false, "why": "unrelated: secure computation networks"}
+{"id": "W1776854177", "keep": false, "why": "unrelated: network clusters"}
+{"id": "W1788846295", "keep": false, "why": "unrelated: information dynamics"}
+{"id": "W1830761905", "keep": true, "why": "small-set expansion; UG-adjacent"}
+{"id": "W183923361", "keep": false, "why": "unrelated: wireless coverage"}
+{"id": "W1845642169", "keep": false, "why": "unrelated: broadcast algorithms"}
+{"id": "W1854885336", "keep": false, "why": "unrelated: submodular ranking"}
+{"id": "W1855012927", "keep": false, "why": "unrelated: stochastic matching"}
+{"id": "W1868897294", "keep": true, "why": "quadratic program hardness; UG-adjacent, unsure"}
+{"id": "W1876636384", "keep": false, "why": "expander decomposition algorithm; weak link"}
+{"id": "W1886138972", "keep": true, "why": "Lasserre/SDP hierarchies; UG-adjacent"}
+{"id": "W1886650756", "keep": true, "why": "hypercontractivity via SOS; Frankl-Rodl graph"}
+{"id": "W1886734694", "keep": true, "why": "NP-hardness of 2-to-1 label cover"}
+{"id": "W1890128745", "keep": false, "why": "unrelated: SNARG construction"}
+{"id": "W1891181203", "keep": true, "why": "Boolean analysis textbook; hypercontractivity"}
+{"id": "W1905335549", "keep": true, "why": "invariance principle on slice; Grassmann-adjacent"}
+{"id": "W1915406802", "keep": false, "why": "unrelated: voting manipulation"}
+{"id": "W1938427549", "keep": true, "why": "nonlocal games and Grothendieck; unsure"}
+{"id": "W1941041180", "keep": false, "why": "unrelated: streaming set cover"}
+{"id": "W194582147", "keep": true, "why": "self-testing/correcting; low-degree testing roots"}
+{"id": "W1948567022", "keep": true, "why": "Ramanujan complexes; high-dimensional expanders"}
+{"id": "W1948976210", "keep": false, "why": "unrelated: association rules"}
+{"id": "W1956427314", "keep": false, "why": "unrelated: domination variants"}
+{"id": "W1964094911", "keep": false, "why": "unrelated: hypergraph trees"}
+{"id": "W1964678106", "keep": false, "why": "unrelated: network fault tolerance"}
+{"id": "W1965562201", "keep": true, "why": "expansion problem reductions; small-set expansion"}
+{"id": "W1966695467", "keep": false, "why": "generic probability; unrelated"}
+{"id": "W1967141831", "keep": true, "why": "locally correctable codes; low-degree"}
+{"id": "W1967935161", "keep": true, "why": "CSP approximability, three variables; unsure"}
+{"id": "W1968556476", "keep": true, "why": "query-efficient PCP"}
+{"id": "W1968934446", "keep": false, "why": "unrelated: dominating sets"}
+{"id": "W1969449990", "keep": false, "why": "unrelated: sensor topologies"}
+{"id": "W1970083501", "keep": false, "why": "intersecting families; no games link"}
+{"id": "W1970095041", "keep": false, "why": "unrelated: rectangle stabbing"}
+{"id": "W1970259241", "keep": true, "why": "Raz parallel repetition theorem"}
+{"id": "W1970278864", "keep": true, "why": "assignment testers; combinatorial PCP"}
+{"id": "W1970606468", "keep": false, "why": "interactive proofs foundations; no games link"}
+{"id": "W1970670479", "keep": false, "why": "unrelated: quadratic forms"}
+{"id": "W1970872869", "keep": false, "why": "unrelated: graph minors"}
+{"id": "W1971028618", "keep": false, "why": "unrelated: convex recoloring"}
+{"id": "W1971749164", "keep": false, "why": "generic vertex cover approximation"}
+{"id": "W1971801736", "keep": true, "why": "improved low-degree testing"}
+{"id": "W1972934214", "keep": true, "why": "two-prover game with strong soundness"}
+{"id": "W1973113631", "keep": false, "why": "unrelated: parameterized clique"}
+{"id": "W1973394376", "keep": false, "why": "unrelated: diameter problems"}
+{"id": "W1973765739", "keep": false, "why": "unrelated: identifying codes"}
+{"id": "W1973898585", "keep": true, "why": "Gaussian noise-correlation bounds; hypercontractivity"}
+{"id": "W1974150157", "keep": false, "why": "unrelated: l-diversity"}
+{"id": "W1974672137", "keep": false, "why": "unrelated: graph isomorphism"}
+{"id": "W1975452925", "keep": false, "why": "CSP dichotomy; no games link"}
+{"id": "W1975810219", "keep": true, "why": "Gowers uniformity and PCPs"}
+{"id": "W1976432206", "keep": false, "why": "generic covering/packing approximation"}
+{"id": "W1976779334", "keep": true, "why": "MAX-CSP approximation; unsure"}
+{"id": "W1977134468", "keep": true, "why": "low-error PCP with few queries"}
+{"id": "W1977712294", "keep": false, "why": "unrelated: Steiner trees"}
+{"id": "W1978020111", "keep": false, "why": "unrelated: Lp spaces"}
+{"id": "W1978245018", "keep": false, "why": "unrelated: geometric PTAS"}
+{"id": "W1979790324", "keep": false, "why": "unrelated: communication compression"}
+{"id": "W1980830593", "keep": true, "why": "sparsest cut PRG; low-degree polynomials"}
+{"id": "W1982118869", "keep": true, "why": "untitled record; unsure"}
+{"id": "W1983157476", "keep": false, "why": "unrelated: statistical mechanics"}
+{"id": "W1983231745", "keep": false, "why": "unrelated: entity identification"}
+{"id": "W1983593474", "keep": true, "why": "long code testing; clique hardness"}
+{"id": "W1984669689", "keep": false, "why": "unrelated: stopping times"}
+{"id": "W1984685721", "keep": false, "why": "intersecting permutations; no games link"}
+{"id": "W1985572324", "keep": false, "why": "unrelated: k-SAT complexity"}
+{"id": "W1985694287", "keep": false, "why": "unrelated: set cover algorithms"}
+{"id": "W1986296546", "keep": true, "why": "Boolean low sensitivity; KKL-style analysis"}
+{"id": "W1986685589", "keep": false, "why": "unrelated: geometric set cover"}
+{"id": "W1987283756", "keep": false, "why": "unrelated: robust optimization"}
+{"id": "W1987536045", "keep": false, "why": "unrelated: scheduling"}
+{"id": "W1988511047", "keep": false, "why": "monotonicity testing; no games link"}
+{"id": "W1988522098", "keep": false, "why": "unrelated: fork-colorability"}
+{"id": "W1989019709", "keep": true, "why": "uniform direct product theorems"}
+{"id": "W1989742888", "keep": false, "why": "unrelated: Turan numbers"}
+{"id": "W1990313671", "keep": false, "why": "generic approximation survey"}
+{"id": "W1990487760", "keep": true, "why": "low-degree long code; hypergraph coloring"}
+{"id": "W1991001643", "keep": false, "why": "unrelated: expectation thresholds"}
+{"id": "W1991143034", "keep": true, "why": "linear equation hardness over reals; unsure"}
+{"id": "W1991265104", "keep": true, "why": "3-coloring and 2-to-1 label cover hardness"}
+{"id": "W1991370260", "keep": false, "why": "unrelated: scale-free networks"}
+{"id": "W1991651214", "keep": false, "why": "unrelated: FPT cut algorithms"}
+{"id": "W1992067909", "keep": true, "why": "PCP characterization; small error probability"}
+{"id": "W1992068214", "keep": false, "why": "unrelated: jackknife estimator"}
+{"id": "W1992472342", "keep": false, "why": "unrelated: Hamming anticodes"}
+{"id": "W1992650621", "keep": false, "why": "unrelated: monotonicity distance"}
+{"id": "W1993111701", "keep": true, "why": "Alon isoperimetry and expanders foundations"}
+{"id": "W1993116423", "keep": true, "why": "sharp inapproximability for 2-CSP"}
+{"id": "W1993495807", "keep": false, "why": "unrelated: domination search"}
+{"id": "W1994197486", "keep": false, "why": "unrelated: broadcasting"}
+{"id": "W1995725694", "keep": false, "why": "unrelated: exponential complexity"}
+{"id": "W1995977886", "keep": false, "why": "unrelated: Heisenberg group embeddings"}
+{"id": "W1996447604", "keep": false, "why": "mixing times; weak link"}
+{"id": "W1996919572", "keep": false, "why": "unrelated: subset intersection"}
+{"id": "W1997369416", "keep": false, "why": "unrelated: spanner hardness"}
+{"id": "W1997900197", "keep": false, "why": "unrelated: combinatorial optimization"}
+{"id": "W1998141189", "keep": false, "why": "unrelated: network design"}
+{"id": "W1998242373", "keep": false, "why": "unrelated: LDPC trapping sets"}
+{"id": "W1998269424", "keep": false, "why": "unrelated: dominating set PTAS"}

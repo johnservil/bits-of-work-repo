@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_qc_n486"
+class: "code"
+problem: "SD-QC"
+instance: "decodingchallenge qc n=486 w=22"
+instance_size: 486
+instance_size_unit: "n"
+log2_ops: 22.0
+method: null
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2019-09-13"
+solvers: ["Francesco Tinarelli"]
+academic: null
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/q-c/record/6"
+other_urls: ["https://decodingchallenge.org/q-c/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 0 - Inria Paris"

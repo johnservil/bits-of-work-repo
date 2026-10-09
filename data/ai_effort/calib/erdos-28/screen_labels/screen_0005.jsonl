@@ -1,0 +1,100 @@
+{"id": "W37379289", "keep": true, "why": "zero-sums in finite abelian groups"}
+{"id": "W39515261", "keep": false, "why": "pairwise coprime integer sets"}
+{"id": "W40644443", "keep": false, "why": "local rings, unrelated"}
+{"id": "W4205533240", "keep": true, "why": "ultrafilters, Ramsey-type sumset theorems"}
+{"id": "W4205910638", "keep": false, "why": "Riemann hypothesis proof claim, unrelated"}
+{"id": "W4210366657", "keep": false, "why": "hypercube network connectivity"}
+{"id": "W4210663278", "keep": true, "why": "Erdos favourite problems and results"}
+{"id": "W4210731599", "keep": false, "why": "graph theory textbook"}
+{"id": "W4210953077", "keep": false, "why": "divisibility book, different object"}
+{"id": "W4211023642", "keep": false, "why": "divisibility book, different object"}
+{"id": "W4211033034", "keep": false, "why": "combinatorics book, unclear"}
+{"id": "W4211092694", "keep": false, "why": "divisibility book, different object"}
+{"id": "W4211172166", "keep": false, "why": "poset theory, unrelated"}
+{"id": "W4211205179", "keep": false, "why": "distances of n points, geometry"}
+{"id": "W4212884688", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "W4212934326", "keep": true, "why": "unclear Springer volume title"}
+{"id": "W4214648228", "keep": false, "why": "prime gaps demonstration"}
+{"id": "W4214661660", "keep": false, "why": "prime gaps demonstration"}
+{"id": "W4226182553", "keep": false, "why": "CDMA decoder, unrelated"}
+{"id": "W4231447687", "keep": true, "why": "sequences of integers book front matter"}
+{"id": "W4231475697", "keep": true, "why": "sum-free subsequences"}
+{"id": "W4231638975", "keep": false, "why": "lcm sequences, different object"}
+{"id": "W4232463701", "keep": true, "why": "sequences book, unclear"}
+{"id": "W4232674971", "keep": true, "why": "references entry, unclear"}
+{"id": "W4233900282", "keep": false, "why": "set theory unsolved problems"}
+{"id": "W4234117750", "keep": true, "why": "sets of integers, Erdos-type"}
+{"id": "W4234963553", "keep": true, "why": "additive completion of integer sets"}
+{"id": "W4236097013", "keep": true, "why": "sum-free subsequences"}
+{"id": "W4236705909", "keep": true, "why": "unclear introduction entry"}
+{"id": "W4237114318", "keep": false, "why": "cycle parity and chromatic number"}
+{"id": "W4241085666", "keep": true, "why": "Graham conjecture"}
+{"id": "W4241320688", "keep": true, "why": "additive number theory problems"}
+{"id": "W4242292513", "keep": false, "why": "lcm sequences, different object"}
+{"id": "W4242421343", "keep": false, "why": "covering systems"}
+{"id": "W4243048603", "keep": false, "why": "probabilistic number theory, multiplicative"}
+{"id": "W4243095886", "keep": true, "why": "extremal problems in number theory"}
+{"id": "W4243491582", "keep": true, "why": "sum-free sets of integers"}
+{"id": "W4244591610", "keep": true, "why": "sums and products of finite sets"}
+{"id": "W4245912398", "keep": true, "why": "Hanani question, additive number theory"}
+{"id": "W4248282558", "keep": false, "why": "hypercube Ramsey result"}
+{"id": "W4248774826", "keep": false, "why": "induced subgraphs, graph theory"}
+{"id": "W4250696117", "keep": true, "why": "maximal sum-free sets in groups"}
+{"id": "W4250699352", "keep": false, "why": "chromatic number of set systems"}
+{"id": "W4251216302", "keep": false, "why": "divisor theory book"}
+{"id": "W4251424537", "keep": false, "why": "lattice point problems"}
+{"id": "W4252984830", "keep": false, "why": "prime number graph, unrelated"}
+{"id": "W4253784147", "keep": true, "why": "Graham gcd conjecture"}
+{"id": "W4253793592", "keep": true, "why": "sum-free subsequence sequences"}
+{"id": "W4254284286", "keep": true, "why": "B2 sequences, additive bases"}
+{"id": "W4295634057", "keep": false, "why": "unsolved geometry problems"}
+{"id": "W4302383489", "keep": true, "why": "unsolved problems in number theory"}
+{"id": "W4313813773", "keep": false, "why": "4-cycle extremal graphs"}
+{"id": "W4367663126", "keep": false, "why": "subgraph counting security, unrelated"}
+{"id": "W4376878199", "keep": true, "why": "infinite sumsets positive density"}
+{"id": "W4379012299", "keep": true, "why": "equal sums of multiset partitions"}
+{"id": "W4386395004", "keep": false, "why": "graphs with k copies, unrelated"}
+{"id": "W4386984735", "keep": true, "why": "sumsets covering and class numbers"}
+{"id": "W4387500425", "keep": true, "why": "largest sum-free sets of integers"}
+{"id": "W4389964398", "keep": false, "why": "subdivisions and cycles, graph theory"}
+{"id": "W4390105475", "keep": true, "why": "Sidon sets in finite contexts"}
+{"id": "W4391170001", "keep": false, "why": "graph cycle lengths"}
+{"id": "W4392641268", "keep": false, "why": "Ramsey theory history"}
+{"id": "W4396523507", "keep": true, "why": "numbers basis of order 2"}
+{"id": "W4398240880", "keep": false, "why": "Erdos covering systems book"}
+{"id": "W4399991262", "keep": false, "why": "unit distance graphs"}
+{"id": "W4401210516", "keep": true, "why": "restricted sumsets of shifted sets"}
+{"id": "W4401210571", "keep": true, "why": "Erdos B+B+t conjecture"}
+{"id": "W4401759458", "keep": false, "why": "covering systems, global fields"}
+{"id": "W4401759500", "keep": false, "why": "de Polignac conjecture numerics"}
+{"id": "W4402258857", "keep": true, "why": "prime-avoiding numbers as basis"}
+{"id": "W4404188127", "keep": true, "why": "infinite sumsets large density"}
+{"id": "W4404735034", "keep": true, "why": "additive combinatorics survey"}
+{"id": "W4405886106", "keep": false, "why": "hypercube Turan density"}
+{"id": "W4406122334", "keep": true, "why": "subset products, multiplicative analogue of sums"}
+{"id": "W4406810291", "keep": false, "why": "product sets in amenable groups"}
+{"id": "W4407231387", "keep": true, "why": "diameter of finite Sidon sets"}
+{"id": "W4408526020", "keep": false, "why": "Erdos-Faber-Lovasz conjecture"}
+{"id": "W4408552919", "keep": true, "why": "big sets combinatorial properties"}
+{"id": "W4408659663", "keep": false, "why": "Lev periodicity conjecture"}
+{"id": "W4410251722", "keep": false, "why": "non-Ramsey graphs"}
+{"id": "W4413355283", "keep": false, "why": "graphs cycles mod 4"}
+{"id": "W4414261623", "keep": true, "why": "explicit additive basis"}
+{"id": "W4414487897", "keep": true, "why": "density finite sums theorem"}
+{"id": "W4414688548", "keep": true, "why": "infinite sumset configuration problems"}
+{"id": "W4415791795", "keep": true, "why": "maximal sum-free sets in Z_5k"}
+{"id": "W51500770", "keep": true, "why": "ultrafilters, combinatorial number theory"}
+{"id": "W588476729", "keep": false, "why": "Ramsey theory book, unrelated"}
+{"id": "W593584913", "keep": false, "why": "large prime factor numbers"}
+{"id": "W606453859", "keep": false, "why": "handbook of combinatorics"}
+{"id": "W626759026", "keep": false, "why": "probabilistic number theory I"}
+{"id": "W63284382", "keep": false, "why": "sets without coprimes"}
+{"id": "W650639416", "keep": false, "why": "arrangements and spreads"}
+{"id": "W651535583", "keep": true, "why": "elementary number theory problem collection"}
+{"id": "W658849301", "keep": true, "why": "combinatorial theory collection, unclear"}
+{"id": "W7125690810", "keep": true, "why": "Erdos remark note, unclear"}
+{"id": "W7136250252", "keep": false, "why": "arithmetic progressions journal item"}
+{"id": "W7150942801", "keep": false, "why": "hypergraph channels, unrelated"}
+{"id": "W7165556155", "keep": false, "why": "spectral Turan problem, unrelated"}
+{"id": "W7167679819", "keep": false, "why": "tetranacci graphs, unrelated"}
+{"id": "W759014763", "keep": true, "why": "Erdos problems list, number theory"}

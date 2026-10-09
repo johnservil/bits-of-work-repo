@@ -1,0 +1,31 @@
+{
+ "key": "sidh",
+ "label": "SIDH / SIKE key recovery",
+ "cls": "isogeny",
+ "problem": "Recovering the SIDH secret isogeny from public curves and auxiliary torsion-point images. This is not the pure isogeny-path problem.",
+ "notes": "The break is shown as a qualitative event. An hour of CPU time is not converted to an invented 2^42 group-operation count. Polynomial-time behavior is distinct from a claim that no finite input could ever require 2^128 work. The result does not break every isogeny-based construction.",
+ "milestones": [
+  {
+   "year": 2022,
+   "date": "2022-07-30",
+   "name": "Efficient SIDH key recovery",
+   "authors": "Castryck, Decru",
+   "ref": "ePrint 2022/975; EUROCRYPT 2023",
+   "source_url": "https://eprint.iacr.org/2022/975",
+   "model": "classical",
+   "series": false,
+   "status": "context",
+   "cost": null,
+   "event": "Practical key recovery for SIKE; the revised report gives about ten minutes on one core for SIKEp434.",
+   "notes": "Date records the initial attack disclosure; runtime refers to the revised report, not the original July implementation.",
+   "assumptions": "The attack exploits torsion images. The stated heuristic polynomial analysis assumes the starting endomorphism ring and excludes certain parameter-dependent integer factorizations.",
+   "verified": false
+  }
+ ],
+ "role": "comparator",
+ "display_kind": "events",
+ "from_year": 2022,
+ "size_unit": "",
+ "size_name": "",
+ "reference": null
+}

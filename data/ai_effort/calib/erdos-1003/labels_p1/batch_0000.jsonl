@@ -1,0 +1,18 @@
+{"id": "W198630418", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "prime divisor counts at consecutive integers, different quantity"}
+{"id": "W2002004779", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "locally repeated values of arithmetic functions II, includes phi coincidences"}
+{"id": "W2009526696", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "divisor function at consecutive integers, not phi"}
+{"id": "W2022343477", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "multiplicative functions at consecutive integers, general"}
+{"id": "W2037742728", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "remark on Luca paper, title alone"}
+{"id": "W204468088", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "history monograph chapter"}
+{"id": "W2045783399", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "d(n)=d(n+1) analogue, not phi"}
+{"id": "W2047877834", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "sieving by large primes"}
+{"id": "W2083826093", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "locally repeated values I, includes phi(n)=phi(n+1) heuristics"}
+{"id": "W2122004428", "include": "borderline", "category": "A", "weight": 0.15, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "locally repeated values III, abstract concerns divisor function"}
+{"id": "W2955124319", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "function-field analogue of locally repeated values incl. totient"}
+{"id": "W3016165551", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "locally repeated values IV, title only"}
+{"id": "W3081881205", "include": "borderline", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "infinitely many phi(n)=phi(n+k) for some k, not k=1"}
+{"id": "W3192647894", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "congruences of arithmetic functions, title only"}
+{"id": "W395439241", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "hybrid problems general"}
+{"id": "W4226077788", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "numbers k+f(k)"}
+{"id": "W626759026", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "probabilistic number theory text"}
+{"id": "seed:erdos-1003-1", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos problems collection, seed citation"}

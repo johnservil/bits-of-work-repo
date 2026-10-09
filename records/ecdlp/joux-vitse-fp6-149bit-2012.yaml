@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "joux-vitse-fp6-149bit-2012"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "curve over F_{p^6} (151-bit field, p ~25-26 bits), 149-bit prime-order subgroup"
+instance_size: 149
+instance_size_unit: "bits"
+log2_ops: null
+method: "cover-and-decomposition index calculus (Weil descent to genus-3 curve over F_{p^2} + decomposition)"
+structure_exploited: true
+hardware: "Intel Xeon 5570 2.93 GHz cluster (1024 cores sieving, 64 cores Lanczos)"
+raw_compute: "about 110,000 CPU-hours, about one month real time (sieve 62 h on 1024 cores; Lanczos 28.5 days on 64 cores)"
+reported_core_years: 12.55
+gpu_years: null
+wall_time_days: 30
+date: "2012-01"
+solvers: ["Antoine Joux", "Vanessa Vitse"]
+academic: true
+challenge: null
+extrapolation: "160-bit elliptic curve group of this type estimated at about 200 years on a single core"
+paper: "ePrint 2011/020; EUROCRYPT 2012 LNCS 7237"
+source_url: "https://www-fourier.univ-grenoble-alpes.fr/~viva/research/articles/CoverDecomp.pdf"
+other_urls: ["https://eprint.iacr.org/2011/020"]
+confidence: 0.8
+verified: false
+notes: "Weak-curve (composite extension degree) instance, not generic. ePrint abstract mentions a 130-bit field example; the read version reports the 149-bit group / 151-bit field. Date = ePrint revision with this example."

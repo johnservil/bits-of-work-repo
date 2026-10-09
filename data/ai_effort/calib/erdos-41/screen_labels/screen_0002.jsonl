@@ -1,0 +1,100 @@
+{"id": "W2085391599", "keep": false, "why": "distinct distances, geometry"}
+{"id": "W2085477555", "keep": true, "why": "partitions with equal products; unsure"}
+{"id": "W2086041665", "keep": true, "why": "differences of sets, Graham problem"}
+{"id": "W2087567316", "keep": false, "why": "Sperner-type subset theorem"}
+{"id": "W2087839647", "keep": true, "why": "zero-free sequences structure"}
+{"id": "W2087986857", "keep": false, "why": "uncountable chromatic number graphs"}
+{"id": "W2088100739", "keep": true, "why": "signed sums of reciprocals"}
+{"id": "W2088212677", "keep": true, "why": "ergodic Szemeredi AP theorem; unsure"}
+{"id": "W2088339746", "keep": true, "why": "complementary sets of integers"}
+{"id": "W2090294545", "keep": false, "why": "Ramsey product theorem"}
+{"id": "W2093164441", "keep": false, "why": "harmonic series remark"}
+{"id": "W2093318356", "keep": false, "why": "distance realization in Euclidean space"}
+{"id": "W2093699365", "keep": false, "why": "pairwise balanced designs"}
+{"id": "W2095095818", "keep": true, "why": "linear Diophantine (Frobenius) bound"}
+{"id": "W2095689360", "keep": false, "why": "formal logic problem"}
+{"id": "W2097926077", "keep": false, "why": "prime factors of binomial coefficients"}
+{"id": "W2099986052", "keep": false, "why": "graph theory open problems"}
+{"id": "W2104145910", "keep": false, "why": "Ramsey numbers for cycles"}
+{"id": "W2104362101", "keep": false, "why": "Ramsey size linear graphs"}
+{"id": "W2107062643", "keep": true, "why": "zero-free sequences, cyclic groups"}
+{"id": "W2108900323", "keep": true, "why": "sets of integers, additive"}
+{"id": "W2109887555", "keep": true, "why": "regular integer sequences growth; unsure"}
+{"id": "W2110917011", "keep": false, "why": "well-quasi-ordering theory"}
+{"id": "W2111220106", "keep": true, "why": "results on additive number theory"}
+{"id": "W2111559003", "keep": false, "why": "random graph factors"}
+{"id": "W2113268225", "keep": true, "why": "combinatorial number theory problems III"}
+{"id": "W2115034958", "keep": true, "why": "s-additive sequences"}
+{"id": "W2115811550", "keep": true, "why": "note on Erdos-Graham question"}
+{"id": "W2118381068", "keep": true, "why": "elementary number theory combinatorial problem; unsure"}
+{"id": "W2120600794", "keep": true, "why": "multiplicative representation of integers"}
+{"id": "W2121190404", "keep": false, "why": "extremal graph valence problem"}
+{"id": "W2125817895", "keep": true, "why": "number theory remarks; unsure"}
+{"id": "W2128000059", "keep": false, "why": "consecutive primes"}
+{"id": "W2129834404", "keep": false, "why": "intersection theorems for set systems"}
+{"id": "W2131114615", "keep": false, "why": "subsets of a set, extremal"}
+{"id": "W2132134025", "keep": true, "why": "integer sets without 4-term AP"}
+{"id": "W2134817795", "keep": false, "why": "odd integers (p-1)/2^n density"}
+{"id": "W2136069334", "keep": true, "why": "progression-free sets, non-repetitive"}
+{"id": "W2138069615", "keep": true, "why": "integer sets without prescribed AP"}
+{"id": "W2138899395", "keep": false, "why": "better-quasi-ordering"}
+{"id": "W2140028675", "keep": true, "why": "integers as distinct sums from sequence"}
+{"id": "W2142443207", "keep": true, "why": "Erdos-Szemeredi sum-product problem"}
+{"id": "W2142683079", "keep": false, "why": "Euclidean Ramsey theorems"}
+{"id": "W2143569998", "keep": false, "why": "triangulated spheres in 3-graphs"}
+{"id": "W2144100587", "keep": false, "why": "well-ordered sets problem"}
+{"id": "W2145433475", "keep": true, "why": "unconventional number theory problems"}
+{"id": "W2155187680", "keep": true, "why": "integer sets with distinct differences"}
+{"id": "W2157156052", "keep": false, "why": "designs and perfect graph conjecture"}
+{"id": "W2160948516", "keep": false, "why": "Euler totient function"}
+{"id": "W2162995963", "keep": true, "why": "geometry and number theory combinatorics; unsure"}
+{"id": "W2163674569", "keep": true, "why": "integer sets bounded AP terms"}
+{"id": "W2164149555", "keep": false, "why": "4-chromatic plane graph"}
+{"id": "W2164350127", "keep": false, "why": "covering equilateral triangles"}
+{"id": "W2166698266", "keep": true, "why": "Graham conjecture on gcd"}
+{"id": "W2168333587", "keep": false, "why": "covering numbers, design theory"}
+{"id": "W2169821423", "keep": true, "why": "Erdos combinatorial problems list; unsure"}
+{"id": "W2182823773", "keep": false, "why": "generalized Ramsey theory survey"}
+{"id": "W2185132808", "keep": false, "why": "lecture notes bibliography"}
+{"id": "W2218192738", "keep": false, "why": "intersecting edge families, hypergraphs"}
+{"id": "W228379338", "keep": true, "why": "Hanani conjecture, additive number theory"}
+{"id": "W229079384", "keep": true, "why": "Frobenius linear Diophantine problem"}
+{"id": "W2305884057", "keep": true, "why": "Erdos favourite problems, number theory"}
+{"id": "W2313298573", "keep": true, "why": "Erdos problem, unidentified; unsure"}
+{"id": "W2313391498", "keep": true, "why": "non-averaging integer sets"}
+{"id": "W2314290950", "keep": true, "why": "bases of natural numbers"}
+{"id": "W2314823304", "keep": false, "why": "Kellogg Diophantine problem"}
+{"id": "W2316785615", "keep": false, "why": "combinatorial game problem"}
+{"id": "W2316932045", "keep": false, "why": "Fraisse order type conjecture"}
+{"id": "W2317251561", "keep": true, "why": "extremal number theory problem; unsure"}
+{"id": "W2318154985", "keep": false, "why": "magic configurations"}
+{"id": "W2319518804", "keep": false, "why": "ordinary lines, point configurations"}
+{"id": "W2319675223", "keep": false, "why": "Latin rectangles"}
+{"id": "W2320330683", "keep": true, "why": "linear Diophantine problem"}
+{"id": "W2320377306", "keep": false, "why": "orthogonal Latin squares"}
+{"id": "W2320708790", "keep": false, "why": "polynomial irreducibility"}
+{"id": "W2321243920", "keep": false, "why": "binomial coefficient representations"}
+{"id": "W2321688441", "keep": false, "why": "sums of squares"}
+{"id": "W2322536451", "keep": false, "why": "Uspensky theorem"}
+{"id": "W2323526206", "keep": false, "why": "Erdos biography and mathematics"}
+{"id": "W2323590783", "keep": false, "why": "party acquaintances problem"}
+{"id": "W2323607775", "keep": false, "why": "prime factors of consecutive integers"}
+{"id": "W2323898634", "keep": false, "why": "converse of Fermat theorem"}
+{"id": "W2324071549", "keep": false, "why": "plane extremum problem"}
+{"id": "W2325408613", "keep": true, "why": "coloring integers remark; unsure"}
+{"id": "W2326082038", "keep": false, "why": "Erdos-Rado combinatorial theorem"}
+{"id": "W2327285180", "keep": false, "why": "intersection theorems for set systems"}
+{"id": "W2327456046", "keep": true, "why": "sums of distinct divisors"}
+{"id": "W2328084579", "keep": false, "why": "orthogonal set families"}
+{"id": "W2328110742", "keep": false, "why": "square-free words, symbols"}
+{"id": "W2328627644", "keep": false, "why": "multiplicative function correlations"}
+{"id": "W2328642983", "keep": true, "why": "Waring's problem, additive representation"}
+{"id": "W2328726307", "keep": false, "why": "Moser problem remarks"}
+{"id": "W2329503866", "keep": true, "why": "infinite and finite covering systems"}
+{"id": "W2330076678", "keep": false, "why": "pk/k divisibility problems"}
+{"id": "W2330372082", "keep": true, "why": "Graham conjecture on integer sequences"}
+{"id": "W2331753091", "keep": false, "why": "consecutive composite numbers"}
+{"id": "W2334191667", "keep": false, "why": "Beatty sequences, shift operators"}
+{"id": "W2334488458", "keep": true, "why": "questions on arithmetic progressions"}
+{"id": "W2335290204", "keep": false, "why": "fractions with bounded numerators"}
+{"id": "W2335339119", "keep": false, "why": "Erdos-Hajnal hypergraph colouring"}

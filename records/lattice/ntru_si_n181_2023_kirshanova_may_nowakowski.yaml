@@ -1,0 +1,25 @@
+id: "ntru_si_n181_2023_kirshanova_may_nowakowski"
+class: "lattice"
+problem: "NTRU"
+instance: "Security Innovation NTRU Challenge N=181"
+instance_size: 181
+instance_size_unit: "dim"
+log2_ops: null
+method: "G6K BKZ with sieving (pump-and-jump), challenge-specific lattice basis"
+structure_exploited: true
+hardware: null
+raw_compute: "about 20 core-years"
+reported_core_years: 20
+gpu_years: null
+wall_time_days: null
+date: "2023-04"
+solvers: ["Elena Kirshanova", "Alexander May", "Julian Nowakowski"]
+academic: true
+challenge: "Security Innovation NTRU Challenge"
+extrapolation: null
+paper: "ePrint 2023/582"
+source_url: "https://eprint.iacr.org/2023/582"
+other_urls: ["https://github.com/ElenaKirshanova/ntru_with_sieving"]
+confidence: 0.8
+verified: false
+notes: "Security Innovation NTRU Challenge (27 keys, N=107..401, p=3, q=2^9..2^11; $1000 prizes for N<=211): find (f,g) or any lattice vector below a GH-derived bound in the NTRU lattice. instance_size = ring degree N (lattice dim 2N). Date = ePrint submission (2023-04-24); PQCrypto 2023. Hardware not in abstract (PDF not accessible to this agent); repo has challenge181.sage verifying the solution. structure_exploited=true reflects cyclotomic/NTRU-specific bases."

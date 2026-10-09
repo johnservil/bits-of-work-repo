@@ -1,0 +1,100 @@
+{"id": "W2039754896", "keep": false, "why": "unrelated: pattern matching"}
+{"id": "W2040779545", "keep": false, "why": "unrelated: PatentLine"}
+{"id": "W2040847787", "keep": true, "why": "Heisenberg L_p metrics; Goemans-Linial, UG-adjacent"}
+{"id": "W2041499697", "keep": false, "why": "unrelated: multiway cut"}
+{"id": "W2042179958", "keep": false, "why": "Ornstein-Uhlenbeck probability; weak link"}
+{"id": "W2042654457", "keep": false, "why": "unrelated: power indices"}
+{"id": "W2043963325", "keep": false, "why": "generic chromatic number approximation"}
+{"id": "W2044027392", "keep": false, "why": "unrelated: stochastic matching"}
+{"id": "W2044471216", "keep": true, "why": "analytical approach to parallel repetition"}
+{"id": "W2044818254", "keep": false, "why": "unrelated: covering IP approximation"}
+{"id": "W2045377861", "keep": false, "why": "zig-zag expanders; not HDX"}
+{"id": "W2047861934", "keep": true, "why": "conditional hardness for approximate coloring; unsure"}
+{"id": "W2048568229", "keep": false, "why": "unrelated: min-entropy set cover"}
+{"id": "W2048651540", "keep": true, "why": "affine-invariant codes from lifting; low-degree"}
+{"id": "W2048769918", "keep": false, "why": "unrelated: distributed dominating set"}
+{"id": "W2048946385", "keep": false, "why": "unrelated: automata complexity"}
+{"id": "W2049354485", "keep": false, "why": "unrelated: source location"}
+{"id": "W2049516232", "keep": false, "why": "unrelated: log-space connectivity"}
+{"id": "W2049600041", "keep": false, "why": "unrelated: BV functions geometry"}
+{"id": "W2050947816", "keep": false, "why": "unrelated: antisymmetric paths"}
+{"id": "W2050961553", "keep": true, "why": "fast SDP algorithms for CSPs; UG-adjacent"}
+{"id": "W2052447582", "keep": true, "why": "small-value parallel repetition for games"}
+{"id": "W2052701473", "keep": true, "why": "hardness of almost q-colorable independent sets; unsure"}
+{"id": "W2053086236", "keep": true, "why": "checking computations; PCP foundations"}
+{"id": "W2053267965", "keep": false, "why": "monotonicity tester; no games link"}
+{"id": "W2053576536", "keep": false, "why": "unrelated: unique-max coloring"}
+{"id": "W2054248368", "keep": false, "why": "unrelated: partial vertex cover"}
+{"id": "W2054503448", "keep": false, "why": "unrelated: graph guarding"}
+{"id": "W2054505111", "keep": false, "why": "unrelated: geometric PTAS"}
+{"id": "W2055289243", "keep": false, "why": "unrelated: physics"}
+{"id": "W2055446353", "keep": false, "why": "unrelated: triangle-intersecting families"}
+{"id": "W2055767422", "keep": false, "why": "proof-system complexity; weak link"}
+{"id": "W2056104224", "keep": false, "why": "unrelated: domination"}
+{"id": "W2056399203", "keep": false, "why": "unrelated: capacitated vertex cover"}
+{"id": "W2057504000", "keep": true, "why": "low-degree tests"}
+{"id": "W2058023231", "keep": false, "why": "unrelated: scheduling approximability"}
+{"id": "W2058508948", "keep": false, "why": "unrelated: scale-free domination"}
+{"id": "W2059179208", "keep": false, "why": "unrelated: roman domination"}
+{"id": "W2059187303", "keep": true, "why": "Lovasz-Schrijver nonapproximability"}
+{"id": "W2059283278", "keep": false, "why": "unrelated: Turan problems"}
+{"id": "W2059453880", "keep": false, "why": "generic minimization hardness; no games link"}
+{"id": "W2059707428", "keep": false, "why": "unrelated: network design"}
+{"id": "W2059898563", "keep": false, "why": "unrelated: connected domination"}
+{"id": "W2060049097", "keep": false, "why": "unrelated: guarding hardness"}
+{"id": "W2060162472", "keep": false, "why": "unrelated: telephone multicast"}
+{"id": "W2060451358", "keep": true, "why": "Khot's Unique Games conjecture survey"}
+{"id": "W2063046368", "keep": false, "why": "MAX-3-CUT SDP algorithm; weak link"}
+{"id": "W2063966194", "keep": true, "why": "log-Sobolev and Margulis connectivity; hypercontractivity"}
+{"id": "W2064571607", "keep": false, "why": "unrelated: cops and robber"}
+{"id": "W2065848091", "keep": false, "why": "unrelated: robber game"}
+{"id": "W2067171159", "keep": false, "why": "unrelated: wireless communication"}
+{"id": "W2068190866", "keep": true, "why": "approximability of CSPs; UG-based"}
+{"id": "W2070208264", "keep": true, "why": "playing Unique Games via embeddings"}
+{"id": "W2071041127", "keep": false, "why": "unrelated: connected domination"}
+{"id": "W2071435255", "keep": false, "why": "unrelated: influence games"}
+{"id": "W2072142887", "keep": true, "why": "Unique Games semi-random models"}
+{"id": "W2072630120", "keep": false, "why": "unrelated: network improvement"}
+{"id": "W2072858942", "keep": false, "why": "unrelated: matrix approximation"}
+{"id": "W2073029179", "keep": true, "why": "NP-hardness point for Unique Games"}
+{"id": "W2073310493", "keep": true, "why": "Boolean functions Fourier concentration; unsure"}
+{"id": "W2073903404", "keep": true, "why": "SDP gaps and UGC-hardness"}
+{"id": "W2074240671", "keep": false, "why": "unrelated: node deletion"}
+{"id": "W2074803875", "keep": false, "why": "non-specific title"}
+{"id": "W2075280452", "keep": false, "why": "unrelated: test-based problems"}
+{"id": "W2075846943", "keep": false, "why": "unrelated: metabolic networks"}
+{"id": "W2077745958", "keep": false, "why": "unrelated: Steiner tree"}
+{"id": "W2077901621", "keep": true, "why": "concrete efficiency of PCPs"}
+{"id": "W2078090052", "keep": true, "why": "PCP characterizations of NP"}
+{"id": "W2078146027", "keep": false, "why": "unrelated: facility location games"}
+{"id": "W2078278523", "keep": true, "why": "Nelson Markoff fields; hypercontractivity origin"}
+{"id": "W2078345182", "keep": true, "why": "noise sensitivity, Boolean analysis; unsure"}
+{"id": "W2078744297", "keep": false, "why": "generic approximability overview"}
+{"id": "W2078929687", "keep": true, "why": "noise stability invariance; Mossel-O'Donnell-Oleszkiewicz"}
+{"id": "W2079996283", "keep": false, "why": "unrelated: disjoint subset chains"}
+{"id": "W2080479164", "keep": false, "why": "Russo zero-one law; weak link"}
+{"id": "W2080578129", "keep": true, "why": "multi-prover interactive proofs"}
+{"id": "W2080900058", "keep": false, "why": "unrelated: differential privacy"}
+{"id": "W2080905757", "keep": false, "why": "GW MAX-CUT approximation; no games link"}
+{"id": "W2081254453", "keep": true, "why": "Hastad clique hardness"}
+{"id": "W2081256580", "keep": true, "why": "noise sensitivity Boolean functions book"}
+{"id": "W2081528592", "keep": false, "why": "unrelated: wireless coverage"}
+{"id": "W2081537403", "keep": true, "why": "approximation resistance on predicates"}
+{"id": "W2081811330", "keep": false, "why": "unrelated: wireless backbone"}
+{"id": "W2082647621", "keep": true, "why": "algebraic interactive proofs; PCP foundations"}
+{"id": "W2083984856", "keep": false, "why": "unrelated: set cover approximation"}
+{"id": "W2084935502", "keep": false, "why": "generic approximation completeness"}
+{"id": "W2084950686", "keep": false, "why": "unrelated: min cut"}
+{"id": "W2085427851", "keep": true, "why": "SDP survey; UG machinery, unsure"}
+{"id": "W2085573719", "keep": true, "why": "vector-space shadows; Grassmann-adjacent, unsure"}
+{"id": "W2085693797", "keep": false, "why": "monotonicity testing; weak link"}
+{"id": "W2085720608", "keep": false, "why": "unrelated: labeled connectivity"}
+{"id": "W2086133268", "keep": false, "why": "unrelated: pattern matching"}
+{"id": "W2086653003", "keep": true, "why": "interactive proofs and clique hardness"}
+{"id": "W2087038607", "keep": true, "why": "MAX-CUT and 2-variable CSP inapproximability"}
+{"id": "W2087326429", "keep": true, "why": "direct sum testing"}
+{"id": "W2087785368", "keep": true, "why": "hypercontractivity on Lie groups"}
+{"id": "W2087964954", "keep": true, "why": "linearity and PCP graph tests"}
+{"id": "W2088240304", "keep": false, "why": "unrelated: auctions"}
+{"id": "W2088742261", "keep": true, "why": "EKR for vector spaces; Grassmann-adjacent"}
+{"id": "W2088998312", "keep": false, "why": "generic approximation guide"}

@@ -1,0 +1,25 @@
+id: "ideal_apxsvp_d112_20130122_plantard"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge approx-SVP dim 112 (index 113)"
+instance_size: 112
+instance_size_unit: "dim"
+log2_ops: null
+method: "BKZ"
+structure_exploited: false
+hardware: null
+raw_compute: "BKZ"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2013-01-22"
+solvers: ["T. Plantard", "M. Schneider"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (approx-SVP HoF)"
+extrapolation: null
+paper: "ePrint 2013/039"
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/alphasvphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php", "https://eprint.iacr.org/2013/039"]
+confidence: 0.75
+verified: false
+notes: "Ideal Lattice Challenge approx-SVP HoF: much looser norm bound (formula shown as image on site, not transcribed); a BKZ-quality short-vector record rather than an SVP solve. Record progression entry (new max dimension). HoF: cyclotomic index 113, seed 0, norm 3456, 'using ideal structure' = no."

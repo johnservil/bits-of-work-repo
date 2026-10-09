@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "cb2013_rm_mceliece_65536"
+class: "code"
+problem: "SD"
+instance: "McEliece with binary Reed-Muller codes RM(r,m), n=65536"
+instance_size: 65536
+instance_size_unit: "n"
+log2_ops: null
+method: "structural key recovery for RM-code McEliece, O(n^d + n^4 log n), d=gcd(r,m-1)"
+structure_exploited: true
+hardware: "personal computer"
+raw_compute: "less than 7 hours on a PC"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.2916666666666667
+date: "2013-05"
+solvers: ["I. V. Chizhov", "M. A. Borodin"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "2013/287"
+source_url: "https://eprint.iacr.org/2013/287"
+other_urls: []
+confidence: 0.7
+verified: false
+notes: "Not Goppa codes: breaks the RM-code variant (Sidelnikov-type) of McEliece; r,m for the n=65536 demo not stated in abstract."

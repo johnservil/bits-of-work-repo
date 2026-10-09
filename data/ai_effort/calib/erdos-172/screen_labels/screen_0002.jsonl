@@ -1,0 +1,60 @@
+{"id": "W2337621514", "keep": true, "why": "ultrafilters and IP sets"}
+{"id": "W2468037275", "keep": false, "why": "prime factors of nj+a^hk"}
+{"id": "W2531700733", "keep": false, "why": "Jacobsthal coprime function, unrelated"}
+{"id": "W254482520", "keep": false, "why": "Frobenius problem, unrelated"}
+{"id": "W2601463216", "keep": true, "why": "additive number theory problems"}
+{"id": "W2620155147", "keep": true, "why": "additive combinatorics research problems"}
+{"id": "W2738306030", "keep": false, "why": "Ahmes series irrationality"}
+{"id": "W2791145269", "keep": true, "why": "Erdos sumset conjecture proof"}
+{"id": "W2796931952", "keep": false, "why": "powerful numbers, unrelated"}
+{"id": "W2804235538", "keep": false, "why": "congruence x mod p, unrelated"}
+{"id": "W2887053484", "keep": true, "why": "sumsets and covering codes"}
+{"id": "W2895866514", "keep": false, "why": "lattice point distances, unrelated"}
+{"id": "W2914222527", "keep": false, "why": "Erdos-Selfridge covering moduli"}
+{"id": "W2919772532", "keep": true, "why": "Erdos sumset conjecture proof"}
+{"id": "W2938910622", "keep": false, "why": "Erdos covering systems"}
+{"id": "W2950922715", "keep": true, "why": "Erdos-Szemeredi sum-product"}
+{"id": "W2977273815", "keep": true, "why": "number theory conference volume, unclear"}
+{"id": "W3004970682", "keep": false, "why": "greatest prime factor, unrelated"}
+{"id": "W3036512481", "keep": false, "why": "caps in finite vector spaces"}
+{"id": "W304188901", "keep": false, "why": "covering integers by arithmetic sequences"}
+{"id": "W3098022636", "keep": true, "why": "sum-free subsets of integer sets"}
+{"id": "W3120586469", "keep": true, "why": "ultrafilters Ramsey-type theorems"}
+{"id": "W3150381009", "keep": true, "why": "general theory of numbers book"}
+{"id": "W3158628378", "keep": true, "why": "density of sumsets"}
+{"id": "W350260367", "keep": false, "why": "Frobenius linear Diophantine problem"}
+{"id": "W37379289", "keep": true, "why": "zero-sums in finite abelian groups"}
+{"id": "W39515261", "keep": false, "why": "pairwise coprime integer sets"}
+{"id": "W4211101493", "keep": true, "why": "sequences of integers book"}
+{"id": "W4211212174", "keep": true, "why": "unclear bibliography entry"}
+{"id": "W4211214111", "keep": true, "why": "sequences of integers book"}
+{"id": "W4231447687", "keep": true, "why": "sequences of integers book front matter"}
+{"id": "W4236705909", "keep": true, "why": "unclear introduction entry"}
+{"id": "W4242421343", "keep": false, "why": "covering systems"}
+{"id": "W4244591610", "keep": true, "why": "sums and products of finite sets"}
+{"id": "W4376878199", "keep": true, "why": "infinite sumsets density"}
+{"id": "W4386984735", "keep": true, "why": "sumsets and class numbers"}
+{"id": "W4398240880", "keep": false, "why": "Erdos covering systems book"}
+{"id": "W4401210571", "keep": true, "why": "Erdos B+B+t conjecture"}
+{"id": "W4404188127", "keep": true, "why": "infinite sumsets large density"}
+{"id": "W4408552919", "keep": true, "why": "big sets combinatorial properties"}
+{"id": "W4414487897", "keep": true, "why": "density finite sums theorem"}
+{"id": "W4414688548", "keep": true, "why": "infinite sumset configuration problems"}
+{"id": "W51500770", "keep": true, "why": "ultrafilters combinatorial number theory"}
+{"id": "W593584913", "keep": false, "why": "large prime factor numbers"}
+{"id": "W63284382", "keep": false, "why": "sets without coprimes"}
+{"id": "W651535583", "keep": true, "why": "elementary number theory problem collection"}
+{"id": "W79326132", "keep": false, "why": "exactly covering systems"}
+{"id": "W820979427", "keep": false, "why": "primes hypotheses, unrelated"}
+{"id": "W842301775", "keep": true, "why": "addition of residue classes"}
+{"id": "W874532184", "keep": true, "why": "additive properties of random sequences"}
+{"id": "W915366989", "keep": true, "why": "Erdos-Stein problem, unclear"}
+{"id": "W91574864", "keep": false, "why": "pairwise coprime quasi-integers"}
+{"id": "W971488519", "keep": true, "why": "Erdos-Heilbronn additive conjecture"}
+{"id": "W986587584", "keep": false, "why": "difference sequences monotonicity"}
+{"id": "W986937197", "keep": false, "why": "primes in intervals"}
+{"id": "W996473569", "keep": true, "why": "Erdos-Moser problem, unclear"}
+{"id": "seed:erdos-172-5", "keep": true, "why": "monochromatic sums and products"}
+{"id": "seed:erdos-172-6", "keep": true, "why": "Hindman conjecture over rationals"}
+{"id": "seed:erdos-172-7", "keep": true, "why": "monochromatic sums and products rationals"}
+{"id": "seed:erdos-3-4", "keep": true, "why": "van der Waerden and Ramsey survey"}

@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "mnt170-pairing-2016"
+class: "ecdlp"
+problem: "FF-DLP"
+instance: "weak MNT curve (k=3) over 170-bit p, 156-bit subgroup; DLP via pairing to 508-bit F_{p^3}"
+instance_size: 508
+instance_size_unit: "bits"
+log2_ops: null
+method: "MOV/pairing reduction + NFS-DL in F_{p^3} (conjugation polynomial selection, Galois automorphisms)"
+structure_exploited: true
+hardware: "Intel Xeon E5520 / E5-2650 clusters"
+raw_compute: "relation collection 660 core-days, linear algebra 423 core-days, individual log ~2 days; total 1085 core-days"
+reported_core_years: 2.97
+gpu_years: null
+wall_time_days: null
+date: "2016-05"
+solvers: ["Aurore Guillevic", "Francois Morain", "Emmanuel Thome"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2016/507; arXiv:1605.07746; SAC 2016"
+source_url: "https://www.arxiv.org/pdf/1605.07746"
+other_urls: ["https://eprint.iacr.org/2016/507"]
+confidence: 0.85
+verified: false
+notes: "Problem coded FF-DLP: the work is an NFS discrete log in the pairing target field; the end goal was an ECDLP challenge on the curve (156-bit prime l). Consider moving to comparator class. Date = ePrint submission."

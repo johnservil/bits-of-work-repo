@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_sd_summary"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge SD (random binary [n,n/2], w=ceil(1.05 d_GV)) track summary: max n=570 (w=70)"
+instance_size: 570
+instance_size_unit: "n"
+log2_ops: 60.0
+method: "MMT variant"
+structure_exploited: false
+hardware: null
+raw_compute: "45.32 days"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2023-04-17"
+solvers: ["Shintaro Narisada", "Kazuhide Fukushima", "Shinsaku Kiyomoto"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/syndrome/halloffame"
+other_urls: ["https://decodingchallenge.org/syndrome", "https://decodingchallenge.org/syndrome/record/58"]
+confidence: 0.85
+verified: false
+notes: "SUMMARY FILE - duplicates the latest progression record; exclude from record counts. Hall of fame has 62 entries (first ten solvers per instance). Progression (n or weight, date): 10 2019-07, 30 2019-07, 170 2019-07, 200 2019-08, 250 2019-08, 310 2019-08, 340 2019-08, 370 2019-08, 400 2019-09, 410 2019-09, 450 2019-09, 460 2020-07, 470 2020-07, 500 2020-07, 510 2021-09, 530 2021-10, 540 2022-02, 550 2022-02, 570 2023-04. Full table: dc_sd_hof.csv. Harvested 2026-10-08."

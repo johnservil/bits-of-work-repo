@@ -1,0 +1,25 @@
+id: "ideal_apxsvp_d656_20210831_zhao"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "Ideal Lattice Challenge approx-SVP dim 656 (index 1245)"
+instance_size: 656
+instance_size_unit: "dim"
+log2_ops: null
+method: "improved BKZ (enumeration-based SVP subroutine)"
+structure_exploited: false
+hardware: "Intel Core i7-7500U laptop CPU (2 cores)"
+raw_compute: "about 700 h wall on 2 cores = 1400 core hours (HoF)"
+reported_core_years: 0.1597
+gpu_years: null
+wall_time_days: 29.17
+date: "2021-08-31"
+solvers: ["Ziyu Zhao"]
+academic: true
+challenge: "TU Darmstadt Ideal Lattice Challenge (approx-SVP HoF)"
+extrapolation: null
+paper: "ePrint 2022/239"
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/alphasvphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php", "https://eprint.iacr.org/2022/239"]
+confidence: 0.85
+verified: false
+notes: "Ideal Lattice Challenge approx-SVP HoF: much looser norm bound (formula shown as image on site, not transcribed); a BKZ-quality short-vector record rather than an SVP solve. Record progression entry (new max dimension). HoF: cyclotomic index 1245, seed 0, norm 670275, 'using ideal structure' = no. ePrint 2022/239 abstract instead reports solving the 656-dim ideal challenge in 380 thread hours vs 4600 for the previous record; discrepancy with the HoF figure unresolved (maybe a later re-run)."

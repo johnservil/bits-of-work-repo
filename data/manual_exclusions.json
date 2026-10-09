@@ -1,0 +1,8 @@
+{
+ "_comment": "Items excluded from all counts and exports by human decision. Applied by analysis/phase1_counts.py and analysis/export_combined.py.",
+ "items": {
+  "dblp:journals/corr/abs-2604-22900": "2026-10-09 user: 'Module Lattice Security' series (Luo) claiming poly-time quantum attack on ML-KEM; excluded from this project pending separate expert review (notes/mlkem_polytime_claims.md)",
+  "dblp:journals/corr/abs-2605-17404": "2026-10-09 user: same series, Part III",
+  "dblp:journals/corr/abs-2605-17412": "2026-10-09 user: same series, Part IV"
+ }
+}

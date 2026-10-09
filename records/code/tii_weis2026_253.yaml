@@ -1,0 +1,27 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "tii_weis2026_253"
+class: "code"
+problem: "SD-Goppa"
+instance: "TII Track 1B TII-253 (n=214, k=142, t=9, m=8)"
+instance_size: 214
+instance_size_unit: "n"
+log2_ops: null
+method: "GIJS hold-out distinguisher extended to key recovery (single-run variant), sparse kernel computations"
+structure_exploited: true
+hardware: null
+raw_compute: "two sparse kernel computations, ~700 core-hours each, on one server"
+reported_core_years: 0.159708
+gpu_years: null
+wall_time_days: null
+date: "2026-08-18"
+solvers: ["Stephen A. Weis"]
+academic: true
+challenge: "TII McEliece"
+extrapolation: "a GIJS run costs 2^89-2^98 bit ops for Classic McEliece (2^107-2^117 with sqrt memory cost); not practical"
+paper: "2026/1984"
+source_url: "https://postquantum.com/security-pqc/classic-mceliece-key-recovery-bsi/"
+other_urls: ["https://eprint.iacr.org/2026/1984", "https://github.com/sweis/mceliece-challenges", "https://eprint.iacr.org/2026/1630", "https://github.com/mjosaarinen/tii-solved"]
+confidence: 0.65
+verified: true
+verified_by: "user 2026-10-09: checked, accepted provisionally (\"willing to trust for now\")"
+notes: "Weis is at Anthropic (industry research lab, named ePrint paper -> academic=true). Solution committed 2026-08-18 (Saarinen cites 2026-08-19). 700 core-hours figure from secondary sources (postquantum.com article; search snippet of the PDF); PDF not read. Vedenev 2026/1747 also recovered TII-253 shortly after. TII label = round(bitcomplexity) from the organizers' key_rec_instances file (a brute-force/support-splitting estimate, disputed by Bernstein 2023 and the 2026 papers); labels are not security levels. TII/HeroX confirmation: none found; HeroX leaderboard (static since the May 2024 close) still lists every Track 1B label above 83 as \"Available to Solve\". Keys are publicly checkable against the official public keys."

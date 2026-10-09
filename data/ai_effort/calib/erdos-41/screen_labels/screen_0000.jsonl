@@ -1,0 +1,100 @@
+{"id": "W1005731694", "keep": true, "why": "AP-free permutations; loosely additive combinatorics"}
+{"id": "W1022649828", "keep": true, "why": "integer sets with k-term APs"}
+{"id": "W1043822130", "keep": true, "why": "additive number theory problems survey"}
+{"id": "W1139904961", "keep": true, "why": "additive combinatorics, extremal graphs; unsure"}
+{"id": "W1150686645", "keep": true, "why": "sum-free sequences, reciprocal sums"}
+{"id": "W132395906", "keep": true, "why": "sum-free sets and sequences"}
+{"id": "W1419628688", "keep": true, "why": "Graham's number theoretic set problem"}
+{"id": "W142455466", "keep": true, "why": "sumsets of k-free integers"}
+{"id": "W1484040084", "keep": false, "why": "general graph theory textbook"}
+{"id": "W148580239", "keep": true, "why": "integral bases sequences; additive bases"}
+{"id": "W1486243660", "keep": false, "why": "polynomial-factorial diophantine equations"}
+{"id": "W1489006728", "keep": true, "why": "combinatorial number theory problems survey"}
+{"id": "W1510730180", "keep": false, "why": "extremal graph theory textbook"}
+{"id": "W152445509", "keep": true, "why": "sum-product phenomenon, additive structure"}
+{"id": "W1526863665", "keep": false, "why": "Catalan equation, not set sums"}
+{"id": "W1527296085", "keep": true, "why": "integer sets with gcd conditions"}
+{"id": "W1527392485", "keep": false, "why": "pairwise balanced designs"}
+{"id": "W1530753374", "keep": false, "why": "graphs and hypergraphs textbook"}
+{"id": "W1537054460", "keep": true, "why": "density of sets with additive bases"}
+{"id": "W1544799042", "keep": true, "why": "number theory problems including sets"}
+{"id": "W1549301089", "keep": true, "why": "sumset conjecture of Erdos"}
+{"id": "W1555475515", "keep": true, "why": "general unsolved number theory problems"}
+{"id": "W1555768633", "keep": true, "why": "structural theory of set addition"}
+{"id": "W1557120217", "keep": false, "why": "geometric triangle packing"}
+{"id": "W1561472112", "keep": false, "why": "prime factors of consecutive integers"}
+{"id": "W1563756929", "keep": true, "why": "Erdos-Renyi conjecture; unsure"}
+{"id": "W1569122547", "keep": true, "why": "signed sums of integers representing zero"}
+{"id": "W156958920", "keep": true, "why": "polynomial methods in combinatorics; unsure"}
+{"id": "W1572708899", "keep": false, "why": "unsolved geometry problems"}
+{"id": "W1584831215", "keep": false, "why": "hypercube subgraph symmetry"}
+{"id": "W1593433469", "keep": true, "why": "sums and products of finite real sets"}
+{"id": "W1595828591", "keep": true, "why": "integer sequences remark"}
+{"id": "W159613098", "keep": true, "why": "covering sets of integers"}
+{"id": "W1597834884", "keep": false, "why": "Peano arithmetic incompleteness"}
+{"id": "W1603225653", "keep": false, "why": "Grimm's prime-factor problem"}
+{"id": "W161093273", "keep": false, "why": "legitimate deck problem"}
+{"id": "W1634656560", "keep": false, "why": "distinct prime factors of linear forms"}
+{"id": "W1656795039", "keep": false, "why": "four colour theorem"}
+{"id": "W1661292865", "keep": true, "why": "covering systems of congruences"}
+{"id": "W1663749032", "keep": true, "why": "survey of combinatorial number theory"}
+{"id": "W167383275", "keep": false, "why": "analytic number theory, parity and transcendence"}
+{"id": "W1705463008", "keep": false, "why": "hypergraph regularization"}
+{"id": "W1718118126", "keep": true, "why": "bases of natural numbers, additive bases"}
+{"id": "W173859600", "keep": false, "why": "point distances in plane"}
+{"id": "W1775373502", "keep": false, "why": "multiplicative discrepancy, +-1 sequences"}
+{"id": "W177593908", "keep": true, "why": "number of sums and products in finite sets"}
+{"id": "W1789100819", "keep": false, "why": "product sets in groups, not integer sums"}
+{"id": "W1821981504", "keep": true, "why": "sums and products of integers"}
+{"id": "W1835305721", "keep": false, "why": "ordered Turan problem for bipartite graphs"}
+{"id": "W1850799998", "keep": true, "why": "k-fold Sidon sets"}
+{"id": "W1878148766", "keep": false, "why": "Euler anecdote, unrelated"}
+{"id": "W1897701252", "keep": true, "why": "sums and products of integers"}
+{"id": "W1919156896", "keep": true, "why": "B_k^+ sets bounds"}
+{"id": "W19324417", "keep": true, "why": "extremal density for linear forms; unsure"}
+{"id": "W1947306769", "keep": true, "why": "mixed sums of primes and terms"}
+{"id": "W1954214817", "keep": false, "why": "Latin squares"}
+{"id": "W1963587264", "keep": true, "why": "Erdos conjecture, Kyushu; unsure"}
+{"id": "W1964335268", "keep": false, "why": "prime number graph"}
+{"id": "W1964445489", "keep": true, "why": "covering systems of congruences"}
+{"id": "W1965240615", "keep": false, "why": "aliquot sequences"}
+{"id": "W1965839947", "keep": false, "why": "cubic residues machine proof"}
+{"id": "W1966279781", "keep": false, "why": "covers of groups by cosets"}
+{"id": "W1966494790", "keep": true, "why": "Graham's gcd problem for integer sets"}
+{"id": "W1967134880", "keep": false, "why": "permutation periodicity and chaos"}
+{"id": "W1967546560", "keep": false, "why": "graph homomorphisms and edge density"}
+{"id": "W1967909233", "keep": true, "why": "additive number theory (1937)"}
+{"id": "W1970366772", "keep": true, "why": "Szemeredi-type AP theorem, diagonal measures"}
+{"id": "W1971010887", "keep": false, "why": "chromatic number of graphs and set systems"}
+{"id": "W1972786864", "keep": false, "why": "table of series and products"}
+{"id": "W1972853075", "keep": false, "why": "factorial diophantine equation"}
+{"id": "W1972958674", "keep": true, "why": "primes and powers of two; additive representation"}
+{"id": "W1975270114", "keep": true, "why": "problem of additive number theory"}
+{"id": "W1975858565", "keep": true, "why": "prime plus two powers of two"}
+{"id": "W1978816967", "keep": true, "why": "roots of unity and covering sets"}
+{"id": "W1978976963", "keep": true, "why": "minimal bases, maximal nonbases"}
+{"id": "W1980033960", "keep": false, "why": "phi-function identities"}
+{"id": "W1981696777", "keep": false, "why": "Weyl groups, Sperner property"}
+{"id": "W1981896282", "keep": false, "why": "clique partitions of chordal graphs"}
+{"id": "W1982270970", "keep": false, "why": "book review, extremal graph theory"}
+{"id": "W1982373193", "keep": false, "why": "colouring infinite graphs, relations"}
+{"id": "W1983527280", "keep": false, "why": "Ramsey problem for graphs"}
+{"id": "W1983812624", "keep": true, "why": "ordered sums of group elements; unsure"}
+{"id": "W1984375054", "keep": false, "why": "hypergraph colouring"}
+{"id": "W1986233232", "keep": false, "why": "extremal graph problem"}
+{"id": "W1986865672", "keep": false, "why": "planar Ramsey theorems"}
+{"id": "W1989539066", "keep": false, "why": "cycles modulo k"}
+{"id": "W1989548622", "keep": true, "why": "density of integer sequences"}
+{"id": "W1989597834", "keep": false, "why": "sums over multiplicative functions"}
+{"id": "W1989630703", "keep": true, "why": "maximal asymptotic nonbases"}
+{"id": "W1990804711", "keep": false, "why": "completely multiplicative +-1 functions"}
+{"id": "W1991488174", "keep": false, "why": "highly composite numbers"}
+{"id": "W1991804572", "keep": true, "why": "sum or difference of two prime powers"}
+{"id": "W1994803663", "keep": false, "why": "consecutive integers, large prime factors"}
+{"id": "W1995296546", "keep": true, "why": "addition theorem for abelian groups"}
+{"id": "W1996285409", "keep": true, "why": "Hindman's theorem, finite sums"}
+{"id": "W1997681421", "keep": true, "why": "finite sums in partition cells"}
+{"id": "W1997998268", "keep": false, "why": "perfect graph conjecture"}
+{"id": "W1999318585", "keep": false, "why": "cubic residue pairs"}
+{"id": "W1999426642", "keep": false, "why": "seventh power residue pairs"}
+{"id": "W1999682169", "keep": true, "why": "recursively defined integer sets; unsure"}

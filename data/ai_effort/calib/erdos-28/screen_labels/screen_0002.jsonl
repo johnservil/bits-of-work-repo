@@ -1,0 +1,100 @@
+{"id": "W2039456297", "keep": false, "why": "probabilistic group theory"}
+{"id": "W2039481459", "keep": true, "why": "reciprocal bases of integers"}
+{"id": "W2039499253", "keep": false, "why": "odd cycle colourings, graph theory"}
+{"id": "W2039627336", "keep": true, "why": "densities of integer sets"}
+{"id": "W2039993732", "keep": true, "why": "linear equation solutions over sets"}
+{"id": "W2040015983", "keep": false, "why": "covering system conditions"}
+{"id": "W2041727161", "keep": false, "why": "primes of form k2^n+1"}
+{"id": "W2043191005", "keep": true, "why": "extremal sum-free sequences"}
+{"id": "W2043381187", "keep": true, "why": "Ramsey-type property in additive number theory"}
+{"id": "W2044429866", "keep": true, "why": "Graham conjecture, sequences"}
+{"id": "W2044740967", "keep": false, "why": "extremal polynomials, unrelated"}
+{"id": "W2045706961", "keep": true, "why": "sum-free subsequences"}
+{"id": "W2045789201", "keep": true, "why": "addition theorem modulo p"}
+{"id": "W2045891452", "keep": false, "why": "lcm sequences, different object"}
+{"id": "W2046939500", "keep": false, "why": "ordinary points geometry"}
+{"id": "W2046941141", "keep": true, "why": "Graham conjecture, prime sequences"}
+{"id": "W2048423935", "keep": false, "why": "Turan graph theory history"}
+{"id": "W2048996648", "keep": false, "why": "set families intersections, unrelated"}
+{"id": "W2050675734", "keep": false, "why": "induced subtrees, graph theory"}
+{"id": "W2051545604", "keep": true, "why": "Folner sequences and sum-free sets"}
+{"id": "W2051745720", "keep": false, "why": "pairwise balanced designs"}
+{"id": "W2051843156", "keep": false, "why": "linear algebra combinatorial problems"}
+{"id": "W2052059867", "keep": true, "why": "squarefree numbers in sumsets"}
+{"id": "W2052493738", "keep": false, "why": "pairwise coprime integer sequences"}
+{"id": "W2052802307", "keep": true, "why": "balancing families of integer sequences"}
+{"id": "W2052804318", "keep": false, "why": "elementary geometry combinatorics"}
+{"id": "W2053221842", "keep": false, "why": "distinct unit fractions, different object"}
+{"id": "W2053524037", "keep": false, "why": "zero-sum sequences index"}
+{"id": "W2053637971", "keep": false, "why": "runs of residues"}
+{"id": "W2054140454", "keep": true, "why": "primitive sequences, Erdos"}
+{"id": "W2054528010", "keep": true, "why": "large sum-free subset algorithm"}
+{"id": "W2056371938", "keep": false, "why": "numbers with large prime factor"}
+{"id": "W2056806689", "keep": false, "why": "multiplicative function sums"}
+{"id": "W2057394949", "keep": false, "why": "graph colouring cycle lengths"}
+{"id": "W2057568930", "keep": false, "why": "pairwise coprime integer sequences"}
+{"id": "W2058073416", "keep": false, "why": "primality of trees"}
+{"id": "W2059272542", "keep": false, "why": "extremal coverings of space"}
+{"id": "W2059984909", "keep": false, "why": "Ramsey triangles in plane, geometry"}
+{"id": "W2061788258", "keep": false, "why": "lines and planes of finite set"}
+{"id": "W2062097565", "keep": false, "why": "hypercube subgraphs, unrelated"}
+{"id": "W2064021831", "keep": false, "why": "intersection problem finite sets"}
+{"id": "W2064702321", "keep": false, "why": "graph subdivisions, unrelated"}
+{"id": "W2065042838", "keep": true, "why": "sumsets in integer sets"}
+{"id": "W2065880080", "keep": true, "why": "linear combinations of integer intervals"}
+{"id": "W2065918689", "keep": false, "why": "covering system with modulus 25"}
+{"id": "W2066637298", "keep": false, "why": "covering by congruence classes"}
+{"id": "W2067215739", "keep": false, "why": "pairwise lcm subsets, different object"}
+{"id": "W2068131989", "keep": true, "why": "bases for integer sets"}
+{"id": "W2069040548", "keep": false, "why": "Ramsey numbers for cycles"}
+{"id": "W2069220307", "keep": false, "why": "Markov shift recurrence"}
+{"id": "W2069367490", "keep": false, "why": "combinatorial geometry problem"}
+{"id": "W2069533429", "keep": true, "why": "infinite sum-free sets of integers"}
+{"id": "W2069661109", "keep": false, "why": "Erdos centenary reflections, biography"}
+{"id": "W2070190818", "keep": true, "why": "multiplicative Sidon sets"}
+{"id": "W2070496958", "keep": true, "why": "combinatorics study, possibly Ramsey"}
+{"id": "W2070834764", "keep": false, "why": "Ramsey-Turan problem"}
+{"id": "W2071163682", "keep": false, "why": "progression-free sequences, different object"}
+{"id": "W2072075682", "keep": false, "why": "arithmetic progressions remark"}
+{"id": "W2073126471", "keep": false, "why": "Erdos centenary reflections, biography"}
+{"id": "W2073127444", "keep": false, "why": "factorial prime powers"}
+{"id": "W2073594241", "keep": false, "why": "Erdos-Straus-Schinzel problem"}
+{"id": "W2073859438", "keep": true, "why": "generalized sum-free subsets"}
+{"id": "W2075084424", "keep": false, "why": "graph reconstruction survey"}
+{"id": "W2076244356", "keep": false, "why": "Boolean function values"}
+{"id": "W2076460709", "keep": false, "why": "Faber polynomials, analysis"}
+{"id": "W2077788572", "keep": false, "why": "Ramsey number graph vs triangle"}
+{"id": "W2077900329", "keep": false, "why": "exactly covering systems"}
+{"id": "W2079979850", "keep": true, "why": "addition theorems"}
+{"id": "W2080123161", "keep": false, "why": "non-repetitive sequences"}
+{"id": "W2081131431", "keep": false, "why": "Littlewood-Offord, random matrices"}
+{"id": "W2081643856", "keep": false, "why": "Erdos-diameter of sets, geometry"}
+{"id": "W2082471372", "keep": true, "why": "density and pairwise sums of integers"}
+{"id": "W2083028555", "keep": false, "why": "Erdos-Szekeres convex position survey"}
+{"id": "W2085391599", "keep": false, "why": "distinct distances geometry"}
+{"id": "W2085477555", "keep": true, "why": "partitions with equal products"}
+{"id": "W2086041665", "keep": true, "why": "differences of sets, Graham problem"}
+{"id": "W2086728898", "keep": true, "why": "largest sum-free subsequence"}
+{"id": "W2087567316", "keep": false, "why": "finite set subsets, Sperner-type"}
+{"id": "W2087699257", "keep": true, "why": "Erdos and the integers"}
+{"id": "W2087839647", "keep": false, "why": "zero-free sequence structure"}
+{"id": "W2087986857", "keep": false, "why": "uncountable chromatic number graphs"}
+{"id": "W2088100739", "keep": false, "why": "signed reciprocal sums"}
+{"id": "W2088212677", "keep": false, "why": "ergodic Szemeredi theorem"}
+{"id": "W2088339746", "keep": true, "why": "complementary sets of integers"}
+{"id": "W2089191641", "keep": false, "why": "vertex colouring survey, graph theory"}
+{"id": "W2089796661", "keep": true, "why": "representing powers of 2 as sums"}
+{"id": "W2090294545", "keep": false, "why": "Ramsey product theorem, different object"}
+{"id": "W2093164441", "keep": false, "why": "harmonic series remark"}
+{"id": "W2093318356", "keep": false, "why": "distances within sets, geometry"}
+{"id": "W2093699365", "keep": false, "why": "pairwise balanced designs"}
+{"id": "W2095095818", "keep": false, "why": "Frobenius linear Diophantine bound"}
+{"id": "W2095689360", "keep": false, "why": "Ramsey original logic paper"}
+{"id": "W2097926077", "keep": false, "why": "binomial prime factorization"}
+{"id": "W2099986052", "keep": false, "why": "Erdos graph theory problems"}
+{"id": "W2104145910", "keep": false, "why": "Ramsey numbers for cycles"}
+{"id": "W2104362101", "keep": false, "why": "Ramsey size linear graphs"}
+{"id": "W2107062643", "keep": false, "why": "zero-free sequences cyclic groups"}
+{"id": "W2108900323", "keep": true, "why": "sets of integers, Erdos-type"}
+{"id": "W2109887555", "keep": true, "why": "a-regular sequences, unclear"}
+{"id": "W2110354774", "keep": false, "why": "extremal graph problems"}

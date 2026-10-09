@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "certicom-eccp-97"
+class: "ecdlp"
+problem: "ECDLP"
+instance: "Certicom ECCp-97 (curve over 97-bit prime field)"
+instance_size: 96.52
+instance_size_unit: "bits"
+log2_ops: 47.51
+method: "parallel Pollard rho with Brent-type cycle finding (Certicom); 6.1.9 lists parallel rho"
+structure_exploited: false
+hardware: null
+raw_compute: "2.0e14 iterations, 186,364 DPs; 6,412 Alpha-500MHz machine-days"
+reported_core_years: 17.56
+gpu_years: null
+wall_time_days: null
+date: "1998-03-18"
+solvers: ["Dimitris Tsapakidis", "Robert J. Harley", "group of about 588 people"]
+academic: true
+challenge: "Certicom"
+extrapolation: null
+paper: null
+source_url: "https://www.certicom.com/content/dam/certicom/images/pdfs/challenge-2009.pdf"
+other_urls: ["http://pauillac.inria.fr/~harley/ecdl/"]
+confidence: 0.85
+verified: false
+notes: "Certicom table: machine-days on one 500 MHz Alpha (single-machine equivalent); core-years = machine-days/365.25. instance_size = log2(n) from Certicom appendix. Communicated by Tsapakidis (BT Labs); Harley's page dates it 1998-03-16 and says done with British Telecom Labs."

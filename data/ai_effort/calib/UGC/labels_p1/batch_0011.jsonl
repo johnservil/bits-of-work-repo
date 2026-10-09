@@ -1,0 +1,40 @@
+{"id": "W2163925208", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "subexponential algorithm for unique games"}
+{"id": "W2165732281", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "near-optimal algorithms for unique games"}
+{"id": "W2165755074", "include": "borderline", "category": "C", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "higher-order Cheeger inequalities, related to small-set expansion"}
+{"id": "W2166341236", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "unique games with entangled provers, SDP algorithm"}
+{"id": "W2166536886", "include": "borderline", "category": "F", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "SDP integrality gaps from UG-style constructions"}
+{"id": "W2167061810", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Euclidean embedding of negative type metrics"}
+{"id": "W2167236203", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multiway cut rounding"}
+{"id": "W2169488047", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "usefulness of predicates"}
+{"id": "W2170827767", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "influence testing"}
+{"id": "W2171695231", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Gaussian partitions"}
+{"id": "W2174563490", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum provers"}
+{"id": "W2175797755", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Grothendieck constant"}
+{"id": "W2176557215", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "parallel repetition exposition"}
+{"id": "W2177980858", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum XOR repetition"}
+{"id": "W2179897858", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for resistance"}
+{"id": "W2181445345", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "real analysis open problems list"}
+{"id": "W2183497771", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "reference list on higher eigenvalues"}
+{"id": "W2184772706", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "thesis on fast graph algorithms and inapproximability"}
+{"id": "W2185716868", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "fixed-predicate CSP"}
+{"id": "W2186213904", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "simplicial expansion"}
+{"id": "W2187412414", "include": "borderline", "category": "S", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "SoS survey touching UG as an open question"}
+{"id": "W2187615058", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled games thesis"}
+{"id": "W2187798987", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonlocal game formulations"}
+{"id": "W2188866658", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "integrality gap for UG-type cut problems and negative type embeddings"}
+{"id": "W2195657359", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum provers"}
+{"id": "W2195686041", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS tensor decomposition"}
+{"id": "W2195836695", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum XOR repetition"}
+{"id": "W2202947145", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "free bits PCP"}
+{"id": "W2206682456", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled repetition"}
+{"id": "W2218607027", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "parallel repetition"}
+{"id": "W2221384962", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Max-Lin hardness, partly UGC-conditional"}
+{"id": "W2225750372", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "stable instances of Max Cut"}
+{"id": "W2232305496", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum XOR games"}
+{"id": "W2235071187", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "nonlocal games survey"}
+{"id": "W2238018701", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for Max k-CSP hardness"}
+{"id": "W2241405024", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "anchoring games"}
+{"id": "W2242403914", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "subexponential algorithms for unique games and small-set expansion"}
+{"id": "W2246801328", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SDP combinatorial optimization survey"}
+{"id": "W2254494673", "include": "yes", "category": "S", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "thesis on UGC for hypercube constraint graphs and graph lifts"}
+{"id": "W2255379171", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "cosystolic expanders"}

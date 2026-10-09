@@ -1,0 +1,9 @@
+2001/041 [E] Solving Elliptic Curve Discrete Logarithm Problems Using Weil Descent
+2010/090 [E] Solving a 676-bit Discrete Logarithm Problem in GF(3^{6n})
+2011/020 [A] Cover and Decomposition Index Calculus on Elliptic Curves made practical. Application to a seemingly secure curve over $\F_{p^6}$
+2012/345 [E] Breaking pairing-based cryptosystems using $\eta_T$ pairing over $GF(3^{97})$
+2014/368 [E] Solving the Discrete Logarithm of a 113-bit Koblitz Curve with an FPGA Cluster
+2015/143 [E] Harder, Better, Faster, Stronger - Elliptic Curve Discrete Logarithm Computations on FPGAs
+2016/382 [E] Faster elliptic-curve discrete logarithms on FPGAs
+2016/507 [E] Solving discrete logarithms on a 170-bit MNT curve by pairing reduction
+2021/676 [C] Extending the GLS endomorphism to speed up GHS Weil descent using Magma

@@ -1,0 +1,33 @@
+# summary file (not a single solve); extra summary_* keys beyond README schema
+id: "ideal_lattice_svp_hof_summary"
+class: "lattice"
+problem: "Ideal-SVP"
+instance: "TU Darmstadt Ideal Lattice Challenge SVP hall of fame (summary)"
+instance_size: 180
+instance_size_unit: "dim"
+log2_ops: null
+method: null
+structure_exploited: null
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2024-07-16"
+solvers: null
+academic: null
+challenge: "TU Darmstadt Ideal Lattice Challenge (SVP HoF)"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/ideallattice-challenge/svphalloffame.php"
+other_urls: ["https://www.latticechallenge.org/ideallattice-challenge/index.php"]
+confidence: 0.9
+verified: false
+notes: "Read 2026-10-09. 65 of 100 entries flagged 'using ideal structure'."
+summary_total_entries: 100
+summary_distinct_dimensions: 40
+summary_date_range: ["2012-12-13", "2026-03-17"]
+summary_entries_per_year: {"2012": 1, "2013": 10, "2014": 2, "2015": 36, "2016": 2, "2018": 3, "2019": 11, "2020": 2, "2022": 11, "2024": 2, "2025": 5, "2026": 15}
+summary_progression_record_count: 19
+summary_top_entry: {"dimension": 180, "index": "181", "norm": "3536", "contestant": "Lin Wang, Huiwen Jia, Leizhang Wang, Xixuan Deng,Yue Cao, Baocang Wang", "date": "2024-07-16"}
+summary_csv: "ideal_lattice_svp_hof.csv"

@@ -1,0 +1,100 @@
+{"id": "W4225947064", "keep": true, "why": "no title; cannot judge"}
+{"id": "W4226060934", "keep": true, "why": "no title; cannot judge"}
+{"id": "W4226180919", "keep": false, "why": "quantum Tanner codes"}
+{"id": "W4226309806", "keep": true, "why": "voting algorithms for unique games"}
+{"id": "W4229813064", "keep": true, "why": "computing the Grothendieck constant"}
+{"id": "W4230485704", "keep": false, "why": "communication complexity, Nash equilibrium"}
+{"id": "W4230727657", "keep": false, "why": "multivariate confidence regions"}
+{"id": "W4230940751", "keep": true, "why": "similarity estimation from rounding algorithms"}
+{"id": "W4230972002", "keep": true, "why": "no title; cannot judge"}
+{"id": "W4231001569", "keep": false, "why": "SDP limits, general-valued CSPs"}
+{"id": "W4233079698", "keep": false, "why": "pseudorandomness textbook"}
+{"id": "W4233411607", "keep": true, "why": "making the long code shorter"}
+{"id": "W4233786017", "keep": true, "why": "approximating unique games"}
+{"id": "W4235946010", "keep": false, "why": "Ramanujan graphs"}
+{"id": "W4235951628", "keep": false, "why": "market equilibrium"}
+{"id": "W4235971724", "keep": false, "why": "statistical inference, random factor graphs"}
+{"id": "W4236199143", "keep": false, "why": "SDP proximal point algorithm"}
+{"id": "W4236357095", "keep": false, "why": "independent sets in sparse graphs"}
+{"id": "W4236531528", "keep": false, "why": "bipartite communities, spectral"}
+{"id": "W4237617021", "keep": false, "why": "Sync-Rank, rank aggregation"}
+{"id": "W4238203292", "keep": false, "why": "textbook, modern approach"}
+{"id": "W4239545791", "keep": true, "why": "L1 embedding lower bounds"}
+{"id": "W4239976980", "keep": false, "why": "community detection survey"}
+{"id": "W4242279037", "keep": true, "why": "no title; cannot judge"}
+{"id": "W4242370932", "keep": false, "why": "chromatic number hardness"}
+{"id": "W4243637616", "keep": false, "why": "facility location algorithms"}
+{"id": "W4244012856", "keep": true, "why": "multicut"}
+{"id": "W4244270790", "keep": true, "why": "semidefinite optimization, book"}
+{"id": "W4244547255", "keep": true, "why": "PCP queries, Max-CSP inapproximability"}
+{"id": "W4244979855", "keep": true, "why": "multiway cuts and spectra"}
+{"id": "W4245505599", "keep": false, "why": "randomized algorithms textbook"}
+{"id": "W4245836192", "keep": false, "why": "committee selection, supermodular degree"}
+{"id": "W4246416515", "keep": true, "why": "preface; cannot judge"}
+{"id": "W4247191781", "keep": true, "why": "references section; cannot judge"}
+{"id": "W4247733528", "keep": true, "why": "front matter; cannot judge"}
+{"id": "W4247930013", "keep": false, "why": "tractable CSP languages"}
+{"id": "W4248639061", "keep": true, "why": "no title; cannot judge"}
+{"id": "W4248984395", "keep": true, "why": "nonuniform graph partitioning"}
+{"id": "W4249939137", "keep": true, "why": "balanced components partitioning"}
+{"id": "W4250613930", "keep": true, "why": "unique 2-prover 1-round games"}
+{"id": "W4250871362", "keep": true, "why": "personal communication; cannot judge"}
+{"id": "W4251683043", "keep": true, "why": "degree-4 SoS gap, planted clique"}
+{"id": "W4253085712", "keep": false, "why": "CourseMatch"}
+{"id": "W4253307978", "keep": false, "why": "signaling, unrelated"}
+{"id": "W4254122410", "keep": false, "why": "Gaussian surface area, PTFs"}
+{"id": "W4254405132", "keep": false, "why": "data packing hardness"}
+{"id": "W4255392795", "keep": false, "why": "PCP and non-approximability book"}
+{"id": "W4256443101", "keep": true, "why": "birthday repetition theorem"}
+{"id": "W4280538370", "keep": false, "why": "Ising machines, oscillators"}
+{"id": "W4281885517", "keep": true, "why": "approximability of satisfiable k-CSPs"}
+{"id": "W4281977994", "keep": true, "why": "approximability of biased CSPs"}
+{"id": "W4285146977", "keep": true, "why": "bounded treewidth sparsest cut approximation"}
+{"id": "W4285240125", "keep": false, "why": "semi-random TSP model"}
+{"id": "W4285396472", "keep": false, "why": "fair allocations, smoothed utilities"}
+{"id": "W4285543569", "keep": false, "why": "minimum maximal matching hardness"}
+{"id": "W4285600344", "keep": false, "why": "Chamberlin-Courant voting rules"}
+{"id": "W4286501294", "keep": false, "why": "LOCAL-CONGEST expander decompositions"}
+{"id": "W4287164425", "keep": false, "why": "rank-one SDP, polynomial optimization"}
+{"id": "W4287178654", "keep": false, "why": "covert learning"}
+{"id": "W4287601069", "keep": false, "why": "unique decoding of balanced codes"}
+{"id": "W4288915320", "keep": false, "why": "spectral independence beyond Boolean"}
+{"id": "W4288948377", "keep": false, "why": "evolutionary economics"}
+{"id": "W4292485652", "keep": false, "why": "one-shot quantum communication"}
+{"id": "W42929123", "keep": true, "why": "finding small sparse cuts"}
+{"id": "W4293248662", "keep": false, "why": "promise CSP introduction"}
+{"id": "W4298844065", "keep": false, "why": "FOCS 2017 proceedings front matter"}
+{"id": "W4300471124", "keep": true, "why": "bypassing UGC, geometric inapproximability"}
+{"id": "W4300550233", "keep": false, "why": "approximation algorithms textbook"}
+{"id": "W4300615454", "keep": false, "why": "tree metric approximation"}
+{"id": "W4300998111", "keep": false, "why": "measure-theoretic probability guide"}
+{"id": "W4301425558", "keep": false, "why": "probability in Banach spaces"}
+{"id": "W4302362640", "keep": false, "why": "quantum Hamiltonian complexity"}
+{"id": "W4302769223", "keep": false, "why": "k-route cut approximation"}
+{"id": "W4307492550", "keep": false, "why": "quantum computational complexity"}
+{"id": "W4308908687", "keep": false, "why": "biomolecular topology"}
+{"id": "W4309237947", "keep": true, "why": "correlation clustering, Sherali-Adams"}
+{"id": "W4309765048", "keep": false, "why": "linearly ordered hypergraph colourings"}
+{"id": "W4309896457", "keep": false, "why": "disordered systems, computational hardness"}
+{"id": "W4311538958", "keep": true, "why": "NP-hardness of 2-to-2 games"}
+{"id": "W4311538962", "keep": true, "why": "conclusions, open problems; unclear"}
+{"id": "W4311538965", "keep": true, "why": "introduction; unclear chapter"}
+{"id": "W4311538967", "keep": true, "why": "monotonicity testing, directed isoperimetry"}
+{"id": "W4311539049", "keep": true, "why": "author index; unclear chapter"}
+{"id": "W4311539061", "keep": true, "why": "bibliography; unclear chapter"}
+{"id": "W4311539114", "keep": true, "why": "acknowledgements; unclear chapter"}
+{"id": "W4311539176", "keep": true, "why": "monotonicity testing and 2-to-2 games"}
+{"id": "W4311539178", "keep": true, "why": "biased long code, vertex cover hardness"}
+{"id": "W4311916238", "keep": false, "why": "perfect matching, Tseitin formulas"}
+{"id": "W4313001431", "keep": false, "why": "Markov chain mixing, spectral independence"}
+{"id": "W4313203091", "keep": false, "why": "Lipschitz hardness, spin glasses"}
+{"id": "W4313203103", "keep": false, "why": "weighted sparsification, linear sketching"}
+{"id": "W4313203167", "keep": true, "why": "optimal testing, global hypercontractivity"}
+{"id": "W4313227057", "keep": false, "why": "power-sum decomposition of polynomials"}
+{"id": "W4313227603", "keep": true, "why": "SoS lower bounds, Omega(n) rounds"}
+{"id": "W4313421121", "keep": false, "why": "binary polynomial optimization, hypergraphs"}
+{"id": "W4315705237", "keep": false, "why": "stable matching generalizations"}
+{"id": "W4316652372", "keep": false, "why": "Efron-Stein, random matrices"}
+{"id": "W4316652373", "keep": true, "why": "approximate graph colouring"}
+{"id": "W4316652390", "keep": false, "why": "Minion tests for PCSPs"}
+{"id": "W4316652466", "keep": true, "why": "almost consistent linear equations"}

@@ -1,0 +1,100 @@
+{"id": "W1005731694", "keep": true, "why": "AP-free permutations, loosely combinatorial NT"}
+{"id": "W1022649828", "keep": true, "why": "sets of integers without k-term APs"}
+{"id": "W1028621989", "keep": false, "why": "set-system intersection theorems, not sums"}
+{"id": "W1043822130", "keep": true, "why": "additive number theory problems survey"}
+{"id": "W1139904961", "keep": true, "why": "extremal graphs and additive combinatorics thesis"}
+{"id": "W1150686645", "keep": true, "why": "reciprocal sums of sum-free sequences"}
+{"id": "W119368244", "keep": true, "why": "Erdos favourite problems survey"}
+{"id": "W121476753", "keep": true, "why": "subset-sum-distinct sequences"}
+{"id": "W125531126", "keep": true, "why": "additive representative functions"}
+{"id": "W12981488", "keep": true, "why": "Erdos problem list talk"}
+{"id": "W132237322", "keep": false, "why": "Erdos discrepancy, +-1 sequences, different object"}
+{"id": "W132395906", "keep": true, "why": "sum-free sets and sequences"}
+{"id": "W1419628688", "keep": true, "why": "Graham number theoretic problem, additive"}
+{"id": "W142455466", "keep": true, "why": "sumsets of k-free integers"}
+{"id": "W1484040084", "keep": false, "why": "general graph theory textbook"}
+{"id": "W148580239", "keep": true, "why": "sequences forming integral bases"}
+{"id": "W1485840997", "keep": false, "why": "information theory, unrelated"}
+{"id": "W1486243660", "keep": false, "why": "polynomial-factorial diophantine equations"}
+{"id": "W1489006728", "keep": true, "why": "combinatorial NT problems survey"}
+{"id": "W1493733990", "keep": true, "why": "sets whose subsets have distinct sums"}
+{"id": "W1500017875", "keep": false, "why": "finite group abelianness, unrelated"}
+{"id": "W1505546382", "keep": true, "why": "integer sets with distinct subset sums"}
+{"id": "W1510730180", "keep": false, "why": "extremal graph theory textbook"}
+{"id": "W151079300", "keep": false, "why": "Minkowski-Hlawka and Siegel lemma, geometry of numbers"}
+{"id": "W1519483541", "keep": false, "why": "group testing codes, unrelated"}
+{"id": "W1521367901", "keep": false, "why": "edge-magic graph labelings"}
+{"id": "W152445509", "keep": true, "why": "sum-product phenomenon, additive combinatorics"}
+{"id": "W1526863665", "keep": false, "why": "Catalan equation, unrelated"}
+{"id": "W1527296085", "keep": true, "why": "integer sets with gcd and prime conditions"}
+{"id": "W1527392485", "keep": false, "why": "pairwise balanced designs"}
+{"id": "W1528866133", "keep": true, "why": "additive property of primes"}
+{"id": "W1530753374", "keep": false, "why": "graphs and hypergraphs textbook"}
+{"id": "W1537054460", "keep": true, "why": "density of sets with additive bases"}
+{"id": "W1539389345", "keep": true, "why": "sets with distinct subset sums construction"}
+{"id": "W1544799042", "keep": true, "why": "number theory problems selection"}
+{"id": "W1549301089", "keep": true, "why": "Erdos sumset conjecture"}
+{"id": "W1551680922", "keep": true, "why": "Sequences of Integers monograph"}
+{"id": "W1552726975", "keep": false, "why": "magic labelings of graphs"}
+{"id": "W1552744309", "keep": true, "why": "generic probabilistic method text, tool"}
+{"id": "W1555475515", "keep": true, "why": "Guy unsolved number theory problems"}
+{"id": "W1555768633", "keep": true, "why": "structural theory of set addition"}
+{"id": "W1557120217", "keep": false, "why": "triangle packing geometry"}
+{"id": "W1561472112", "keep": false, "why": "prime factors of consecutive integers, different problem"}
+{"id": "W1563756929", "keep": true, "why": "Erdos-Renyi conjecture, unclear, combinatorial"}
+{"id": "W1569122547", "keep": true, "why": "signed sums representing zero"}
+{"id": "W156958920", "keep": false, "why": "polynomial methods in combinatorics, generic"}
+{"id": "W1572708899", "keep": false, "why": "geometry unsolved problems"}
+{"id": "W1576509659", "keep": false, "why": "hypercube extremal theorem"}
+{"id": "W1584831215", "keep": false, "why": "hypercube symmetric subgraphs"}
+{"id": "W1590323259", "keep": false, "why": "vertex-magic labelings"}
+{"id": "W1593433469", "keep": true, "why": "sums and products of finite real sets"}
+{"id": "W1595828591", "keep": true, "why": "integer sequences remark, Acta Arith"}
+{"id": "W159613098", "keep": false, "why": "covering systems of integers, different object"}
+{"id": "W1597834884", "keep": false, "why": "Peano arithmetic incompleteness"}
+{"id": "W1603225653", "keep": false, "why": "Grimm problem on consecutive integers, different"}
+{"id": "W1608205525", "keep": false, "why": "infinite chromatic graphs"}
+{"id": "W161093273", "keep": false, "why": "legitimate deck problem"}
+{"id": "W1634656560", "keep": false, "why": "distinct prime factors of linear forms"}
+{"id": "W1644038543", "keep": false, "why": "hypergraph edge discriminators"}
+{"id": "W1655092224", "keep": true, "why": "positive integer sequences, unclear"}
+{"id": "W1656795039", "keep": false, "why": "four colour theorem"}
+{"id": "W1661292865", "keep": false, "why": "covering systems and sieving"}
+{"id": "W1663749032", "keep": true, "why": "combinatorial number theory problems survey"}
+{"id": "W167383275", "keep": false, "why": "analytic NT parity and transcendence"}
+{"id": "W167393220", "keep": false, "why": "graph theory applications to number theory, marginal"}
+{"id": "W1705463008", "keep": false, "why": "hypergraph regularization"}
+{"id": "W1718118126", "keep": true, "why": "bases of natural numbers, open questions"}
+{"id": "W173859600", "keep": false, "why": "distances between points, geometry"}
+{"id": "W1741449785", "keep": true, "why": "unsolved number theory problems"}
+{"id": "W1746761902", "keep": true, "why": "sum packing problem of Erdos"}
+{"id": "W175308168", "keep": false, "why": "magic labelings of digraphs"}
+{"id": "W1760493461", "keep": true, "why": "knapsack polytope integer points, subset-sum adjacent"}
+{"id": "W1775373502", "keep": false, "why": "multiplicative Erdos discrepancy"}
+{"id": "W177593908", "keep": true, "why": "sums and products of finite graphs"}
+{"id": "W1777988250", "keep": true, "why": "multiplicative Sidon sets"}
+{"id": "W178333808", "keep": false, "why": "Ramsey theory history"}
+{"id": "W1784046855", "keep": true, "why": "Erdos unsolved problems survey"}
+{"id": "W1789100819", "keep": false, "why": "almost periodic groups, unrelated"}
+{"id": "W1821981504", "keep": true, "why": "sums and products of integers"}
+{"id": "W182610567", "keep": true, "why": "extremal combinatorial NT problems"}
+{"id": "W1835305721", "keep": false, "why": "ordered Turan problem for bipartite graphs"}
+{"id": "W1850799998", "keep": true, "why": "k-fold Sidon sets"}
+{"id": "W1876197808", "keep": true, "why": "Additive Number Theory monograph"}
+{"id": "W1878148766", "keep": false, "why": "Euler proof, unrelated"}
+{"id": "W1897701252", "keep": true, "why": "sums and products of integers"}
+{"id": "W1919156896", "keep": true, "why": "B_k+ sets bounds"}
+{"id": "W19324417", "keep": true, "why": "extremal density for linear forms, additive"}
+{"id": "W1945823580", "keep": false, "why": "query matrices, Hamming oracle"}
+{"id": "W1947306769", "keep": true, "why": "mixed sums of primes and terms"}
+{"id": "W1954214817", "keep": false, "why": "Latin squares"}
+{"id": "W1963587264", "keep": true, "why": "Erdos conjecture, unclear, combinatorial NT"}
+{"id": "W1963936722", "keep": false, "why": "entire functions and dense sets"}
+{"id": "W1964116728", "keep": true, "why": "integer sets with distinct subset sums"}
+{"id": "W1964335268", "keep": false, "why": "prime number graph, different problem"}
+{"id": "W1964445489", "keep": false, "why": "covering systems negative result"}
+{"id": "W1965240615", "keep": false, "why": "aliquot sequences"}
+{"id": "W1965839947", "keep": false, "why": "cubic residues machine proof"}
+{"id": "W1966279781", "keep": false, "why": "group covers by cosets"}
+{"id": "W1966494790", "keep": true, "why": "Graham gcd problem, Erdos-Graham family"}
+{"id": "W1967134880", "keep": false, "why": "permutations periodicity chaos"}

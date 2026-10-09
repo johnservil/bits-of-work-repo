@@ -1,0 +1,25 @@
+id: "svpc_d183_20240504_zhao"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 183 (seed 0)"
+instance_size: 183
+instance_size_unit: "dim"
+log2_ops: null
+method: "bgj3-amx + lsf-dualhash CPU sieve (BGJ15 revisited)"
+structure_exploited: false
+hardware: "dual Xeon Platinum 8479 (112 cores), 1TB RAM, no GPU"
+raw_compute: "30 days wall, stated as 9.1 core-years, ~0.9TB RAM"
+reported_core_years: 9.1
+gpu_years: null
+wall_time_days: 30
+date: "2024-05-04"
+solvers: ["Ziyu Zhao", "Jintai Ding", "Bo-Yin Yang"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: "ePrint 2024/739"
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php", "https://eprint.iacr.org/2024/739"]
+confidence: 0.85
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Not a max-dimension progression entry. HoF: norm 3536, seed 0, approx factor 1.04034, algorithm tag 'Sieving'. Not a max-dimension record (180 already solved); included as a CPU-only datapoint with stated core-years. TCHES 2025."

@@ -1,0 +1,100 @@
+{"id": "W2952754971", "keep": false, "why": "unrelated: FPT cut algorithms"}
+{"id": "W2952895509", "keep": false, "why": "unrelated: distributed triangle detection"}
+{"id": "W2952917033", "keep": true, "why": "noise stability of low-influence functions"}
+{"id": "W2952965238", "keep": false, "why": "unrelated: kernelization"}
+{"id": "W2952981837", "keep": false, "why": "unrelated: path partition"}
+{"id": "W2953080341", "keep": true, "why": "NP-hardness of 3-coloring and 2-to-1 label cover"}
+{"id": "W2953165423", "keep": false, "why": "Heisenberg L1 compression; weak link"}
+{"id": "W2954060132", "keep": false, "why": "unrelated: decision tree approximation"}
+{"id": "W2955616642", "keep": true, "why": "H-coloring hardness, PCP-style"}
+{"id": "W2957416585", "keep": true, "why": "CSP approximation on high-dimensional expanders"}
+{"id": "W2961983551", "keep": true, "why": "imperfect gaps in Gap-ETH and PCPs"}
+{"id": "W2962744657", "keep": true, "why": "Heisenberg L1 embeddings; graph isoperimetry, UG-adjacent"}
+{"id": "W2962795549", "keep": false, "why": "unrelated: adaptive submodularity"}
+{"id": "W2962825398", "keep": true, "why": "untitled record; unsure"}
+{"id": "W2962844449", "keep": false, "why": "density Hales-Jewett; no games link"}
+{"id": "W2962944954", "keep": true, "why": "Unique Games on the hypercube"}
+{"id": "W2962993321", "keep": false, "why": "unrelated: quantum zero knowledge"}
+{"id": "W2963023334", "keep": false, "why": "unrelated: agreeable item sets"}
+{"id": "W2963289774", "keep": true, "why": "high-dimensional expanders from expanders"}
+{"id": "W2963406632", "keep": true, "why": "low-degree Boolean functions and isoperimetry"}
+{"id": "W2963448547", "keep": false, "why": "unrelated: string pattern matching"}
+{"id": "W2963456765", "keep": false, "why": "parameterized dominating set hardness; no games link"}
+{"id": "W2963612177", "keep": false, "why": "unrelated: expander decomposition"}
+{"id": "W2963693432", "keep": true, "why": "two-prover game parameters and hardness"}
+{"id": "W2963722886", "keep": false, "why": "unrelated: log-concave polynomials"}
+{"id": "W2963762723", "keep": false, "why": "unrelated: rectangle dominating set"}
+{"id": "W2963845289", "keep": false, "why": "monotonicity and Lipschitz testing; weak link"}
+{"id": "W2963946005", "keep": false, "why": "SOS survey; weak link"}
+{"id": "W2963957639", "keep": false, "why": "parameterized dominating set hardness; no games link"}
+{"id": "W2964758001", "keep": true, "why": "UG-hardness to NP-hardness reduction"}
+{"id": "W2967242522", "keep": false, "why": "unrelated: clustering circuits"}
+{"id": "W2968205342", "keep": false, "why": "unrelated: min label cut"}
+{"id": "W2968783941", "keep": false, "why": "parameterized dominating set hardness; no games link"}
+{"id": "W2970212503", "keep": false, "why": "unrelated: secure computation"}
+{"id": "W2971288273", "keep": true, "why": "EKR stability via isoperimetry; unsure"}
+{"id": "W2971441525", "keep": true, "why": "powering high-dimensional expanders"}
+{"id": "W2971546537", "keep": true, "why": "noise sensitivity on p-biased hypercube"}
+{"id": "W2971668650", "keep": false, "why": "unrelated: Lp clustering"}
+{"id": "W2971750264", "keep": true, "why": "agreement testing on layered set systems"}
+{"id": "W2972287267", "keep": true, "why": "agreement testing on layered set systems"}
+{"id": "W2974349676", "keep": true, "why": "cosystolic expansion; topological property testing"}
+{"id": "W2977636792", "keep": true, "why": "d-to-1 hardness of coloring"}
+{"id": "W2977662011", "keep": false, "why": "non-malleable codes; weak link"}
+{"id": "W2978217326", "keep": false, "why": "generic complexity likelihoods"}
+{"id": "W2978922938", "keep": true, "why": "thresholds in subspace lattice; Grassmann-adjacent"}
+{"id": "W2980511539", "keep": false, "why": "unrelated: graph cuts"}
+{"id": "W2981213845", "keep": false, "why": "unrelated: domination chain"}
+{"id": "W2982125842", "keep": true, "why": "t-wise agreement testing lower bounds"}
+{"id": "W2982695726", "keep": false, "why": "unrelated: set cover local computation"}
+{"id": "W2989841544", "keep": false, "why": "unrelated: max-cut LP"}
+{"id": "W2990423062", "keep": false, "why": "unrelated: random tensors"}
+{"id": "W2991167089", "keep": true, "why": "rich 2-to-1 games"}
+{"id": "W2995201291", "keep": true, "why": "general direct product testing theorem"}
+{"id": "W2996822558", "keep": true, "why": "spectral independence in HDX; unsure"}
+{"id": "W3000152275", "keep": true, "why": "higher order random walks on HDX"}
+{"id": "W3000214033", "keep": false, "why": "unrelated: data editing rules"}
+{"id": "W3000532033", "keep": true, "why": "pseudorandom sets in Grassmann graph"}
+{"id": "W3000927969", "keep": true, "why": "high-dimensional expansion via zig-zag"}
+{"id": "W3001720442", "keep": true, "why": "untitled record; unsure"}
+{"id": "W3002262398", "keep": true, "why": "Brownian rounding for CSPs; UG-adjacent, unsure"}
+{"id": "W3004537778", "keep": true, "why": "self-testing/correcting numerical problems"}
+{"id": "W3006839531", "keep": false, "why": "random k-XOR refutation; weak link"}
+{"id": "W3007452340", "keep": false, "why": "promise CSP algebra; no games link"}
+{"id": "W3008890242", "keep": false, "why": "unrelated: MaxCut revisited"}
+{"id": "W3009304813", "keep": false, "why": "unrelated: RL survey"}
+{"id": "W3011858544", "keep": false, "why": "unrelated: facility location"}
+{"id": "W3015952353", "keep": true, "why": "sharp log-Sobolev for multislice"}
+{"id": "W3016418015", "keep": false, "why": "unrelated: matroid sampling"}
+{"id": "W3016615696", "keep": false, "why": "unrelated: log-concave polynomials"}
+{"id": "W3017240389", "keep": false, "why": "unrelated: set similarity search"}
+{"id": "W3020469811", "keep": false, "why": "expander construction; weak link"}
+{"id": "W3021165079", "keep": true, "why": "high-dimensional expanders and coset geometries"}
+{"id": "W3024354928", "keep": true, "why": "approximation and hardness for strong Unique Games"}
+{"id": "W3028030803", "keep": true, "why": "vertex isoperimetric stability in cube"}
+{"id": "W3030345336", "keep": false, "why": "SNARG construction; weak link"}
+{"id": "W3034043915", "keep": false, "why": "parameterized approximation survey"}
+{"id": "W3035072211", "keep": false, "why": "unrelated: dominating set local search"}
+{"id": "W3035111938", "keep": false, "why": "unrelated: stable elections survey"}
+{"id": "W3035244686", "keep": false, "why": "unrelated: teaching with limited information"}
+{"id": "W3035798466", "keep": true, "why": "non-unique games to Boolean Unique Games"}
+{"id": "W3036135716", "keep": true, "why": "Unique Games on certified small-set expanders"}
+{"id": "W3036402366", "keep": false, "why": "parameterized approximation survey"}
+{"id": "W3037608563", "keep": false, "why": "unrelated: Horn SAT approximability"}
+{"id": "W3037618271", "keep": false, "why": "unrelated: lossy kernelization"}
+{"id": "W304297541", "keep": false, "why": "list-decoding random linear codes; weak link"}
+{"id": "W3046086623", "keep": false, "why": "unrelated: distributed expander decomposition"}
+{"id": "W3046933088", "keep": false, "why": "unrelated: network function deployment"}
+{"id": "W3047645840", "keep": true, "why": "symmetric CSP approximation; UG-adjacent, unsure"}
+{"id": "W3048319395", "keep": true, "why": "untitled record; unsure"}
+{"id": "W3068461956", "keep": true, "why": "elementary high-dimensional edge expanders"}
+{"id": "W3080897928", "keep": false, "why": "unrelated: vertex cover approximation"}
+{"id": "W3083418760", "keep": true, "why": "homological connectivity of random complexes"}
+{"id": "W3084524042", "keep": true, "why": "relaxed locally correctable codes"}
+{"id": "W3086724848", "keep": true, "why": "hypercontractivity on symmetric group"}
+{"id": "W3087468032", "keep": true, "why": "regular expanders from Coxeter groups; HDX-adjacent"}
+{"id": "W3088409280", "keep": false, "why": "unrelated: quantum optimization"}
+{"id": "W3090652501", "keep": false, "why": "unrelated: clustering approximability"}
+{"id": "W3091790631", "keep": true, "why": "hyper-regular graphs and high-dimensional expanders"}
+{"id": "W3092390701", "keep": false, "why": "unrelated: scale-free vertex cover"}
+{"id": "W3092652517", "keep": true, "why": "complexity measures on symmetric group; unsure"}

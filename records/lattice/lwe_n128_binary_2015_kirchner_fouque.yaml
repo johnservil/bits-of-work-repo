@@ -1,0 +1,25 @@
+id: "lwe_n128_binary_2015_kirchner_fouque"
+class: "lattice"
+problem: "LWE"
+instance: "binary-secret LWE n=128, q=n^2, alpha=1/(sqrt(n/pi) log^2 n)"
+instance_size: 128
+instance_size_unit: "dim"
+log2_ops: null
+method: "improved BKW with quantization / modulus switching"
+structure_exploited: true
+hardware: null
+raw_compute: "within half a day, using 2^28 samples"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.5
+date: "2015-06"
+solvers: ["Paul Kirchner", "Pierre-Alain Fouque"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2015/552"
+source_url: "https://eprint.iacr.org/2015/552"
+other_urls: []
+confidence: 0.75
+verified: false
+notes: "CRYPTO 2015. Binary secret exploited; previous BKW estimate for same parameters was 2^74 time with 2^60 samples."

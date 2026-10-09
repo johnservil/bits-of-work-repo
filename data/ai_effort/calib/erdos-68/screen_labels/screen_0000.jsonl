@@ -1,0 +1,100 @@
+{"id": "W1168074855", "keep": true, "why": "arithmetic series related to theta functions"}
+{"id": "W121476753", "keep": true, "why": "subset-sum-distinct sequences; unsure"}
+{"id": "W1500017875", "keep": false, "why": "abelian groups, unrelated"}
+{"id": "W1516461536", "keep": true, "why": "approximation of exponential and logarithm"}
+{"id": "W1544632263", "keep": true, "why": "q-Apery irrationality proofs"}
+{"id": "W1563354086", "keep": true, "why": "rational approximations q-analogues"}
+{"id": "W1570136706", "keep": true, "why": "transcendence of Liouville-type numbers"}
+{"id": "W1576509659", "keep": false, "why": "extremal theorem in hypercube"}
+{"id": "W1584831215", "keep": false, "why": "hypercube subgraphs"}
+{"id": "W1585899462", "keep": true, "why": "transcendence theory"}
+{"id": "W1608205525", "keep": false, "why": "infinite chromatic graphs"}
+{"id": "W167383275", "keep": true, "why": "parity, transcendence in analytic NT; unsure"}
+{"id": "W1756856035", "keep": true, "why": "irrationality measures of q-constants"}
+{"id": "W1784046855", "keep": true, "why": "Erdos unsolved problems survey; unsure"}
+{"id": "W1861631309", "keep": true, "why": "Kempner and Irwin series"}
+{"id": "W1964975734", "keep": true, "why": "q-analogue Bailey-Borwein-Bradley identity"}
+{"id": "W1974140145", "keep": true, "why": "linear independence of q-harmonic series"}
+{"id": "W1975300284", "keep": false, "why": "covering digital disc"}
+{"id": "W1975538108", "keep": false, "why": "uncountably chromatic graphs"}
+{"id": "W1976661633", "keep": false, "why": "graph colouring, induced cycles"}
+{"id": "W1977679893", "keep": true, "why": "irrationality of reciprocal series"}
+{"id": "W1980030248", "keep": true, "why": "irrationality of reciprocal recurrence series"}
+{"id": "W1984268130", "keep": true, "why": "linear independence of q-logarithms"}
+{"id": "W1990801743", "keep": true, "why": "Erdos-Sarkozy problem; unsure"}
+{"id": "W1991052357", "keep": true, "why": "walking on real numbers, series"}
+{"id": "W1995864174", "keep": false, "why": "pi and AGM computation"}
+{"id": "W1999284923", "keep": true, "why": "linear independence Lambert series"}
+{"id": "W2000599887", "keep": true, "why": "linear independence q-analogues"}
+{"id": "W2007944399", "keep": true, "why": "Pade approximation, Diophantine"}
+{"id": "W2008052995", "keep": true, "why": "basic hypergeometric series"}
+{"id": "W2008824802", "keep": false, "why": "unit distances, geometry"}
+{"id": "W2009170871", "keep": false, "why": "extremal problem for polynomials"}
+{"id": "W2012495969", "keep": false, "why": "graph odd cycles"}
+{"id": "W2012568440", "keep": true, "why": "Pade-Hermite approximants, irrationality methods"}
+{"id": "W2019350858", "keep": false, "why": "nowhere-zero flows"}
+{"id": "W2019573948", "keep": false, "why": "spreads in finite vector spaces"}
+{"id": "W2020101939", "keep": true, "why": "irrationality of Lambert series"}
+{"id": "W2027148335", "keep": true, "why": "q-logarithm, Euler"}
+{"id": "W2027455003", "keep": true, "why": "rational approximation of q-exponential"}
+{"id": "W2032716544", "keep": false, "why": "hypercube subgraphs"}
+{"id": "W2033366500", "keep": false, "why": "graphs with odd cycle lengths"}
+{"id": "W2039162304", "keep": true, "why": "irrationality measure of series"}
+{"id": "W2039499253", "keep": false, "why": "graph colouring, odd cycles"}
+{"id": "W2044573380", "keep": true, "why": "linear independence Lambert series"}
+{"id": "W2044740967", "keep": false, "why": "extremal problem complex polynomials"}
+{"id": "W2050706497", "keep": true, "why": "irrationality of series"}
+{"id": "W2051415345", "keep": true, "why": "basic hypergeometric series, q-zeta values"}
+{"id": "W2057286999", "keep": true, "why": "linear independence Lambert series"}
+{"id": "W2057394949", "keep": false, "why": "graph colouring, induced cycles"}
+{"id": "W2057820147", "keep": true, "why": "irrationality of q-zeta at odd integers"}
+{"id": "W2062097565", "keep": false, "why": "hypercube hexagon-free subgraphs"}
+{"id": "W2066635528", "keep": true, "why": "Hermite-Pade approximation, irrationality"}
+{"id": "W2070834764", "keep": false, "why": "Ramsey-Turan window"}
+{"id": "W2076460709", "keep": false, "why": "Faber polynomials, Markov inequality"}
+{"id": "W2077325777", "keep": false, "why": "integer sequences, average behaviour"}
+{"id": "W2081643856", "keep": false, "why": "Erdos diameter of sets"}
+{"id": "W2083685559", "keep": true, "why": "irrationality of Lambert series"}
+{"id": "W2083855004", "keep": true, "why": "irrationality of Lambert series"}
+{"id": "W2089191641", "keep": false, "why": "vertex colouring survey"}
+{"id": "W2098447376", "keep": true, "why": "binary expansions, algebraic numbers; unsure"}
+{"id": "W2099986052", "keep": false, "why": "graph theory open problems"}
+{"id": "W2102041446", "keep": true, "why": "transcendence of number theoretic power series"}
+{"id": "W2104140619", "keep": true, "why": "irrationality measure of sequences"}
+{"id": "W2118360213", "keep": false, "why": "Turan for pseudo-random graphs"}
+{"id": "W2119243018", "keep": true, "why": "irrationality of fast converging series"}
+{"id": "W2122560436", "keep": false, "why": "cycle lengths and chromatic number"}
+{"id": "W2140084477", "keep": true, "why": "irrationality of Lambert series"}
+{"id": "W2143943120", "keep": true, "why": "Erdos unsolved problems, 1957; unsure"}
+{"id": "W2145880011", "keep": false, "why": "random generators, normal numbers"}
+{"id": "W2148194906", "keep": true, "why": "linearly unrelated sequences, Erdos problem"}
+{"id": "W2164807089", "keep": true, "why": "approximation of q-logarithms"}
+{"id": "W2165306900", "keep": true, "why": "irrationality of certain series"}
+{"id": "W2172192104", "keep": true, "why": "combinatorial identity, q-series; unsure"}
+{"id": "W2181630059", "keep": true, "why": "simultaneous approximants q-series"}
+{"id": "W2186471381", "keep": true, "why": "orthogonality and irrationality"}
+{"id": "W2204748600", "keep": false, "why": "stationary phase, real analytic geometry"}
+{"id": "W2236064529", "keep": true, "why": "irrationality of q-logarithm"}
+{"id": "W2238816572", "keep": false, "why": "graph colouring, odd cycles"}
+{"id": "W2286993093", "keep": false, "why": "automorphisms of rooted tree"}
+{"id": "W2323526206", "keep": false, "why": "Erdos biography and mathematics"}
+{"id": "W2331344973", "keep": true, "why": "series with q-powers, irrationality"}
+{"id": "W2332992744", "keep": true, "why": "Pade approximants, q-elementary functions"}
+{"id": "W2403596028", "keep": true, "why": "curious slowly convergent series"}
+{"id": "W2478454490", "keep": true, "why": "walking on real numbers"}
+{"id": "W2491374609", "keep": false, "why": "merge sort"}
+{"id": "W2501351516", "keep": false, "why": "extremal cycles in graphs"}
+{"id": "W2502516187", "keep": true, "why": "irrationality of certain series"}
+{"id": "W2561894848", "keep": false, "why": "extremal problem, rational function derivative"}
+{"id": "W2569091092", "keep": false, "why": "pi and AGM"}
+{"id": "W2609311736", "keep": false, "why": "visibility graphs, dynamics"}
+{"id": "W2626619818", "keep": true, "why": "Wynn power series, arithmetic"}
+{"id": "W2755121514", "keep": false, "why": "Erdos discrepancy, +-1 sequences"}
+{"id": "W2787553299", "keep": true, "why": "metrical irrationality, zeta values"}
+{"id": "W2900920141", "keep": true, "why": "Erdos-Borwein constants inequality"}
+{"id": "W2901487340", "keep": false, "why": "Euler-Mascheroni constant approximation"}
+{"id": "W2910183727", "keep": true, "why": "series of Lucas-related reciprocals"}
+{"id": "W2913859726", "keep": false, "why": "sparse graphs"}
+{"id": "W2914782162", "keep": true, "why": "basic hypergeometric series"}
+{"id": "W2915160394", "keep": false, "why": "chromatic numbers of subgraphs"}
+{"id": "W2949402645", "keep": true, "why": "basic hypergeometric q-zeta values"}

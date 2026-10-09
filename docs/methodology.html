@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology in detail — Cryptanalytic Effort</title>
+<meta name="description" content="The counting rules, effort models, source files, assumptions and unresolved defects behind the Cryptanalytic Effort study.">
+<meta name="color-scheme" content="light dark">
+<script>try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="methodology">
+<header class="topbar" id="topbar"><div class="topbar-inner">
+  <a class="brand" href="index.html"><span class="glyph">&epsilon;</span><span class="sc">Cryptanalytic Effort</span></a>
+  <nav class="topnav" id="topnav" aria-label="Sections">
+    <a href="#corpus">Corpus</a><a href="#labor">Time</a><a href="#budgets">AI</a><a href="#limitations">Open issues</a>
+  </nav>
+  <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+  </button>
+</div></header>
+<nav class="rail" id="rail" aria-hidden="true"></nav>
+<div id="top" class="titlepage">
+  <div class="kicker">technical companion &middot; working draft &middot; 9 October 2026</div>
+  <h1 class="title">How the numbers<br><em>are made</em></h1>
+  <p class="subtitle">Definitions, assumptions, implementation details and unresolved problems</p>
+  <p class="method-return"><a href="index.html">Back to the readable summary</a> &middot;
+    <a href="assets/cryptanalytic-effort-whitepaper.pdf">White paper (PDF)</a></p>
+  <section class="abstract" aria-labelledby="abstract-h">
+    <h2 id="abstract-h">Purpose of this page</h2>
+    <p>This is the audit trail behind the summary. It describes what the code actually does, where the inputs come from,
+      and where the interpretation goes beyond the evidence. It preserves known discrepancies rather than presenting
+      an idealized method. The data and code links below are pinned to repository snapshot
+      <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/2525642">2525642</a>.
+      The corpus and labor sections document that snapshot; they do not report a new classification or re-estimation run.
+      The <a href="#attack-history">algorithmic-history section</a> is a later, separately sourced addition.</p>
+  </section>
+</div>
+<nav class="toc" aria-labelledby="toc-h"><h2 id="toc-h">Contents</h2><ol id="toc-list"></ol></nav>
+<main>
+
+<section class="section" id="quantities" data-short="Quantities">
+<h2>What is being measured?</h2>
+<p>The study starts with records of publications and reported computations. Almost everything called an effort,
+  year or budget downstream is a transformation of those records. The distinction matters: precision in a table
+  does not make the underlying quantity directly observed.</p>
+<div class="tablewrap"><div class="tcap">The chain from evidence to interpretation.</div>
+<table class="booktabs"><thead><tr><th>Quantity</th><th>How obtained</th><th>What it does not establish</th></tr></thead><tbody>
+<tr><td>Publication metadata</td><td>Bibliographic harvests and abstracts.</td><td>Completeness, correctness, or time spent on the work.</td></tr>
+<tr><td>Inclusion and problem weights</td><td>Model classifications against a rubric.</td><td>Independent expert endorsement of the labels or papers.</td></tr>
+<tr><td>Fractional research items</td><td>Included items allocated across assumption classes.</td><td>Equal difficulty, value or labor per item.</td></tr>
+<tr><td>Research-allocation years</td><td>Publication shares over career windows, plus a paper-prior fallback.</td><td>Actual full-time staffing or recorded working hours.</td></tr>
+<tr><td>Nominal person-hours</td><td>Years multiplied by 2,000 hours/year.</td><td>A time-use measurement.</td></tr>
+<tr><td>Equivalent inference budgets</td><td>Assumed human cost divided by assumed AI productivity.</td><td>A fitted exchange rate, attack forecast or measured labor replacement.</td></tr>
+<tr><td>Computational frontier gaps</td><td>Ratios under a selected attack-cost model.</td><td>The research effort needed to discover a better attack.</td></tr>
+</tbody></table></div>
+<p>The three principal classes are ECDLP, lattices and syndrome decoding. Factoring/finite-field discrete logarithms,
+  isogenies and multivariate systems provide comparators. The labels collect broad mathematical families, not just
+  ordinary instances of current encryption standards. More published scrutiny is not a numerical security guarantee.</p>
+</section>
+
+<section class="section" id="corpus" data-short="Acquisition">
+<h2>Acquisition, screening and deduplication</h2>
+<h3>Sources and stages</h3>
+<p>The initial ePrint harvest parses 28,087 identifiers and retains 27,249 live records. The multi-source extension parses about 8.7 million DBLP
+  records, retaining 375,911 after a title/venue/thesis screen. OpenAlex contributes 50 phrase searches (14,195 works),
+  abstract enrichment for 39,207 core-venue DBLP DOIs (roughly 19,000 abstracts found), and citation expansion from
+  811 resolved ePrint seeds. The latter returns 5,071 backward references and 16,216 forward citers, with a cap of
+  400 citers per seed. Forty-six zbMATH queries return 7,498 rows. These are overlapping acquisition-stage counts;
+  adding them would not produce a count of distinct papers.</p>
+<p>A direct arXiv API acquisition was abandoned after repeated rate-limit/server failures. arXiv works indexed by
+  other sources can still enter the corpus. Older publications, items without useful metadata and work outside
+  these databases remain potential gaps. Raw harvest caches are ignored by Git and are not part of the published snapshot.</p>
+<p>The merged acquisition contains 356,673 items; the first keyword screen retains 19,266, including 1,875 already
+  covered by ePrint candidates. Tier A prioritizes promising keyword signatures; tier B contains 8,353 lower-priority
+  candidates. A second acquisition/classification round adds 1,840 candidates from a broader screen and a seeded
+  random sample of 835 tier-B items. The combined classification outputs contain 16,471 rows before three documented manual exclusions, leaving 16,468 labeled rows.</p>
+<h3>What “same paper” means</h3>
+<p>The source merge uses DOI matching first and normalized-title matching otherwise. Its title key lowercases,
+  removes everything outside ASCII letters and digits, and uses the first 60 characters; titles with fewer than ten
+  normalized characters are dropped in that merge. Metadata merging prefers the earliest year and longest abstract;
+  some fields, including authors and venue, use the first nonempty value. This is bibliographic deduplication, not
+  a full reconciliation of a work's preprint, conference, journal, translated and thesis versions.</p>
+<p>Changed titles and translations can survive as duplicates. Shared title prefixes can merge distinct works.
+  Non-Latin titles can be poorly represented. A long abstract need not be the correct abstract. DBLP's early position
+  in acquisition affects which author/venue metadata survive. These decisions propagate into both counts and identities.</p>
+<p class="method-source">Inspect:
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/phase1_report.md">acquisition report</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/merge_sources.py">source merge</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/candidates.py">screening rules</a>.</p>
+</section>
+
+<section class="section" id="classification" data-short="Classification">
+<h2>What gets classified as cryptanalytic work?</h2>
+<p>Classifiers see title, authors, year, available venue/category metadata and abstract, rather than routinely reading
+  full papers. Later first-pass batches cap abstracts at 1,000 characters; the Phase 1 second pass uses up to 1,500 (2,200 in the earlier pilot).
+  Labels contain inclusion, category, weighted problem tags, target parameters, layer, lattice regime, leakage,
+  quantum/record flags, a confidence score and a short reason.</p>
+<div class="tablewrap"><div class="tcap">Category rules in the main cryptanalysis rubric.</div>
+<table class="booktabs"><thead><tr><th>Code</th><th>Meaning</th><th>Main effort view?</th></tr></thead><tbody>
+<tr><td>A</td><td>Classical algorithms, including faster implementations of mathematical solvers.</td><td>Yes</td></tr>
+<tr><td>B</td><td>Quantum algorithms or quantum resource estimates.</td><td>Yes</td></tr>
+<tr><td>C</td><td>Structural results, special instances, weak keys, distinguishers and structural attacks.</td><td>Yes</td></tr>
+<tr><td>D</td><td>Concrete cost models, security estimates and parameter analysis.</td><td>Yes</td></tr>
+<tr><td>E</td><td>Computational records with resources reported.</td><td>Yes</td></tr>
+<tr><td>F</td><td>Negative results or limits on a class of attacks.</td><td>Yes</td></tr>
+<tr><td>H</td><td>Serious claimed attacks later withdrawn/refuted, or their refutations.</td><td>Yes</td></tr>
+<tr><td>G</td><td>Hardness reductions or equivalences without an attack.</td><td>No; tracked separately</td></tr>
+<tr><td>S</td><td>Surveys, tutorials, SoKs and theses centered on attacks.</td><td>No; tracked separately</td></tr>
+<tr><td>X</td><td>Out of scope.</td><td>No</td></tr>
+</tbody></table></div>
+<h3>Inclusion is a substantive choice</h3>
+<p><code>yes</code> means the main contribution fits the rubric; <code>borderline</code> means scope or relevance is
+  uncertain; <code>no</code> excludes the work. The main class totals use only <code>yes</code> and categories A–F/H.
+  They exclude construction papers that merely use an assumption, implementation or protocol flaws that say nothing
+  about the mathematical problem, and extraction of physical leakage through timing, power analysis or faults.</p>
+<p>They deliberately include mathematical attacks <em>given</em> abstract hints or partial information, speed improvements
+  to lattice reduction and other solvers, special/weak instances and quantum analyses. A lattice attack on an abstract
+  leakage model is different from the engineering needed to extract that leakage. Neither necessarily attacks an
+  ordinary deployed instance. FHE parameter regimes and signature-motivated shared machinery can also contribute.</p>
+<p>The main rubric explicitly excludes HAWK/lattice-isomorphism as a distinct assumption, although the separate
+  HAWK case study intentionally includes it. Scope rules evolved during classification: additions concerned CSIDH,
+  low-genus Jacobian DLP, sensational unvetted claims and generic lattice-reduction algorithms. Some ambiguous
+  boundaries remain, including nonce-leakage/hidden-number problems and non-Hamming decoding.</p>
+<p>The classifier's confidence is its self-assessment, not a calibrated probability. Source restriction and a
+  confidence ≥0.6 sensitivity view do not establish mathematical correctness. A documented manual exclusion removes
+  a particular 2026 “Module Lattice Security” series; it is not evidence of systematic human validation of the rest.</p>
+<p class="method-source">Inspect:
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/rubric.md">full rubric and examples</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/manual_exclusions.json">manual exclusion ledger</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/scope_audit/bounded_review.json">bounded scope audit</a>.</p>
+</section>
+
+<section class="section" id="counting" data-short="Counting">
+<h2>Attribution, denominators and source views</h2>
+<p>For paper \(i\), normalize its supplied tag weights \(t_{ij}\) to sum to one, then apply the fixed tag-to-class
+  map \(M_{jc}\). The resulting class weight is:</p>
+<div class="eq"><div class="body">$$w_{ic}=\sum_j\frac{t_{ij}}{\sum_k t_{ik}}M_{jc},\qquad P_c=\sum_{i\in I}w_{ic}.$$</div></div>
+<p>\(I\) is the selected inclusion/category set. Fractional counts add \(w_{ic}\); touch counts count every selected
+  item with nonzero class weight. A paper can touch several classes. Author-name counts in the paper reports are
+  different from the subsequently resolved person identities.</p>
+<div class="tablewrap"><div class="tcap">The implemented attribution map, including unallocated mass.</div>
+<table class="booktabs"><thead><tr><th>Tags</th><th>Headline allocation</th></tr></thead><tbody>
+<tr><td><code>ecdlp</code></td><td>100% ECDLP, including the rubric's low-genus generalization.</td></tr>
+<tr><td><code>factoring</code>, <code>ffdlp</code></td><td>100% combined factoring/finite-field DLP.</td></tr>
+<tr><td><code>lattice_generic</code>, <code>sis</code></td><td>50% structured lattices, 50% plain LWE.</td></tr>
+<tr><td><code>lattice_structured</code>, <code>ntru</code></td><td>100% structured lattices.</td></tr>
+<tr><td><code>lwe_plain</code></td><td>100% plain LWE.</td></tr>
+<tr><td><code>sd_generic</code>, <code>sd_goppa</code>, <code>sd_qc</code></td><td>100% syndrome decoding.</td></tr>
+<tr><td><code>lpn</code></td><td>50% syndrome decoding; the other half is unallocated.</td></tr>
+<tr><td><code>isogeny</code>, <code>multivariate</code></td><td>100% to their respective comparator classes.</td></tr>
+<tr><td><code>rank</code>, <code>other</code></td><td>No headline allocation.</td></tr>
+<tr><td><code>rsa_variant</code></td><td>Present in the rubric but absent from the map: no headline allocation in this snapshot.</td></tr>
+</tbody></table></div>
+<p>Combined lattices add the structured and plain weights; their union touch count counts a shared paper once.
+  Summing combined lattices and its two subrows would double-count. The 50/50 split is a convention, not a measured
+  division of research benefit.</p>
+<h3>Why the totals do not all add up</h3>
+<p>The export has <strong>4,349 records = 3,520 yes + 829 borderline</strong>. Of the yes records, 2,877 are in the
+  main effort categories, 333 are G and 310 are S. The 2,877 effort items allocate only about 2,698.9 fractional
+  items across the seven disjoint headline classes; 134 have no headline weight. Missing mappings and deliberately
+  partial allocations explain why “items in the corpus” is not the sum of the class rows.</p>
+<p>The website's annual paper series cover 1970–2026. They omit an undated ECDLP item and Prange's 1962 decoding paper,
+  each with class weight one. The summary table uses full-corpus totals and retains them. Annual values are rounded
+  by the data builder, so summing chart values can also differ slightly from directly summing unrounded records.</p>
+<h3>Alternate views are alternate assumptions</h3>
+<p>The main site counts observed tier-B sample papers once. A separate sensitivity view weights those sampled items
+  by \(8353/835\approx10.004\) to represent the full tier-B population. That is a sampling extrapolation,
+  not ten real papers for every observed one. Only 26 sampled items are yes (another 11 are borderline), so the
+  extrapolation is sensitive to a small number of labels. Author counts are not inflated by this factor.</p>
+<p>The site's “ePrint / DBLP” subset uses the export's source flag. It is not a peer-review or verification filter:
+  ePrint is a preprint archive and DBLP also indexes informal work. There is a known legacy inconsistency: the older
+  counting script recognizes round-two ePrint-only source lists, while the export also accepts mixed-source lists
+  containing ePrint. Ten main-view records differ. This adds 1.5 ECDLP, 1.0 combined lattice and 7.5 factoring/FF-DLP
+  fractional items to the website subset relative to the older report. All-sources headline counts are unaffected.</p>
+<p>The often-quoted lattice/ECDLP span of roughly 1.3–2.6 mixes author counts, paper counts, source restrictions and
+  sampling assumptions. Its endpoints are not uncertainty quantiles for one well-defined estimator.</p>
+<p class="method-source">Inspect:
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/attribution.json">attribution map</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/phase1_counts.py">counting implementation</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/export_combined.py">export rules</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/export/combined_included.csv">record-level export</a>.</p>
+</section>
+
+<section class="section" id="validation" data-short="Validation">
+<h2>What the quality checks establish</h2>
+<h3>Two model passes are not two independent judgments</h3>
+<p>The second pass reviews first-pass yes/borderline items plus approximately 10% of first-pass exclusions. It can
+  see the first label. Reported inclusion agreement of roughly \(\kappa=0.84\text{–}0.89\) is agreement on the
+  selected reviewed subset, not a representative estimate of accuracy against expert truth. Correlated model
+  errors, rubric mistakes and omitted full-text evidence can survive both passes. Where a second-pass label exists, it replaces the first; unreviewed exclusions retain the first-pass label.</p>
+<p>Some repository reports call exclusion-audit reversals a “false-negative rate.” The actual denominator is
+  <em>sampled first-pass exclusions</em>. Round one reverses 7 of 648 audited exclusions (1.08%); round two reverses
+  1 of 213 (0.47%). These estimate the fraction of rejected candidates the second model would reinstate under the
+  sampling assumptions. They are not the fraction of all relevant papers missed, and subtracting them from 100%
+  does not give classifier recall.</p>
+<h3>The reference-list benchmark</h3>
+<p>Twelve seed papers supply 429 reference-list entries, not necessarily 429 distinct papers. Of these, 421 were
+  harvested, 329 screened into the pool, 327 labeled and 295 labeled yes/borderline. One code-survey seed supplied
+  no references through the API. Some uncaptured or excluded references are properly out of scope.</p>
+<p>The approximately 96–100% figures in the narrative reports are judgments about in-scope coverage after inspecting
+  gaps in these selected lists. They are not \(295/429\), a field-wide recall measurement or a held-out test: the
+  benchmark itself helped motivate the broader second-round screen. Source bias and shared citation neighborhoods
+  remain. The documented systematic human spot-check of corpus labels has not been completed.</p>
+<p class="method-source">Inspect:
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/make_pass2.py">second-pass prompts</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/merge_pass2.py">agreement calculation</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/phase1_agreement.txt">round-one audit</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/round2_agreement.txt">round-two audit</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/recall_benchmark.md">reference-list benchmark</a>.</p>
+</section>
+
+<section class="section" id="labor" data-short="Author model">
+<h2>From author names to research-allocation years</h2>
+<h3>Identity and publication histories</h3>
+<p>Items are matched to DBLP by record key, ePrint identifier or DOI. Normalized-title matches also require years within ±1 when both are available.
+  Candidate matches prioritize overlap with the item's author list. DBLP person aliases are merged; homonym-numbered
+  identities remain distinct. Authors lacking a direct match are tried against a unique full name and then a
+  surname/initial match within the cryptanalysis population, with first-name compatibility checks. Unresolved names
+  remain separate string identities.</p>
+<p>The author map reports 7,613 authorships on main-view items and approximately 3,240 identities. About 2,573 have
+  usable DBLP/zbMATH publication histories; the remaining 667 use a fallback. These are estimates of people, not
+  a verified census. Alias failures can split a person, and an incorrect match can merge different people.</p>
+<p>Career output merges DBLP publications and accepted zbMATH author profiles by normalized-title hash. A zbMATH
+  match uses identifiers or overlapping known work, not name similarity alone. The goal is to avoid allocating all
+  of a mathematician's research to cryptanalysis just because DBLP misses their mathematics publications. Publication
+  history still misses unindexed papers, other duties, unpublished research and nonpublishing contributors.</p>
+<h3>The implemented window formula</h3>
+<p>For person \(p\) and year \(y\), let \(I_{py}\) contain their included effort items dated within \(y-2\) through
+  \(y+2\). Let \(B_{py}\) be all distinct career publications in that window. Let \(v_{py}\) be the number of window
+  years between the first observed career publication and the 2026 observation boundary. The default rate floor
+  is \(r=1\) publication per available year. The actual denominator and class allocation are:</p>
+<div class="eq"><div class="body">$$d_{py}=\max\left(B_{py},\sum_{i\in I_{py}}\max_c w_{ic},r v_{py},10^{-9}\right),\qquad a_{pcy}=\frac{\sum_{i\in I_{py}}w_{ic}}{d_{py}}.$$</div></div>
+<p>The inner maximum is over disjoint headline classes, not the additional combined-lattice row. Contributions are
+  summed across person-years; the per-paper fallback described below is added. A person counts from their first
+  observed career year to their last. Someone whose last career publication is in 2025 or 2026 is carried through
+  2026 to allow for indexing lag. The window can include future publications relative to \(y\), so this is a
+  retrospective allocation, not an observation of what researchers were doing at that moment.</p>
+<p>Each coauthor receives the paper's class weight in their own publication-share numerator. The numerator is
+  <em>not</em> divided by author count. Division by authors is used for a separate publication-credit statistic and
+  the missing-career fallback. Equal publication credit is not a measurement of equal labor contributions.</p>
+<div class="defn"><p>For an interior five-year window with two topic papers and ten total papers, allocation to the
+  topic is \(2/10=0.2\) in that year. One topic paper and one total indexed paper in that window gives \(1/5=0.2\), because the
+  one-publication/year floor dominates. Five topic papers and five total papers can give one full allocation year;
+  it says nothing about whether the person actually spent a full working year on research.</p></div>
+<h3>A known implementation weakness</h3>
+<p>The denominator's <code>sum(max(class weights))</code> term does not guarantee that total allocation across
+  disjoint classes is at most one. A paper split 0.5/0.5 contributes only 0.5 to this guard while contributing one
+  across its class numerators. Observed publication totals and the rate floor may mask the issue. A sum of each
+  paper's disjoint class weights would express the intended aggregate cap more directly.</p>
+<p>This defect is documented, not silently repaired in the published figures. Its current numerical impact has not
+  been established: the ignored raw DBLP match/profile caches needed for an exact rerun are absent from this
+  checkout. The baseline exports remain the source for the site and paper.</p>
+<p class="method-source">Inspect:
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/authors_dblp.py">identity matching</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/authors_zbmath.py">career enrichment</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/author_map.py">implemented allocation formula</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/author_map_method.md">method notes</a>.</p>
+</section>
+
+<section class="section" id="time" data-short="Time assumptions">
+<h2>Fallback priors, career adjustment and hours</h2>
+<h3>The author estimate is a hybrid</h3>
+<p>For a person with no usable career history, each included paper contributes its class weight times a category
+  effort prior, divided by the paper's resolved number of authors. The main fallback midpoints are 1.5 total
+  person-years for A/B/C/F, 1.0 for D, 6.0 for E and 0.75 for H. These are assumed total years across the author team,
+  not years per author. Only the missing-career authors' shares enter this fallback.</p>
+<p>Dated fallback effort is spread uniformly across the same ±2-year neighborhood, truncated at 2026. An undated
+  item can enter the per-person total but cannot enter the dated series. Consequently the person table and cumulative
+  chart need not reconcile exactly. In this snapshot, an undated ECDLP item contributes 1.5 fallback years to the
+  former but not the latter, alongside rounding differences. Cumulative labor totals also retain allocations from
+  before 1970 even though the exported annual rows start in 1970: syndrome decoding's first cumulative value is
+  0.5 years versus 0.2 in that year's annual row.</p>
+<p>Fallback priors supply approximately 16.9% of the dated ECDLP total, 9.0% of lattices and 13.1% of syndrome decoding.
+  Therefore apparent agreement between a paper-prior estimate and the author estimate is not an independent
+  validation: the latter partly contains the former, and both share the same literature labels.</p>
+<h3>Career-stage fractions</h3>
+<p>The adjusted view multiplies publication-share contributions by assumed fractions of working time spent on
+  research. It leaves the paper-prior fallback unchanged, treating those priors as already expressed in person-years.</p>
+<div class="tablewrap"><div class="tcap">Research-time fractions used by the adjusted model.</div>
+<table class="booktabs"><thead><tr><th>Stage</th><th>Assumed fraction</th></tr></thead><tbody>
+<tr><td>Before the PhD year</td><td>0.90</td></tr>
+<tr><td>PhD year and following four years</td><td>0.85</td></tr>
+<tr><td>Established, academic sector</td><td>0.45</td></tr>
+<tr><td>Established, nonacademic sector</td><td>0.70</td></tr>
+<tr><td>Established, unknown sector</td><td>0.50</td></tr>
+</tbody></table></div>
+<p>PhD dates prefer Math Genealogy information, then ORCID doctoral entries, then an estimate from first publication
+  and an observed median offset of two years (564 usable offsets, interquartile range zero to four years). Employment sector comes from dated ORCID organization-name heuristics, otherwise
+  “unknown.” About 76.9% of the PhD dates among included people with output profiles are estimated. These fractions
+  and stages are conventions, not time-use data.</p>
+<div class="tablewrap"><div class="tcap">Cumulative dated totals used by the website, through its 2026 observation window.</div>
+<table class="booktabs"><thead><tr><th>Class</th><th>Allocation years</th><th>Adjusted years</th></tr></thead><tbody>
+<tr><td>ECDLP</td><td>593.8</td><td>438.9</td></tr>
+<tr><td>All lattices</td><td>1,036.4</td><td>758.5</td></tr>
+<tr><td>Syndrome decoding</td><td>331.4</td><td>248.7</td></tr>
+<tr><td>Factoring / FF-DLP</td><td>1,111.1</td><td>847.5</td></tr>
+<tr><td>Isogenies</td><td>116.6</td><td>85.2</td></tr>
+<tr><td>Multivariate</td><td>210.2</td><td>149.7</td></tr>
+</tbody></table></div>
+<h3>Why the totals may be too high</h3>
+<div class="caveat"><p><strong>Publishing only on a topic does not mean working on it full time.</strong> Teaching,
+  administration, consulting, other employment, short projects and unequal coauthor contributions can make
+  publication share substantially exceed time share. Missing nontopic publications can inflate that share further.
+  Career adjustment lowers the principal totals by roughly a quarter but does not validate them. There is no
+  measured basis for a tight numerical error bar or a claim that the adjusted series is the true answer.</p></div>
+<p>Other biases can operate in the opposite direction: prolonged failed projects, nonpublishing engineers, private
+  research and work before a first publication are poorly represented. Opposing biases do not establish cancellation.
+  Missing classified work does not turn an uncertain public-time proxy into a guaranteed lower bound.</p>
+<p>The paper uses \(2{,}000\) hours per research-year to express <em>nominal</em> person-hours. At that convention,
+  ECDLP's 593.8 allocation years become 1,187,600 nominal hours. Using 1,500 or 2,200 hours/year scales all hours by
+  0.75 or 1.10; it does not change the year-based dollar scenarios. None of these conversions reveals logged hours.</p>
+<p class="method-source">Inspect:
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/authors/fte_by_year.csv">annual and cumulative export</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/authors/authors.csv">person-level export</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/authors_enrich.py">career-stage acquisition</a>.</p>
+</section>
+
+<section class="section" id="problems" data-short="Problem samples">
+<h2>Effort around HAWK and mathematical problems</h2>
+<p>The named-problem study uses curated seeds, citation expansion and a separate rubric. It estimates work on a
+  problem or related approaches, rather than counting papers that merely assume a conjecture. Its scopes include
+  HAWK/module-LIP, Unique Games and related lines, 2-to-1 Games, and 22 selected Erdős problems. Overlapping literatures
+  such as Unique Games and 2-to-1 must not be added as independent totals.</p>
+<p>For item \(i\), relevance \(u_i\in[0,1]\) is supplied by the classifier. Its inclusion multiplier \(b_i\) is one for
+  yes and one-half for borderline. For category effort prior \(\mu_{k_i}\), the estimator is:</p>
+<div class="eq"><div class="body">$$H_P^{\mathrm{papers}}=\sum_i b_i u_i\mu_{k_i}.$$</div></div>
+<div class="tablewrap"><div class="tcap">Problem-study priors differ from the author-map fallback.</div>
+<table class="booktabs"><thead><tr><th>Category</th><th>Problem-study prior, total years/paper</th><th>Main author fallback midpoint</th></tr></thead><tbody>
+<tr><td>A, C, F</td><td>1–2; midpoint 1.5</td><td>1.5</td></tr>
+<tr><td>B</td><td>Not part of this calibration rubric</td><td>1.5</td></tr>
+<tr><td>D</td><td>0.5–1.5; midpoint 1.0</td><td>1.0</td></tr>
+<tr><td>E</td><td>2–10; midpoint 6.0</td><td>6.0</td></tr>
+<tr><td>H</td><td>1–2; midpoint 1.5</td><td>0.75</td></tr>
+<tr><td>S</td><td>0.5–1; midpoint 0.75</td><td>Not in main effort view</td></tr>
+<tr><td>G</td><td>Excluded despite being labeled</td><td>Not in main effort view</td></tr>
+</tbody></table></div>
+<p>Displayed central values sum midpoint priors. The chart's ranges sum all lower and upper endpoints; they are
+  sensitivity ranges, not confidence intervals. Independent random draws per paper can produce a narrow interval
+  without resolving a shared error in effort per paper. HAWK's older 33.2–37.6-year Monte Carlo interval around
+  35.4 years omits that shared uncertainty, missing work and attribution error.</p>
+<h3>Human labor and chronological cutoffs are not audited</h3>
+<p>The site preserves the paper-comparable literature totals and flags explicitly AI-assisted entries. It does not
+  automatically remove them or impose a pre-discovery publication cutoff. The flag depends on disclosure visible
+  in the abstract; an unflagged item is not proof of purely human authorship. Erdős #741's entire 0.495-year estimate
+  is flagged AI-assisted; for #846, 1.5 of 1.875 years is flagged. Those totals cannot honestly be called prior human
+  effort. The website labels them literature-effort scenarios.</p>
+<p>“Solved problem” can hide variant and part distinctions. The sample retains studies of partial resolutions and
+  related statements as well as complete resolutions, and the website does not independently verify the underlying
+  mathematics. Counts of manuscripts, conjectures, families, attempts and formal statements are not interchangeable.</p>
+<h3>An old question may have received little effort</h3>
+<div class="remark"><p>A problem can remain open for decades because few people seriously tried to solve that
+  particular question. A cheap AI solution can uncover an overlooked opportunity rather than overcome sustained
+  human resistance. Related papers may have devoted little effort to the exact question, while unsuccessful
+  attempts may leave no publication. These selected successes are not a representative sample of mathematics,
+  and cannot calibrate the cost of replacing a mature field's cryptanalytic scrutiny.</p></div>
+<p class="method-source">Inspect:
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/rubric_calibration.md">problem rubric</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/2525642/data/ai_effort/calib">item-level problem labels</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/build_site_data.py">website estimator and flags</a>.</p>
+</section>
+
+<section class="section" id="budgets" data-short="AI budgets">
+<h2>Economic scenarios, tokens and disclosure boundaries</h2>
+<h3>The multiplier is assumed</h3>
+<p>The main scenarios use a loaded human cost convention \(c=\$250{,}000\) per research-year and assumed economic
+  productivity \(s\in\{1,10,100\}\). Larger \(s\) means more comparable research per inference dollar. No scenario
+  is a preferred estimate or an uncertainty percentile. The explorer opens at 10× only as an illustrative setting.</p>
+<div class="eq"><div class="body">$$D_X(s)=\frac{cH_X^{\mathrm{share}}}{s},\qquad H^{\mathrm{equiv}}(D;s)=\frac{sD}{c}.$$</div></div>
+<p>One estimated human year becomes $250,000, $25,000 or $2,500 of inference. A $100,000 AI budget becomes 0.4, 4 or
+  40 assigned human-year equivalents. Applying the same multiplier across classes preserves their ranking by
+  construction; it does not show that AI transfers equally well to every class or to unsuccessful lines of inquiry.</p>
+<p>These are inference allowances. Human supervision, verification, tool compute, infrastructure and model training
+  are outside the allowance; historical human attack-computation costs are likewise not included in \(cH\).
+  A public API-price valuation is not an internal compute bill. If the human-effort estimate is too high by a factor
+  of two, its equivalent budget is too high by the same factor.</p>
+<h3>Token equivalents require a price and mix</h3>
+<div class="eq"><div class="body">$$p_{\mathrm{mix}}=f_i p_i+f_c p_c+f_o p_o,\qquad T_{\mathrm{ref}}=\frac{10^6D}{p_{\mathrm{mix}}},\qquad f_i+f_c+f_o=1.$$</div></div>
+<p>The fractions describe uncached input, cached input and output tokens, priced per million tokens. The site's
+  default $10/million is hypothetical. A real comparison must specify model version, date, caching, token mix and
+  billed reasoning tokens. Dollars alone do not identify an actual token count; elapsed time and concurrent agents
+  do not identify tokens or human hours.</p>
+<h3>HAWK normalization is a separate assumption</h3>
+<div class="eq"><div class="body">$$D_X^{\mathrm{HAWK}}=\$100{,}000\frac{H_X^{\mathrm{papers}}}{H_{\mathrm{HAWK}}^{\mathrm{papers}}}.$$</div></div>
+<p>HAWK has 35.4 estimated paper-based years using yes-only work, or 38.4 with borderline work at half weight. These
+  imply roughly $2,825 or $2,604 per historical paper-based year if one assigns the reported AI discovery budget to
+  the preceding literature. That transfer is assumed, not measured. Both sides must use the same paper estimator;
+  a shared prior scale can then cancel, but differences in coverage, relevance and category mix do not.</p>
+<p>The site removed its former HAWK preset because it applied this paper-derived rate to author-output years. The
+  remaining $100,000 marker is a disclosed discovery budget only. The human team's active hours are undisclosed;
+  the older 0.3–1-year suggestion was hypothetical. Human and AI HAWK results also achieve different dimension
+  reductions. Publication dates do not establish independent discovery or duration; Anthropic reports private
+  disclosure to the HAWK team in June.</p>
+<h3>What the cost markers count</h3>
+<div class="tablewrap"><div class="tcap">Selected disclosures retained with their accounting boundaries.</div>
+<table class="booktabs"><thead><tr><th>Case</th><th>Disclosed figure</th><th>Boundary</th></tr></thead><tbody>
+<tr><td>Anthropic HAWK</td><td>About $100,000 API cost; about 60 hours.</td><td>Discovery process, not attack execution; tokens and active human hours unspecified.</td></tr>
+<tr><td>Erdős #1</td><td>$405 and $1,384; mean $894.50.</td><td>Two priced successful runs, including one excluded from the fixed-budget score. Unsuccessful runs omitted from this mean.</td></tr>
+<tr><td>Erdős #74 and #126</td><td>Six successes averaging $158.83; four averaging $211.</td><td>Means over disclosed successful attempts of the prerelease Astra model, including additional non-systematic attempts.</td></tr>
+<tr><td>Erdős #548 and #571</td><td>$363 and $617.</td><td>One priced successful attempt each; not total cost to obtain each result.</td></tr>
+<tr><td>OpenAI ten advances</td><td>Roughly $2,000 at Sol API rates.</td><td>Reference-price valuation of solution tokens across ten results; not a complete campaign bill.</td></tr>
+<tr><td>OpenAI Navier–Stokes claim</td><td>About 130 billion output tokens for the result; about 300 billion across the wider campaign.</td><td>The smaller number is a subset, not additive. Input tokens and an all-in dollar bill are undisclosed.</td></tr>
+</tbody></table></div>
+<p>The Erdős CSV records individual successes and unpriced failures. The builder averages only priced outcomes
+  marked resolved (including resolved but excluded from the score), restricted to the named prerelease Astra model.
+  It does not divide total campaign spend by all attempts or all distinct results. The primary paper reports more
+  than $220,000 across the wider campaign. Its roughly $10,000 “expected cost” discussion is a budget/success-rate
+  heuristic, not a reconciled campaign ledger, and is not used as a calibrated reference line.</p>
+<p>For the Navier–Stokes output-only example, a hypothetical output price \(p_o\) dollars/million gives
+  \(D=130{,}000p_o\) and \(H^{\mathrm{equiv}}=0.52sp_o\). This prices only disclosed output tokens; it does not
+  estimate human historical effort on Navier–Stokes or the internal system's actual cost.</p>
+<p class="method-source">Inspect:
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/ai_effort_comparison_scoping.md">scenario definitions</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/ai_effort/ai_results.yaml">disclosure ledger and primary links</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/data/ai_effort/erdos_problems.csv">attempt-level costs</a>,
+  <a href="https://arxiv.org/html/2609.25050v1#S4.SS2">Erdős primary report</a>,
+  <a href="https://www.anthropic.com/research/discovering-cryptographic-weaknesses">HAWK primary report</a>.</p>
+</section>
+
+<section class="section" id="frontier" data-short="Computation">
+<h2>Computational records and frontier gaps</h2>
+<p>The separate record track has 338 entries; ten were marked user-verified in the snapshot, including records
+  accepted provisionally. The remainder are agent-transcribed. A record's native problem size, algorithm,
+  structure exploited, hardware and time belong together. A special-structure solve or restricted interval discrete
+  logarithm is not a generic solve at the same nominal bit length.</p>
+<p>The frontier statistic is \(g=\log_2 W(\text{target})-\log_2 W(\text{record})\). It is a ratio within one model,
+  not the target's security strength. A common size-independent multiplicative factor cancels; changing hardware
+  efficiency, memory cost and size-dependent corrections do not. Cross-family gaps are not equally calibrated
+  dollar or runtime distances.</p>
+<div class="tablewrap"><div class="tcap">Models behind the website's selected frontier rows.</div>
+<table class="booktabs"><thead><tr><th>Target</th><th>Model and anchor</th><th>Meaning of the gap</th></tr></thead><tbody>
+<tr><td>P-256</td><td>Generic Pollard rho, approximately \(0.886\sqrt{\ell}\) group operations; record subgroup about 117.3 bits.</td><td>About 69.3 bits of modeled group-operation work. Costs per operation differ between curves.</td></tr>
+<tr><td>ML-KEM-512 / 768</td><td>Sieving dimension 171 in a dimension-210 approximate-SVP record, versus target effective sieve dimensions 375 / 586.</td><td>60–75 / 121–152 bits per sieve call under slopes 0.292–0.367. Not complete attack-to-record runtime ratios.</td></tr>
+<tr><td>Classic McEliece 348864</td><td>Goppa decoding record \(n=1409\), about \(2^{63}\) on the challenge's scale; proxy target \(n=3471\).</td><td>About 79 bits on that scale. Proxy parameters differ from the deployed instance.</td></tr>
+<tr><td>HQC-128</td><td>QC decoding record \(n=4098\); Prange iteration estimates and a seven-bit quasi-cyclic discount.</td><td>About 61 bits under a coarse same-model approximation.</td></tr>
+<tr><td>RSA-2048</td><td>Leading GNFS expression at 896 and 2048 bits.</td><td>About 35.02 bits, or 35 billion times modeled work; omitted asymptotic terms are uncalibrated.</td></tr>
+</tbody></table></div>
+<h3>Why the RSA gap is only about 35 bits</h3>
+<p>For a \(b\)-bit modulus, substituting \(N\approx2^b\) into the leading GNFS expression gives the index:</p>
+<div class="eq"><div class="body">$$F(b)=\frac{(64/9)^{1/3}(b\ln2)^{1/3}[\ln(b\ln2)]^{2/3}}{\ln2}.$$</div></div>
+<p>\(F(896)=81.8596\), \(F(2048)=116.8838\), and their difference is 35.0242. GNFS scales subexponentially with
+  modulus size. These values are not measured operation counts. NIST's separate 112-bit category for RSA-2048 is
+  not used as an endpoint; subtracting 81.86 from 112 would mix conventions. The decimal places document arithmetic,
+  not forecasting precision.</p>
+<h3>Lattice and hardware caveats</h3>
+<p>The SVP challenge accepts a norm within 1.05 times the Gaussian heuristic. The modeled frontier uses the solver's
+  reported maximum sieving dimension, not its ambient lattice dimension. Target dimensions come from a selected
+  primal-attack estimate with dimensions-for-free conventions. The slope interval contrasts an asymptotic value
+  with a GPU-sieving fit; it is not a statistical confidence interval. The project's own smaller fitted slope is
+  not used because chronological records confound size with changing algorithms and hardware.</p>
+<p>Repeated sieve calls in the full ML-KEM-512 target attack contribute roughly nine additional modeled bits. The
+  record solve also has work outside a single sieve call, so adding nine is not by itself a complete normalization
+  of both whole computations. Memory, parallelism and algorithm selection require separate treatment.</p>
+<h3>Hardware normalization is another assumption layer</h3>
+<p>The record report converts reported compute into ranges of “2020 core-year equivalents.” Its parser uses the
+  first available route in this order: stated core-years times a CPU-era factor; stated GPU-years times a workload
+  factor; parsed MIPS-years; parsed CPU-hours divided by 8,766 and era-adjusted; or a parsed device/core count times
+  wall-clock days divided by 365.25. If a run takes less than two days and no hardware count is parsed, it assumes
+  one machine. Otherwise the value remains missing. A parser taking the wrong number or unit can therefore matter.</p>
+<div class="tablewrap"><div class="tcap">Configured conversion factors; ranges are assumptions, not confidence intervals.</div>
+<table class="booktabs"><thead><tr><th>Input unit</th><th>2020 core-year equivalents</th></tr></thead><tbody>
+<tr><td>CPU core-year, by era</td><td>1990: 0.01–0.03; 1995: 0.03–0.06; 2000: 0.08–0.15; 2005: 0.25–0.40; 2010: 0.50–0.70; 2015: 0.80–0.90; 2020 onward: 1.</td></tr>
+<tr><td>GPU-year, by workload</td><td>Lattice: 100–500; ECDLP: 50–200; decoding: 20–100; factoring: 300–600; other: 20–500.</td></tr>
+<tr><td>PS3-year / FPGA-year for ECDLP</td><td>3–8 / 2–10.</td></tr>
+<tr><td>MIPS-year</td><td>0.00002–0.00005.</td></tr>
+</tbody></table></div>
+<p>CPU factors use the latest configured era no later than the record year; an unknown or earlier year uses the
+  earliest entry. Missing device/workload combinations fall back to the broad “GPU: other” range, even for a
+  differently named device. These factors cannot reconcile memory, communication and algorithm-specific hardware
+  efficiency. They estimate computation, not researcher years; missing compute does not mean zero effort.</p>
+<p>“Record-setting” here means a strict increase in numeric instance size, ordered by date within groups defined
+  by class, problem, challenge and structure flag, with additional LWE noise-parameter groups. Each low-weight
+  decoding entry is its own group. This is a mechanical rule, not an expert ranking of all instances' difficulty.
+  Totals add only record-setting rows with usable compute, with Bitcoin puzzles reported separately; the export
+  retains other rows for inspection. The lattice frontier is restricted to the Darmstadt SVP challenge, and the
+  generic factoring frontier excludes structured/SNFS records.</p>
+<p class="method-source">Inspect:
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/normalization_method.md">full normalization method</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/normalization.json">parameters</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/normalization_sources.json">source ledger</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/analysis/records_normalize.py">normalization code</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/2525642/records">individual records</a>.</p>
+</section>
+
+<section class="section" id="attack-history" data-short="Algorithm history">
+<h2>Selected algorithmic bounds and attack events</h2>
+<p>This addition documents the revised algorithmic-history track. Unlike the corpus and labor links above,
+  its source links point to the current <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/main/data/attack_history">history ledger</a>.
+  It is a deliberately selected history of supported analyses, not a complete reconstruction of historical beliefs,
+  a measured security-loss curve or a forecast of the next break.</p>
+<h3>Numerical indices and their inverses</h3>
+<p>For a track with reference size \(s_0\), each eligible analysis supplies a leading-term function \(I_a(s)\).
+  At year \(t\), the plotted index is the minimum among selected analyses dated by then:</p>
+<div class="eq"><div class="body">$$I_t(s_0)=\min_{a\in A_t} I_a(s_0),\qquad s_t(128)=\max_{a\in A_t} I_a^{-1}(128).$$</div></div>
+<p>The inverse view independently takes the largest threshold needed to make every selected attack index at least
+  128. Algorithms can cross, so the two views need not use the same winning analysis. Same-year points show the
+  year-end envelope; intermediate results remain in the ledger. Relative sizes divide by the latest threshold
+  within that track. They are not key-size recommendations. Omitted factors can differ across algorithms,
+  so even a within-track difference is an index change, not a calibrated runtime ratio.</p>
+<p>Eligibility requires an explicit series flag, supported status, a classical model, a numerical formula and a
+  primary source URL. There is no practicality filter. Algebraic assumptions, randomness, memory and distributional
+  guarantees are recorded, not turned into confidence percentages. Source checking was performed by an agent;
+  independent human verification remains outstanding.</p>
+<h3>Scope differs across the five numerical tracks</h3>
+<div class="tablewrap"><div class="tcap">Reference sizes and the limits of comparability.</div>
+<table class="booktabs"><thead><tr><th>Track</th><th>What the index describes</th></tr></thead><tbody>
+<tr><td>ECDLP</td><td>Generic group-operation estimates at 256-bit subgroup order. Negation changes a constant, not the square-root exponent.</td></tr>
+<tr><td>Lattices</td><td>Selected heuristic sieve bounds at SVP oracle dimension 406, starting in 2008. This omits full LWE reduction, repeated calls, dimensions-for-free and hardware costs. The frontier's refined target sieve dimension 375 is a separate convention.</td></tr>
+<tr><td>Decoding</td><td>Selected full-distance bounds at length 1346, maximizing the exponent over code rates for each algorithm. The hardest rate can change; this is not a single rate-1/2 code or a deployed McEliece/HQC parameter.</td></tr>
+<tr><td>Factoring</td><td>Selected leading asymptotic expressions at a 3072-bit modulus, starting with quadratic sieve in 1982. The incomplete earlier history is excluded. Asymptotic variants are included even if impractical; the index is distinct from NIST's security-strength convention.</td></tr>
+<tr><td>Boolean MQ</td><td>Selected bounds for square quadratic systems at 184 variables. Conditional algebraic bounds and general randomized algorithms have different guarantees, stated in the ledger.</td></tr>
+</tbody></table></div>
+<h3>Dating and corrected claims</h3>
+<p>Dates attach to the quoted analysis. A later improved analysis of an old algorithm is not silently backdated.
+  Where the first version has not been established, the ledger identifies the checked source version and the
+  dating uncertainty. Earlier algorithm dates can be recorded separately. Consequently a late point can describe
+  a correction or stronger analysis, rather than a new implementable algorithm.</p>
+<p>The original Both–May coefficient 0.0885 is retained only as a corrected claim. The selected corrected coefficient
+  is approximately 0.0951; allowing the obsolete smaller value into a running minimum would preserve the error
+  forever. Earlier worst-case enumeration and later heuristic sieving are not combined into the former
+  528-bit lattice “loss.” Missing earlier milestones are acknowledged by starting a selected series later,
+  rather than filling the gap with an unsupported flat baseline.</p>
+<p>No “years stable,” exponent-change count or security forecast is inferred. Dimensions-for-free provides a
+  subexponential, dimension-dependent saving while leaving the leading linear sieve coefficient unchanged.
+  Memory tradeoffs, implementation work, new proofs and changes in full attack strategy can matter between the plotted steps.</p>
+<h3>Events without a common cost model</h3>
+<p>Small-characteristic DLP, pairing-field reassessments and SIDH appear as sourced events. The former finite-field
+  \(2^{70}\) placeholder and SIDH \(2^{42}\) runtime conversion are removed. The approximately 59-bit pairing
+  estimate concerns \(\mathbb F_{2^{4\cdot1223}}\), in the source's modular-multiplication units; the curve's base
+  field \(\mathbb F_{2^{1223}}\) is a different object. Quasi-polynomial time remains super-polynomial.
+  Without a suitable numerical model, inverse size is “not estimated,” never “no finite size.”</p>
+<p class="method-source">Inspect:
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/main/data/attack_history/README.md">schema and conventions</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/main/analysis/attack_stability.py">generator</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/main/analysis/attack_stability.md">full source ledger</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/main/analysis/test_attack_stability.py">regression checks</a>.</p>
+</section>
+
+<section class="section" id="presentation" data-short="Charts">
+<h2>What the website adds or changes</h2>
+<p>The site data builder reads the committed combined export and annual author table. It selects years 1970–2026,
+  rounds annual paper weights to two decimals, retains unrounded full-corpus totals for the summary table, and
+  recomputes named-problem estimates from their labels. It does not harvest sources or run classification models.</p>
+<p>The annual paper plot uses a centered three-year mean. At the ends, it averages available years only. Cumulative
+  paper mode sums unsmoothed annual values. Author plots already inherit five-year windows from the estimator.
+  The 2026 observation year is incomplete and is not scaled up to a full calendar year. Cumulative author plots display
+  years from 1980 while retaining earlier contributions in the accumulated values.</p>
+<p>The cumulative crossover annotation identifies the most recent year when lattices exceed ECDLP after previously
+  being at or below it. On logarithmic cumulative axes, values below one are drawn at one to permit plotting;
+  this is a display floor, not an additional contribution. The recent annual-rate table averages the five displayed
+  annual estimates for 2022–2026.</p>
+<p>The budget slider permits 1×–1000× productivity, $100,000–$500,000 per human year and a hypothetical $1–$100 per
+  million reference tokens. The 1×/10×/100× buttons are examples, not fitted bounds. The problem comparison shows
+  conditional successful-run means, with its flagged AI-literature amounts available in the data table. Ratios that
+  could be mistaken for measured speedups are not printed.</p>
+<p>The frontier rows in the website builder are curated constants with explanatory metadata. They are not read
+  dynamically from the record-normalization report. Re-running the site builder therefore does not update them
+  automatically after a new record or target model changes. The generated date is a build date, not proof that
+  every source was checked that day.</p>
+<p class="method-source">Inspect:
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/pipeline/build_site_data.py">data builder</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/docs/assets/charts.js">chart transformations</a>,
+  <a href="assets/data.js">current generated payload</a>.</p>
+</section>
+
+<section class="section" id="limitations" data-short="Open issues">
+<h2>Known defects and choices open to challenge</h2>
+<p>These issues are part of the interpretation of the published snapshot. Listing them does not assign a numerical
+  correction or prove that they cancel.</p>
+<div class="tablewrap"><div class="tcap">A concrete review agenda.</div>
+<table class="booktabs"><thead><tr><th>Issue</th><th>Known status</th><th>What would resolve it</th></tr></thead><tbody>
+<tr><td>Publication share as time share</td><td>May substantially overestimate actual work; no calibrated error bars.</td><td>Independent time estimates for a diverse sample of projects and contributors.</td></tr>
+<tr><td>Author-year aggregate cap</td><td>Maximum-weight guard can fail to cap summed class shares.</td><td>Restore raw profiles, evaluate affected years and publish a versioned rerun.</td></tr>
+<tr><td>Scope/attribution errors</td><td>A bounded 45-item keyword review found one clear HAWK/LIP mismatch and several nonce-leakage/other attribution questions.</td><td>Item-level review of abstracts/full texts, followed by consistent downstream regeneration.</td></tr>
+<tr><td>Incomplete leakage metadata</td><td>39 main-view records explicitly mark leakage; 871 lack the flag.</td><td>Review missing flags before claiming a comprehensive no-leakage sensitivity.</td></tr>
+<tr><td>Source-subset mismatch</td><td>Ten mixed-source records treated differently in old reports and the export.</td><td>Unify the rule and version the comparison; all-sources headline unaffected.</td></tr>
+<tr><td>Unallocated tags</td><td>Rank/other contribute nothing, LPN contributes half, rsa_variant is unmapped.</td><td>Decide the intended population before changing attribution weights.</td></tr>
+<tr><td>Problem chronology and AI work</td><td>Some displayed “years” are assigned to AI-assisted publications; dates are unaudited.</td><td>Define result-specific historical cutoffs and audit provenance and variants.</td></tr>
+<tr><td>Cost selection</td><td>Successful-run costs omit failures; human and AI outputs differ.</td><td>Complete attempt ledgers and matched deliverables, without assuming cross-field transfer.</td></tr>
+<tr><td>Duplicates and identity errors</td><td>Title heuristics and unresolved names can overmerge or oversplit.</td><td>Trace high-impact records and author matches to stable identifiers.</td></tr>
+<tr><td>Computational extrapolation</td><td>Most records lack human verification; model units and hardware ratios differ.</td><td>Verify records, make memory/operation units explicit and test alternate models.</td></tr>
+</tbody></table></div>
+<p>The scope audit's 45 keyword-selected records are not 45 errors. Most fit the deliberately broad hint-model or
+  solver scope, and no clear pure timing/power/fault-extraction inclusion emerged from that bounded inspection.
+  The confirmed example is ePrint 2026/2381, “The Lattice Isomorphism Problem with Hints,” allocated 0.75 to structured
+  lattices and 0.25 to plain LWE despite the main rubric's LIP exclusion. The current corpus has not been relabeled.
+  Weighted item counts cannot simply be subtracted from author-year totals, whose denominators and windows are coupled.</p>
+<p>Private and classified effort remain unobserved. There is no evidence here that their distribution mirrors public
+  effort, or that agencies compensate most where public effort is lowest. Our comparisons concern documented public
+  work only. The earlier HAWK rediscovery pilot produced no completed mathematical evaluations after safeguard
+  interruptions; it supplies no success-rate calibration. The current scenario method does not require that experiment.</p>
+</section>
+
+<section class="section" id="reproduce" data-short="Reproduce">
+<h2>Reproduce, inspect or challenge a number</h2>
+<p>Start with the <a href="https://github.com/matthewdgreen/bits-of-work-repo/tree/2525642">pinned repository snapshot</a>
+  for the corpus and effort numbers discussed here. The algorithmic history uses the current repository. The <a href="https://github.com/matthewdgreen/bits-of-work-repo">current repository</a>
+  may contain later corrections. The white paper's
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/2525642/paper/generated/manifest.json">manifest</a>
+  records input hashes and derived values; it is a provenance ledger, not a scientific validation certificate.</p>
+<pre class="bib"># From the repository root; rebuilds outputs from existing labels.
+python3 -I analysis/attack_stability.py
+python3 -I pipeline/build_site_data.py
+make -C paper
+
+# Separate computational-record report, using its own inputs.
+python3 -I analysis/records_normalize.py</pre>
+<p>The site builder uses Python's standard library. The paper build also requires <code>latexmk</code> and the LaTeX
+  packages declared in its source. It writes intermediate files under <code>tmp/pdfs/whitepaper/</code> and copies the
+  PDF to <code>output/pdf/</code> and <code>docs/assets/</code>. These commands do not call a model, spend inference
+  funds, reclassify the corpus or update literature acquisition. Inspect the scripts and dependencies before running
+  the separate record pipeline.</p>
+<p>A full acquisition or author-estimator rerun is a different task. It requires raw bibliographic and enrichment
+  inputs omitted from Git, and may encounter changed APIs, database contents and indexing. The committed exports
+  support inspection and figure regeneration; they do not make the entire original acquisition independently
+  reproducible from a clean checkout alone.</p>
+<div class="tablewrap"><div class="tcap">Where to begin an item-level challenge.</div>
+<table class="booktabs"><thead><tr><th>Question</th><th>Evidence to inspect</th></tr></thead><tbody>
+<tr><td>Why is this paper counted?</td><td><code>combined_included.csv</code>, the original label/reason, rubric, inclusion category and source metadata.</td></tr>
+<tr><td>Why does it count toward this class?</td><td>Problem tags and weights, <code>attribution.json</code>, and any missing or partial mapping.</td></tr>
+<tr><td>Why so many research-years?</td><td><code>authors.csv</code>, <code>authorships.csv</code>, <code>fte_by_year.csv</code>, career matching, numerator/denominator windows and fallback basis.</td></tr>
+<tr><td>What does this AI cost include?</td><td><code>ai_results.yaml</code>, <code>erdos_problems.csv</code>, source tables, model/version and success/failure scope.</td></tr>
+<tr><td>Why this frontier gap?</td><td>Record YAML, verification status, target parameters, model formula and omitted overhead.</td></tr>
+<tr><td>Why does the chart differ from a report?</td><td>Snapshot, source filter, year limits, inclusion rule, rounding and chart transformations.</td></tr>
+</tbody></table></div>
+<p>A useful correction names a record or output, identifies the rule or assumption being challenged, and explains
+  whether the problem is factual metadata, classification, attribution, time estimation or interpretation. Those
+  require different repairs. Questions and corrections can be filed in the
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/issues">repository issue tracker</a>.</p>
+</section>
+</main>
+<footer class="colophon">Methodology companion &middot; source snapshot 2525642 &middot; working draft<br>
+  <a href="index.html">Return to the summary</a> &middot; <a href="#top">Back to top</a></footer>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" defer></script>
+<script src="assets/site.js" defer></script>
+</body>
+</html>

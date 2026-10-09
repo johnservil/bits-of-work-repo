@@ -1,0 +1,63 @@
+track,length_n,weight,authors,algorithm,date,provider_or_seed,hardware,runtime,comments,site_log2_complexity,record_url
+syndrome,10,4,Guillaume Wafo-Tapa,-,2020-08-01,10 Seed 0,-,-,-,1.0,https://decodingchallenge.org/syndrome/record/52
+syndrome,10,4,Zhai Hao,Dumer,2025-04-23,10 Seed 10,-,0,-,1.0,https://decodingchallenge.org/syndrome/record/59
+syndrome,10,2,Matthieu Lequesne,Trivial,2019-07-12,10 Seed 1,-,-,-,1.0,https://decodingchallenge.org/syndrome/record/0
+syndrome,20,2,Julien Lavauzelle,Random search,2019-07-12,20 Seed 0,-,<1sec,-,2.0,https://decodingchallenge.org/syndrome/record/1
+syndrome,30,4,Julien Lavauzelle,Random search,2019-07-12,30 Seed 0,-,10sec,-,3.0,https://decodingchallenge.org/syndrome/record/2
+syndrome,40,8,Matthieu Lequesne,Prange,2019-07-22,40 Seed 0,-,1sec,-,4.0,https://decodingchallenge.org/syndrome/record/3
+syndrome,50,7,Matthieu Lequesne,Prange,2019-07-22,50 Seed 0,-,1sec,-,5.0,https://decodingchallenge.org/syndrome/record/4
+syndrome,60,10,Matthieu Lequesne,Prange,2019-07-22,60 Seed 0,-,1sec,-,6.0,https://decodingchallenge.org/syndrome/record/9
+syndrome,70,10,Matthieu Lequesne,Prange,2019-07-22,70 Seed 0,-,1sec,-,7.0,https://decodingchallenge.org/syndrome/record/10
+syndrome,80,12,Matthieu Lequesne,Prange,2019-07-22,80 Seed 0,-,1sec,-,8.0,https://decodingchallenge.org/syndrome/record/11
+syndrome,90,13,Matthieu Lequesne,Prange,2019-07-22,90 Seed 0,-,1sec,-,9.0,https://decodingchallenge.org/syndrome/record/8
+syndrome,100,14,Matthieu Lequesne,Prange,2019-07-22,100 Seed 0,-,1sec,-,11.0,https://decodingchallenge.org/syndrome/record/5
+syndrome,110,15,Matthieu Lequesne,Prange,2019-07-22,110 Seed 0,-,1sec,-,12.0,https://decodingchallenge.org/syndrome/record/12
+syndrome,120,17,Matthieu Lequesne,Prange,2019-07-22,120 Seed 0,-,1sec,-,13.0,https://decodingchallenge.org/syndrome/record/13
+syndrome,130,18,Matthieu Lequesne,Prange,2019-07-22,130 Seed 0,-,1sec,-,14.0,https://decodingchallenge.org/syndrome/record/14
+syndrome,140,19,Matthieu Lequesne,Prange,2019-07-22,140 Seed 0,-,10sec,-,15.0,https://decodingchallenge.org/syndrome/record/15
+syndrome,150,20,Matthieu Lequesne,Prange,2019-07-22,150 Seed 0,-,10sec,-,16.0,https://decodingchallenge.org/syndrome/record/6
+syndrome,160,21,Matthieu Lequesne,Prange,2019-07-22,160 Seed 0,-,5sec,-,17.0,https://decodingchallenge.org/syndrome/record/7
+syndrome,170,23,Matthieu Lequesne,Prange,2019-07-22,170 Seed 1,-,100s,-,18.0,https://decodingchallenge.org/syndrome/record/16
+syndrome,170,23,Robin,-,2023-04-01,170 Seed 0,-,-,-,18.0,https://decodingchallenge.org/syndrome/record/57
+syndrome,180,23,Aleksei Udovenko,-,2019-08-20,180 Seed 0,-,-,-,19.0,https://decodingchallenge.org/syndrome/record/18
+syndrome,190,26,Aleksei Udovenko,-,2019-08-20,190 Seed 0,-,-,-,20.0,https://decodingchallenge.org/syndrome/record/19
+syndrome,200,27,Matthieu Lequesne,Prange,2019-08-15,200 Seed 0,-,1 hour,-,21.0,https://decodingchallenge.org/syndrome/record/17
+syndrome,210,28,Aleksei Udovenko,-,2019-08-20,210 Seed 0,-,-,-,22.0,https://decodingchallenge.org/syndrome/record/20
+syndrome,220,26,Aleksei Udovenko,-,2019-08-20,220 Seed 0,-,-,-,23.0,https://decodingchallenge.org/syndrome/record/21
+syndrome,230,29,Aleksei Udovenko,-,2019-08-20,230 Seed 0,-,-,-,24.0,https://decodingchallenge.org/syndrome/record/22
+syndrome,240,28,Aleksei Udovenko,-,2019-08-20,240 Seed 0,-,-,-,25.0,https://decodingchallenge.org/syndrome/record/23
+syndrome,250,32,Aleksei Udovenko,-,2019-08-20,250 Seed 0,-,-,-,26.0,https://decodingchallenge.org/syndrome/record/24
+syndrome,260,33,Matthieu Lequesne,MMT implementation by Gregory Landais,2019-08-28,260 Seed 0,-,few hours,p = 8 l = 17,27.0,https://decodingchallenge.org/syndrome/record/30
+syndrome,270,34,Pierre Karpman,Lee-Brickell,2019-08-27,270 Seed 0,2 x SKL Gold 6130,Wall time 3 min 40 sec,-,28.0,https://decodingchallenge.org/syndrome/record/29
+syndrome,280,35,Aleksei Udovenko,-,2019-08-21,280 Seed 0,-,-,-,29.0,https://decodingchallenge.org/syndrome/record/25
+syndrome,280,35,Ante Silovic,Prange,2026-07-29,280 Seed 1,Cyclone V GX Starter Kit (FPGA),13 hours 5 minutes,"Logic utilization (in ALMs)	19,755 / 29,080 ( 68 % ) Total registers	19784 Total pins	21 / 364 ( 6 % ) Total virtual pins	0 Total block memory bits	2,319,596 / 4,567,040 ( 51 % ) Total DSP Blocks	46 / 150 ( 31 % ) Total HSSI RX PCSs	0 / 6 ( 0 % ) Total HSSI PMA RX Deserializers	0 / 6 ( 0 % ) Total H",29.0,https://decodingchallenge.org/syndrome/record/60
+syndrome,290,37,Aleksei Udovenko,-,2019-08-21,290 Seed 0,-,-,-,30.0,https://decodingchallenge.org/syndrome/record/26
+syndrome,300,38,Matthieu Lequesne,Dumer implementation by Gregory Landais,2019-08-28,300 Seed 0,-,10 minutes,"p = 6, l = 18",32.0,https://decodingchallenge.org/syndrome/record/31
+syndrome,310,39,Aleksei Udovenko,-,2019-08-21,310 Seed 0,-,-,-,33.0,https://decodingchallenge.org/syndrome/record/27
+syndrome,320,40,Matthieu Lequesne,Dumer implementation by Gregory Landais,2019-08-28,320 Seed 0,-,10 minutes,"p = 6, l = 18",34.0,https://decodingchallenge.org/syndrome/record/32
+syndrome,330,41,Matthieu Lequesne,Dumer implementation by Gregory Landais,2019-08-28,330 Seed 0,-,1 minute,"p = 6, l = 18",35.0,https://decodingchallenge.org/syndrome/record/33
+syndrome,340,42,Aleksei Udovenko,-,2019-08-22,340 Seed 221,Intel(R) Xeon(R) CPU E5-2637 v3 @ 3.50GHz,a few hours,-,36.0,https://decodingchallenge.org/syndrome/record/28
+syndrome,340,42,Johannes Kunz,Stern/Dumer with epsilon-overlap,2020-01-28,340 Seed 0,"i5, MacBook",50min,-,36.0,https://decodingchallenge.org/syndrome/record/44
+syndrome,350,44,Matthieu Lequesne,Dumer implementation by Gregory Landais,2019-08-28,350 Seed 0,-,1 hour,"p = 6, l = 19",37.0,https://decodingchallenge.org/syndrome/record/34
+syndrome,350,43,Johannes Kunz,Stern/Dumer with epsilon-overlap,2020-01-29,350 Seed 1,"i5, MacBook",55min,l = 14 epsilon = 26 p = 4,37.0,https://decodingchallenge.org/syndrome/record/45
+syndrome,360,45,Matthieu Lequesne,Dumer implementation by Gregory Landais,2019-08-28,360 Seed 0,-,10 minutes,"p = 6, l = 19",38.0,https://decodingchallenge.org/syndrome/record/35
+syndrome,370,46,Matthieu Lequesne,Dumer implementation by Gregory Landais,2019-08-28,370 Seed 0,-,1 hour,"p = 6, l = 19",39.0,https://decodingchallenge.org/syndrome/record/36
+syndrome,380,48,Valentin Vasseur,Dumer,2019-09-20,380 Seed 0,i7-6700K,15 min,-,40.0,https://decodingchallenge.org/syndrome/record/38
+syndrome,390,48,Valentin Vasseur,Dumer,2019-09-22,390 Seed 0,Xeon E5-2695 v4,8.5 h,-,41.0,https://decodingchallenge.org/syndrome/record/39
+syndrome,400,50,"Shintaro Narisada, Hiroki Okada, Kazuhide Fukushima, Yuto Nakano, and Shinsaku Kiyomoto",Paralleled Stern's algorithm,2019-09-19,400 Seed 0,-,-,-,42.0,https://decodingchallenge.org/syndrome/record/37
+syndrome,410,51,Valentin Vasseur,Dumer,2019-09-22,410 Seed 0,Xeon E5-2695 v4,21 h,-,43.0,https://decodingchallenge.org/syndrome/record/40
+syndrome,420,52,Valentin Vasseur,Dumer,2019-10-26,420 Seed 0,Xeon E5-2695 v4,1290 h,CPU time,44.0,https://decodingchallenge.org/syndrome/record/42
+syndrome,430,51,Valentin Vasseur,Dumer,2019-10-26,430 Seed 0,Xeon E5-2695 v4,250 h,CPU time,45.0,https://decodingchallenge.org/syndrome/record/43
+syndrome,440,54,Valentin Vasseur,Dumer,2020-03-17,440 Seed 0,i7-6700K,50 h,-,46.0,https://decodingchallenge.org/syndrome/record/46
+syndrome,450,54,Valentin Vasseur,Dumer,2019-09-24,450 Seed 0,Xeon E5-2695 v4,39 d,CPU time,47.0,https://decodingchallenge.org/syndrome/record/41
+syndrome,460,55,Greg Meyer,Dumer,2020-07-22,460 Seed 0,NVIDIA V100 GPU,8 hr,100 min x 5 V100 GPU = 8 GPU-hr,48.0,https://decodingchallenge.org/syndrome/record/47
+syndrome,470,58,Greg Meyer,Dumer,2020-07-23,470 Seed 0,NVIDIA V100 GPU,75 GPU-hr,-,49.0,https://decodingchallenge.org/syndrome/record/48
+syndrome,480,59,Greg Meyer,Dumer,2020-07-30,480 Seed 0,NVIDIA V100 GPU,??,total runtime unknown due to jobs dying and restarting. runtime at least 6 GPU-days,50.0,https://decodingchallenge.org/syndrome/record/50
+syndrome,490,59,Greg Meyer,Dumer,2020-08-01,490 Seed 0,NVIDIA V100 GPU,~6 GPU-days,runtime very rough estimate,52.0,https://decodingchallenge.org/syndrome/record/51
+syndrome,500,59,Greg Meyer,Dumer,2020-07-27,500 Seed 0,NVIDIA V100 GPU,20.3 GPU-days,-,53.0,https://decodingchallenge.org/syndrome/record/49
+syndrome,510,61,"Shintaro Narisada, Kazuhide Fukushima, and Shinsaku Kiyomoto",MMT,2021-09-19,510 Seed 0,-,592.9,-,54.0,https://decodingchallenge.org/syndrome/record/53
+syndrome,520,62,Lucien Pech,MMT,2026-10-03,520 Seed 0,NVIDIA GeForce RTX 2070,~14 days,-,55.0,https://decodingchallenge.org/syndrome/record/61
+syndrome,530,65,"Shintaro Narisada, Kazuhide Fukushima, and Shinsaku Kiyomoto",MMT,2021-10-27,530 Seed 0,-,301 hours,-,56.0,https://decodingchallenge.org/syndrome/record/54
+syndrome,540,66,"Shintaro Narisada, Kazuhide Fukushima, and Shinsaku Kiyomoto",MMT,2022-02-01,540 Seed 0,-,79.44 days,-,57.0,https://decodingchallenge.org/syndrome/record/55
+syndrome,550,67,"Shintaro Narisada, Kazuhide Fukushima, and Shinsaku Kiyomoto",MMT,2022-02-23,550 Seed 0,-,13.03 days,-,58.0,https://decodingchallenge.org/syndrome/record/56
+syndrome,570,70,"Shintaro Narisada, Kazuhide Fukushima, and Shinsaku Kiyomoto",MMT variant,2023-04-17,570 Seed 0,-,45.32 days,-,60.0,https://decodingchallenge.org/syndrome/record/58

@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_goppa_n640"
+class: "code"
+problem: "SD-Goppa"
+instance: "decodingchallenge goppa n=640 w=13"
+instance_size: 640
+instance_size_unit: "n"
+log2_ops: 32.0
+method: "dumer4 by G. Landais"
+structure_exploited: false
+hardware: "I7-2.3Ghz"
+raw_compute: "runtime: 40s; hardware: I7-2.3Ghz"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.000462962962962963
+date: "2019-09-15"
+solvers: ["P. Loidreau"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/goppa/record/14"
+other_urls: ["https://decodingchallenge.org/goppa/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 0 - Inria Paris; instances are random parity-check matrices with planted error (not actual Goppa codes); McEliece-like rate/weight; submitter comment: theoretical work factor 2^32 (Dumer p=4, l=8)."

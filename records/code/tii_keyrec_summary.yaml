@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "tii_keyrec_summary"
+class: "code"
+problem: "SD-Goppa"
+instance: "TII McEliece Track 1B key recovery summary: 2024 best TII-83 (generic) / TII-68 (algebraic); 2026 best TII-254; TII-255 open"
+instance_size: 223
+instance_size_unit: "n"
+log2_ops: null
+method: "structural key recovery (2026)"
+structure_exploited: true
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2026-09-08"
+solvers: ["Markku-Juhani O. Saarinen"]
+academic: true
+challenge: "TII McEliece"
+extrapolation: null
+paper: null
+source_url: "https://github.com/mjosaarinen/tii-solved"
+other_urls: ["https://www.herox.com/TIIMcElieceChallenges/leaderboard", "https://crowdchallenge.tii.ae/mceliece-challenges/index.php", "https://github.com/ElenaKirshanova/tii_decoding_challenge", "https://raw.githubusercontent.com/ElenaKirshanova/tii_decoding_challenge/main/key_rec_instances", "https://classic.mceliece.org/mceliece-610-20260623.pdf"]
+confidence: 0.7
+verified: false
+notes: "SUMMARY FILE - exclude from record counts. Challenge ran 2023-05-09 to 2024-05-08 (winners 2024-05-30); 206 public keys, labels 22-255. 2026 sequence: BLT (Mar, <=210), Briaud et al. (Jun 10, 248), Hemmert (Jun 29, 32 labels to 248), Saarinen HOVER (Jul, 252), Weis (Aug 18, 253), Vedenev (Aug 20, 173/249/253), Saarinen (Sep 8, 254). All structural; no generic ISD. Track 1B instances have artificially small t (t=2-24, rates up to ~0.9) - not scaled Classic McEliece parameters (Bernstein 2023; Classic McEliece team note 2026-06-23). TII/HeroX confirmation: none found; HeroX leaderboard (static since the May 2024 close) still lists every Track 1B label above 83 as \"Available to Solve\". Keys are publicly checkable against the official public keys."

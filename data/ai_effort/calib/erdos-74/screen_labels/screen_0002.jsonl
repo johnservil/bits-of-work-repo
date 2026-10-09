@@ -1,0 +1,100 @@
+{"id": "W2952282870", "keep": false, "why": "cycles in finite planes"}
+{"id": "W2952749208", "keep": true, "why": "sparse halves in triangle-free graphs"}
+{"id": "W2953129111", "keep": false, "why": "covering systems of congruences"}
+{"id": "W2955520683", "keep": false, "why": "even-cycle-free subgraphs, doubled Johnson"}
+{"id": "W2963091845", "keep": false, "why": "induced subgraphs of Ramsey graphs"}
+{"id": "W2963120913", "keep": true, "why": "cycle lengths and minimum degree"}
+{"id": "W2963207566", "keep": false, "why": "edges in monochromatic bipartite copies"}
+{"id": "W2963290839", "keep": true, "why": "local density, graphs of given odd girth"}
+{"id": "W2963608839", "keep": false, "why": "edges not in monochromatic copies"}
+{"id": "W2963882948", "keep": false, "why": "cycles in finite planes"}
+{"id": "W2963942939", "keep": true, "why": "Bondy-Vince conjecture, cycles"}
+{"id": "W2964097236", "keep": false, "why": "large prime gaps"}
+{"id": "W2964195457", "keep": true, "why": "Erdos-Faudree-Rousseau-Schelp conjecture"}
+{"id": "W2964307401", "keep": false, "why": "long prime gaps"}
+{"id": "W2964321794", "keep": false, "why": "Ramsey graphs, subgraph sizes"}
+{"id": "W2972044778", "keep": false, "why": "Littlewood-Offord, Ramsey graphs"}
+{"id": "W2976022965", "keep": false, "why": "Green-Tao theorem"}
+{"id": "W2995029990", "keep": true, "why": "cycle lengths in expanding graphs"}
+{"id": "W2996989667", "keep": false, "why": "disjoint triangles, co-triangle-free graphs"}
+{"id": "W2997483836", "keep": false, "why": "anti-Ramsey, perturbed graphs"}
+{"id": "W3003803721", "keep": false, "why": "Turan number plus one"}
+{"id": "W3003854522", "keep": true, "why": "extremal problems in hypergraph colourings"}
+{"id": "W3007558129", "keep": true, "why": "extremal problems in hypergraph colourings"}
+{"id": "W3008591388", "keep": false, "why": "anti-Ramsey random graphs"}
+{"id": "W3015949536", "keep": true, "why": "disjoint graphs without short odd cycles"}
+{"id": "W3018741894", "keep": false, "why": "rainbow cliques, perturbed graphs"}
+{"id": "W3023014247", "keep": false, "why": "clique and biclique partitions"}
+{"id": "W3033975125", "keep": false, "why": "anti-Ramsey threshold, cycles"}
+{"id": "W3036691973", "keep": true, "why": "linear cycles of consecutive lengths"}
+{"id": "W3043886164", "keep": false, "why": "number-on-forehead, Ruzsa-Szemeredi graphs"}
+{"id": "W3045988463", "keep": true, "why": "sparse halves in K4-free graphs"}
+{"id": "W3048484789", "keep": false, "why": "Littlewood-Offord, Ramsey graphs"}
+{"id": "W3048493258", "keep": false, "why": "triangle decompositions"}
+{"id": "W3048862377", "keep": false, "why": "monochromatic triangle packings"}
+{"id": "W3072879867", "keep": false, "why": "graph family recognition"}
+{"id": "W3081548210", "keep": true, "why": "German graph theory problems; unsure"}
+{"id": "W3089076296", "keep": false, "why": "Blaschke product"}
+{"id": "W3095029562", "keep": true, "why": "Erdos-Hajnal odd cycle problem"}
+{"id": "W3098775014", "keep": false, "why": "covering systems, zero-one laws"}
+{"id": "W3127534791", "keep": true, "why": "list chromatic numbers of hypergraphs"}
+{"id": "W3143259507", "keep": true, "why": "max cuts in triangle-free graphs"}
+{"id": "W3148811892", "keep": true, "why": "cycle lengths, chromatic number five and six"}
+{"id": "W3154005122", "keep": true, "why": "sparse halves in triangle-free graphs"}
+{"id": "W3158858093", "keep": false, "why": "subset sums and colourings of integers"}
+{"id": "W3165526607", "keep": true, "why": "independent sets, shift graphs, chromatic"}
+{"id": "W3184635925", "keep": true, "why": "sparse halves in K4-free graphs"}
+{"id": "W3193549712", "keep": true, "why": "K4-free graphs sparse halves"}
+{"id": "W3194966791", "keep": false, "why": "graph search methods"}
+{"id": "W3198560882", "keep": true, "why": "Erdos-Gyarfas conjecture, P8-free graphs"}
+{"id": "W3198912041", "keep": false, "why": "binomial coefficient factorizations"}
+{"id": "W3198999370", "keep": false, "why": "sport activity data"}
+{"id": "W3199033543", "keep": false, "why": "sarcasm detection"}
+{"id": "W3199165210", "keep": false, "why": "web performance measurement"}
+{"id": "W3199918782", "keep": false, "why": "non-planar graph storage"}
+{"id": "W3200016966", "keep": false, "why": "cosinor rhythm analysis"}
+{"id": "W3200059131", "keep": false, "why": "zero-knowledge authentication"}
+{"id": "W3200374625", "keep": false, "why": "computer science conference proceedings"}
+{"id": "W3200525743", "keep": false, "why": "adversarial image perturbation"}
+{"id": "W3200730125", "keep": false, "why": "hotel sentiment analysis"}
+{"id": "W3200904438", "keep": false, "why": "flow shop scheduling"}
+{"id": "W3201332865", "keep": false, "why": "serverless scheduling"}
+{"id": "W3201366099", "keep": true, "why": "Erdos-Simonovits Turan, minimum degree 3"}
+{"id": "W3206346340", "keep": false, "why": "ordinal partition relations, Isabelle"}
+{"id": "W3207941508", "keep": true, "why": "chromatic index of hypergraphs"}
+{"id": "W3208505826", "keep": false, "why": "distinguishing graphs via cycles"}
+{"id": "W3215989232", "keep": false, "why": "graphs with unique geodesics"}
+{"id": "W344717706", "keep": true, "why": "extremal problems in graph theory"}
+{"id": "W348244977", "keep": true, "why": "future of graph theory; unsure"}
+{"id": "W4200165642", "keep": true, "why": "sparse vertex semigraphs in triangle-free graphs"}
+{"id": "W4207003154", "keep": false, "why": "sparse pseudorandom hypergraphs"}
+{"id": "W4210366657", "keep": false, "why": "hypercube network connectivity"}
+{"id": "W4210663278", "keep": true, "why": "Erdos favourite problems and results"}
+{"id": "W4211205179", "keep": false, "why": "distances of n points"}
+{"id": "W4214648228", "keep": false, "why": "prime gaps demonstration"}
+{"id": "W4214661660", "keep": false, "why": "prime gaps demonstration"}
+{"id": "W4225256755", "keep": false, "why": "unicyclic cubic graphs"}
+{"id": "W4226204448", "keep": false, "why": "Jewish field conference"}
+{"id": "W4226523359", "keep": true, "why": "Erdos-Simonovits Turan, minimum degree 3"}
+{"id": "W4229970255", "keep": true, "why": "probabilistic graph theory, 1959; unsure"}
+{"id": "W4230555963", "keep": true, "why": "infinite combinatorics, history"}
+{"id": "W4232463701", "keep": false, "why": "integer sequences book"}
+{"id": "W4237114318", "keep": true, "why": "cycle length parities, chromatic number"}
+{"id": "W4241708735", "keep": true, "why": "partition relations, infinite combinatorics"}
+{"id": "W4243048603", "keep": false, "why": "probabilistic number theory"}
+{"id": "W4246611826", "keep": false, "why": "graph families from equation systems"}
+{"id": "W4248282558", "keep": false, "why": "Ramsey-type hypercube result"}
+{"id": "W4248774826", "keep": false, "why": "induced subgraphs of prescribed size"}
+{"id": "W4249085394", "keep": true, "why": "problems on finite and infinite graphs"}
+{"id": "W4250699352", "keep": true, "why": "chromatic number of graphs and set-systems"}
+{"id": "W4251216302", "keep": false, "why": "divisors monograph"}
+{"id": "W4253452345", "keep": false, "why": "induced subgraphs, distinct sizes"}
+{"id": "W4291214678", "keep": true, "why": "cycle length of sparse regular graphs"}
+{"id": "W4295634057", "keep": false, "why": "unsolved geometry problems"}
+{"id": "W4297494759", "keep": true, "why": "Erdos-Hajnal odd cycle problem solution"}
+{"id": "W4298414065", "keep": true, "why": "combinatorial problems and exercises; unsure"}
+{"id": "W4302383489", "keep": false, "why": "unsolved number theory problems"}
+{"id": "W4304080595", "keep": true, "why": "Erdos-Gyarfas conjecture, P8-free graphs"}
+{"id": "W4313365414", "keep": true, "why": "K4-free graphs sparse halves"}
+{"id": "W4313813773", "keep": false, "why": "4-cycles stability"}
+{"id": "W4381382709", "keep": true, "why": "spectrum of triangle-free graphs; unsure"}

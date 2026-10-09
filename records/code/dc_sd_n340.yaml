@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_sd_n340"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge sd n=340 w=42"
+instance_size: 340
+instance_size_unit: "n"
+log2_ops: 36.0
+method: null
+structure_exploited: false
+hardware: "Intel(R) Xeon(R) CPU E5-2637 v3 @ 3.50GHz"
+raw_compute: "runtime: a few hours; hardware: Intel(R) Xeon(R) CPU E5-2637 v3 @ 3.50GHz"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2019-08-22"
+solvers: ["Aleksei Udovenko"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/syndrome/record/28"
+other_urls: ["https://decodingchallenge.org/syndrome/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; seed 221 instance; runtime \"a few hours\"."

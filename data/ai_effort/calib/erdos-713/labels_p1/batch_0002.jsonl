@@ -1,0 +1,4 @@
+{"id": "seed:erdos-571-2", "include": "borderline", "category": "S", "weight": 0.05, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos extremal-graph progress survey that may state the question"}
+{"id": "seed:erdos-571-5", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different extremal/hypergraph topic, not asymptotics/rationality of bipartite Turan exponents (713)"}
+{"id": "seed:erdos-713-8", "include": "borderline", "category": "S", "weight": 0.15, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos extremal-graph results paper that may state the asymptotic/rationality question"}
+{"id": "seed:erdos-713-9", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different extremal/hypergraph topic, not asymptotics/rationality of bipartite Turan exponents (713)"}

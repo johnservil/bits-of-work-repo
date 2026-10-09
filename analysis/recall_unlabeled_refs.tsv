@@ -1,0 +1,103 @@
+class	seed	year	title	venue	harvested_but_not_screened
+code	McEliece needs a break - solving McEliec	1969	Gaussian elimination is not optimal	Numerische Mathematik	True
+code	McEliece needs a break - solving McEliec	2007	Algorithms for solving linear and polynomial systems of equations over finite fields, with applications to cryptanalysis		True
+code	Syndrome Decoding Estimator	1998	Approximate nearest neighbors		True
+code	Syndrome Decoding Estimator	1999	Grover’s quantum searching algorithm is optimal	Physical Review A	True
+comparator	An efficient key recovery attack on SIDH	1966	Variations on a Theorem of Landau. Part I	Mathematics of Computation	True
+comparator	An efficient key recovery attack on SIDH	1983	On a problem of Oppenheim concerning “factorisatio numerorum”	Journal of Number Theory	True
+comparator	An efficient key recovery attack on SIDH	1988	Curves of Genus 2 with Split Jacobian	Transactions of the American Mathematical Society	True
+comparator	An efficient key recovery attack on SIDH	1989	A rigorous subexponential algorithm for computation of class groups	Journal of the American Mathematical Society	True
+comparator	An efficient key recovery attack on SIDH	1997	The Magma Algebra System I: The User Language	Journal of Symbolic Computation	True
+comparator	An efficient key recovery attack on SIDH	1997	The number of curves of genus two with elliptic differentials.	Journal für die reine und angewandte Mathematik (Crelles Journal)	True
+comparator	An efficient key recovery attack on SIDH	2000	Large torsion subgroups of split Jacobians of curves of genus two or three	Forum Mathematicum	True
+comparator	An efficient key recovery attack on SIDH	2006	Explicit endomorphisms and Correspondences	Bulletin of the Australian Mathematical Society	True
+comparator	An efficient key recovery attack on SIDH	2011	Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies	Lecture notes in computer science	True
+comparator	An efficient key recovery attack on SIDH	2014	Computing (ℓ,ℓ)-isogenies in polynomial time on Jacobians of genus 2 curves	Mathematics of Computation	True
+comparator	An efficient key recovery attack on SIDH	2014	Towards quantum-resistant cryptosystems from supersingular elliptic curve isogenies	Journal of Mathematical Cryptology	True
+comparator	An efficient key recovery attack on SIDH	2017	Identification Protocols and Signature Schemes Based on Supersingular Isogeny Problems	Lecture notes in computer science	True
+comparator	An efficient key recovery attack on SIDH	2017	Post-Quantum Static-Static Key Agreement Using Multiple Protocol Instances	Lecture notes in computer science	True
+comparator	An efficient key recovery attack on SIDH	2018	SoK		True
+comparator	An efficient key recovery attack on SIDH	2022	Arithmetic, Geometry, Cryptography, and Coding Theory 2021	Contemporary mathematics - American Mathematical Society	True
+comparator	Comparing the difficulty of factorizatio	1994	A Uniform Approach for the Fast Computation of Matrix-Type Padé Approximants	SIAM Journal on Matrix Analysis and Applications	True
+comparator	Comparing the difficulty of factorizatio	2004	The Middle Product Algorithm I	Applicable Algebra in Engineering Communication and Computing	True
+comparator	Comparing the difficulty of factorizatio	2016	Linear Time Interactive Certificates for the Minimal Polynomial and the Determinant of a Sparse Matrix		True
+comparator	Comparing the difficulty of factorizatio	2018	Imperfect forward secrecy	Communications of the ACM	True
+ecdlp	Breaking ECC2K-130	1999	Faster Attacks on Elliptic Curve Cryptosystems	Lecture notes in computer science	True
+ecdlp	Breaking ECC2K-130	2004	A low complexity and a low latency bit parallel systolic multiplier over GF(2/sup m/) using an optimal normal basis of type II	Proceedings/Proceedings - Symposium on Computer Arithmetic	False
+ecdlp	Breaking ECC2K-130	2005	Polynomial and Normal Bases for Finite Fields	Journal of Cryptology	True
+ecdlp	Breaking ECC2K-130	2005	Power Efficient Processor Architecture and The Cell Processor	Proceedings - International Symposium on High-Performance Computer Architecture/Proceedings	True
+ecdlp	Breaking ECC2K-130	2006	Breaking Ciphers with COPACOBANA - A Cost-Optimized Parallel Code Breaker		True
+ecdlp	Breaking ECC2K-130	2006	Efficient Implementation of Elliptic Curve Cryptography on FPGAs	bonndoc (University of Bonn)	True
+ecdlp	Breaking ECC2K-130	2006	General Digit Width Normal Basis Multipliers with Circular and Linear Structure	International Conference on Field Programmable Logic and Applications (FPL)	False
+ecdlp	Breaking ECC2K-130	2006	Two Architectures of a General Digit-Serial Normal Basis Multiplier	Euromicro Conference on Digital System Design (DSD)	True
+ecdlp	Breaking ECC2K-130	2008	Benchmarking GPUs to tune dense linear algebra		False
+ecdlp	Breaking ECC2K-130	2008	Exploiting the Power of GPUs for Asymmetric Cryptography	Lecture notes in computer science	True
+ecdlp	Breaking ECC2K-130	2009	Analyzing the Galbraith-Lin-Scott Point Multiplication Method for Elliptic Curves over Binary Fields	IEEE Transactions on Computers	True
+ecdlp	Breaking ECC2K-130	2009	Batch Binary Edwards	Lecture notes in computer science	True
+ecdlp	Breaking ECC2K-130	2009	The billion-mulmod-per-second PC	TU/e Research Portal	True
+ecdlp	Recent progress on the elliptic curve di	1987	Elliptic codes over fields of characteristics 2	Journal of Pure and Applied Algebra	True
+ecdlp	Recent progress on the elliptic curve di	1988	The Strong Law of Small Numbers	American Mathematical Monthly	True
+ecdlp	Recent progress on the elliptic curve di	1993	Efficient Computation of Zero-dimensional Gröbner Bases by Change of Ordering	Journal of Symbolic Computation	True
+ecdlp	Recent progress on the elliptic curve di	1999	Constructing Isogenies between Elliptic Curves Over Finite Fields	LMS Journal of Computation and Mathematics	True
+ecdlp	Recent progress on the elliptic curve di	1999	Faster Attacks on Elliptic Curve Cryptosystems	Lecture notes in computer science	True
+ecdlp	Recent progress on the elliptic curve di	1999	Preface	Cambridge University Press eBooks	True
+ecdlp	Recent progress on the elliptic curve di	2000	On Exponential Sums and Group Generators for Elliptic Curves over Finite Fields	Lecture notes in computer science	True
+ecdlp	Recent progress on the elliptic curve di	2001	Applications of Arithmetical Geometry to Cryptographic Constructions	Springer eBooks	True
+ecdlp	Recent progress on the elliptic curve di	2004	A Low-Memory Parallel Version of Matsuo, Chao, and Tsujii’s Algorithm	Lecture notes in computer science	True
+ecdlp	Recent progress on the elliptic curve di	2004	Short Signatures Without Random Oracles	Lecture notes in computer science	True
+ecdlp	Recent progress on the elliptic curve di	2007	Lower Bounds on Signatures From Symmetric Primitives	Annual Symposium on Foundations of Computer Science	True
+ecdlp	Recent progress on the elliptic curve di	2007	Round Complexity of Authenticated Broadcast with a Dishonest Majority	Annual Symposium on Foundations of Computer Science	True
+ecdlp	Recent progress on the elliptic curve di	2008	Binary Edwards Curves	Lecture notes in computer science	True
+ecdlp	Recent progress on the elliptic curve di	2008	Elliptic Curves	Chapman & Hall/CRC eBooks	True
+ecdlp	Recent progress on the elliptic curve di	2009	H. Cohen, G. Frey, R. Avanzi, C. Doche, T. Lange, K. Nguyen and F. Vercauteren (eds.): Handbook of Elliptic and Hyperelliptic Curve Cryptography, Discrete Math. Appl. (Boca Raton)., Chapman & Hall/CRC, 2006年，xxxiv + 808ページ．	数学	True
+ecdlp	Recent progress on the elliptic curve di	2010	Decomposition Attack for the Jacobian of a Hyperelliptic Curve over an Extension Field	Lecture notes in computer science	True
+ecdlp	Recent progress on the elliptic curve di	2012	Discrete logarithm computations over finite fields using Reed-Solomon codes	arXiv (Cornell University)	False
+ecdlp	Recent progress on the elliptic curve di	2013	Decomposition formula of the Jacobian group of plane curve.		True
+ecdlp	Recent progress on the elliptic curve di	2014	Sub-cubic change of ordering for Gröbner basis	International Symposium on Symbolic and Algebraic Computation	True
+ecdlp	Recent progress on the elliptic curve di	2015	Deterministically generating Picard groups of hyperelliptic curves over finite fields	Journal of Number Theory	True
+ecdlp	Solving a 112-bit prime elliptic curve d	1968	The Art of Computer Programming		True
+ecdlp	Solving a 112-bit prime elliptic curve d	1970	The Art of Computer Programming. Volume 2: Seminumerical Algorithms.	American Mathematical Monthly	True
+ecdlp	Solving a 112-bit prime elliptic curve d	1973	Sorting and Searching	Cumulative Index of Computer Aided Architectural Design	False
+ecdlp	Solving a 112-bit prime elliptic curve d	1973	The Art of Computer Programming: Volume 3: Sorting and Searching		True
+ecdlp	Solving a 112-bit prime elliptic curve d	1985	Modular Multiplication Without Trial Division	Mathematics of Computation	True
+ecdlp	Solving a 112-bit prime elliptic curve d	1985	Modular multiplication without trial division	Mathematics of Computation	True
+ecdlp	Solving a 112-bit prime elliptic curve d	1995	The Montgomery inverse and its applications	IEEE Transactions on Computers	True
+ecdlp	Solving a 112-bit prime elliptic curve d	1998	The art of computer programming, volume 3: (2nd ed.) sorting and searching	Addison-Wesley Longman Publishing Co., Inc. eBooks	True
+ecdlp	Solving a 112-bit prime elliptic curve d	1999	Faster Attacks on Elliptic Curve Cryptosystems	Lecture notes in computer science	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2004	A Hardware Algorithm for Modular Multiplication/Division	IEEE Transactions on Computers	False
+ecdlp	Solving a 112-bit prime elliptic curve d	2004	Cycle detection using a stack	Information Processing Letters	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2005	BOINC: A System for Public-Resource Computing and Storage		True
+ecdlp	Solving a 112-bit prime elliptic curve d	2005	Efficient RNS Bases for Cryptography		True
+ecdlp	Solving a 112-bit prime elliptic curve d	2005	Power Efficient Processor Architecture and The Cell Processor	Proceedings - International Symposium on High-Performance Computer Architecture/Proceedings	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2006	Curve25519: New Diffie-Hellman Speed Records	Lecture notes in computer science	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2006	The implementation of elliptic curve cryptosystems	Springer eBooks	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2007	A normal form for elliptic curves	Bulletin of the American Mathematical Society	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2007	Accelerating SSL using the Vector processors in IBM's Cell Broadband Engine for Sony's Playstation 3.	IACR Cryptology ePrint Archive	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2007	Faster Addition and Doubling on Elliptic Curves	Springer eBooks	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2007	On the Implementation of Elliptic Curve Cryptosystems	Springer eBooks	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2007	Use of Elliptic Curves in Cryptography	Springer eBooks	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2009	Fast Elliptic-Curve Cryptography on the Cell Broadband Engine	Lecture notes in computer science	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2009	Short Chosen-Prefix Collisions for MD5 and the Creation of a Rogue CA Certificate	Lecture notes in computer science	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2009	The billion-mulmod-per-second PC	TU/e Research Portal	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2010	High-Performance Modular Multiplication on the Cell Processor	Lecture notes in computer science	True
+ecdlp	Solving a 112-bit prime elliptic curve d	2010	Montgomery Multiplication on the Cell	Lecture notes in computer science	False
+lattice	Advanced lattice sieving on GPUs, with t	2002	Similarity estimation techniques from rounding algorithms		True
+lattice	Advanced lattice sieving on GPUs, with t	2003	On the equidistribution of Hecke points	Forum Mathematicum	True
+lattice	Advanced lattice sieving on GPUs, with t	2008	Scalable Parallel Programming with CUDA	Queue	True
+lattice	Advanced lattice sieving on GPUs, with t	2008	Scalable parallel programming with CUDA		True
+lattice	Advanced lattice sieving on GPUs, with t	2017	In-Datacenter Performance Analysis of a Tensor Processing Unit	ACM SIGARCH Computer Architecture News	True
+lattice	Advanced lattice sieving on GPUs, with t	2017	In-Datacenter Performance Analysis of a Tensor Processing Unit	Proceedings - International Symposium on Computer Architecture/Proceedings	True
+lattice	Does the dual-sieve attack on learning w	1933	IX. On the problem of the most efficient tests of statistical hypotheses	Philosophical Transactions of the Royal Society of London Series A Containing Papers of a Mathematical or Physical Character	True
+lattice	Does the dual-sieve attack on learning w	1962	Low-density parity-check codes	IEEE Transactions on Information Theory	True
+lattice	Does the dual-sieve attack on learning w	1965	Handbook of Mathematical Functions With Formulas, Graphs and Mathematical Tables (National Bureau of Standards Applied Mathematics Series No. 55)	Journal of Applied Mechanics	True
+lattice	Does the dual-sieve attack on learning w	1968	Discrete Fourier transforms when the number of data samples is prime	Proceedings of the IEEE	True
+lattice	Does the dual-sieve attack on learning w	1990	Fast fourier transforms: A tutorial review and a state of the art	Signal Processing	True
+lattice	Does the dual-sieve attack on learning w	2014	Failures and Error Floors of Iterative Decoders	Elsevier eBooks	True
+lattice	Does the dual-sieve attack on learning w	2020	On a Dual/Hybrid Approach to Small Secret LWE	Lecture notes in computer science	True
+lattice	Does the dual-sieve attack on learning w	2022	Report on the Security of LWE: Improved Dual Lattice Attack	Zenodo (CERN European Organization for Nuclear Research)	False
+lattice	Estimate all the {LWE, NTRU} schemes!	1996	A fast quantum mechanical algorithm for database search	ACM Symposium on Theory of Computing (STOC)	True
+lattice	Estimate all the {LWE, NTRU} schemes!	2009	Fast Cryptographic Primitives and Circular-Secure Encryption Based on Hard Learning Problems	Lecture notes in computer science	True
+lattice	Estimate all the {LWE, NTRU} schemes!	2015	Practical Lattice Cryptosystems: NTRUEncrypt and NTRUMLS	UWSpace (University of Waterloo)	True
+lattice	Estimate all the {LWE, NTRU} schemes!	2016	Frodo	ACM SIGSAC Conference on Computer and Communications Security (CCS)	True
+lattice	Estimate all the {LWE, NTRU} schemes!	2017	A Practical Post-Quantum Public-Key Cryptosystem Based on $$\textsf {spLWE}$$	Lecture notes in computer science	True
+lattice	The general sieve kernel and new records	2002	Similarity estimation techniques from rounding algorithms		True

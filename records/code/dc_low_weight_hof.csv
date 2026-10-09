@@ -1,0 +1,22 @@
+track,length_n,weight,authors,algorithm,date,provider_or_seed,hardware,runtime,comments,site_log2_complexity,record_url
+low-weight,1280,204,"Shintaro Narisada, Hiroki Okada, Shusaku Uemura, Yusuke Aikawa, Kazuhide Fukushima, and Shinsaku Kiyomoto",cuBJMM [eprint:2024/393],2024-09-02,,"10 desktop PCs (5 with RTX 4080 + Intel Core i9-12900, 5 with RTX 3090 + Intel Core i9-12900)",62.4 days (expected runtime is 440 days for 10 desktop PCs),The implementation is available: https://github.com/sh-narisada/CU_BJMM,,https://decodingchallenge.org/low-weight/record/20
+low-weight,1280,209,"Shintaro Narisada, Hiroki Okada, Shusaku Uemura, Yusuke Aikawa, Kazuhide Fukushima, and Shinsaku Kiyomoto",A GPU implementation of the Becker--Joux--May--Meurer (BJMM) Algorithm [eprint:2024/393],2024-06-27,,"10 desktop PCs (5 with RTX 4080 + Intel Core i9-12900, 5 with RTX 3090 + Intel Core i9-12900)",2.67 days (expected runtime is 9.65 days for 10 desktop PCs),The implementation is publicly available here: https://github.com/sh-narisada/CU_BJMM,,https://decodingchallenge.org/low-weight/record/19
+low-weight,1280,210,"Shintaro Narisada, Hiroki Okada, Shusaku Uemura, Yusuke Aikawa, Kazuhide Fukushima, and Shinsaku Kiyomoto",A GPU implementation of the Becker--Joux--May--Meurer (BJMM) Algorithm [eprint:2024/393],2024-06-24,,"10 desktop PCs (5 with RTX 4080 + Intel Core i9-12900, 5 with RTX 3090 + Intel Core i9-12900)",22.7 hours (expected runtime is 7.3 days for 10 desktop PCs),The implementation is publicly available here: https://github.com/sh-narisada/CU_BJMM,,https://decodingchallenge.org/low-weight/record/18
+low-weight,1280,211,"Leo Ducas, Marc Stevens",Hybrid Wagner-Babai using Code Reduction [eprint:2020/869],2024-02-09,,2x 20-core Xeon Gold 6248 @ 2.5Ghz,"4 days, 19 hours, 4 minutes.","Implemented in MCCL, running 40 individual threads that only share best known shortest vector. Wagner is 2 levels with p=3. Babai can use typically 11 basis vectors, basis profile sample: [213 130 81 57 36 27 18 15 11 10 8]. Start from challenge file, found 219 after 38min, 218 after 2h16m, 216 afte",,https://decodingchallenge.org/low-weight/record/17
+low-weight,1280,212,Vasiliy Usatyuk,"Lattice:SBP(BKZ), SVP",2023-06-12,,7700K 64GB/1070 8GB,19 day from prev. SVP solut.,-,,https://decodingchallenge.org/low-weight/record/16
+low-weight,1280,214,Vasiliy Usatyuk,"Lattice: Kannan emb, SBP (SBP), SVP",2023-05-08,,7700K 64GB/1070 8GB,Month,-,,https://decodingchallenge.org/low-weight/record/15
+low-weight,1280,215,Samuel Neves,-,2020-06-18,,-,-,-,,https://decodingchallenge.org/low-weight/record/14
+low-weight,1280,220,Valentin Vasseur,Dumer,2019-10-26,,Xeon E5-2695 v4,-,-,,https://decodingchallenge.org/low-weight/record/13
+low-weight,1280,224,Valentin Vasseur,Dumer,2019-09-22,,Xeon E5-2695 v4,34 h,-,,https://decodingchallenge.org/low-weight/record/12
+low-weight,1280,230,Valentin Vasseur,Dumer,2019-09-20,,i7-6700K,1 h,-,,https://decodingchallenge.org/low-weight/record/11
+low-weight,1280,231,Pierre Karpman,Lee-Brickell,2019-08-25,,-,≈ 30 core-days,-,,https://decodingchallenge.org/low-weight/record/10
+low-weight,1280,233,Pierre Karpman,Lee-Brickell,2019-08-22,,Intel(R) Xeon(R) Gold 6126 CPU @ 2.60GHz,< 3 core days,-,,https://decodingchallenge.org/low-weight/record/9
+low-weight,1280,235,Aleksei Udovenko,-,2019-08-21,,-,-,-,,https://decodingchallenge.org/low-weight/record/8
+low-weight,1280,240,Aleksei Udovenko,-,2019-08-20,,-,-,-,,https://decodingchallenge.org/low-weight/record/7
+low-weight,1280,242,Aleksei Udovenko,-,2019-08-20,,-,-,-,,https://decodingchallenge.org/low-weight/record/6
+low-weight,1280,243,Aleksei Udovenko,-,2019-08-20,,-,-,-,,https://decodingchallenge.org/low-weight/record/5
+low-weight,1280,247,Aleksei Udovenko,-,2019-08-20,,-,-,-,,https://decodingchallenge.org/low-weight/record/4
+low-weight,1280,261,Aleksei Udovenko,-,2019-08-20,,-,-,-,,https://decodingchallenge.org/low-weight/record/3
+low-weight,1280,284,Aleksei Udovenko,-,2019-08-20,,-,-,-,,https://decodingchallenge.org/low-weight/record/2
+low-weight,1280,303,Aleksei Udovenko,-,2019-08-20,,-,-,-,,https://decodingchallenge.org/low-weight/record/1
+low-weight,1280,568,Julien Lavauzelle,Random search,2019-07-28,,-,1min,-,,https://decodingchallenge.org/low-weight/record/0

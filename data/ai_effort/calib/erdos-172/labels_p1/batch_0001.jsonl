@@ -1,0 +1,40 @@
+{"id": "W2023011716", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Elliott sequences of integers, unrelated"}
+{"id": "W2023397165", "include": "yes", "category": "F", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Hindman counterexamples on monochromatic sums and products in partitions"}
+{"id": "W2029209732", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "inverse Goldbach, unrelated"}
+{"id": "W2030828770", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "computer van der Waerden numbers, unrelated"}
+{"id": "W2031184395", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "additive decomposability of multiplicative sets, unrelated"}
+{"id": "W2032743713", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "multidimensional Ramsey example, unrelated"}
+{"id": "W2034596135", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "primitive sequences, unrelated"}
+{"id": "W2038010519", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "van der Waerden number bounds, unrelated"}
+{"id": "W2039481459", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "reciprocal bases, unrelated"}
+{"id": "W2039627336", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "density of series of finite subsets, unrelated"}
+{"id": "W2043191005", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-free sequences, unrelated"}
+{"id": "W2044429866", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture, unrelated"}
+{"id": "W2045789201", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "addition theorem mod p, unrelated"}
+{"id": "W2046941141", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture, unrelated"}
+{"id": "W2052059867", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "squarefree numbers in sumsets, unrelated"}
+{"id": "W2052802307", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "balancing integer sequences, unrelated"}
+{"id": "W2053383608", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "ultrafilters and multidimensional Ramsey, no sums-and-products focus evident"}
+{"id": "W2054140454", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "primitive sequences, unrelated"}
+{"id": "W2063156942", "include": "borderline", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "additive and multiplicative Ramsey theory in reals/rationals, sums-and-products variants"}
+{"id": "W2065042838", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "sumsets in infinite sets, unrelated"}
+{"id": "W2065813984", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Hindman partitions with pairwise sums and products, finite variant of the problem"}
+{"id": "W2065880080", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sums of consecutive-integer blocks, unrelated"}
+{"id": "W2067308203", "include": "yes", "category": "F", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "two-cell partition defeating sums of products, counterexample to infinite sums-products variant"}
+{"id": "W2068131989", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bases for sets of integers, unrelated"}
+{"id": "W2070496958", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Rado partition regularity foundations, not about sums and products"}
+{"id": "W2071201678", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Hindman: sums and products monochromatic under partitions, the core infinite results"}
+{"id": "W2079979850", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "addition theorems, unrelated"}
+{"id": "W2082471372", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "density and pairwise sums, no products"}
+{"id": "W2085477555", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "partitions with equal products, unrelated"}
+{"id": "W2086041665", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd problem, unrelated"}
+{"id": "W2088339746", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Beatty sequences, unrelated"}
+{"id": "W2090294545", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Ramsey product theorem for set families, not arithmetic products"}
+{"id": "W2095689360", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Ramsey original theorem, general background"}
+{"id": "W2108900323", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Roth sets of integers, unrelated"}
+{"id": "W2111220106", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "additive number theory density, unrelated"}
+{"id": "W2113268225", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos problems survey that may state the problem; no abstract"}
+{"id": "W2115034958", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "s-additive sequences, unrelated"}
+{"id": "W2115811550", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "corners/squares question of Erdos and Graham, different problem"}
+{"id": "W2118381068", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "elementary number theory and combinatorial problem, unrelated"}
+{"id": "W2120600794", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "multiplicative representation of integers, unrelated"}

@@ -1,0 +1,40 @@
+{"id": "W228379338", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Hanani conjecture different"}
+{"id": "W229079384", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Frobenius problem"}
+{"id": "W2305843836", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Narkiewicz unsolved problems general"}
+{"id": "W2305884057", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos favourite problems, may include it"}
+{"id": "W2312673203", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "roots of elementary abelian groups"}
+{"id": "W2313298573", "include": "borderline", "category": "A", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.2, "reason": "On a Problem of Erdos 1950, title alone cannot decide"}
+{"id": "W2313391498", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "non-averaging sets"}
+{"id": "W2314290950", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bases of naturals"}
+{"id": "W2314823304", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Kellogg Diophantine problem"}
+{"id": "W2317251561", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "gcd extremal problem"}
+{"id": "W2320330683", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "linear Diophantine Frobenius"}
+{"id": "W2320738701", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "property B families"}
+{"id": "W2323526206", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Erdos biography"}
+{"id": "W2323774686", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos additive NT problems, may include it"}
+{"id": "W2325408613", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "discrepancy coloring"}
+{"id": "W2326750642", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "detecting sets of vectors, vector analogue of distinct sums"}
+{"id": "W2327456046", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sums of distinct divisors"}
+{"id": "W2328642983", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Waring problem"}
+{"id": "W2328726307", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Moser collinear problem"}
+{"id": "W2330372082", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture"}
+{"id": "W2333283206", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "elementary problems"}
+{"id": "W2333887286", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Sidon problem"}
+{"id": "W2334488458", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "arithmetic progression questions"}
+{"id": "W2337272372", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "squares in dense sets"}
+{"id": "W2340967774", "include": "borderline", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "k-fold generalization of subset-sum-distinct sequences"}
+{"id": "W2365899843", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Erdos obituary"}
+{"id": "W2486439685", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "Erdos new problems, may include it"}
+{"id": "W2525887554", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Property P sequences"}
+{"id": "W254482520", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Frobenius problem"}
+{"id": "W2597073605", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "multiplicative Sidon sets"}
+{"id": "W2601463216", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "Erdos additive NT problems 1961"}
+{"id": "W2620155147", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "additive combinatorics problem menu, may list it"}
+{"id": "W2625144103", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "conjectures for young researchers"}
+{"id": "W272595860", "include": "borderline", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "k-SSD generalization of Conway-Guy sequence"}
+{"id": "W2756213202", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "nonstandard methods Ramsey"}
+{"id": "W2774818754", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "additive representation functions"}
+{"id": "W2791145269", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Erdos sumset conjecture"}
+{"id": "W2887053484", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sumsets covering codes"}
+{"id": "W2897846290", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Sidon sets C4"}
+{"id": "W2919772532", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Erdos sumset conjecture"}

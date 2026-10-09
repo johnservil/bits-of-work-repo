@@ -1,0 +1,27 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "tii_saarinen2026_hover_252"
+class: "code"
+problem: "SD-Goppa"
+instance: "TII Track 1B TII-252 (n=1008, k=898, t=11, m=10); new: 129, 213, 240, 246, 252"
+instance_size: 1008
+instance_size_unit: "n"
+log2_ops: null
+method: "HOVER (higher-order vanishing endomorphism recovery), extension of Hemmert HOV"
+structure_exploited: true
+hardware: "12-core laptop (AMD Ryzen AI 9 HX 370); 28-vCPU server for TII-129/213"
+raw_compute: "TII-252: 6 min 15 s wall, 2.7 GiB; TII-213: 6 h 45 min, 144 GiB; TII-129: 4 h 30 min, 80 GiB"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.004337962962962963
+date: "2026-07"
+solvers: ["Markku-Juhani O. Saarinen"]
+academic: true
+challenge: "TII McEliece"
+extrapolation: "author: analysis does not indicate HOVER threatens Classic McEliece parameters in present form"
+paper: "2026/1778"
+source_url: "https://github.com/mjosaarinen/tii-solved"
+other_urls: ["https://eprint.iacr.org/2026/1778", "https://raw.githubusercontent.com/ElenaKirshanova/tii_decoding_challenge/main/key_rec_instances"]
+confidence: 0.8
+verified: true
+verified_by: "user 2026-10-09: checked, accepted provisionally (\"willing to trust for now\")"
+notes: "Keys obtained late July 2026 (repo init 2026-07-21; laptop rerun log dated 2026-07-21); paper received 2026-08-22. Paper says main shortcut was found with an LLM. Also reproduced Hemmert keys for 83 and 248 ~30-75x faster. TII label = round(bitcomplexity) from the organizers' key_rec_instances file (a brute-force/support-splitting estimate, disputed by Bernstein 2023 and the 2026 papers); labels are not security levels. TII/HeroX confirmation: none found; HeroX leaderboard (static since the May 2024 close) still lists every Track 1B label above 83 as \"Available to Solve\". Keys are publicly checkable against the official public keys."

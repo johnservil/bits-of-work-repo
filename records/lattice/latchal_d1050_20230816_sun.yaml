@@ -1,0 +1,25 @@
+id: "latchal_d1050_20230816_sun"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt Lattice Challenge dim 1050"
+instance_size: 1050
+instance_size_unit: "dim"
+log2_ops: null
+method: "slightly improved pnj-BKZ"
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2023-08-16"
+solvers: ["Yao Sun"]
+academic: true
+challenge: "TU Darmstadt Lattice Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/details.php?id=226"
+other_urls: ["https://www.latticechallenge.org/halloffame.php", "https://www.latticechallenge.org/"]
+confidence: 0.8
+verified: false
+notes: "Original TU Darmstadt Lattice Challenge (Buchmann-Lindner-Rueckert-Schneider, PQCrypto 2008): Ajtai-type q-ary lattices; goal is any lattice vector with Euclidean norm below a stated bound n (smaller than lattice dim m). Approx-SVP / SIS-type short vector, not exact SVP. Record progression entry (new max dimension), ordered by HoF submission id 226. HoF norm 165.68. No resource statement on HoF/details page."

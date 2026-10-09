@@ -1,0 +1,15 @@
+{"id": "W4404188127", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "infinite sumsets B+B in dense sets, different problem"}
+{"id": "W4408552919", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "review of big sets combinatorics, unrelated"}
+{"id": "W4414487897", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "density Hindman finite sums, sums only"}
+{"id": "W4414688548", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "infinite sumset configurations problems, different problems"}
+{"id": "W51500770", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Hindman ultrafilter lecture notes, general background"}
+{"id": "W651535583", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "general problem book"}
+{"id": "W842301775", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "residue class addition, unrelated"}
+{"id": "W874532184", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "random sequences additive properties, unrelated"}
+{"id": "W915366989", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Erdos-Stein problem, unrelated"}
+{"id": "W971488519", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Erdos-Heilbronn conjecture, unrelated"}
+{"id": "W996473569", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Erdos-Moser problem, unrelated"}
+{"id": "seed:erdos-172-5", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Moreira monochromatic x, x+y, xy in N, direct progress on sums-and-products colouring"}
+{"id": "seed:erdos-172-6", "include": "yes", "category": "A", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Alweiss Hindman conjecture over rationals, direct progress on the sums-products colouring problem"}
+{"id": "seed:erdos-172-7", "include": "yes", "category": "A", "weight": 0.9, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "Bowen-Sabok monochromatic sums and products in rationals, direct progress"}
+{"id": "seed:erdos-3-4", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos-Graham survey on Ramsey-type topics; may mention problem"}

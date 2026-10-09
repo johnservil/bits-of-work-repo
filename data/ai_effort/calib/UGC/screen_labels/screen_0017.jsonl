@@ -1,0 +1,100 @@
+{"id": "W3047645840", "keep": true, "why": "symmetric CSP approximation"}
+{"id": "W3078970133", "keep": false, "why": "deterministic edge connectivity"}
+{"id": "W3081276815", "keep": false, "why": "cryo-EM rotation statistics"}
+{"id": "W3082892514", "keep": true, "why": "Chernoff bound, high-dimensional expanders"}
+{"id": "W3083281772", "keep": false, "why": "CP models, graphical learning"}
+{"id": "W3083546509", "keep": false, "why": "Cheeger inequalities, piecewise flat surfaces"}
+{"id": "W3084645747", "keep": false, "why": "streaming approximation, Max-2CSP"}
+{"id": "W3084863433", "keep": false, "why": "spectral clustering analysis"}
+{"id": "W3085100594", "keep": true, "why": "SoS lower bounds from high-dimensional expanders"}
+{"id": "W3085317570", "keep": true, "why": "strong refutation, semi-random Boolean CSPs"}
+{"id": "W3086370063", "keep": true, "why": "SoS pseudomoments over hypercube"}
+{"id": "W3086724848", "keep": true, "why": "hypercontractivity on symmetric group"}
+{"id": "W3088409280", "keep": false, "why": "quantum optimization warm-start"}
+{"id": "W3089022691", "keep": false, "why": "Ising antiferromagnet, random regular graphs"}
+{"id": "W3089113212", "keep": true, "why": "MAX NAE-SAT approximation"}
+{"id": "W3089158720", "keep": false, "why": "hypergraph k-cut, deterministic"}
+{"id": "W3090272319", "keep": true, "why": "symmetric parallel repetition, Max-Cut and UG"}
+{"id": "W3090652501", "keep": false, "why": "clustering without candidate centers"}
+{"id": "W3092358983", "keep": false, "why": "self-training deep networks"}
+{"id": "W3093638304", "keep": true, "why": "max k-uncut, densest k-subgraph approximation"}
+{"id": "W3094534277", "keep": false, "why": "fair densest subgraphs, spectral relaxations"}
+{"id": "W3095481223", "keep": true, "why": "SoS certification, hypercube optimization"}
+{"id": "W3097829206", "keep": false, "why": "DAG clustering, coherent flow"}
+{"id": "W3098041426", "keep": false, "why": "percolation thresholds on expanders"}
+{"id": "W3098702574", "keep": false, "why": "closed walks, eigenvalue multiplicity"}
+{"id": "W3098728286", "keep": true, "why": "planted cliques, semirandom graphs"}
+{"id": "W3099139011", "keep": false, "why": "hypergraph spectral sparsification"}
+{"id": "W3099189614", "keep": false, "why": "planted clique hypothesis"}
+{"id": "W3100674157", "keep": false, "why": "product-state quantum approximations"}
+{"id": "W3101321513", "keep": false, "why": "spectral learning, tensors"}
+{"id": "W3101751096", "keep": true, "why": "no title; cannot judge"}
+{"id": "W3101852693", "keep": true, "why": "SoS lower bound machinery"}
+{"id": "W3101872385", "keep": true, "why": "hypergraph expanders from Cayley graphs"}
+{"id": "W3101945817", "keep": false, "why": "tensor decomposition via SoS"}
+{"id": "W3102313022", "keep": true, "why": "list decoding, direct sum codes"}
+{"id": "W3102818962", "keep": false, "why": "Bell inequality survey"}
+{"id": "W3103427415", "keep": false, "why": "unique decoding, balanced codes"}
+{"id": "W3103578399", "keep": true, "why": "plurality is stablest, small correlations"}
+{"id": "W3104153247", "keep": true, "why": "Sobolev and Poincare inequalities"}
+{"id": "W3104222539", "keep": false, "why": "redistricting algorithms"}
+{"id": "W3104489128", "keep": false, "why": "Euclidean space tiling"}
+{"id": "W3105311985", "keep": false, "why": "QAOA, paint shop problem"}
+{"id": "W3105588021", "keep": false, "why": "SDP hierarchy for entanglement testing"}
+{"id": "W3105711037", "keep": true, "why": "SoS hierarchies, binary polynomial optimization"}
+{"id": "W3107068454", "keep": false, "why": "list-recovery, heavy hitters"}
+{"id": "W3109890488", "keep": true, "why": "correlated sampling, rounding optimality"}
+{"id": "W3112717538", "keep": false, "why": "persistent Laplacians"}
+{"id": "W3113232949", "keep": true, "why": "small set vertex expansion problem"}
+{"id": "W3114175352", "keep": false, "why": "coloring mixing, spectral independence"}
+{"id": "W3114178996", "keep": false, "why": "forbidden minors testing"}
+{"id": "W3115006996", "keep": true, "why": "higher-order random walks, local spectral expansion"}
+{"id": "W3116442988", "keep": false, "why": "spectral independence beyond Boolean"}
+{"id": "W3116734197", "keep": false, "why": "angular synchronization, heterogeneous"}
+{"id": "W3117289910", "keep": false, "why": "SoS degree reduction, clustering"}
+{"id": "W3118384327", "keep": true, "why": "SoS log-Sobolev inequalities, Markov chains"}
+{"id": "W3118962767", "keep": false, "why": "spectral bisection"}
+{"id": "W3119332546", "keep": false, "why": "SoS degree reduction, clustering"}
+{"id": "W3120117903", "keep": false, "why": "QAOA vs local Max-Cut"}
+{"id": "W3121111608", "keep": false, "why": "subspace approximation with outliers"}
+{"id": "W3123451586", "keep": false, "why": "Bayesian decision making in groups"}
+{"id": "W3124727707", "keep": false, "why": "column-sparse packing programs"}
+{"id": "W3126181091", "keep": false, "why": "quantum LDPC codes, high-dimensional expanders"}
+{"id": "W3126995463", "keep": false, "why": "streaming Max-2CSP approximation"}
+{"id": "W3127673302", "keep": false, "why": "Glauber dynamics contraction"}
+{"id": "W3127810600", "keep": false, "why": "distributed expander decomposition"}
+{"id": "W3127870088", "keep": false, "why": "branch and cut limitations"}
+{"id": "W3128482754", "keep": false, "why": "proof complexity and SAT solving"}
+{"id": "W3128760565", "keep": true, "why": "local-to-global HDX, Garland method"}
+{"id": "W3128792128", "keep": false, "why": "hypergraph k-cut, deterministic"}
+{"id": "W3129091168", "keep": false, "why": "unique decoding, balanced codes"}
+{"id": "W3129403085", "keep": false, "why": "Boolean ordered promise CSP dichotomy"}
+{"id": "W3129629227", "keep": false, "why": "subexponential algorithm, ARRIVAL"}
+{"id": "W3130084058", "keep": false, "why": "bisection of bounded treewidth graphs"}
+{"id": "W3133197411", "keep": false, "why": "exact inference, degree-4 SoS"}
+{"id": "W3134778603", "keep": false, "why": "forbidden intersections for codes"}
+{"id": "W3135158295", "keep": true, "why": "anchored parallel repetition, nonlocal games"}
+{"id": "W3135939373", "keep": false, "why": "small stabilizers, unstable graphs"}
+{"id": "W3136386109", "keep": false, "why": "mixing, spectral independence, entropy"}
+{"id": "W3136406662", "keep": false, "why": "stable elections design"}
+{"id": "W3136714316", "keep": false, "why": "hypergraph matching relaxations"}
+{"id": "W3137401087", "keep": false, "why": "switching systems matrix sequences"}
+{"id": "W3137584217", "keep": true, "why": "biased hypercube, agreement tests"}
+{"id": "W3137884736", "keep": true, "why": "negative-type metrics, generalized sparsest cut"}
+{"id": "W3138453645", "keep": false, "why": "down-up walk, spectral independence"}
+{"id": "W3138766854", "keep": true, "why": "strong parallel repetition, small set expanders"}
+{"id": "W3143080832", "keep": false, "why": "variational quantum algorithms"}
+{"id": "W3144422206", "keep": false, "why": "approximate optima in lattices and systems"}
+{"id": "W3144857673", "keep": false, "why": "hardness of approximation, general book"}
+{"id": "W3147833009", "keep": true, "why": "independent sets, semirandom hypergraphs"}
+{"id": "W3149612998", "keep": false, "why": "perfect matching lower bounds, Tseitin"}
+{"id": "W3150556231", "keep": true, "why": "independent sets, almost 3-colorable graphs"}
+{"id": "W3154362624", "keep": true, "why": "L1-embeddability of metric unions"}
+{"id": "W3155050354", "keep": false, "why": "SDP hierarchies, bilinear optimization"}
+{"id": "W3155946679", "keep": true, "why": "acyclic orders, CSP hardness"}
+{"id": "W3157712555", "keep": true, "why": "unique games in fixed-point logic"}
+{"id": "W3157845808", "keep": true, "why": "metric relaxation, 0-extension gap"}
+{"id": "W3158263509", "keep": false, "why": "feedback arc set exact method"}
+{"id": "W3159235954", "keep": false, "why": "quantum spanning tree sampling"}
+{"id": "W3159778435", "keep": false, "why": "PCSP(1-in-3, NAE)"}
+{"id": "W3160071378", "keep": false, "why": "distributed triangle enumeration"}

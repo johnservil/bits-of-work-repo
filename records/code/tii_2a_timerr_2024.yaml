@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "tii_2a_timerr_2024"
+class: "code"
+problem: "SD-Goppa"
+instance: "TII McEliece Track 2A message recovery, ~60-bit instance (parameters not read)"
+instance_size: null
+instance_size_unit: "n"
+log2_ops: null
+method: "optimized Stern ISD (BLP software)"
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2024-05"
+solvers: ["Run Timerr"]
+academic: null
+challenge: "TII McEliece"
+extrapolation: null
+paper: null
+source_url: "https://tii.ae/news/tii-mceliece-encryption-challenges-winners-announced"
+other_urls: ["https://www.herox.com/TIIMcElieceChallenges/leaderboard"]
+confidence: 0.5
+verified: false
+notes: "Track 2A winner (US$2,000) for ~60-bit estimated complexity; Track 2B (80-90 bit) unbroken. Name as given by TII (possibly a pseudonym); compute not stated; the 2A leaderboard tab was not in the static page."

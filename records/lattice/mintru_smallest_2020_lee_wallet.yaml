@@ -1,0 +1,25 @@
+id: "mintru_smallest_2020_lee_wallet"
+class: "lattice"
+problem: "NTRU"
+instance: "MiNTRU (GGH+19 SHE scheme) smallest parameter set, claimed 100-bit"
+instance_size: null
+instance_size_unit: null
+log2_ops: null
+method: "overstretched-NTRU lattice attack (Kirchner-Fouque 2017 style)"
+structure_exploited: true
+hardware: null
+raw_compute: "around 15 hours of computation"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.625
+date: "2020-02"
+solvers: ["Changmin Lee", "Alexandre Wallet"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2020/230"
+source_url: "https://eprint.iacr.org/2020/230"
+other_urls: []
+confidence: 0.65
+verified: false
+notes: "Overstretched-modulus NTRU variant; dimension not in abstract (null). Wall vs CPU time not specified."

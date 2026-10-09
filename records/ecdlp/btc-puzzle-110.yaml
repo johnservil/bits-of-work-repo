@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "btc-puzzle-110"
+class: "ecdlp"
+problem: "interval-ECDLP"
+instance: "secp256k1 key in [2^109, 2^110) (Bitcoin puzzle #110)"
+instance_size: 109
+instance_size_unit: "bits"
+log2_ops: 55.55
+method: "Pollard kangaroo with distinguished points (JLP Kangaroo, GPU client/server)"
+structure_exploited: false
+hardware: "256 Tesla V100 GPUs"
+raw_compute: "2.1 days on 256 Tesla V100; 2^55.55 group operations with DP25"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 2.1
+date: "2020-05-30"
+solvers: ["Jean-Luc Pons", "Aleksander Zieniewicz (zielar)"]
+academic: false
+challenge: "Bitcoin puzzle #110"
+extrapolation: null
+paper: null
+source_url: "https://github.com/JeanLucPons/Kangaroo"
+other_urls: ["https://raw.githubusercontent.com/agntn/puzzles/main/src/collections/bits/110.ts", "https://en.wikipedia.org/wiki/Discrete_logarithm_records"]
+confidence: 0.8
+verified: false
+notes: "Date = claim tx (8978a26d...). Solver names from Wikipedia (README does not name them). ~1.47 V100-years derived (256 x 2.1 d), not stated."

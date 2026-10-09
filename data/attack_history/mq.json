@@ -1,0 +1,201 @@
+{
+ "key": "mq",
+ "label": "Multivariate quadratic systems over GF(2)",
+ "cls": "mq",
+ "role": "comparator",
+ "display_kind": "index",
+ "problem": "Finding a solution, or deciding that none exists, for n quadratic equations in n variables over GF(2). Random-system algebraic estimates and general-input randomized bounds are distinguished in each entry.",
+ "size_unit": "n",
+ "size_name": "variables n",
+ "reference": {
+  "label": "n = 184, m = n",
+  "size": 184,
+  "why": "An illustrative square Boolean system. The selected 0.6943 leading exponent gives 127.7512 at this size, approximately 128; this is neither a standardized parameter set nor a concrete security recommendation."
+ },
+ "from_year": 2004,
+ "notes": "A selected timeline of sourced analyses, beginning in 2004, not a complete historical best-known envelope. Earlier XL and hybrid methods matter: the original FXL exponent was later corrected, and the corrected value is dated to the checked analysis version rather than backdated to the algorithm’s proposal. Lower-order factors and memory can dominate at the reference size. These generic-system estimates do not establish the security of a structured multivariate signature scheme.",
+ "assumptions": "The plotted costs are 2^(c n) after dropping polynomial and lower-order terms. Conditional random-system algebraic estimates and randomized worst-case bounds share the same square Boolean target, but have different guarantees; their minimum is only an envelope of selected stated models. Date fields use the earliest checked public analysis or explicitly identified checked revision; undocumented earlier circulation is not inferred.",
+ "milestones": [
+  {
+   "year": 2004,
+   "date": "2004",
+   "name": "Exhaustive enumeration (context)",
+   "authors": "Generic method; baseline discussed by Yang and Chen",
+   "ref": "Yang and Chen, Theoretical Analysis of XL over Small Fields, ACISP 2004, LNCS 3108, 277–288",
+   "model": "classical",
+   "generic": true,
+   "series": false,
+   "status": "context",
+   "verified": false,
+   "cost": {
+    "type": "linear",
+    "c": 1.0
+   },
+   "assumptions": "Enumerate all 2^n Boolean assignments; polynomial evaluation costs are suppressed.",
+   "notes": "This is a comparison baseline in the cited analysis, not an algorithm invented in 2004. No invented 1988 publication date is assigned to exhaustive search.",
+   "source_url": "https://troll.iis.sinica.edu.tw/by-publ/recent/xxl2.pdf"
+  },
+  {
+   "year": 2004,
+   "date": "2004",
+   "name": "XL over GF(2), early asymptotic estimate",
+   "authors": "Bo-Yin Yang; Jiun-Ming Chen",
+   "ref": "Theoretical Analysis of XL over Small Fields, ACISP 2004, Proposition 1",
+   "model": "classical",
+   "generic": true,
+   "series": true,
+   "status": "supported",
+   "verified": false,
+   "cost": {
+    "type": "linear",
+    "c": 0.875
+   },
+   "assumptions": "Square Boolean systems, algebraic regularity/no-extra-dependency assumptions and the paper’s sparse linear-algebra estimate. The displayed 7/8 coefficient is the paper’s approximate asymptotic estimate.",
+   "notes": "An early improvement over enumeration, omitted from the previous dataset. Later analysis refines the XL coefficient to approximately 0.87280.",
+   "source_url": "https://troll.iis.sinica.edu.tw/by-publ/recent/xxl2.pdf",
+   "additional_source_urls": [
+    "https://homepage.iis.sinica.edu.tw/papers/byyang/21806-F.pdf"
+   ]
+  },
+  {
+   "year": 2004,
+   "date": "2004",
+   "name": "FXL hybrid analysis (historical numerical error)",
+   "authors": "Bo-Yin Yang; Jiun-Ming Chen; Nicolas Courtois",
+   "ref": "On Asymptotic Security Estimates in XL and Gröbner Bases-Related Algebraic Cryptanalysis, ICICS 2004",
+   "model": "classical",
+   "generic": true,
+   "series": false,
+   "status": "corrected",
+   "verified": false,
+   "cost": null,
+   "assumptions": "Fix some variables by enumeration, then apply XL to the remaining algebraic system.",
+   "notes": "The original 0.785 coefficient contains a calculation error identified by Bernstein–Yang. It is not plotted as a valid bound; the checked corrected 0.79106 analysis appears as a separate 2018 entry.",
+   "source_url": "https://troll.iis.sinica.edu.tw/by-publ/recent/xxl3.pdf",
+   "additional_source_urls": [
+    "https://homepage.iis.sinica.edu.tw/papers/byyang/21806-F.pdf"
+   ]
+  },
+  {
+   "year": 2011,
+   "date": "2011-12-29",
+   "name": "BooleanSolve (conditional Las Vegas bound)",
+   "authors": "Magali Bardet; Jean-Charles Faugère; Bruno Salvy; Pierre-Jean Spaenlehauer",
+   "ref": "On the Complexity of Solving Quadratic Boolean Systems, arXiv:1112.6263 (2011); Journal of Complexity 29 (2013)",
+   "model": "classical",
+   "generic": true,
+   "series": true,
+   "status": "supported",
+   "verified": false,
+   "cost": {
+    "type": "linear",
+    "c": 0.792
+   },
+   "assumptions": "Expected Las Vegas running time under explicit algebraic assumptions on the input, experimentally supported for random systems. This is not an unconditional bound for every square system.",
+   "notes": "Uses the 2011 preprint date. The same work’s deterministic conditional coefficient is 0.841, not 0.8765.",
+   "source_url": "https://arxiv.org/abs/1112.6263"
+  },
+  {
+   "year": 2017,
+   "date": "2017-01-04",
+   "name": "Polynomial method (randomized worst-case bound)",
+   "authors": "Daniel Lokshtanov; Ramamohan Paturi; Suguru Tamaki; Ryan Williams; Huacheng Yu",
+   "ref": "Beating Brute Force for Systems of Polynomial Equations over Finite Fields, SODA 2017, 2190–2202",
+   "model": "classical",
+   "generic": true,
+   "series": true,
+   "status": "supported",
+   "verified": false,
+   "cost": {
+    "type": "linear",
+    "c": 0.8765
+   },
+   "assumptions": "Randomized algorithm correct with high probability for every input, without the random-system algebraic assumptions of XL or BooleanSolve.",
+   "notes": "The 0.8765 coefficient is randomized, not deterministic. It need not lower the selected conditional envelope to represent an advance in guarantees. Date is the publisher’s documented publication date.",
+   "source_url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611974782.143",
+   "additional_source_urls": [
+    "https://www.cs.princeton.edu/~hy2/files/polyEq.pdf"
+   ]
+  },
+  {
+   "year": 2018,
+   "date": "2018-01-25",
+   "algorithm_year": 2004,
+   "name": "Corrected FXL operation-count analysis",
+   "authors": "Daniel J. Bernstein; Bo-Yin Yang; original FXL analysis by Yang, Chen and Courtois",
+   "ref": "Asymptotically faster quantum algorithms to solve multivariate quadratic equations, classical analysis in §§1.2 and 4.5, checked version 2018-01-25",
+   "model": "classical",
+   "generic": true,
+   "series": true,
+   "status": "supported",
+   "verified": false,
+   "cost": {
+    "type": "linear",
+    "c": 0.79106
+   },
+   "assumptions": "Classical hybrid enumeration and XL on random square systems, under algebraic assumptions; operation-count model excludes communication costs.",
+   "notes": "Corrects the 2004 numerical coefficient 0.785. The paper was received as ePrint 2017/1206 on 2017-12-18, but the checked text is dated 2018-01-25; first appearance of the correction is not resolved. The chart does not backdate the corrected bound to 2004.",
+   "source_url": "https://homepage.iis.sinica.edu.tw/papers/byyang/21806-F.pdf",
+   "additional_source_urls": [
+    "https://eprint.iacr.org/2017/1206"
+   ]
+  },
+  {
+   "year": 2019,
+   "date": "2019",
+   "name": "Parity-counting self-reduction",
+   "authors": "Andreas Björklund; Petteri Kaski; Ryan Williams",
+   "ref": "Solving Systems of Polynomial Equations over GF(2) by a Parity-Counting Self-Reduction, ICALP 2019, 26:1–26:13",
+   "model": "classical",
+   "generic": true,
+   "series": true,
+   "status": "supported",
+   "verified": false,
+   "cost": {
+    "type": "linear",
+    "c": 0.804
+   },
+   "assumptions": "Randomized solution-finding bound for general quadratic Boolean systems; polynomial factors suppressed.",
+   "notes": "Improves the prior general-input bound, even though its coefficient exceeds the selected conditional random-system estimates.",
+   "source_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2019.26"
+  },
+  {
+   "year": 2020,
+   "date": "2020-05-10",
+   "name": "Multiple parity-counting",
+   "authors": "Itai Dinur",
+   "ref": "Improved Algorithms for Solving Polynomial Systems over GF(2) by Multiple Parity-Counting, arXiv:2005.04800 (2020); SODA 2021",
+   "model": "classical",
+   "generic": true,
+   "series": true,
+   "status": "supported",
+   "verified": false,
+   "cost": {
+    "type": "linear",
+    "c": 0.6943
+   },
+   "assumptions": "Randomized worst-case algorithm succeeding with high probability; applies to arbitrary quadratic Boolean systems, hence also to random square systems. Suppressed factors and memory requirements are substantial.",
+   "notes": "Dated to the 2020 preprint; the conference was SODA 2021. An asymptotic bound, not a measured cost at n = 184 or a proof that the finite-size algorithm is fastest.",
+   "source_url": "https://arxiv.org/abs/2005.04800",
+   "additional_source_urls": [
+    "https://mqom.org/docs/mqom-v2.1.pdf"
+   ]
+  },
+  {
+   "year": 2024,
+   "date": "2024-10-26",
+   "name": "Extension to general finite fields",
+   "authors": "Holger Dell; Anselm Haak; Melvin Kallmayer; Leo Wennmann",
+   "ref": "Solving Polynomial Equations Over Finite Fields, arXiv:2410.20162 (2024); SODA 2025",
+   "model": "classical",
+   "generic": true,
+   "series": false,
+   "status": "context",
+   "verified": false,
+   "cost": null,
+   "assumptions": "Randomized general-input algorithms; field-specific asymptotic comparisons.",
+   "notes": "The paper matches Dinur’s Boolean exponent while extending improvements to other fields. It does not add a lower GF(2) coefficient to this selected series.",
+   "source_url": "https://arxiv.org/abs/2410.20162"
+  }
+ ]
+}

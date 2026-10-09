@@ -1,0 +1,25 @@
+id: "svpc_d138_20141207_kashiwabara"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 138 (seed 0)"
+instance_size: 138
+instance_size_unit: "dim"
+log2_ops: null
+method: "RSR-based parallel reduction"
+structure_exploited: false
+hardware: "CBRC Chimera cluster (AIST), ~500 Xeon X5550 cores"
+raw_compute: "about 140 days on about 500 cores"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 140
+date: "2014-12-07"
+solvers: ["Kenji KASHIWABARA", "Tadanori TERUYA"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: "ePrint 2018/044"
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php", "https://eprint.iacr.org/2018/044"]
+confidence: 0.85
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Record progression entry (new max dimension). HoF: norm 3077, seed 0, approx factor 1.03516, algorithm tag 'Other'."

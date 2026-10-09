@@ -1,0 +1,40 @@
+{"id": "W2028146521", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "vertex cover NP-hardness"}
+{"id": "W2029110781", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "CSP gaps"}
+{"id": "W2030737920", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "signed graph balancing"}
+{"id": "W2031923588", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SDP size lower bounds"}
+{"id": "W2032336879", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "local random walk cuts"}
+{"id": "W2033515640", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SoS planted clique"}
+{"id": "W2034534236", "include": "yes", "category": "A", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "higher-eigenvalue algorithms for sparse cuts and small-set expansion"}
+{"id": "W2036322374", "include": "borderline", "category": "F", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "sparsest cut integrality gaps built from UG-style gap instances"}
+{"id": "W2038907843", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP size lower bounds for CSPs"}
+{"id": "W2038921147", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "nonembeddability via Fourier analysis"}
+{"id": "W2039592987", "include": "borderline", "category": "C", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "higher-order Cheeger inequalities, related to small-set expansion"}
+{"id": "W2039759060", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "semi-random partitioning"}
+{"id": "W2040847787", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Heisenberg metrics Goemans-Linial"}
+{"id": "W2041979432", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Goemans-Williamson analysis"}
+{"id": "W2043506441", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "derandomizing SDP algorithms"}
+{"id": "W2043541258", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "randomized CSP approximation"}
+{"id": "W2043862835", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "sparsest cut when small sets expand, subspace-enumeration style"}
+{"id": "W2044471216", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "parallel repetition framework"}
+{"id": "W2045107949", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "fast Laplacian solvers"}
+{"id": "W2047569272", "include": "borderline", "category": "S", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "column on long-code PCPs, UGC discussed"}
+{"id": "W2047861934", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "conditional coloring hardness"}
+{"id": "W2048411223", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "vertex cover hardness"}
+{"id": "W2048564574", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LS+ lower bounds"}
+{"id": "W2049143039", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Sherali-Adams hierarchy"}
+{"id": "W2049251121", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "approximation resistance characterization"}
+{"id": "W2050961553", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "fast SDP algorithms for CSPs including Unique Games"}
+{"id": "W2052447582", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "parallel repetition small value"}
+{"id": "W2052639209", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "spectral partitioning"}
+{"id": "W2052701473", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "coloring hardness"}
+{"id": "W2053403898", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "parallel repetition fortification"}
+{"id": "W2053885701", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "dictionary learning SoS"}
+{"id": "W2055711302", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "PCP query complexity assuming UG-hardness"}
+{"id": "W2059187303", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LS hierarchy nonapproximability"}
+{"id": "W2060451358", "include": "yes", "category": "S", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "survey of the UGC"}
+{"id": "W2062628619", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Gaussian isoperimetric deficit"}
+{"id": "W2064035344", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "assumes UGC for graph pricing"}
+{"id": "W2064334110", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "low-degree tests"}
+{"id": "W2066093465", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "dual Cheeger constants"}
+{"id": "W2066467737", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "constant-time CSP algorithms"}
+{"id": "W2066620631", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP approximation limits"}

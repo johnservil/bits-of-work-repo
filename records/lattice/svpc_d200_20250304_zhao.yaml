@@ -1,0 +1,25 @@
+id: "svpc_d200_20250304_zhao"
+class: "lattice"
+problem: "approx-SVP"
+instance: "TU Darmstadt SVP Challenge dim 200 (seed 0)"
+instance_size: 200
+instance_size_unit: "dim"
+log2_ops: null
+method: "bgj3-gpu (preliminary) BGJ sieve on GPU"
+structure_exploited: false
+hardware: "8x RTX 4090, ~961GiB RAM peak"
+raw_compute: "preprocessing 17.6 d + sieving 11.89 d + hash lifting 1.68 d"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 31.17
+date: "2025-03-04"
+solvers: ["Ziyu Zhao", "Jintai Ding"]
+academic: true
+challenge: "TU Darmstadt SVP Challenge"
+extrapolation: null
+paper: null
+source_url: "https://www.latticechallenge.org/svp-challenge/halloffame.php"
+other_urls: ["https://www.latticechallenge.org/svp-challenge/index.php", "https://en.prnasia.com/releases/global/xjtlu-team-sets-code-breaking-record-for-testing-post-quantum-online-security-480900.shtml", "https://www.xjtlu.edu.cn/en/events/2026/02/lattice-sieving-and-breaking-the-svp-200-challenge"]
+confidence: 0.85
+verified: false
+notes: "SVP Challenge = approx-SVP: HoF entry needs norm below 1.05*GH(L) (Gaussian-heuristic estimate) on a Goldstein-Mayer random lattice, not a proven shortest vector. Record progression entry (new max dimension). HoF: norm 3723, seed 0, approx factor 1.04865, algorithm tag 'Sieving'. wall_time_days = sum of stated phases. XJTLU press release (2025-03-07) and a Feb-2026 talk abstract say the paper was accepted to Eurocrypt 2026 (paper id not found)."

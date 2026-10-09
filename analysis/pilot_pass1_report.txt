@@ -1,0 +1,130 @@
+labeled 4542; included 932; effort categories (A-F,H) 825; borderline counted: False
+
+class              fractional  touch  authors    pre-2006  2006-2016  2017-2026   categories
+ECDLP                   109.4    127      247        10.0       54.9       44.5   A:63 B:20 C:21 D:8 E:6 F:8 H:1
+MLWE_structured         171.7    291      385         1.5       47.6      122.6   A:151 B:31 C:49 D:43 E:6 F:5 H:6
+LWE_plain               146.7    254      368         0.4       33.9      112.3   A:167 B:25 C:7 D:40 E:5 F:5 H:5
+SD_code                 109.1    127      218         0.0       25.1       84.0   A:69 B:8 C:35 D:9 E:3 F:1 H:2
+Factoring_FFDLP         134.8    152      253         5.0       80.0       49.8   A:90 B:9 C:11 D:8 E:22 F:11 H:1
+Isogeny                  36.0     36       84         0.0        0.0       36.0   A:13 B:6 C:12 D:2 E:1 F:2
+Multivariate             87.6     94      143         4.0       24.5       59.1   A:41 C:34 D:15 F:2 H:2
+
+fractional per year (effort categories):
+year     ECDLP MLWE_str LWE_plai  SD_code Factorin  Isogeny Multivar
+1997       0.0      0.0      0.0      0.0      1.0      0.0      0.0
+2001       3.0      0.0      0.0      0.0      0.0      0.0      0.0
+2002       0.0      0.0      0.0      0.0      1.0      0.0      1.0
+2003       2.0      0.0      0.0      0.0      1.0      0.0      0.0
+2004       4.0      0.0      0.0      0.0      1.0      0.0      3.0
+2005       1.0      1.5      0.4      0.0      1.0      0.0      0.0
+2006       1.0      0.0      0.0      0.5      3.0      0.0      1.0
+2007       2.2      1.5      0.5      0.0      2.5      0.0      1.0
+2008       2.0      0.8      0.1      2.5      5.0      0.0      2.0
+2009       6.0      1.0      1.0      4.0      3.0      0.0      2.0
+2010       6.9      3.1      3.9      3.0      7.1      0.0      2.0
+2011       6.0      3.6      1.7      2.6      1.0      0.0      5.0
+2012       5.4      0.1      0.8      1.5     10.6      0.0      3.0
+2013       5.6      4.9      4.1      2.0     12.4      0.0      1.0
+2014       4.6      6.1      6.8      5.0     11.4      0.0      3.0
+2015      10.5     10.7      8.3      0.5     10.0      0.0      1.5
+2016       4.7     15.7      6.6      3.5     14.0      0.0      3.0
+2017       6.5      7.9      6.1      3.3      6.5      0.0      1.0
+2018       4.0      6.6      5.9      2.2      4.0      1.0      1.0
+2019       4.4     11.2      9.8      2.3      4.6      6.0      2.8
+2020       4.6      8.8      9.2      2.1      6.7      4.0      9.2
+2021       3.1     15.7      8.2      6.8      5.9      3.0      5.0
+2022       2.0      9.2     11.0      9.0      3.0      6.0      2.6
+2023       2.9     10.6     11.5     13.6      7.1      8.0      3.8
+2024       6.7     12.1     15.6      7.8      4.3      2.0      9.3
+2025       2.1     16.9     12.5     14.4      5.9      4.0      8.0
+2026       8.2     23.6     22.6     22.3      1.8      2.0     16.4
+
+records (category E or is_record):
+  2001/041  ecdlp                        Solving Elliptic Curve Discrete Logarithm Problems Using Weil Descent
+  2004/095  factoring                    GNFS Factoring Statistics of RSA-100, 110, ..., 150
+  2007/205  factoring                    A kilobit special number field sieve factorization
+  2009/541  ecdlp                        Breaking ECC2K-130
+  2010/006  factoring                    Factorization of a 768-bit RSA modulus
+  2010/090  ffdlp                        Solving a 676-bit Discrete Logarithm Problem in GF(3^{6n})
+  2010/270  factoring                    Factorization of RSA-180
+  2011/020  ecdlp                        Cover and Decomposition Index Calculus on Elliptic Curves made practical. Application
+  2012/345  ffdlp                        Breaking pairing-based cryptosystems using $\eta_T$ pairing over $GF(3^{97})$
+  2012/369  factoring                    Factorisation of RSA-704 with CADO-NFS
+  2012/444  factoring                    Factorization of a 1061-bit number by the Special Number Field Sieve
+  2012/720  ffdlp                        Faster index calculus for the medium prime case. Application to 1175-bit and 1425-bit
+  2013/039  lattice_structured,lattice_g Creating a Challenge for Ideal Lattices
+  2013/074  ffdlp                        On the Function Field Sieve and the Impact of Higher Splitting Probabilities: Applica
+  2013/197  ffdlp                        Discrete logarithm in GF(2^809) with FFS
+  2013/388  lattice_structured,lattice_g Parallel Gauss Sieve Algorithm : Solving the SVP in the Ideal Lattice of 128-dimensio
+  2013/599  factoring                    Factoring RSA keys from certified smart cards: Coppersmith in the wild
+  2014/057  ffdlp                        Computing Discrete Logarithms in F_{3^{6*137}} and F_{3^{6*163}} using Magma
+  2014/065  ffdlp                        Fine Tuning the Function Field Sieve Algorithm for the Medium Prime Case
+  2014/119  ffdlp                        Breaking `128-bit Secure' Supersingular Binary Curves (or how to solve discrete logar
+  2014/210  sd_goppa,sd_qc               Structural Cryptanalysis of McEliece Schemes with Compact Keys
+  2014/368  ecdlp                        Solving the Discrete Logarithm of a 113-bit Koblitz Curve with an FPGA Cluster
+  2014/419  ffdlp                        FFS Factory: Adapting Coppersmith's "Factorization Factory" to the Function Field Sie
+  2014/653  factoring                    Mersenne factorization factory
+  2014/811  multivariate                 A Polynomial-Time Key-Recovery Attack on MQQ Cryptosystems
+  2014/880  lattice_generic,lattice_stru Sieving for Shortest Vectors in Ideal Lattices: a Practical Perspective
+  2015/041  lattice_generic              Parallel (probable) lock-free HashSieve: a practical sieving algorithm for the SVP
+  2015/1000 factoring                    Factoring as a Service
+  2015/1160 multivariate                 Cryptanalysis of multi-HFE
+  2015/143  ecdlp                        Harder, Better, Faster, Stronger - Elliptic Curve Discrete Logarithm Computations on 
+  2015/176  lwe_plain,lattice_generic    Key Recovery for LWE in Polynomial Time
+  2015/552  lwe_plain,lattice_generic    An Improved BKW Algorithm for LWE with Applications to Cryptography and Lattices
+  2016/382  ecdlp                        Faster elliptic-curve discrete logarithms on FPGAs
+  2016/507  ecdlp,ffdlp                  Solving discrete logarithms on a 170-bit MNT curve by pairing reduction
+  2016/961  ffdlp                        A kilobit hidden SNFS discrete logarithm computation
+  2017/067  ffdlp                        Computation of a 768-bit prime field discrete logarithm
+  2017/078  lpn                          LPN Decoded
+  2018/044  lattice_generic              Fast Lattice Basis Reduction Suitable for Massive Parallelization and Its Application
+  2018/741  lwe_plain                    LP Solutions of Vectorial Integer Subset Sums - Cryptanalysis of Galbraith's Binary M
+  2018/966  lattice_structured           On the Security of the Multivariate Ring Learning with Errors Problem
+  2019/089  lattice_generic,lwe_plain    The General Sieve Kernel and New Records in Lattice Reduction
+  2020/113  ffdlp                        New Discrete Logarithm Computation for the Medium Prime Case Using the Function Field
+  2020/230  ntru                         Lattice analysis on MiNTRU problem
+  2020/539  lwe_plain,lattice_generic    On the Concrete Security of LWE with Small Secret
+  2020/697  factoring,ffdlp              Comparing the difficulty of factorization and discrete logarithm: a 240-digit experim
+  2021/141  lattice_generic              Advanced Lattice Sieving on GPUs, with Tensor Cores
+  2021/1421 isogeny                      Revisiting Meet-in-the-Middle Cryptanalysis of SIDH/SIKE with Application to the $IKE
+  2021/1634 sd_generic,sd_goppa,sd_qc    McEliece needs a Break -- Solving McEliece-1284 and Quasi-Cyclic-2918 with Modern ISD
+  2021/707  ffdlp                        Lattice Enumeration for Tower NFS: a 521-bit Discrete Logarithm Computation
+  2021/962  lpn                          Practically Solving LPN
+  2022/1329 sd_generic,sd_qc,sd_goppa    New Time-Memory Trade-Offs for Subset Sum -- Improving ISD in Theory and Practice
+  2022/214  multivariate                 Breaking Rainbow Takes a Weekend on a Laptop
+  2022/239  lattice_generic,lattice_stru Several Improvements on BKZ Algorithm
+  2023/367  factoring                    Practical Attacks on Small Private Exponent RSA: New Records and New Insights
+  2023/582  ntru                         New NTRU Records with Improved Lattice Bases
+  2024/1229 lwe_plain,lattice_generic    Benchmarking Attacks on Learning with Errors
+  2024/1776 isogeny                      An efficient collision attack on Castryck-Decru-Smith’s hash function
+  2024/393  sd_generic,sd_goppa          Solving McEliece-1409 in One Day --- Cryptanalysis with the Improved BJMM Algorithm
+  2024/443  lwe_plain                    The cool and the cruel: separating hard parts of LWE secrets
+  2024/739  lattice_generic              BGJ15 Revisited: Sieving with Streamed Memory Access
+  2025/632  sd_goppa                     On breaking McEliece keys using brute force
+  2026/1232 sd_goppa                     A Heuristic Subexponential Attack on the McEliece Cryptosystem
+  2026/1339 sd_goppa                     Key recovery for the McEliece cryptosystem using higher-order vanishing
+  2026/1593 lattice_structured           HAWK-$n$ Key Recovery Reduces to SVP in Dimension $n/2 + 1$
+  2026/1747 sd_goppa                     Extending Distinguishing to Key Recovery for Subfield Subcodes of GRS codes
+  2026/1778 sd_goppa                     HOVER: Higher-Order Vanishing Endomorphism Recovery
+  2026/1876 lattice_generic,lattice_stru AH-BKZ: A Lattice Reduction Algorithm with Asynchronous Hybrid Processing
+  2026/1986 sd_goppa                     Two-Anchor Holdout/Hermite: Solving the TII-254 McEliece Key Recovery Challenge
+  2026/2131 factoring                    Forging 1024-bit RSA signatures in nearly SNFS time
+  2026/366  lattice_structured,lattice_g Careful with the Ring: Enhanced Hybrid Decoding Attacks against Module/Ring-LWE
+  2026/430  sd_goppa                     An attack on the CFS scheme and on TII McEliece challenges
+
+layer-2 (deployed-parameter) items per class:
+   {'ECDLP': 22, 'MLWE_structured': 64, 'LWE_plain': 54, 'SD_code': 50, 'Factoring_FFDLP': 16, 'Multivariate': 29, 'Isogeny': 10}
+
+H (withdrawn/refuted attacks):
+  2005/104  On estimating the lattice security of NTRU
+  2007/203  Kipnis-Shamir's Attack on HFE Revisited
+  2016/437  Observations on the LPN Solving Algorithm from Eurocrypt'16
+  2018/399  On the Feasibility of an ECDLP Algorithm
+  2021/1391 A note on a Claim of Eldar & Hallgren: LLL already solves it
+  2021/418  Ring-LWE over two-to-power cyclotomics is not hard
+  2021/933  Fast Factoring Integers by SVP Algorithms, corrected
+  2023/302  Does the Dual-Sieve Attack on Learning with Errors even Work?
+  2024/1517 A Note on the SNOVA Security
+  2024/555  Quantum Algorithms for Lattice Problems
+  2025/1945 So about that Quantum Lattice Thing: Rebuttal to "Exact Coset Sampling for Quantum Lattice
+  2026/1810 An Algebraic-Geometry Lower Bound against the ePrint:2026/1747 McEliece Key-Recovery Attac

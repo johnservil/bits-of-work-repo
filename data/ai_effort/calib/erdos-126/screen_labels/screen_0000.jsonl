@@ -1,0 +1,88 @@
+{"id": "W121476753", "keep": true, "why": "subset-sum-distinct sequences"}
+{"id": "W1489006728", "keep": true, "why": "combinatorial number theory problems"}
+{"id": "W1500017875", "keep": false, "why": "finite group abelianness, unrelated"}
+{"id": "W1573784001", "keep": true, "why": "divisibility of ab+1, prime factors"}
+{"id": "W1576509659", "keep": false, "why": "hypercube extremal theorem, unrelated"}
+{"id": "W1584831215", "keep": false, "why": "hypercube symmetric subgraphs, unrelated"}
+{"id": "W1608205525", "keep": false, "why": "infinite chromatic graphs, unrelated"}
+{"id": "W1758932780", "keep": true, "why": "S-Diophantine quadruples, related"}
+{"id": "W1784046855", "keep": true, "why": "unsolved problems collection"}
+{"id": "W1964335268", "keep": true, "why": "prime number graph, related"}
+{"id": "W1971360728", "keep": true, "why": "divisors of sums of integers"}
+{"id": "W1975538108", "keep": false, "why": "uncountably chromatic graphs, unrelated"}
+{"id": "W1976661633", "keep": false, "why": "graph colouring, unrelated"}
+{"id": "W1990801743", "keep": true, "why": "Erdos-Sarkozy problem"}
+{"id": "W1995295204", "keep": true, "why": "sets of primes, unclear"}
+{"id": "W2002414953", "keep": true, "why": "arithmetic properties of sumsets"}
+{"id": "W2008824802", "keep": false, "why": "unit distance geometry, unrelated"}
+{"id": "W2009170871", "keep": false, "why": "polynomial extremal problem, unrelated"}
+{"id": "W2009953832", "keep": true, "why": "Erdos problem, unclear"}
+{"id": "W2012495969", "keep": false, "why": "odd cycle colouring, unrelated"}
+{"id": "W2019350858", "keep": false, "why": "nowhere-zero flows, unrelated"}
+{"id": "W2019573948", "keep": false, "why": "vector space directions, unrelated"}
+{"id": "W2032716544", "keep": false, "why": "hypercube even cycles, unrelated"}
+{"id": "W2033366500", "keep": false, "why": "odd cycle graphs, unrelated"}
+{"id": "W2039499253", "keep": false, "why": "odd cycle colourings, unrelated"}
+{"id": "W2041253229", "keep": true, "why": "divisibility of integer forms, prime factors"}
+{"id": "W2044740967", "keep": false, "why": "complex polynomial extremal problem, unrelated"}
+{"id": "W2057394949", "keep": false, "why": "induced cycle colouring, unrelated"}
+{"id": "W2062097565", "keep": false, "why": "hypercube hexagon-free, unrelated"}
+{"id": "W2070834764", "keep": false, "why": "Ramsey-Turan problem, unrelated"}
+{"id": "W2073126471", "keep": true, "why": "Erdos reflections, related"}
+{"id": "W2076460709", "keep": false, "why": "Faber polynomials, unrelated"}
+{"id": "W2081643856", "keep": true, "why": "Erdos-diameter of sets, unclear"}
+{"id": "W2087699257", "keep": true, "why": "Erdos and the integers"}
+{"id": "W2089191641", "keep": false, "why": "vertex colouring survey, unrelated"}
+{"id": "W2097155487", "keep": true, "why": "number theory problems, Erdos"}
+{"id": "W2099986052", "keep": false, "why": "graph theory open problems, unrelated"}
+{"id": "W2101119901", "keep": true, "why": "diophantine equations, unclear"}
+{"id": "W2118360213", "keep": false, "why": "pseudo-random Turan, unrelated"}
+{"id": "W2122100604", "keep": true, "why": "prime factors of ab+1"}
+{"id": "W2122560436", "keep": false, "why": "cycle lengths and chromatic number, unrelated"}
+{"id": "W2159622301", "keep": false, "why": "consecutive primes, different object"}
+{"id": "W2238816572", "keep": false, "why": "odd cycle colourings, unrelated"}
+{"id": "W2286993093", "keep": false, "why": "tree automorphism groups, unrelated"}
+{"id": "W2295206035", "keep": false, "why": "unit equations, different object"}
+{"id": "W2320600915", "keep": true, "why": "prime factors of subset sums"}
+{"id": "W2323526206", "keep": true, "why": "Erdos biography, related"}
+{"id": "W2328348224", "keep": true, "why": "elementary number theory problem"}
+{"id": "W2328760090", "keep": true, "why": "consecutive integer blocks, unclear"}
+{"id": "W2501351516", "keep": false, "why": "cycles in graphs, unrelated"}
+{"id": "W2509237363", "keep": true, "why": "additive representation functions"}
+{"id": "W2561894848", "keep": false, "why": "rational function derivative, unrelated"}
+{"id": "W2609890750", "keep": false, "why": "mathematical olympiad, unrelated"}
+{"id": "W2610032813", "keep": true, "why": "Erdos-Turan problem"}
+{"id": "W2755121514", "keep": false, "why": "discrepancy problem, different object"}
+{"id": "W2913859726", "keep": false, "why": "sparse graphs, unrelated"}
+{"id": "W2915160394", "keep": false, "why": "chromatic growth rate, unrelated"}
+{"id": "W2922444737", "keep": true, "why": "sums of integer sequences"}
+{"id": "W2945008076", "keep": true, "why": "sumsets and prime factors"}
+{"id": "W2950528977", "keep": false, "why": "uncountably chromatic graphs, unrelated"}
+{"id": "W2955520683", "keep": false, "why": "even-cycle-free subgraphs, unrelated"}
+{"id": "W2964097236", "keep": false, "why": "prime gaps, different object"}
+{"id": "W2964307401", "keep": false, "why": "prime gaps, different object"}
+{"id": "W3003803721", "keep": false, "why": "Turan number graphs, unrelated"}
+{"id": "W3013348526", "keep": true, "why": "divisors of sums of integers"}
+{"id": "W3089076296", "keep": false, "why": "Blaschke product, unrelated"}
+{"id": "W3094096693", "keep": true, "why": "S-Diophantine quadruples, related"}
+{"id": "W3185212441", "keep": true, "why": "S-Diophantine quadruples, related"}
+{"id": "W348244977", "keep": false, "why": "graph theory overview, unrelated"}
+{"id": "W395439241", "keep": true, "why": "hybrid problems in number theory"}
+{"id": "W4210366657", "keep": false, "why": "hypercube edge connectivity, unrelated"}
+{"id": "W4214648228", "keep": false, "why": "prime gap demonstration, different object"}
+{"id": "W4214661660", "keep": false, "why": "prime gap demonstration, different object"}
+{"id": "W4237114318", "keep": false, "why": "cycle length parities, unrelated"}
+{"id": "W4248282558", "keep": false, "why": "Ramsey-type hypercube, unrelated"}
+{"id": "W4313813773", "keep": false, "why": "4-cycle extremal results, unrelated"}
+{"id": "W4386395004", "keep": false, "why": "graphs with k copies, unrelated"}
+{"id": "W4389964398", "keep": false, "why": "rainbow subdivisions, unrelated"}
+{"id": "W4396523507", "keep": true, "why": "additive basis of order 2"}
+{"id": "W4399991262", "keep": false, "why": "unit distance graph search, unrelated"}
+{"id": "W4402258857", "keep": true, "why": "prime avoiding basis of order 2"}
+{"id": "W4405886106", "keep": false, "why": "Turan density hypercube, unrelated"}
+{"id": "W4406418853", "keep": true, "why": "finite factorial numbers, prime factors"}
+{"id": "W626759026", "keep": true, "why": "probabilistic number theory book"}
+{"id": "W7125690810", "keep": true, "why": "Erdos remark, unclear"}
+{"id": "W7167799545", "keep": true, "why": "Erdos-Turan theorem, unclear"}
+{"id": "W986937197", "keep": false, "why": "primes in intervals, different object"}
+{"id": "seed:erdos-7-11", "keep": true, "why": "number theory problems"}

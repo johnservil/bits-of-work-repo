@@ -1,0 +1,18 @@
+{"id": "W1022649828", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1430553595", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1636213170", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1655092224", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1970594294", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1972840305", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W1997716582", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2072947530", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.55, "reason": "Melfi additive problem about powers of fixed integers (3 and 4), seed paper"}
+{"id": "W2297079735", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W2772280079", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W3158858093", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W3175367423", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W3208251514", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4232463701", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4388288416", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}
+{"id": "W4397017995", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "Sums of distinct powers of 3 and 4, direct attack on the problem"}
+{"id": "W813673045", "include": "borderline", "category": "G", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "Burr-Erdos-Graham completeness of sets of integer powers, origin of related question"}
+{"id": "seed:erdos-7-11", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "not about the stated problem"}

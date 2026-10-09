@@ -1,0 +1,40 @@
+{"id": "W2129578811", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "direct product testing"}
+{"id": "W2130170517", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum query speedups"}
+{"id": "W2130318319", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "parallel repetition survey, not centred on UGC"}
+{"id": "W2130703751", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "PCP composition"}
+{"id": "W2130835223", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "percolation noise sensitivity"}
+{"id": "W2131176276", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "product theorems SDP"}
+{"id": "W2131433282", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "polylinear forms limit theorems"}
+{"id": "W2131906507", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "vertex cover NP-hardness"}
+{"id": "W2132592548", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "min-max partitioning linked to small set expansion"}
+{"id": "W2132991500", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "clique and coloring hardness"}
+{"id": "W2133263321", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "invariance principle tool paper"}
+{"id": "W2134062801", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "hypergraph Cheeger operators"}
+{"id": "W2134409102", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "derandomized parallel repetition"}
+{"id": "W2134839489", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "MIP = NEXP"}
+{"id": "W2136037917", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multi-prover encodings"}
+{"id": "W2136241552", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled repetition"}
+{"id": "W2136370860", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Reed-Muller testing"}
+{"id": "W2137955570", "include": "yes", "category": "A", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "rounding SDP for parallel repeated unique games"}
+{"id": "W2138079171", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bipartite games resources"}
+{"id": "W2139689595", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "hypergraph coloring hardness"}
+{"id": "W2140154991", "include": "yes", "category": "S", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "thesis with a UGC spectral-algorithm result"}
+{"id": "W2140262267", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "edge-disjoint paths"}
+{"id": "W2140971199", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "permutation CSP resistance"}
+{"id": "W2143410554", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "invariance principle"}
+{"id": "W2144191866", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Grothendieck survey"}
+{"id": "W2144306455", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "threshold predicates"}
+{"id": "W2144675047", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multi-prover protocols"}
+{"id": "W2145701440", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut flows"}
+{"id": "W2146443256", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "quantum PCP column"}
+{"id": "W2146453677", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Reed-Muller testing"}
+{"id": "W2146489710", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "gadgets via LP"}
+{"id": "W2146823188", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP integrality gaps"}
+{"id": "W2147668104", "include": "borderline", "category": "F", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "sparsest cut SDP gap building on Khot-Vishnoi"}
+{"id": "W2148025043", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sparsest cut algorithm"}
+{"id": "W2148791594", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "entangled MIP"}
+{"id": "W2149577432", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "2-CSP inapproximability under UGC"}
+{"id": "W2149815049", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "random bit recycling"}
+{"id": "W2150285483", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "LP approximation limits"}
+{"id": "W2150305542", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "SDP partitioning survey"}
+{"id": "W2151395725", "include": "yes", "category": "F", "weight": 1.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "integrality gaps for strong SDP relaxations of unique games"}

@@ -1,0 +1,109 @@
+{
+ "key": "rsa",
+ "label": "Factoring (RSA)",
+ "cls": "factoring",
+ "role": "comparator",
+ "display_kind": "index",
+ "problem": "Factoring a general balanced semiprime N = pq, with equally sized prime factors and no special algebraic form.",
+ "size_unit": "bits",
+ "size_name": "modulus bits",
+ "reference": {
+  "label": "3072-bit modulus",
+  "size": 3072,
+  "why": "A familiar RSA size used only as a fixed reference. Leading asymptotic expressions are not calibrated security estimates or parameter recommendations."
+ },
+ "from_year": 1982,
+ "notes": "Selected classical asymptotic bounds beginning with the 1982 quadratic-sieve analysis; earlier methods remain outside this deliberately limited curve. L_N[a,c] means exp((c+o(1))(ln N)^a(ln ln N)^(1-a)); the plotted index drops o(1), polynomial factors and constants outside this expression. Coppersmith’s multiple-polynomial NFS bound is included under the same asymptotic criterion as other tracks. This selection omits intermediate algorithms and does not reconstruct the complete historical best attack. A small difference in the index is not a demonstrated speedup at a real RSA size.",
+ "assumptions": "Rho uses a random-walk heuristic; sieve bounds assume suitable smoothness and relation behavior. Costs are represented only by their displayed leading expressions. Memory, preprocessing, parallelism, lower-order terms and measured implementations are not equalized.",
+ "milestones": [
+  {
+   "year": 1975,
+   "date": "1975",
+   "name": "Pollard rho factoring",
+   "authors": "J. M. Pollard",
+   "ref": "A Monte Carlo method for factorization, BIT 15 (1975), 331–334",
+   "model": "classical",
+   "generic": true,
+   "series": false,
+   "status": "context",
+   "verified": false,
+   "cost": {
+    "type": "power",
+    "exp": 0.25
+   },
+   "assumptions": "Expected square-root work in the smallest prime factor under the random-mapping model. With p approximately sqrt(N), this gives N^(1/4); arithmetic costs and multiplicative constants are suppressed.",
+   "notes": "Contextual baseline only. Rho was available at RSA’s proposal, but it was not the strongest factoring method then; it is excluded from the selected curve to avoid an artificial starting point.",
+   "source_url": "https://pages.cs.wisc.edu/~cs812-1/pollardrho.pdf"
+  },
+  {
+   "year": 1982,
+   "date": "1982",
+   "algorithm_year": 1981,
+   "name": "Quadratic-sieve asymptotic analysis",
+   "authors": "Carl Pomerance",
+   "ref": "Analysis and comparison of some integer factoring algorithms, Computational Methods in Number Theory, Part I (1982), 89–139; author’s retrospective A Tale of Two Sieves (1996)",
+   "model": "classical",
+   "generic": true,
+   "series": true,
+   "status": "supported",
+   "verified": false,
+   "cost": {
+    "type": "L",
+    "a": 0.5,
+    "c": 1.0
+   },
+   "assumptions": "Heuristic smoothness and relation independence; leading L_N[1/2,1] term only.",
+   "notes": "Uses the documented 1982 analysis publication, rather than the 1981 invention date.",
+   "source_url": "https://math.dartmouth.edu/~carlp/PDF/analysiscomparison.pdf",
+   "additional_source_urls": [
+    "https://math.dartmouth.edu/~carlp/PDF/paper109.pdf"
+   ]
+  },
+  {
+   "year": 1993,
+   "date": "1993",
+   "name": "General number field sieve",
+   "authors": "Joe P. Buhler; Hendrik W. Lenstra Jr.; Carl Pomerance",
+   "ref": "Factoring integers with the number field sieve, The Development of the Number Field Sieve, LNMS 1554 (1993), 50–94",
+   "model": "classical",
+   "generic": true,
+   "series": true,
+   "status": "supported",
+   "verified": false,
+   "cost": {
+    "type": "L",
+    "a": 0.3333333333333333,
+    "c": 1.9229994270765445
+   },
+   "assumptions": "Heuristic smoothness estimates and NFS relation assumptions for general integers; leading L_N[1/3,(64/9)^(1/3)] term.",
+   "notes": "The dated source is the published 1993 analysis; earlier circulation is not resolved here. This is also the model used separately for the repository’s RSA frontier-gap calculation.",
+   "source_url": "https://www.cs.umd.edu/~gasarch/TOPICS/factoring/1993_Book_TheDevelopmentOfTheNumberField.pdf",
+   "additional_source_urls": [
+    "https://math.dartmouth.edu/~carlp/PDF/paper109.pdf"
+   ]
+  },
+  {
+   "year": 1993,
+   "date": "1993-03-01",
+   "name": "Multiple-polynomial NFS bound",
+   "authors": "Don Coppersmith",
+   "ref": "Modifications to the Number Field Sieve, Journal of Cryptology 6 (1993), 169–180; constant also given by Pomerance (1996)",
+   "model": "classical",
+   "generic": true,
+   "series": true,
+   "status": "supported",
+   "verified": false,
+   "cost": {
+    "type": "L",
+    "a": 0.3333333333333333,
+    "c": 1.9018836118648392
+   },
+   "assumptions": "Heuristic asymptotic analysis reusing smoothness work across polynomials; c = (92 + 26 sqrt(13))^(1/3)/3, approximately 1.902.",
+   "notes": "Included as an asymptotic bound; this is not a claim of a faster implementation at the reference modulus size.",
+   "source_url": "https://research.ibm.com/publications/modifications-to-the-number-field-sieve",
+   "additional_source_urls": [
+    "https://math.dartmouth.edu/~carlp/PDF/paper109.pdf"
+   ]
+  }
+ ]
+}

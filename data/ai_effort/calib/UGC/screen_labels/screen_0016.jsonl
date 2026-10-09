@@ -1,0 +1,100 @@
+{"id": "W2980511539", "keep": false, "why": "deterministic graph cuts, subquadratic time"}
+{"id": "W2980994391", "keep": false, "why": "deterministic balanced cut, dynamic connectivity"}
+{"id": "W2981131800", "keep": false, "why": "quantum isomorphism, homomorphism counts"}
+{"id": "W2981213845", "keep": false, "why": "domination chain complexity"}
+{"id": "W2981259029", "keep": true, "why": "planted models, k-way expansion"}
+{"id": "W2981311553", "keep": false, "why": "angular synchronization, cryo-EM"}
+{"id": "W2981749766", "keep": true, "why": "parameterized sparsest cut, small-set expansion"}
+{"id": "W2981993210", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2982407508", "keep": false, "why": "quantum ansatz, vertex cover"}
+{"id": "W2984493948", "keep": false, "why": "hypergraph k-cut"}
+{"id": "W2984873438", "keep": true, "why": "lifting SoS lower bounds"}
+{"id": "W2988943902", "keep": false, "why": "semi-algebraic proofs, tau-conjecture"}
+{"id": "W2989115918", "keep": true, "why": "hypercontractivity, quantum groups"}
+{"id": "W2989841544", "keep": true, "why": "subexponential LPs, Max-Cut"}
+{"id": "W2989885249", "keep": true, "why": "higher-order Poincare constants"}
+{"id": "W2989887679", "keep": false, "why": "semi-algebraic proofs, tau-conjecture"}
+{"id": "W2989894248", "keep": false, "why": "spectral learning, matrices and tensors"}
+{"id": "W2990565414", "keep": false, "why": "adversarially robust representations"}
+{"id": "W2991167089", "keep": true, "why": "rich 2-to-1 games"}
+{"id": "W2991433568", "keep": true, "why": "weak contraction, SSEH and strong UGC"}
+{"id": "W2992528239", "keep": false, "why": "Twitter political affinity"}
+{"id": "W2992858548", "keep": false, "why": "spectral clustering analysis"}
+{"id": "W2993373281", "keep": true, "why": "negative-type diversities"}
+{"id": "W2994824967", "keep": true, "why": "max-uncut bisection, hierarchical clustering"}
+{"id": "W2995201291", "keep": true, "why": "direct product testing theorem"}
+{"id": "W2996663445", "keep": false, "why": "tensor analysis, biological systems"}
+{"id": "W2996822558", "keep": true, "why": "spectral independence, high-dimensional expanders"}
+{"id": "W2997163556", "keep": false, "why": "mean-field spin glasses"}
+{"id": "W2997924579", "keep": false, "why": "heavy-tailed statistics algorithms"}
+{"id": "W2998157673", "keep": true, "why": "list decoding, direct sum codes"}
+{"id": "W2998646871", "keep": false, "why": "influence spread balancing"}
+{"id": "W3000152275", "keep": true, "why": "higher-order random walks"}
+{"id": "W3000532033", "keep": true, "why": "pseudo-random sets, Grassmann graph expansion"}
+{"id": "W3000704721", "keep": false, "why": "minimum fill-in inapproximability"}
+{"id": "W3001037192", "keep": false, "why": "structural information learning machinery"}
+{"id": "W3001720442", "keep": true, "why": "no title; cannot judge"}
+{"id": "W3002262398", "keep": true, "why": "sticky Brownian rounding, CSPs"}
+{"id": "W3002868299", "keep": false, "why": "randomized search heuristics"}
+{"id": "W3003472016", "keep": false, "why": "Dirichlet p-Laplacian Cheeger constants"}
+{"id": "W3003633209", "keep": true, "why": "local-to-global agreement expansion"}
+{"id": "W3004537778", "keep": false, "why": "self-testing and self-correcting"}
+{"id": "W3005253397", "keep": true, "why": "log-Sobolev constant, Markov chains"}
+{"id": "W3006455496", "keep": false, "why": "weighted data reduction"}
+{"id": "W3006839531", "keep": true, "why": "strong refutation of random k-XOR"}
+{"id": "W3006869269", "keep": false, "why": "state estimation, spectral clustering"}
+{"id": "W3006971664", "keep": false, "why": "multicut-mimicking networks"}
+{"id": "W3007452340", "keep": false, "why": "algebraic approach, promise CSP"}
+{"id": "W3008890242", "keep": false, "why": "interval graphs, Max-Cut"}
+{"id": "W3009330983", "keep": false, "why": "k-path covers"}
+{"id": "W3009415557", "keep": false, "why": "multiway cut approximation"}
+{"id": "W3009471697", "keep": true, "why": "Potts model, small-set expanders"}
+{"id": "W3010926668", "keep": false, "why": "corruption detection networks"}
+{"id": "W3011272473", "keep": false, "why": "group Shapley centrality"}
+{"id": "W3011649984", "keep": true, "why": "SoS bounds, ordering principle"}
+{"id": "W3012191630", "keep": false, "why": "quantum hypothesis testing"}
+{"id": "W3012547898", "keep": false, "why": "lift-and-project, partial vertex cover"}
+{"id": "W3013129520", "keep": false, "why": "network pollution games"}
+{"id": "W3013808376", "keep": false, "why": "topology, promise CSP"}
+{"id": "W3015640823", "keep": false, "why": "claw elimination, graphs"}
+{"id": "W3016564237", "keep": false, "why": "dynamic graph sparsifiers"}
+{"id": "W3016900072", "keep": true, "why": "no title; cannot judge"}
+{"id": "W3016941576", "keep": false, "why": "Glauber dynamics, uniqueness"}
+{"id": "W3017240389", "keep": false, "why": "set similarity search hashing"}
+{"id": "W3020612480", "keep": false, "why": "tree decompositions"}
+{"id": "W3020969699", "keep": false, "why": "expander hierarchy, dynamic graphs"}
+{"id": "W3021661051", "keep": false, "why": "planted densest k-subgraph"}
+{"id": "W3022327706", "keep": false, "why": "outlier-robust clustering"}
+{"id": "W3022762247", "keep": false, "why": "spectral partitioning, bounded genus"}
+{"id": "W3023550848", "keep": false, "why": "sparse PCA optimality"}
+{"id": "W3024330299", "keep": false, "why": "secret leakage, computational gaps"}
+{"id": "W3024354928", "keep": true, "why": "strong unique games, approximation"}
+{"id": "W3025893026", "keep": false, "why": "robust Gaussian mixture learning"}
+{"id": "W3025896403", "keep": false, "why": "graph regularity, matrix decompositions"}
+{"id": "W3028030803", "keep": true, "why": "vertex isoperimetry stability, cube"}
+{"id": "W3029513181", "keep": false, "why": "Max-Cut on interval graphs"}
+{"id": "W3031896895", "keep": false, "why": "Bell nonlocality, single shot"}
+{"id": "W3032955444", "keep": true, "why": "linearity testing, non-signaling strategies"}
+{"id": "W3033460939", "keep": false, "why": "submodular maximization, smoothness"}
+{"id": "W3034043915", "keep": false, "why": "parameterized approximation survey"}
+{"id": "W3034256405", "keep": true, "why": "lifting SoS lower bounds"}
+{"id": "W3035001865", "keep": false, "why": "minimum entropy coupling"}
+{"id": "W3035111938", "keep": false, "why": "stable elections survey"}
+{"id": "W3035798466", "keep": true, "why": "non-unique games to Boolean unique games"}
+{"id": "W3036135716", "keep": true, "why": "unique games, certified small-set expanders"}
+{"id": "W3036402366", "keep": false, "why": "parameterized approximation survey"}
+{"id": "W3037318848", "keep": false, "why": "cheap bandits"}
+{"id": "W3037355894", "keep": false, "why": "LCS approximation hardness"}
+{"id": "W3037538996", "keep": true, "why": "no title; cannot judge"}
+{"id": "W3037608563", "keep": false, "why": "Horn SAT approximability"}
+{"id": "W3037618271", "keep": false, "why": "lossy kernelization"}
+{"id": "W3038053959", "keep": false, "why": "bipartite communities, spectral"}
+{"id": "W3040622571", "keep": false, "why": "subspace approximation with outliers"}
+{"id": "W3041027895", "keep": false, "why": "binary polynomial optimization, hypergraphs"}
+{"id": "W3041585785", "keep": false, "why": "election control"}
+{"id": "W3042150117", "keep": false, "why": "weighted F-deletion approximation"}
+{"id": "W3042338675", "keep": true, "why": "spectral independence beyond Boolean domain"}
+{"id": "W3043052838", "keep": true, "why": "lambda-infinity vertex expansion, trees"}
+{"id": "W3043639563", "keep": false, "why": "column subset selection, PTAS"}
+{"id": "W3046086623", "keep": false, "why": "distributed expander decomposition"}
+{"id": "W3046945854", "keep": false, "why": "proof complexity, binary encoding"}

@@ -1,0 +1,4 @@
+persons 3240; PhD year source: {'mgp': 305, 'estimate': 2645, 'orcid': 289, '': 1}
+PhD year - first publication year (n=564): median 2.0, quartiles 0.0..4.0; offset used 2
+latest sector (ORCID employment): {'unknown': 2319, 'academic': 743, 'nonacademic': 178}
+zbMATH match: {'zb_title': 613, 'zb_dblp': 52, 'zb_orcid': 20, 'none': 2555}

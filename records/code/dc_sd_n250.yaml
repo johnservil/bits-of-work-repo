@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_sd_n250"
+class: "code"
+problem: "SD"
+instance: "decodingchallenge sd n=250 w=32"
+instance_size: 250
+instance_size_unit: "n"
+log2_ops: 26.0
+method: null
+structure_exploited: false
+hardware: null
+raw_compute: null
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2019-08-20"
+solvers: ["Aleksei Udovenko"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/syndrome/record/24"
+other_urls: ["https://decodingchallenge.org/syndrome/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure"

@@ -1,0 +1,100 @@
+{"id": "W3161221583", "keep": false, "why": "rainbow perfect matchings, hypergraphs"}
+{"id": "W3162852672", "keep": false, "why": "quantum Lasserre, quantum algorithms"}
+{"id": "W3163256724", "keep": false, "why": "mean-field spin glasses"}
+{"id": "W3163686243", "keep": false, "why": "first-order reasoning, semi-algebraic proofs"}
+{"id": "W3163739104", "keep": true, "why": "monomial size, SoS and polynomial calculus"}
+{"id": "W3165327559", "keep": false, "why": "algebraic proof systems"}
+{"id": "W3166056081", "keep": false, "why": "community detection survey"}
+{"id": "W3166324946", "keep": false, "why": "weighted low-rank approximation"}
+{"id": "W3168285534", "keep": false, "why": "quadratic form maximization, convex relaxations"}
+{"id": "W3168358336", "keep": true, "why": "entropic independence, HDX log-Sobolev"}
+{"id": "W3169332944", "keep": false, "why": "fair house allocation"}
+{"id": "W3169633741", "keep": false, "why": "closed walks, second eigenvalue"}
+{"id": "W3170539426", "keep": true, "why": "Glauber mixing, high-dimensional expansion"}
+{"id": "W3171131516", "keep": false, "why": "Ta-Shma codes decoding"}
+{"id": "W3171822569", "keep": false, "why": "random k-SAT phase transition"}
+{"id": "W3171992686", "keep": false, "why": "nonlinear power method norms"}
+{"id": "W3172437222", "keep": false, "why": "hypergraph spectral sparsification"}
+{"id": "W3174938715", "keep": true, "why": "unique games in fixed-point logic"}
+{"id": "W3175036402", "keep": false, "why": "synchronicity, quantum non-local games"}
+{"id": "W3175159000", "keep": false, "why": "quantified propositional calculus"}
+{"id": "W3175466891", "keep": false, "why": "first-order reasoning, semi-algebraic proofs"}
+{"id": "W3176435484", "keep": false, "why": "lp-norm multiway cut"}
+{"id": "W3176566794", "keep": false, "why": "robust regression algorithms"}
+{"id": "W3177905337", "keep": false, "why": "CLAP, promise CSPs"}
+{"id": "W3179914473", "keep": true, "why": "SoS certification, symmetric quadratic functions"}
+{"id": "W3181649296", "keep": false, "why": "EV charging scheduling"}
+{"id": "W3183276501", "keep": false, "why": "ordering problems on strings"}
+{"id": "W3183380864", "keep": true, "why": "Lasserre gaps for spanners"}
+{"id": "W3184476290", "keep": true, "why": "HDX eigenstripping, unique games"}
+{"id": "W3186367696", "keep": false, "why": "lattice sieving lower bounds"}
+{"id": "W3186467916", "keep": true, "why": "combinatorial gap theorem, promise CSPs"}
+{"id": "W3186958984", "keep": false, "why": "mean isoperimetry, outliers"}
+{"id": "W3191189891", "keep": true, "why": "variational proof, Gaussian noise stability"}
+{"id": "W3192481993", "keep": false, "why": "clustering optimality intervals"}
+{"id": "W3196397510", "keep": false, "why": "Indonesian state-owned enterprise law"}
+{"id": "W3197635427", "keep": false, "why": "AI symbolic discovery"}
+{"id": "W3197988729", "keep": false, "why": "U-bubble model, MaxCut"}
+{"id": "W3198017221", "keep": false, "why": "lp-spread of sparse matrices"}
+{"id": "W3198199697", "keep": false, "why": "independent set counting, graph containers"}
+{"id": "W3198776261", "keep": false, "why": "load balancing, random walks"}
+{"id": "W3200447518", "keep": false, "why": "algorithms and complexity textbook"}
+{"id": "W3200593310", "keep": true, "why": "no title; cannot judge"}
+{"id": "W3200689187", "keep": false, "why": "discriminative similarity clustering"}
+{"id": "W3201180760", "keep": true, "why": "junta method, hypergraphs"}
+{"id": "W3202012722", "keep": true, "why": "no title; cannot judge"}
+{"id": "W3202050581", "keep": false, "why": "EF translation"}
+{"id": "W3203698338", "keep": false, "why": "SDP cutting planes, quantum devices"}
+{"id": "W3204864912", "keep": false, "why": "Gaussian mixture clustering"}
+{"id": "W3205825087", "keep": true, "why": "proof of 2-to-2 games conjecture"}
+{"id": "W3206060800", "keep": false, "why": "mean-field spin glass optimization hardness"}
+{"id": "W3206928367", "keep": false, "why": "AI discovery, derivable scientific"}
+{"id": "W3207594656", "keep": true, "why": "invariance principle, multi-slice"}
+{"id": "W3208004815", "keep": true, "why": "voting algorithms, unique games"}
+{"id": "W3209227036", "keep": false, "why": "graph homomorphism optimization dualities"}
+{"id": "W3209946996", "keep": false, "why": "planar cycle hitting algorithms"}
+{"id": "W3209973822", "keep": false, "why": "GNN initialisation for QAOA"}
+{"id": "W3210095583", "keep": false, "why": "rainbow matchings, uniform hypergraphs"}
+{"id": "W3210367867", "keep": false, "why": "influence maximization with seeds"}
+{"id": "W3210866095", "keep": false, "why": "rank-one SDP, polynomial optimization"}
+{"id": "W3211097910", "keep": true, "why": "hypercontractivity via tensor calculus"}
+{"id": "W3211320463", "keep": false, "why": "quantum partition functions complexity"}
+{"id": "W3211620011", "keep": false, "why": "hierarchical clustering, well-clustered graphs"}
+{"id": "W3211690185", "keep": true, "why": "SoS lower bounds, sparse independent set"}
+{"id": "W3212014075", "keep": false, "why": "locally testable codes, constant rate"}
+{"id": "W3212348617", "keep": true, "why": "hypercontractivity on high-dimensional expanders"}
+{"id": "W3212789290", "keep": false, "why": "conditional linear regression"}
+{"id": "W3212959224", "keep": true, "why": "sparsest cut, bounded treewidth approximation"}
+{"id": "W3213062068", "keep": false, "why": "Kalman filtering, corruptions"}
+{"id": "W3213933684", "keep": false, "why": "quantum LDPC codes"}
+{"id": "W3214092354", "keep": true, "why": "hypercontractivity on high-dimensional expanders"}
+{"id": "W3214173001", "keep": false, "why": "hierarchical clustering bounds"}
+{"id": "W3214232643", "keep": false, "why": "set cover inapproximability chronology"}
+{"id": "W3214447922", "keep": false, "why": "fastest mixing Markov chain"}
+{"id": "W3214853469", "keep": false, "why": "Johnson coverage, k-means hardness"}
+{"id": "W3215438445", "keep": true, "why": "hypercontractivity on HDX, higher moments"}
+{"id": "W3217590873", "keep": true, "why": "hypercontractivity on HDX, Efron-Stein"}
+{"id": "W331230322", "keep": false, "why": "almost-perfect graph bisections"}
+{"id": "W335008237", "keep": true, "why": "Sherali-Adams, vertex cover, Borsuk graphs"}
+{"id": "W336776360", "keep": false, "why": "PCP by gap amplification"}
+{"id": "W340925356", "keep": true, "why": "no title; cannot judge"}
+{"id": "W346787442", "keep": true, "why": "Max-Cut and 2-variable CSP inapproximability"}
+{"id": "W35865300", "keep": false, "why": "edge fault tolerance networks"}
+{"id": "W41321723", "keep": false, "why": "profit maximization pricing hardness"}
+{"id": "W4205165053", "keep": true, "why": "small set vertex expansion problem"}
+{"id": "W4206202595", "keep": false, "why": "magnetic Laplacian Cheeger inequalities"}
+{"id": "W4206316631", "keep": false, "why": "contention resolution, fair allocation"}
+{"id": "W4206420102", "keep": false, "why": "minimum majority integrality gaps"}
+{"id": "W4206566163", "keep": false, "why": "Johnson coverage hypothesis, k-means"}
+{"id": "W4206742617", "keep": false, "why": "perfect matching, Tseitin formulas"}
+{"id": "W4210981949", "keep": false, "why": "general bibliography"}
+{"id": "W4211209477", "keep": true, "why": "no title; cannot judge"}
+{"id": "W4213232545", "keep": true, "why": "multicut"}
+{"id": "W4214750287", "keep": false, "why": "election control, social influence"}
+{"id": "W4214824051", "keep": false, "why": "multicut-mimicking networks"}
+{"id": "W4214847992", "keep": true, "why": "SoS lower bounds, sparse independent set"}
+{"id": "W4221034707", "keep": false, "why": "adversarially robust subspace learning"}
+{"id": "W4221151500", "keep": true, "why": "local testing, multiplicity codes"}
+{"id": "W4221160854", "keep": false, "why": "multiwinner committee elections"}
+{"id": "W4221162831", "keep": false, "why": "spectral islanding, energy systems"}
+{"id": "W4225502324", "keep": true, "why": "Cheeger inequalities, vertex expansion"}

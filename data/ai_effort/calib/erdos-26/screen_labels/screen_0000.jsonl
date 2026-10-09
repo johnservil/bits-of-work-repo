@@ -1,0 +1,100 @@
+{"id": "W1043822130", "keep": true, "why": "Erdos additive number theory problems book"}
+{"id": "W1484040084", "keep": false, "why": "graph theory textbook, unrelated"}
+{"id": "W1510730180", "keep": false, "why": "extremal graph theory, unrelated"}
+{"id": "W1533054715", "keep": true, "why": "quotient sequences of integers, divisibility"}
+{"id": "W1551680922", "keep": true, "why": "sequences of integers book, divisibility"}
+{"id": "W1557120217", "keep": false, "why": "packing equilateral triangles, geometry"}
+{"id": "W1572708899", "keep": false, "why": "unsolved geometry problems, unrelated"}
+{"id": "W1584831215", "keep": false, "why": "hypercube subgraphs, unrelated"}
+{"id": "W1593508491", "keep": true, "why": "prefix-free integer sequences, divisibility"}
+{"id": "W1661292865", "keep": true, "why": "covering systems and large-integer sieving"}
+{"id": "W16713274", "keep": true, "why": "primitive sequences and sets of multiples"}
+{"id": "W1833928996", "keep": false, "why": "abundant number density series, different object"}
+{"id": "W1965514547", "keep": false, "why": "abundant number density series, different object"}
+{"id": "W1972958674", "keep": false, "why": "primes and powers of two, unrelated"}
+{"id": "W1975858565", "keep": false, "why": "prime plus powers of two, unrelated"}
+{"id": "W1981896282", "keep": false, "why": "clique partitions of chordal graphs, unrelated"}
+{"id": "W1982375425", "keep": true, "why": "product-free sets, multiplicative structure"}
+{"id": "W1984375054", "keep": false, "why": "hypergraph colouring, unrelated"}
+{"id": "W1987737251", "keep": true, "why": "sets of multiples and divisor density"}
+{"id": "W1989539066", "keep": false, "why": "cycles modulo k, graph theory"}
+{"id": "W1991005966", "keep": true, "why": "Behrend sequences, divisibility-free sets"}
+{"id": "W1991488174", "keep": false, "why": "highly composite numbers, different object"}
+{"id": "W1995655056", "keep": false, "why": "Fourier gaps of modular forms, unrelated"}
+{"id": "W2004580743", "keep": true, "why": "additive number theory, density theorems"}
+{"id": "W2006409548", "keep": false, "why": "cycle length distribution, graph theory"}
+{"id": "W2009830994", "keep": true, "why": "counting primitive sets of integers"}
+{"id": "W2012104750", "keep": false, "why": "reciprocal sums over AP-free sets, different object"}
+{"id": "W2020529018", "keep": true, "why": "Besicovitch theorem on sets of multiples"}
+{"id": "W2032716544", "keep": false, "why": "hypercube subgraphs, unrelated"}
+{"id": "W2033259203", "keep": false, "why": "repeated distances geometry, unrelated"}
+{"id": "W2038951761", "keep": false, "why": "intersection theorems for set systems"}
+{"id": "W2043033569", "keep": true, "why": "logarithmic density, related quantity"}
+{"id": "W2043381187", "keep": true, "why": "Ramsey-type property in additive number theory"}
+{"id": "W2046939500", "keep": false, "why": "ordinary points geometry, unrelated"}
+{"id": "W2049946047", "keep": true, "why": "asymptotic density of integer sequences"}
+{"id": "W2052034072", "keep": true, "why": "divisibility and subset sums, related"}
+{"id": "W2056440635", "keep": true, "why": "Dirichlet densities of divisor-type sets"}
+{"id": "W2062097565", "keep": false, "why": "hexagon-free hypercube subgraphs, unrelated"}
+{"id": "W2066637298", "keep": true, "why": "covering integers by congruence classes"}
+{"id": "W2068893962", "keep": true, "why": "multiplicative structure in large sets"}
+{"id": "W2072239937", "keep": true, "why": "solvability in sequences of positive density"}
+{"id": "W2077788572", "keep": false, "why": "Ramsey number of graphs, unrelated"}
+{"id": "W2085391599", "keep": false, "why": "distinct distances geometry, unrelated"}
+{"id": "W2087699257", "keep": true, "why": "Erdos and the integers, number theory survey"}
+{"id": "W2087986857", "keep": false, "why": "uncountable chromatic number graphs, unrelated"}
+{"id": "W2092977611", "keep": true, "why": "sets of multiples of finite sequences"}
+{"id": "W2099986052", "keep": false, "why": "Erdos graph theory open problems, unrelated"}
+{"id": "W2104362101", "keep": false, "why": "Ramsey size linear graphs, unrelated"}
+{"id": "W2116109685", "keep": true, "why": "divisibility properties of integer sequences"}
+{"id": "W2117466727", "keep": true, "why": "densities of rational multiples"}
+{"id": "W2118065590", "keep": true, "why": "block Behrend sequences, divisibility"}
+{"id": "W2129166893", "keep": true, "why": "equations in sequences of positive density"}
+{"id": "W2134350015", "keep": true, "why": "primitive and cross-primitive sequences"}
+{"id": "W2142561109", "keep": true, "why": "Behrend sequences, divisibility"}
+{"id": "W2164350127", "keep": false, "why": "equilateral triangle covering, geometry"}
+{"id": "W2305884057", "keep": true, "why": "Erdos favourite problems, number theory"}
+{"id": "W2313298573", "keep": true, "why": "Erdos problem, unclear"}
+{"id": "W2323590783", "keep": false, "why": "party problem Ramsey, unrelated"}
+{"id": "W2332816188", "keep": false, "why": "trigonometric series, different object"}
+{"id": "W2487318500", "keep": false, "why": "multiplication table bipartite graphs"}
+{"id": "W2504840648", "keep": false, "why": "Pillai problem generalization, unrelated"}
+{"id": "W2558542994", "keep": false, "why": "almost periodic sequences dynamics, unrelated"}
+{"id": "W2573044654", "keep": true, "why": "B-free numbers, sets of multiples"}
+{"id": "W2589104620", "keep": true, "why": "B-free sets dynamics"}
+{"id": "W2617349802", "keep": true, "why": "Toeplitz B-free systems"}
+{"id": "W2738149383", "keep": true, "why": "B-free sets and dynamics"}
+{"id": "W2741781405", "keep": false, "why": "probabilistic number theory CLT, different object"}
+{"id": "W2760944933", "keep": false, "why": "Sarnak conjecture dynamics, unrelated"}
+{"id": "W2773246901", "keep": true, "why": "Toeplitz B-free systems"}
+{"id": "W2775843332", "keep": true, "why": "B-free numbers statistics"}
+{"id": "W2789108271", "keep": true, "why": "tautness for sets of multiples"}
+{"id": "W2889872480", "keep": false, "why": "multiplicative monotone functions, unrelated"}
+{"id": "W2938910622", "keep": true, "why": "structure of Erdos covering systems"}
+{"id": "W2945703965", "keep": false, "why": "Mobius orthogonality dynamics, unrelated"}
+{"id": "W2945960531", "keep": true, "why": "small sets of integers"}
+{"id": "W2950903227", "keep": false, "why": "multiplication table bipartite graphs"}
+{"id": "W2953129111", "keep": true, "why": "sieving by large integers and covering"}
+{"id": "W2955946615", "keep": false, "why": "multiplicative monotone functions, unrelated"}
+{"id": "W3016425076", "keep": false, "why": "hereditary subshifts Gibbs measures, unrelated"}
+{"id": "W3016999116", "keep": false, "why": "entropy of independent processes, unrelated"}
+{"id": "W3083836384", "keep": true, "why": "densities on Dedekind domains"}
+{"id": "W3098775014", "keep": false, "why": "inhomogeneous approximation zero-one laws"}
+{"id": "W3120964241", "keep": true, "why": "B-free Toeplitz sequences, sets of multiples"}
+{"id": "W3149979553", "keep": true, "why": "divisibility properties of integer sequences"}
+{"id": "W3158858093", "keep": false, "why": "subset sums and colourings, different object"}
+{"id": "W3166409534", "keep": false, "why": "monochromatic subset sums densities, different object"}
+{"id": "W3174887068", "keep": true, "why": "B-free subshifts, sets of multiples"}
+{"id": "W3207941508", "keep": false, "why": "hypergraph chromatic index, unrelated"}
+{"id": "W348613986", "keep": true, "why": "Erdos unconventional number theory problems"}
+{"id": "W4200142621", "keep": false, "why": "almost convergent sequences and primes, unrelated"}
+{"id": "W4212942168", "keep": true, "why": "B-free shifts and entropy density"}
+{"id": "W4244686257", "keep": true, "why": "divisibility properties of integer sequences"}
+{"id": "W4248774826", "keep": false, "why": "induced subgraphs, unrelated"}
+{"id": "W4379961473", "keep": true, "why": "Erdos primitive set conjecture proof"}
+{"id": "W4389379295", "keep": false, "why": "almost convergent sequences and primes, unrelated"}
+{"id": "W4390105475", "keep": false, "why": "Sidon sets finite contexts, different object"}
+{"id": "W4391170001", "keep": false, "why": "graph cycle lengths, unrelated"}
+{"id": "W4401759458", "keep": true, "why": "Erdos covering systems, global fields"}
+{"id": "W4401759500", "keep": false, "why": "de Polignac conjecture numerics, unrelated"}
+{"id": "W4410251722", "keep": false, "why": "non-Ramsey size-linear graphs, unrelated"}

@@ -1,0 +1,100 @@
+{"id": "W2342730309", "keep": false, "why": "Erdos-Szekeres convex polygon"}
+{"id": "W2365899843", "keep": false, "why": "Erdos obituary"}
+{"id": "W2468037275", "keep": false, "why": "prime factors of nj+a^hk"}
+{"id": "W247684538", "keep": false, "why": "Lefschetz properties"}
+{"id": "W2487318500", "keep": false, "why": "multiplication table bipartite graphs"}
+{"id": "W2496057465", "keep": false, "why": "Lefschetz properties"}
+{"id": "W2501351516", "keep": false, "why": "extremal cycle problems"}
+{"id": "W2525887554", "keep": true, "why": "Erdos-Sarkozy sequences with property P"}
+{"id": "W2530839785", "keep": false, "why": "primitive covering numbers"}
+{"id": "W2531700733", "keep": false, "why": "Jacobsthal coprime function"}
+{"id": "W2536060116", "keep": false, "why": "chromatic conjectures"}
+{"id": "W254482520", "keep": false, "why": "Frobenius problem"}
+{"id": "W2546062833", "keep": false, "why": "prime labeling of ladders"}
+{"id": "W2561894848", "keep": false, "why": "derivative of rational function extremal"}
+{"id": "W2577446513", "keep": false, "why": "graphs and hypergraphs"}
+{"id": "W2597073605", "keep": true, "why": "multiplicative Sidon sets, Cartesian colourings"}
+{"id": "W2601463216", "keep": true, "why": "additive number theory problems"}
+{"id": "W2607288639", "keep": true, "why": "solution-free sets of integers complexity"}
+{"id": "W2611456884", "keep": true, "why": "Erdos forgotten number theory problems"}
+{"id": "W2613631387", "keep": true, "why": "structure of large sum-free sets"}
+{"id": "W2617014456", "keep": false, "why": "balancing infinite dimensional vectors"}
+{"id": "W2620155147", "keep": true, "why": "additive combinatorics research problems"}
+{"id": "W2625144103", "keep": true, "why": "conjectures for young mathematicians, unclear"}
+{"id": "W2738306030", "keep": false, "why": "Ahmes series irrationality"}
+{"id": "W2741781405", "keep": false, "why": "probabilistic number theory CLT"}
+{"id": "W2754975617", "keep": false, "why": "Littlewood-Offord resilience"}
+{"id": "W2755121514", "keep": false, "why": "Erdos discrepancy problem"}
+{"id": "W2756213202", "keep": true, "why": "nonstandard Ramsey and combinatorial number theory"}
+{"id": "W2774818754", "keep": true, "why": "additive representation functions"}
+{"id": "W2791145269", "keep": true, "why": "Erdos sumset conjecture proof"}
+{"id": "W2796931952", "keep": false, "why": "powerful numbers"}
+{"id": "W2804235538", "keep": false, "why": "congruence mod p, unrelated"}
+{"id": "W2808277347", "keep": true, "why": "locally maximal sum-free sets"}
+{"id": "W2887053484", "keep": true, "why": "sumsets and covering codes"}
+{"id": "W2895170202", "keep": false, "why": "cap set polynomial method"}
+{"id": "W2895866514", "keep": false, "why": "lattice point distances"}
+{"id": "W2897846290", "keep": true, "why": "Sidon sets and C4-saturated graphs"}
+{"id": "W2913859726", "keep": false, "why": "sparse graphs survey"}
+{"id": "W2914222527", "keep": false, "why": "Erdos-Selfridge covering moduli"}
+{"id": "W2915160394", "keep": false, "why": "chromatic numbers of subgraphs"}
+{"id": "W2917738012", "keep": false, "why": "optical CDMA decoder"}
+{"id": "W2919772532", "keep": true, "why": "Erdos sumset conjecture proof"}
+{"id": "W2936249484", "keep": false, "why": "caps in Z_m^n"}
+{"id": "W2938910622", "keep": false, "why": "Erdos covering systems"}
+{"id": "W2943918691", "keep": true, "why": "subset sums algorithms"}
+{"id": "W2946048198", "keep": true, "why": "sumset configurations, positive density"}
+{"id": "W2949709867", "keep": true, "why": "edge-magic graphs and additive bases"}
+{"id": "W2950528977", "keep": false, "why": "uncountable chromatic graphs"}
+{"id": "W2950903227", "keep": false, "why": "multiplication table bipartite graphs"}
+{"id": "W2950922715", "keep": true, "why": "Erdos-Szemeredi sum-product"}
+{"id": "W2952362912", "keep": true, "why": "multiplicative Sidon sets, Cartesian colourings"}
+{"id": "W2953129111", "keep": false, "why": "sieving and covering systems"}
+{"id": "W2953338348", "keep": true, "why": "minimal growth of k-regular sequences"}
+{"id": "W2955520683", "keep": false, "why": "even-cycle-free subgraphs"}
+{"id": "W2963410422", "keep": false, "why": "subsets without k-term progression"}
+{"id": "W2963476552", "keep": false, "why": "Ramsey-type graph numbers"}
+{"id": "W2964097236", "keep": false, "why": "large prime gaps"}
+{"id": "W2964105244", "keep": true, "why": "solution-free sets complexity"}
+{"id": "W2964109235", "keep": false, "why": "Littlewood-Offord resilience"}
+{"id": "W2964161671", "keep": true, "why": "solution-free sets for linear equations"}
+{"id": "W2964307401", "keep": false, "why": "long prime gaps"}
+{"id": "W2964411006", "keep": false, "why": "coprime graph labelings"}
+{"id": "W2971968044", "keep": false, "why": "covering intervals with progressions"}
+{"id": "W2976022965", "keep": false, "why": "Green-Tao primes progressions"}
+{"id": "W2977273815", "keep": true, "why": "number theory conference volume, unclear"}
+{"id": "W2985315362", "keep": false, "why": "5G algebraic combinatorics"}
+{"id": "W2993699426", "keep": false, "why": "graph embeddings survey"}
+{"id": "W3003803721", "keep": false, "why": "Turan number graphs problem"}
+{"id": "W3004970682", "keep": false, "why": "greatest prime factor"}
+{"id": "W3013139591", "keep": false, "why": "Brown-Erdos-Sos problem"}
+{"id": "W3015097626", "keep": true, "why": "L-functions and sum-free sets"}
+{"id": "W3036512481", "keep": false, "why": "caps in finite vector spaces"}
+{"id": "W3038894848", "keep": false, "why": "prime gaps, unrelated"}
+{"id": "W3040332716", "keep": false, "why": "Riemann hypothesis proof claim, unrelated"}
+{"id": "W304188901", "keep": false, "why": "covering integers by arithmetic sequences"}
+{"id": "W3089076296", "keep": false, "why": "Blaschke product distortion, unrelated"}
+{"id": "W3098022636", "keep": true, "why": "sum-free subsets of integer sets"}
+{"id": "W3098775014", "keep": false, "why": "covering systems, Diophantine approximation"}
+{"id": "W3106700732", "keep": false, "why": "divisibility of random integer samples"}
+{"id": "W3107354381", "keep": false, "why": "ergodic Ramsey theory, different object"}
+{"id": "W3112255858", "keep": false, "why": "progression-free sets, different object"}
+{"id": "W3119386042", "keep": false, "why": "divisor function problems"}
+{"id": "W3120586469", "keep": true, "why": "ultrafilters, Ramsey-type sumset theorems"}
+{"id": "W3130072254", "keep": false, "why": "prime gaps, unrelated"}
+{"id": "W3133489831", "keep": true, "why": "conjecture title unclear"}
+{"id": "W3150381009", "keep": true, "why": "general theory of numbers book"}
+{"id": "W3153036256", "keep": false, "why": "Ramsey-type graph numbers"}
+{"id": "W3156089645", "keep": false, "why": "Ramsey variant of graph conjecture"}
+{"id": "W3157502055", "keep": false, "why": "covering systems over polynomial rings"}
+{"id": "W3158628378", "keep": true, "why": "density of sumsets"}
+{"id": "W3158858093", "keep": true, "why": "subset sums and colourings"}
+{"id": "W3162906474", "keep": true, "why": "B_k[g] sets, additive bases"}
+{"id": "W3182414143", "keep": false, "why": "coprime graph Hamiltonicity"}
+{"id": "W3198912041", "keep": false, "why": "binomial coefficient factorizations"}
+{"id": "W3206378641", "keep": false, "why": "congruent number problem"}
+{"id": "W3207941508", "keep": false, "why": "hypergraph chromatic index"}
+{"id": "W32684306", "keep": true, "why": "additively differing numbers"}
+{"id": "W341863101", "keep": false, "why": "Lefschetz elements, unrelated"}
+{"id": "W348244977", "keep": false, "why": "graph theory future, unrelated"}
+{"id": "W350260367", "keep": false, "why": "Frobenius linear Diophantine problem"}

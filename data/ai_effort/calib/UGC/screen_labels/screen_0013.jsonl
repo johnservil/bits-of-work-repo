@@ -1,0 +1,100 @@
+{"id": "W2787022562", "keep": true, "why": "pseudorandom sets, Grassmann graph expansion"}
+{"id": "W2787380529", "keep": false, "why": "total dual integrality, extended formulations"}
+{"id": "W2787856857", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2788112992", "keep": true, "why": "matrix p-to-q norm inapproximability, games-type"}
+{"id": "W2788302603", "keep": false, "why": "robust network design hardness"}
+{"id": "W2788305524", "keep": false, "why": "two-layer networks, tensor decomposition learning"}
+{"id": "W2788536085", "keep": false, "why": "hypercube optimization, circuit polynomials"}
+{"id": "W2789043785", "keep": true, "why": "sharp inapproximability for 2-CSP"}
+{"id": "W278947496", "keep": true, "why": "LS hierarchy lower bounds, vertex cover"}
+{"id": "W2789558393", "keep": false, "why": "pseudorandom colorings, graphs"}
+{"id": "W2791021890", "keep": false, "why": "power grid islanding"}
+{"id": "W2792831892", "keep": true, "why": "nonuniform graph partitioning, unrelated weights"}
+{"id": "W2792907235", "keep": true, "why": "Gaussian noise sensitivity, Fourier tails"}
+{"id": "W2793412038", "keep": true, "why": "high-dimensional expanders, lattice distance"}
+{"id": "W2793879920", "keep": false, "why": "cryo-EM mathematics"}
+{"id": "W2794354412", "keep": true, "why": "computational topology and UGC"}
+{"id": "W2794887178", "keep": false, "why": "1-factorizations of pseudorandom graphs"}
+{"id": "W2794970141", "keep": false, "why": "unforgeable money, probabilistic theories"}
+{"id": "W2794994194", "keep": false, "why": "lift-and-project for set cover and knapsack"}
+{"id": "W2795113073", "keep": true, "why": "matrix p-to-q norm inapproximability"}
+{"id": "W2795414768", "keep": false, "why": "hypergraph removal lemmas"}
+{"id": "W2795868260", "keep": false, "why": "treewidth, separating subsets"}
+{"id": "W2797255259", "keep": true, "why": "junta method, hypergraphs"}
+{"id": "W2798331445", "keep": true, "why": "Sherali-Adams gaps, log-density threshold"}
+{"id": "W2798339053", "keep": true, "why": "hypergraph Laplacian, diffusion, expansion"}
+{"id": "W2798470038", "keep": false, "why": "nature of theory of computation essay"}
+{"id": "W2798524658", "keep": true, "why": "small-set expansion, shortcode graphs, 2-to-2"}
+{"id": "W2798799181", "keep": true, "why": "Boolean functions on high-dimensional expanders"}
+{"id": "W2798801347", "keep": false, "why": "low-rank approximation with outliers"}
+{"id": "W2800411455", "keep": false, "why": "convex programming spectral clustering"}
+{"id": "W2804444123", "keep": false, "why": "minor-closed property testing"}
+{"id": "W2805434978", "keep": true, "why": "Boolean function analysis on HDX"}
+{"id": "W2805609980", "keep": true, "why": "small-set expansion, Johnson graph"}
+{"id": "W2805712439", "keep": false, "why": "planar multiflows, differentiation"}
+{"id": "W2807905304", "keep": false, "why": "sketching q-to-p norms"}
+{"id": "W2808390993", "keep": true, "why": "regularity lemma, low threshold rank graphs"}
+{"id": "W2808754399", "keep": false, "why": "robust moment estimation, SoS clustering"}
+{"id": "W2809314237", "keep": false, "why": "SoS and Nash equilibria"}
+{"id": "W2809400127", "keep": false, "why": "bi-Lipschitz dimension reduction"}
+{"id": "W2811295902", "keep": false, "why": "probabilistic reasoning, implicit learning"}
+{"id": "W281628422", "keep": false, "why": "commuting Hamiltonians, qPCP"}
+{"id": "W2882992283", "keep": true, "why": "vertex isoperimetry stability, cube"}
+{"id": "W2883468257", "keep": false, "why": "high-dimensional estimation, SoS"}
+{"id": "W2883955105", "keep": false, "why": "approximate spectral clustering"}
+{"id": "W2884037933", "keep": false, "why": "promise CSP, ring equations"}
+{"id": "W2884258630", "keep": false, "why": "#BIS-hard problems on expanders"}
+{"id": "W2884931243", "keep": false, "why": "PTAS for low-rank approximation"}
+{"id": "W2885551440", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2885774179", "keep": false, "why": "search heuristics, weighted vertex cover"}
+{"id": "W2885803187", "keep": true, "why": "no title; cannot judge"}
+{"id": "W2886036951", "keep": true, "why": "moment-SOS hierarchy survey"}
+{"id": "W2886270469", "keep": true, "why": "vertex-isoperimetric stability, hypercube"}
+{"id": "W2886277933", "keep": false, "why": "Erdos matching conjecture, concentration"}
+{"id": "W2886658624", "keep": true, "why": "list-decoding with double samplers"}
+{"id": "W2887371649", "keep": false, "why": "ATSP integrality ratios, Sherali-Adams"}
+{"id": "W2888275186", "keep": true, "why": "correlation rounding, convex hierarchies"}
+{"id": "W2888663778", "keep": false, "why": "strong reductions, extended formulations"}
+{"id": "W2888942011", "keep": false, "why": "isometrically embeddable metric spaces"}
+{"id": "W288944068", "keep": true, "why": "LS integrality gaps, vertex cover and Max-Cut"}
+{"id": "W2889745393", "keep": true, "why": "hypergraph Cheeger cuts, heat equation"}
+{"id": "W2889877476", "keep": true, "why": "log-Sobolev inequality, multislice"}
+{"id": "W2890953787", "keep": true, "why": "negative type diversities"}
+{"id": "W2890978174", "keep": false, "why": "cuts and connectivity, hypergraphs"}
+{"id": "W2893083669", "keep": true, "why": "MinLA approximation, higher eigenvalues"}
+{"id": "W2893742429", "keep": false, "why": "distribution-aware aggregation scheduling"}
+{"id": "W2894394758", "keep": false, "why": "Cayley graph induced edges"}
+{"id": "W2895112368", "keep": false, "why": "spanning trees in random graphs"}
+{"id": "W2896073191", "keep": false, "why": "sketchable norms characterization"}
+{"id": "W2897300971", "keep": false, "why": "max k-vertex cover FPT"}
+{"id": "W2897726728", "keep": false, "why": "low-rank SDP, operator splitting"}
+{"id": "W2898617375", "keep": true, "why": "log-concave polynomials, high-dimensional walks"}
+{"id": "W2899349648", "keep": true, "why": "rank and clique width inapproximability, SSE hypothesis"}
+{"id": "W2899413771", "keep": true, "why": "size-degree trade-offs, SoS proofs"}
+{"id": "W2899638111", "keep": false, "why": "coverage centrality, networks"}
+{"id": "W2899793048", "keep": false, "why": "zero-knowledge multi-prover proofs"}
+{"id": "W2900871484", "keep": false, "why": "bipartite communities, spectral partitioning"}
+{"id": "W2900879231", "keep": false, "why": "minimum maximal matching"}
+{"id": "W2901052904", "keep": false, "why": "FSO network dimensioning"}
+{"id": "W2901489785", "keep": false, "why": "network anomaly detection, curvature"}
+{"id": "W2902308496", "keep": true, "why": "list-decoding with double samplers"}
+{"id": "W2903365749", "keep": true, "why": "quantum-classical separations, nonlocal games"}
+{"id": "W2903468495", "keep": false, "why": "hierarchical cluster trees cost"}
+{"id": "W2903710486", "keep": true, "why": "sticky Brownian rounding, CSPs"}
+{"id": "W2906052802", "keep": true, "why": "Sherali-Adams strikes back"}
+{"id": "W2907567654", "keep": true, "why": "biased hypercube, higher-dimensional agreement tests"}
+{"id": "W2907685916", "keep": false, "why": "Gramian description, elliptope"}
+{"id": "W2910036433", "keep": true, "why": "noise sensitivity on groups"}
+{"id": "W2910066841", "keep": false, "why": "signed network clustering"}
+{"id": "W2910526268", "keep": false, "why": "spatial crowdsourcing"}
+{"id": "W2910713864", "keep": true, "why": "simple juntas, shifted families"}
+{"id": "W2911536067", "keep": false, "why": "chasing similarity"}
+{"id": "W2911549278", "keep": false, "why": "lossy kernelization"}
+{"id": "W2912057363", "keep": false, "why": "threshold functions"}
+{"id": "W2912205456", "keep": false, "why": "quasirandom groups"}
+{"id": "W2912709981", "keep": false, "why": "Markov chain testing"}
+{"id": "W2912726002", "keep": false, "why": "quantum proofs survey"}
+{"id": "W2914525031", "keep": false, "why": "interactive PCP"}
+{"id": "W2916659903", "keep": false, "why": "k-means clustering uniqueness"}
+{"id": "W2916938597", "keep": false, "why": "pathwidth, cutwidth, locality number"}
+{"id": "W2917997019", "keep": true, "why": "0.878-approximation, Max-Cut and Max-2SAT"}

@@ -1,0 +1,26 @@
+# computational record, code-based class (records/README.md format); agent-transcribed, unverified
+id: "dc_goppa_n695"
+class: "code"
+problem: "SD-Goppa"
+instance: "decodingchallenge goppa n=695 w=14"
+instance_size: 695
+instance_size_unit: "n"
+log2_ops: 34.0
+method: "Dumer"
+structure_exploited: false
+hardware: "i7-6700K"
+raw_compute: "runtime: 12 min; hardware: i7-6700K"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 0.008333333333333333
+date: "2019-09-22"
+solvers: ["Valentin Vasseur"]
+academic: true
+challenge: "decodingchallenge.org"
+extrapolation: null
+paper: null
+source_url: "https://decodingchallenge.org/goppa/record/15"
+other_urls: ["https://decodingchallenge.org/goppa/halloffame"]
+confidence: 0.85
+verified: false
+notes: "record progression entry (new max n at submission date per hall of fame); log2_ops = site tooltip \"indication of complexity\" for this instance, not a solver figure; instance provider: 1 - Université de Rennes 1; instances are random parity-check matrices with planted error (not actual Goppa codes); McEliece-like rate/weight"

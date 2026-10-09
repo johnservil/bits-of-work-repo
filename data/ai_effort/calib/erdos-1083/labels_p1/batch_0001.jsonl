@@ -1,0 +1,40 @@
+{"id": "W2169821423", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.2, "reason": "Erdos combinatorial problems list, generic"}
+{"id": "W2171774908", "include": "borderline", "category": "S", "weight": 0.15, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos combinatorial geometry problems, may discuss distinct distances in space"}
+{"id": "W2195290894", "include": "borderline", "category": "S", "weight": 0.15, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos combinatorial geometry problems, may discuss distinct distances in space"}
+{"id": "W2235559321", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planar bisector energy"}
+{"id": "W2315982756", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "unrelated, truncated title"}
+{"id": "W2317972059", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "furthest neighbour pairs"}
+{"id": "W2319149236", "include": "borderline", "category": "S", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Erdos 1946 original distances of n points paper"}
+{"id": "W2322887909", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "repeated distances in k-space"}
+{"id": "W2336392368", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.7, "reason": "distinct distances on surfaces in R^3, special case"}
+{"id": "W2513877431", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "discrete geometry overview"}
+{"id": "W2529833129", "include": "borderline", "category": "A", "weight": 0.5, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "incidences in R^3 with applications to distinct distances"}
+{"id": "W2582801014", "include": "borderline", "category": "A", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "bipartite distinct distances collinear set in R^k"}
+{"id": "W2608922762", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different Erdos problem"}
+{"id": "W2740811800", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "point-flat incidences"}
+{"id": "W2804024573", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planar frameworks"}
+{"id": "W2894305733", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planar pinned distances"}
+{"id": "W2912202394", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "combinatorial geometry book review"}
+{"id": "W2949342774", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "tetrahedra volumes"}
+{"id": "W2949380958", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "planar bisector energy"}
+{"id": "W2950564665", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "planar heavy lines"}
+{"id": "W2951028670", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "incidence theorems via Fourier"}
+{"id": "W2951265436", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "convex polygon distances"}
+{"id": "W2952865587", "include": "borderline", "category": "A", "weight": 0.6, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "bipartite distinct distances collinear set in R^k"}
+{"id": "W2963667153", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "planar frameworks"}
+{"id": "W2978341022", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "distinct triangles variant, different problem"}
+{"id": "W3007427333", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "finite field planar pinned distances"}
+{"id": "W3009725832", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "semi-algebraic incidence thesis"}
+{"id": "W3027363685", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "planar distinct distances"}
+{"id": "W3037996228", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "point-flat incidences"}
+{"id": "W3038045698", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "mapping incidences"}
+{"id": "W3098775666", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "bichromatic incidences"}
+{"id": "W3180382944", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "finite field pinned distances"}
+{"id": "W4211205179", "include": "borderline", "category": "S", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "Erdos 1946 original distances of n points paper"}
+{"id": "W4237700516", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "incidences chapter"}
+{"id": "W4243094764", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "repeated subconfigurations chapter"}
+{"id": "W4247688430", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "point configurations 1962"}
+{"id": "W4366496249", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Erdos appreciation"}
+{"id": "W4392667526", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "different problems"}
+{"id": "W4415622048", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "planar forbidden patterns"}
+{"id": "W7170803784", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "regular simplices different conjecture"}

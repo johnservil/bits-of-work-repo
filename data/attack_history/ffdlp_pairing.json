@@ -1,0 +1,47 @@
+{
+ "key": "ffdlp_pairing",
+ "label": "DLP in pairing-friendly extension fields",
+ "cls": "factoring",
+ "problem": "Discrete logarithms in extension fields used by pairing-friendly curves, including degree-12 families.",
+ "notes": "Pairing-field structure, polynomial selection and concrete resource models matter. We retain the new pairing track as sourced reassessment events, without collapsing medium/large-characteristic regimes into one L-constant curve or asserting uniform deployment changes.",
+ "milestones": [
+  {
+   "year": 2015,
+   "date": "2015-10-26",
+   "name": "Extended tower NFS",
+   "authors": "Kim, Barbulescu",
+   "ref": "ePrint 2015/1027; CRYPTO 2016",
+   "source_url": "https://eprint.iacr.org/2015/1027",
+   "model": "classical",
+   "series": false,
+   "status": "context",
+   "cost": null,
+   "event": "exTNFS improves the medium-prime asymptotic complexity and applies to important degree-6 and degree-12 pairing fields.",
+   "notes": "The source is a merged/revised paper. Its applicability depends on field representation and extension structure; no universal BN/BLS cost coefficient is asserted here.",
+   "assumptions": "",
+   "verified": false
+  },
+  {
+   "year": 2017,
+   "date": "2017-04-18",
+   "name": "Concrete pairing key-size reassessment",
+   "authors": "Barbulescu, Duquesne",
+   "ref": "ePrint 2017/334; Journal of Cryptology",
+   "source_url": "https://eprint.iacr.org/2017/334",
+   "model": "classical",
+   "series": false,
+   "status": "context",
+   "cost": null,
+   "event": "Reassesses popular pairing parameters after NFS advances and proposes updated key sizes.",
+   "notes": "First preprint date, with revisions through February 2018. Source-specific concrete estimates require their own operation, memory and polynomial-selection conventions.",
+   "assumptions": "",
+   "verified": false
+  }
+ ],
+ "role": "comparator",
+ "display_kind": "events",
+ "from_year": 2015,
+ "size_unit": "",
+ "size_name": "",
+ "reference": null
+}

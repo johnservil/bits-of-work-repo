@@ -1,0 +1,26 @@
+# ECDLP record (PLAN.md section 7); values are JSON literals
+id: "btc-puzzle-135"
+class: "ecdlp"
+problem: "interval-ECDLP"
+instance: "secp256k1 key in [2^134, 2^135) (Bitcoin puzzle #135)"
+instance_size: 134
+instance_size_unit: "bits"
+log2_ops: null
+method: "Pollard kangaroo (RCKangaroo-family SOTA kangaroo with symmetry, ASM GPU kernels, own jump tables)"
+structure_exploited: false
+hardware: "about 200 GPUs (model not stated)"
+raw_compute: "about 5 months on 200 GPUs"
+reported_core_years: null
+gpu_years: null
+wall_time_days: 150
+date: "2026-07-28"
+solvers: ["RetiredCoder"]
+academic: false
+challenge: "Bitcoin puzzle #135"
+extrapolation: null
+paper: null
+source_url: "https://bitcointalk.org/index.php?topic=5517607.msg66986617#msg66986617"
+other_urls: ["https://raw.githubusercontent.com/agntn/puzzles/main/src/collections/bits/135.ts", "https://privatekeys.pw/puzzles/bitcoin-puzzle-tx", "https://github.com/RetiredC", "https://github.com/RetiredC/RCKangaroo"]
+confidence: 0.75
+verified: false
+notes: "Claim tx 817535430c60... on 2026-07-28. ~83 GPU-years derived (200 x 5 mo), not stated. RCKangaroo claims K~1.15, i.e. ~1.15*2^67 = 2^67.2 expected ops (estimate, not reported). Largest public interval-ECDLP."

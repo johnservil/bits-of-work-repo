@@ -1,0 +1,40 @@
+{"id": "W2021073476", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Waring converse"}
+{"id": "W2021315980", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "zero-sum covers"}
+{"id": "W2021414653", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.3, "reason": "extremal problem in NT, title only, possibly subset sum related"}
+{"id": "W2023011716", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "sequences of integers, no abstract"}
+{"id": "W2023397165", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "partitions sums products"}
+{"id": "W2023600080", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Behrend 3-AP free sets"}
+{"id": "W2027946801", "include": "yes", "category": "A", "weight": 0.8, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "inequality implying Erdos conjecture on distinct subset sums"}
+{"id": "W2029209732", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "inverse Goldbach"}
+{"id": "W2029235915", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "ultrafilters Graham-Rothschild"}
+{"id": "W2031184395", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "additive decomposability"}
+{"id": "W2034596135", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "primitive sequences"}
+{"id": "W2039481459", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "reciprocal bases"}
+{"id": "W2039627336", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "densities of subset series"}
+{"id": "W2043191005", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "sum-free sequences"}
+{"id": "W2043381187", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "completeness of sequences"}
+{"id": "W2044429866", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture"}
+{"id": "W2044922974", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "knapsack cryptosystems"}
+{"id": "W2045789201", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "addition theorem mod p"}
+{"id": "W2046941141", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd conjecture"}
+{"id": "W2047370658", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.5, "reason": "different Erdos combinatorial conjecture"}
+{"id": "W2052059867", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "squarefree in sumsets"}
+{"id": "W2052802307", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "balancing integer sequences"}
+{"id": "W2053524037", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "zero-sum sequences"}
+{"id": "W2054140454", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "primitive sequences"}
+{"id": "W2063055635", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Frobenius problem"}
+{"id": "W2065042838", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "sumsets in infinite sets"}
+{"id": "W2065880080", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "linear combinations of intervals"}
+{"id": "W2068131989", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "bases for sets of integers"}
+{"id": "W2068871408", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "probabilistic method colourings"}
+{"id": "W2069661109", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Erdos centenary reflections"}
+{"id": "W2070190818", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "multiplicative Sidon sets"}
+{"id": "W2071163682", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Behrend theorem APs"}
+{"id": "W2072075682", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "arithmetic progressions remark"}
+{"id": "W2073126471", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Erdos centenary reflections"}
+{"id": "W2079979850", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "addition theorems"}
+{"id": "W2082471372", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "density translates pairwise sums"}
+{"id": "W2083962207", "include": "yes", "category": "A", "weight": 0.7, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "classification of greedy subset-sum-distinct sequences"}
+{"id": "W2085477555", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "partitions with equal products"}
+{"id": "W2086041665", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Graham gcd problem"}
+{"id": "W2087567316", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Sperner theorem"}

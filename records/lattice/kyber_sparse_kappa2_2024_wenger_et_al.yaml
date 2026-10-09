@@ -1,0 +1,25 @@
+id: "kyber_sparse_kappa2_2024_wenger_et_al"
+class: "lattice"
+problem: "LWE"
+instance: "Kyber-like MLWE (kappa=2 params) with sparse binomial secrets, Hamming weight 9-11"
+instance_size: 512
+instance_size_unit: "dim"
+log2_ops: null
+method: "SALSA (ML) and Cool&Cruel attacks after lattice reduction; also dual-hybrid MitM (decision)"
+structure_exploited: true
+hardware: "Intel Xeon Gold CPUs and/or NVIDIA V100 GPUs (750GB RAM machines)"
+raw_compute: "28-36 hours to recover h=9-11 secrets (SALSA, Cool&Cruel); uSVP found none after >1100 hours"
+reported_core_years: null
+gpu_years: null
+wall_time_days: null
+date: "2024-08"
+solvers: ["Emily Wenger", "Eshika Saxena", "Mohamed Malhou", "Ellie Thieu", "Kristin Lauter"]
+academic: true
+challenge: null
+extrapolation: null
+paper: "ePrint 2024/1229"
+source_url: "https://eprint.iacr.org/2024/1229"
+other_urls: ["https://arxiv.org/abs/2408.00882"]
+confidence: 0.6
+verified: false
+notes: "IEEE S&P 2025 benchmark (Meta AI lead). Sparse secrets are far below Kyber's real secret distribution weight, so this is a toy/sparse-secret instance, not real Kyber. instance_size=512 = module rank 2 x degree 256 (inferred). Hardware from arXiv HTML text; per-attack device counts not transcribed."

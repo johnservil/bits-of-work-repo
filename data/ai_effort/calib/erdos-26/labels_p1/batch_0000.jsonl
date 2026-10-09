@@ -1,0 +1,40 @@
+{"id": "W1043822130", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "general Erdos additive number theory problems survey, no evident engagement"}
+{"id": "W1533054715", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "quotient sequence of integer sequences, different problem"}
+{"id": "W1551680922", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.75, "reason": "Guy general problem book chapter"}
+{"id": "W1593508491", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "prefix-free sequences, unrelated"}
+{"id": "W1661292865", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "covering systems and sieving, different Erdos problems"}
+{"id": "W16713274", "include": "borderline", "category": "S", "weight": 0.2, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "primitive sequences and sets of multiples, background theory on multiples density"}
+{"id": "W1982375425", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "product-free sets, unrelated"}
+{"id": "W1987737251", "include": "borderline", "category": "A", "weight": 0.3, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Hall-Tenenbaum on sets of multiples and divisor density, related Behrend theory"}
+{"id": "W1991005966", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Behrend sequences note, density-1 multiples related to the problem"}
+{"id": "W2004580743", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "Romanoff additive theory, unrelated"}
+{"id": "W2009830994", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "counting function of primitive sets, unrelated"}
+{"id": "W2020529018", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "Besicovitch theorem generalization on multiples, classical, not this shifted problem"}
+{"id": "W2043033569", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "logarithmic density measures on semigroups, unrelated"}
+{"id": "W2043381187", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Ramsey-type completeness property, unrelated"}
+{"id": "W2049946047", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "asymptotic density of sequences, unrelated"}
+{"id": "W2052034072", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "greedy algorithm and divisibility, unrelated"}
+{"id": "W2056440635", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "correlation inequalities for Dirichlet densities, unrelated"}
+{"id": "W2066637298", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "covering congruences distinct moduli, different problem"}
+{"id": "W2068893962", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "multiplicative structures in additively large sets, unrelated"}
+{"id": "W2072239937", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "equations in sequences of positive log density, unrelated"}
+{"id": "W2087699257", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.35, "reason": "Ruzsa survey on Erdos and the integers, may mention Behrend sequences"}
+{"id": "W2092977611", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos-Tenenbaum on multiples of finite sequences, related density-1 multiples theory"}
+{"id": "W2116109685", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.65, "reason": "divisibility properties of sequences, general"}
+{"id": "W2117466727", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "densities of rational multiples, unrelated"}
+{"id": "W2118065590", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "Tenenbaum block Behrend sequences, density of multiples set"}
+{"id": "W2129166893", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "lcm gcd equations in dense sequences, unrelated"}
+{"id": "W2134350015", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "primitive and cross-primitive sequences, unrelated"}
+{"id": "W2142561109", "include": "borderline", "category": "A", "weight": 0.4, "solves": false, "ai_assisted": false, "confidence": 0.45, "reason": "Hall-Tenenbaum on Behrend sequences, density-1 multiples related to the problem"}
+{"id": "W2305884057", "include": "borderline", "category": "S", "weight": 0.1, "solves": false, "ai_assisted": false, "confidence": 0.4, "reason": "Erdos favourite problems survey, seed source that likely states the problem"}
+{"id": "W2313298573", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.6, "reason": "problem of Erdos, unspecified, likely unrelated"}
+{"id": "W2573044654", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "B-free ergodic properties, unrelated"}
+{"id": "W2589104620", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "B-free dynamics, unrelated"}
+{"id": "W2617349802", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Toeplitz B-free automorphisms, unrelated"}
+{"id": "W2738149383", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "B-free sets dynamics, unrelated"}
+{"id": "W2773246901", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.95, "reason": "Toeplitz B-free automorphisms, unrelated"}
+{"id": "W2775843332", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "B-free numbers survey, unrelated"}
+{"id": "W2789108271", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.8, "reason": "tautness of multiples sets B-free dynamics, unrelated"}
+{"id": "W2938910622", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.9, "reason": "covering systems, different Erdos problem"}
+{"id": "W2945960531", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "small sets of integers, unrelated"}
+{"id": "W2953129111", "include": "no", "category": "X", "weight": 0.0, "solves": false, "ai_assisted": false, "confidence": 0.85, "reason": "covering systems and sieving, different Erdos problems"}

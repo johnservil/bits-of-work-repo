@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Measuring Cryptanalytic Effort</title>
+<meta name="description" content="A bibliometric estimate of how much public cryptanalysis each public-key assumption has received, and what that effort would cost under assumed AI productivity.">
+<meta name="color-scheme" content="light dark">
+<meta name="author" content="AI-conducted analysis, overseen by Matthew Green">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23111318'/%3E%3Cg fill='%23fff'%3E%3Ccircle cx='9' cy='23' r='2'/%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='23' cy='9' r='2'/%3E%3Ccircle cx='9' cy='9' r='1.3' opacity='.5'/%3E%3Ccircle cx='23' cy='23' r='1.3' opacity='.5'/%3E%3C/g%3E%3Cpath d='M9 23 L16 16' stroke='%237ea2f2' stroke-width='2'/%3E%3C/svg%3E">
+<script>
+  // theme before first paint
+  try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#top"><span class="glyph">&epsilon;</span><span class="sc">Cryptanalytic Effort</span></a>
+    <nav class="topnav" id="topnav" aria-label="Sections">
+      <a href="#literature"><span class="num">2</span>Literature</a>
+      <a href="#people"><span class="num">3</span>People</a>
+      <a href="#frontier"><span class="num">4</span>Frontier</a>
+      <a href="#stability"><span class="num">5</span>Stability</a>
+      <a href="#classified"><span class="num">6</span>Classified</a>
+      <a href="#ai"><span class="num">7</span>AI</a>
+      <a href="#method"><span class="num">8</span>Method</a>
+    </nav>
+    <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+    </button>
+  </div>
+</header>
+
+<nav class="rail" id="rail" aria-hidden="true"></nav>
+
+<div id="top" class="titlepage">
+  <svg id="hero-lattice" aria-hidden="true"></svg>
+  <div class="kicker">automated analysis <span class="dot">&middot;</span> working draft <span class="dot">&middot;</span> data as of <span data-generated>2026-10-09</span></div>
+  <h1 class="title">How hard have we <em>looked</em>?</h1>
+  <p class="subtitle">Measuring public cryptanalytic effort against the assumptions behind standardized public-key encryption</p>
+  <div class="overseer">An AI-conducted analysis, overseen by <span class="name">Matthew Green</span></div>
+  <div class="date" data-date></div>
+
+  <section class="abstract" aria-labelledby="abstract-h">
+    <h2 id="abstract-h">Abstract</h2>
+    <p>
+      <!-- CONTENT: replace with final abstract -->
+      We estimate how much public cryptanalysis each public-key assumption has received, using the literature
+      itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP,
+      structured and plain lattices, syndrome decoding and their comparators, then convert papers into
+      estimated research-allocation years through a person-level author map. These publication-based estimates may
+      substantially overstate actual time spent. Lattices have overtaken elliptic curves in this cumulative measure
+      only recently; we express that history as inference budgets under stated productivity assumptions.
+      <!-- CONTENT: confirm each model's role -->
+      The study was conducted by AI models: Claude Fable&nbsp;5.1 and Claude Opus&nbsp;5.5 built the pipeline, ran the
+      analysis and wrote this page, with contributions from GPT-6&nbsp;Astra. Matthew Green set the questions, made the key
+      methodological decisions and oversaw the work.
+    </p>
+  </section>
+</div>
+
+<section class="keyfigs" aria-label="Key figures">
+  <div class="keyfig"><div class="v" data-kf="papers">2,877</div><div class="k"><span class="caps">Corpus</span>items in the main effort view</div></div>
+  <div class="keyfig"><div class="v">~3,240</div><div class="k"><span class="caps">People</span>estimated distinct author identities</div></div>
+  <div class="keyfig"><div class="v" data-kf="ratio">1.7<small>&times;</small></div><div class="k"><span class="caps">Lattices / ECDLP</span>estimated research-allocation years</div></div>
+  <div class="keyfig"><div class="v">2<sup style="font-size:.5em">69</sup></div><div class="k"><span class="caps">P-256 gap</span>work beyond the largest public solve</div></div>
+</section>
+
+<nav class="toc" aria-labelledby="toc-h">
+  <h2 id="toc-h">Contents</h2>
+  <ol id="toc-list"></ol>
+</nav>
+
+<main>
+
+<!-- ================================================================ 1 -->
+<section class="section" id="intro" data-short="Introduction">
+  <h2>Introduction</h2>
+  <!-- CONTENT -->
+  <p>
+    Every deployed public-key scheme rests on a conjecture that some problem is hard. We rarely ask how hard
+    anyone has actually tried. This page reports a literature-based estimate of public cryptanalytic effort for each
+    assumption class behind standardized encryption: the elliptic-curve discrete logarithm (ECDLP), structured and
+    plain lattices (MLWE, LWE), and syndrome decoding, with factoring, isogenies and multivariate systems as
+    comparators.<span class="sn-ref"></span><span class="sidenote">All figures count public work only. Classified effort is discussed in §6.</span>
+  </p>
+  <p>
+    The goal is a defensible order-of-magnitude comparison of the form <em>class X has received about N times the
+    scrutiny of class Y</em>, not a security level. Computational records and model-based work estimates get their own track.
+  </p>
+  <div class="defn">
+    <p>A <em>research-allocation year</em> (called research-FTE in the underlying data) is an estimate based on
+    the share of a researcher's publications devoted to a topic. It is not a recorded year of work.</p>
+  </div>
+</section>
+
+<!-- ================================================================ 2 -->
+<section class="section" id="literature" data-short="Literature">
+  <h2>The literature</h2>
+  <p>
+    <!-- CONTENT -->
+    We harvested IACR ePrint, DBLP, OpenAlex and zbMATH, screened by keyword, and classified candidates
+    against a written rubric. A second pass reviewed included and borderline items plus a sample of exclusions.
+    Figure&nbsp;1 shows the result by year of publication; papers that address more than one
+    assumption are split fractionally.
+  </p>
+
+  <figure class="fig" id="fig-papers">
+    <div class="fig-head">
+      <div class="fig-title">Papers per year</div>
+      <div class="seg" data-ctl="mode"><button data-v="annual" aria-pressed="true">annual</button><button data-v="cumulative">cumulative</button></div>
+      <div class="seg" data-ctl="src"><button data-v="all" aria-pressed="true">all sources</button><button data-v="vetted">ePrint / DBLP</button></div>
+    </div>
+    <div class="chart"></div>
+    <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
+    <figcaption>Cryptanalytic research items by assumption class, fractional counts. Annual values are a centered three-year
+      mean; 2026 is incomplete. <em>ePrint / DBLP</em> restricts sources, not correctness or peer-review status.
+      Items without a year or outside the plotted period are omitted from this figure. Click a legend entry to hide a series.</figcaption>
+  </figure>
+
+  <div class="thm">
+    <p>Lattice research exceeds ECDLP in the main cumulative views. The lattice/ECDLP ratio ranges roughly
+    from 1.3 to 2.6 across the study's counting and source assumptions.</p>
+    <p class="thm-note">These are different measures and sensitivity choices, not a confidence interval.
+    The main paper-count view crosses in 2017; the author-output estimate crosses in 2019.</p>
+  </div>
+
+  <div class="tablewrap" id="tab-summary">
+    <div class="tcap">Visible effort by assumption class. Fractional item counts (include = yes, effort categories);
+      estimated allocation years from the author map. Totals include items missing from the dated chart.</div>
+    <table class="booktabs"></table>
+  </div>
+</section>
+
+<!-- ================================================================ 3 -->
+<section class="section" id="people" data-short="People">
+  <h2>Who does the work</h2>
+  <p>
+    <!-- CONTENT -->
+    Paper counts treat a two-page note and a decade-long program alike. The author map groups 7,613 authorships into
+    about 3,240 identities, some unresolved, and estimates each person's share of publications devoted to a class
+    over a moving five-year window. Two people with half their output in a class contribute one allocation year.
+  </p>
+  <div class="caveat"><p><strong>These estimates may substantially overstate researcher time.</strong>
+    Publishing only on a topic does not mean working on it full time. Teaching, administration, other employment,
+    short projects and unrecorded work can all make publication share exceed time share. A minimum assumed
+    publication rate limits the effect of sparse records, but does not measure hours. The alternative
+    <em>career-adjusted</em> view reduces shares by assumed research-time fractions; it is also a proxy, not a correction
+    validated against researchers' time records. Some authors lack career data and use assumed effort per paper instead.</p></div>
+
+  <figure class="fig" id="fig-fte">
+    <div class="fig-head">
+      <div class="fig-title">Estimated research allocation per year</div>
+      <div class="seg" data-ctl="unit"><button data-v="fte" aria-pressed="true">output-share</button><button data-v="py">career-adjusted</button></div>
+    </div>
+    <div class="chart"></div>
+    <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
+    <figcaption>Publication-based allocation estimates, not observed staffing. <em>Career-adjusted</em> applies assumed
+      research-time fractions by career stage. Both views retain the per-paper fallback. 2026 is a partial year.</figcaption>
+  </figure>
+
+  <h3>Cumulative effort</h3>
+  <p>
+    <!-- CONTENT -->
+    In this model, factoring and FF-DLP together still lead on accumulated allocation years, while lattices
+    passed ECDLP in 2019. These curves describe the model's allocation of published output over time.
+  </p>
+
+  <figure class="fig" id="fig-cum">
+    <div class="fig-head">
+      <div class="fig-title">Cumulative estimated research-years</div>
+      <div class="seg" data-ctl="unit"><button data-v="fte_cum" aria-pressed="true">output-share</button><button data-v="py_cum">career-adjusted</button></div>
+      <div class="seg" data-ctl="scale"><button data-v="linear" aria-pressed="true">linear</button><button data-v="log">log</button></div>
+    </div>
+    <div class="chart"></div>
+    <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
+    <figcaption>Cumulative allocation estimates, displayed from 1980; earlier contributions remain in the totals.
+      Hover for values; the marker shows where lattices pass ECDLP in the selected model.</figcaption>
+  </figure>
+</section>
+
+<!-- ================================================================ 4 -->
+<section class="section" id="frontier" data-short="Frontier">
+  <h2>Distance to the frontier</h2>
+  <p>
+    <!-- CONTENT -->
+    Effort is one axis; demonstrated computation is another. For each target we use a cost model to estimate the work
+    ratio between an attack and a relevant public computational record. We express this ratio in bits:
+  </p>
+  <div class="eq"><div class="body">$$g \;=\; \log_2 W(\text{target}) \;-\; \log_2 W(\text{largest public solve})$$</div><div class="tag">(1)</div></div>
+  <p>A gap of 10 bits means about a thousand times the modeled work; 35 bits means about 35 billion times.
+    Both endpoints use the same model. Only a shared, size-independent cost factor cancels;
+    memory, communication and other costs can change with problem size.</p>
+
+  <figure class="fig" id="fig-gaps">
+    <div class="fig-head"><div class="fig-title">Frontier gap by target</div></div>
+    <div class="chart"></div>
+    <figcaption>Approximate model-based work gaps. Ranges reflect selected model assumptions, not confidence intervals.
+      Lattice gaps cover one sieve call; the full ML-KEM-512 attack adds roughly nine bits in this model.
+      RSA uses the leading GNFS expression; HQC uses a coarse decoding model.</figcaption>
+  </figure>
+
+  <div class="remark"><p>These gaps are not security levels or forecasts of attack cost. Different families use different
+    operations, memory requirements and model assumptions, so similar numerical gaps need not mean similar practical
+    distances. RSA-2048's roughly 35-bit gap is a GNFS extrapolation, not a measured runtime ratio.</p></div>
+  <p class="thm-note">See the <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/main/analysis/normalization_method.md">normalization method</a>
+    for the models, sources and verification limits.</p>
+</section>
+
+<!-- ================================================================ 5 -->
+<section class="section" id="stability" data-short="Attack history">
+  <h2>Attack history and stability</h2>
+  <p>How have attack algorithms changed? The plot below traces selected, source-checked mathematical bounds.
+    Each formula gives a <em>leading-term index</em>: a simplified measure that drops lower-order factors.
+    A fall in this index records an improvement in the selected model. It does not measure security bits lost,
+    and a flat line does not mean that practical attacks stopped improving.</p>
+  <p>The first view holds a reference size fixed. The second finds the size giving an index of 128 under each
+    selected bound, shown relative to the latest such size. These are illustrative model sizes, not recommended
+    cryptographic parameters. Dates follow the quoted analyses, including later corrections, rather than reconstructing
+    what researchers believed at each moment.</p>
+  <figure class="fig" id="fig-stability">
+    <div class="fig-head">
+      <div class="fig-title">Selected algorithmic bounds over time</div>
+      <div class="seg" data-ctl="view"><button data-v="cost" aria-pressed="true">index at reference size</button><button data-v="size">size for index 128</button></div>
+      <div class="seg" data-ctl="scope"><button data-v="primary" aria-pressed="true">principal families</button><button data-v="all">with comparators</button></div>
+    </div>
+    <div class="chart"></div>
+    <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
+    <figcaption>A selected history, not an exhaustive best-known frontier. ECDLP uses generic group-operation estimates;
+      lattices use an SVP oracle of dimension 406, not a full ML-KEM attack. Decoding maximizes the full-distance
+      exponent over code rates separately for each algorithm; it is not one fixed-rate code.
+      Factoring and MQ use their stated asymptotic and algebraic assumptions. Levels across these models are
+      not calibrated to the same operation or memory cost. Sources are available in the data table.</figcaption>
+  </figure>
+  <div class="tablewrap" id="tab-stability">
+    <div class="tcap">Selected model indices. Different starting years reflect source coverage and comparison scope.
+      “Latest plotted bound” is not a claim that no other progress occurred after that date.</div>
+    <table class="booktabs"></table>
+  </div>
+  <div class="remark"><p><strong>An unchanged leading exponent is a narrow kind of stability.</strong>
+    Better reduction methods, dimensions-for-free, memory tradeoffs and implementations can improve finite-size attacks
+    without changing that exponent. These histories cannot predict future breaks or convert publication counts into a security guarantee.</p></div>
+  <h3>Breaks and reassessments with different cost models</h3>
+  <p>Finite-field advances and the SIDH break are retained as sourced events. Their concrete estimates and runtimes
+    concern particular instances and units, so they are not joined to the index curves. Polynomial and quasi-polynomial
+    algorithms are distinct; neither label alone supplies a numerical parameter recommendation.</p>
+  <div class="tablewrap" id="tab-attack-events">
+    <div class="tcap">Selected events. Estimates retain their source's scope; they are not common-unit measurements.</div>
+    <table class="booktabs"></table>
+  </div>
+  <p class="thm-note">Rules, exclusions and corrections: <a href="methodology.html#attack-history">detailed methodology</a>.
+    Full dated ledger and sources:
+    <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/main/analysis/attack_stability.md">algorithmic history report</a>.
+    Sources were checked by an agent; independent human verification remains outstanding.</p>
+</section>
+
+<section class="section" id="classified" data-short="Classified work">
+  <h2>What this does not count</h2>
+  <!-- CONTENT -->
+  <p>
+    Our literature estimates cover <em>publicly documented</em> work: papers, preprints, theses and published records.
+    Unpublished failures, private research and classified work are missing. We do not have a reliable allocation of
+    that missing effort by assumption class.
+  </p>
+  <p>
+    If public effort were known, additional classified effort could be represented by an unknown multiplier:
+  </p>
+  <div class="eq"><div class="body">$$H_X^{\text{public+classified}} \;=\; (1 + k_X)\, H_X^{\text{public}}, \qquad k_X \ge 0 \text{ unknown}$$</div><div class="tag">(2)</div></div>
+  <div class="remark"><p>We do not know whether this multiplier is similar across classes. Comparisons of the visible
+    literature remain comparisons of public work; extending them to total effort requires additional assumptions.
+    Missing work does not make our publication-based time estimates lower bounds: those estimates may themselves be too high.</p></div>
+</section>
+
+<!-- ================================================================ 6 -->
+<section class="section" id="ai" data-short="AI comparison">
+  <h2>Effort in inference dollars</h2>
+  <p>
+    <!-- CONTENT -->
+    Recent AI systems have produced new results in mathematics and in cryptanalysis at disclosed costs. We do not
+    estimate an exchange rate between human and machine research. Instead we express historical effort \(H_X\) as an
+    equivalent inference budget under an assumed productivity multiplier \(s\):
+  </p>
+  <div class="eq"><div class="body">$$D_X(s) \;=\; \frac{c \cdot H_X}{s}, \qquad c = \$250{,}000 \text{ per research-year}$$</div><div class="tag">(3)</div></div>
+  <p>The multiplier means assumed research productivity per dollar: at 10&times;, one estimated human research-year
+    corresponds to $25,000 of inference. No multiplier is measured or preferred. These budgets inherit any overestimate
+    in the human-effort proxy: if actual time is half our estimate, the corresponding budgets are also half as large.</p>
+
+  <figure class="fig" id="fig-budget">
+    <div class="fig-head"><div class="fig-title">Budget explorer</div>
+      <div class="seg" data-ctl="preset"><button data-v="1">1&times;</button><button data-v="10" aria-pressed="true">10&times;</button><button data-v="100">100&times;</button></div>
+    </div>
+    <div class="explorer">
+      <div class="panel">
+        <div class="ctl">
+          <label for="ctl-s"><span>multiplier <i>s</i></span> <span class="v" data-out="s"></span></label>
+          <input type="range" id="ctl-s" min="0" max="3" step="0.01" value="1">
+          <div class="hint">log scale, 1&times; to 1000&times;</div>
+        </div>
+        <div class="ctl">
+          <label for="ctl-c"><span>cost <i>c</i> per year</span> <span class="v" data-out="c"></span></label>
+          <input type="range" id="ctl-c" min="100000" max="500000" step="10000" value="250000">
+        </div>
+        <div class="ctl">
+          <label for="ctl-p"><span>price per M tokens</span> <span class="v" data-out="p"></span></label>
+          <input type="range" id="ctl-p" min="0" max="2" step="0.01" value="1">
+          <div class="hint">hypothetical blended price, for token equivalents only</div>
+        </div>
+        <div class="formula" data-out="formula"></div>
+      </div>
+      <div class="chart"></div>
+    </div>
+    <figcaption>Scenario budgets using the unadjusted output-share estimates above, with reference tokens at a hypothetical
+      blended price. These are sensitivity cases, not predictions of attack cost. Human supervision, verification,
+      model training and tool compute are outside the inference allowance. The HAWK marker is a disclosed discovery
+      budget, not a calibration of the multiplier.</figcaption>
+  </figure>
+  <p>Read in reverse, a $100,000 inference budget represents <strong>0.4, 4 or 40 assumed human-year equivalents</strong>
+    at 1&times;, 10&times; or 100&times;. These are assigned equivalents, not observed labor displaced by AI.
+    The paper separately explores HAWK normalization using paper-based effort on both sides; it does not apply that
+    rate to the author-output estimates shown here.</p>
+
+  <h3>Recent mathematical results</h3>
+  <p>
+    <!-- CONTENT -->
+    For selected mathematical problems and HAWK, we compare disclosed AI budgets with a paper-based estimate of
+    effort in the surrounding literature. This second estimator assigns assumed years to each paper, rather than
+    reconstructing author publication shares. The samples include partial results and related problem variants.
+  </p>
+  <div class="remark"><p><strong>Long-standing does not necessarily mean hard-fought.</strong>
+    An Erdős problem can remain open for decades because few people have seriously tried to solve that particular
+    question. A low-cost AI solution may therefore reveal an overlooked opportunity, rather than overcome decades
+    of concentrated human effort. Some problems have attracted substantial work; others have not, and we do not
+    know the effort spent on unsuccessful attempts. Papers on a surrounding topic may also devote little time to
+    the exact question. Our literature estimates cannot resolve that distinction. These selected successes should
+    not be treated as evidence that AI can cheaply replace an equally large body of sustained cryptanalytic scrutiny.</p></div>
+
+  <figure class="fig" id="fig-problems">
+    <div class="fig-head"><div class="fig-title">Literature-effort scenarios vs. AI budgets</div>
+      <div class="seg" data-ctl="show"><button data-v="priced" aria-pressed="true">priced</button><button data-v="all">all problems</button></div>
+    </div>
+    <div class="chart"></div>
+    <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
+    <figcaption>Hollow dots value the literature estimate at $250k per assumed year. Ranges are sums of effort-prior
+      endpoints, not confidence intervals. Filled dots show average disclosed successful-run costs for the Erdős cases
+      and Anthropic's reported HAWK discovery budget. Unsuccessful attempts and other project costs are not included
+      in the Erdős averages. Rows without a budget are literature estimates only.
+      An asterisk marks a literature total containing explicitly AI-assisted work.</figcaption>
+  </figure>
+  <div class="caveat"><p><strong>The literature totals are not yet audited pre-discovery human labor.</strong>
+    The retained corpus includes explicitly AI-assisted papers, marked in the chart, and its historical cutoffs still
+    need review. Existing literature also supplies tools to the AI. Comparing these dollar amounts does not measure
+    productivity gains or the fraction of historical scrutiny reproduced.</p></div>
+  <p class="thm-note">Sources: <a href="https://arxiv.org/html/2609.25050v1#S4.SS2">FrontierMath Erdős, Tables 2&ndash;3</a>
+    and <a href="https://www.anthropic.com/research/discovering-cryptographic-weaknesses">Anthropic's HAWK report</a>.
+    The Erdős paper reports more than $220,000 across its wider campaign; the individual successful-run costs shown
+    here are a different accounting boundary. HAWK's roughly $100,000 is API cost for discovery, not the cost of
+    executing a key-recovery attack.</p>
+</section>
+
+<!-- ================================================================ 7 -->
+<section class="section" id="method" data-short="Method">
+  <h2>Method and caveats</h2>
+  <p>For the exact rules, formulas, source files and unresolved defects, read the
+    <a href="methodology.html">detailed methodology and audit trail</a>.</p>
+  <!-- CONTENT -->
+  <p><span class="sc">Corpus.</span> IACR ePrint and DBLP harvests, OpenAlex phrase searches and citation expansion,
+    and zbMATH. The export contains 4,349 included or borderline records; 2,877 are included items in the main effort
+    categories. Recall against twelve selected seed papers' reference lists is approximately 96&ndash;100% per class;
+    this does not establish field-wide recall.</p>
+  <p><span class="sc">Classification.</span> The second model pass reviewed included and borderline items and a sample
+    of exclusions, with access to the first labels. Agreement of \(\kappa = 0.84\)&ndash;\(0.89\) describes consistency
+    on the reviewed subset. Exclusion reversal rates of 0.5&ndash;1.1% concern sampled first-pass exclusions.
+    Neither check establishes independent validation, classifier recall or a global error rate.
+    Systematic human validation remains outstanding.</p>
+  <p><span class="sc">Scope.</span> The rubric excludes attacks whose contribution is extracting power, timing or fault
+    leakage, and implementation or protocol flaws unrelated to the mathematical problem. It intentionally includes
+    mathematical attacks given partial information, quantum algorithms, special or weak instances, and faster
+    implementations of mathematical solvers. These broader categories do not all transfer to ordinary deployed
+    parameters. Abstract-based classification can also admit out-of-scope work or misattribute mixed papers;
+    such errors can overstate a class's relevant scrutiny. See the
+    <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/main/pipeline/rubric.md">classification rubric</a>.</p>
+  <p><span class="sc">Time.</span> Output share may substantially exceed time share. Missing career publications,
+    uncertain identities and effort-per-paper assumptions add further error. Career-stage adjustment lowers the
+    principal-class totals by roughly a quarter, but relies on assumed research fractions and often estimated career
+    stages. No defensible numerical error bar is available. Dollar scenarios scale directly with these uncertain totals.</p>
+  <p><span class="sc">Models.</span> Pipeline, analysis and text by Claude Fable&nbsp;5.1 and Claude Opus&nbsp;5.5, with
+  contributions from GPT-6&nbsp;Astra; smaller Claude models ran the first classification pass. Methodological decisions
+  were made and recorded by the overseeing human.</p>
+</section>
+
+<!-- ================================================================ A -->
+<section class="section appendix" id="data" data-short="Data">
+  <h2>Data and citation</h2>
+  <p>Read the <a href="methodology.html">detailed methodology</a> for the audit trail and the
+    <a href="assets/cryptanalytic-effort-whitepaper.pdf">working white paper (PDF)</a> for the synthesis,
+    nominal person-hours, and additional OpenAI and Anthropic comparisons. Its frontier-record analysis remains a
+    separate track, summarized here with the qualifications above.</p>
+  <p>Every figure on this page is drawn from <a href="assets/data.js">the generated data</a>. The
+    <a href="https://github.com/matthewdgreen/bits-of-work-repo">study repository</a> contains the sources,
+    classification rubric and <code>pipeline/build_site_data.py</code> used to regenerate it.</p>
+  <pre class="bib" id="bibtex"><button class="copy seg" style="border:1px solid var(--rule)"><span style="padding:.2rem .5rem">copy</span></button><span class="k">@misc</span>{bitsofwork2026,
+  title        = {How Hard Have We Looked? Measuring Public Cryptanalytic Effort},
+  author       = {Green, Matthew},
+  note         = {AI-conducted analysis, overseen by Matthew Green. Working draft},
+  howpublished = {\url{https://bitsofwork.org}},
+  year         = {2026},
+}</pre>
+</section>
+
+</main>
+
+<footer class="colophon">
+  Written by AI models under human oversight &middot; typeset in Latin Modern &middot; figures drawn with D3 &middot; data regenerated <span data-generated></span><br>
+  <span class="tt">\end{document}</span>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" defer></script>
+<script src="assets/data.js" defer></script>
+<script src="assets/site.js" defer></script>
+<script src="assets/charts.js" defer></script>
+</body>
+</html>
