@@ -11,7 +11,7 @@ Each call appends one row to LABEL_DIR/usage.tsv. BUDGET_USD caps the total cost
 recorded in every usage.tsv under data/symmetric/; the runner starts no call once it
 is reached (calls already running may add at most WORKERS more).
 """
-import glob, json, os, re, sys, time, urllib.request, urllib.error
+import glob, http.client, json, os, re, sys, time, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 
 PASS, MODEL, BATCH_DIR, LABEL_DIR, BUDGET = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], float(sys.argv[5])
@@ -52,7 +52,7 @@ def label(path):
         if spent() >= BUDGET: return f"{stem}: budget ${BUDGET:.2f} reached, not sent"
         try:
             resp = call(text)
-        except (urllib.error.URLError, TimeoutError, ConnectionError, json.JSONDecodeError) as e:
+        except (urllib.error.URLError, http.client.HTTPException, TimeoutError, ConnectionError, json.JSONDecodeError) as e:
             time.sleep(10 * 2 ** attempt); err = repr(e)[:200]; continue
         u = resp.get("usage") or {}
         with open(os.path.join(LABEL_DIR, "usage.tsv"), "a") as f:
