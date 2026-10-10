@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """zbMATH Open harvest by query string (MSC + title/keyword). Output JSONL."""
 import sys, os, json, time, hashlib, urllib.request, urllib.parse, urllib.error
-UA = {"User-Agent": "literature-search-pilot/0.1 (mailto:matthewdgreen@gmail.com)"}
+UA = {"User-Agent": "bits-of-work-symmetric-extension/0.1 (John Servil; https://github.com/johnservil)"}
 OUT = sys.argv[1]; os.makedirs(OUT, exist_ok=True)
 QUERIES = {
  "ecdlp": ["\"elliptic curve discrete logarithm\"", "\"Weil descent\"", "\"index calculus\" & cc:94A60", "\"anomalous\" & \"elliptic\" & cc:94A60",

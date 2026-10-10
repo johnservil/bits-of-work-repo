@@ -18,8 +18,7 @@ Outputs (JSONL of trimmed work objects): phrase_<cls>_<md5>.jsonl, snow_seeds.js
 snow_backward.jsonl, snow_forward.jsonl; progress in *_done.json files.
 """
 import sys, os, re, json, time, hashlib, urllib.request, urllib.parse, urllib.error
-MAILTO = "matthewdgreen@gmail.com"
-UA = {"User-Agent": f"literature-search-pilot/0.2 (mailto:{MAILTO})"}
+UA = {"User-Agent": "bits-of-work-symmetric-extension/0.1 (John Servil; https://github.com/johnservil)"}
 BASE = "https://api.openalex.org/works"
 FIELDS = "id,doi,title,publication_year,publication_date,type,authorships,primary_location,abstract_inverted_index,referenced_works,cited_by_count,ids"
 KEYFILE = os.path.expanduser("~/.openalex_key")
@@ -42,7 +41,7 @@ def get(url, cost=1, tries=12):
         if cost and budget["remaining"] is not None and budget["remaining"] < cost:
             wait_for_reset(f"remaining {budget['remaining']} < {cost}"); budget["remaining"] = None
         key = api_key()
-        full = url + ("&" if "?" in url else "?") + "mailto=" + MAILTO + (f"&api_key={key}" if key else "")
+        full = url + ((("&" if "?" in url else "?") + f"api_key={key}") if key else "")
         try:
             with urllib.request.urlopen(urllib.request.Request(full, headers=UA), timeout=90) as r:
                 h = r.headers
