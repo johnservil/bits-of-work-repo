@@ -33,7 +33,9 @@
     Each counted paper gives its authors equal shares of its class weight, after counting each work once (a preprint
     of a counted paper adds nothing; a journal extension adds one third). These <em>paper credits</em> add up to the
     paper counts on the <a href="index.html#literature">summary page</a>. The <em>papers</em> view instead gives every
-    author the paper's whole class weight. Both measure published output only. They do not measure time spent, the
+    author the paper's whole class weight. The <em>quantum</em> filter keeps only papers whose main point is a quantum
+    algorithm or a quantum resource estimate; <em>non-quantum</em> keeps the rest. Every figure, ranking and profile
+    follows the filter. Both measure published output only. They do not measure time spent, the
     importance of a paper, or work that was never published.</p>
   <div class="caveat"><p><strong>Identities have not been checked by a person.</strong> Authors were matched to DBLP
     person records where possible. Name strings that differ from exactly one DBLP person only in dashes, name order
@@ -52,6 +54,7 @@
   <div class="row chips" id="fields" role="group" aria-label="Field"></div>
   <div class="row">
     <div class="seg" data-ctl="metric" role="group" aria-label="Measure"><button data-v="credit" aria-pressed="true">paper credit</button><button data-v="papers">papers</button></div>
+    <div class="seg" data-ctl="qf" role="group" aria-label="Quantum" title="Quantum: papers whose main point is a quantum algorithm or quantum resource estimate"><button data-v="all" aria-pressed="true">all papers</button><button data-v="quantum">quantum</button><button data-v="classical">non-quantum</button></div>
     <input type="search" id="who" list="who-list" placeholder="Find a researcher" aria-label="Find a researcher" autocomplete="off">
     <datalist id="who-list"></datalist>
   </div>

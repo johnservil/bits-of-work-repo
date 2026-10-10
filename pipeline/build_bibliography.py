@@ -182,6 +182,7 @@ def entry(row, pub=None, peer=False, keys=None):
     f['rationale'] = tex_escape(row['reason'])
     f['vetted'] = 'yes' if row['vetted'] == 'True' else 'no'
     f['peerreviewed'] = 'yes' if peer else 'no'
+    f['quantum'] = 'yes' if row.get('quantum') == 'True' else 'no'
     vw, vof = row.get('version_weight', '1'), row.get('version_of', '')
     if vof and keys:
         if float(vw) == 0:
@@ -276,7 +277,7 @@ def render_entry(f):
     ckeys = ' '.join(KEY_OF.get(p.rsplit(" ", 1)[0], '') for p in f.get('classes', '').split(', ') if p)
     end = lambda t: t if re.search(r'[.?!]\s*(</span>)?$', t) else t + '.'
     return (
-        f'<li id="{escape(f["_key"])}" data-c="{ckeys}" data-v="{f.get("vetted", "no")}" data-p="{f.get("peerreviewed", "no")}"'
+        f'<li id="{escape(f["_key"])}" data-c="{ckeys}" data-v="{f.get("vetted", "no")}" data-p="{f.get("peerreviewed", "no")}" data-q="{f.get("quantum", "no")}"'
         + (' class="dup"' if f.get('version', '').startswith('same work') else '') + '>'
         f'<span class="au">{end(names)}</span> <span class="ti">{end(detex(f.get("title", "")))}</span> '
         + (f'<span class="ve">{detex(venue)}</span>, ' if venue else '')
@@ -285,6 +286,8 @@ def render_entry(f):
         f'<span class="cat" title="{escape(CATEGORY.get(cat, ""))}">{escape(cat)} · {escape(CATEGORY.get(cat, ""))}</span>'
         + (f'<span class="cy" title="Counts use the year the work first appeared">counted in {escape(f["countyear"])}</span>'
            if f.get('countyear') and f.get('year') and f['year'] != f['countyear'] else '')
+        + ('<span class="qu" title="Quantum algorithms or quantum resource estimates are the main point">quantum</span>'
+           if f.get('quantum') == 'yes' else '')
         + f'<span class="links">{" ".join(links)}</span></div>'
         f'<div class="why">{detex(f.get("rationale", ""))}</div>'
         + (version_note(f) if f.get('version') else '') + '</li>'
@@ -368,6 +371,8 @@ def build_page(entries, generated):
     per year. Custom fields record the class weights (<code>classes</code>), rubric <code>category</code>, classifier
     <code>rationale</code>, source databases and whether the item appears in ePrint or DBLP (<code>vetted</code>).
     <em>Peer-reviewed</em> means the item appeared in a refereed journal or conference (venue quality not assessed).
+    <em>Quantum</em> marks items whose main point is a quantum algorithm or a quantum resource estimate
+    (the classifier's <code>quantum</code> field); everything else is <em>non-quantum</em>.
     Each work is counted once: a preprint or duplicate record of a counted work is listed with weight 0, and a journal
     extension of a conference paper counts one third. Borderline and excluded items are in the
     <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/main/data/export/combined_included.csv">full export</a>.</p>
@@ -377,6 +382,7 @@ def build_page(entries, generated):
   <div class="row"><input type="search" id="q" placeholder="Search titles, authors, venues" aria-label="Search">
     <label class="vet"><input type="checkbox" id="vetted"> ePrint / DBLP only</label>
     <label class="vet" title="appeared in a refereed journal or conference; venue quality not assessed"><input type="checkbox" id="peer"> peer-reviewed</label>
+    <div class="seg" id="qf" role="group" aria-label="Quantum"><button data-v="all" aria-pressed="true">all</button><button data-v="yes">quantum</button><button data-v="no">non-quantum</button></div>
     <span class="shown" id="shown"></span></div>
   <div class="row chips" id="chips">{chips}</div>
   <nav class="years" id="years" aria-label="Years">{''.join(index)}</nav>
@@ -411,7 +417,7 @@ def main():
     generated = datetime.date.today().isoformat()
     header = (f'% Bibliography of the {len(rows)} items counted in the Cryptanalytic Effort study.\n'
               f'% Generated {generated} by pipeline/build_bibliography.py from data/export/combined_included.csv.\n'
-              '% Custom fields: classes, category, rationale, vetted, sources, studyid.\n\n')
+              '% Custom fields: classes, category, rationale, vetted, peerreviewed, quantum, sources, studyid.\n\n')
     entries = [entry(r, pubs.get(r['id']), r['id'] in peer, keys) for r in rows]
     (DOCS / 'bibliography.bib').write_text(header + '\n'.join(entries))
     (DOCS / 'bib').mkdir(exist_ok=True)

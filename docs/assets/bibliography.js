@@ -1,4 +1,4 @@
-/* Bibliography page: search, class filter, year index, BibTeX popover. */
+/* Bibliography page: search, class and quantum filters, year index, BibTeX popover. */
 (function () {
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
@@ -8,6 +8,8 @@
   const years = $$('section.yr');
   const q = $('#q'), vet = $('#vetted'), peer = $('#peer'), shown = $('#shown');
   const active = new Set();
+  const qf = $('#qf');
+  let quantum = 'all';   // all | yes | no
 
   function apply() {
     const terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
@@ -16,6 +18,7 @@
       const cls = li.dataset.c.split(' ');
       const ok = (!vet.checked || li.dataset.v === 'yes')
         && (!peer.checked || li.dataset.p === 'yes')
+        && (quantum === 'all' || li.dataset.q === quantum)
         && (!active.size || cls.some(c => active.has(c)))
         && terms.every(t => text.get(li).includes(t));
       li.hidden = !ok; n += ok;
@@ -32,6 +35,12 @@
   q.addEventListener('input', () => { clearTimeout(t); t = setTimeout(apply, 120); });
   vet.addEventListener('change', apply);
   peer.addEventListener('change', apply);
+  qf.addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    quantum = b.dataset.v;
+    qf.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b));
+    apply();
+  });
   $('#chips').addEventListener('click', e => {
     const b = e.target.closest('.chip'); if (!b) return;
     const c = b.dataset.c;

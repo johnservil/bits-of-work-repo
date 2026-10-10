@@ -158,7 +158,8 @@ def main():
                 people.append(p)
             a.append(pidx[p])
         w = [round(sum(float(L[c] or 0) for c in cols) * vw, 4) for _, _, cols in CLASSES]
-        papers.append({'k': keys.get(iid, ''), 't': L['title'], 'y': int(L['year']), 'w': w, 'a': a})
+        papers.append({'k': keys.get(iid, ''), 't': L['title'], 'y': int(L['year']), 'w': w, 'a': a,
+                       **({'q': 1} if L.get('quantum') == 'True' else {})})
         item_of.append(iid)
 
     n_items = collections.Counter(i for p in papers for i in p['a'])

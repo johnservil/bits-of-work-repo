@@ -13,7 +13,8 @@
   const col = k => `var(--s-${COLOR[k] || k})`;
   const FIELD_TITLE = { lattice: 'Lattice', ecdlp: 'ECDLP', code: 'Syndrome-decoding', factoring: 'Factoring', isogeny: 'Isogeny', mq: 'Multivariate', mlwe: 'MLWE', lwe: 'Plain LWE' };
   const SHORT = { lattice: 'Lattices', ecdlp: 'ECDLP', code: 'Codes', factoring: 'Factoring', isogeny: 'Isogenies', mq: 'Multivariate', mlwe: 'MLWE', lwe: 'Plain LWE' };
-  const PEOPLE = D.people, PAPERS = D.papers;
+  const PEOPLE = D.people, ALL_PAPERS = D.papers;
+  let PAPERS = ALL_PAPERS;   // the papers in scope under the quantum filter (see rescope)
   const f1 = v => d3.format(',.1f')(Math.round((v + 1e-9) * 10) / 10);
   const f2 = v => d3.format(',.2f')(v);
   const pct = v => d3.format('.0%')(v);
@@ -23,9 +24,19 @@
   $$('[data-named-min]').forEach(el => { el.textContent = D.named_min; });
   $$('[data-ambiguous]').forEach(el => { el.textContent = D.ambiguous_withheld; });
 
-  // person -> paper indices
-  const byPerson = PEOPLE.map(() => []);
-  PAPERS.forEach((p, j) => p.a.forEach(i => byPerson[i].push(j)));
+  // person -> paper indices (into PAPERS)
+  let byPerson = [];
+  const QF = { all: () => true, quantum: p => !!p.q, classical: p => !p.q };
+  let scope = null;
+  function rescope(qf) {
+    if (qf === scope) return;
+    scope = qf;
+    PAPERS = ALL_PAPERS.filter(QF[qf]);
+    byPerson = PEOPLE.map(() => []);
+    PAPERS.forEach((p, j) => p.a.forEach(i => byPerson[i].push(j)));
+    for (const k in cache) delete cache[k];
+  }
+  const scopeWord = () => S.qf === 'quantum' ? 'quantum' : S.qf === 'classical' ? 'non-quantum' : '';
   const label = i => {
     const p = PEOPLE[i];
     return p.n + (p.r === 'u' ? ' †' : '') + (p.h && p.pid ? ` [${p.pid}]` : '');
@@ -56,10 +67,11 @@
   const winSum = (a, lo, hi) => { let s = 0; for (let y = lo; y <= hi; y++) s += a[y - Y0]; return s; };
 
   // ---------- state (mirrored in the URL hash) ----------
-  const S = { f: 'lattice', m: 'credit', lo: null, hi: null, rows: 30, sort: 'total', who: null };
+  const S = { f: 'lattice', m: 'credit', qf: 'all', lo: null, hi: null, rows: 30, sort: 'total', who: null };
   function readHash() {
     const h = new URLSearchParams(location.hash.slice(1));
-    Object.assign(S, { f: 'lattice', m: 'credit', lo: null, hi: null, rows: 30, sort: 'total', who: null });
+    Object.assign(S, { f: 'lattice', m: 'credit', qf: 'all', lo: null, hi: null, rows: 30, sort: 'total', who: null });
+    if (['quantum', 'classical'].includes(h.get('q'))) S.qf = h.get('q');
     if (CI[h.get('f')] !== undefined) S.f = h.get('f');
     if (['credit', 'papers'].includes(h.get('m'))) S.m = h.get('m');
     const w = (h.get('w') || '').match(/^(\d{4})-(\d{4})$/);
@@ -72,6 +84,7 @@
   }
   function writeHash() {
     const h = new URLSearchParams({ f: S.f, m: S.m });
+    if (S.qf !== 'all') h.set('q', S.qf);
     if (S.lo !== null) h.set('w', `${S.lo}-${S.hi}`);
     if (S.rows !== 30) h.set('n', S.rows);
     if (S.sort !== 'total') h.set('s', S.sort);
@@ -156,6 +169,7 @@
     S.f = b.dataset.f; S.lo = S.hi = null; renderAll();
   });
   const setMetric = seg('metric', S.m, v => { S.m = v; renderAll(); });
+  const setQF = seg('qf', S.qf, v => { S.qf = v; renderAll(); });
   const setRows = seg('rows', S.rows, v => { S.rows = +v; renderAll(); });
   const setSort = seg('sort', S.sort, v => { S.sort = v; renderAll(); });
   const named = PEOPLE.map((p, i) => i).filter(i => PEOPLE[i].n).sort((a, b) => label(a).localeCompare(label(b)));
@@ -201,7 +215,10 @@
     });
     const bg = g.append('g').attr('class', 'brush').call(brush);
     if (S.lo !== null) bg.call(brush.move, [x(lo), x(hi) + x.bandwidth()]);
-    $('#win-title').textContent = `${FIELD_TITLE[S.f]} papers by year`;
+    const ft = FIELD_TITLE[S.f], sw = scopeWord();
+    $('#win-title').textContent = sw
+      ? `${sw[0].toUpperCase() + sw.slice(1)} ${/^[A-Z]{2}/.test(ft) ? ft : ft.toLowerCase()} papers by year`
+      : `${ft} papers by year`;
     $('#win-label').textContent = S.lo === null ? `· all years, ${F.first}–${Y1}` : `· ${lo}–${hi}`;
     $('#win-all').hidden = S.lo === null;
   }
@@ -691,6 +708,14 @@
   function renderProfile() {
     if (S.who === null || !PEOPLE[S.who] || !PEOPLE[S.who].n) { prof.hidden = true; prof.innerHTML = ''; return; }
     const i = S.who, P = PEOPLE[i], js = byPerson[i].slice().sort((a, b) => PAPERS[b].y - PAPERS[a].y);
+    const closeProfile = () => { S.who = null; renderProfile(); writeHash(); const all = ranked(F_cur()); renderHeat(F_cur(), all); renderNet(F_cur(), all); };
+    if (!js.length) {
+      prof.hidden = false;
+      prof.innerHTML = `<div class="profile-head"><h2>${esc(P.n)}</h2><button class="icon-btn" id="prof-close" aria-label="Close profile">&times;</button></div>
+        <p class="muted">None of this person's counted papers are ${scopeWord()}. Set the filter to <em>all papers</em> to see them.</p>`;
+      $('#prof-close').addEventListener('click', closeProfile);
+      return;
+    }
     const credit = CLS.map((_, c) => d3.sum(js, j => PAPERS[j].w[c] / PAPERS[j].a.length));
     const years = js.map(j => PAPERS[j].y);
     const co = new Map();
@@ -704,10 +729,10 @@
         <button class="icon-btn" id="prof-close" aria-label="Close profile">&times;</button>
       </div>
       <div class="profile-meta">${[P.af && esc(P.af), P.pid && `<a href="https://dblp.org/pid/${esc(P.pid)}.html" rel="noopener">DBLP ${esc(P.pid)}</a>`,
-        `${js.length} counted paper${js.length === 1 ? '' : 's'}, ${d3.min(years)}–${d3.max(years)}`,
+        `${js.length} counted ${scopeWord() ? scopeWord() + ' ' : ''}paper${js.length === 1 ? '' : 's'}, ${d3.min(years)}–${d3.max(years)}`,
         P.nm && `<span title="Papers not found in DBLP, assigned to this person because the author string matches the name">${P.nm === js.length ? 'all' : P.nm} matched by name only</span>`].filter(Boolean).join(' &middot; ')}</div>
       <div class="profile-classes">${MAIN.map(k => credit[CI[k]] > 0 ? `<span class="cls${k === S.f || COLOR[S.f] === k ? ' on' : ''}"><i style="background:${col(k)}"></i>${SHORT[k]} <b>${f2(credit[CI[k]])}</b></span>` : '').join('')}
-        <span class="hint">paper credit, all years</span></div>
+        <span class="hint">paper credit, all years${scopeWord() ? ', ' + scopeWord() + ' papers only' : ''}</span></div>
       <div class="chart profile-chart"></div>
       <div class="ego-head"><h3 class="caps">Co-author network</h3>
         <div class="seg" id="ego-scope" aria-label="Papers"><button data-v="field">${esc(SHORT[S.f])} papers</button><button data-v="all">all counted papers</button></div></div>
@@ -722,7 +747,7 @@
           `<li>${PEOPLE[k].n ? `<button class="bibbtn" data-p="${k}">${esc(label(k))}</button>` : '<span class="muted">(not named)</span>'}<span class="n">${n}</span></li>`).join('')}</ul>` : '<p class="muted">None: every counted paper is single-authored.</p>'}
           ${co.size > coTop.length ? `<p class="muted small">${co.size} co-authors in all${nAnon ? `, ${nAnon} with too few papers to be named` : ''}.</p>` : ''}</div>
       </div>`;
-    $('#prof-close').addEventListener('click', () => { S.who = null; renderProfile(); writeHash(); const all = ranked(F_cur()); renderHeat(F_cur(), all); renderNet(F_cur(), all); });
+    $('#prof-close').addEventListener('click', closeProfile);
     $$('.colist [data-p]', prof).forEach(b => b.addEventListener('click', () => openProfile(+b.dataset.p)));
     profileChart(js, $('.profile-chart', prof));
     const hasField = js.some(j => PAPERS[j].w[CI[S.f]] > 0);
@@ -757,9 +782,10 @@
 
   // ---------- render ----------
   function renderAll() {
+    rescope(S.qf);
     const F = field(S.f);
     chips.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', b.dataset.f === S.f));
-    setMetric(S.m); setRows(S.rows); setSort(S.sort);
+    setMetric(S.m); setQF(S.qf); setRows(S.rows); setSort(S.sort);
     const all = ranked(F);
     renderWindow(F); renderStats(F, all); renderHeat(F, all); renderNet(F, all); renderConc(F); renderConn(F); renderProfile();
     writeHash();
