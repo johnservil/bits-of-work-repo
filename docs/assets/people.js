@@ -11,6 +11,7 @@
   const MAIN = ['lattice', 'ecdlp', 'code', 'factoring', 'isogeny', 'mq'];
   const COLOR = { mlwe: 'lattice', lwe: 'lattice' };
   const col = k => `var(--s-${COLOR[k] || k})`;
+  const FIELD_TITLE = { lattice: 'Lattice', ecdlp: 'ECDLP', code: 'Syndrome-decoding', factoring: 'Factoring', isogeny: 'Isogeny', mq: 'Multivariate', mlwe: 'MLWE', lwe: 'Plain LWE' };
   const SHORT = { lattice: 'Lattices', ecdlp: 'ECDLP', code: 'Codes', factoring: 'Factoring', isogeny: 'Isogenies', mq: 'Multivariate', mlwe: 'MLWE', lwe: 'Plain LWE' };
   const PEOPLE = D.people, PAPERS = D.papers;
   const f1 = v => d3.format(',.1f')(Math.round((v + 1e-9) * 10) / 10);
@@ -200,6 +201,7 @@
     });
     const bg = g.append('g').attr('class', 'brush').call(brush);
     if (S.lo !== null) bg.call(brush.move, [x(lo), x(hi) + x.bandwidth()]);
+    $('#win-title').textContent = `${FIELD_TITLE[S.f]} papers by year`;
     $('#win-label').textContent = S.lo === null ? `· all years, ${F.first}–${Y1}` : `· ${lo}–${hi}`;
     $('#win-all').hidden = S.lo === null;
   }
