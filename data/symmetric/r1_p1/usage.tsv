@@ -147,3 +147,8 @@ batch_0133	anthropic/claude-sonnet-5.5	0	30147	7074	0.131034
 batch_0135	anthropic/claude-sonnet-5.5	0	21721	5482	0.098262
 batch_0127	anthropic/claude-sonnet-5.5	1	33198	8128	0.147676
 batch_0134	anthropic/claude-sonnet-5.5	0	25051	7368	0.123782
+batch_0007	anthropic/claude-sonnet-5.5	0	25889	6333	0.115108
+batch_0040	anthropic/claude-sonnet-5.5	0	29509	6710	0.126118
+batch_0059	anthropic/claude-sonnet-5.5	0	30243	6991	0.130396
+batch_0040	anthropic/claude-sonnet-5.5	0	36760	152	0.07504
+batch_0059	anthropic/claude-sonnet-5.5	0	37775	120	0.07675

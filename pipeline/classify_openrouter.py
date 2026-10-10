@@ -33,14 +33,23 @@ def spent():
             if f[0] != "batch": total += float(f[5])
     return total
 
-def call(batch_text):
+def call(messages):
     body = json.dumps({"model": MODEL, "max_tokens": 32000, "usage": {"include": True},
-                       "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": batch_text}]}).encode()
+                       "messages": [{"role": "system", "content": SYSTEM}] + messages}).encode()
     req = urllib.request.Request("https://openrouter.ai/api/v1/chat/completions", data=body, headers={
         "Authorization": f"Bearer {KEY}", "Content-Type": "application/json",
         "X-Title": "bits-of-work symmetric extension (John Servil)"})
     with urllib.request.urlopen(req, timeout=600) as r:
         return json.loads(r.read())
+
+def reply(messages, stem, attempt):
+    """One API call; logs its usage; returns the reply's JSON lines (JSONDecodeError if one fails to parse)."""
+    resp = call(messages)
+    u = resp.get("usage") or {}
+    with open(os.path.join(LABEL_DIR, "usage.tsv"), "a") as f:
+        f.write(f"{stem}\t{resp.get('model', MODEL)}\t{attempt}\t{u.get('prompt_tokens', 0)}\t{u.get('completion_tokens', 0)}\t{u.get('cost', 0)}\n")
+    content = (resp.get("choices") or [{}])[0].get("message", {}).get("content") or ""
+    return [json.loads(l) for l in content.splitlines() if l.strip().startswith("{")]
 
 def label(path):
     stem = os.path.basename(path)[:-4]
@@ -51,17 +60,17 @@ def label(path):
     for attempt in range(4):
         if spent() >= BUDGET: return f"{stem}: budget ${BUDGET:.2f} reached, not sent"
         try:
-            resp = call(text)
-        except (urllib.error.URLError, http.client.HTTPException, TimeoutError, ConnectionError, json.JSONDecodeError) as e:
+            rows = reply([{"role": "user", "content": text}], stem, attempt)
+            got = [r.get("id") for r in rows]
+            missing = [i for i in ids if i not in got]
+            if missing and set(got) <= set(ids):  # the subagents' self-check: ask once for the missing lines
+                rows += reply([{"role": "user", "content": text}, {"role": "assistant", "content": "\n".join(json.dumps(r, ensure_ascii=False) for r in rows)},
+                               {"role": "user", "content": "Your reply lacks labels for these ids: " + ", ".join(missing) + ". Reply with exactly those JSON lines and nothing else."}],
+                              stem, attempt)
+                got = [r.get("id") for r in rows]
+        except (urllib.error.URLError, http.client.HTTPException, TimeoutError, ConnectionError) as e:
             time.sleep(10 * 2 ** attempt); err = repr(e)[:200]; continue
-        u = resp.get("usage") or {}
-        with open(os.path.join(LABEL_DIR, "usage.tsv"), "a") as f:
-            f.write(f"{stem}\t{resp.get('model', MODEL)}\t{attempt}\t{u.get('prompt_tokens', 0)}\t{u.get('completion_tokens', 0)}\t{u.get('cost', 0)}\n")
-        content = (resp.get("choices") or [{}])[0].get("message", {}).get("content") or ""
-        rows = []
-        try: rows = [json.loads(l) for l in content.splitlines() if l.strip().startswith("{")]
         except json.JSONDecodeError as e: err = f"unparsable line: {e}"; continue
-        got = [r.get("id") for r in rows]
         if sorted(got) != sorted(ids):
             err = f"ids differ: {len(set(ids) - set(got))} missing, {len(set(got) - set(ids))} unknown, {len(got)} lines"; continue
         tmp = out + ".tmp"

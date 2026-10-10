@@ -44,7 +44,10 @@ field needed; agreement is computed by merge_pass2.py).
 system message is the section below for the pass, followed by the full text
 of pipeline/rubric.md; the user message is the batch file. It replaces the
 subagent's file reading and self-checks with the runner's own: every line
-must parse, and the ids must equal the batch's ids, else the call is retried.
+must parse, and the ids must equal the batch's ids. When a reply lacks some
+ids, the runner asks once, in the same conversation: "Your reply lacks labels
+for these ids: <ids>. Reply with exactly those JSON lines and nothing else."
+Any other mismatch, or a mismatch left after that, retries the call.
 
 ### API pass 1
 
