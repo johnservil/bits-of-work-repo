@@ -2,10 +2,18 @@
 """Export the combined included set (Phase 0 ePrint + Phase 1) to
 data/export/combined_included.csv (yes + borderline), one row per item, with
 headline-class attribution (fractional weights) and provenance columns.
+
+Version weights (data/dedup/version_weights.csv, pipeline/build_version_weights.py) are
+applied to the w_* class weights, so they are the weights the paper counts use: a preprint
+or duplicate record of a work already counted gets 0, a journal extension of a conference
+paper 1/3. The multiplier is in version_weight and the counted record in version_of.
 """
 import json, csv, os
 EXCL = set(json.load(open('data/manual_exclusions.json'))['items'])
 POL = json.load(open("pipeline/attribution.json")); FRAC = POL["fractional"]; CLASSES = POL["classes"]
+VW = {}
+if os.path.exists("data/dedup/version_weights.csv"):
+    VW = {r["id"]: r for r in csv.DictReader(open("data/dedup/version_weights.csv"))}
 
 def rows():
     for l in open("data/labeled_final.jsonl"):
@@ -20,7 +28,8 @@ def rows():
 
 os.makedirs("data/export", exist_ok=True)
 cols = ["id", "phase", "sources", "vetted", "year", "include", "category", "problem_tags", "layer", "params", "regime", "leakage",
-        "is_record", "quantum", "confidence", "label_source"] + [f"w_{c}" for c in CLASSES] + ["author_count", "authors", "title", "venue", "doi", "reason"]
+        "is_record", "quantum", "confidence", "label_source"] + [f"w_{c}" for c in CLASSES] + ["author_count", "authors", "title", "venue", "doi", "reason",
+        "version_weight", "version_of"]
 n = 0
 with open("data/export/combined_included.csv", "w", newline="") as f:
     w = csv.writer(f); w.writerow(cols)
@@ -31,11 +40,13 @@ with open("data/export/combined_included.csv", "w", newline="") as f:
         cw = {c: 0.0 for c in CLASSES}
         for t, wt in tags.items():
             for c, x in FRAC.get(t, {}).items(): cw[c] += wt / tot * x
+        vw = float(VW[rid]["weight"]) if rid in VW else 1.0
+        vof = VW[rid]["kept_id"] if rid in VW and VW[rid]["role"] != "kept" else ""
         vetted = phase == "eprint" or "dblp" in srcs or "eprint" in srcs
         w.writerow([rid, phase, "|".join(srcs), vetted, r.get("year"), L.get("include"), L.get("category"), json.dumps(tags),
                     L.get("layer"), "|".join(L.get("params") or []), L.get("regime"), L.get("leakage"), L.get("is_record"), L.get("quantum"),
-                    L.get("confidence"), r.get("label_source")] + [round(cw[c], 3) for c in CLASSES] +
+                    L.get("confidence"), r.get("label_source")] + [round(cw[c] * vw, 3) for c in CLASSES] +
                    [len(r.get("authors") or []), "; ".join(r.get("authors") or []), r.get("title"), r.get("venue") or r.get("category", ""),
-                    r.get("doi", ""), L.get("reason")])
+                    r.get("doi", ""), L.get("reason"), f"{vw:.4g}", vof])
         n += 1
 print(f"wrote {n} rows to data/export/combined_included.csv")

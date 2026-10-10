@@ -6,7 +6,7 @@
   const text = new Map(items.map(li => [li, (li.querySelector('.au').textContent + ' ' + li.querySelector('.ti').textContent + ' '
     + (li.querySelector('.ve') ? li.querySelector('.ve').textContent : '')).toLowerCase()]));
   const years = $$('section.yr');
-  const q = $('#q'), vet = $('#vetted'), shown = $('#shown');
+  const q = $('#q'), vet = $('#vetted'), peer = $('#peer'), shown = $('#shown');
   const active = new Set();
 
   function apply() {
@@ -15,6 +15,7 @@
     for (const li of items) {
       const cls = li.dataset.c.split(' ');
       const ok = (!vet.checked || li.dataset.v === 'yes')
+        && (!peer.checked || li.dataset.p === 'yes')
         && (!active.size || cls.some(c => active.has(c)))
         && terms.every(t => text.get(li).includes(t));
       li.hidden = !ok; n += ok;
@@ -30,6 +31,7 @@
   let t;
   q.addEventListener('input', () => { clearTimeout(t); t = setTimeout(apply, 120); });
   vet.addEventListener('change', apply);
+  peer.addEventListener('change', apply);
   $('#chips').addEventListener('click', e => {
     const b = e.target.closest('.chip'); if (!b) return;
     const c = b.dataset.c;

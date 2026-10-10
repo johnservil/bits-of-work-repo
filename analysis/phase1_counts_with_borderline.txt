@@ -1,92 +1,92 @@
 labeled rows: 16468 (ePrint 5106, Phase 1 11362)
 
-== ePrint only (Phase 0 + isogeny supplement): 1104 effort items (A-F,H); borderline counted: True
+== ePrint only (Phase 0 + isogeny supplement): 1072 effort items (A-F,H); borderline counted: True
 class                  frac  touch  authors  pre2006    06-16    17-26  categories
-ECDLP                 128.5    162      305     13.6     63.7     51.2  A:73 B:23 C:28 D:15 E:7 F:15 H:1
-MLWE_structured       213.1    355      492      2.6     60.2    150.4  A:163 B:31 C:86 D:57 E:5 F:6 H:7
-LWE_plain             170.3    304      448      0.4     39.4    130.4  A:180 B:28 C:26 D:54 E:4 F:6 H:6
-SD_code               144.9    170      288      0.0     32.3    112.6  A:72 B:11 C:60 D:18 E:5 F:2 H:2
-Factoring_FFDLP       200.8    231      362      9.0    105.7     86.1  A:103 B:15 C:62 D:14 E:20 F:16 H:1
-Isogeny                78.6     81      161      0.0      1.0     77.6  A:29 B:9 C:35 D:5 E:1 F:2
-Multivariate          108.9    119      172      8.0     31.7     69.2  A:38 C:60 D:17 F:2 H:2
-ALL LATTICES          383.5    399      549      3.0     99.7    280.8
+ECDLP                 125.2    157      299     13.6     61.4     50.2  A:72 B:22 C:27 D:14 E:6 F:15 H:1
+MLWE_structured       208.1    347      485      2.6     58.6    147.0  A:160 B:29 C:84 D:57 E:5 F:5 H:7
+LWE_plain             166.1    296      441      0.4     37.8    127.8  A:176 B:26 C:25 D:54 E:4 F:5 H:6
+SD_code               141.9    166      283      0.0     29.3    112.6  A:69 B:11 C:59 D:18 E:5 F:2 H:2
+Factoring_FFDLP       192.4    221      358      9.0     97.3     86.1  A:97 B:15 C:61 D:13 E:18 F:16 H:1
+Isogeny                75.6     78      155      0.0      0.0     75.6  A:27 B:8 C:35 D:5 E:1 F:2
+Multivariate          105.9    116      170      8.0     29.7     68.2  A:38 C:60 D:15 F:2 H:1
+ALL LATTICES          374.2    389      542      3.0     96.4    274.8
 
-== Phase 1 new items only: 2427 effort items (A-F,H); borderline counted: True
+== Phase 1 new items only: 2367 effort items (A-F,H); borderline counted: True
 class                  frac  touch  authors  pre2006    06-16    17-26  categories
-ECDLP                 412.5    495      729     96.1    165.8    150.6  A:262 B:60 C:108 D:17 E:11 F:35 H:2
-MLWE_structured       379.2    618      916     39.5    109.1    230.6  A:360 B:60 C:101 D:82 E:7 F:7 H:1
-LWE_plain             248.9    490      745     23.1     62.9    162.9  A:337 B:48 C:26 D:64 E:6 F:8 H:1
-SD_code               258.8    288      429     35.3     69.0    154.4  A:117 B:26 C:111 D:25 E:4 F:4 H:1
-Factoring_FFDLP       812.2    897     1411    230.8    294.9    286.6  A:623 B:118 C:28 D:41 E:39 F:46 H:2
-Isogeny                37.4     43       99      0.0      2.7     34.7  A:15 B:13 C:11 D:4
-Multivariate           95.3    104      153     11.0     45.0     39.3  A:45 B:6 C:40 D:13
-ALL LATTICES          628.1    654      978     62.6    172.0    393.5
+ECDLP                 399.1    480      725     95.8    158.8    144.4  A:256 B:55 C:108 D:17 E:11 F:34 H:2
+MLWE_structured       364.2    595      902     39.1    104.8    220.3  A:348 B:59 C:97 D:80 E:6 F:7 H:1
+LWE_plain             242.2    475      731     22.8     59.3    160.1  A:327 B:47 C:26 D:62 E:5 F:8 H:1
+SD_code               251.8    281      426     35.3     65.0    151.4  A:116 B:25 C:107 D:25 E:4 F:3 H:1
+Factoring_FFDLP       798.5    882     1406    230.1    287.9    280.6  A:613 B:117 C:28 D:39 E:39 F:45 H:2
+Isogeny                36.4     42       96      0.0      2.7     33.7  A:15 B:13 C:10 D:4
+Multivariate           90.3     98      152      9.0     45.0     36.3  A:40 B:6 C:39 D:13
+ALL LATTICES          606.4    631      965     61.9    164.0    380.4
 
-== COMBINED, all sources: 3531 effort items (A-F,H); borderline counted: True
+== COMBINED, all sources: 3439 effort items (A-F,H); borderline counted: True
 class                  frac  touch  authors  pre2006    06-16    17-26  categories
-ECDLP                 541.0    657      941    109.7    229.5    201.8  A:335 B:83 C:136 D:32 E:18 F:50 H:3
-MLWE_structured       592.3    973     1238     42.0    169.3    381.0  A:523 B:91 C:187 D:139 E:12 F:13 H:8
-LWE_plain             419.2    794     1052     23.6    102.3    293.3  A:517 B:76 C:52 D:118 E:10 F:14 H:7
-SD_code               403.7    458      630     35.3    101.3    267.0  A:189 B:37 C:171 D:43 E:9 F:6 H:3
-Factoring_FFDLP      1013.0   1128     1666    239.8    400.5    372.7  A:726 B:133 C:90 D:55 E:59 F:62 H:3
-Isogeny               116.0    124      229      0.0      3.7    112.3  A:44 B:22 C:46 D:9 E:1 F:2
-Multivariate          204.2    223      272     19.0     76.7    108.5  A:83 B:6 C:100 D:30 F:2 H:2
-ALL LATTICES         1011.5   1053     1339     65.6    271.6    674.3
+ECDLP                 524.3    637      935    109.4    220.2    194.6  A:328 B:77 C:135 D:31 E:17 F:49 H:3
+MLWE_structured       572.2    942     1228     41.7    163.3    367.2  A:508 B:88 C:181 D:137 E:11 F:12 H:8
+LWE_plain             408.3    771     1042     23.3     97.0    288.0  A:503 B:73 C:51 D:116 E:9 F:13 H:7
+SD_code               393.7    447      625     35.3     94.3    264.0  A:185 B:36 C:166 D:43 E:9 F:5 H:3
+Factoring_FFDLP       990.9   1103     1662    239.1    385.1    366.7  A:710 B:132 C:89 D:52 E:57 F:61 H:3
+Isogeny               112.0    120      228      0.0      2.7    109.3  A:42 B:21 C:45 D:9 E:1 F:2
+Multivariate          196.2    214      272     17.0     74.7    104.5  A:78 B:6 C:99 D:28 F:2 H:1
+ALL LATTICES          980.5   1020     1330     64.9    260.4    655.2
 
-== COMBINED, vetted (ePrint + DBLP-indexed): 2262 effort items (A-F,H); borderline counted: True
+== COMBINED, vetted (ePrint + DBLP-indexed): 2179 effort items (A-F,H); borderline counted: True
 class                  frac  touch  authors  pre2006    06-16    17-26  categories
-ECDLP                 314.4    388      579     61.6    141.7    111.2  A:195 B:49 C:70 D:22 E:15 F:34 H:3
-MLWE_structured       416.7    695      895     28.0    114.3    274.5  A:373 B:61 C:141 D:96 E:8 F:9 H:7
-LWE_plain             319.1    583      782     14.6     78.7    225.8  A:380 B:49 C:45 D:86 E:7 F:10 H:6
-SD_code               294.4    338      474     20.1     70.1    204.2  A:146 B:25 C:118 D:33 E:7 F:6 H:3
-Factoring_FFDLP       477.3    548      760    107.7    206.3    163.4  A:334 B:37 C:72 D:30 E:39 F:35 H:1
-Isogeny               102.6    109      203      0.0      3.7     98.9  A:39 B:19 C:41 D:7 E:1 F:2
-Multivariate          166.1    180      226     14.0     59.4     92.7  A:69 B:2 C:83 D:22 F:2 H:2
-ALL LATTICES          735.8    763      979     42.6    193.0    500.2
+ECDLP                 299.9    371      574     61.6    133.4    105.0  A:189 B:45 C:69 D:21 E:14 F:33 H:3
+MLWE_structured       397.9    666      877     27.7    109.5    260.7  A:359 B:58 C:135 D:95 E:7 F:8 H:7
+LWE_plain             308.9    562      770     14.3     74.1    220.5  A:367 B:46 C:44 D:85 E:6 F:9 H:6
+SD_code               284.4    327      467     20.1     63.1    201.2  A:142 B:24 C:113 D:33 E:7 F:5 H:3
+Factoring_FFDLP       460.0    528      757    107.7    194.9    157.5  A:321 B:37 C:71 D:28 E:37 F:34 H:1
+Isogeny                98.6    105      199      0.0      2.7     95.9  A:37 B:18 C:40 D:7 E:1 F:2
+Multivariate          158.1    171      224     12.0     57.4     88.7  A:64 B:2 C:82 D:20 F:2 H:1
+ALL LATTICES          706.8    732      962     41.9    183.7    481.2
 
-== COMBINED, all sources, classifier confidence >= 0.6: 2699 effort items (A-F,H); borderline counted: True
+== COMBINED, all sources, classifier confidence >= 0.6: 2608 effort items (A-F,H); borderline counted: True
 class                  frac  touch  authors  pre2006    06-16    17-26  categories
-ECDLP                 426.4    509      734     91.3    185.2    149.8  A:275 B:73 C:85 D:18 E:18 F:37 H:3
-MLWE_structured       465.1    786      976     32.5    122.3    310.3  A:458 B:81 C:117 D:99 E:12 F:11 H:8
-LWE_plain             356.3    663      861     21.1     90.0    245.1  A:458 B:66 C:21 D:89 E:10 F:12 H:7
-SD_code               295.9    333      466     21.1     80.5    194.3  A:151 B:32 C:113 D:24 E:7 F:4 H:2
-Factoring_FFDLP       726.1    810     1127    197.0    288.1    241.1  A:528 B:85 C:64 D:35 E:57 F:38 H:3
-Isogeny                80.9     82      160      0.0      2.0     78.9  A:28 B:17 C:29 D:5 E:1 F:2
-Multivariate          174.3    190      223     14.0     67.7     92.6  A:75 B:5 C:85 D:22 F:2 H:1
-ALL LATTICES          821.4    846     1054     53.6    212.4    555.4
+ECDLP                 409.6    489      728     91.0    175.9    142.6  A:268 B:67 C:84 D:17 E:17 F:36 H:3
+MLWE_structured       445.8    756      966     32.2    116.3    297.4  A:444 B:78 C:111 D:97 E:11 F:10 H:8
+LWE_plain             345.3    640      851     20.8     84.7    239.8  A:444 B:63 C:20 D:87 E:9 F:11 H:7
+SD_code               285.9    322      460     21.1     73.5    191.3  A:147 B:31 C:108 D:24 E:7 F:3 H:2
+Factoring_FFDLP       704.1    785     1123    196.3    272.7    235.1  A:512 B:84 C:63 D:32 E:55 F:37 H:3
+Isogeny                76.9     78      158      0.0      1.0     75.9  A:26 B:16 C:28 D:5 E:1 F:2
+Multivariate          166.3    181      223     12.0     65.7     88.6  A:70 B:5 C:84 D:20 F:2
+ALL LATTICES          791.2    814     1045     52.9    201.1    537.2
 
-== COMBINED, vetted, confidence >= 0.6 (most conservative): 1868 effort items (A-F,H); borderline counted: True
+== COMBINED, vetted, confidence >= 0.6 (most conservative): 1786 effort items (A-F,H); borderline counted: True
 class                  frac  touch  authors  pre2006    06-16    17-26  categories
-ECDLP                 266.8    322      494     54.7    121.7     90.5  A:172 B:46 C:43 D:16 E:15 F:27 H:3
-MLWE_structured       354.1    601      760     23.5     92.6    238.1  A:347 B:55 C:97 D:79 E:8 F:8 H:7
-LWE_plain             281.1    511      670     14.1     71.1    196.0  A:355 B:42 C:20 D:72 E:7 F:9 H:6
-SD_code               225.9    257      370     11.4     56.5    158.0  A:119 B:22 C:85 D:19 E:6 F:4 H:2
-Factoring_FFDLP       393.8    449      604     95.7    172.9    125.3  A:276 B:31 C:56 D:21 E:39 F:25 H:1
-Isogeny                75.9     77      156      0.0      2.0     73.9  A:25 B:15 C:29 D:5 E:1 F:2
-Multivariate          146.2    157      189     11.0     53.4     81.8  A:61 B:2 C:72 D:19 F:2 H:1
-ALL LATTICES          635.3    654      827     37.6    163.7    434.0
+ECDLP                 252.4    305      489     54.7    113.4     84.3  A:166 B:42 C:42 D:15 E:14 F:26 H:3
+MLWE_structured       336.1    573      742     23.2     87.8    225.1  A:334 B:52 C:91 D:78 E:7 F:7 H:7
+LWE_plain             271.0    490      658     13.8     66.5    190.7  A:342 B:39 C:19 D:71 E:6 F:8 H:6
+SD_code               215.9    246      362     11.4     49.5    155.0  A:115 B:21 C:80 D:19 E:6 F:3 H:2
+Factoring_FFDLP       376.5    429      601     95.7    161.5    119.3  A:263 B:31 C:55 D:19 E:37 F:24 H:1
+Isogeny                71.9     73      151      0.0      1.0     70.9  A:23 B:14 C:28 D:5 E:1 F:2
+Multivariate          138.2    148      187      9.0     51.4     77.8  A:56 B:2 C:71 D:17 F:2
+ALL LATTICES          607.1    624      810     36.9    154.4    415.8
 
-== COMBINED + tier-B extrapolation (sample items weighted x10.00; author counts not extrapolated): 3531 effort items (A-F,H); borderline counted: True
+== COMBINED + tier-B extrapolation (sample items weighted x10.00; author counts not extrapolated): 3439 effort items (A-F,H); borderline counted: True
 class                  frac  touch  authors  pre2006    06-16    17-26  categories
-ECDLP                 550.0    666      941    109.7    238.5    201.8  A:335 B:83 C:136 D:32 E:18 F:50 H:3
-MLWE_structured       671.5   1117     1238     46.5    196.3    428.7  A:523 B:91 C:187 D:139 E:12 F:13 H:8
-LWE_plain             484.1    938     1052     28.1    129.3    326.6  A:517 B:76 C:52 D:118 E:10 F:14 H:7
-SD_code               435.2    494      630     35.3    101.3    298.5  A:189 B:37 C:171 D:43 E:9 F:6 H:3
-Factoring_FFDLP      1049.0   1164     1666    257.8    400.5    390.7  A:726 B:133 C:90 D:55 E:59 F:62 H:3
-Isogeny               116.0    124      229      0.0      3.7    112.3  A:44 B:22 C:46 D:9 E:1 F:2
-Multivariate          204.2    223      272     19.0     76.7    108.5  A:83 B:6 C:100 D:30 F:2 H:2
-ALL LATTICES         1155.6   1197     1339     74.6    325.7    755.3
+ECDLP                 533.3    646      935    109.4    229.2    194.6  A:328 B:77 C:135 D:31 E:17 F:49 H:3
+MLWE_structured       651.5   1086     1228     46.2    190.3    415.0  A:508 B:88 C:181 D:137 E:11 F:12 H:8
+LWE_plain             473.1    915     1042     27.8    124.0    321.3  A:503 B:73 C:51 D:116 E:9 F:13 H:7
+SD_code               425.2    483      625     35.3     94.3    295.5  A:185 B:36 C:166 D:43 E:9 F:5 H:3
+Factoring_FFDLP      1026.9   1139     1662    257.1    385.1    384.7  A:710 B:132 C:89 D:52 E:57 F:61 H:3
+Isogeny               112.0    120      228      0.0      2.7    109.3  A:42 B:21 C:45 D:9 E:1 F:2
+Multivariate          196.2    214      272     17.0     74.7    104.5  A:78 B:6 C:99 D:28 F:2 H:1
+ALL LATTICES         1124.6   1164     1330     73.9    314.4    736.3
 
-== COMBINED vetted + tier-B extrapolation (x10.00): 2262 effort items (A-F,H); borderline counted: True
+== COMBINED vetted + tier-B extrapolation (x10.00): 2179 effort items (A-F,H); borderline counted: True
 class                  frac  touch  authors  pre2006    06-16    17-26  categories
-ECDLP                 314.4    388      579     61.6    141.7    111.2  A:195 B:49 C:70 D:22 E:15 F:34 H:3
-MLWE_structured       467.2    794      895     32.5    127.8    306.9  A:373 B:61 C:141 D:96 E:8 F:9 H:7
-LWE_plain             367.7    682      782     19.1     92.2    256.4  A:380 B:49 C:45 D:86 E:7 F:10 H:6
-SD_code               316.9    365      474     20.1     70.1    226.7  A:146 B:25 C:118 D:33 E:7 F:6 H:3
-Factoring_FFDLP       495.4    566      760    116.7    206.3    172.4  A:334 B:37 C:72 D:30 E:39 F:35 H:1
-Isogeny               102.6    109      203      0.0      3.7     98.9  A:39 B:19 C:41 D:7 E:1 F:2
-Multivariate          166.1    180      226     14.0     59.4     92.7  A:69 B:2 C:83 D:22 F:2 H:2
-ALL LATTICES          834.8    862      979     51.6    220.0    563.3
+ECDLP                 299.9    371      574     61.6    133.4    105.0  A:189 B:45 C:69 D:21 E:14 F:33 H:3
+MLWE_structured       448.3    765      877     32.2    123.0    293.1  A:359 B:58 C:135 D:95 E:7 F:8 H:7
+LWE_plain             357.5    661      770     18.8     87.6    251.1  A:367 B:46 C:44 D:85 E:6 F:9 H:6
+SD_code               306.9    354      467     20.1     63.1    223.7  A:142 B:24 C:113 D:33 E:7 F:5 H:3
+Factoring_FFDLP       478.0    546      757    116.7    194.9    166.5  A:321 B:37 C:71 D:28 E:37 F:34 H:1
+Isogeny                98.6    105      199      0.0      2.7     95.9  A:37 B:18 C:40 D:7 E:1 F:2
+Multivariate          158.1    171      224     12.0     57.4     88.7  A:64 B:2 C:82 D:20 F:2 H:1
+ALL LATTICES          805.8    831      962     50.9    210.7    544.2
 
 Phase 1 items labeled E or is_record:
   1975  factoring                A method of factoring and the factorization of 𝐹₇

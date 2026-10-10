@@ -25,11 +25,30 @@ EFFORT_CATS = set('ABCDEFH')  # same inclusion rule as analysis/phase1_counts.py
 Y0, Y1 = 1970, 2026
 
 
+PEER_KINDS = {'journal', 'conference', 'workshop'}
+
+
+def peer_reviewed_ids():
+    """Counted ids that appeared in a refereed journal or conference (data/venues/published_venues.csv).
+
+    refereed = yes (registered venue) or likely (refereed by source record type, venue not registered),
+    and venue_kind journal/conference/workshop. Theses, book chapters, preprints and unresolved items
+    are excluded. Venue quality is not assessed.
+    """
+    p = ROOT / 'data/venues/published_venues.csv'
+    if not p.exists():
+        return None
+    return {r['id'] for r in csv.DictReader(p.open())
+            if r['refereed'] in ('yes', 'likely') and r['venue_kind'] in PEER_KINDS}
+
+
 def paper_counts():
     """Full-corpus totals and dated chart series have deliberately different scopes."""
     rows = list(csv.DictReader((ROOT / 'data/export/combined_included.csv').open()))
     groups = [(k, cols) for k, _, cols, _ in CLASSES] + list(SUB_COLS.items())
-    out = {v: {k: [0.0] * (Y1 - Y0 + 1) for k, _ in groups} for v in ('all', 'vetted')}
+    peer = peer_reviewed_ids()
+    views = ('all', 'vetted') + (('peer',) if peer is not None else ())
+    out = {v: {k: [0.0] * (Y1 - Y0 + 1) for k, _ in groups} for v in views}
     totals = {v: {k: [] for k, _ in groups} for v in out}
     counts = {'export_total': len(rows),
               'included': sum(r['include'] == 'yes' for r in rows),
@@ -39,6 +58,7 @@ def paper_counts():
         if r['include'] != 'yes' or r['category'] not in EFFORT_CATS:
             continue
         counts['effort_items'] += 1
+        counts['effort_works'] = counts.get('effort_works', 0) + (float(r.get('version_weight') or 1) > 0)
         y = int(r['year']) if r['year'] else None
         chart_year = y is not None and Y0 <= y <= Y1
         counts['effort_without_chart_year'] += not chart_year
@@ -51,6 +71,10 @@ def paper_counts():
                 totals['vetted'][key].append(w)
                 if chart_year:
                     out['vetted'][key][y - Y0] += w
+            if peer is not None and r['id'] in peer:
+                totals['peer'][key].append(w)
+                if chart_year:
+                    out['peer'][key][y - Y0] += w
     series = {v: {k: [round(x, 2) for x in s] for k, s in d.items()} for v, d in out.items()}
     totals = {v: {k: math.fsum(s) for k, s in d.items()} for v, d in totals.items()}
     return series, totals, counts
@@ -192,7 +216,7 @@ def main():
         'papers': paper_series,
         'paper_totals': paper_totals,
         'corpus_counts': corpus_counts,
-        'source_labels': {'all': 'All sources', 'vetted': 'ePrint / DBLP subset'},
+        'source_labels': {'all': 'All sources', 'vetted': 'ePrint / DBLP subset', 'peer': 'Peer-reviewed venue'},
         'fte': fte(),
         'problems': problems(),
         'gaps': GAPS,

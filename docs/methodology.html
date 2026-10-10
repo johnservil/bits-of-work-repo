@@ -22,7 +22,7 @@
 </div></header>
 <nav class="rail" id="rail" aria-hidden="true"></nav>
 <div id="top" class="titlepage">
-  <div class="kicker">technical companion &middot; working draft &middot; 9 October 2026</div>
+  <div class="kicker">technical companion &middot; working draft &middot; 10 October 2026</div>
   <h1 class="title">How the numbers<br><em>are made</em></h1>
   <p class="subtitle">Definitions, assumptions, implementation details and unresolved problems</p>
   <p class="method-return"><a href="index.html">Back to the readable summary</a> &middot;
@@ -85,6 +85,16 @@
 <p>Changed titles and translations can survive as duplicates. Shared title prefixes can merge distinct works.
   Non-Latin titles can be poorly represented. A long abstract need not be the correct abstract. DBLP's early position
   in acquisition affects which author/venue metadata survive. These decisions propagate into both counts and identities.</p>
+<p>A later venue-resolution pass (below) measured this. It linked counted records to their DBLP, Crossref,
+  zbMATH and OpenAlex versions, including retitled ones, and found <strong>99 groups of counted records that are
+  versions of the same work</strong>, each confirmed by a model review: 102 extra records in all. Most are an ePrint
+  paper plus its conference or journal version whose titles differ, so the title-based merge missed them. Ten are a
+  conference paper plus its journal version, a case the counting rules do not settle. Counting each group once would
+  lower class weights by 2.5% (factoring/FF-DLP) to 5.2% (multivariate). Lattices fall 3.8% and ECDLP 3.7%, so the
+  lattice/ECDLP ratio is nearly unchanged. Only pairs that DBLP or OpenAlex could link were found, so these are lower
+  bounds. The published paper counts now apply these groups as version weights (see “Why the totals do not all add
+  up”): 92 records get weight zero and 9 journal extensions count one third. One borderline group keeps full weight.
+  The author-map allocation years are not yet deduplicated.</p>
 <p class="method-source">Inspect:
   <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/phase1_report.md">acquisition report</a>,
   <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/merge_sources.py">source merge</a>,
@@ -158,8 +168,10 @@
   division of research benefit.</p>
 <h3>Why the totals do not all add up</h3>
 <p>The export has <strong>4,349 records = 3,520 yes + 829 borderline</strong>. Of the yes records, 2,877 are in the
-  main effort categories, 333 are G and 310 are S. The 2,877 effort items allocate only about 2,698.9 fractional
-  items across the seven disjoint headline classes; 134 have no headline weight. Missing mappings and deliberately
+  main effort categories, 333 are G and 310 are S. Each work counts once: where several counted records are versions of one work, the earliest counted version
+  keeps weight one, other preprint, repository and duplicate copies get weight zero, and a journal extension of a
+  conference paper counts one third. That leaves 2,785 counted works, which allocate about 2,607.1 fractional items
+  after version weights across the seven disjoint headline classes; 130 of the 2,785 counted works have no headline weight. Missing mappings and deliberately
   partial allocations explain why “items in the corpus” is not the sum of the class rows.</p>
 <p>The website's annual paper series cover 1970–2026. They omit an undated ECDLP item and Prange's 1962 decoding paper,
   each with class weight one. The summary table uses full-corpus totals and retains them. Annual values are rounded
@@ -174,6 +186,19 @@
   counting script recognizes round-two ePrint-only source lists, while the export also accepts mixed-source lists
   containing ePrint. Ten main-view records differ. This adds 1.5 ECDLP, 1.0 combined lattice and 7.5 factoring/FF-DLP
   fractional items to the website subset relative to the older report. All-sources headline counts are unaffected.</p>
+<p>The “peer-reviewed” view keeps counted items that also appeared in a refereed journal or conference. It is a
+  peer-review filter, not a quality ranking: venue reputation is not assessed. For each item a resolver combines,
+  in order of trust, DBLP (the record itself, same-title records with a shared author, and retitled versions), the
+  Crossref record for the item's DOI, zbMATH, OpenAlex locations and the ePrint page's “Publication info”. Uncertain
+  retitled matches were checked by a model review. An item counts as peer-reviewed if its venue is a registered
+  refereed venue, or the source records it as a journal article or conference paper. Theses, edited-book chapters,
+  preprint-only items and unresolved items are excluded. 2,066 of the 2,785 counted works qualify (72–75% of each
+  class's version-weighted count).
+  Also counting the 27 weakly matched items, the 40 unresolved items and book chapters as peer-reviewed raises class shares by at most six points;
+  the lattice/ECDLP ratio is 1.80 for all works, 1.80 peer-reviewed and 1.73 under that generous reading. Venues are
+  not screened, so a weak journal counts like a strong one. For 281 ePrint papers no published version was found;
+  some are probably retitled versions the matching missed. The current year falls off because most of its preprints
+  are not yet published (36% for 2026, against 71–82% for 2019–2024).</p>
 <p>The often-quoted lattice/ECDLP span of roughly 1.3–2.6 mixes author counts, paper counts, source restrictions and
   sampling assumptions. Its endpoints are not uncertainty quantiles for one well-defined estimator.</p>
 <p class="method-source">Inspect:
@@ -582,7 +607,7 @@
 <tr><td>Unallocated tags</td><td>Rank/other contribute nothing, LPN contributes half, rsa_variant is unmapped.</td><td>Decide the intended population before changing attribution weights.</td></tr>
 <tr><td>Problem chronology and AI work</td><td>Some displayed “years” are assigned to AI-assisted publications; dates are unaudited.</td><td>Define result-specific historical cutoffs and audit provenance and variants.</td></tr>
 <tr><td>Cost selection</td><td>Successful-run costs omit failures; human and AI outputs differ.</td><td>Complete attempt ledgers and matched deliverables, without assuming cross-field transfer.</td></tr>
-<tr><td>Duplicates and identity errors</td><td>Title heuristics and unresolved names can overmerge or oversplit.</td><td>Trace high-impact records and author matches to stable identifiers.</td></tr>
+<tr><td>Duplicates and identity errors</td><td>Title heuristics and unresolved names can overmerge or oversplit. Venue resolution confirmed 99 same-work groups (102 extra records); paper counts now use version weights, but the author-map allocation years do not, and only DBLP/OpenAlex-linkable pairs were found.</td><td>Rerun the author map with version weights, and trace remaining records and author matches to stable identifiers.</td></tr>
 <tr><td>Computational extrapolation</td><td>Most records lack human verification; model units and hardware ratios differ.</td><td>Verify records, make memory/operation units explicit and test alternate models.</td></tr>
 </tbody></table></div>
 <p>The scope audit's 45 keyword-selected records are not 45 errors. Most fit the deliberately broad hint-model or

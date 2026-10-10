@@ -17,6 +17,12 @@ import json, sys, collections, os
 EXCL = set(json.load(open('data/manual_exclusions.json'))['items'])
 BORDER = "--borderline" in sys.argv
 POL = json.load(open("pipeline/attribution.json"))
+# version weights: preprints/duplicates of a counted work 0, journal extensions 1/3
+# (pipeline/build_version_weights.py); ids not listed count 1
+VW = {}
+if os.path.exists("data/dedup/version_weights.csv"):
+    import csv
+    VW = {r["id"]: float(r["weight"]) for r in csv.DictReader(open("data/dedup/version_weights.csv"))}
 CLASSES = POL["classes"]; FRAC = POL["fractional"]; EFF = set(POL["effort_categories"])
 LAT = {"MLWE_structured", "LWE_plain"}
 
@@ -57,7 +63,9 @@ def table(sel, title, tb_weight=1.0):
     for r in sel:
         L = r["label"]
         if not ok(r) or L.get("category") not in EFF: continue
-        n += 1; W = tb_weight if r.get("_tierB") else 1.0
+        vw = VW.get(r["_id"], 1.0)
+        if vw == 0: continue
+        n += 1; W = (tb_weight if r.get("_tierB") else 1.0) * vw
         tags = L.get("problem_tags") or {}; tot = sum(tags.values()) or 1.0; touched = set()
         for t, w in tags.items():
             for c, cw in FRAC.get(t, {}).items():

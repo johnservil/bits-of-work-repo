@@ -290,18 +290,19 @@
     const ec = D.fte.ecdlp.fte_cum[last];
     const row = (k, sub) => {
       const p = D.paper_totals.all[k], pv = D.paper_totals.vetted[k], f = D.fte[k].fte_cum[last];
+      const pr = D.paper_totals.peer ? D.paper_totals.peer[k] : NaN;
       const rate = sum(D.fte[k].fte.slice(rec)) / (last - rec + 1);
       const sw = sub ? '' : `<span class="sw" style="background:${col(k)}"></span>`;
-      return `<tr><td class="${sub ? 'sub' : ''}">${sw}${LABEL[k]}</td><td>${fmt.n1(p)}</td><td>${fmt.n1(pv)}</td><td>${fmt.n0(f)}</td><td>${fmt.n0(rate)}</td><td>${(f / ec).toFixed(2)}</td></tr>`;
+      return `<tr><td class="${sub ? 'sub' : ''}">${sw}${LABEL[k]}</td><td>${fmt.n1(p)}</td><td>${fmt.n1(pv)}</td><td>${Number.isFinite(pr) ? fmt.n1(pr) : '&ndash;'}</td><td>${fmt.n0(f)}</td><td>${fmt.n0(rate)}</td><td>${(f / ec).toFixed(2)}</td></tr>`;
     };
-    t.innerHTML = `<thead><tr><th></th><th colspan="2" style="text-align:center">Research items</th><th colspan="3" style="text-align:center">Estimated allocation years</th></tr>
-      <tr><th>Class</th><th>all</th><th>ePrint/DBLP</th><th>cumulative</th><th>per yr, 2022&ndash;26</th><th>&divide; ECDLP</th></tr></thead><tbody>` +
+    t.innerHTML = `<thead><tr><th></th><th colspan="3" style="text-align:center">Research items</th><th colspan="3" style="text-align:center">Estimated allocation years</th></tr>
+      <tr><th>Class</th><th>all</th><th>ePrint/DBLP</th><th>peer-reviewed</th><th>cumulative</th><th>per yr, 2022&ndash;26</th><th>&divide; ECDLP</th></tr></thead><tbody>` +
       row('ecdlp') + row('lattice') + row('mlwe', true) + row('lwe', true) + row('code') +
-      `<tr class="midrule"><td colspan="6" style="padding:0"></td></tr>` + row('factoring') + row('isogeny') + row('mq') + '</tbody>';
+      `<tr class="midrule"><td colspan="7" style="padding:0"></td></tr>` + row('factoring') + row('isogeny') + row('mq') + '</tbody>';
     const kp = document.querySelector('[data-kf="ratio"]');
     if (kp) kp.firstChild.textContent = (D.fte.lattice.fte_cum[last] / ec).toFixed(1);
     const paperCount = document.querySelector('[data-kf="papers"]');
-    if (paperCount) paperCount.textContent = fmt.n0(D.corpus_counts.effort_items);
+    if (paperCount) paperCount.textContent = fmt.n0(D.corpus_counts.effort_works ?? D.corpus_counts.effort_items);
   })();
 
   // ---------- Figure: frontier gaps ----------

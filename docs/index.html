@@ -65,7 +65,7 @@
 </div>
 
 <section class="keyfigs" aria-label="Key figures">
-  <div class="keyfig"><div class="v" data-kf="papers">2,877</div><div class="k"><span class="caps">Corpus</span>items in the main effort view</div></div>
+  <div class="keyfig"><div class="v" data-kf="papers">2,785</div><div class="k"><span class="caps">Corpus</span>works in the main effort view</div></div>
   <div class="keyfig"><div class="v">~3,240</div><div class="k"><span class="caps">People</span>estimated distinct author identities</div></div>
   <div class="keyfig"><div class="v" data-kf="ratio">1.7<small>&times;</small></div><div class="k"><span class="caps">Lattices / ECDLP</span>estimated research-allocation years</div></div>
   <div class="keyfig"><div class="v">2<sup style="font-size:.5em">69</sup></div><div class="k"><span class="caps">P-256 gap</span>work beyond the largest public solve</div></div>
@@ -115,12 +115,15 @@
     <div class="fig-head">
       <div class="fig-title">Papers per year</div>
       <div class="seg" data-ctl="mode"><button data-v="annual" aria-pressed="true">annual</button><button data-v="cumulative">cumulative</button></div>
-      <div class="seg" data-ctl="src"><button data-v="all" aria-pressed="true">all sources</button><button data-v="vetted">ePrint / DBLP</button></div>
+      <div class="seg" data-ctl="src"><button data-v="all" aria-pressed="true">all sources</button><button data-v="vetted">ePrint / DBLP</button><button data-v="peer">peer-reviewed</button></div>
     </div>
     <div class="chart"></div>
     <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
     <figcaption>Cryptanalytic research items by assumption class, fractional counts. Annual values are a centered three-year
       mean; 2026 is incomplete. <em>ePrint / DBLP</em> restricts sources, not correctness or peer-review status.
+      <em>Peer-reviewed</em> keeps items that also appeared in a refereed journal or conference (theses,
+      book chapters and preprint-only items are dropped); venue quality is not assessed, and the current year
+      falls off because most of its preprints are not yet published.
       Items without a year or outside the plotted period are omitted from this figure. Click a legend entry to hide a series.</figcaption>
   </figure>
 
@@ -133,7 +136,8 @@
 
   <div class="tablewrap" id="tab-summary">
     <div class="tcap">Visible effort by assumption class. Fractional item counts (include = yes, effort categories);
-      estimated allocation years from the author map. Totals include items missing from the dated chart.</div>
+      <em>peer-reviewed</em> counts items that also appeared in a refereed journal or conference (venue quality not
+      assessed); estimated allocation years from the author map. Totals include items missing from the dated chart.</div>
     <table class="booktabs"></table>
   </div>
 </section>
@@ -374,7 +378,8 @@
   <!-- CONTENT -->
   <p><span class="sc">Corpus.</span> IACR ePrint and DBLP harvests, OpenAlex phrase searches and citation expansion,
     and zbMATH. The export contains 4,349 included or borderline records; 2,877 are included items in the main effort
-    categories. Recall against twelve selected seed papers' reference lists is approximately 96&ndash;100% per class;
+    categories. Counting each work once (92 duplicate versions at weight zero, 9 journal extensions at one third),
+    they are 2,785 distinct works. Recall against twelve selected seed papers' reference lists is approximately 96&ndash;100% per class;
     this does not establish field-wide recall.</p>
   <p><span class="sc">Classification.</span> The second model pass reviewed included and borderline items and a sample
     of exclusions, with access to the first labels. Agreement of \(\kappa = 0.84\)&ndash;\(0.89\) describes consistency
