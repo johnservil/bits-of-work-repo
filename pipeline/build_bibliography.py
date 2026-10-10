@@ -16,7 +16,8 @@ Optional sidecars, joined on `id` when present (written by the venue-resolution 
   data/venues/published_venues.csv  id, pub_venue, pub_type, pub_year, pub_doi, confidence, evidence, ...
       A row with a pub_venue and confidence >= MIN_CONFIDENCE replaces the entry's venue and type
       (journal -> @article, conference -> @inproceedings, thesis -> @phdthesis, book -> @book,
-      chapter -> @incollection) and sets the citation `year` to pub_year. ePrint fields are kept.
+      chapter -> @incollection) and sets the citation `year` to pub_year. ePrint fields are kept,
+      and ePrint items take only a real publication (not a preprint/report/other listing).
   data/venues/corrections.csv       id, field, value, evidence
       Corrects title, authors or venue only.
 Neither sidecar can change what is counted: page grouping and `countyear` always use the
@@ -63,8 +64,11 @@ def load_sidecars():
                 conf = float(r.get('confidence') or 1)
             except ValueError:
                 conf = 0
-            if r.get('pub_venue', '').strip() and conf >= MIN_CONFIDENCE:
-                pubs[r['id']] = r
+            if not r.get('pub_venue', '').strip() or conf < MIN_CONFIDENCE:
+                continue
+            if EPRINT.match(r['id']) and r.get('pub_type') not in PUB_TYPE:
+                continue          # ePrint's own listing is already cited more precisely
+            pubs[r['id']] = r
     cf = ROOT / 'data/venues/corrections.csv'
     if cf.exists():
         for r in csv.DictReader(cf.open()):
@@ -254,7 +258,9 @@ def render_entry(f):
         + f'{escape(f.get("year", "n.d."))}.'
         f'<div class="meta">{"".join(classes)}'
         f'<span class="cat" title="{escape(CATEGORY.get(cat, ""))}">{escape(cat)} · {escape(CATEGORY.get(cat, ""))}</span>'
-        f'<span class="links">{" ".join(links)}</span></div>'
+        + (f'<span class="cy" title="Counts use the year the work first appeared">counted in {escape(f["countyear"])}</span>'
+           if f.get('countyear') and f.get('year') and f['year'] != f['countyear'] else '')
+        + f'<span class="links">{" ".join(links)}</span></div>'
         f'<div class="why">{detex(f.get("rationale", ""))}</div></li>'
     )
 

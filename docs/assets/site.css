@@ -454,3 +454,4 @@ ol.bib .why { font-size: .78rem; color: var(--ink-3); font-style: italic; margin
 .bibpop-head button:hover { color: var(--accent); }
 .bibpop pre { margin: 0; padding: .7rem .8rem; font-family: var(--mono); font-size: .74rem; line-height: 1.45; overflow-x: auto; max-height: 50vh; color: var(--ink-2); white-space: pre-wrap; word-break: break-word; }
 @media (max-width: 640px) { ol.bib .meta .links { margin-left: 0; } section.yr h2 { top: 48px; } }
+ol.bib .meta .cy { font-family: var(--mono); font-size: .92em; color: var(--ink-3); border: 1px solid var(--hair); border-radius: 2px; padding: 0 .3rem; }

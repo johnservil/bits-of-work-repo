@@ -1,0 +1,110 @@
+group,ids,verdict,relation,note
+1,2004/073 + dblp:journals/jsc/Gaudry09,same-work,eprint+journal,ePrint 2004 version retitled for JSC 2009; same ECDLP index-calculus result
+2,2006/197 + dblp:conf/indocrypt/FossorierMICM06,same-work,eprint+conf,INDOCRYPT 2006; title slightly changed
+3,2007/203 + dblp:conf/cisc/JiangDH08,same-work,eprint+conf,"Inscrypt 2007 paper, same title modulo possessive"
+4,2010/331 + W2298011329,same-work,eprint+conf,ePrint and ITW 2011 extended abstract; same distinguisher result
+5,2010/437 + dblp:conf/pqcrypto/PetzoldtBB10,same-work,eprint+conf,ePrint extended version of PQCrypto 2010 paper
+6,2010/585 + W2224672441,same-work,eprint+conf,CRYPTO 2011 ball-collision decoding; OpenAlex uses conf title
+7,2011/139 + dblp:conf/ctrsa/WeiLW15,same-work,eprint+conf,"Likely same SVP-with-gaps work; authors changed (Wei added, Xu/Zheng dropped); borderline"
+8,2012/042 + W2128973996,same-work,eprint+journal,ePrint is full version of ISPEC 2012; IEICE 2013 journal version (web-checked)
+9,2012/168 + dblp:journals/corr/abs-1204-6459 + dblp:journals/dcc/CouvreurGGOT14,same-work,eprint+arxiv+journal,All the GRS-McEliece square-code distinguisher; DCC 2014 adds co-authors
+10,2012/199 + W66388758,same-work,eprint+journal,"JoC paper, title extended with fast change of ordering"
+11,2012/345 + dblp:conf/asiacrypt/HayashiSST12,same-work,eprint+conf,ASIACRYPT 2012 eta_T GF(3^97) break
+12,2012/599 + W3029193521,same-work,eprint+journal,Sci China Inf Sci; OpenAlex record uses alternate title
+13,2012/609 + W3030649634,same-work,eprint+journal,LMS JCM; same title modulo case
+14,2012/675 + W2399664638,same-work,eprint+conf,ACISP 2013 Minkowski-sum lattice; title variant
+15,2013/095 + dblp:conf/sacrypt/Joux13,same-work,eprint+conf,SAC 2013 Joux L(1/4)
+16,2013/388 + dblp:conf/pkc/IshiguroKMT14,same-work,eprint+conf,PKC 2014 parallel Gauss sieve
+17,2013/400 + dblp:conf/eurocrypt/BarbulescuGJT14,same-work,eprint+conf,"EUROCRYPT 2014 quasi-polynomial DLP; eprint dropped ""heuristic"" in title"
+18,2013/446 + dblp:journals/ffa/AdjMOR15,same-work,eprint+journal,Pairing 2013 weakness of F_3^{6*509}; FFA 2015 journal version (title garbled in DBLP)
+19,2013/512 + 2014/437,same-work,eprint+eprint+conf,Bi-Nguyen Rounding LLL merged into PKC 2014 Rounding and Chaining LLL; both export PKC 2014
+20,2014/057 + W2188723450,same-work,eprint+journal,"Magma DL computation paper, ACM CCA 2014"
+21,2014/1018 + dblp:journals/cca/AlbrechtCFFP15,same-work,eprint+journal,"Algebraic algorithms for LWE, LMS/CCA 2015"
+22,2014/489 + dblp:conf/gecco/DingZW15,same-work,eprint+conf,GECCO 2015 genetic algorithm for SVP challenge
+23,2014/505 + dblp:journals/lmsjcm/KohelL0T14,same-work,eprint+journal,"KLPT quaternion isogeny path, LMS JCM 2014"
+24,2014/641 + dblp:conf/eurocrypt/Pierrot15,same-work,eprint+conf,EUROCRYPT 2015 MNFS with conjugation; title extended
+25,2014/980 + dblp:conf/icisc/DingZYZ14,same-work,eprint+conf,ICISC 2014 phase-based enumeration
+26,2015/1027 + W3196197733,same-work,eprint+conf,CRYPTO 2016 exTNFS; OpenAlex record lists only Kim
+27,2015/971 + W2403700287 + dblp:journals/corr/abs-1710-03739,same-work,eprint+openalex+arxiv,All SIAGA Chen-Lauter-Stange search-RLWE attacks; OpenAlex W is earlier-titled version
+28,2016/124 + dblp:journals/lmsjcm/GaudryGV16,same-work,eprint+journal,LMS JCM 2016 relation collection for GF(p^6)
+29,2016/288 + dblp:conf/asiacrypt/BogosV16,same-work,eprint+conf,ASIACRYPT 2016 LPN optimization
+30,2016/727 + dblp:journals/tcs/ZhuWZLL20,same-work,eprint+journal,"Likely preprint of TCS 2020 exTNFS refinement (Wen added); scope unconfirmed, borderline"
+31,2016/733 + W2573747521,same-work,two records,ePrint paper and its OpenAlex record (same title)
+32,2017/581 + dblp:journals/tches/TrimoskaID21,same-work,eprint+journal,ePrint v3 (2020) has expanded TCHES 2021 content; retitled
+33,2018/339 + dblp:conf/asiacrypt/Debris-AlazardT18 + dblp:journals/corr/abs-1804-02556,same-work,arxiv+eprint+conf,ASIACRYPT 2018; arXiv/ePrint retitled to same Two attacks paper (web-checked)
+34,2018/537 + W2887314475,same-work,eprint+conf,EUROCRYPT 2020 CSIDH quantum analysis
+35,2018/586 + W2906827945,same-work,eprint+conf,CRYPTO 2018 extreme-pruning lower bounds
+36,2018/947 + dblp:journals/jsiaml/Hashimoto19,same-work,eprint+journal,JSIAM Letters 2019; title changed to key recovery
+37,2019/1161 + W2982587774,same-work,eprint+conf,ASIACRYPT 2020; OpenAlex has preprint-era title
+38,2019/298 + W2942137384,same-work,eprint+conf,PKC 2020 SIKE cryptanalysis; title variant
+39,2020/1376 + dblp:journals/jsc/GorlaMP22,same-work,eprint+journal,JSC 2022 HFE Groebner bounds
+40,2020/633 + dblp:journals/corr/abs-2005-14681,same-work,eprint+arxiv+conf,CRYPTO 2021 SIDH torsion-point attacks; arXiv has older title/authors
+41,2020/908 + dblp:journals/ieiceta/NakamuraWI23,same-work,eprint+journal,Kipnis-Shamir MinRank analysis (Verbel et al. comparison); IEICE 2022 retitled; borderline
+42,2021/1384 + dblp:conf/asiacrypt/BernardLNR22,same-work,eprint+conf,ASIACRYPT 2022 S-unit lattices
+43,2021/1677 + dblp:conf/crypto/BaenaBCPSV22,same-work,eprint+conf,CRYPTO 2022 Support-Minors improvements
+44,2021/707 + dblp:journals/joc/MicheliGP24,same-work,conf+journal,"ASIACRYPT 2021 and JoC extension, same 521-bit TNFS result"
+45,2022/239 + dblp:conf/cscml/ZhaoD23,same-work,eprint+conf,CSCML 2023 BKZ improvements
+46,2022/501 + dblp:journals/access/PutrantoWLJK23,same-work,eprint+journal,IEEE Access 2023 depth-optimized binary-curve Shor
+47,2022/676 + dblp:conf/eurocrypt/BonnetainCSS23,same-work,eprint+conf,EUROCRYPT 2023 reusable quantum walks
+48,2023/1140 + dblp:journals/corr/abs-2306-07530,same-work,eprint+arxiv,WISA 2023 binary-curve point doubling circuits
+49,2023/968 + dblp:conf/nips/LiWACL23,same-work,eprint+conf,NeurIPS 2023 SALSA VERDE
+50,2024/1679 + W3081419636,different,mismatch,Unrelated: ISD for ring-linear codes vs Japanese paper on quantum ISD under memory limits
+51,2024/712 + dblp:journals/access/KimJBWCCS26,same-work,eprint+journal,Same authors; IEEE Access 2026 retitled quantum NV-sieve SVP paper (web-checked)
+52,2024/739 + dblp:journals/tches/ZhaoDY25,same-work,eprint+journal,TCHES 2025 BGJ sieve; retitled
+53,2025/017 + dblp:journals/tches/JangSBSS25,same-work,eprint+journal,TCHES 2025 binary EC quantum cryptanalysis; extended version
+54,2025/2195 + dblp:conf/pqcrypto/PerthuisT26,same-work,eprint+conf,PQCrypto 2026 refined primal attack
+55,2025/739 + W7210281815,same-work,conf+journal,"IWSEC 2025 attack and IEICE 2026 optimized version; extension, borderline"
+56,2026/279 + dblp:conf/crypto/HouJO26,same-work,eprint+conf,"ePrint revision cites CRYPTO 2026 DOI; conf adds authors Hou, Jiang (merged), web-checked"
+57,W109797903 + W1970422301,same-work,arxiv+conf,FOCS 2011 M-ellipsoid covering SVP/CVP; two OpenAlex records
+58,W1552834175 + W2949245726,same-work,two OpenAlex records,Same WAIFI 2014 GPU SpMV paper
+59,W1557189340 + dblp:conf/crypto/KipnisS99,same-work,two records,CRYPTO 1999 Kipnis-Shamir HFE
+60,W2071893554 + W2187013077,different,companion,Fukase-Yamaguchi: extended search space analysis (2011) vs finding VSVs algorithm (2012)
+61,W2116805499 + W2121115867,same-work,two OpenAlex records,Same cubic sieve congruence paper
+62,W2240287352 + W810650789,same-work,thesis translation,"Huot thesis, English vs French title"
+63,W2300086762 + dblp:conf/eurocrypt/FaugereOPT10,same-work,two records,EUROCRYPT 2010 McEliece compact keys
+64,W2317377573 + dblp:conf/crypto/HanrotPS11,same-work,two records,CRYPTO 2011 BKZ dynamical systems
+65,W2333133945 + dblp:conf/crypto/HanrotS07,same-work,two records,CRYPTO 2007 Kannan SVP analysis
+66,W2724724895 + dblp:conf/crypto/FaugereJ03,same-work,tech report+conf,Faugere HFE F5 attack: INRIA report abstract matches CRYPTO 2003 (Faugere-Joux)
+67,W2768613171 + dblp:phd/hal/Gremy17,same-work,thesis translation,"Gremy thesis, French vs English title"
+68,W2775694132 + dblp:conf/isit/AragonGHT18,same-work,eprint+conf,ISIT 2018 rank syndrome decoding; retitled
+69,W2795344461 + dblp:phd/hal/Gelin17,same-work,thesis translation,"Gelin thesis, French vs English title"
+70,W2810573914 + W3161625074,different,sequel,"Kosolapov-Shigaev: MAIS 2018 vs ACCS 2019, different abstracts/journals; related follow-up"
+71,W2951670448 + dblp:journals/tit/CouvreurCP17,same-work,talk+journal,HAL record is talk abstract on same AG-code attack as TIT 2017 paper
+72,W2975184158 + dblp:journals/ffa/EulerP21,same-work,preprint+journal,FFA 2021 quasi-subfield polynomials; retitled
+73,W2995933985 + dblp:phd/hal/PelletMary19,same-work,thesis translation,"Pellet-Mary thesis, French vs English title"
+74,W3005962996 + dblp:phd/dnb/Both18,same-work,"thesis, two records","Both are Both Bochum thesis (typo ""Solvin"")"
+75,W3033484880 + dblp:conf/asiacrypt/Guillevic15,same-work,two records,ASIACRYPT 2015 Guillevic individual log; retitled
+76,W3048669827 + dblp:journals/corr/abs-2008-04459,same-work,arxiv+journal,"Smearing condition RLWE/PLWE, J. Math. Cryptol. 2020"
+77,W3122036629 + dblp:conf/qce/PerrielloBP21,different,thesis vs paper,"Perriello MSc thesis (Polimi 2019) vs QCE 2021 paper with Barenghi, Pelosi"
+78,W3144520238 + dblp:conf/acisp/KimuraTT23,same-work,preprint+conf,ACISP 2023 memory-efficient quantum ISD; retitled
+79,W4224871955 + W4378908873,same-work,arxiv+journal,arXiv 2204.08940 retitled for IEEE Access 2023 (web-checked)
+80,W4226334740 + dblp:journals/cybersec/LiuYY23,different,extension,arXiv/OpenAlex is Shor factoring CNOT count; Cybersecurity 2023 targets ECDLP (web-checked)
+81,W4392228281 + dblp:phd/hal/Gluher21,same-work,thesis translation,"Le Gluher thesis, French vs English title"
+82,W4393365463 + dblp:phd/hal/Plouviez21,same-work,thesis translation,"Plouviez thesis, French vs English title"
+83,W4402985682 + dblp:journals/jbcs/SousaN26,same-work,conf+journal,"SBSeg 2024 and JBCS 2026, same Matrix NTRU attack"
+84,W4415110892 + dblp:phd/hal/Fleury24,same-work,thesis translation,"Fleury thesis, French vs English title"
+85,W7027626139 + dblp:phd/hal/Micheli21,same-work,thesis translation,"de Micheli thesis, French vs English title"
+86,dblp:conf/aina/IzuTY11 + dblp:journals/jip/IzuTY11,same-work,conf+journal,"AINA 2011 and JIP/IMT 2011, same title"
+87,dblp:conf/ants/MontgomeryK08 + zb:1230.11149,same-work,dblp+zbMATH,ANTS 2008 Montgomery-Kruppa
+88,dblp:conf/ants/Shor94 + zb:1005.11506,same-work,dblp+zbMATH,Shor ANTS-I 1994 abstract
+89,dblp:conf/asiacrypt/BardetBCGPSTV20 + dblp:journals/corr/abs-2002-08322,same-work,arxiv+conf,ASIACRYPT 2020; arXiv title differs
+90,dblp:conf/calc/AjtaiKS01 + dblp:conf/stoc/AjtaiKS01,different,overview vs paper,AKS CaLC 2001 overview vs STOC 2001 original sieve paper
+91,dblp:conf/crypto/DinhMR11 + dblp:journals/corr/abs-1008-2390,same-work,arxiv+conf,CRYPTO 2011 McEliece vs quantum Fourier sampling; retitled
+92,dblp:conf/eurocrypt/AggarwalLS21 + dblp:journals/corr/abs-2007-09556,same-work,arxiv+conf,EUROCRYPT 2021 sqrt(n)-SVP
+93,dblp:conf/eurocrypt/EngeG07 + dblp:journals/corr/abs-cs-0703032,same-work,arxiv+conf,EUROCRYPT 2007 Enge-Gaudry L(1/3+eps)
+94,dblp:conf/ic-nc/KajitaniNMA15 + dblp:journals/ijnc/KajitaniNMAABD16,same-work,conf+journal,"IC-NC 2015 and IJNC 2016, 70-bit ECDLP volunteer computing"
+95,dblp:conf/ic-nc/MiuraMKN20 + dblp:journals/ijnc/MiuraKMKKN21,same-work,conf+journal,IC-NC 2020 and IJNC 2021 extended; same rho fruitless-cycle method
+96,dblp:conf/icmc2/NakamuraIY20 + dblp:journals/dam/NakamuraY21,same-work,conf+journal,ICMC 2020 and DAM 2021 extension with implementation
+97,dblp:conf/isaac/ChengH04 + dblp:journals/algorithmica/ChengH06,same-work,conf+journal,ISAAC 2004 and Algorithmica 2006 partial lifting
+98,dblp:conf/isit/CuiLZ26 + dblp:journals/corr/abs-2601-07511,same-work,arxiv+conf,"ISIT 2026 and arXiv 2601.07511 same ideal-SVP analysis, retitled"
+99,dblp:conf/sacrypt/TakahashiOM22 + dblp:journals/ieicetd/TakahashiOM23,same-work,conf+journal,SAC 2022 and IEICE 2023 extended trace-map RLWE weakness
+100,dblp:conf/securecomm/Hao0ZZ0L24 + dblp:journals/corr/abs-2409-08784,different,mismatch,DBLP arXiv 2409.08784 is an unrelated DP paper (web-checked); Hao et al. SecureComm 2024 is index calculus
+101,dblp:conf/stacs/Babai85 + dblp:journals/combinatorica/Babai86,same-work,conf+journal,STACS 1985 shortened version and Combinatorica 1986 Babai
+102,dblp:journals/amco/AdamoudisD25 + dblp:journals/corr/abs-2203-09620,same-work,arxiv+journal,NTRU message recovery via independent lattice
+103,dblp:journals/corr/Fontein0W13 + dblp:journals/corr/abs-1212-5100,same-work,two arXiv records,"PotLLL / polynomial-time DeepLLL, DCC"
+104,dblp:journals/corr/RoettelerS13 + dblp:journals/qic/RottelerS14,same-work,arxiv+journal,"Roetteler-Steinwandt binary EC quantum circuit, QIC 2014"
+105,dblp:journals/corr/abs-0905-2177 + dblp:journals/joc/EngeGT11,same-work,arxiv+journal,"Enge-Gaudry-Thome L(1/3) low-degree curves, JoC"
+106,dblp:journals/corr/abs-1903-02933 + dblp:journals/dcc/CoggiaC20,same-work,arxiv+journal,"Coggia-Couvreur Loidreau scheme attack, DCC 2020"
+107,dblp:journals/corr/abs-2311-17022 + dblp:journals/corr/abs-2510-26003,different,sequel,VFK-lattice attack (Acta Inf. 2023) vs new knapsack attack arXiv 2025 (web-checked)
+108,dblp:journals/cybersec/HuangZCZZ25 + dblp:journals/qip/HuangSZDC20,different,different,Binary genus-2 hyperelliptic (Cybersecurity 2025) vs general hyperelliptic QIP 2020
+109,dblp:journals/moc/Diem11 + zb:1358.11002,different,thesis vs paper,"Diem Habilitation 2009 (zbMATH, web-checked) vs MoC 2011 article derived from it"

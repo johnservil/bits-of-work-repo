@@ -1,0 +1,5 @@
+# OpenAlex sources whose venue attribution is unreliable for this corpus (pipeline/build_venue_table.py).
+# action: ignore = drop this location as a venue source;  thesis/report = treat as that kind, not refereed.
+# Columns (tab-separated): source_id	action	reason
+source_id	action	reason
+S4210197683	report	"Medical Entomology and Zoology": OpenAlex attaches Japanese NDL/CiNii theses and reports (e.g. DOI 10.11501/3160818, an NDL digitized dissertation) to this unrelated journal; venue unknown, treat as unrefereed report/thesis
