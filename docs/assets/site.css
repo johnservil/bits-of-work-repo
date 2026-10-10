@@ -459,3 +459,78 @@ ol.bib .ver { font-size: .78rem; color: var(--ink-2); margin-top: .15rem; }
 ol.bib .ver a { font-family: var(--mono); font-size: .92em; }
 ol.bib > li.dup { opacity: .62; }
 ol.bib > li:target { background: var(--accent-wash); }
+.shade { fill: var(--ink-3); opacity: .16; }
+.shade-label { font-family: var(--serif); font-size: 12px; font-style: italic; fill: var(--ink-2); }
+
+/* ---------- researcher explorer (people.html) ---------- */
+.ppl-intro, .ppl-tools, .ppl-main { max-width: var(--wide); margin: 0 auto; padding: 0 var(--gutter); }
+.ppl-intro { max-width: var(--measure); font-size: .95rem; }
+.ppl-intro p + p { text-indent: 0; margin-top: 0; }
+.ppl-tools { position: sticky; top: 52px; z-index: 30; background: var(--paper); padding-top: .7rem; padding-bottom: .5rem; margin-top: 1.5rem; border-bottom: 1px solid var(--hair); }
+.ppl-tools .row { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .7rem; margin-bottom: .5rem; }
+.ppl-tools .chip.sub { border-style: dashed; }
+.ppl-tools input[type="search"] {
+  flex: 1 1 14rem; max-width: 22rem; margin-left: auto; font: inherit; font-size: .9rem; padding: .32rem .7rem; color: var(--ink);
+  background: var(--paper); border: 1px solid var(--rule); border-radius: 3px;
+}
+.ppl-tools input[type="search"]:focus { outline: none; border-color: var(--accent); }
+@media (max-width: 640px) { .ppl-tools { position: static; } .ppl-tools input[type="search"] { margin-left: 0; max-width: none; } }
+.ppl-main figure.fig { padding: 0; margin: 2rem 0; }
+.fig-sub { font-weight: 400; font-style: italic; color: var(--ink-2); }
+.linkbtn { appearance: none; background: none; border: 0; padding: 0; font-family: var(--mono); font-size: .76rem; color: var(--accent); cursor: pointer; }
+.linkbtn:hover { text-decoration: underline; }
+.brush .selection { fill: var(--accent); fill-opacity: .08; stroke: var(--accent); stroke-width: 1; shape-rendering: crispEdges; }
+.brush .overlay { cursor: crosshair; }
+.ppl-stats { display: grid; grid-template-columns: repeat(4, 1fr); margin: 1rem 0 0; }
+.ppl-stats .keyfig .v { font-size: clamp(1.5rem, 2.8vw, 2.1rem); }
+@media (max-width: 640px) { .ppl-stats { grid-template-columns: 1fr 1fr; row-gap: 1rem; } .ppl-stats .keyfig:nth-child(3) { border-left: 0; } }
+
+.win-band { fill: var(--accent-wash); stroke: var(--accent); stroke-opacity: .35; stroke-width: 1; shape-rendering: crispEdges; }
+.win-cap, .hhead { font-family: var(--mono); font-size: 11px; fill: var(--ink-3); }
+.hrow-bg { fill: transparent; }
+.hrow:hover .hrow-bg { fill: var(--paper-2); }
+.hrow.sel .hrow-bg { fill: var(--accent-wash); }
+.hrow.rest .hrow-bg { fill: var(--paper-2); }
+.hname { font-family: var(--serif); font-size: 13px; fill: var(--ink); }
+.hname[role="button"] { cursor: pointer; }
+.hname[role="button"]:hover, .hname[role="button"]:focus { fill: var(--accent); outline: none; text-decoration: underline; }
+.hrow.rest .hname { font-style: italic; fill: var(--ink-2); }
+.hrow.sel .hname { fill: var(--accent); font-weight: 700; }
+.hcell.out { opacity: .32; }
+.hbar { fill-opacity: .75; }
+.hval { font-family: var(--serif); font-size: 12px; fill: var(--ink-2); font-variant-numeric: tabular-nums; }
+.haxis { stroke: var(--ink-2); shape-rendering: crispEdges; }
+.tip .t-paper { font-size: .76rem; color: var(--ink-2); margin-top: .25rem; max-width: 22rem; white-space: normal; line-height: 1.3; }
+.tip .t-more { font-size: .74rem; color: var(--ink-3); font-style: italic; margin-top: .2rem; }
+.conc-key { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .8rem; color: var(--ink-2); margin-top: .4rem; }
+.conc-key span { display: inline-flex; align-items: center; gap: .35rem; }
+.conc-key i { width: 12px; height: 10px; display: inline-block; }
+
+.profile { border-top: 1.6px solid var(--ink); border-bottom: 1px solid var(--ink); padding: .9rem 0 1.1rem; margin: 1rem 0 2.5rem; scroll-margin-top: 140px; }
+.profile-head { display: flex; align-items: center; gap: 1rem; }
+.profile-head h2 { margin: 0; font-size: 1.4rem; margin-right: auto; }
+.profile .muted { color: var(--ink-3); font-size: .8rem; font-weight: 400; }
+.profile .small { font-size: .78rem; margin-top: .5rem; }
+.profile-meta { font-size: .88rem; color: var(--ink-2); margin: .2rem 0 .6rem; }
+.profile-classes { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .84rem; color: var(--ink-2); align-items: center; }
+.profile-classes .cls { display: inline-flex; align-items: center; gap: .35rem; }
+.profile-classes .cls.on { color: var(--ink); }
+.profile-classes .cls i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.profile-classes b { font-weight: 400; font-family: var(--mono); font-size: .92em; }
+.profile-classes .hint { font-size: .74rem; color: var(--ink-3); font-style: italic; }
+.profile-chart { margin: .8rem 0 1rem; }
+.profile-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 15rem); gap: 1.6rem; }
+@media (max-width: 720px) { .profile-cols { grid-template-columns: 1fr; } }
+.profile h3.caps { font-weight: 400; color: var(--ink-3); margin: 0 0 .4rem; font-size: .7rem; }
+.plist { list-style: none; padding: 0; margin: 0; max-height: 22rem; overflow-y: auto; font-size: .86rem; line-height: 1.4; }
+.plist li { display: flex; gap: .5rem; align-items: baseline; padding: .28rem 0; border-bottom: 1px solid var(--hair); }
+.plist .py { font-family: var(--mono); font-size: .8em; color: var(--ink-3); flex: none; }
+.plist .dots { display: inline-flex; gap: 2px; flex: none; }
+.plist .dots i { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
+.plist a { color: var(--ink); }
+.plist a:hover { color: var(--accent); }
+.plist .na { font-size: .75em; color: var(--ink-3); margin-left: auto; white-space: nowrap; padding-left: .5rem; }
+.colist { list-style: none; padding: 0; margin: 0; font-size: .86rem; }
+.colist li { display: flex; justify-content: space-between; gap: .5rem; padding: .18rem 0; border-bottom: 1px solid var(--hair); }
+.colist .n { font-family: var(--mono); font-size: .85em; color: var(--ink-3); }
+.colist .bibbtn { text-align: left; }

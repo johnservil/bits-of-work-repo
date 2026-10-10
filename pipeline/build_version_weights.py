@@ -17,7 +17,8 @@ Rules (user decision 2026-10-10):
   - A journal version that extends a conference paper counts 1/3 (assumed new material),
     the conference work 1. This applies only when the extension is certain: relation
     "conf+journal" and a note that does not call the match borderline. Uncertain
-    extensions are left at full weight and reported.
+    extensions are left at full weight and reported (user confirmed 2026-10-10 for the
+    one such pair, group 55: both versions keep full weight).
   - Members that are not counted (borderline or non-effort categories) are ignored, so an
     item is never discounted against a version that was not counted anyway.
 These weights multiply the class weights of each item wherever papers are counted.
