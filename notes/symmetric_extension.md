@@ -25,12 +25,16 @@ Each entry gives the date, the change, the reason, and its effect on the public-
 4. **2026-10-10. FSE added to DBLP venue lists.** `pipeline/parse_dblp.py` (`VENUES`) and `pipeline/merge_sources.py` (`CORE`) include FSE, the main symmetric venue. `IACR Trans` already covered ToSC. Effect: a full public-key rerun would also keep every FSE record and fetch FSE abstracts, which could add a few public-key candidates.
 5. **2026-10-10. Weak "discrete log" rule ignores symmetric hits.** The study drops a candidate whose only hit is the generic `discrete log` keyword. A symmetric hit would have counted as a second class and kept 11 extra ePrint items as ECDLP candidates. The rule now ignores symmetric hits, in all three copies (`candidates.py`, `parse_dblp.py`, `merge_sources.py`); the public-key screen is identical to the baseline's.
 
+6. **2026-10-10. Rubric v0.4.** `pipeline/rubric.md` gains the `symmetric` tag, worded from the pre-registration, with ten calibration examples; the out-of-scope list under `other` drops "hash/symmetric cryptanalysis". The public-key rules are unchanged, and the study's labels keep v0.3.4.
+7. **2026-10-10. API classifier.** `pipeline/classify_openrouter.py` sends each batch in one OpenRouter call, with the instructions in `pipeline/classify_prompt.md` ("API pass 1/2") plus the rubric as the system message. The instructions are the study's pass-1 and pass-2 prompts, minus their file and tool steps, and minus "chaos-based image encryption" from the list of non-cryptographic papers, since the pre-registration counts such cryptanalysis. The runner checks every line and every id itself, and records each call's tokens and cost in `usage.tsv` beside the labels.
+8. **2026-10-10. Symmetric searches.** `fetch_openalex.py` (24 phrases) and `fetch_zbmath.py` (11 queries) gain symmetric searches, and an optional class argument that harvests one class alone.
+9. **2026-10-10. Pilot.** 60 randomly drawn ePrint symmetric candidates (seed 20261010), labeled by pass 1 with `anthropic/claude-sonnet-5.5` and the study's 1,000-character abstract cap: 34 yes (23 A, 5 C, 4 F, 2 G), 26 no; one call, 31,093 prompt and 7,075 completion tokens, $0.13. Labels: `data/symmetric/pilot_p1/`. Pools and batches embed third-party abstracts, so they stay in the gitignored `data/raw/symmetric/`, as the study's public export omits its own.
+
 ## Decisions still open
 
-- **Classifier runs.** The study labeled with subagents: Sonnet for pass 1, Opus for pass 2, model versions unrecorded (the same sessions used Opus 5.5 for other work). We plan the same two passes and prompts through the OpenRouter API, with `anthropic/claude-sonnet-5.5` and `anthropic/claude-opus-5.5`. Each API call carries the rubric and a batch in its prompt, where a subagent read them from files. Question for the study's authors: which versions did you use?
+- **Model versions.** The study recorded "Sonnet" and "Opus" without versions (its sessions used Opus 5.5 for other work). We use `anthropic/claude-sonnet-5.5` for pass 1 and `anthropic/claude-opus-5.5` for pass 2. Question for the study's authors: which versions did you use?
 - **Items already labeled for public-key classes.** 523 ePrint candidates hit both a public-key class and Symmetric. They carry labels from rubric v0.3.4, which ruled symmetric work out of scope, so they need symmetric labels under the extended rubric.
-- **Rubric v0.4.** The symmetric section, written from the pre-registration.
-- **Other sources.** OpenAlex phrase queries and zbMATH queries for symmetric work; tiering for the larger DBLP pool; the OpenAlex contact address.
+- **Pool and tiering.** Merging all sources, one snowball round, and whether the larger DBLP pool needs the study's tiering.
 
 ## How to check this work
 
