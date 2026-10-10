@@ -7,9 +7,25 @@ This repository adds one assumption class, **Symmetric** (cryptanalysis of block
 - **Every code change:** `git diff 172f562 -- pipeline analysis`.
 - **Published at:** https://github.com/johnservil/bits-of-work-repo, branch `symmetric`; its `main` mirrors the study's.
 
+## Result
+
+Cumulative research-allocation years through 2026 (`data/authors/fte_by_year.csv`, `*_fte_cumulative`), from one run over every class:
+
+| Class | Published | This run |
+|---|---|---|
+| ECDLP | 593.8 | 598.3 |
+| All lattices | 1,036.4 | 1,043.8 |
+| Syndrome decoding | 331.4 | 333.4 |
+| Factoring / FF-DLP | 1,111.1 | 1,121.6 |
+| Isogeny | 116.6 | 117.4 |
+| Multivariate | 210.2 | 213.0 |
+| **Symmetric** | | **6,677.2** |
+
+Symmetric is about 6.4 times all lattices. By era (research-allocation years): 729 through 2005, 2,624 in 2006–2016, 3,324 in 2017–2026; 12% comes from the per-paper prior for people without DBLP records (lattices 9%, factoring 25%). Fractional paper counts (A–F, H, include = yes; `analysis/phase1_counts.txt`): 5,466 from all sources, 3,851 vetted.
+
 ## Effect on the study's existing results
 
-Every public-key number stays as published: the committed labels, counts, exports, and records are untouched. Rerunning the public-key keyword screen on the new ePrint harvest with our code yields the same 4,754 candidates, with the same keyword hits, as the baseline code (check below). FSE's addition to the DBLP venue lists (change 4) is the one change that could add public-key candidates on a full rerun; that rerun has yet to be done.
+Every public-key label, count, export column, and record stays as published. Rerunning the public-key keyword screen on the new ePrint harvest with our code yields the same 4,754 candidates, with the same keyword hits, as the baseline code (check below), and every public-key line of `analysis/phase1_counts.txt` is unchanged. The research-allocation series in `data/authors/fte_by_year.csv` come from our rerun of the author map and differ from the published ones by 0.6–1.3% (change 19); the website and white paper, built from that file, still show the published figures. FSE's addition to the DBLP venue lists (change 4) could add public-key candidates on a full public-key rerun, which has yet to be done.
 
 ## Changes
 
@@ -43,10 +59,12 @@ Each entry gives the date, the change, the reason, and its effect on the public-
 17. **2026-10-10. Snowball round.** Forward and backward citations of 1,728 resolved seeds (cap 400 citers each) added 698 candidates absent from round 1, matched by every identifier the merge records. Both passes: include kappa 0.88, category agreement 0.90, 0 of 31 audited exclusions flipped (`data/symmetric/r2_agreement.txt`). Recorded spend for all symmetric labeling: $66.28.
 18. **2026-10-10. Symmetric labels join the study's.** `data/symmetric/labeled_final.jsonl` holds all 11,858 symmetric labels (ePrint, round 1, snowball round), abstracts stripped like the study's committed labels. `pipeline/symmetric_labels.py` joins them to the study's labels under one rule: the study's labels supply every public-key weight, ours supply only the symmetric weight. A paper both tracks credit (13 papers, mostly generic collision search) gets a symmetric weight of at most the share the study's label left to no class, so its total stays at most one paper. Round-1 and round-2 rows whose ePrint version is in our ePrint round are dropped as duplicates. `pipeline/attribution.json` gains the class `Symmetric` and the tag `symmetric` (weight 1.0). `analysis/export_combined.py`, `analysis/phase1_counts.py` and `pipeline/authors_dblp.py` read the joined labels; every public-key line of `analysis/phase1_counts.txt` is unchanged, and the export without the symmetric loader reproduces the study's committed CSV byte for byte.
 
+19. **2026-10-10. Author map rerun with every class.** `pipeline/authors_dblp.py` match and stats on the 2026-10-10 DBLP dump (7,778 of 10,785 included items matched), `pipeline/authors_zbmath.py` (4,716 people in scope, 1,210 profiles accepted; every failed request recovered), then `analysis/author_map.py`, unchanged apart from the short name `Sym`. `data/authors/fte_by_year.csv` now comes from this one run over all classes, so the public-key series move from the published ones by 0.6–1.3% (fresher DBLP and zbMATH data); without the zbMATH step they move by 2–4%. Person-level tables stay out of git, and `analysis/author_map.txt` has its top-25 lists cut by `pipeline/export_public.py`'s own `transform`, as in the study's public export.
+
 ## Decisions still open
 
 - **Model versions.** The study recorded "Sonnet" and "Opus" without versions (its sessions used Opus 5.5 for other work). We use `anthropic/claude-sonnet-5.5` for pass 1 and `anthropic/claude-opus-5.5` for pass 2. Question for the study's authors: which versions did you use?
-- **Snowball round.** Classifying the snowball's new candidates, then counts and research-allocation years.
+- **Website and white paper.** `pipeline/build_site_data.py` and `paper/generate_tables.py` list their classes by hand; adding Symmetric to them is the next step.
 
 ## How to check this work
 
