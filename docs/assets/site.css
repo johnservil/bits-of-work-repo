@@ -584,3 +584,7 @@ table.gtab .muted { color: var(--ink-3); }
 .explore-link .caps { color: var(--accent); grid-column: 1; }
 .explore-link .t { grid-column: 1; font-size: .95rem; }
 .explore-link .arrow { grid-column: 2; grid-row: 1 / span 2; font-size: 1.4rem; color: var(--accent); }
+
+/* feedback pointer under the abstract (index.html) */
+.feedback { max-width: 34rem; margin: 1.4rem auto 0; padding: .55rem 1rem; font-size: .86rem; line-height: 1.5;
+  color: var(--ink-2); text-align: center; border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); }
