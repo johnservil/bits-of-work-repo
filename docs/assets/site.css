@@ -389,3 +389,68 @@ footer.colophon a { color: var(--ink-2); }
 #tab-attack-events .booktabs { width: 100%; }
 #tab-attack-events th, #tab-attack-events td { white-space: normal; text-align: left; vertical-align: top; }
 #tab-attack-events td:first-child { min-width: 8rem; width: 25%; }
+
+/* ---------- bibliography page ---------- */
+.bib-intro, .bib-tools, .bib-main { max-width: var(--wide); margin: 0 auto; padding: 0 var(--gutter); }
+.bib-intro { max-width: var(--measure); font-size: .95rem; }
+.bib-intro p + p { text-indent: 0; margin-top: 0; }
+.bib-tools { padding-top: .7rem; padding-bottom: .6rem; margin-top: 1.5rem; border-bottom: 1px solid var(--hair); }
+.bib-tools .row { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .9rem; margin-bottom: .55rem; }
+.bib-tools input[type="search"] {
+  flex: 1 1 16rem; font: inherit; font-size: .92rem; padding: .4rem .7rem; color: var(--ink);
+  background: var(--paper); border: 1px solid var(--rule); border-radius: 3px;
+}
+.bib-tools input[type="search"]:focus { outline: none; border-color: var(--accent); }
+.bib-tools .vet { font-size: .85rem; color: var(--ink-2); display: flex; gap: .35rem; align-items: center; }
+.bib-tools .vet input { accent-color: var(--accent); }
+.bib-tools .shown { font-family: var(--mono); font-size: .78rem; color: var(--ink-3); margin-left: auto; }
+.chip {
+  appearance: none; font: inherit; font-size: .8rem; color: var(--ink-2); background: transparent; cursor: pointer;
+  border: 1px solid var(--rule); border-radius: 999px; padding: .18rem .65rem; display: inline-flex; align-items: center; gap: .35rem;
+}
+.chip span { font-family: var(--mono); font-size: .9em; color: var(--ink-3); }
+.chip:hover { border-color: var(--ink-3); color: var(--ink); }
+.chip[aria-pressed="true"] { border-color: var(--ink); color: var(--ink); background: var(--paper-2); }
+.chip i, .cls i { display: inline-block; width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.years { display: flex; flex-wrap: wrap; gap: .1rem .15rem; font-family: var(--mono); font-size: .72rem; }
+.years a { color: var(--ink-2); padding: .1rem .3rem; border-radius: 2px; display: inline-flex; gap: .25rem; align-items: baseline; }
+.years a span { color: var(--ink-3); font-size: .85em; }
+.years a:hover { background: var(--paper-2); text-decoration: none; color: var(--accent); }
+.years a.active { background: var(--ink); color: var(--paper); }
+.years a.active span { color: var(--paper); opacity: .7; }
+.years a.empty { opacity: .3; pointer-events: none; }
+.bib-main { padding-top: .5rem; }
+section.yr { scroll-margin-top: 60px; }
+section.yr h2 {
+  position: sticky; top: 52px; z-index: 20; background: var(--paper);
+  display: flex; align-items: baseline; gap: .9rem; margin: 2.4rem 0 .3rem; font-size: 1.6rem; font-weight: 700;
+  border-bottom: 1px solid var(--ink-2); padding-bottom: .25rem;
+}
+section.yr h2 .cnt { font-size: .82rem; font-weight: 400; color: var(--ink-2); font-style: italic; }
+section.yr h2 .dl { margin-left: auto; font-family: var(--mono); font-size: .72rem; font-weight: 400; }
+.sums { display: flex; flex-wrap: wrap; gap: .2rem 1rem; font-size: .78rem; color: var(--ink-2); margin-bottom: .8rem; }
+.sums .cls { display: inline-flex; align-items: center; gap: .35rem; }
+ol.bib { list-style: none; padding: 0; margin: 0; }
+ol.bib > li { padding: .55rem 0 .6rem 1.4rem; border-bottom: 1px solid var(--hair); font-size: .92rem; line-height: 1.5; position: relative; }
+ol.bib > li::before { content: "\2022"; position: absolute; left: .3rem; color: var(--ink-3); }
+ol.bib .au { color: var(--ink); }
+ol.bib .ti { color: var(--ink); }
+ol.bib .ve { font-style: italic; color: var(--ink-2); }
+ol.bib .meta { display: flex; flex-wrap: wrap; align-items: center; gap: .2rem .8rem; margin-top: .25rem; font-size: .76rem; color: var(--ink-2); }
+ol.bib .meta .cls { display: inline-flex; align-items: center; gap: .3rem; }
+ol.bib .meta .cls .w { font-family: var(--mono); color: var(--ink-3); }
+ol.bib .meta .cat { color: var(--ink-3); }
+ol.bib .meta .links { margin-left: auto; display: inline-flex; gap: .7rem; font-family: var(--mono); font-size: .92em; }
+ol.bib .why { font-size: .78rem; color: var(--ink-3); font-style: italic; margin-top: .1rem; }
+.bibbtn { appearance: none; background: none; border: 0; padding: 0; font: inherit; color: var(--accent); cursor: pointer; }
+.bibbtn:hover { text-decoration: underline; }
+.bibpop {
+  position: absolute; z-index: 60; background: var(--paper); border: 1px solid var(--ink-2);
+  box-shadow: 0 10px 30px -12px rgba(0,0,0,.35); border-radius: 3px;
+}
+.bibpop-head { display: flex; align-items: center; gap: .6rem; padding: .35rem .6rem; border-bottom: 1px solid var(--hair); font-family: var(--mono); }
+.bibpop-head .caps { color: var(--accent); margin-right: auto; }
+.bibpop-head button { appearance: none; background: none; border: 0; font: inherit; font-size: .8rem; color: var(--ink-2); cursor: pointer; }
+.bibpop-head button:hover { color: var(--accent); }
+.bibpop pre { margin: 0; padding: .7rem .8rem; font-family: var(--mono); font-size: .74rem; line-height: 1.45; overflow-x: auto; max-height: 50vh; color: var(--ink-2); white-space: pre-wrap; word-break: break-word; }
+@media (max-width: 640px) { ol.bib .meta .links { margin-left: 0; } section.yr h2 { top: 48px; } }
