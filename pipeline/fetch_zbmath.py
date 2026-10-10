@@ -3,7 +3,7 @@
 
 Usage: fetch_zbmath.py OUTDIR [CLASS]   (CLASS: harvest only that class's queries)"""
 import sys, os, json, time, hashlib, urllib.request, urllib.parse, urllib.error
-UA = {"User-Agent": "bits-of-work-symmetric-extension/0.1 (John Servil; https://github.com/johnservil)"}
+UA = {"User-Agent": "bits-of-work-symmetric-extension/0.1 (John Servil; mailto:johnservil@proton.me; https://github.com/johnservil)"}
 OUT = sys.argv[1]; os.makedirs(OUT, exist_ok=True)
 QUERIES = {
  "ecdlp": ["\"elliptic curve discrete logarithm\"", "\"Weil descent\"", "\"index calculus\" & cc:94A60", "\"anomalous\" & \"elliptic\" & cc:94A60",
