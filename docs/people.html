@@ -71,8 +71,8 @@
 
   <figure class="fig" id="fig-heat">
     <div class="fig-head">
-      <div class="fig-title">Top contributors, year by year</div>
-      <div class="seg" data-ctl="rows" aria-label="Rows"><button data-v="15">15</button><button data-v="30" aria-pressed="true">30</button><button data-v="60">60</button></div>
+      <div class="fig-title">Top <span id="rows-n">30</span> contributors, year by year</div>
+      <div class="seg" data-ctl="rows" aria-label="Number of people shown"><button data-v="15">top 15</button><button data-v="30" aria-pressed="true">top 30</button><button data-v="60">top 60</button></div>
       <div class="seg" data-ctl="sort" aria-label="Order"><button data-v="total" aria-pressed="true">by output</button><button data-v="time">by period</button></div>
     </div>
     <div class="chart"></div>
@@ -95,7 +95,7 @@
     <div class="net-key" id="net-key"></div>
     <div class="groups" id="groups"></div>
     <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
-    <figcaption>The same top contributors as the figure above (set the number with its rows control). A line joins
+    <figcaption>The same top contributors as the figure above (choose top 15, 30 or 60 there). A line joins
       two people who co-wrote a paper in this field during the period, thicker for more shared papers; circle area is
       the person's paper credit in the period. A <em>group</em> is everyone connected by a chain of co-authored papers
       in this field and period, including people not named here, so two people can share a group without a direct

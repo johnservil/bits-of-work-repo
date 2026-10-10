@@ -252,6 +252,7 @@
     const src = S.m === 'credit' ? F.credit : F.papers;
     const top = all.filter(d => PEOPLE[d.i].n).slice(0, S.rows);
     if (S.sort === 'time') top.sort((a, b) => F.center.get(a.i) - F.center.get(b.i));
+    $('#rows-n').textContent = top.length;   // fewer than the setting when the field and period are small
     const inTop = new Set(top.map(d => d.i));
     const rest = new Float64Array(NY);
     src.forEach((a, i) => { if (!inTop.has(i)) a.forEach((v, t) => { rest[t] += v; }); });
