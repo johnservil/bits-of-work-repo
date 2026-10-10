@@ -1,0 +1,15 @@
+id,pub_venue,pub_type,pub_year,pub_doi,vid,refereed,confidence,evidence
+zb:0578.10005,"Numerical Mathematics and Computing, Proc. 14th Manitoba Conference (Congressus Numerantium 46)",conference,1985,,,likely,0.9,zbMATH API source field
+zb:0819.11069,Mathematics of Computation 1943-1993 (AMS Proc. Symp. Appl. Math. 48),chapter,1994,,,likely,0.9,zbMATH API source field
+zb:0830.11047,"Computational Algebra and Number Theory (Kluwer, Math. Appl. 325)",chapter,1995,,,likely,0.9,zbMATH API source field
+zb:0915.11063,Computational Perspectives on Number Theory (AMS/IP Stud. Adv. Math. 7),chapter,1998,,,likely,0.9,zbMATH API source field
+zb:0939.11038,"Number Theoretic and Algebraic Methods in Computer Science, NTAMCS '93 (World Scientific)",conference,1995,,,likely,0.9,zbMATH API source field
+zb:1012.11108,"Cryptography and Computational Number Theory, CCNT'99 (Birkhäuser, Prog. Comput. Sci. Appl. Log. 20)",conference,2001,,,likely,0.9,zbMATH API source field
+zb:1017.11508,RIMS Kokyuroku 1026,report,1998,,rims,no,0.9,zbMATH API source field
+zb:1145.11088,Maple Conference 2006 (Maplesoft),conference,2006,,,likely,0.9,zbMATH API source field
+zb:1235.11116,Nouvelles méthodes mathématiques en cryptographie (SMF Journée Annuelle 2007),chapter,2007,,,likely,0.9,zbMATH API source field
+zb:0574.94012,CRYPTO 1984,conference,1985,,crypto,yes,0.9,"zbMATH API: Advances in cryptology, Proc. Workshop, Santa Barbara 1984, LNCS 196"
+zb:0711.11051,Number Theory and Cryptography (LMS Lecture Note Series 154),chapter,1990,,,likely,0.9,zbMATH API source field
+zb:0968.11520,RIMS Kokyuroku 1148,report,2000,,rims,no,0.9,zbMATH API source field
+W3122036629,"MSc thesis, Politecnico di Milano",thesis,2019,,,thesis,0.8,duplicate-check agent (web): MSc thesis; the QCE 2021 / TQC 2023 papers are later separate works
+zb:1358.11002,"Habilitation thesis (Claus Diem, 2009)",thesis,2009,,,thesis,0.8,"duplicate-check agent (zbMATH, web-checked): habilitation; MoC 2011 article derived from it"

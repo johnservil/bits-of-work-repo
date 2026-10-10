@@ -28,6 +28,8 @@
       <a href="#classified"><span class="num">6</span>Classified</a>
       <a href="#ai"><span class="num">7</span>AI</a>
       <a href="#method"><span class="num">8</span>Method</a>
+      <a href="people.html">Researchers</a>
+      <a href="bibliography.html">Bibliography</a>
     </nav>
     <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
@@ -61,10 +63,13 @@
       methodological decisions and oversaw the work.
     </p>
   </section>
+  <p class="feedback">This is a working draft. Found an error or a missing paper, or have a better way to measure
+    something? Please <a href="https://github.com/matthewdgreen/bits-of-work-repo/issues/new/choose">open an issue</a> on the
+    <a href="https://github.com/matthewdgreen/bits-of-work-repo">study repository</a>.</p>
 </div>
 
 <section class="keyfigs" aria-label="Key figures">
-  <div class="keyfig"><div class="v" data-kf="papers">2,877</div><div class="k"><span class="caps">Corpus</span>items in the main effort view</div></div>
+  <div class="keyfig"><div class="v" data-kf="papers">2,785</div><div class="k"><span class="caps">Corpus</span>works in the main effort view</div></div>
   <div class="keyfig"><div class="v">~3,240</div><div class="k"><span class="caps">People</span>estimated distinct author identities</div></div>
   <div class="keyfig"><div class="v" data-kf="ratio">1.7<small>&times;</small></div><div class="k"><span class="caps">Lattices / ECDLP</span>estimated research-allocation years</div></div>
   <div class="keyfig"><div class="v">2<sup style="font-size:.5em">69</sup></div><div class="k"><span class="caps">P-256 gap</span>work beyond the largest public solve</div></div>
@@ -106,19 +111,23 @@
     We harvested IACR ePrint, DBLP, OpenAlex and zbMATH, screened by keyword, and classified candidates
     against a written rubric. A second pass reviewed included and borderline items plus a sample of exclusions.
     Figure&nbsp;1 shows the result by year of publication; papers that address more than one
-    assumption are split fractionally.
+    assumption are split fractionally. Every counted item is listed, by year and with BibTeX, in the
+    <a href="bibliography.html">bibliography</a>.
   </p>
 
   <figure class="fig" id="fig-papers">
     <div class="fig-head">
       <div class="fig-title">Papers per year</div>
       <div class="seg" data-ctl="mode"><button data-v="annual" aria-pressed="true">annual</button><button data-v="cumulative">cumulative</button></div>
-      <div class="seg" data-ctl="src"><button data-v="all" aria-pressed="true">all sources</button><button data-v="vetted">ePrint / DBLP</button></div>
+      <div class="seg" data-ctl="src"><button data-v="all" aria-pressed="true">all sources</button><button data-v="vetted">ePrint / DBLP</button><button data-v="peer">peer-reviewed</button></div>
     </div>
     <div class="chart"></div>
     <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
     <figcaption>Cryptanalytic research items by assumption class, fractional counts. Annual values are a centered three-year
       mean; 2026 is incomplete. <em>ePrint / DBLP</em> restricts sources, not correctness or peer-review status.
+      <em>Peer-reviewed</em> keeps items that also appeared in a refereed journal or conference (theses,
+      book chapters and preprint-only items are dropped); venue quality is not assessed. In that view the shaded years (2025&ndash;2026) are likely
+      inaccurate: papers take a year or more to appear in a journal or conference, and DBLP indexes them with a further delay.
       Items without a year or outside the plotted period are omitted from this figure. Click a legend entry to hide a series.</figcaption>
   </figure>
 
@@ -131,7 +140,8 @@
 
   <div class="tablewrap" id="tab-summary">
     <div class="tcap">Visible effort by assumption class. Fractional item counts (include = yes, effort categories);
-      estimated allocation years from the author map. Totals include items missing from the dated chart.</div>
+      <em>peer-reviewed</em> counts items that also appeared in a refereed journal or conference (venue quality not
+      assessed); estimated allocation years from the author map. Totals include items missing from the dated chart.</div>
     <table class="booktabs"></table>
   </div>
 </section>
@@ -181,6 +191,18 @@
     <figcaption>Cumulative allocation estimates, displayed from 1980; earlier contributions remain in the totals.
       Hover for values; the marker shows where lattices pass ECDLP in the selected model.</figcaption>
   </figure>
+
+  <h3>Individual researchers</h3>
+  <p>
+    <!-- CONTENT -->
+    A separate page breaks the published output down by person: who contributed most to each assumption class
+    in any period, how concentrated each field is, and how its researchers are connected through co-authorship.
+  </p>
+  <a class="explore-link" href="people.html">
+    <span class="caps">Researcher explorer</span>
+    <span class="t">Top contributors, concentration and co-author networks by field and period</span>
+    <span class="arrow" aria-hidden="true">&rarr;</span>
+  </a>
 </section>
 
 <!-- ================================================================ 4 -->
@@ -273,6 +295,18 @@
   <div class="remark"><p>We do not know whether this multiplier is similar across classes. Comparisons of the visible
     literature remain comparisons of public work; extending them to total effort requires additional assumptions.
     Missing work does not make our publication-based time estimates lower bounds: those estimates may themselves be too high.</p></div>
+  <p><span class="sc">Why \(k_X\) is not estimated.</span> One might hope to read classified headcount off public
+    government budget documents, taking the NSA as the best-documented case. Official documents do not allow it. The
+    National Intelligence Program is published only as a topline; every NSA line beneath it is classified, the one
+    unclassified NSA budget line covers the defensive mission, and the agency is excluded from the federal workforce
+    statistics that would otherwise count its mathematicians. The leaked FY2013 budget justification is the only
+    document that pairs a dollar line with people: “Cryptologic Math &amp; IDA Research” at $119&ndash;146M a year, and
+    one cryptanalysis project with 240 civilian staff on $39M. Dividing the research line by a plausible loaded cost
+    gives roughly 300&ndash;500 full-time staff, uncertain by a factor of two, for a budget line rather than for
+    cryptanalysts, as of 2012, with no split by assumption class. An official series does exist for the IDA
+    cryptologic centers that work under NSA contract, and it suggests that such dollar conversions overstate research
+    staff by about a factor of two. The <a href="methodology.html#classified">methodology page</a> lists the sources and
+    what each can and cannot bound.</p>
 </section>
 
 <!-- ================================================================ 6 -->
@@ -372,7 +406,8 @@
   <!-- CONTENT -->
   <p><span class="sc">Corpus.</span> IACR ePrint and DBLP harvests, OpenAlex phrase searches and citation expansion,
     and zbMATH. The export contains 4,349 included or borderline records; 2,877 are included items in the main effort
-    categories. Recall against twelve selected seed papers' reference lists is approximately 96&ndash;100% per class;
+    categories. Counting each work once (92 duplicate versions at weight zero, 9 journal extensions at one third),
+    they are 2,785 distinct works. Recall against twelve selected seed papers' reference lists is approximately 96&ndash;100% per class;
     this does not establish field-wide recall.</p>
   <p><span class="sc">Classification.</span> The second model pass reviewed included and borderline items and a sample
     of exclusions, with access to the first labels. Agreement of \(\kappa = 0.84\)&ndash;\(0.89\) describes consistency
@@ -402,9 +437,16 @@
     <a href="assets/cryptanalytic-effort-whitepaper.pdf">working white paper (PDF)</a> for the synthesis,
     nominal person-hours, and additional OpenAI and Anthropic comparisons. Its frontier-record analysis remains a
     separate track, summarized here with the qualifications above.</p>
-  <p>Every figure on this page is drawn from <a href="assets/data.js">the generated data</a>. The
+  <p>Every figure on this page is drawn from <a href="assets/data.js">the generated data</a>. The papers behind the
+    counts are listed in the <a href="bibliography.html">bibliography</a> (<a href="bibliography.bib" download>BibTeX</a>). The
     <a href="https://github.com/matthewdgreen/bits-of-work-repo">study repository</a> contains the sources,
     classification rubric and <code>pipeline/build_site_data.py</code> used to regenerate it.</p>
+  <p><span class="sc">Corrections and suggestions.</span> We would like to hear about anything that looks wrong:
+    a paper that is missing, miscounted or in the wrong class, an author credited to the wrong person, a number that
+    does not match its source, or an assumption in the method that you think is mistaken. Proposals for better
+    methods are just as welcome. Please <a href="https://github.com/matthewdgreen/bits-of-work-repo/issues/new/choose">open an issue</a> on the study repository; the
+    templates ask for the details we need to check a report. Accepted changes are recorded in the repository
+    history, and the site is regenerated from it.</p>
   <pre class="bib" id="bibtex"><button class="copy seg" style="border:1px solid var(--rule)"><span style="padding:.2rem .5rem">copy</span></button><span class="k">@misc</span>{bitsofwork2026,
   title        = {How Hard Have We Looked? Measuring Public Cryptanalytic Effort},
   author       = {Green, Matthew},

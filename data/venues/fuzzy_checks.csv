@@ -1,0 +1,127 @@
+id,dblp_key,verdict,note
+2008/451,conf/cans/MohamedDBW09,same,"ePrint is the paper later at CANS 2009; retitled, same authors"
+2009/589,conf/codcry/BernsteinLPS11,different,Peters ISD over Fq vs BLPS 2-regular ISD; different result
+2009/605,conf/codcry/HanrotPS11,different,Pujol-Stehle 2^2.465n SVP vs Hanrot-Pujol-Stehle SVP/CVP survey
+2011/020,conf/eurocrypt/JouxV12,same,"same paper, title variant"
+2011/275,journals/ffa/DingCA14,same,same result; journal version with extra authors
+2011/427,conf/africacrypt/NitajANB14,different,KMOV attack vs different RSA attacks paper (other authors)
+2012/168,journals/dcc/CouvreurGGOT14,same,distinguisher attack on RS-code McEliece variant; journal version
+2013/388,conf/pkc/IshiguroKMT14,same,"same paper, subtitle variant"
+2013/446,conf/pairing/AdjMOR13,same,"same paper, Pairing 2013 F_{3^{6*509}}"
+2013/582,conf/pairing/JouxP13,same,"same paper, title formatting"
+2013/737,conf/pairing/AdjMOR13,different,F_{3^{6*1429}}/F_{2^{4*3041}} follow-up; Pairing 2013 paper is 3^{6*509}
+2014/057,journals/cca/AdjMOR15,same,"Magma Joux DLs in F_3^{6*137/163}; CCA short version, web-checked title only"
+2014/1018,journals/cca/AlbrechtCFFP15,same,"same algebraic LWE paper, journal abstract version"
+2014/641,conf/eurocrypt/Pierrot15,same,ePrint title shorter; same MNFS-conjugation paper
+2015/522,conf/soda/BeckerDGL16,different,Becker-Gama-Joux sieving vs BDGL SODA16; related but different paper
+2016/1128,conf/pqcrypto/EkeraG23,different,Ekera short DL vs Ekera-Gartner Regev-based; different
+2016/401,journals/amco/SarkarS19,different,TNFS variant of SS method vs later unified method paper; web-checked
+2016/537,conf/asiacrypt/Sarkar016,different,2016/537 generalisation of conjugation is separate from Asiacrypt 2016 paper; web-checked
+2016/727,journals/tcs/ZhuWZLL20,same,"eTNFS individual log improvements; TCS journal version (extra author), web-checked"
+2017/581,journals/tches/TrimoskaID21,same,conference-to-journal version of collision search time-memory analysis
+2018/339,conf/asiacrypt/Debris-AlazardT18,same,"same paper, abbreviated title"
+2018/947,journals/jsiaml/Hashimoto19,same,same Circulant UOV/Rainbow attack; journal title differs
+2019/1019,journals/access/CheonHHS19,different,"ePrint 2019/1019 is WAHC paper by Son-Cheon; Access paper differs, web-checked"
+2019/1272,conf/icete/KapshikarM18,same,"same authors/topic, ICETE 2018 version"
+2020/1124,conf/eusipco/CabeleiraMF19,different,ePrint Voronoi optimization vs EUSIPCO memory-optimized kernels; web-checked
+2020/605,journals/access/MarianoLCRF17,different,LUSA library vs state-of-the-art survey (Mariano et al)
+2020/908,journals/ieiceta/NakamuraWI23,same,"same MinRank KS analysis, IEICE version; web-checked"
+2021/1623,journals/jmc/LesavoureyPS20,different,Kummer fields (2021) vs multicubic fields (2020) different results; web-checked
+2022/239,conf/cscml/ZhaoD23,same,same BKZ improvements paper
+2022/345,conf/crypto/CastryckSV20,different,Different papers (DDH on oriented curves vs genus theory)
+2022/501,journals/access/PutrantoWLJK23,same,"same quantum binary EC paper, retitled"
+2022/676,conf/eurocrypt/BonnetainCSS23,same,"same paper, subtitle added"
+2023/1330,journals/access/Zheng24,same,same small private key attack on common prime RSA
+2024/1331,journals/cryptography/ZhengFNP26,different,Enumerate MSBs of p+q vs continued fractions hybrid; web-checked
+2024/555,conf/eurocrypt/ChenLZ22,different,Chen quantum lattice algorithm vs Chen-Liu-Zhandry average-case
+2024/712,journals/access/KimJBWCCS26,same,same concrete quantum SVP sieve paper
+2024/739,journals/tches/ZhaoDY25,same,same sieving with streaming memory access paper
+2025/1559,journals/dm/FayeSCDN27,different,"ePrint generalizes Teseleanu attack, Discrete Math paper differs; web-checked"
+2026/1707,journals/tccn/ZhouLZZLWC26,different,unrelated UAV paper
+2026/279,conf/crypto/HouJO26,same,"same MLWE vs LWE gap paper, retitled"
+2026/298,conf/crypto/FurueI26,same,"same paper, title truncated"
+W109797903,conf/focs/DadushPV11,same,arXiv version of FOCS 2011 M-ellipsoid paper
+W1487179814,conf/eurocrypt/DixonL93,different,Lenstra web/NFS factoring vs Dixon-Lenstra SIMD sieves
+W1557189340,conf/crypto/KipnisS99,same,same Kipnis-Shamir HFE paper (relinearization)
+W1740432989,conf/eurocrypt/FaugerePPR12,different,Petit alone vs FPPR12 binary-field index calculus; different
+W1823250889,journals/spl/AminBZ00,different,unrelated signal processing paper
+W2187013077,journals/imt/FukaseY12,different,"companion paper, not the same work (dup group 60)"
+W2188723450,journals/cca/AdjMOR15,same,same Magma DL results; CCA short version
+W2224672441,conf/crypto/BernsteinLP11,same,same ball-collision decoding paper
+W2237840741,phd/hal/Zeitoun15,same,"thesis, French/English title pair"
+W2240287352,phd/hal/Huot13,same,"thesis, French/English title pair"
+W2263184485,conf/atc/YangXLQ06,different,"different Lanczos variant (look-ahead vs biorthogonal), different authors"
+W2269064447,conf/icmcta/CouvreurMP14,different,different authors; DBLP is Couvreur et al subcodes paper
+W2298011329,conf/itw/FaugereGOPT11,same,same high-rate McEliece distinguisher
+W2317377573,conf/crypto/HanrotPS11,same,same blockwise lattice algorithm paper
+W2337277414,journals/lmsjcm/GalbraithGM16,different,item is thesis (ECDLP + ACD); DBLP is ACD journal paper only
+W2339138420,journals/jmc/HuangKPYY20,different,student thesis on ECDLP char 2 vs quasi-subfield polynomial paper
+W2399664638,conf/acisp/Aono13,same,same Aono Minkowski-sum lattice paper
+W2403700287,journals/siaga/0030LS17,same,same search RLWE small error attacks
+W2406583848,conf/acns/NieHLUD06,different,Two new TTM instances (2007) vs ACNS 2006 earlier TTM attack; web-checked
+W2550182834,phd/hal/Bouvier15,different,filtering-step paper vs thesis on factoring/DL algorithms
+W2575869831,conf/sacrypt/Laarhoven16,same,same closest vector sieving with preprocessing
+W2577487606,conf/asiacrypt/Guillevic15,different,HAL extended NFS/FFS version differs from Asiacrypt 2015; web-checked
+W2619484624,journals/dcc/AlbrechtCFFP15,different,Arora-Ge complexity vs BKW complexity; different
+W2724724895,conf/crypto/FaugereJ03,same,Faugere-Joux HFE Groebner (INRIA report version)
+W2741799631,conf/ches/IzuKS07,different,CAIRN 3 lattice sieving vs CAIRN 2 NFS FPGA; different design
+W2742341575,conf/asiacrypt/Guillevic15,different,"QPA/NFS variants paper is later extension, not Asiacrypt 2015"
+W2768613171,phd/hal/Gremy17,same,"thesis, French/English title pair"
+W2775694132,conf/isit/AragonGHT18,same,Aragon et al RSD algorithm; ISIT 2018 version
+W2784080606,journals/jmc/HuangKPYY20,different,zero-dimensional systems thesis vs quasi-subfield paper
+W2795344461,phd/hal/Gelin17,same,"thesis, French/English title pair"
+W2887314475,conf/eurocrypt/BonnetainS20,same,same CSIDH quantum security paper
+W2917135589,conf/icissp/0001MFKT19,same,"same authors/topic, ICISSP extended version; moderate confidence"
+W2942137384,conf/pkc/CostelloLNRV20,same,"same SIKE classical cryptanalysis paper, retitled"
+W2945624639,conf/pqcrypto/EkeraH17,different,Ekera revisit Shor 2019 vs Ekera-Hastad 2017; sequel
+W2951670448,journals/tit/CouvreurCP17,same,same AG-code McEliece cryptanalysis
+W2975184158,journals/ffa/EulerP21,same,same quasi-subfield polynomial results
+W2982587774,conf/asiacrypt/AlbrechtGPS20,same,same quantum lattice sieve estimate paper
+W2995933985,phd/hal/PelletMary19,same,"thesis, French/English title pair"
+W3029193521,journals/chinaf/YangMWLZ15,same,same authors/topic NFS polynomial selection; web-checked
+W3033484880,conf/asiacrypt/Guillevic15,same,Guillevic individual-log step improvement = Asiacrypt 2015 paper
+W3048669827,journals/jmc/BabinkostovaCKN22,same,same smearing condition RLWE/PLWE paper
+W3048694193,conf/asiacrypt/CavallarDLLLMMRZ99,different,RSA-140 factorization paper vs Cavallar NFS thesis
+W3122036629,conf/qce/PerrielloBP21,different,MSc thesis vs later paper (dup group 77)
+W3144520238,conf/acisp/KimuraTT23,same,same quantum ISD low-memory paper
+W3156740524,phd/hal/Trimoska21,same,"thesis, French/English title pair"
+W4224871955,journals/access/LarasatiPWPK23,same,same quantum FLT inversion depth paper
+W4226334740,journals/cybersec/LiuYY23,different,factoring circuit vs later ECDLP paper; web-checked (dup group 80)
+W4309585265,journals/jossac/HuXTFZ25,same,"quantum annealing QUBO method/factoring; journal version, web-checked"
+W4312206339,journals/nature/LacroixBHZBSESS25,different,Nature colour code paper vs factoring paper; unrelated
+W4384918671,journals/nature/LacroixBHZBSESS25,different,comment on factoring paper vs colour code paper; unrelated
+W4392228281,phd/hal/Gluher21,same,"thesis, French/English title pair"
+W4392529667,phd/hal/Bros22,same,"thesis, French/English title pair"
+W4393176602,phd/hal/Bertin22a,same,"thesis, French/English title pair"
+W4393365463,phd/hal/Plouviez21,same,"thesis, French/English title pair"
+W4415110892,phd/hal/Fleury24,same,"thesis, English/French title pair"
+W66388758,journals/joc/FaugereGHR14,same,same symmetries index calculus ECDLP paper
+W7027626139,phd/hal/Micheli21,same,"thesis, French/English title pair"
+W7126294383,journals/jmc/McGuireR20,different,McGuire-Robinson paper vs Robinson thesis; web-checked
+W7143684105,conf/eurocrypt/BarbulescuGJT14,different,Barbulescu DL algorithms (2013) vs BGJT quasi-polynomial paper
+W7169046643,conf/space/BhatiS25,same,same hyperelliptic decomposition paper
+W810650789,phd/hal/Huot13,same,"thesis, French/English title pair"
+W815213371,phd/hal/Barbulescu13,same,"thesis, French/English title pair"
+W86859466,conf/cats/MurphyB98,different,Murphy thesis vs Murphy-Brent quadratic polynomials paper
+W975846166,books/hal/Stehle11,same,"HDR, French/English title pair"
+dblp:journals/corr/AggarwalDRS14,conf/focs/AggarwalDS15,different,SVP via DGS vs CVP in 2^n time; different papers
+dblp:journals/corr/Laarhoven17a,conf/latincrypt/LaarhovenW15,different,tuple sieving with filters (2017) vs LSH sieving (2015)
+dblp:journals/corr/abs-0808-0469,conf/ants/MillerV06,different,non-degeneracy of Pollard rho vs spectral analysis; different
+dblp:journals/corr/abs-1008-2390,conf/crypto/DinhMR11,same,same McEliece vs quantum Fourier sampling paper
+dblp:journals/corr/abs-1204-6459,journals/dcc/CouvreurGGOT14,same,arXiv version of distinguisher attack on RS-code McEliece
+dblp:journals/corr/abs-1305-4365,conf/ccseit/HarishKKPSKSSA12,different,performance analysis (2013) vs parallelization design (2012); web-checked
+dblp:journals/corr/abs-1804-02556,conf/asiacrypt/Debris-AlazardT18,same,RankSign attack arXiv; same as Asiacrypt 2018 two attacks
+dblp:journals/corr/abs-2002-08322,conf/asiacrypt/BardetBCGPSTV20,same,same rank decoding/MinRank algebraic attacks paper
+dblp:journals/corr/abs-2005-05039,conf/indocrypt/MahalanobisMA18,different,initial minors arXiv is later than INDOCRYPT 2018 Las Vegas paper; web-checked
+dblp:journals/corr/abs-2005-14681,conf/crypto/QuehenKLMPPS21,same,same torsion-point attacks on SIDH variants
+dblp:journals/corr/abs-2309-08304,conf/space/RayaKGG23,same,same group-ring NTRU dihedral paper
+dblp:journals/corr/abs-2310-04132,journals/gcc/AbdullahMM20,different,2023 follow-up to earlier minors paper (GCC 2020); web-checked
+dblp:journals/corr/abs-2402-13895,journals/quantum/AlbrechtPSW23,different,Grover oracle SVP vs variational quantum SVP; different
+dblp:journals/corr/abs-2409-08784,conf/securecomm/Hao0ZZ0L24,different,different index-calculus papers (dup group 100)
+dblp:journals/corr/abs-2510-26003,journals/acta/PoimenidouADT26,different,sequel; web-checked (dup group 107)
+dblp:journals/corr/abs-2601-07511,conf/isit/CuiLZ26,same,"same ideal SVP rational primes work; ISIT version, web-checked"
+dblp:phd/hal/Gaudry00,books/hal/Gaudry08,different,Gaudry 2000 thesis vs 2008 HDR
+zb:0692.10005,conf/aaecc/ToffinGV88,same,same lth-roots mod n lattice paper
+zb:arXiv:math/0606607,journals/moc/GaudryTTD07,same,same double large prime index calculus paper
+W3081419636,conf/cbc/HorlemannPRSW21,different,unrelated (duplicate check group 50)
+zb:1358.11002,journals/moc/Diem11,different,habilitation vs derived article; web-checked (dup group 109)

@@ -1,0 +1,199 @@
+flag,id,detail
+doi-title-mismatch,zb:0501.10008,DOI 10.1007/BF02280781 is titled 'Ein Effizienzvergleich der Faktorisierungsverfahren von Morrison-Brillhart und Schroeppel' in Crossref (Computing)
+doi-title-mismatch,zb:0777.11002,DOI 10.4102/satnt.v11i2.524 is titled '’n Faktoriseringsmetode gegrond op ’n additiewe eienskap' in Crossref (Suid-Afrikaanse Tydskrif vir Natuurwetenskap en Tegnologie)
+doi-title-mismatch,zb:0796.94006,DOI 10.1515/dma.1992.2.1.1 is titled 'On the edge-independence number and edge-covering number for regular graphs' in Crossref (Discrete Mathematics and Applications)
+doi-title-mismatch,zb:0979.11056,DOI 10.4213/dm386 is titled 'К вопросу о сведении вычисления дискретных логарифмов на эллиптической кривой к вычислению дискретны' in Crossref (Дискретная математика)
+doi-title-mismatch,zb:1475.94114,DOI 10.4213/mvk47 is titled 'Решение систем линейных уравнений при вычислении логарифмов в конечном простом поле' in Crossref (Математические вопросы криптографии)
+eprint-pubinfo-unparsed,1997/008,Published elsewhere. Appeared in the THEORY OF CRYPTOGRAPHY LIBRARY and has been included in the ePrint Archive.
+eprint-pubinfo-unparsed,2004/031,Published elsewhere. submitted to Crypto 2004
+eprint-pubinfo-unparsed,2007/424,"Published elsewhere. RSA, NFS, factoring, digital signatures"
+eprint-pubinfo-unparsed,2008/064,Published elsewhere. Submitted to: TATRA MOUNTAINS Mathematical Publications
+eprint-pubinfo-unparsed,2009/318,Published elsewhere. No publication.
+eprint-pubinfo-unparsed,2011/098,Published elsewhere. Submitted to Mathematics of Computation
+eprint-pubinfo-unparsed,2012/355,Published elsewhere. expanded version of RFIDsec paper
+eprint-pubinfo-unparsed,2013/412,Published elsewhere. submitted to SoDA 2014
+eprint-pubinfo-unparsed,2016/329,Published elsewhere. Topics in Computational Number Theory inspired by Peter L. Montgomery
+eprint-pubinfo-unparsed,2018/339,Published elsewhere. Minor revision. https://arxiv.org/pdf/1804.02556.pdf
+eprint-pubinfo-unparsed,2020/1375,"Published elsewhere. Women in Numbers Europe III: Research Directions in Number Theory A. Cojocaru, S. Ionica and E. Lorenzo Garcia Eds., Springer"
+eprint-pubinfo-unparsed,2021/1629,Published elsewhere. Minor revision. Computer Standards & Interfaces
+eprint-pubinfo-unparsed,2021/1630,Published elsewhere. Minor revision. Multimedia Tools and Applications
+eprint-pubinfo-unparsed,2022/1000,Published elsewhere. arXiv
+eprint-pubinfo-unparsed,2022/935,Published elsewhere. Neural Information Processing Systems (NeurIPS) 2022
+eprint-pubinfo-unparsed,2024/1924,"Published elsewhere. arXiv, poster at MEGA 2022"
+eprint-pubinfo-unparsed,2024/2065,Published elsewhere. MDPI Cryptography
+eprint-pubinfo-unparsed,2026/625,Published elsewhere. Minor revision. arXiv
+fuzzy-dblp-match,2011/427,sim 0.639: 'A new attack on the KMOVcryptosystem' vs 'A New Attack on Three Variants of the RSA Cryptosystem' [conf/acisp/BunderNST16]
+fuzzy-dblp-match,2013/737,sim 0.69: 'Weakness of F_{3^{6*1429}} and F_{2^{4*3041}} for Discrete Logarithm Cryptography' vs 'for discrete logarithm cryptography' [journals/ffa/AdjMOR15]
+fuzzy-dblp-match,2016/1128,sim 0.574: 'Modifying Shor’s algorithm to compute short discrete logarithms' vs 'Quantum Algorithms for Computing Short Discrete Logarithms and Factoring RSA Integers' [conf/pqcrypto/EkeraH17]
+fuzzy-dblp-match,2016/401,sim 0.542: 'Tower Number Field Sieve Variant of a Recent Polynomial Selection Method' vs 'A General Polynomial Selection Method and New Asymptotic Complexities for the Tower Number' [conf/asiacrypt/Sarkar016]
+fuzzy-dblp-match,2016/537,sim 0.713: 'A Generalisation of the Conjugation Method for Polynomial Selection for the Extended Tower' vs 'A unified polynomial selection method for the (tower) number field sieve algorithm' [journals/amco/SarkarS19]
+fuzzy-dblp-match,2024/555,sim 0.608: 'Quantum Algorithms for Lattice Problems' vs 'Quantum algorithms for SCS and text assembling problems' [journals/qic/KhadievMCW24]
+fuzzy-dblp-match,W1487179814,sim 0.607: 'Factoring Integers Using the Web and the Number Field Sieve' vs 'Factorization of RSA-140 Using the Number Field Sieve' [conf/asiacrypt/CavallarDLLLMMRZ99]
+fuzzy-dblp-match,W1740432989,sim 0.551: 'Complexity of index calculus algorithms for ECDLP over composite fields' vs 'On Index Calculus Algorithms for Subfield Curves' [conf/sacrypt/GalbraithGMP20]
+fuzzy-dblp-match,W1823250889,sim 0.508: 'An extension of the Dickman function and its application' vs 'and its applications' [journals/amc/Zhang02b]
+fuzzy-dblp-match,W2187013077,sim 0.624: 'Analysis of the Extended Search Space for the Shortest Vector in Lattice' vs 'Finding a Very Short Lattice Vector in the Extended Search Space' [journals/jip/FukaseY12]
+fuzzy-dblp-match,W2339138420,sim 0.519: 'Efficient Algorithms to Solve the Elliptic Curve Discrete Logarithm Problem over Finite Fi' vs 'Quantum algorithm for solving hyperelliptic curve discrete logarithm problem' [journals/qip/HuangSZDC20]
+fuzzy-dblp-match,W2406583848,sim 0.538: 'Cryptanalysis of Two New Instances of TTM Cryptosystem.' vs 'Cryptanalysis of the TRMC-4 Public Key Cryptosystem' [conf/acns/NieHDLW07]
+fuzzy-dblp-match,W2577487606,sim 0.611: 'Faster individual discrete logarithms in non-prime finite fields with the NFS and FFS algo' vs 'Faster individual discrete logarithms in finite fields of composite extension degree' [journals/moc/Guillevic19]
+fuzzy-dblp-match,W2742341575,sim 0.512: 'Faster individual discrete logarithms with the QPA and NFS variants' vs 'Faster individual discrete logarithms in finite fields of composite extension degree' [journals/moc/Guillevic19]
+fuzzy-dblp-match,W2945624639,"sim 0.677: ""Revisiting Shor's quantum algorithm for computing general discrete logarithms"" vs 'On post-processing in the quantum algorithm for computing short discrete logarithms' [journals/dcc/Ekera20]"
+fuzzy-dblp-match,W4312206339,sim 0.5: 'Factoring integers with sublinear resources on a superconducting quantum processor' vs 'Quantum compiling with reinforcement learning on a superconducting processor' [journals/mlst/WangCDYCHZXDLJWLXJWYZ26]
+fuzzy-dblp-match,W7143684105,sim 0.5: 'Algorithms for discrete logarithm in finite fields' vs 'Discrete Logarithm in GF(2809) with FFS' [conf/pkc/BarbulescuBDGJTVZ14]
+fuzzy-dblp-match,dblp:journals/corr/abs-2005-05039,sim 0.667: 'Initial minors - a conjecture to solve the elliptic curve discrete logarithm problem' vs 'A new method for solving the elliptic curve discrete logarithm problem' [journals/gcc/AbdullahMM20]
+possible-duplicate,2004/073 + dblp:journals/jsc/Gaudry09,"all match DBLP record journals/jsc/Gaudry09: 2004/073 (retitled sim 0.875), dblp:journals/jsc/Gaudry09 (self)"
+possible-duplicate,2006/197 + dblp:conf/indocrypt/FossorierMICM06,"all match DBLP record conf/indocrypt/FossorierMICM06: 2006/197 (retitled sim 0.931), dblp:conf/indocrypt/FossorierMICM06 (self)"
+possible-duplicate,2007/203 + dblp:conf/cisc/JiangDH08,"all match DBLP record conf/cisc/JiangDH08: 2007/203 (retitled sim 0.918), dblp:conf/cisc/JiangDH08 (self)"
+possible-duplicate,2010/331 + W2298011329,"all match DBLP record conf/itw/FaugereGOPT11: 2010/331 (title), W2298011329 (retitled sim 0.832)"
+possible-duplicate,2010/437 + dblp:conf/pqcrypto/PetzoldtBB10,"all match DBLP record conf/pqcrypto/PetzoldtBB10: 2010/437 (retitled sim 0.865), dblp:conf/pqcrypto/PetzoldtBB10 (self)"
+possible-duplicate,2010/585 + W2224672441,"all match DBLP record conf/crypto/BernsteinLP11: 2010/585 (title), W2224672441 (retitled sim 0.691)"
+possible-duplicate,2011/139 + dblp:conf/ctrsa/WeiLW15,"all match DBLP record conf/ctrsa/WeiLW15: 2011/139 (retitled sim 0.918), dblp:conf/ctrsa/WeiLW15 (self)"
+possible-duplicate,2012/042 + W2128973996,"all match DBLP record conf/ispec/ShinoharaSHT12: 2012/042 (title), W2128973996 (retitled sim 0.926)"
+possible-duplicate,2012/168 + dblp:journals/corr/abs-1204-6459 + dblp:journals/dcc/CouvreurGGOT14,"all match DBLP record journals/dcc/CouvreurGGOT14: 2012/168 (retitled sim 0.549), dblp:journals/corr/abs-1204-6459 (retitled sim 0.643), dblp:journals/dcc/CouvreurGGOT14 (self)"
+possible-duplicate,2012/199 + W66388758,"all match DBLP record journals/joc/FaugereGHR14: 2012/199 (title), W66388758 (retitled sim 0.84)"
+possible-duplicate,2012/345 + dblp:conf/asiacrypt/HayashiSST12,"all match DBLP record conf/asiacrypt/HayashiSST12: 2012/345 (title), dblp:conf/asiacrypt/HayashiSST12 (self)"
+possible-duplicate,2012/599 + W3029193521,"all match DBLP record journals/chinaf/YangMWLZ15: 2012/599 (title), W3029193521 (retitled sim 0.532)"
+possible-duplicate,2012/609 + W3030649634,"all match DBLP record journals/lmsjcm/Cheon016: 2012/609 (title), W3030649634 (retitled sim 0.936)"
+possible-duplicate,2012/675 + W2399664638,"all match DBLP record conf/acisp/Aono13: 2012/675 (title), W2399664638 (retitled sim 0.682)"
+possible-duplicate,2013/095 + dblp:conf/sacrypt/Joux13,"all match DBLP record conf/sacrypt/Joux13: 2013/095 (retitled sim 0.938), dblp:conf/sacrypt/Joux13 (self)"
+possible-duplicate,2013/388 + dblp:conf/pkc/IshiguroKMT14,"all match DBLP record conf/pkc/IshiguroKMT14: 2013/388 (retitled sim 0.794), dblp:conf/pkc/IshiguroKMT14 (self)"
+possible-duplicate,2013/400 + dblp:conf/eurocrypt/BarbulescuGJT14,"all match DBLP record conf/eurocrypt/BarbulescuGJT14: 2013/400 (retitled sim 0.955), dblp:conf/eurocrypt/BarbulescuGJT14 (self)"
+possible-duplicate,2013/446 + dblp:journals/ffa/AdjMOR15,"all match DBLP record conf/pairing/AdjMOR13: 2013/446 (retitled sim 0.789), dblp:journals/ffa/AdjMOR15 (retitled sim 0.923)"
+possible-duplicate,2013/512 + 2014/437,"all match DBLP record conf/pkc/BiCFNRZ14: 2013/512 (retitled sim 0.925), 2014/437 (title)"
+possible-duplicate,2014/057 + W2188723450,"all match DBLP record journals/cca/AdjMOR15: 2014/057 (retitled sim 0.621), W2188723450 (retitled sim 0.675)"
+possible-duplicate,2014/1018 + dblp:journals/cca/AlbrechtCFFP15,"all match DBLP record journals/cca/AlbrechtCFFP15: 2014/1018 (retitled sim 0.846), dblp:journals/cca/AlbrechtCFFP15 (self)"
+possible-duplicate,2014/489 + dblp:conf/gecco/DingZW15,"all match DBLP record conf/gecco/DingZW15: 2014/489 (retitled sim 0.944), dblp:conf/gecco/DingZW15 (self)"
+possible-duplicate,2014/505 + dblp:journals/lmsjcm/KohelL0T14,"all match DBLP record journals/lmsjcm/KohelL0T14: 2014/505 (title), dblp:journals/lmsjcm/KohelL0T14 (self)"
+possible-duplicate,2014/641 + dblp:conf/eurocrypt/Pierrot15,"all match DBLP record conf/eurocrypt/Pierrot15: 2014/641 (retitled sim 0.746), dblp:conf/eurocrypt/Pierrot15 (self)"
+possible-duplicate,2014/980 + dblp:conf/icisc/DingZYZ14,"all match DBLP record conf/icisc/DingZYZ14: 2014/980 (retitled sim 0.984), dblp:conf/icisc/DingZYZ14 (self)"
+possible-duplicate,2015/1027 + W3196197733,"all match DBLP record conf/crypto/0001B16: 2015/1027 (title), W3196197733 (retitled sim 0.942)"
+possible-duplicate,2015/971 + W2403700287 + dblp:journals/corr/abs-1710-03739,"all match DBLP record journals/siaga/0030LS17: 2015/971 (retitled sim 0.988), W2403700287 (retitled sim 0.508), dblp:journals/corr/abs-1710-03739 (title)"
+possible-duplicate,2016/124 + dblp:journals/lmsjcm/GaudryGV16,"all match DBLP record journals/lmsjcm/GaudryGV16: 2016/124 (retitled sim 0.965), dblp:journals/lmsjcm/GaudryGV16 (self)"
+possible-duplicate,2016/288 + dblp:conf/asiacrypt/BogosV16,"all match DBLP record conf/asiacrypt/BogosV16: 2016/288 (retitled sim 0.886), dblp:conf/asiacrypt/BogosV16 (self)"
+possible-duplicate,2016/727 + dblp:journals/tcs/ZhuWZLL20,"all match DBLP record journals/tcs/ZhuWZLL20: 2016/727 (retitled sim 0.5), dblp:journals/tcs/ZhuWZLL20 (self)"
+possible-duplicate,2016/733 + W2573747521,"all match DBLP record journals/iacr/Wunderer16: 2016/733 (title), W2573747521 (title)"
+possible-duplicate,2017/581 + dblp:journals/tches/TrimoskaID21,"all match DBLP record journals/tches/TrimoskaID21: 2017/581 (retitled sim 0.745), dblp:journals/tches/TrimoskaID21 (self)"
+possible-duplicate,2018/339 + dblp:conf/asiacrypt/Debris-AlazardT18 + dblp:journals/corr/abs-1804-02556,"all match DBLP record conf/asiacrypt/Debris-AlazardT18: 2018/339 (retitled sim 0.8), dblp:conf/asiacrypt/Debris-AlazardT18 (self), dblp:journals/corr/abs-1804-02556 (retitled sim 0.528)"
+possible-duplicate,2018/537 + W2887314475,"all match DBLP record conf/eurocrypt/BonnetainS20: 2018/537 (title), W2887314475 (retitled sim 0.659)"
+possible-duplicate,2018/586 + W2906827945,"all match DBLP record conf/crypto/AonoNSS18: 2018/586 (title), W2906827945 (retitled sim 0.87)"
+possible-duplicate,2018/947 + dblp:journals/jsiaml/Hashimoto19,"all match DBLP record journals/jsiaml/Hashimoto19: 2018/947 (retitled sim 0.5), dblp:journals/jsiaml/Hashimoto19 (self)"
+possible-duplicate,2019/1161 + W2982587774,"all match DBLP record conf/asiacrypt/AlbrechtGPS20: 2019/1161 (title), W2982587774 (retitled sim 0.714)"
+possible-duplicate,2019/298 + W2942137384,"all match DBLP record conf/pkc/CostelloLNRV20: 2019/298 (title), W2942137384 (retitled sim 0.526)"
+possible-duplicate,2020/1376 + dblp:journals/jsc/GorlaMP22,"all match DBLP record journals/jsc/GorlaMP22: 2020/1376 (retitled sim 0.956), dblp:journals/jsc/GorlaMP22 (self)"
+possible-duplicate,2020/633 + dblp:journals/corr/abs-2005-14681,"all match DBLP record conf/crypto/QuehenKLMPPS21: 2020/633 (title), dblp:journals/corr/abs-2005-14681 (retitled sim 0.729)"
+possible-duplicate,2020/908 + dblp:journals/ieiceta/NakamuraWI23,"all match DBLP record journals/ieiceta/NakamuraWI23: 2020/908 (retitled sim 0.552), dblp:journals/ieiceta/NakamuraWI23 (self)"
+possible-duplicate,2021/1384 + dblp:conf/asiacrypt/BernardLNR22,"all match DBLP record conf/asiacrypt/BernardLNR22: 2021/1384 (retitled sim 0.97), dblp:conf/asiacrypt/BernardLNR22 (self)"
+possible-duplicate,2021/1677 + dblp:conf/crypto/BaenaBCPSV22,"all match DBLP record conf/crypto/BaenaBCPSV22: 2021/1677 (retitled sim 0.885), dblp:conf/crypto/BaenaBCPSV22 (self)"
+possible-duplicate,2021/707 + dblp:journals/joc/MicheliGP24,"all match DBLP record conf/asiacrypt/MicheliGP21: 2021/707 (title), dblp:journals/joc/MicheliGP24 (retitled sim 0.851)"
+possible-duplicate,2021/707 + dblp:journals/joc/MicheliGP24,"all match DBLP record journals/joc/MicheliGP24: 2021/707 (retitled sim 0.851), dblp:journals/joc/MicheliGP24 (self)"
+possible-duplicate,2022/239 + dblp:conf/cscml/ZhaoD23,"all match DBLP record conf/cscml/ZhaoD23: 2022/239 (retitled sim 0.812), dblp:conf/cscml/ZhaoD23 (self)"
+possible-duplicate,2022/501 + dblp:journals/access/PutrantoWLJK23,"all match DBLP record journals/access/PutrantoWLJK23: 2022/501 (retitled sim 0.655), dblp:journals/access/PutrantoWLJK23 (self)"
+possible-duplicate,2022/676 + dblp:conf/eurocrypt/BonnetainCSS23,"all match DBLP record conf/eurocrypt/BonnetainCSS23: 2022/676 (retitled sim 0.771), dblp:conf/eurocrypt/BonnetainCSS23 (self)"
+possible-duplicate,2023/1140 + dblp:journals/corr/abs-2306-07530,"all match DBLP record conf/wisa/LarasatiK23: 2023/1140 (title), dblp:journals/corr/abs-2306-07530 (retitled sim 0.894)"
+possible-duplicate,2023/968 + dblp:conf/nips/LiWACL23,"all match DBLP record conf/nips/LiWACL23: 2023/968 (retitled sim 0.876), dblp:conf/nips/LiWACL23 (self)"
+possible-duplicate,2024/712 + dblp:journals/access/KimJBWCCS26,"all match DBLP record journals/access/KimJBWCCS26: 2024/712 (retitled sim 0.53), dblp:journals/access/KimJBWCCS26 (self)"
+possible-duplicate,2024/739 + dblp:journals/tches/ZhaoDY25,"all match DBLP record journals/tches/ZhaoDY25: 2024/739 (retitled sim 0.704), dblp:journals/tches/ZhaoDY25 (self)"
+possible-duplicate,2025/017 + dblp:journals/tches/JangSBSS25,"all match DBLP record journals/tches/JangSBSS25: 2025/017 (retitled sim 0.851), dblp:journals/tches/JangSBSS25 (self)"
+possible-duplicate,2025/2195 + dblp:conf/pqcrypto/PerthuisT26,"all match DBLP record conf/pqcrypto/PerthuisT26: 2025/2195 (retitled sim 0.866), dblp:conf/pqcrypto/PerthuisT26 (self)"
+possible-duplicate,2025/739 + W7210281815,"all match DBLP record conf/iwsec/SuzukiFINU25: 2025/739 (title), W7210281815 (retitled sim 0.85)"
+possible-duplicate,2026/279 + dblp:conf/crypto/HouJO26,"all match DBLP record conf/crypto/HouJO26: 2026/279 (retitled sim 0.622), dblp:conf/crypto/HouJO26 (self)"
+possible-duplicate,W109797903 + W1970422301,"all match DBLP record conf/focs/DadushPV11: W109797903 (retitled sim 0.72), W1970422301 (title)"
+possible-duplicate,W1552834175 + W2949245726,"all match DBLP record conf/waifi/Jeljeli14: W1552834175 (title), W2949245726 (retitled sim 0.938)"
+possible-duplicate,W1557189340 + dblp:conf/crypto/KipnisS99,"all match DBLP record conf/crypto/KipnisS99: W1557189340 (retitled sim 0.813), dblp:conf/crypto/KipnisS99 (self)"
+possible-duplicate,W2116805499 + W2121115867,"all match DBLP record journals/cys/MaitraRSG09: W2116805499 (retitled sim 0.916), W2121115867 (title)"
+possible-duplicate,W2240287352 + W810650789,"all match DBLP record phd/hal/Huot13: W2240287352 (retitled sim 0.685), W810650789 (retitled sim 0.815)"
+possible-duplicate,W2300086762 + dblp:conf/eurocrypt/FaugereOPT10,"all match DBLP record conf/eurocrypt/FaugereOPT10: W2300086762 (retitled sim 0.862), dblp:conf/eurocrypt/FaugereOPT10 (self)"
+possible-duplicate,W2317377573 + dblp:conf/crypto/HanrotPS11,"all match DBLP record conf/crypto/HanrotPS11: W2317377573 (retitled sim 0.822), dblp:conf/crypto/HanrotPS11 (self)"
+possible-duplicate,W2333133945 + dblp:conf/crypto/HanrotS07,"all match DBLP record conf/crypto/HanrotS07: W2333133945 (retitled sim 0.876), dblp:conf/crypto/HanrotS07 (self)"
+possible-duplicate,W2724724895 + dblp:conf/crypto/FaugereJ03,"all match DBLP record conf/crypto/FaugereJ03: W2724724895 (retitled sim 0.69), dblp:conf/crypto/FaugereJ03 (self)"
+possible-duplicate,W2768613171 + dblp:phd/hal/Gremy17,"all match DBLP record phd/hal/Gremy17: W2768613171 (retitled sim 0.8), dblp:phd/hal/Gremy17 (self)"
+possible-duplicate,W2775694132 + dblp:conf/isit/AragonGHT18,"all match DBLP record conf/isit/AragonGHT18: W2775694132 (retitled sim 0.528), dblp:conf/isit/AragonGHT18 (self)"
+possible-duplicate,W2795344461 + dblp:phd/hal/Gelin17,"all match DBLP record phd/hal/Gelin17: W2795344461 (retitled sim 0.783), dblp:phd/hal/Gelin17 (self)"
+possible-duplicate,W2810573914 + W3161625074,"all match DBLP record journals/accs/KosolapovS19: W2810573914 (retitled sim 0.976), W3161625074 (title)"
+possible-duplicate,W2951670448 + dblp:journals/tit/CouvreurCP17,"all match DBLP record journals/tit/CouvreurCP17: W2951670448 (retitled sim 0.607), dblp:journals/tit/CouvreurCP17 (self)"
+possible-duplicate,W2975184158 + dblp:journals/ffa/EulerP21,"all match DBLP record journals/ffa/EulerP21: W2975184158 (retitled sim 0.603), dblp:journals/ffa/EulerP21 (self)"
+possible-duplicate,W2995933985 + dblp:phd/hal/PelletMary19,"all match DBLP record phd/hal/PelletMary19: W2995933985 (retitled sim 0.74), dblp:phd/hal/PelletMary19 (self)"
+possible-duplicate,W3005962996 + dblp:phd/dnb/Both18,"all match DBLP record phd/dnb/Both18: W3005962996 (retitled sim 0.946), dblp:phd/dnb/Both18 (self)"
+possible-duplicate,W3033484880 + dblp:conf/asiacrypt/Guillevic15,"all match DBLP record conf/asiacrypt/Guillevic15: W3033484880 (retitled sim 0.541), dblp:conf/asiacrypt/Guillevic15 (self)"
+possible-duplicate,W3048669827 + dblp:journals/corr/abs-2008-04459,"all match DBLP record journals/jmc/BabinkostovaCKN22: W3048669827 (retitled sim 0.75), dblp:journals/corr/abs-2008-04459 (title)"
+possible-duplicate,W3144520238 + dblp:conf/acisp/KimuraTT23,"all match DBLP record conf/acisp/KimuraTT23: W3144520238 (retitled sim 0.748), dblp:conf/acisp/KimuraTT23 (self)"
+possible-duplicate,W4224871955 + W4378908873,"all match DBLP record journals/access/LarasatiPWPK23: W4224871955 (retitled sim 0.617), W4378908873 (title)"
+possible-duplicate,W4392228281 + dblp:phd/hal/Gluher21,"all match DBLP record phd/hal/Gluher21: W4392228281 (retitled sim 0.813), dblp:phd/hal/Gluher21 (self)"
+possible-duplicate,W4393365463 + dblp:phd/hal/Plouviez21,"all match DBLP record phd/hal/Plouviez21: W4393365463 (retitled sim 0.832), dblp:phd/hal/Plouviez21 (self)"
+possible-duplicate,W4402985682 + dblp:journals/jbcs/SousaN26,"all match DBLP record journals/jbcs/SousaN26: W4402985682 (retitled sim 0.901), dblp:journals/jbcs/SousaN26 (self)"
+possible-duplicate,W4415110892 + dblp:phd/hal/Fleury24,"all match DBLP record phd/hal/Fleury24: W4415110892 (retitled sim 0.737), dblp:phd/hal/Fleury24 (self)"
+possible-duplicate,W7027626139 + dblp:phd/hal/Micheli21,"all match DBLP record phd/hal/Micheli21: W7027626139 (retitled sim 0.724), dblp:phd/hal/Micheli21 (self)"
+possible-duplicate,dblp:conf/aina/IzuTY11 + dblp:journals/jip/IzuTY11,"all match DBLP record conf/aina/IzuTY11: dblp:conf/aina/IzuTY11 (self), dblp:journals/jip/IzuTY11 (retitled sim 0.952)"
+possible-duplicate,dblp:conf/aina/IzuTY11 + dblp:journals/jip/IzuTY11,"all match DBLP record journals/imt/IzuTY11: dblp:conf/aina/IzuTY11 (retitled sim 0.952), dblp:journals/jip/IzuTY11 (title)"
+possible-duplicate,dblp:conf/aina/IzuTY11 + dblp:journals/jip/IzuTY11,"all match DBLP record journals/jip/IzuTY11: dblp:conf/aina/IzuTY11 (retitled sim 0.952), dblp:journals/jip/IzuTY11 (self)"
+possible-duplicate,dblp:conf/ants/MontgomeryK08 + zb:1230.11149,"all match DBLP record conf/ants/MontgomeryK08: dblp:conf/ants/MontgomeryK08 (self), zb:1230.11149 (retitled sim 0.914)"
+possible-duplicate,dblp:conf/ants/Shor94 + zb:1005.11506,"all match DBLP record conf/ants/Shor94: dblp:conf/ants/Shor94 (self), zb:1005.11506 (retitled sim 0.917)"
+possible-duplicate,dblp:conf/asiacrypt/BardetBCGPSTV20 + dblp:journals/corr/abs-2002-08322,"all match DBLP record conf/asiacrypt/BardetBCGPSTV20: dblp:conf/asiacrypt/BardetBCGPSTV20 (self), dblp:journals/corr/abs-2002-08322 (retitled sim 0.777)"
+possible-duplicate,dblp:conf/calc/AjtaiKS01 + dblp:conf/stoc/AjtaiKS01,"all match DBLP record conf/calc/AjtaiKS01: dblp:conf/calc/AjtaiKS01 (self), dblp:conf/stoc/AjtaiKS01 (retitled sim 0.863)"
+possible-duplicate,dblp:conf/calc/AjtaiKS01 + dblp:conf/stoc/AjtaiKS01,"all match DBLP record conf/stoc/AjtaiKS01: dblp:conf/calc/AjtaiKS01 (retitled sim 0.863), dblp:conf/stoc/AjtaiKS01 (self)"
+possible-duplicate,dblp:conf/crypto/DinhMR11 + dblp:journals/corr/abs-1008-2390,"all match DBLP record conf/crypto/DinhMR11: dblp:conf/crypto/DinhMR11 (self), dblp:journals/corr/abs-1008-2390 (retitled sim 0.723)"
+possible-duplicate,dblp:conf/eurocrypt/AggarwalLS21 + dblp:journals/corr/abs-2007-09556,"all match DBLP record conf/eurocrypt/AggarwalLS21: dblp:conf/eurocrypt/AggarwalLS21 (self), dblp:journals/corr/abs-2007-09556 (retitled sim 0.985)"
+possible-duplicate,dblp:conf/eurocrypt/EngeG07 + dblp:journals/corr/abs-cs-0703032,"all match DBLP record conf/eurocrypt/EngeG07: dblp:conf/eurocrypt/EngeG07 (self), dblp:journals/corr/abs-cs-0703032 (retitled sim 0.893)"
+possible-duplicate,dblp:conf/ic-nc/KajitaniNMA15 + dblp:journals/ijnc/KajitaniNMAABD16,"all match DBLP record conf/ic-nc/KajitaniNMA15: dblp:conf/ic-nc/KajitaniNMA15 (self), dblp:journals/ijnc/KajitaniNMAABD16 (retitled sim 0.876)"
+possible-duplicate,dblp:conf/ic-nc/KajitaniNMA15 + dblp:journals/ijnc/KajitaniNMAABD16,"all match DBLP record journals/ijnc/KajitaniNMAABD16: dblp:conf/ic-nc/KajitaniNMA15 (retitled sim 0.876), dblp:journals/ijnc/KajitaniNMAABD16 (self)"
+possible-duplicate,dblp:conf/ic-nc/MiuraMKN20 + dblp:journals/ijnc/MiuraKMKKN21,"all match DBLP record conf/ic-nc/MiuraMKN20: dblp:conf/ic-nc/MiuraMKN20 (self), dblp:journals/ijnc/MiuraKMKKN21 (retitled sim 0.945)"
+possible-duplicate,dblp:conf/ic-nc/MiuraMKN20 + dblp:journals/ijnc/MiuraKMKKN21,"all match DBLP record journals/ijnc/MiuraKMKKN21: dblp:conf/ic-nc/MiuraMKN20 (retitled sim 0.945), dblp:journals/ijnc/MiuraKMKKN21 (self)"
+possible-duplicate,dblp:conf/icmc2/NakamuraIY20 + dblp:journals/dam/NakamuraY21,"all match DBLP record conf/icmc2/NakamuraIY20: dblp:conf/icmc2/NakamuraIY20 (self), dblp:journals/dam/NakamuraY21 (retitled sim 0.862)"
+possible-duplicate,dblp:conf/icmc2/NakamuraIY20 + dblp:journals/dam/NakamuraY21,"all match DBLP record journals/dam/NakamuraY21: dblp:conf/icmc2/NakamuraIY20 (retitled sim 0.862), dblp:journals/dam/NakamuraY21 (self)"
+possible-duplicate,dblp:conf/isaac/ChengH04 + dblp:journals/algorithmica/ChengH06,"all match DBLP record conf/isaac/ChengH04: dblp:conf/isaac/ChengH04 (self), dblp:journals/algorithmica/ChengH06 (retitled sim 0.982)"
+possible-duplicate,dblp:conf/isaac/ChengH04 + dblp:journals/algorithmica/ChengH06,"all match DBLP record journals/algorithmica/ChengH06: dblp:conf/isaac/ChengH04 (retitled sim 0.982), dblp:journals/algorithmica/ChengH06 (self)"
+possible-duplicate,dblp:conf/isit/CuiLZ26 + dblp:journals/corr/abs-2601-07511,"all match DBLP record conf/isit/CuiLZ26: dblp:conf/isit/CuiLZ26 (self), dblp:journals/corr/abs-2601-07511 (retitled sim 0.805)"
+possible-duplicate,dblp:conf/sacrypt/TakahashiOM22 + dblp:journals/ieicetd/TakahashiOM23,"all match DBLP record conf/sacrypt/TakahashiOM22: dblp:conf/sacrypt/TakahashiOM22 (self), dblp:journals/ieicetd/TakahashiOM23 (retitled sim 0.884)"
+possible-duplicate,dblp:conf/sacrypt/TakahashiOM22 + dblp:journals/ieicetd/TakahashiOM23,"all match DBLP record journals/ieicetd/TakahashiOM23: dblp:conf/sacrypt/TakahashiOM22 (retitled sim 0.884), dblp:journals/ieicetd/TakahashiOM23 (self)"
+possible-duplicate,dblp:conf/stacs/Babai85 + dblp:journals/combinatorica/Babai86,"all match DBLP record conf/stacs/Babai85: dblp:conf/stacs/Babai85 (self), dblp:journals/combinatorica/Babai86 (retitled sim 0.875)"
+possible-duplicate,dblp:conf/stacs/Babai85 + dblp:journals/combinatorica/Babai86,"all match DBLP record journals/combinatorica/Babai86: dblp:conf/stacs/Babai85 (retitled sim 0.875), dblp:journals/combinatorica/Babai86 (self)"
+possible-duplicate,dblp:journals/amco/AdamoudisD25 + dblp:journals/corr/abs-2203-09620,"all match DBLP record journals/amco/AdamoudisD25: dblp:journals/amco/AdamoudisD25 (self), dblp:journals/corr/abs-2203-09620 (retitled sim 0.937)"
+possible-duplicate,dblp:journals/corr/Fontein0W13 + dblp:journals/corr/abs-1212-5100,"all match DBLP record journals/dcc/Fontein0W14: dblp:journals/corr/Fontein0W13 (title), dblp:journals/corr/abs-1212-5100 (retitled sim 0.944)"
+possible-duplicate,dblp:journals/corr/RoettelerS13 + dblp:journals/qic/RottelerS14,"all match DBLP record journals/qic/RottelerS14: dblp:journals/corr/RoettelerS13 (search sim 0.938), dblp:journals/qic/RottelerS14 (self)"
+possible-duplicate,dblp:journals/corr/abs-0905-2177 + dblp:journals/joc/EngeGT11,"all match DBLP record journals/joc/EngeGT11: dblp:journals/corr/abs-0905-2177 (retitled sim 0.965), dblp:journals/joc/EngeGT11 (self)"
+possible-duplicate,dblp:journals/corr/abs-1903-02933 + dblp:journals/dcc/CoggiaC20,"all match DBLP record journals/dcc/CoggiaC20: dblp:journals/corr/abs-1903-02933 (retitled sim 0.957), dblp:journals/dcc/CoggiaC20 (self)"
+possible-duplicate,dblp:journals/cybersec/HuangZCZZ25 + dblp:journals/qip/HuangSZDC20,"all match DBLP record journals/cybersec/HuangZCZZ25: dblp:journals/cybersec/HuangZCZZ25 (self), dblp:journals/qip/HuangSZDC20 (retitled sim 0.924)"
+series-only-venue,W2186525946,only the series name is known (openalex W1553510179 S106296714)
+series-only-venue,W2263184485,only the series name is known (openalex W2138568820 S106296714)
+series-only-venue,W2403949996,only the series name is known (openalex W2403949996 S106296714)
+series-only-venue,W3085250475,only the series name is known (openalex W3085250475 S106296714)
+weak-dblp-search-match,2001/041,sim 0.753: 'Solving Elliptic Curve Discrete Logarithm Problems Using Weil Descent' vs 'Elliptic Curve Discrete Logarithm Problem' [reference/crypt/HankersonM05c]
+weak-dblp-search-match,2011/570,sim 0.88: 'Degree of regularity for HFE-' vs 'Degree of Regularity for HFEv and HFEv-' [conf/pqcrypto/DingY13]
+weak-dblp-search-match,2013/162,sim 0.619: 'A Non Asymptotic Analysis of Information Set Decoding' vs 'Analysis of Information Set Decoding for a Sub-linear Error Weight' [conf/pqcrypto/TorresS16]
+weak-dblp-search-match,2017/780,sim 0.824: 'New Algorithms for Solving LPN' vs 'Faster Algorithms for Solving LPN' [conf/eurocrypt/ZhangJW16]
+weak-dblp-search-match,W1777013864,sim 0.644: 'Degree of regularity of systems arising from a Weil descent' vs 'On Polynomial Systems Arising from a Weil Descent' [conf/asiacrypt/PetitQ12]
+weak-dblp-search-match,W2269064447,sim 0.627: 'Cryptanalysis of Public-key Cryptosystems Based on Algebraic Geometry Codes' vs 'A polynomial time attack against algebraic geometry code based public key cryptosystems' [conf/isit/CouvreurCP14]
+weak-dblp-search-match,W2442670395,sim 0.625: 'On the discrete logarithm problem in the finite fields and on elliptic curves' vs 'The Generalized Weil Pairing and the Discrete Logarithm Problem on Elliptic Curves' [conf/latin/Garefalakis02]
+weak-dblp-search-match,W2741703928,sim 0.824: 'SIZE OPTIMIZATION OF SEXTIC POLYNOMIALS IN THE NUMBER FIELD SIEVE' vs 'Root optimization of polynomials in the number field sieve' [journals/moc/BaiBT15]
+weak-dblp-search-match,dblp:journals/corr/abs-2001-08425,sim 0.614: 'Information set decoding of Lee-metric codes over finite rings' vs 'Information Set Decoding for Lee-Metric Codes Using Restricted Balls' [conf/cbc/BariffiKW22]
+year-earlier-than-counted,2012/002,counted year 2012; INDOCRYPT 2010 gives 2010 (dblp conf/indocrypt/BernsteinCCLNSY10)
+year-earlier-than-counted,2016/412,counted year 2016; CHES / TCHES 2012 gives 2012 (eprint pubinfo: A major revision of an IACR publication in CHES 2012)
+year-earlier-than-counted,2019/009,counted year 2019; ASIACRYPT 2017 gives 2017 (eprint pubinfo: A major revision of an IACR publication in ASIACRYPT 2017)
+year-earlier-than-counted,2021/1136,counted year 2021; HPCS gives 2019 (dblp conf/ieeehpcs/0001BK19)
+year-earlier-than-counted,2022/1038,counted year 2022; EUROCRYPT 2016 gives 2016 (eprint pubinfo: A minor revision of an IACR publication in EUROCRYPT 2016)
+year-earlier-than-counted,2025/1797,counted year 2025; SODA 2015 gives 2015 (crossref 10.1137/1.9781611974331.ch64)
+year-earlier-than-counted,2026/290,counted year 2026; PKC 2024 gives 2024 (dblp conf/pkc/CartorCFS24)
+year-earlier-than-counted,W2011068778,counted year 2011; IACR Cryptology ePrint Archive gives 2009 (dblp journals/iacr/Hashimoto09)
+year-earlier-than-counted,W2027157239,counted year 1989; STACS 1986 gives 1986 (dblp conf/stacs/HastadHLS86)
+year-earlier-than-counted,W2070971235,counted year 2009; ICALP 2007 gives 2007 (dblp conf/icalp/BlomerN07)
+year-earlier-than-counted,W2090493866,counted year 2012; IACR Cryptology ePrint Archive gives 2010 (dblp journals/iacr/GalbraithH10)
+year-earlier-than-counted,W2137147061,counted year 1999; SIAM Journal on Computing gives 1997 (dblp journals/siamcomp/Shor97)
+year-earlier-than-counted,W2159862444,counted year 2002; FOCS 2000 gives 2000 (dblp conf/focs/CleveW00)
+year-earlier-than-counted,W2906920534,counted year 2020; arXiv gives 2018 (dblp journals/corr/abs-1812-10955)
+year-earlier-than-counted,W4393137754,counted year 2024; IACR Cryptology ePrint Archive gives 2022 (dblp journals/iacr/CarrierST22)
+year-earlier-than-counted,W4405349803,counted year 2026; IACR Cryptology ePrint Archive gives 2024 (dblp journals/iacr/BarbulescuB24)
+year-earlier-than-counted,dblp:journals/algorithmica/ChengH06,counted year 2006; ISAAC (Algorithms and Computation) 2004 gives 2004 (dblp conf/isaac/ChengH04 (retitled? sim 0.982: On Partial Lifting and the Ellipt)
+year-earlier-than-counted,dblp:journals/amco/AdjCCMORR18,counted year 2018; IACR Cryptology ePrint Archive gives 2016 (dblp journals/iacr/AdjCCMORR16)
+year-earlier-than-counted,dblp:journals/cic/Ekera26,counted year 2026; arXiv gives 2023 (dblp journals/corr/abs-2309-01754)
+year-earlier-than-counted,dblp:journals/dcc/Ekera20,counted year 2020; IACR Cryptology ePrint Archive gives 2017 (dblp journals/iacr/Ekera17)
+year-earlier-than-counted,dblp:journals/dcc/Ghatak22,counted year 2022; arXiv gives 2020 (dblp journals/corr/abs-2007-07354)
+year-earlier-than-counted,dblp:journals/ffa/XiaoZC18,counted year 2018; IACR Cryptology ePrint Archive gives 2015 (dblp journals/iacr/XiaoZC15)
+year-earlier-than-counted,dblp:journals/jmc/Ekera21,counted year 2021; IACR Cryptology ePrint Archive gives 2018 (dblp journals/iacr/Ekera18)
+year-earlier-than-counted,dblp:journals/jmc/Laarhoven20,counted year 2021; arXiv gives 2019 (dblp journals/corr/abs-1907-04630)
+year-earlier-than-counted,dblp:journals/joc/CheonHK12,counted year 2012; Journal of Cryptology gives 2010 (crossref 10.1007/s00145-010-9093-7)
+year-earlier-than-counted,dblp:journals/joc/MicheliGP24,counted year 2023; ASIACRYPT 2021 gives 2021 (dblp conf/asiacrypt/MicheliGP21 (retitled? sim 0.851: Lattice Enumeration for To)
+year-earlier-than-counted,zb:1020.11082,counted year 2003; IACR Cryptology ePrint Archive gives 2001 (dblp journals/iacr/ChateauneufLS01)
+year-earlier-than-counted,zb:1221.11241,counted year 2009; arXiv gives 2006 (dblp journals/corr/abs-math-0602154)
+year-earlier-than-counted,zb:1286.11210,counted year 2014; arXiv gives 2011 (dblp journals/corr/abs-1103-1019)
+year-earlier-than-counted,zb:1487.11113,counted year 2022; IACR Cryptology ePrint Archive gives 2019 (dblp journals/iacr/KleinjungW19)
+year-earlier-than-counted,zb:1535.11173,"counted year 2023; Applicable Algebra in Engineering, Communication and Computing gives 2021 (crossref 10.1007/s00200-021-00521-8)"
+year-earlier-than-counted,zb:1559.11094,counted year 2024; arXiv gives 2022 (dblp journals/corr/abs-2212-11724)

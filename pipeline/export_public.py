@@ -34,10 +34,10 @@ DROP_PREFIXES = (
     'data/ai_effort/pilot_hawk/packet/',
     'data/ai_effort/pilot_hawk/heldout/',
     'tmp/',
+    'pipeline/public_files/',             # copied to the public repo's root instead (see below)
 )
 DROP_FILES = {
     'docs/CNAME',                         # the site is served from the private repo
-    'pipeline/public_files/README.md', 'pipeline/public_files/LICENSE', 'pipeline/public_files/LICENSE-data.md',
     'data/ai_effort/pilot_hawk/anthropic_paper_extract.md',
     'analysis/review_sheet.md',
     'notes/claude-memory-project.md',
@@ -195,9 +195,12 @@ def main():
         out.write_bytes(transform(path, data))
         kept += 1
 
-    # README (what this copy omits) and licenses, kept in pipeline/public_files/
+    # README (what this copy omits), licenses and .github/ (issue templates), kept in pipeline/public_files/
     for f in (SRC / 'pipeline/public_files').iterdir():
-        shutil.copyfile(f, dst / f.name)
+        if f.is_dir():
+            shutil.copytree(f, dst / f.name, dirs_exist_ok=True)
+        else:
+            shutil.copyfile(f, dst / f.name)
 
     # verification: no private abstract text may survive
     snips = private_abstract_snippets()

@@ -1,0 +1,125 @@
+# Venue registry: identifies venues for the counted-paper venue table (pipeline/build_venue_table.py).
+# Identification only; no reputation judgment is encoded here (that comes later, separately).
+# One row per venue. First matching row wins, so specific patterns come before general ones.
+# Columns (tab-separated):
+#   vid       short id
+#   refereed  yes = peer-reviewed venue; no = preprint server, repository, technical report;
+#             thesis = dissertation
+#   kind      conference | journal | workshop | thesis | preprint | report | book
+#   name      canonical name used in the outputs
+#   core      CORE2023 rank for conferences as published (data/raw/rankings/core2023.csv); recorded
+#             as an external attribute only, blank if not ranked or not checked
+#   dblp      comma-separated DBLP key streams (conf/x or journals/x)
+#   regex     Python regex (case-insensitive) matched against venue strings from Crossref, OpenAlex,
+#             zbMATH and ePrint "Publication info"; blank = DBLP only
+vid	refereed	kind	name	core	dblp	regex
+crypto	yes	conference	CRYPTO	A*	conf/crypto	\bCRYPTO\b(?!\w)|\bCRYPT0\b|Advances in Cryptology\W+CRYPTO|Annual International Cryptology Conference
+eurocrypt	yes	conference	EUROCRYPT	A*	conf/eurocrypt	EUROCRYPT|Theory and Applications? of Cryptographic Techniques
+asiacrypt	yes	conference	ASIACRYPT	A	conf/asiacrypt	ASIACRYPT|AUSCRYPT|Theory and Applications? of Cryptology and Information Security
+joc	yes	journal	Journal of Cryptology		journals/joc	^J(ournal)?\.? (of )?Cryptol(ogy|\.)$|\bJournal of Cryptology\b|\bJoC\b
+stoc	yes	conference	STOC	A*	conf/stoc	\bSTOC\b|Symposium on (the )?Theory of Computing
+focs	yes	conference	FOCS	A*	conf/focs	\bFOCS\b|Foundations of Computer Science
+soda	yes	conference	SODA	A*	conf/soda	\bSODA\b|Symposium on Discrete Algorithms
+jacm	yes	journal	Journal of the ACM		journals/jacm	^J(ournal)?\.? (of the )?ACM$|Journal of the ACM
+sicomp	yes	journal	SIAM Journal on Computing		journals/siamcomp	SIAM J(ournal)?\.? (on )?Comput(ing)?\b
+ccs	yes	conference	ACM CCS	A*	conf/ccs	\bCCS\b|Computer and Communications Security
+sp	yes	conference	IEEE S&P	A*	conf/sp	IEEE Symposium on Security and Privacy|\bS&P\b
+usenixsec	yes	conference	USENIX Security	A*	conf/uss	USENIX Security
+ndss	yes	conference	NDSS	A*	conf/ndss	\bNDSS\b|Network and Distributed System Security
+jams	yes	journal	Journal of the AMS			Journal of the American Mathematical Society
+annals	yes	journal	Annals of Mathematics		journals/annals	^Annals of Mathematics$|^Ann\. of Math
+pkc	yes	conference	PKC	B	conf/pkc	\bPKC\b|Public[- ]Key Cryptography|Practice and Theory (in|of) Public[- ]Key
+tcc	yes	conference	TCC	A	conf/tcc	\bTCC\b|Theory of Cryptography(?! Library)
+ches	yes	conference	CHES / TCHES	A	conf/ches,journals/tches	\bCHES\b|TCHES|Cryptographic Hardware and Embedded Systems|IACR Trans(actions|\.) (on )?Cryptogr(aphic|\.)? Hardw
+fse	yes	conference	FSE / ToSC	Journal Published	conf/fse,journals/tosc	\bFSE\b|ToSC|Fast Software Encryption|IACR Trans(actions|\.) (on )?Symmetric
+cic	yes	journal	IACR Communications in Cryptology		journals/cic	Communications in Cryptology|IACR Commun\.? Cryptol
+ants	yes	conference	ANTS (Algorithmic Number Theory Symposium)		conf/ants,journals/obs	\bANTS\b|Algorithmic Number Theory|Open Book Series
+pqcrypto	yes	conference	PQCrypto	C	conf/pqcrypto	PQCrypto|Post-?Quantum Cryptography
+sac	yes	conference	Selected Areas in Cryptography (SAC)	B	conf/sacrypt	Selected Areas [Ii]n Cryptography|Selecterd Areas|\bSAC ?(19|20)\d\d|\bSAC'
+ctrsa	yes	conference	CT-RSA	B	conf/ctrsa	CT-RSA|Cryptographers'? Track at (the )?RSA|Topics in Cryptology
+acns	yes	conference	ACNS	B	conf/acns	\bACNS\b|Applied Cryptography and Network Security(?! Workshops)
+esorics	yes	conference	ESORICS	A	conf/esorics	ESORICS|European Symposium on Research in Computer Security
+fc	yes	conference	Financial Cryptography and Data Security	A	conf/fc	Financial Cryptography
+jcen	yes	journal	Journal of Cryptographic Engineering		journals/jce	Journal of Cryptographic Engineering|J\. Cryptogr\. Eng
+siaga	yes	journal	SIAM Journal on Applied Algebra and Geometry		journals/siaga	SIAM J(ournal)?\.? (on )?Appl(ied|\.) Algebra|SIAGA
+arith	yes	conference	IEEE ARITH (Symposium on Computer Arithmetic)		conf/arith	\bARITH\b|Symposium on Computer Arithmetic
+jrms	yes	journal	Journal of the Ramanujan Mathematical Society			Ramanujan Math
+africacrypt	yes	conference	AFRICACRYPT		conf/africacrypt	AFRICACRYPT|Progress in Cryptology\W+AFRICACRYPT
+latincrypt	yes	conference	LATINCRYPT		conf/latincrypt	LATINCRYPT|Progress in Cryptology\W+LATINCRYPT
+indocrypt	yes	conference	INDOCRYPT	National: India	conf/indocrypt	INDOCRYPT|Progress in Cryptology\W+INDOCRYPT
+icalp	yes	conference	ICALP	A*	conf/icalp	\bICALP\b|Automata, Languages,? and Programming
+stacs	yes	conference	STACS	A	conf/stacs	\bSTACS\b|Theoretical Aspects of Computer Science
+ccc	yes	conference	Computational Complexity Conference	A	conf/coco,journals/cc	Computational Complexity
+approx	yes	conference	APPROX/RANDOM	A	conf/approx,conf/random	APPROX|RANDOM
+isaac	yes	conference	ISAAC (Algorithms and Computation)	A	conf/isaac	\bISAAC\b|^Algorithms and Computation$
+issac	yes	conference	ISSAC	A	conf/issac	\bISSAC\b|Symbolic and Algebraic Computation
+isit	yes	conference	IEEE ISIT		conf/isit	\bISIT\b|International Symposium on Information Theory
+itw	yes	conference	IEEE ITW		conf/itw	\bITW\b|Information Theory Workshop
+moc	yes	journal	Mathematics of Computation		journals/moc	Math(ematics)?\.? (of )?Comp(utation|ut\.|\.)(?! Sci)|^Mathematics of Computation
+jnt	yes	journal	Journal of Number Theory		journals/jnt	J(ournal)?\.? (of )?Number Theory
+lmsjcm	yes	journal	LMS Journal of Computation and Mathematics		journals/lmsjcm	LMS J(ournal)?\.? (of )?Comput
+jsc	yes	journal	Journal of Symbolic Computation		journals/jsc	J(ournal)?\.? (of )?Symb(olic|\.) Comput
+ffa	yes	journal	Finite Fields and Their Applications		journals/ffa	Finite Fields (and )?(T|t)heir Appl
+dcc	yes	journal	Designs, Codes and Cryptography		journals/dcc	Des(igns)?\.?,? Codes,? (and )?Cryptogr
+jmc	yes	journal	Journal of Mathematical Cryptology		journals/jmc	J(ournal)?\.? (of )?Math(ematical|\.) Cryptol
+amc	yes	journal	Advances in Mathematics of Communications		journals/amco	Adv(ances)?\.? (in )?Math(ematics|\.)? (of )?Commun
+ccds	yes	journal	Cryptography and Communications		journals/ccds	Cryptogr(aphy|\.) (and )?Commun(ications|\.)?(?! Security)
+tit	yes	journal	IEEE Transactions on Information Theory		journals/tit	IEEE Trans(actions|\.) (on )?Inf(ormation|\.) Theory
+aaecc	yes	journal	Applicable Algebra in Engineering, Communication and Computing		journals/aaecc	Applicable Algebra in Engineering|\bAAECC\b
+tcs	yes	journal	Theoretical Computer Science		journals/tcs	^Theor(etical|\.) Comput(er|\.) Sci(ence|\.)?$
+dam	yes	journal	Discrete Applied Mathematics		journals/dam	Discrete Appl(ied|\.) Math
+algorithmica	yes	journal	Algorithmica		journals/algorithmica	^Algorithmica$
+iandc	yes	journal	Information and Computation		journals/iandc	^Inf(ormation|\.) (and )?Comput(ation|\.)?$
+expmath	yes	journal	Experimental Mathematics		journals/em	^Exp(erimental|\.) Math
+actaarith	yes	journal	Acta Arithmetica			Acta Arith
+qic	yes	journal	Quantum Information & Computation		journals/qic	Quantum Inf(ormation|\.)? (&|and)? ?Comput
+quantum	yes	journal	Quantum		journals/quantum	^Quantum$
+pra	yes	journal	Physical Review A			Phys(ical|\.) Rev(iew|\.) A\b
+prl	yes	journal	Physical Review Letters			Phys(ical|\.) Rev(iew|\.) Lett
+nature	yes	journal	Nature			^Nature$
+bit	yes	journal	BIT Numerical Mathematics		journals/bit	^BIT\b
+combinatorica	yes	journal	Combinatorica		journals/combinatorica	^Combinatorica$
+mathann	yes	journal	Mathematische Annalen			Mathematische Annalen
+crypto_workshop_calc	yes	workshop	CaLC (Cryptography and Lattices Conference)		conf/calc	Cryptography and Lattices|\bCaLC\b
+imacc	yes	conference	IMA Cryptography and Coding (IMACC)	C	conf/ima,conf/imacc	Cryptography and Coding|\bIMACC\b
+acisp	yes	conference	ACISP	B	conf/acisp	\bACISP|Information Security and Privacy
+iwsec	yes	conference	IWSEC		conf/iwsec	\bIWSEC\b|Advances in Information and Computer Security
+icisc	yes	conference	ICISC	National: Korea	conf/icisc	\bICISC\b
+inscrypt	yes	conference	Inscrypt	National: China	conf/cisc	Inscrypt|Information Security and Cryptology(?! ?[-–—] ?ICISC)
+icics	yes	conference	ICICS		conf/icics	\bICICS\b|Information and Communications? Security
+isc	yes	conference	ISC (Information Security Conference)		conf/isw	^Information Security$|\bISC 20|Information Security Conference
+provsec	yes	conference	ProvSec		conf/provsec	ProvSec|Provable (and Practical )?Security
+ispec	yes	conference	ISPEC		conf/ispec	\bISPEC\b|Information Security Practice and Experience
+cans	yes	conference	CANS	B	conf/cans	\bCANS\b|Cryptology and Network Security
+scn	yes	conference	SCN	National: Italy	conf/scn	\bSCN\b|Security (and|in) Communication Networks|Security and Cryptography for Networks
+waifi	yes	conference	WAIFI	 	conf/waifi	WAIFI|Arithmetic of Finite Fields
+pairing	yes	conference	Pairing	C	conf/pairing	Pairing-Based Cryptography|\bPairing 20
+cbc	yes	workshop	Code-Based Cryptography Workshop		conf/cbc	Code-Based Cryptography
+nutmic	yes	conference	NuTMiC		conf/nutmic	NuTMiC|Number-Theoretic Methods in Cryptology
+wcc	yes	workshop	WCC (Workshop on Coding and Cryptography)		conf/wcc	\bWCC\b|Workshop on Coding and Cryptography
+isita	yes	conference	ISITA		conf/isita	\bISITA\b|Information Theory and (its|Its) Applications
+mycrypt	yes	conference	Mycrypt		conf/mycrypt	Mycrypt
+c2si	yes	conference	C2SI		conf/c2si	\bC2SI\b|Codes, Cryptology,? and Information Security
+secitc	yes	conference	SECITC		conf/secitc	SECITC|Innovative Security Solutions for Information Technology
+ietifs	yes	journal	IET Information Security		journals/iet-ifs	IET Inf(ormation|\.) Secur
+gcc	yes	journal	Groups Complexity Cryptology		journals/gcc	Groups,? Complexity,? Cryptology
+cryptologia	yes	journal	Cryptologia		journals/cryptologia	^Cryptologia$
+mvk	yes	journal	Matematicheskie Voprosy Kriptografii			Matematicheskie Voprosy Kriptografii|Mat\. Vopr\. Kriptogr
+pdm	yes	journal	Prikladnaya Diskretnaya Matematika			Prikladnaya Diskretnaya Matematika|Prikl\. Diskretn\. Mat
+dma	yes	journal	Discrete Mathematics and Applications			Discrete Math(ematics|\.) (and )?Appl
+mathcrypt	yes	journal	Mathematical Cryptology (FAU)			^Mathematical Cryptology$
+ieicet	yes	journal	IEICE Transactions		journals/ieicet,journals/ieiceta,journals/ieicetd	IEICE Trans
+jsiaml	yes	journal	JSIAM Letters		journals/jsiaml	JSIAM Lett
+access	yes	journal	IEEE Access		journals/access	IEEE Access
+mdpi_crypto	yes	journal	Cryptography (MDPI)		journals/cryptography	^Cryptography$|^Cryptogr\.$
+cybersec	yes	journal	Cybersecurity (Springer)		journals/cybersec	^Cybersecurity$|^Cybersecur\.$
+corr	no	preprint	arXiv		journals/corr	arXiv|^CoRR$
+eprint	no	preprint	IACR Cryptology ePrint Archive		journals/iacr	ePrint|IACR Cryptol(ogy)?\.? ?ePrint
+eccc	no	preprint	ECCC		journals/eccc	Electron(ic|\.) Colloq(uium|\.) (on )?Comput(ational|\.) Complex|\bECCC\b
+hal	no	preprint	HAL		 	^HAL\b|Le Centre pour la Communication Scientifique Directe
+zenodo	no	preprint	Zenodo			Zenodo
+ssrn	no	preprint	SSRN			SSRN|Social Science Research Network
+ieice_techrep	no	report	IEICE Technical Report			IEICE Tech(nical|\.) Rep|Technical report of IEICE|IEICE technical report|信学技報
+rims	no	report	RIMS Kokyuroku			RIMS K[oō]ky[uū]roku
+dagstuhl	no	report	Dagstuhl Seminar Proceedings		conf/dagstuhl	Dagstuhl Seminar
+repo	no	preprint	Institutional repository			Repositor|Research Portal|Infoscience|UWSpace|DiVA|\bNORA\b|Open Research Archives|Centrum Wiskunde|TU/e|IRDB|Research Collection|Digital Commons|eScholarship|ResearchGate|Semantic Scholar

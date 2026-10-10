@@ -9,6 +9,23 @@ ledger), records/, data/export/.
 Read analysis/phase1_report.md first: it has the counts, ratios, recall
 findings and the decision list.
 
+## Open task (2026-10-10): deduplicate the effort (FTE) estimates
+
+Read **notes/TODO_fte_dedup.md** and do what it says. Paper counts now count each work
+once (version weights, commit dd1440c; data/export/ was deliberately regenerated for
+this), but the author-map effort estimates and everything derived from them still count
+duplicate versions. The note lists the inputs (DBLP dump, zbMATH cache), the rebuild
+commands, a method question to settle, the files to regenerate, and the publish steps.
+
+## Open task (2026-10-10): fix identity splitting and pooling in the author map
+
+Read **notes/TODO_name_merging.md** and do what it says. The researcher explorer
+(docs/people.html) exposed two author-map errors: name variants (Unicode dashes,
+"Last, First", kept DBLP homonym numbers) split one person into several, and DBLP
+disambiguation pages (e.g. unnumbered `Lei Hu` next to `Lei Hu 0003`) pool several people
+into one. `pipeline/build_people_data.py` patches both at the display layer for now. The fix
+needs the DBLP dump and the same author-map rebuild as the FTE dedup task above.
+
 ## Standing decisions (user, 2026-10-08)
 
 - OpenAlex API key in ~/.openalex_key (never print or commit it); keyed budget

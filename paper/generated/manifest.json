@@ -10,7 +10,7 @@
  "classes": [
   {
    "class_name": "ECDLP",
-   "papers": "465.2",
+   "papers": "448.4",
    "research_years": "593.8",
    "nominal_hours": "1187600.0",
    "adjusted_hours": "877800.0",
@@ -22,7 +22,7 @@
   },
   {
    "class_name": "All lattices",
-   "papers": "840.0",
+   "papers": "809.0",
    "research_years": "1036.4",
    "nominal_hours": "2072800.0",
    "adjusted_hours": "1517000.0",
@@ -34,7 +34,7 @@
   },
   {
    "class_name": "MLWE / structured",
-   "papers": "477.4",
+   "papers": "457.3",
    "research_years": "583.6",
    "nominal_hours": "1167200.0",
    "adjusted_hours": "852200.0",
@@ -46,7 +46,7 @@
   },
   {
    "class_name": "Plain LWE",
-   "papers": "362.6",
+   "papers": "351.7",
    "research_years": "452.8",
    "nominal_hours": "905600.0",
    "adjusted_hours": "664800.0",
@@ -58,7 +58,7 @@
   },
   {
    "class_name": "Syndrome decoding",
-   "papers": "289.5",
+   "papers": "279.5",
    "research_years": "331.4",
    "nominal_hours": "662800.0",
    "adjusted_hours": "497400.0",
@@ -70,7 +70,7 @@
   },
   {
    "class_name": "Factoring / FF-DLP",
-   "papers": "849.1",
+   "papers": "827.1",
    "research_years": "1111.1",
    "nominal_hours": "2222200.0",
    "adjusted_hours": "1695000.0",
@@ -82,7 +82,7 @@
   },
   {
    "class_name": "Isogenies",
-   "papers": "80.4",
+   "papers": "76.4",
    "research_years": "116.6",
    "nominal_hours": "233200.0",
    "adjusted_hours": "170400.0",
@@ -94,7 +94,7 @@
   },
   {
    "class_name": "Multivariate",
-   "papers": "174.7",
+   "papers": "166.7",
    "research_years": "210.2",
    "nominal_hours": "420400.0",
    "adjusted_hours": "299400.0",
@@ -358,9 +358,9 @@
   "sidh": null
  },
  "source_sha256": {
-  "analysis/phase1_counts.txt": "5cd0d6eb2731bf52fab96952ff2d9978703ce09e46ff5556d534e11d07d47289",
+  "analysis/phase1_counts.txt": "9050c7dc253ed7820f22dc2fe6f90fcc429148889e8d61dd4378f5617638c0b1",
   "data/authors/fte_by_year.csv": "27bd71411466472d3b51fb614567ba9305b3ff3b2898abff8ae73c715203c98e",
-  "data/export/combined_included.csv": "fe922073acc948ac3e9e79f5ee75538233deaac5c1b91e79cbafb574a525fb5f",
+  "data/export/combined_included.csv": "4935d5ea9cd90828daa0ee8f709e33214ad931d2215c790afc9361862e9ca967",
   "data/ai_effort/ai_results.yaml": "dd3538effe37caa75f26cfec8d243a158cecef7eea8e53cbb6838cb8f29e5a51",
   "data/ai_effort/calib/2to1/labeled_final.jsonl": "9076ee82d313614b8d62a8d0ec457583a69f0c90c74e1f452b74dbc9c28b8b9b",
   "data/ai_effort/calib/UGC/labeled_final.jsonl": "9837f198d50473d143b3f1ea724353c25a89310132cfab8f4450be226ef7f1ec",

@@ -2,7 +2,7 @@
 
 This repository adds one assumption class, **Symmetric** (cryptanalysis of block ciphers, stream ciphers, hash functions, MACs, and permutations), to the study as Matthew Green published it. This note records every change to the study's code, data, and method, so its authors and anyone else can see what differs, check it, reproduce it, or vary it.
 
-- **Baseline:** commit `172f562`, the public export from the study's private repository at `90e638c`.
+- **Baseline:** commit `172f562`, the public export from the study's private repository at `90e638c`; the study's main is merged in up to `627e384` (change 20).
 - **Class definitions, fixed before measurement:** `notes/symmetric_preregistration.md` (commit `a565658`, 2026-10-10).
 - **Every code change:** `git diff 172f562 -- pipeline analysis`.
 - **Published at:** https://github.com/johnservil/bits-of-work-repo, branch `symmetric`; its `main` mirrors the study's.
@@ -61,9 +61,12 @@ Each entry gives the date, the change, the reason, and its effect on the public-
 
 19. **2026-10-10. Author map rerun with every class.** `pipeline/authors_dblp.py` match and stats on the 2026-10-10 DBLP dump (7,778 of 10,785 included items matched), `pipeline/authors_zbmath.py` (4,716 people in scope, 1,210 profiles accepted; every failed request recovered), then `analysis/author_map.py`, unchanged apart from the short name `Sym`. `data/authors/fte_by_year.csv` now comes from this one run over all classes, so the public-key series move from the published ones by 0.6–1.3% (fresher DBLP and zbMATH data); without the zbMATH step they move by 2–4%. Person-level tables stay out of git, and `analysis/author_map.txt` has its top-25 lists cut by `pipeline/export_public.py`'s own `transform`, as in the study's public export.
 
+20. **2026-10-10. Merged the study's main at `627e384`.** Its new version weights (preprints and duplicates of a counted work 0, journal extensions 1/3; `pipeline/build_version_weights.py`) now apply to the public-key rows of the export and the counts, and every public-key line of both counts files matches the study's `627e384` byte for byte. Symmetric rows carry weight 1: the weights rest on `data/venues/duplicate_checks.csv`, whose same-work groups cover the study's labels only. They lowered the study's all-source public-key paper counts by about 3–4% (ECDLP 465.2 to 448.4). Our `data/authors/fte_by_year.csv` predates the merge, so neither its public-key nor its symmetric series carry version weights, and its classes stay comparable with one another.
+
 ## Decisions still open
 
 - **Model versions.** The study recorded "Sonnet" and "Opus" without versions (its sessions used Opus 5.5 for other work). We use `anthropic/claude-sonnet-5.5` for pass 1 and `anthropic/claude-opus-5.5` for pass 2. Question for the study's authors: which versions did you use?
+- **Version weights for symmetric rows.** Building same-work groups for the symmetric labels, as `data/venues/duplicate_checks.csv` does for the study's, then rerunning the author map with version weights on every class.
 - **Website and white paper.** `pipeline/build_site_data.py` and `paper/generate_tables.py` list their classes by hand; adding Symmetric to them is the next step.
 
 ## How to check this work

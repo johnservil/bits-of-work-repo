@@ -169,6 +169,13 @@
       const clipId = fig.id + '-clip';
       svg.append('clipPath').attr('id', clipId).append('rect').attr('width', w).attr('height', h);
       const plot = g.append('g').attr('clip-path', `url(#${clipId})`);
+      // optional gray band over recent years whose values are known to be incomplete
+      if (cfg.shade) {
+        const sx = Math.max(0, x(cfg.shade.from - 0.5));
+        plot.append('rect').attr('class', 'shade').attr('x', sx).attr('y', 0).attr('width', Math.max(0, w - sx)).attr('height', h);
+        g.append('text').attr('class', 'shade-label').attr('text-anchor', 'end')
+          .attr('transform', `translate(${(sx + w) / 2 + 4},6) rotate(-90)`).text(cfg.shade.label);
+      }
       const line = d3.line().x((d, i) => x(yrs[i])).y(d => y(cfg.log ? Math.max(1, d) : d)).curve(d3.curveMonotoneX);
       if (cfg.area) {
         const area = d3.area().x((d, i) => x(yrs[i])).y0(h).y1(d => y(cfg.log ? Math.max(1, d) : d)).curve(d3.curveMonotoneX);
@@ -210,7 +217,8 @@
           const rows = vis.map(s => ({ s, v: s.v[i] })).sort((a, b) => b.v - a.v);
           dots.selectAll('circle').data(rows).join('circle').attr('class', 'dot-ring').attr('r', 4)
             .attr('cx', x(yr)).attr('cy', d => y(cfg.log ? Math.max(1, d.v) : d.v)).attr('fill', d => col(d.s.key));
-          tip.show(`<div class="t-head">${yr}</div>` + rows.map(r =>
+          const inc = cfg.shade && yr >= cfg.shade.from ? ' <span style="font-weight:400;color:var(--ink-3)">· likely incomplete</span>' : '';
+          tip.show(`<div class="t-head">${yr}${inc}</div>` + rows.map(r =>
             `<div class="row"><span class="sw" style="background:${col(r.s.key)}"></span>${r.s.label}<span class="val">${cfg.fmt(r.v)}</span></div>`).join(''),
             x(yr) + M.l, Math.min(h * 0.45, h - 60) + M.t);
         })
@@ -246,7 +254,9 @@
           const i = crossover(series[0].values, series[1].values);
           if (i > 0) note = { x: YEARS[i], y: series[0].values[i], text: `lattices pass ECDLP, ${YEARS[i]}` };
         }
-        return { from: 1978, series, yLabel: cum ? 'papers (cumulative)' : 'papers per year', fmt: cum ? fmt.n0 : fmt.n1, note };
+        // peer-reviewed counts lag: publication takes a year or more and DBLP indexes with a further delay
+        const shade = src() === 'peer' ? { from: 2025, label: 'likely incomplete' } : null;
+        return { from: 1978, series, yLabel: cum ? 'papers (cumulative)' : 'papers per year', fmt: cum ? fmt.n0 : fmt.n1, note, shade };
       },
     });
   })();
@@ -290,18 +300,19 @@
     const ec = D.fte.ecdlp.fte_cum[last];
     const row = (k, sub) => {
       const p = D.paper_totals.all[k], pv = D.paper_totals.vetted[k], f = D.fte[k].fte_cum[last];
+      const pr = D.paper_totals.peer ? D.paper_totals.peer[k] : NaN;
       const rate = sum(D.fte[k].fte.slice(rec)) / (last - rec + 1);
       const sw = sub ? '' : `<span class="sw" style="background:${col(k)}"></span>`;
-      return `<tr><td class="${sub ? 'sub' : ''}">${sw}${LABEL[k]}</td><td>${fmt.n1(p)}</td><td>${fmt.n1(pv)}</td><td>${fmt.n0(f)}</td><td>${fmt.n0(rate)}</td><td>${(f / ec).toFixed(2)}</td></tr>`;
+      return `<tr><td class="${sub ? 'sub' : ''}">${sw}${LABEL[k]}</td><td>${fmt.n1(p)}</td><td>${fmt.n1(pv)}</td><td>${Number.isFinite(pr) ? fmt.n1(pr) : '&ndash;'}</td><td>${fmt.n0(f)}</td><td>${fmt.n0(rate)}</td><td>${(f / ec).toFixed(2)}</td></tr>`;
     };
-    t.innerHTML = `<thead><tr><th></th><th colspan="2" style="text-align:center">Research items</th><th colspan="3" style="text-align:center">Estimated allocation years</th></tr>
-      <tr><th>Class</th><th>all</th><th>ePrint/DBLP</th><th>cumulative</th><th>per yr, 2022&ndash;26</th><th>&divide; ECDLP</th></tr></thead><tbody>` +
+    t.innerHTML = `<thead><tr><th></th><th colspan="3" style="text-align:center">Research items</th><th colspan="3" style="text-align:center">Estimated allocation years</th></tr>
+      <tr><th>Class</th><th>all</th><th>ePrint/DBLP</th><th>peer-reviewed</th><th>cumulative</th><th>per yr, 2022&ndash;26</th><th>&divide; ECDLP</th></tr></thead><tbody>` +
       row('ecdlp') + row('lattice') + row('mlwe', true) + row('lwe', true) + row('code') +
-      `<tr class="midrule"><td colspan="6" style="padding:0"></td></tr>` + row('factoring') + row('isogeny') + row('mq') + '</tbody>';
+      `<tr class="midrule"><td colspan="7" style="padding:0"></td></tr>` + row('factoring') + row('isogeny') + row('mq') + '</tbody>';
     const kp = document.querySelector('[data-kf="ratio"]');
     if (kp) kp.firstChild.textContent = (D.fte.lattice.fte_cum[last] / ec).toFixed(1);
     const paperCount = document.querySelector('[data-kf="papers"]');
-    if (paperCount) paperCount.textContent = fmt.n0(D.corpus_counts.effort_items);
+    if (paperCount) paperCount.textContent = fmt.n0(D.corpus_counts.effort_works ?? D.corpus_counts.effort_items);
   })();
 
   // ---------- Figure: frontier gaps ----------
