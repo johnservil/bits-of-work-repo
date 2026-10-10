@@ -34,10 +34,13 @@ Each entry gives the date, the change, the reason, and its effect on the public-
 11. **2026-10-10. ePrint pass 2.** `make_pass2.py` unchanged (seed 20261008, 10% audit of exclusions, abstract cap 1,500), `anthropic/claude-opus-5.5`: 2,145 yes/borderline items plus 87 sampled exclusions, 38 batches; passes 1 and 2 together cost $20.47. `merge_pass2.py`: include kappa 0.83, category agreement 0.94, 0 of 87 audited exclusions flipped (the study: 0.84-0.89, 0.92, 1.1%). As in the study, pass 2 sees the pass-1 label. Manifest `data/symmetric/eprint_p2_manifest.json`, labels `data/symmetric/eprint_p2/`, statistics `data/symmetric/eprint_agreement.txt`.
 12. **2026-10-10. Runner retries truncated responses.** A response cut off mid-read (`http.client.IncompleteRead`) stopped the first pass-2 run after 28 of 38 batches; `classify_openrouter.py` now retries `http.client.HTTPException` like other network errors, and the rerun finished the remaining 10.
 
+13. **2026-10-10. One screen and one merge for both tracks.** `candidates.py` and `merge_sources.py` take an optional class argument, like the harvesters. Without it they behave exactly as the study's code did, ignoring symmetric hits (`candidates.py` output matches the baseline code byte for byte on the new ePrint harvest). With `symmetric` they keep symmetric candidates only. Symmetric runs also take ePrint coverage and snowball seeds from `data/raw/symmetric/eprint_labeled_final.jsonl`, and write to `data/raw/symmetric/candidates_merged.jsonl`, `data/raw/openalex/seeds_symmetric*.jsonl` and `data/symmetric/coverage.txt`; the committed study files stay untouched. The symmetric pool is untiered, since every symmetric hit is tier A under the study's rule.
+14. **2026-10-10. Merge and round 1.** OpenAlex DOI lookups (39,555 DOIs of core-venue DBLP items lacking abstracts, 39,292 works returned), then `merge_sources.py symmetric`: 9,429 screened symmetric items, 1,285 covered by the ePrint pool, 8,144 new (5,473 with abstracts). Pass 1 on the 8,144 started (`data/symmetric/r1_p1/`). Snowball: 1,428 resolved seeds plus 556 by title, then backward and forward (cap 400 citers per seed), as in `run_openalex_chain.sh`.
+
 ## Decisions still open
 
 - **Model versions.** The study recorded "Sonnet" and "Opus" without versions (its sessions used Opus 5.5 for other work). We use `anthropic/claude-sonnet-5.5` for pass 1 and `anthropic/claude-opus-5.5` for pass 2. Question for the study's authors: which versions did you use?
-- **Pool and tiering.** Merging all sources, one snowball round, and whether the larger DBLP pool needs the study's tiering.
+- **Snowball round.** Classifying the snowball's new candidates, then counts and research-allocation years.
 
 ## How to check this work
 

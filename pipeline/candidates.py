@@ -3,11 +3,15 @@
 
 Emits data/candidates.jsonl with per-class hit lists. Patterns are
 deliberately broad; precision comes from the classifier stage.
+
+Usage: candidates.py [IN] [OUT] [CLASS]. Without CLASS: the study's public-key
+classes, ignoring symmetric hits. CLASS=symmetric: symmetric candidates only.
 """
 import json, re, sys, collections
 
 IN = sys.argv[1] if len(sys.argv) > 1 else "data/eprint.jsonl"
 OUT = sys.argv[2] if len(sys.argv) > 2 else "data/candidates.jsonl"
+ONLY = sys.argv[3] if len(sys.argv) > 3 else None
 
 # Each class: list of (pattern, label). A record is a candidate for a class
 # if any pattern matches title or abstract (case-insensitive).
@@ -117,6 +121,9 @@ with open(IN) as f, open(OUT, "w") as out:
         if not hits: continue
         # dlog generic alone is too weak to make an ECDLP candidate; symmetric hits do not rescue it
         if hits.get("ecdlp") == ["dlog generic"] and set(hits) <= {"ecdlp", "symmetric"}: del hits["ecdlp"]
+        if ONLY:
+            if ONLY not in hits: continue
+        else: hits.pop("symmetric", None)
         if not hits: continue
         r["kw_hits"] = hits
         r["excl_hints"] = sorted(set(m.group(0).lower() for m in EXCL.finditer(text)))
