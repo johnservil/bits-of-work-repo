@@ -25,7 +25,7 @@ ep_titles = {}
 for eid, r in ep.items(): ep_titles.setdefault(norm(r["title"]), eid)
 
 # core venues whose papers we enrich with abstracts even when the title alone does not hit
-CORE = re.compile(r"^(CRYPTO|EUROCRYPT|ASIACRYPT|PKC|Public Key Cryptography|TCC|CHES|PQCrypto|SAC|Selected Areas in Cryptography|ANTS|"
+CORE = re.compile(r"^(CRYPTO|FSE|Fast Software Encryption|EUROCRYPT|ASIACRYPT|PKC|Public Key Cryptography|TCC|CHES|PQCrypto|SAC|Selected Areas in Cryptography|ANTS|"
                   r"J\. Cryptol|Des\. Codes Cryptogr|Math\. Comput|LMS J\. Comput\. Math|Adv\. Math\. Commun|IACR Trans|IACR Commun|CT-RSA|"
                   r"INDOCRYPT|AFRICACRYPT|LATINCRYPT|ACISP|Math\. Cryptol|J\. Math\. Cryptol|Cryptogr\. Commun|WCC|IMACC|Algorithmic Number Theory)", re.I)
 
@@ -115,7 +115,7 @@ for k, r in items.items():
     text = (r["title"] or "") + " \n " + (r.get("abstract") or "")
     hits = {c: [lab for rx, lab in pats if rx.search(text)] for c, pats in PC.items()}
     hits = {c: v for c, v in hits.items() if v}
-    if hits.get("ecdlp") == ["dlog generic"] and len(hits) == 1: hits = {}
+    if hits.get("ecdlp") == ["dlog generic"] and set(hits) <= {"ecdlp", "symmetric"}: del hits["ecdlp"]
     if not hits: continue
     srcs = "|".join(sorted(s.split("_")[0] for s in r["sources"]))
     for c in hits: cov_cls[c][srcs] += 1
