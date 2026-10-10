@@ -14,7 +14,7 @@
 <header class="topbar" id="topbar"><div class="topbar-inner">
   <a class="brand" href="index.html"><span class="glyph">&epsilon;</span><span class="sc">Cryptanalytic Effort</span></a>
   <nav class="topnav" id="topnav" aria-label="Sections">
-    <a href="#corpus">Corpus</a><a href="#labor">Time</a><a href="#budgets">AI</a><a href="#limitations">Open issues</a><a href="bibliography.html">Bibliography</a>
+    <a href="#corpus">Corpus</a><a href="#labor">Time</a><a href="#budgets">AI</a><a href="#limitations">Open issues</a><a href="people.html">Researchers</a><a href="bibliography.html">Bibliography</a>
   </nav>
   <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
@@ -340,6 +340,82 @@
   <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/data/authors/fte_by_year.csv">annual and cumulative export</a>,
   person-level table (not published, to protect individual researchers' privacy),
   <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/pipeline/authors_enrich.py">career-stage acquisition</a>.</p>
+</section>
+
+<section class="section" id="classified" data-short="Classified effort">
+<h2>Why classified effort is an unknown multiplier</h2>
+<p>The main page writes total effort as \((1+k_X)\) times public effort and leaves \(k_X\) unspecified. A natural
+  question is whether \(k_X\), or at least the classified headcount behind it, could be estimated from public
+  government budget documents. This section records the attempt for the NSA, the agency with the most public
+  paper trail. The answer is a bounded headcount for one budget line, dated 2012, not a count of cryptanalysts and
+  not an allocation by assumption class. Other states' signals-intelligence services have no comparable
+  documentation at all.</p>
+<h3>What official documents contain</h3>
+<p>The National Intelligence Program and the Military Intelligence Program are disclosed only as annual totals.
+  The Consolidated Cryptologic Program, its expenditure centers and its personnel tables are classified. The single
+  unclassified NSA budget line in the Department of Defense justification books is the Information Systems Security
+  Program, which funds the defensive mission and carries no breakdown by discipline. The Office of Personnel
+  Management's workforce statistics exclude the NSA and the other intelligence agencies, so the civilian series
+  that would count job series 1520 (mathematician) does not exist for it. The agency's statements to Congress call
+  it, in hedged language, the largest employer of mathematicians in the country, without a number.</p>
+<p>Two official non-budget series are usable. The NSF survey of federally funded research and development centers
+  reports annual R&amp;D expenditure for the Center for Communications and Computing, the IDA centers that work on
+  cryptologic mathematics under NSA contract. The series is complete from FY2001 and is the only official,
+  recurring dollar figure attached to classified mathematical research.</p>
+<div class="tablewrap"><div class="tcap">Center for Communications and Computing, total R&amp;D expenditures (NSF FFRDC survey, Table 7, millions of dollars).</div>
+<table class="booktabs"><thead><tr><th>FY2001</th><th>FY2005</th><th>FY2011</th><th>FY2013</th><th>FY2019</th><th>FY2023</th><th>FY2025</th></tr></thead><tbody>
+<tr><td>43.1</td><td>50.8</td><td>72.6</td><td>51.5</td><td>68.4</td><td>77.4</td><td>89.0</td></tr>
+</tbody></table></div>
+<p>The second is the AMS Annual Survey, which counts new mathematical-sciences doctorates reporting government
+  employment: on the order of tens per year across all federal employers, with 70&ndash;88 reported in the
+  departmental surveys of the mid-2010s and smaller counts in the later response-based tables. Since the NSA is the
+  dominant federal employer of mathematics PhDs, this bounds its PhD intake from above and is consistent with the
+  agency's own statement of about fifty mathematician hires a year (around 2003) and an AMS estimate of
+  30&ndash;40 (2013). Inspector-general reports and Congressional testimony occasionally give agency-wide totals or
+  reductions, never a split by discipline. Job postings list cryptanalysis as one of about eight work areas of the
+  mathematics research organization, which is the only public evidence on the cryptanalytic share.</p>
+<h3>What the leaked FY2013 justification adds</h3>
+<p>The FY2013 Congressional Budget Justification for the National Intelligence Program, published in part in 2013,
+  is the sole document that places dollar lines next to people. The figures below were checked against the
+  document text.</p>
+<div class="tablewrap"><div class="tcap">Lines from the FY2013 justification (millions of dollars; FTE as stated).</div>
+<table class="booktabs"><thead><tr><th>Item</th><th>FY2011</th><th>FY2012</th><th>FY2013 request</th></tr></thead><tbody>
+<tr><td>Research &amp; Technology: Cryptologic Math &amp; IDA Research</td><td>146.4</td><td>128.5</td><td>119.3</td></tr>
+<tr><td>Cryptanalysis &amp; Exploitation Services, total</td><td>913.0</td><td>897.2</td><td>1,003.2</td></tr>
+<tr><td>of which Cryptanalytic IT Systems</td><td>130.0</td><td>136.8</td><td>247.1</td></tr>
+<tr><td>of which Analysis of Target Systems</td><td>39.4 (240 civilian FTE)</td><td>35.1</td><td>34.3</td></tr>
+<tr><td>Consolidated Cryptologic Program personnel</td><td>34,367</td><td>35,083</td><td>34,901 (NSA 21,575)</td></tr>
+</tbody></table></div>
+<p>The project with the headcount, Analysis of Target Systems, is the one whose task description names public-key
+  systems. Its 240 staff on $39M imply about $164,000 per person all-in, which is a project-level cost structure
+  and should not be scaled to the whole expenditure center, most of which is hardware and IT.</p>
+<h3>Conversions and their failure modes</h3>
+<p>Two conversions turn these documents into a stock of people, and both are weak. The first divides a dollar line
+  by an assumed loaded cost per full-time employee. At $300,000&ndash;400,000, the mathematics research line gives
+  roughly 300&ndash;490 staff. The IDA series calibrates this conversion: its FY2013 expenditure converts to
+  130&ndash;170 people, while IDA describes the centers' research staff as more than 70 PhD mathematicians and
+  computer scientists. Research expenditure includes computing, facilities and support staff, so dollar conversions
+  overstate research headcount by about a factor of two. The second conversion multiplies an intake flow by a career
+  length: 30&ndash;50 hires a year over 25&ndash;30 years gives 750&ndash;1,500 mathematicians across the agency,
+  which assumes steady hiring and attrition and counts every discipline area, not cryptanalysis. The two anonymous
+  figures in circulation, about 600 (1999) and about 1,000 (undated), have no traceable primary source.</p>
+<h3>What cannot be recovered</h3>
+<p>No public document gives the share of mathematical staff working on cryptanalysis, the share of cryptanalysis
+  directed at public-key assumptions rather than symmetric systems, implementations, protocols or the agency's own
+  designs, or the allocation across assumption classes. The budget snapshot is from 2012; the only later
+  agency-wide signal is a reported workforce reduction of about 2,000 positions in 2025. Contractors outside the IDA
+  centers and allied services are unobserved. Each missing factor multiplies the range, so a point estimate of
+  classified public-key effort, or a comparison of it with the public totals on this site, would rest on
+  assumptions rather than documents. The repository contains a low/mid/high scenario model built on these inputs; it
+  is retained as a sensitivity exercise and is not used on the main page, where \(k_X\) stays unspecified.</p>
+<p class="method-source">Inspect:
+  <a href="https://irp.fas.org/dni/cbjb-2013.pdf">FY2013 budget justification (leaked, partial)</a>,
+  <a href="https://theintercept.com/document/black-budget-cryptanalysis-exploitation-services-analysis-target-systems">Analysis of Target Systems project exhibit</a>,
+  <a href="https://ncses.nsf.gov/pubs/nsf26323/assets/data-tables/tables/nsf26323-tab007.pdf">NSF FFRDC survey, Table 7</a>,
+  <a href="https://www.gao.gov/products/gao-22-105278">GAO on the IDA contract</a>,
+  <a href="https://www.ams.org/2016Survey-NewDoctorates-Report.pdf">AMS 2016 new-doctorates report</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/notes/classified_headcount_evidence.md">evidence log with source tags</a>,
+  <a href="https://github.com/matthewdgreen/bits-of-work-repo/blob/snapshot-2525642/analysis/classified_scenarios.py">scenario model</a>.</p>
 </section>
 
 <section class="section" id="problems" data-short="Problem samples">

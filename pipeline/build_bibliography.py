@@ -345,7 +345,7 @@ def build_page(entries, generated):
 <header class="topbar" id="topbar"><div class="topbar-inner">
   <a class="brand" href="index.html"><span class="glyph">&epsilon;</span><span class="sc">Cryptanalytic Effort</span></a>
   <nav class="topnav" id="topnav" aria-label="Pages">
-    <a href="index.html">Summary</a><a href="methodology.html">Methodology</a><a href="bibliography.html" class="active">Bibliography</a>
+    <a href="index.html">Summary</a><a href="methodology.html">Methodology</a><a href="people.html">Researchers</a><a href="bibliography.html" class="active">Bibliography</a>
   </nav>
   <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Researchers — Cryptanalytic Effort</title>
+<meta name="description" content="Explore who wrote the counted cryptanalysis, by assumption class and period: the head and the tail of each field.">
+<meta name="color-scheme" content="light dark">
+<script>try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="people">
+<header class="topbar" id="topbar"><div class="topbar-inner">
+  <a class="brand" href="index.html"><span class="glyph">&epsilon;</span><span class="sc">Cryptanalytic Effort</span></a>
+  <nav class="topnav" id="topnav" aria-label="Pages">
+    <a href="index.html">Summary</a><a href="methodology.html">Methodology</a><a href="people.html" class="active">Researchers</a><a href="bibliography.html">Bibliography</a>
+  </nav>
+  <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+  </button>
+</div></header>
+
+<div id="top" class="titlepage">
+  <div class="kicker">researcher explorer &middot; data as of <span data-generated></span></div>
+  <h1 class="title">Who did the <em>looking</em>?</h1>
+  <p class="subtitle">Counted cryptanalysis by author, field and period: the few who wrote the most, and the many who wrote one paper</p>
+</div>
+
+<section class="ppl-intro">
+  <!-- CONTENT: replace with final prose -->
+  <p><strong>This is a very early work in progress, and errors are still being addressed.</strong>
+    Each counted paper gives its authors equal shares of its class weight, after counting each work once (a preprint
+    of a counted paper adds nothing; a journal extension adds one third). These <em>paper credits</em> add up to the
+    paper counts on the <a href="index.html#literature">summary page</a>. The <em>papers</em> view instead gives every
+    author the paper's whole class weight. Both measure published output only. They do not measure time spent, the
+    importance of a paper, or work that was never published.</p>
+  <div class="caveat"><p><strong>Identities have not been checked by a person.</strong> Authors were matched to DBLP
+    person records where possible. Name strings that differ from exactly one DBLP person only in dashes, name order
+    or a homonym number are merged into that person here. The remaining unmatched strings (marked&nbsp;&dagger;) stay
+    separate, and a failed match can still split one person into two or merge two people into one. To limit the effect of these errors on
+    individuals, two kinds of identity are never named or ranked here: people with fewer than
+    <span data-named-min>3</span> counted papers, and <span data-ambiguous>12</span> identities on ambiguous names. The
+    second group is common Chinese names where DBLP has not yet assigned papers to a specific person (its
+    unnumbered &ldquo;disambiguation&rdquo; profiles and very large catch-all profiles), or where we matched only the
+    spelling. Both groups still count toward totals, contributor counts and the &ldquo;everyone else&rdquo; row. Each
+    profile says how many of its papers were matched to the person by name alone. 2026 is a partial year.</p></div>
+</section>
+
+<section class="ppl-tools" aria-label="Choose field and measure">
+  <div class="row chips" id="fields" role="group" aria-label="Field"></div>
+  <div class="row">
+    <div class="seg" data-ctl="metric" role="group" aria-label="Measure"><button data-v="credit" aria-pressed="true">paper credit</button><button data-v="papers">papers</button></div>
+    <input type="search" id="who" list="who-list" placeholder="Find a researcher" aria-label="Find a researcher" autocomplete="off">
+    <datalist id="who-list"></datalist>
+  </div>
+</section>
+
+<main class="ppl-main">
+  <figure class="fig" id="fig-window">
+    <div class="fig-head">
+      <div class="fig-title">Output per year <span class="fig-sub" id="win-label"></span></div>
+      <button class="linkbtn" id="win-all">all years</button>
+    </div>
+    <div class="chart"></div>
+    <figcaption>Paper credit per year in the selected field. Drag across the chart to choose a period; the
+      rankings, figures and numbers below use only papers from that period.</figcaption>
+  </figure>
+
+  <div class="ppl-stats" id="stats" aria-live="polite"></div>
+
+  <figure class="fig" id="fig-heat">
+    <div class="fig-head">
+      <div class="fig-title">Top contributors, year by year</div>
+      <div class="seg" data-ctl="rows" aria-label="Rows"><button data-v="15">15</button><button data-v="30" aria-pressed="true">30</button><button data-v="60">60</button></div>
+      <div class="seg" data-ctl="sort" aria-label="Order"><button data-v="total" aria-pressed="true">by output</button><button data-v="time">by period</button></div>
+    </div>
+    <div class="chart"></div>
+    <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
+    <figcaption>The most productive named people in the selected period. Each row is one person and each cell one
+      year; darker cells mean more output. Years outside the period are faded, so you can see what each person did
+      before and after it. The bar at the right is the person's total in the period. <em>By period</em> orders
+      rows by the average year of each person's work in this field, which shows one generation handing over to the
+      next. The last row combines everyone else, including people with too few papers to be named, and uses its own
+      shading scale. Click a name for that person's profile.</figcaption>
+  </figure>
+
+  <section class="profile" id="profile" hidden aria-live="polite"></section>
+
+  <figure class="fig" id="fig-net">
+    <div class="fig-head">
+      <div class="fig-title">Who works with whom</div>
+    </div>
+    <div class="chart"></div>
+    <div class="net-key" id="net-key"></div>
+    <div class="groups" id="groups"></div>
+    <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
+    <figcaption>The same top contributors as the figure above (set the number with its rows control). A line joins
+      two people who co-wrote a paper in this field during the period, thicker for more shared papers; circle area is
+      the person's paper credit in the period. A <em>group</em> is everyone connected by a chain of co-authored papers
+      in this field and period, including people not named here, so two people can share a group without a direct
+      line. Filled circles in the field colour belong to the period's largest group; open circles had no co-author in
+      this field and period. Hover to see a person's links; click to open their profile.</figcaption>
+  </figure>
+
+  <figure class="fig" id="fig-conc">
+    <div class="fig-head">
+      <div class="fig-title">How concentrated is the field?</div>
+    </div>
+    <div class="chart"></div>
+    <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
+    <figcaption>Share of each five-year window's paper credit held by its 10 largest contributors, the next 40, and
+      everyone else, plotted at the window's middle year. Each window is ranked separately, so the people in the
+      top 10 change over time. Uses paper credit in both views, and includes people who are not named on this page. Years
+      whose window has less than three papers' credit are omitted; the last two years have shorter windows.</figcaption>
+  </figure>
+
+  <figure class="fig" id="fig-conn">
+    <div class="fig-head">
+      <div class="fig-title">How connected is each field?</div>
+      <div class="seg" data-ctl="conn" aria-label="Measure"><button data-v="eff" aria-pressed="true">effective groups</button><button data-v="big">largest group</button></div>
+    </div>
+    <div class="chart"></div>
+    <div class="fig-foot"><button data-table>show data</button><button data-png>save svg</button></div>
+    <figcaption>Co-author groups in each five-year window, plotted at its middle year, for every field (the selected
+      field is drawn heavier). <em>Effective groups</em> is 1&thinsp;/&thinsp;&sum;&thinsp;<i>s</i><sub><i>i</i></sub><sup>2</sup>, where <i>s</i><sub><i>i</i></sub> is group
+      <i>i</i>'s share of the window's paper credit: ten equal groups give 10, and one group holding everything gives 1.
+      <em>Largest group</em> is the share of paper credit held by the best-connected group. Both
+      count only co-authorship on papers in the field and window, so a single paper with many authors can join two
+      groups; read single-year jumps with care. Windows with fewer than eight papers are omitted. The last point is
+      the window 2022&ndash;2026, which includes the partial year 2026.</figcaption>
+  </figure>
+</main>
+
+<footer class="colophon">
+  Generated by <span class="tt">pipeline/build_people_data.py</span> from the author map and the current labels &middot; <span data-generated></span><br>
+  <span class="tt">\end{document}</span>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" defer></script>
+<script src="assets/people-data.js" defer></script>
+<script src="assets/site.js" defer></script>
+<script src="assets/people.js" defer></script>
+</body>
+</html>

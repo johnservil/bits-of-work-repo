@@ -534,3 +534,53 @@ ol.bib > li:target { background: var(--accent-wash); }
 .colist li { display: flex; justify-content: space-between; gap: .5rem; padding: .18rem 0; border-bottom: 1px solid var(--hair); }
 .colist .n { font-family: var(--mono); font-size: .85em; color: var(--ink-3); }
 .colist .bibbtn { text-align: left; }
+
+/* co-author views (people.html) */
+.nlink { stroke: var(--ink-3); stroke-opacity: .55; stroke-linecap: round; }
+.nlink.side { stroke-dasharray: 2 3; stroke-opacity: .45; }
+.nlink.hi { stroke: var(--ink); stroke-opacity: .9; }
+.nlink.dim, .nnode.dim { opacity: .14; }
+.nnode { cursor: pointer; outline: none; }
+.nnode circle { stroke: var(--paper); stroke-width: 1.2; }
+.nnode circle.big { fill-opacity: .9; }
+.nnode circle.other { fill: var(--ink-3); }
+.nnode circle.solo { fill: var(--paper); stroke: var(--ink-3); stroke-width: 1.3; }
+.nnode.sel circle, .nnode:focus circle { stroke: var(--accent); stroke-width: 2.5; }
+.nnode.center { cursor: default; }
+.nnode.center circle { stroke: var(--ink); stroke-width: 1.5; }
+.nnode.anon { cursor: default; }
+.nnode.anon circle { fill: var(--paper) !important; stroke: var(--ink-3); stroke-dasharray: 2 2; }
+.nlabel { font-family: var(--serif); font-size: 11.5px; fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 3.5px; stroke-linejoin: round; pointer-events: none; }
+.nnode:hover .nlabel { fill: var(--accent); }
+.net-key { display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; font-size: .8rem; color: var(--ink-2); margin: .5rem 0 0; }
+.net-key span { display: inline-flex; align-items: center; gap: .4rem; }
+.net-key i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.net-key .k-other { background: var(--ink-3); }
+.net-key .k-solo { border: 1.3px solid var(--ink-3); }
+.groups { margin-top: 1rem; }
+.groups-sum { font-size: .88rem; color: var(--ink-2); text-align: left; text-indent: 0 !important; margin: 0 0 .6rem !important; }
+.groups-sum strong { color: var(--ink); font-weight: 400; font-family: var(--mono); }
+table.gtab { width: 100%; font-size: .85rem; }
+table.gtab td.gm { white-space: normal; text-align: left; line-height: 1.45; }
+table.gtab th:last-child { text-align: left; }
+table.gtab .muted { color: var(--ink-3); }
+.series-line.focus { stroke-width: 2.6; }
+.series-line.faint { stroke-width: 1.4; opacity: .38; }
+.tip .row.strong { font-weight: 700; }
+.ego-head { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin: .4rem 0 .2rem; }
+.ego-head h3.caps { margin: 0 auto 0 0; }
+.ego-chart { margin-bottom: 1rem; }
+.ego-chart svg { border: 1px solid var(--hair); }
+.seg button:disabled { opacity: .4; cursor: default; }
+.nlabel.muted { fill: var(--ink-3); font-style: italic; }
+
+/* link card to the researcher explorer (index.html, section 3) */
+.explore-link {
+  display: grid; grid-template-columns: 1fr auto; align-items: center; gap: .15rem 1rem;
+  margin: 1.2rem 0 .5rem; padding: .85rem 1.1rem; border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+  border-radius: 2px; color: var(--ink); background: var(--paper);
+}
+.explore-link:hover { text-decoration: none; background: var(--accent-wash); border-color: var(--accent); }
+.explore-link .caps { color: var(--accent); grid-column: 1; }
+.explore-link .t { grid-column: 1; font-size: .95rem; }
+.explore-link .arrow { grid-column: 2; grid-row: 1 / span 2; font-size: 1.4rem; color: var(--accent); }

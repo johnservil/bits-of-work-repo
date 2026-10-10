@@ -28,6 +28,7 @@
       <a href="#classified"><span class="num">6</span>Classified</a>
       <a href="#ai"><span class="num">7</span>AI</a>
       <a href="#method"><span class="num">8</span>Method</a>
+      <a href="people.html">Researchers</a>
       <a href="bibliography.html">Bibliography</a>
     </nav>
     <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
@@ -187,6 +188,18 @@
     <figcaption>Cumulative allocation estimates, displayed from 1980; earlier contributions remain in the totals.
       Hover for values; the marker shows where lattices pass ECDLP in the selected model.</figcaption>
   </figure>
+
+  <h3>Individual researchers</h3>
+  <p>
+    <!-- CONTENT -->
+    A separate page breaks the published output down by person: who contributed most to each assumption class
+    in any period, how concentrated each field is, and how its researchers are connected through co-authorship.
+  </p>
+  <a class="explore-link" href="people.html">
+    <span class="caps">Researcher explorer</span>
+    <span class="t">Top contributors, concentration and co-author networks by field and period</span>
+    <span class="arrow" aria-hidden="true">&rarr;</span>
+  </a>
 </section>
 
 <!-- ================================================================ 4 -->
@@ -279,6 +292,18 @@
   <div class="remark"><p>We do not know whether this multiplier is similar across classes. Comparisons of the visible
     literature remain comparisons of public work; extending them to total effort requires additional assumptions.
     Missing work does not make our publication-based time estimates lower bounds: those estimates may themselves be too high.</p></div>
+  <p><span class="sc">Why \(k_X\) is not estimated.</span> One might hope to read classified headcount off public
+    government budget documents, taking the NSA as the best-documented case. Official documents do not allow it. The
+    National Intelligence Program is published only as a topline; every NSA line beneath it is classified, the one
+    unclassified NSA budget line covers the defensive mission, and the agency is excluded from the federal workforce
+    statistics that would otherwise count its mathematicians. The leaked FY2013 budget justification is the only
+    document that pairs a dollar line with people: “Cryptologic Math &amp; IDA Research” at $119&ndash;146M a year, and
+    one cryptanalysis project with 240 civilian staff on $39M. Dividing the research line by a plausible loaded cost
+    gives roughly 300&ndash;500 full-time staff, uncertain by a factor of two, for a budget line rather than for
+    cryptanalysts, as of 2012, with no split by assumption class. An official series does exist for the IDA
+    cryptologic centers that work under NSA contract, and it suggests that such dollar conversions overstate research
+    staff by about a factor of two. The <a href="methodology.html#classified">methodology page</a> lists the sources and
+    what each can and cannot bound.</p>
 </section>
 
 <!-- ================================================================ 6 -->
