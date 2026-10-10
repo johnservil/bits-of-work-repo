@@ -2,12 +2,15 @@
 """Export the combined included set (Phase 0 ePrint + Phase 1) to
 data/export/combined_included.csv (yes + borderline), one row per item, with
 headline-class attribution (fractional weights) and provenance columns.
+Includes the symmetric extension's labels (pipeline/symmetric_labels.py).
 """
-import json, csv, os
+import json, csv, os, sys
+sys.path.insert(0, "pipeline")
+from symmetric_labels import join
 EXCL = set(json.load(open('data/manual_exclusions.json'))['items'])
 POL = json.load(open("pipeline/attribution.json")); FRAC = POL["fractional"]; CLASSES = POL["classes"]
 
-def rows():
+def study_rows():
     for l in open("data/labeled_final.jsonl"):
         r = json.loads(l); yield r["eprint_id"], "eprint", ["eprint"], r
     for l in open("data/phase1/labeled_final.jsonl"):
@@ -17,6 +20,14 @@ def rows():
     for l in open("data/phase1/round2/labeled_final.jsonl"):
         r = json.loads(l); s = r.get("sources", [])
         yield r["id"], ("eprint" if s == ["eprint"] else ("round2_tierB_sample" if r["id"] in tb else "round2_v2")), s, r
+
+def rows():
+    study = list(study_rows())
+    retagged, extra = join({rid: r for rid, _, _, r in study})
+    for rid, phase, srcs, r in study: yield rid, phase, srcs, retagged[rid]
+    for r in extra:
+        s = r.get("sources", [])
+        yield r["id"], ("eprint" if r["round"] == "eprint" else "symmetric_" + r["round"]), s, r
 
 os.makedirs("data/export", exist_ok=True)
 cols = ["id", "phase", "sources", "vetted", "year", "include", "category", "problem_tags", "layer", "params", "regime", "leakage",
